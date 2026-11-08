@@ -1,37 +1,50 @@
 # BSE3227 HVAC mini-design
 
-Work in progress. Sources: 01_Assignment_Brief; references: 02_References; drawings: 03_Design_Drawings; report: 04_Final_Report; shared data and scripts: 05_Calculations; tools: 06_Tools.
+## Current acceptance package — v06
 
-No design acceptance claimed until native DWG and visual PDF checks are complete.
+Prepared for user acceptance against the four tasks in the assignment brief.
 
-## Latest review artifacts
+- Editable AutoCAD drawing: [BSE3227_HVAC_Acceptance_v06.dwg](03_Design_Drawings/BSE3227_HVAC_Acceptance_v06.dwg)
+- A1 landscape plan, 1:100: [drawing PDF](03_Design_Drawings/BSE3227_HVAC_Acceptance_v06.pdf)
+- 15-page English report: [report PDF](04_Final_Report/BSE3227_Design_Acceptance_v06.pdf)
+- [Requirement-by-requirement evidence](04_Final_Report/ACCEPTANCE_CHECKLIST.md)
 
-Current drawing revision is **v05**, using the unchanged v04 calculation data:
-80 diffusers, 20 four-outlet VAV boxes, 49 rigid sections, maximum supply
-12000.4 L/s and minimum 4800.1 L/s. v05 moves the four lower upper-zone
-outlet annotations away from the horizontal duct and adjusts upper labels.
-The current report remains `04_Final_Report/BSE3227_Design_Review_v04.pdf`;
-its outstanding-native-reconciliation statement is superseded by the audits below.
+80 diffusers; 20 VAV boxes with four outlets each; 49 rigid duct sections.
+Course allowance 189 W/m2, SHF 0.9, printed area 1022 m2; total cooling
+193.158 kW; maximum/minimum supply 12000.4/4800.1 L/s. Maximum calculated
+flex length 2.607 m. Both flow conditions pass the adopted course ratio screen.
 
-`native_reconciliation_v05.json` records actual AutoCAD 2027 reopen/export
-comparison of all duct/flex endpoints, diffuser/VAV geometry, 49 section labels,
-independent geometric-node flow balance and all 3894 original model entities.
-The v05 upper-zone PDF detail was visually inspected after native plotting.
-v04 column clearance and friction-chart evidence still applies to unchanged geometry.
-Course-method ADPI qualifications remain; final report/package issue is outstanding.
-The optional marked-example browser review could not continue on 09 Nov because
-the previously available Chrome surface was unavailable. No new course requirements
-are inferred from that inaccessible example.
+The report explicitly records the difference between the lecturer's model-1400
+example and manufacturer pattern classification, and the table's load-band limit.
+Results are course-method checks, not independently certified ADPI. Room/supply
+temperatures and ceiling height are declared assumptions. Ceiling-grid coordination,
+beam levels and corridor fire protection remain design coordination notes; the
+assignment supply layout does not constitute a construction package or fan selection.
 
-### Historical artifacts (superseded)
+## Reproduction and evidence
 
-- `03_Design_Drawings/BSE3227_HVAC_Review_v02.dwg` and `.pdf`: native A1 review drawing, 30 section IDs and duct schedule; corrected ADPI warning.
-- `04_Final_Report/BSE3227_Design_Review_v01.pdf`: six-chapter English calculation review.
-- `05_Calculations/data/native_review_v02.json`: native reopen/count audit, airflow reconciliation and unchanged original-source hashes.
+Shared engineering data is `05_Calculations/data/*_v04.csv` and
+`design_basis_v04.json`. v05/v06 change drawing annotations and report content,
+not engineering values. With Python dependencies and AutoCAD 2027 installed:
 
-The drawing still uses v01 airflow and geometry and is now superseded in design
-basis by newly located Canvas Week 8 workshop guidance: 189 W/m2 total cooling,
-office sensible heat factor about 0.9, and the explicit course 1400 example
-using T0.25/L = 1.0-3.4. See `course_workshop_basis.json` for page locators,
-source URLs and technical qualifications. A full recalculation and revised
-layout are required; v01/v02 are not submission drawings.
+```powershell
+.venv/Scripts/python.exe 05_Calculations/scripts/build_design_v04.py
+.venv/Scripts/python.exe 05_Calculations/scripts/draw_acceptance_v06.py
+.venv/Scripts/python.exe 05_Calculations/scripts/reconcile_native_v06.py
+.venv/Scripts/python.exe 05_Calculations/scripts/verify_acceptance_v06.py
+.venv/Scripts/python.exe 05_Calculations/scripts/build_report_v06.py
+.venv/Scripts/python.exe 05_Calculations/scripts/audit_acceptance_v06.py
+```
+
+Native geometry reconciliation, source hashes, calculation audit and dated visual
+review evidence are in `05_Calculations/data/*v06.json`. Rerender and visually
+review PDFs after any regeneration; successful commands do not prove print quality.
+
+## Repository conventions
+
+Originals: `01_Assignment_Brief`; references and exact source register:
+`02_References`; drawings: `03_Design_Drawings`; report: `04_Final_Report`;
+versioned calculations/CAD copies: `05_Calculations`; reviewed tool licences:
+`06_Tools`. Date-prefixed Git commits follow the BSE3124 project convention.
+Original files remain unchanged. Earlier v01-v05 deliverables are retained history,
+not the current package. In particular, the provisional 120 W/m2 basis is superseded.
