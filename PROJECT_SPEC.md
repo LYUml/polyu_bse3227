@@ -1,0 +1,3 @@
+# BSE3227 HVAC mini-design
+
+Assignment brief takes precedence. Preserve source drawings and hashes. Use AutoCAD 2027 for native DWG verification; inspect plotted PDFs separately. Shared design data belongs in 05_Calculations/data. Verify units, geometry and a three-diffuser sample before mass placement. Record assumptions and exact source pages. Check maximum and 40% airflow, ADPI, 4-5 outlets per VAV, flexible routes <=5 m, duct velocity/friction/aspect ratio. Final deliverables: editable DWG, reviewed PDF and reproducible calculations. Date-prefixed Git commits; milestone pushes to the user repository.
