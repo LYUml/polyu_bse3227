@@ -1,0 +1,15 @@
+{
+  "source": "ASHRAE 2021 Fundamentals Chapter 21 Figure 9",
+  "url": "https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch21/figures/F21sf10.jpg",
+  "local_original": "02_References/ASHRAE_2021_Ch21_Fig09_Friction.jpg",
+  "review_date": "2026-11-09",
+  "method": "Visual reading of original chart at actual airflow and equivalent circular diameter; broad ranges reflect printed line thickness and interpolation between diameter curves. This is an independent graphical check, not exact digitisation.",
+  "version_note": "Workshop refers to 2013 Figure 10; the corresponding chart is Figure 9 in the downloaded 2021 chapter. Both state density 1.20 kg/m3 and roughness 0.09 mm.",
+  "points": [
+    {"section":"M01","Q_L_s":12000.4,"De_mm":1198.8,"chart_Pa_m_range":[0.65,0.9],"calculated_Pa_m":0.754},
+    {"section":"M04","Q_L_s":1769.7,"De_mm":588.7,"chart_Pa_m_range":[0.6,0.85],"calculated_Pa_m":0.701},
+    {"section":"B01","Q_L_s":603.7,"De_mm":382.6,"chart_Pa_m_range":[0.65,0.95],"calculated_Pa_m":0.795},
+    {"section":"B19A","Q_L_s":733.7,"De_mm":420.0,"chart_Pa_m_range":[0.6,0.85],"calculated_Pa_m":0.721}
+  ],
+  "result":"All four computed gradients are consistent with visual chart ranges. Exact sizing uses the independently validated correlation; chart precision alone is insufficient to certify an exact 0.8 Pa/m boundary."
+}

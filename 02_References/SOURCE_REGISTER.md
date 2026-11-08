@@ -40,7 +40,7 @@ course scope; official regulatory constraints are recorded separately.
 | ASHRAE Applications 2015 | Ch. 57, Tables 3–4 | Historical louvered category 35–160 W/m2; T0.25/L 1.0–3.4 for ADPI>80. Used as an explicitly provisional course screen pending model-pattern resolution |
 | ASHRAE Applications 2019 | Ch. 58, Tables 5–6A and qualifications | Updated low-load guidance, 25/50 W/m2; do not extrapolate to 90 W/m2 maximum load |
 | Liu, Clark & Novoselac (2017), supplied paper | Energy and Buildings 134, 271–284; abstract, methods, selection tables | Tests at 25/50 W/m2; does not specify this assignment's load or temperature inputs |
-| ASHRAE Fundamentals 2021 | Ch. 21, Figure 10, Eq. 25, Tables 12–13 | Standard-air friction-chart basis, rectangular equivalent diameter, velocity guidance and independent reference points |
+| ASHRAE Fundamentals 2021 | Ch. 21, Figure 9, Eq. 25, Tables 12–13 | Standard-air friction-chart basis, rectangular equivalent diameter, velocity guidance and independent reference points |
 | EMSD BEC 2024 | Table 6.4 (printed p.23); 6.7.2–6.7.5; 6.10.6.1–2; 6.11.1/Table 6.11c | Room design condition cross-check; VAV fan power; static-pressure reset; insulation. Fan power compliance cannot be proven without complete fan/system data |
 | FSD Circular 2/2023 | Section 3 introduction; 7.1–7.2 (printed pp.10–11); 9.2 (p.13) | Fire-compartment penetration protection; tested flexible duct; normal flex limit 4 m; protect services crossing protected areas |
 

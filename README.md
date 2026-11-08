@@ -6,15 +6,17 @@ No design acceptance claimed until native DWG and visual PDF checks are complete
 
 ## Latest review artifacts
 
-Current course-basis revision is **v03**: 80 diffusers, 20 four-outlet VAV
+Current course-basis revision is **v04**: 80 diffusers, 20 four-outlet VAV
 boxes, 49 rigid sections, maximum supply 12000.4 L/s and minimum 4800.1 L/s.
-The v03 DWG/PDF are in `03_Design_Drawings`; the matching 11-page report is
-`04_Final_Report/BSE3227_Design_Review_v03.pdf`. Both airflow conditions pass
+The v04 DWG/PDF are in `03_Design_Drawings`; the matching 12-page report is
+`04_Final_Report/BSE3227_Design_Review_v04.pdf`. Both airflow conditions pass
 the explicitly adopted workshop ratio screen. Manufacturer/table applicability
 qualifications remain recorded, not converted into a general compliance claim.
-Native counts and flow reconciliation are in `native_review_v03.json`.
-Final annotation coordination, obstacle review and friction-chart evidence
-remain outstanding. v01/v02 are superseded history.
+Native counts and flow reconciliation are in `native_review_v04.json`.
+v04 fixes an overlapping upper branch, clears the nine identified column
+footprints in plan, and includes original friction-chart cross-check evidence.
+Detailed native geometry/annotation reconciliation and final package issue
+remain outstanding. v01-v03 are superseded history.
 
 - `03_Design_Drawings/BSE3227_HVAC_Review_v02.dwg` and `.pdf`: native A1 review drawing, 30 section IDs and duct schedule; corrected ADPI warning.
 - `04_Final_Report/BSE3227_Design_Review_v01.pdf`: six-chapter English calculation review.
