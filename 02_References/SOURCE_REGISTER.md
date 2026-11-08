@@ -52,3 +52,24 @@ The 2019 round-diffuser ranges at 25 and 50 W/m2 are recorded separately for
 the 36 W/m2 minimum case; no exact ADPI percentage is inferred between rows.
 The preliminary drawing remains unsuitable for submission until this design
 issue is resolved.
+
+## Additional primary-source research, 2026-11-08
+
+- CIBSE Hong Kong, Francis Yik, *Fundamentals, Design & Control of ACMV*:
+  https://cibse.org.hk/image/catalog/PDF/ACMV-Fundamentals-Guide-Book-by-Francis-Yik.pdf
+  Downloaded as `CIBSE_HK_ACMV_Fundamentals_Yik.pdf`. Table 3.12, printed p.110,
+  provides typical Hong Kong office indoor design and internal-gain ranges.
+  These inputs are not a whole-building W/m2 cooling allowance and do not
+  establish the assignment's intended load. Envelope and ventilation loads
+  cannot be silently omitted or counted as room sensible loads.
+- Krueger, Dan Int-Hout, *ADPI, Comfort and LEED*, April 2010:
+  https://www.krueger-hvac.com/files/white%20papers/white_paper_adpi_comfort_leed.pdf
+  Downloaded as `Krueger_ADPI_Comfort_LEED.pdf`. Pages 4-6 discuss graphical
+  selection envelopes and include a 1400 example. This is historical engineering
+  guidance, not evidence of current LEED or regulatory compliance.
+- Local 2026/27 teaching scheme lists a Week 8 mini-design workshop (21/23
+  October). No workshop file appears in the current local course inventory.
+  The assignment explicitly requests rule-of-thumb cooling load but does not
+  state a numeric allowance. Available extracted lecture/tutorial text has
+  not yielded an assignment-specific allowance; some PDF font extraction
+  warnings prevent claiming a complete visual review of every course page.
