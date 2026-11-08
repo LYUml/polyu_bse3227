@@ -6,17 +6,24 @@ No design acceptance claimed until native DWG and visual PDF checks are complete
 
 ## Latest review artifacts
 
-Current course-basis revision is **v04**: 80 diffusers, 20 four-outlet VAV
-boxes, 49 rigid sections, maximum supply 12000.4 L/s and minimum 4800.1 L/s.
-The v04 DWG/PDF are in `03_Design_Drawings`; the matching 12-page report is
-`04_Final_Report/BSE3227_Design_Review_v04.pdf`. Both airflow conditions pass
-the explicitly adopted workshop ratio screen. Manufacturer/table applicability
-qualifications remain recorded, not converted into a general compliance claim.
-Native counts and flow reconciliation are in `native_review_v04.json`.
-v04 fixes an overlapping upper branch, clears the nine identified column
-footprints in plan, and includes original friction-chart cross-check evidence.
-Detailed native geometry/annotation reconciliation and final package issue
-remain outstanding. v01-v03 are superseded history.
+Current drawing revision is **v05**, using the unchanged v04 calculation data:
+80 diffusers, 20 four-outlet VAV boxes, 49 rigid sections, maximum supply
+12000.4 L/s and minimum 4800.1 L/s. v05 moves the four lower upper-zone
+outlet annotations away from the horizontal duct and adjusts upper labels.
+The current report remains `04_Final_Report/BSE3227_Design_Review_v04.pdf`;
+its outstanding-native-reconciliation statement is superseded by the audits below.
+
+`native_reconciliation_v05.json` records actual AutoCAD 2027 reopen/export
+comparison of all duct/flex endpoints, diffuser/VAV geometry, 49 section labels,
+independent geometric-node flow balance and all 3894 original model entities.
+The v05 upper-zone PDF detail was visually inspected after native plotting.
+v04 column clearance and friction-chart evidence still applies to unchanged geometry.
+Course-method ADPI qualifications remain; final report/package issue is outstanding.
+The optional marked-example browser review could not continue on 09 Nov because
+the previously available Chrome surface was unavailable. No new course requirements
+are inferred from that inaccessible example.
+
+### Historical artifacts (superseded)
 
 - `03_Design_Drawings/BSE3227_HVAC_Review_v02.dwg` and `.pdf`: native A1 review drawing, 30 section IDs and duct schedule; corrected ADPI warning.
 - `04_Final_Report/BSE3227_Design_Review_v01.pdf`: six-chapter English calculation review.
