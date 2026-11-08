@@ -1,0 +1,21 @@
+{
+  "status": "Verified from authenticated Canvas PDF preview on 2026-11-08; supersedes provisional 120 W/m2 and SHR 0.75",
+  "source_title": "Space air diffusion design and air duct sizing.pdf",
+  "source_url": "https://canvas.polyu.edu.hk/courses/5076/files/320901?module_item_id=124516",
+  "total_cooling_allowance_W_m2": 189,
+  "sensible_heat_factor": 0.9,
+  "load_locator": "Page 1: office row in preliminary rule-of-thumb table; office sensible heat factor below airflow equation",
+  "course_ADPI_ratio_range": [1.0, 3.4],
+  "ADPI_locator": "Page 5: explicit Krueger 1400 6-inch-neck example, 93 L/s, L=2.4 m, T0.25=3.5 m",
+  "ADPI_table_source": "Page 5 image cites ASHRAE Handbook Fundamentals 2005; square-faced perforated and louvered ceiling diffuser row",
+  "ADPI_qualification": "The course example explicitly applies 1.0-3.4 to model 1400. Adopt for course design while recording conflict with manufacturer Type 3 circular-pattern classification. Table image load band is 35-160 W/m2; course allowance times SHF gives 170.1 W/m2. Do not describe this as independently verified manufacturer ADPI or measured comfort.",
+  "typical_diffuser_flow_L_s": [50, 150],
+  "typical_flow_locator": "Page 4: rough outlet-count guidance, not an absolute product limit",
+  "low_pressure_office_supply_velocity_max_ms": {"main": 10, "branch": 8},
+  "recommended_low_velocity_friction_Pa_m": [0.65, 1.23],
+  "duct_locator": "Page 7 office low-pressure-system row and step 5",
+  "friction_chart_locator": "Page 9: ASHRAE Fundamentals 2013 Chapter 21 Figure 10, rho=1.20 kg/m3, roughness=0.09 mm",
+  "additional_workshop_url": "https://canvas.polyu.edu.hk/courses/5076/files/320903?module_item_id=124517",
+  "still_assumed": ["Room/supply temperature 24/12 C", "Ceiling height 2.7 m", "Distribution of total load by allocated floor area"],
+  "acquisition_note": "Canvas preview text read and page 5 table/example visually checked. File download failed; no local original PDF or complete PDF hash is claimed. No email was sent."
+}

@@ -1,5 +1,32 @@
 # Design reference register
 
+## Controlling course evidence found after v02
+
+Canvas Week 8 contains the previously missing workshop notes. The local course
+folder was incomplete; earlier statements about missing numeric criteria apply
+only to the brief/local inventory, not the full course.
+
+`Space air diffusion design and air duct sizing.pdf`, Canvas file 320901:
+https://canvas.polyu.edu.hk/courses/5076/files/320901?module_item_id=124516
+
+- Page 1: office rule-of-thumb cooling allowance 189 W/m2 and office sensible
+  heat factor approximately 0.9. These supersede the assumed 120 W/m2 / 0.75.
+- Page 4: typical directional-outlet flow 50-150 L/s; check both design and
+  minimum flow, with 40% given as an example.
+- Page 5: explicitly applies T0.25/L=1.0-3.4 to Krueger 1400, 6-inch neck,
+  93 L/s, L=2.4 m, T0.25=3.5 m. This is the adopted course method. The table
+  image cites ASHRAE Fundamentals 2005. Record, rather than conceal, the
+  manufacturer-pattern discrepancy and 35-160 W/m2 table-band limitation.
+- Page 7: office low-pressure supply maximum velocities 10 m/s main and 8 m/s
+  branch; recommended low-velocity pressure gradient 0.65-1.23 Pa/m.
+- Page 9: supplied ASHRAE 2013 friction chart, density 1.20 kg/m3 and roughness
+  0.09 mm.
+
+Verified through Canvas preview text and visual inspection of the ADPI example
+and table. Download failed; no local original-file hash is claimed. Structured
+transcription: `05_Calculations/data/course_workshop_basis.json`.
+v01/v02 calculations and drawings must be recalculated before final release.
+
 Downloaded/reviewed 2026-11-08. Assignment requirements take precedence for
 course scope; official regulatory constraints are recorded separately.
 

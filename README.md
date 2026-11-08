@@ -10,8 +10,9 @@ No design acceptance claimed until native DWG and visual PDF checks are complete
 - `04_Final_Report/BSE3227_Design_Review_v01.pdf`: six-chapter English calculation review.
 - `05_Calculations/data/native_review_v02.json`: native reopen/count audit, airflow reconciliation and unchanged original-source hashes.
 
-The drawing still uses v01 airflow and geometry. No change to the provisional
-120 W/m2 total cooling allowance has been silently adopted. Maximum-load ADPI
-remains unresolved; the generic louvered screen in the original CSV is retired.
-Workshop information or lecturer clarification may establish the intended
-load allowance and ADPI table. Final label coordination remains outstanding.
+The drawing still uses v01 airflow and geometry and is now superseded in design
+basis by newly located Canvas Week 8 workshop guidance: 189 W/m2 total cooling,
+office sensible heat factor about 0.9, and the explicit course 1400 example
+using T0.25/L = 1.0-3.4. See `course_workshop_basis.json` for page locators,
+source URLs and technical qualifications. A full recalculation and revised
+layout are required; v01/v02 are not submission drawings.
