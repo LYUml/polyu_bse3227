@@ -35,3 +35,20 @@ requirements. Revise if better course or building information becomes available.
 
 Do not confuse the BEC water-pipe friction provision (6.9) with an air-duct limit.
 The fan-power limit and sensor set-point are not a duct Pa/m specification.
+
+## Subsequent model-classification correction
+
+The generic louvered ADPI screen in v01 is retired as an acceptance test.
+Krueger Engineering a1-11 identifies 1400 as Type 3 circular-pattern. ASHRAE
+2015 Ch57 Table 3 gives the circular characteristic length as distance to the
+closest wall or intersecting jet. The independent audit is reproduced by
+`05_Calculations/scripts/audit_adpi.py`. All 40 current maximum-flow ratios lie
+outside both the 60 W/m2 (0.7–1.3) and 125 W/m2 (0.5–1.5) circular table ranges.
+These are diagnostic comparisons, not a manufactured prediction at the
+assumed 90 W/m2. Neither the initial seven louvered-screen failures nor the
+remaining apparent passes establish model-specific ADPI acceptance.
+
+The 2019 round-diffuser ranges at 25 and 50 W/m2 are recorded separately for
+the 36 W/m2 minimum case; no exact ADPI percentage is inferred between rows.
+The preliminary drawing remains unsuitable for submission until this design
+issue is resolved.

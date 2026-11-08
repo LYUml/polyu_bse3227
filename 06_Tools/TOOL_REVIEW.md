@@ -1,5 +1,17 @@
 # HVAC tool review — 2026-11-08
 
+## Manufacturer selection software
+
+Krueger K-Select 13.3.54 was downloaded from the official vendor software page:
+https://www.krueger-hvac.com/public/software/k-select
+
+The installer has a valid Revalize Inc Authenticode signature. An interactive
+launch was attempted, but Windows Security reported blocking an embedded
+temporary component whose publisher it could not confirm. Installation and
+selection output were not obtained. No security policy was weakened. The
+installer and extraction scratch files remain ignored local cache files.
+Public manufacturer performance tables remain the calculation evidence.
+
 ## Adopted
 
 TomLXXVI/python-hvac, MIT, commit `94247560a667905bfbf67e45a58965a58254fce8`.
