@@ -40,3 +40,14 @@ Original files and prior tracked outputs remain preserved as historical context.
 Their acceptance statements are not transferred to this current study. Use the
 clean filenames linked above for the current review;internal run/revision history
 stays in local provenance and Git history.
+
+## Current-method replay verification
+
+The current general agent has rerun the same interpreted project after a
+source-preserving tool update. All 33 requirements and six unresolved inputs
+remain. Native DWG reopening and visual inspection of all 24 report pages and
+the A1 drawing were repeated. Report and drawing page content matches the
+previously reviewed outputs, so the linked deliverable files remain unchanged.
+The aggregate review records the new tool commit and local evidence hashes;
+original creation provenance is preserved. This confirms repeatability, while
+ADPI, physical applicability and full engineering acceptance remain pending.
