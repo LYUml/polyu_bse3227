@@ -84,3 +84,8 @@ scoped executable stages pass through native DWG reopening and A1 plot review;
 eleven regulatory/manual tasks remain pending. The whole-plan command correctly
 returns an incomplete result. Public drawing page content remains unchanged.
 See [task-chain replay aggregate](05_Calculations/AutoCAD_Workflow_Replay.json).
+
+A subsequent source-plan-bound replay verifies the declared writer against the
+original plan, closing a reproduced recorded-writer bypass. All original
+requirements and gaps remain; this check did not repeat native/visual acceptance.
+See [source-plan verification](05_Calculations/AutoCAD_Source_Plan_Verification.json).
