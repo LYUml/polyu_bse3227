@@ -163,7 +163,7 @@ Fourteen source-matched local tee assemblies now join freshly trimmed source
 straights and the existing finite elbows in a separate native IFC study.
 Independent replay checks 99 bodies, 212 owned ports and 90 actual connections.
 The unchanged raw policy reports ten unique intersection pairs (previously 38),
-and still fails clearance: 93 records represent 66 unique pairs. No contacts or
+and still fails clearance: 93 records represent 93 unique pairs. No contacts or
 tolerances were waived. ROOT and two multi-branch source nodes remain unresolved;
 all 33 requirement identities remain. Original source models and DWG/PDF delivery
 files are unchanged. Complete fittings, pressure, equipment/architecture,
@@ -190,7 +190,7 @@ Independent replay checks 103 bodies, 222 owned ports and 97 actual links;
 earlier tee trim provenance remains separate from cross consumption. ROOT and
 J2 remain blocked and all 33 original requirement identities survive.
 The unchanged zero-waiver policy reduces unique intersection pairs from ten to
-six, associated with ROOT/J2. Clearance still fails: 99 records represent 70
+six, associated with ROOT/J2. Clearance still fails: 99 records represent 99
 unique pairs. Original source models and DWG/PDF deliverables stay unchanged.
 The current separate maximum-section cores need over 1.3016 m combined reach
 on D-01 before transitions, against roughly 0.619416 m available and the unchanged
@@ -211,8 +211,25 @@ Independent replay checks 102 native bodies, 223 ports and 101 actual links in
 one connected represented source tree, with 20 SOURCE/one SINK boundaries.
 The unchanged zero-waiver raw policy reports zero intersections (previously six
 unique pairs); geometry coverage passes. Clearance still fails with 101 records
-and 72 unique pairs, all retained. All 33 requirement identities remain. Native
+and 101 unique pairs, all retained. All 33 requirement identities remain. Native
 volume/centroid/bore tests and changed-geometry/deleted-link controls pass.
 This is not full installation, product, pressure/loss or regulatory acceptance.
 Existing source models and DWG/PDF delivery remain unchanged.
 See [compound construction aggregate](05_Calculations/Source_Compound_Network.json).
+
+## Native interface material and numerical outside-region study
+
+All 101 actual SOURCE-to-SINK interface pairs have matching saved native material
+cap boundaries and annular area. A separately assumed numerical region study
+passes all 101 both-direction conservative outside-to-full-body distance proofs;
+all outside parts are nonempty, with zero vacuous or not-proven results.
+The regions use 1.1 times actual outer cap half-diagonal plus 0.0001 m, with
+64-segment masks. These are software experiment assumptions, not product joint
+allowances or installation/code clearances. Source minimum distance remains the
+original 20 micrometre numerical diagnostic. Independent source/cap/proof replay
+passes; all 33 requirements remain. Original raw no-waiver failures, source
+models, DWG/PDF deliverables and full physical/pressure review are unchanged.
+Historical summary pair counts now use IFC GUIDs rather than repeated display
+names: actual tee/cross/compound unique clearance pairs are 93/99/101. Only
+summary undercounts were corrected; raw models, policies and failures remain.
+See [interface study aggregate](05_Calculations/Interface_Contacts.json).

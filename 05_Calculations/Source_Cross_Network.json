@@ -38,7 +38,7 @@
     "unique_intersection_pairs": 6,
     "intersection_records": 12,
     "clearance_violation_records": 99,
-    "unique_clearance_violation_pairs": 70,
+    "unique_clearance_violation_pairs": 99,
     "associated_original_source_nodes": {
       "J2": [
         [
@@ -105,5 +105,7 @@
     "boundary_ports": 28,
     "scope": "Actual standalone verify CLI replays original source ancestry, trims, component fingerprints, frames and saved links; incomplete engineering scope remains"
   },
-  "agent_commit": "5b95068"
+  "pair_count_basis": "Actual sorted IFC body GUID pairs; repeated display names must not merge different physical pairs. Corrects earlier name-based summary only; raw model, policy and failures unchanged.",
+  "agent_commit": "5b95068",
+  "pair_count_correction_agent_commit": "9f38e81"
 }
