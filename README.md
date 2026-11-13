@@ -1,5 +1,9 @@
 # BSE3227 HVAC mini-design
 
+One command now composes all 102 source-model tags, native DWG/PDF and source
+review. The actual plot is inspected; engineering acceptance remains pending.
+See05_Calculations/Composed_Tag_Native_Delivery_Check.json.
+
 The102-tag drawing now passes native AutoCAD save/reopen/export and calibrated
 A4 PDF output. Actual plot inspected; original292 entities and all model links
 remain. Common schedule/drawing ancestry replay passes; engineering acceptance
