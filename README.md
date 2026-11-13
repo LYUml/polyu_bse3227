@@ -51,3 +51,13 @@ previously reviewed outputs, so the linked deliverable files remain unchanged.
 The aggregate review records the new tool commit and local evidence hashes;
 original creation provenance is preserved. This confirms repeatability, while
 ADPI, physical applicability and full engineering acceptance remain pending.
+
+## AutoCAD source intake checkpoint
+
+The original source drawing now passes native export followed by a pinned upstream
+DXF backend inspection. Entity handles/types/layer assignments reconcile across
+3,894 model-space entities, 16 layers and three actual layouts; source bytes are
+preserved. Header units report millimetres. Independent building dimensions,
+physical scale, nested geometry and paper-space/plot interpretation remain pending.
+See [source inspection aggregate](05_Calculations/AutoCAD_Source_Inspection.json).
+This checkpoint is source intake; engineering design/release reviews remain separate.

@@ -1,0 +1,41 @@
+{
+  "scope": "Source intake checkpoint only; existing HVAC design acceptance is reported separately",
+  "agent_repository": "https://github.com/LYUml/building-services-agent",
+  "agent_commit": "271d26d7ac597cd52fa5d6208a464f3573451790",
+  "source_dwg_sha256": "5c5f0360987784171dc3b798132b25046cbd8253cf5566ba8eb2d110d1315c20",
+  "source_unchanged": true,
+  "entity_count": 3894,
+  "layer_count": 16,
+  "layout_count": 3,
+  "unit_observation": {
+    "header_code": 4,
+    "reported_unit": "millimetres",
+    "basis": "native DWG-to-DXF export header",
+    "physical_building_scale_confirmed": false
+  },
+  "upstream": {
+    "repository": "https://github.com/U-C4N/Autocad-MCP",
+    "commit": "6f6a538255ca9f885232e845ac32f10b4433fe3e",
+    "license": "MIT",
+    "mode": "independent EzdxfBackend, not complete MCP server or COM integration",
+    "versions": {
+      "ezdxf": "1.4.5",
+      "pydantic": "2.14.3",
+      "numpy": "2.5.4"
+    }
+  },
+  "native_source_export_pass": true,
+  "source_inventory_correspondence_pass": true,
+  "native_design_modification_performed": false,
+  "native_design_plot_review_performed": false,
+  "engineering_acceptance": "not_established",
+  "design_accepted": false,
+  "pending": [
+    "Independent physical building dimension/scale confirmation",
+    "Block/xref/proxy/nested geometry interpretation",
+    "Paper-space/viewport scale and original drawing visual review",
+    "Native DWG write/reopen and actual plot review for future modifications",
+    "Requirement-specific engineering and Hong Kong applicability"
+  ],
+  "private_runtime_receipt_sha256": "ccaba2f125456c4216da8bb5ea63aad4f79c96acbbc80d96ca29185efbcc58b3"
+}
