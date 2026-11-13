@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Stricter ledger subtotal/identity checks pass fresh MCP generation, independent
+inspection, all 45 gap reads and all 20 outlet reads. Twelve tests pass; the
+real ledger payload is unchanged. See
+05_Calculations/Pressure_Ledger_Scaled_Check.json.
+
 Actual MCP pressure-ledger generation/inspection agrees. All 45 gaps return
 over three pages and all 20 outlet reads match saved evidence; 33 requirements
 remain. Full fan duty is unknown. See
