@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+A source-native parameter schedule now covers102 components/223 ports/76 fitting
+paths, preserving all33 requirements and two absorbed source sections. Independent
+source/arithmetic/display checks pass; tag placement and engineering acceptance
+remain pending. See05_Calculations/Native_Network_Parameter_Schedule_Check.json.
+
 The actual AI-client MCP sequence now runs composed native delivery, independent
 inspection and PDF-page retrieval.102 products/33 requirements remain; returned
 file/image identities agree and the page is visually inspected. Engineering
