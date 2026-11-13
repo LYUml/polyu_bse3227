@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Direct pressure-ledger path reconstruction passes fresh real-client generation,
+inspection and complete reads for all 20 outlets/45 numerical gaps. Thirteen
+tests pass; normal ledger data is unchanged. See
+05_Calculations/Pressure_Ledger_Topology_Check.json.
+
 Stricter ledger subtotal/identity checks pass fresh MCP generation, independent
 inspection, all 45 gap reads and all 20 outlet reads. Twelve tests pass; the
 real ledger payload is unchanged. See
