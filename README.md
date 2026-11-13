@@ -169,3 +169,16 @@ all 33 requirement identities remain. Original source models and DWG/PDF deliver
 files are unchanged. Complete fittings, pressure, equipment/architecture,
 products and installation acceptance remain pending.
 See [partial network aggregate](05_Calculations/Source_Tee_Network.json).
+
+## Source four-arm junction candidates
+
+Both original multi-branch nodes now have explicit source-bound cross/transition
+studies. J1 authors as one cross and three centred transitions: four native
+components, ten ports and three internal links, independently replayed. J2 is
+blocked on D-01 under unchanged inherited straight-length budgets; ROOT remains
+blocked from the preceding tee study. Construction choices remain classified
+assumptions, not product or regulation dimensions. All 33 requirements remain.
+The isolated J1 candidate has not been merged into the parent network; its raw
+coordination failures and existing DWG/PDF deliverables remain unchanged. Full
+physical integration, pressure, products and installation acceptance stay open.
+See [source cross aggregate](05_Calculations/Source_Cross_Candidates.json).
