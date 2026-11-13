@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+A fresh reference audit uses relative-only numerical correspondence and rejects
+nonzero underflow. Nine tests pass; the four real candidate differences remain
+and formal losses are unchanged. See
+05_Calculations/Loss_Reference_Scaled_Check.json.
+
 Common-port pressure-reference review confirms all four candidate differences
 persist after arithmetic normalization. Source/saved replay and seven tests
 pass; formal losses and physical method selection remain unchanged. See
