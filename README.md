@@ -294,3 +294,5 @@ products and complete path/fan pressure remain pending. Previous study runs and
 existing DWG/PDF delivery stay unchanged. Publisher source/derived grids and
 PDF/images remain private and excluded from public snapshots.
 See [native bend fitting study](05_Calculations/Native_Elbow_Fitting_Data.json).
+
+Transition source-family screening: 31 saved transitions, nine diagram-geometry candidates and22 unmatched. No new transition coefficients or complete pressure/fan acceptance. See05_Calculations/Transition_Family_Check.json. Private source caution and identity records stay excluded.
