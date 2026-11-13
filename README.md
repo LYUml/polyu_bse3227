@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Local Codex startup now binds this coursework workspace separately from general
+agent development. The actual Codex backend discovers 38 tools and reads the
+real ledger gap page; configuration stays private. Engineering acceptance
+remains open. See05_Calculations/Codex_Local_Setup_Check.json.
+
 Direct pressure-ledger path reconstruction passes fresh real-client generation,
 inspection and complete reads for all 20 outlets/45 numerical gaps. Thirteen
 tests pass; normal ledger data is unchanged. See
