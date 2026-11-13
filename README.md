@@ -61,3 +61,12 @@ preserved. Header units report millimetres. Independent building dimensions,
 physical scale, nested geometry and paper-space/plot interpretation remain pending.
 See [source inspection aggregate](05_Calculations/AutoCAD_Source_Inspection.json).
 This checkpoint is source intake; engineering design/release reviews remain separate.
+
+## Source-backed AutoCAD writer replay
+
+A pinned open-source backend now independently writes the recalculated 47-section
+duct schedule and flow arrows. Native DWG reopening and scoped A1 visual inspection
+execute; all 33 requirements and six unresolved inputs remain. The resulting PDF
+page content matches the current public sheet, so existing deliverables are retained.
+See [replay aggregate](05_Calculations/AutoCAD_Schedule_Replay.json). This is a
+repeatability/provider comparison, with full engineering acceptance still pending.
