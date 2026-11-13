@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+All102 model-linked tags now have finite selected placements. Independent
+graphic and saved-DXF checks pass; preview inspected. Tagged native DWG/PDF,
+source ancestry and engineering acceptance remain pending. See
+05_Calculations/Native_Network_Tag_Study_Check.json.
+
 A source-native parameter schedule now covers102 components/223 ports/76 fitting
 paths, preserving all33 requirements and two absorbed source sections. Independent
 source/arithmetic/display checks pass; tag placement and engineering acceptance
