@@ -109,3 +109,14 @@ same page content as existing delivery files; those files remain unchanged.
 All 33 requirements and six unresolved inputs remain. Complete pressure/fan duty,
 physical installation, ADPI applicability and full acceptance remain pending.
 See [integrated replay aggregate](05_Calculations/Integrated_HVAC_Replay.json).
+
+## AI-client HVAC package execution
+
+A real local MCP client now prepares the source-pinned configuration, runs the
+complete existing HVAC package, audits 49 artifacts and retrieves report/drawing
+page images. Native DWG reopening and 24-page report production execute without
+stage errors. All 33 requirements and six unresolved inputs remain, and status
+stays review_required. This protocol trial inspects report first/last pages and
+full A1 only; previous complete visual review retains its own evidence. Public
+deliverable files are preserved because PDF page content matches.
+See [MCP package aggregate](05_Calculations/MCP_HVAC_Project.json).
