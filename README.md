@@ -233,3 +233,23 @@ Historical summary pair counts now use IFC GUIDs rather than repeated display
 names: actual tee/cross/compound unique clearance pairs are 93/99/101. Only
 summary undercounts were corrected; raw models, policies and failures remain.
 See [interface study aggregate](05_Calculations/Interface_Contacts.json).
+
+## Source-bound native airflow and pressure paths
+
+The complete represented network now reconciles all 223 saved ports to original
+source flows through independent downstream boundary-demand accumulation.
+All 102 products and 101 interfaces conserve flow; boundary inlet/outlet totals
+are approximately 12.0003727634 cubic metres per second. Absorbed D-01 remains
+an explicit internal flow obligation, matching from both original junction sides.
+All 45 retained native straight sections match source dimensions/flow, and all
+20 terminal paths retain separate known straight-friction contributions.
+Those contributions range approximately 5.67066 to 31.85560 Pa; these are not
+complete path pressure or fan duty. Seventy-six distinct loss paths across 57
+native fitting bodies need applicable coefficients and source conventions.
+Joint, terminal/equipment and boundary pressure requirements also remain open.
+Complete pressure and critical full path remain null; no unknown loss is set to
+zero. Eleven source/native/friction/path and false-completion controls pass;
+independent source/native/report replay passes. All 33 requirements remain.
+The review HTML numeric tables were checked; visual delivery and complete
+engineering acceptance are not established. Existing DWG/PDF delivery is unchanged.
+See [native network analysis aggregate](05_Calculations/Source_Network_Analysis.json).
