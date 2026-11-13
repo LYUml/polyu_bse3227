@@ -182,3 +182,18 @@ The isolated J1 candidate has not been merged into the parent network; its raw
 coordination failures and existing DWG/PDF deliverables remain unchanged. Full
 physical integration, pressure, products and installation acceptance stay open.
 See [source cross aggregate](05_Calculations/Source_Cross_Candidates.json).
+
+## Partial cross network integration
+
+J1 now joins the source tee/elbow network through four native interfaces.
+Independent replay checks 103 bodies, 222 owned ports and 97 actual links;
+earlier tee trim provenance remains separate from cross consumption. ROOT and
+J2 remain blocked and all 33 original requirement identities survive.
+The unchanged zero-waiver policy reduces unique intersection pairs from ten to
+six, associated with ROOT/J2. Clearance still fails: 99 records represent 70
+unique pairs. Original source models and DWG/PDF deliverables stay unchanged.
+The current separate maximum-section cores need over 1.3016 m combined reach
+on D-01 before transitions, against roughly 0.619416 m available and the unchanged
+0.05 m minimum remainder. This construction needs deliberate redesign; this is
+not proof that every compound fitting or changed route is impossible.
+See [partial cross network aggregate](05_Calculations/Source_Cross_Network.json).
