@@ -75,3 +75,12 @@ The general agent's shared AutoCAD command has also executed a fresh source-back
 47-section DXF replay and independent verification. This command trial does not
 repeat native DWG or visual acceptance; those retain their preceding evidence.
 See [shared-entry aggregate](05_Calculations/AutoCAD_Shared_Entry.json).
+
+## Inherited task-chain writer replay
+
+A fresh complete 16-task plan now selects the pinned upstream sheet writer while
+retaining original sources, all 33 requirements and six unresolved inputs. Five
+scoped executable stages pass through native DWG reopening and A1 plot review;
+eleven regulatory/manual tasks remain pending. The whole-plan command correctly
+returns an incomplete result. Public drawing page content remains unchanged.
+See [task-chain replay aggregate](05_Calculations/AutoCAD_Workflow_Replay.json).
