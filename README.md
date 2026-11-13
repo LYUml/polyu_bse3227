@@ -197,3 +197,22 @@ on D-01 before transitions, against roughly 0.619416 m available and the unchang
 0.05 m minimum remainder. This construction needs deliberate redesign; this is
 not proof that every compound fitting or changed route is impossible.
 See [partial cross network aggregate](05_Calculations/Source_Cross_Network.json).
+
+## Declared compound junction construction
+
+A separate source-bound construction now replaces the infeasible separate ROOT
+and J2 cores with one five-port tapered trunk/side-takeoff junction. It explicitly
+absorbs residual A-03 up to the verified elbow cap and the shared D-01 body;
+the short inlet straight becomes a declared taper, while D-01's internal clear
+profile and every external source section/ray remain. Choices are classified
+study assumptions, not manufacturer or code acceptance. The original failed
+separate-core scenario remains intact.
+Independent replay checks 102 native bodies, 223 ports and 101 actual links in
+one connected represented source tree, with 20 SOURCE/one SINK boundaries.
+The unchanged zero-waiver raw policy reports zero intersections (previously six
+unique pairs); geometry coverage passes. Clearance still fails with 101 records
+and 72 unique pairs, all retained. All 33 requirement identities remain. Native
+volume/centroid/bore tests and changed-geometry/deleted-link controls pass.
+This is not full installation, product, pressure/loss or regulatory acceptance.
+Existing source models and DWG/PDF delivery remain unchanged.
+See [compound construction aggregate](05_Calculations/Source_Compound_Network.json).
