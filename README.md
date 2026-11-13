@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+The actual AI-client MCP sequence now runs composed native delivery, independent
+inspection and PDF-page retrieval.102 products/33 requirements remain; returned
+file/image identities agree and the page is visually inspected. Engineering
+acceptance remains pending. See05_Calculations/MCP_Composed_Native_Delivery_Check.json.
+
 One composed source-network delivery command now generates automatic review
 layout, reopened DWG and calibrated PDF:102 products/33 requirements retained.
 Independent replay and rehashed-geometry rejection pass; engineering acceptance
