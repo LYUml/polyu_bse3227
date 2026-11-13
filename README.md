@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+A pinned upstream contraction data-only probe screens all 31 native transitions:
+4 bounded crosschecks, 23 angle exclusions and 4 range exclusions. Formal losses
+remain unchanged; no physical/package acceptance. See
+05_Calculations/Contraction_Upstream_Candidate_Check.json.
+
 A pressure evidence ledger now independently reconciles all 20 outlets and 76
 fitting paths, preserving 31 conditional values and 45 numerical gaps. Source
 and saved-ledger replay pass; complete fan duty remains unknown. See
