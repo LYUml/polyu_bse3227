@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Actual MCP pressure-ledger generation/inspection agrees. All 45 gaps return
+over three pages and all 20 outlet reads match saved evidence; 33 requirements
+remain. Full fan duty is unknown. See
+05_Calculations/MCP_Pressure_Ledger_Check.json.
+
 A fresh reference audit uses relative-only numerical correspondence and rejects
 nonzero underflow. Nine tests pass; the four real candidate differences remain
 and formal losses are unchanged. See
