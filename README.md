@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+A separate native transition end-straight study covers31 bodies/62 ends.
+Independent arithmetic and Colebrook checks agree; source-table results and
+outlet pressure paths remain unchanged. Full pressure/physical acceptance stays
+pending. See05_Calculations/Transition_End_Straight_Friction.json.
+
 Latest source study adds8 conditional equal-angle transition queries:31/76
 fitting paths now have numerical table values;45 remain unknown. Independent
 controls agree; full pressure, physical applicability and fan acceptance remain
