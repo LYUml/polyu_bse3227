@@ -132,3 +132,14 @@ Raw no-waiver coordination still fails: 76 intersection records and 31 clearance
 violations. Other junctions, physical installation and full pressure/engineering
 acceptance remain pending. This study does not replace existing DWG/PDF delivery.
 See [candidate study aggregate](05_Calculations/Elbow_Radius_Candidate_Study.json).
+
+## Source-connected coordination work list
+
+Fresh native replay confirms that 76 intersection records represent 38 unique
+physical pairs, associated with 15 unfinished unequal-section tees and two
+multi-branch nodes. The 31 unique clearance violations comprise 20 actual linked
+interfaces and 11 unfinished-source-node pairs. All raw failures remain; no
+policy, geometry or contact waiver changed. A pending work list records the
+original incidents for each of the 17 source connections. It does not author or
+accept those fittings, and omitted architecture/equipment are outside this model.
+See [coordination diagnosis](05_Calculations/Duct_Coordination_Diagnosis.json).
