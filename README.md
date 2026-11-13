@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Actual MCP tagged delivery, independent inspection and PDF-page retrieval now
+execute for all 102 components. Output/image identities agree; page inspected.
+Engineering acceptance remains pending. See
+05_Calculations/MCP_Tagged_Native_Delivery_Check.json.
+
 One command now composes all 102 source-model tags, native DWG/PDF and source
 review. The actual plot is inspected; engineering acceptance remains pending.
 See05_Calculations/Composed_Tag_Native_Delivery_Check.json.
