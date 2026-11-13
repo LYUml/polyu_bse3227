@@ -70,3 +70,8 @@ execute; all 33 requirements and six unresolved inputs remain. The resulting PDF
 page content matches the current public sheet, so existing deliverables are retained.
 See [replay aggregate](05_Calculations/AutoCAD_Schedule_Replay.json). This is a
 repeatability/provider comparison, with full engineering acceptance still pending.
+
+The general agent's shared AutoCAD command has also executed a fresh source-backed
+47-section DXF replay and independent verification. This command trial does not
+repeat native DWG or visual acceptance; those retain their preceding evidence.
+See [shared-entry aggregate](05_Calculations/AutoCAD_Shared_Entry.json).
