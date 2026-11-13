@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+The102-tag drawing now passes native AutoCAD save/reopen/export and calibrated
+A4 PDF output. Actual plot inspected; original292 entities and all model links
+remain. Common schedule/drawing ancestry replay passes; engineering acceptance
+remains pending. See05_Calculations/Native_Network_Tag_DWG_Check.json.
+
 All102 model-linked tags now have finite selected placements. Independent
 graphic and saved-DXF checks pass; preview inspected. Tagged native DWG/PDF,
 source ancestry and engineering acceptance remain pending. See
