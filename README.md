@@ -156,3 +156,16 @@ backbone; its raw coordination failures and existing DWG/PDF files remain
 unchanged. All 33 requirement identities are retained; full installation,
 pressure and engineering acceptance remain pending.
 See [local candidate aggregate](05_Calculations/Source_Tee_Candidates.json).
+
+## Partial source tee network integration
+
+Fourteen source-matched local tee assemblies now join freshly trimmed source
+straights and the existing finite elbows in a separate native IFC study.
+Independent replay checks 99 bodies, 212 owned ports and 90 actual connections.
+The unchanged raw policy reports ten unique intersection pairs (previously 38),
+and still fails clearance: 93 records represent 66 unique pairs. No contacts or
+tolerances were waived. ROOT and two multi-branch source nodes remain unresolved;
+all 33 requirement identities remain. Original source models and DWG/PDF delivery
+files are unchanged. Complete fittings, pressure, equipment/architecture,
+products and installation acceptance remain pending.
+See [partial network aggregate](05_Calculations/Source_Tee_Network.json).
