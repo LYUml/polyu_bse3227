@@ -98,3 +98,14 @@ calculation and drawing artifacts alongside their unchanged primary review. All
 inventory, fresh task-chain replay and delivery-context verification execute;
 all five primary reviews remain pending. Native/visual acceptance was not repeated.
 See [supporting evidence aggregate](05_Calculations/Supporting_Requirement_Evidence.json).
+
+## Integrated upstream-writer package
+
+The complete interpreted HVAC package now replays with the pinned upstream writer
+and related requirement evidence. Native DWG reopening, source-tree paths,
+junction/terminal/ADPI reviews and the 24-page report execute without stage errors.
+All report pages and the A1 sheet were actually inspected. Both PDFs retain the
+same page content as existing delivery files; those files remain unchanged.
+All 33 requirements and six unresolved inputs remain. Complete pressure/fan duty,
+physical installation, ADPI applicability and full acceptance remain pending.
+See [integrated replay aggregate](05_Calculations/Integrated_HVAC_Replay.json).
