@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Common-port pressure-reference review confirms all four candidate differences
+persist after arithmetic normalization. Source/saved replay and seven tests
+pass; formal losses and physical method selection remain unchanged. See
+05_Calculations/Loss_Reference_Audit_Check.json.
+
 A pinned upstream contraction data-only probe screens all 31 native transitions:
 4 bounded crosschecks, 23 angle exclusions and 4 range exclusions. Formal losses
 remain unchanged; no physical/package acceptance. See
