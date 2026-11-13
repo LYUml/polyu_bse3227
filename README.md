@@ -1,5 +1,9 @@
 # BSE3227 HVAC mini-design
 
+The native network geometry study now passes actual DWG save/reopen/export and
+visually inspected fixed-scale A4 PDF checks, retaining102 product IDs/286 contours.
+Pressure, product and installation review remain pending. See05_Calculations/Native_Network_DWG_Check.json.
+
 The native source model now has a private editable XY silhouette study covering
 all102 products with independent GUID/area/bounds checks. Preview inspected;
 native DWG/plot and installation details remain pending. See05_Calculations/Native_Network_Drawing_Check.json.
