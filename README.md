@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+One composed source-network delivery command now generates automatic review
+layout, reopened DWG and calibrated PDF:102 products/33 requirements retained.
+Independent replay and rehashed-geometry rejection pass; engineering acceptance
+remains pending. See05_Calculations/Source_Network_Delivery_Check.json.
+
 The native network geometry study now passes actual DWG save/reopen/export and
 visually inspected fixed-scale A4 PDF checks, retaining102 product IDs/286 contours.
 Pressure, product and installation review remain pending. See05_Calculations/Native_Network_DWG_Check.json.
