@@ -272,3 +272,25 @@ applicability, friction convention, close-fitting interactions and complete
 pressure/fan duty remain pending. Original analysis and DWG/PDF delivery are
 unchanged. Source documents and transcriptions remain local and unpublished.
 See [full-network fitting study](05_Calculations/Source_Fitting_Data.json).
+
+## Native rectangular bend source quantities and corrections
+
+The source-table adapter now reads the actual quarter-revolved hollow rectangle,
+profile radius and independent saved circular Axis, with directed native ends.
+Actual radial width W, normal height H, radius/width and source hydraulic Reynolds
+feed the existing bounded interpolation engine. No round, miter or splitter-vane
+coefficient is substituted. Official source page12 was rendered and inspected;
+its base/Reynolds rows were also independently extracted from the original PDF.
+Ten additional native bend flow paths now have conditional numerical values:
+seven need bounded Reynolds correction and three use an explicitly supported
+high-Re constant region. The finite numerical ceiling for that study is not
+asserted as a published validity limit. The fresh study retains 76 flow paths:
+23 conditional values, 13 sparse-support requests and 40 unsupplied paths.
+All 31 transition requests, 20 outlet paths and 33 requirements remain.
+Independent base interpolation times source Reynolds correction and native
+reference pressure agree for all ten bends. Source/native/table replay and
+11 related tests pass. Physical/source convention, friction, interaction,
+products and complete path/fan pressure remain pending. Previous study runs and
+existing DWG/PDF delivery stay unchanged. Publisher source/derived grids and
+PDF/images remain private and excluded from public snapshots.
+See [native bend fitting study](05_Calculations/Native_Elbow_Fitting_Data.json).
