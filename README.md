@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Latest source study adds8 conditional equal-angle transition queries:31/76
+fitting paths now have numerical table values;45 remain unknown. Independent
+controls agree; full pressure, physical applicability and fan acceptance remain
+pending. See05_Calculations/Transition_Source_Queries.json.
+
 ## Current agent design study
 
 - Editable drawing: [Supply Air Distribution.dwg](03_Design_Drawings/Agent_Study/Supply%20Air%20Distribution.dwg)
