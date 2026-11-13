@@ -89,3 +89,12 @@ A subsequent source-plan-bound replay verifies the declared writer against the
 original plan, closing a reproduced recorded-writer bypass. All original
 requirements and gaps remain; this check did not repeat native/visual acceptance.
 See [source-plan verification](05_Calculations/AutoCAD_Source_Plan_Verification.json).
+
+## Related evidence for complete requirements
+
+Five original load/minimum-flow/schedule requirements now expose related existing
+calculation and drawing artifacts alongside their unchanged primary review. All
+33 source requirements, full quotes and six input gaps remain. The common source
+inventory, fresh task-chain replay and delivery-context verification execute;
+all five primary reviews remain pending. Native/visual acceptance was not repeated.
+See [supporting evidence aggregate](05_Calculations/Supporting_Requirement_Evidence.json).
