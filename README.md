@@ -253,3 +253,22 @@ independent source/native/report replay passes. All 33 requirements remain.
 The review HTML numeric tables were checked; visual delivery and complete
 engineering acceptance are not established. Existing DWG/PDF delivery is unchanged.
 See [native network analysis aggregate](05_Calculations/Source_Network_Analysis.json).
+
+## Full-network source-linked fitting table study
+
+The existing source-pinned bounded interpolation engine now consumes the verified
+complete native source analysis. Printed source pages 38 and 42 were re-rendered
+and inspected, retaining diagram conditions, cross-reference and footnote.
+Thirteen main-inlet sharp tee cores support 26 conditional queries; one branch-
+inlet core is excluded from this source interpretation. Thirteen main queries
+produce finite numerical contributions. Thirteen branch queries need unpublished
+support and remain null; 50 other fitting flow paths have no supplied table.
+All 76 flow paths, 31 native transition requests, 20 outlet paths and 33 original
+requirements remain. Exact local profile dimensions are checked against actual
+material caps before querying; no condition is widened or ratio rounded.
+Independent segment arithmetic/reference pressure checks agree with all 13 finite
+values, and source/native/table replay plus eight related tests pass. Physical
+applicability, friction convention, close-fitting interactions and complete
+pressure/fan duty remain pending. Original analysis and DWG/PDF delivery are
+unchanged. Source documents and transcriptions remain local and unpublished.
+See [full-network fitting study](05_Calculations/Source_Fitting_Data.json).
