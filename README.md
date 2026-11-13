@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+A pressure evidence ledger now independently reconciles all 20 outlets and 76
+fitting paths, preserving 31 conditional values and 45 numerical gaps. Source
+and saved-ledger replay pass; complete fan duty remains unknown. See
+05_Calculations/Source_Pressure_Evidence_Ledger_Check.json.
+
 Actual MCP tagged delivery, independent inspection and PDF-page retrieval now
 execute for all 102 components. Output/image identities agree; page inspected.
 Engineering acceptance remains pending. See
