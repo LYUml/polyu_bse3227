@@ -143,3 +143,16 @@ policy, geometry or contact waiver changed. A pending work list records the
 original incidents for each of the 17 source connections. It does not author or
 accept those fittings, and omitted architecture/equipment are outside this model.
 See [coordination diagnosis](05_Calculations/Duct_Coordination_Diagnosis.json).
+
+## Source-matched local tee candidates
+
+The source-bound candidate study now authors and independently checks 14 isolated
+tee/centred-transition assemblies (42 native fittings), covering 15 original
+unequal-tee nodes with one explicit blocked result. ROOT exceeds the combined
+existing-elbow/declared-tee budgets on A-03 and D-01. Geometry choices remain
+classified assumptions, not manufacturer or regulation facts. Two multi-branch
+nodes remain unattempted. The assemblies are not merged into the original
+backbone; its raw coordination failures and existing DWG/PDF files remain
+unchanged. All 33 requirement identities are retained; full installation,
+pressure and engineering acceptance remain pending.
+See [local candidate aggregate](05_Calculations/Source_Tee_Candidates.json).
