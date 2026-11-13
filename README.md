@@ -1,5 +1,9 @@
 # BSE3227 HVAC mini-design
 
+MCP fitting-request reads now cover all76 directed paths over four pages,
+with detailed missing-evidence/native-geometry reads and unchanged record checks.
+These reads preserve pending engineering states. See05_Calculations/MCP_Fitting_Request_Access.json.
+
 All four native-network/fitting MCP run and independent-inspect tools now
 execute on this project. Both inspections agree with their producer summaries;
 33 requirements and20 outlet paths remain. Full engineering acceptance is still
