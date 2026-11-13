@@ -120,3 +120,15 @@ stays review_required. This protocol trial inspects report first/last pages and
 full A1 only; previous complete visual review retains its own evidence. Public
 deliverable files are preserved because PDF page content matches.
 See [MCP package aggregate](05_Calculations/MCP_HVAC_Project.json).
+
+## Finite elbow radius candidates
+
+A separate classified geometric study compares supplied radius alternatives on
+the unchanged source centreline/section scenario. All ten original equal-section
+elbows author as native IFC, preserving eight original choices and selecting two
+alternatives. The model has 47 straights, ten bends and 20 cap-matched links; the
+original-radius-only control is infeasible and produces no native model.
+Raw no-waiver coordination still fails: 76 intersection records and 31 clearance
+violations. Other junctions, physical installation and full pressure/engineering
+acceptance remain pending. This study does not replace existing DWG/PDF delivery.
+See [candidate study aggregate](05_Calculations/Elbow_Radius_Candidate_Study.json).
