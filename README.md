@@ -1,5 +1,9 @@
 # BSE3227 HVAC mini-design
 
+The native source model now has a private editable XY silhouette study covering
+all102 products with independent GUID/area/bounds checks. Preview inspected;
+native DWG/plot and installation details remain pending. See05_Calculations/Native_Network_Drawing_Check.json.
+
 MCP fitting-request reads now cover all76 directed paths over four pages,
 with detailed missing-evidence/native-geometry reads and unchanged record checks.
 These reads preserve pending engineering states. See05_Calculations/MCP_Fitting_Request_Access.json.
