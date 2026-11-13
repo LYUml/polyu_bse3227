@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+Runtime-refresh maintenance is now tested with backups and preserved user
+settings. This project config remains byte-identical; actual Codex reads still
+return the existing45 numeric gaps. No engineering values changed. See
+05_Calculations/Codex_Runtime_Refresh_Check.json.
+
 Local Codex startup now binds this coursework workspace separately from general
 agent development. The actual Codex backend discovers 38 tools and reads the
 real ledger gap page; configuration stays private. Engineering acceptance
