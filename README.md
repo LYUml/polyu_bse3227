@@ -1,5 +1,10 @@
 # BSE3227 HVAC mini-design
 
+All four native-network/fitting MCP run and independent-inspect tools now
+execute on this project. Both inspections agree with their producer summaries;
+33 requirements and20 outlet paths remain. Full engineering acceptance is still
+pending. See05_Calculations/MCP_Native_Network_Execution.json.
+
 A separate native transition end-straight study covers31 bodies/62 ends.
 Independent arithmetic and Colebrook checks agree; source-table results and
 outlet pressure paths remain unchanged. Full pressure/physical acceptance stays
