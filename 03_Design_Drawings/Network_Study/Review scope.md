@@ -5,7 +5,7 @@ Separate source-linked rigid-network revision:13 reduced-branch tees replace
 and prescribed design flows.89 bodies,197 ports,88 connections,20 outlets.
 Native IFC schema/geometry/port replay and all 88 material cap matches pass.
 Same raw policy:zero intersections,88 clearance violations; no waivers.
-Maximum and 40 percent minimum cases each retain 34 unknown fitting paths.
+Maximum and 40 percent minimum cases each retain 33 unknown fitting paths.
 Full pressure,fan duty,installation/architecture,equipment,load/ADPI and
 complete engineering acceptance remain unresolved.
 
