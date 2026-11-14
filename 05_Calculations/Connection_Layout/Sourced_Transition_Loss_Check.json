@@ -1,0 +1,3341 @@
+{
+  "source": {
+    "source_document_sha256": "746121b31696fd23cc11a39fd83d7be9ba3fec9bf0d81caa3b5e1ce6235abfbb",
+    "source_grid_sha256": "289f0ef7de6b41a3fc622e10f0646fa5198fb90ca5b615c51c75cdfae4d496a7",
+    "source_locator": "Printed21Fitting4-6/printed22right-hand contraction table,L/D1and3rows",
+    "native_reader_sha256": "6a468da94218a28ede9f1899bba5ca68f31ad976578a7c8ed55fc2570a504387",
+    "source_condition": "Contraction Ao<A1 and H<D; centred ruled slot-to-round interpretation; no extrapolation",
+    "native_old_queries_rejected": 40,
+    "native_new_queries_supported": 40,
+    "independent_Decimal_matches": true,
+    "reference": "Circular outlet Ao/Vo, not rectangular inlet velocity",
+    "network_pressure_adopted": false,
+    "full_pressure_verified": false,
+    "design_accepted": false,
+    "citation": "2021 Online Supplemental Material Accompanying Principles of HVAC,9th Edition;Fitting4-6,printed21/22 right contraction table;Idelchik et al1986 Diagram5-26",
+    "url": "https://xp20.ashrae.org/SupplementalFiles/PHVAC9/Fitting_Loss_Coefficients.pdf",
+    "physical_applicability_verified": false
+  },
+  "records": [
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-01",
+      "product_guid": "0ZvL2d7mjHBgUb$BMNqc3$",
+      "inlet_port_guid": "1pVn47NY1KMflWVCz2bgsw",
+      "outlet_port_guid": "0uZYnrfBXNr8VSgWpr1ybE",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 15.943193031700591,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.5633882756535026,
+          "outlet_to_inlet_area_ratio": 0.6949131141908539
+        },
+        "reference_velocity_m_s": 7.8896487826383614,
+        "reference_velocity_pressure_Pa": 37.34793474803219,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.06839764877809586,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.06839764877809586300000000000",
+      "signed_tabulated_contribution_Pa": 2.5545109234831473
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-02",
+      "product_guid": "0605Yd06LLBBo7DnXK$8AR",
+      "inlet_port_guid": "3XAr0QVTvOSgYyzUQ6Xvvw",
+      "outlet_port_guid": "2ZDaM4bcjVFxiBwOYvysYH",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 13.873765116319158,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 5.884775698476208,
+        "reference_velocity_pressure_Pa": 20.778351012825684,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.08299301002265644,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.08299301002265644149999999999",
+      "signed_tabulated_contribution_Pa": 1.7244578938617157
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-03",
+      "product_guid": "1gUy0S3gzKSAO4VCRzaRLu",
+      "inlet_port_guid": "1Nach5LejUzeY7ZUbkDrc7",
+      "outlet_port_guid": "1JLWsaLT5O7wmQsr1xh5eo",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 13.905088502756309,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 5.8980620055279624,
+        "reference_velocity_pressure_Pa": 20.87228125263152,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.0827737463175964,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.08277374631759638449999999999",
+      "signed_tabulated_contribution_Pa": 1.7276769134748446
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-04",
+      "product_guid": "1yo3oMeLjHKvejNdyVZDDU",
+      "inlet_port_guid": "3Fb1_rlLTOwvCtkxuUdnkQ",
+      "outlet_port_guid": "0bo4UCk3jQsOhBQgiVIkLJ",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.640275634756685,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 6.209903191532996,
+        "reference_velocity_pressure_Pa": 23.137738588927018,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07762743639359375,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07762743639359375250000000000",
+      "signed_tabulated_contribution_Pa": 1.7961233306035316
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-05",
+      "product_guid": "14frf0CbvTmfmxDxOuXDDP",
+      "inlet_port_guid": "0y5$dSHeHL$wnTXqQhz2nL",
+      "outlet_port_guid": "0plidN9O5QH9zrBSz4f6Be",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.009555955593923,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 5.942373518847254,
+        "reference_velocity_pressure_Pa": 21.187081822498254,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.0820424741477331,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.08204247414773308650000000000",
+      "signed_tabulated_contribution_Pa": 1.7382406126882188
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-06",
+      "product_guid": "1jeQUDHlPPX8wGccFpt_S7",
+      "inlet_port_guid": "0jRRd$BevL9wnNgiDgCp4l",
+      "outlet_port_guid": "1H1IPd541UOOxIvPYcN19i",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.92705229568668,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 7.386801360234277,
+        "reference_velocity_pressure_Pa": 32.73890060133538,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07551063393019322,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07551063393019324000000000001",
+      "signed_tabulated_contribution_Pa": 2.472135138584419
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-07",
+      "product_guid": "0JfUHjcB5SvPKt2ri92tEC",
+      "inlet_port_guid": "2wrGC$CJvR6wjawiPZzMH3",
+      "outlet_port_guid": "0XNRziYMnRSAZw48dRG3TQ",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.68043979246309,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 6.226939450777604,
+        "reference_velocity_pressure_Pa": 23.264864954190294,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07734628728964893,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07734628728964891750000000000",
+      "signed_tabulated_contribution_Pa": 1.7994509285016875
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-08",
+      "product_guid": "1iMV4IGVbTQQ3Zslkcf4ed",
+      "inlet_port_guid": "1su5cB_S1IcRXtUX$Q8Ame",
+      "outlet_port_guid": "2amXM29enGnBx8rNbrZ0yv",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.68043979246309,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 6.226939450777604,
+        "reference_velocity_pressure_Pa": 23.264864954190294,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07734628728964893,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07734628728964891750000000000",
+      "signed_tabulated_contribution_Pa": 1.7994509285016875
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-09",
+      "product_guid": "073$13FGvKQfQFW3Bfaw_Y",
+      "inlet_port_guid": "0C28fjdfPNQwZ0BaMs$fxq",
+      "outlet_port_guid": "2iBmc_XkDQNhHaIU98VDTS",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.68043979246312,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 6.226939450777617,
+        "reference_velocity_pressure_Pa": 23.264864954190386,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07734628728964871,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07734628728964870750000000000",
+      "signed_tabulated_contribution_Pa": 1.7994509285016895
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-10",
+      "product_guid": "2ut_eWMFvGiPfJKc68n7Wb",
+      "inlet_port_guid": "0dV_$N8VnHSvpLvY6Mrwbb",
+      "outlet_port_guid": "3iZEMA19rOJu_aea_8ClaN",
+      "geometry": {
+        "width_m": 0.45,
+        "height_m": 0.25,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 15.4775218183984,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.4027950739123582,
+          "outlet_to_inlet_area_ratio": 0.8827970302498626
+        },
+        "reference_velocity_m_s": 6.565034329607496,
+        "reference_velocity_pressure_Pa": 25.859805449354965,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.0726643349559921,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07266433495599209549999999999",
+      "signed_tabulated_contribution_Pa": 1.879085565068719
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-11",
+      "product_guid": "3eWODGgi1JVgoXONtliPba",
+      "inlet_port_guid": "2pTu_OvEzRixAZpKp_3SBi",
+      "outlet_port_guid": "0WkQg7YZHQFPGD_$Ou_6AY",
+      "geometry": {
+        "width_m": 0.45,
+        "height_m": 0.25,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.794308653310996,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.4027950739123582,
+          "outlet_to_inlet_area_ratio": 0.8827970302498626
+        },
+        "reference_velocity_m_s": 6.2752387191818775,
+        "reference_velocity_pressure_Pa": 23.627172589631645,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07744682711160392,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07744682711160392350000000001",
+      "signed_tabulated_contribution_Pa": 1.829849550685229
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-12",
+      "product_guid": "1GeF7U9_PHg89aSWWC4FLo",
+      "inlet_port_guid": "0WvpIl7srLrvHYUNmeG26J",
+      "outlet_port_guid": "0uxjwySrzIMeEzSFD1Xtho",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 16.064403723293182,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.5633882756535026,
+          "outlet_to_inlet_area_ratio": 0.6949131141908539
+        },
+        "reference_velocity_m_s": 7.949631107600794,
+        "reference_velocity_pressure_Pa": 37.91798084816054,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.06754917393694772,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.06754917393694772599999999998",
+      "signed_tabulated_contribution_Pa": 2.5613282836502487
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-13",
+      "product_guid": "0Lx_JY7arRsxNLeOIqw_of",
+      "inlet_port_guid": "3JIa7vu1zHi96L0Wj6DqfP",
+      "outlet_port_guid": "1lo7NtJoDM0fRhlrNgIqH8",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 15.281482581435005,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 7.562194737641447,
+        "reference_velocity_pressure_Pa": 34.3120735500072,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07302962192995496,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07302962192995496500000000000",
+      "signed_tabulated_contribution_Pa": 2.5057977589898335
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-14",
+      "product_guid": "2V76E$fNPNBBedH8MA2JbC",
+      "inlet_port_guid": "1s03h2g7bNwAwJSdhlOKED",
+      "outlet_port_guid": "3pJhFfmZXIvACE5RG3Vacs",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 15.398402096452006,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 7.620053530888597,
+        "reference_velocity_pressure_Pa": 34.83912948816466,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07221118532483596,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07221118532483595799999999999",
+      "signed_tabulated_contribution_Pa": 2.5157748360258156
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-15",
+      "product_guid": "1MjS_85M1MDR3f02Qq8aC0",
+      "inlet_port_guid": "2qfzlVCkDS0RAhYug9_2BT",
+      "outlet_port_guid": "0EdSg9Fu5NS8HwLE2zgEJ6",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 15.441906998301373,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 7.6415823673790175,
+        "reference_velocity_pressure_Pa": 35.036268646462744,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07190665101189038,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07190665101189038899999999999",
+      "signed_tabulated_contribution_Pa": 2.5193407423200336
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-16",
+      "product_guid": "19FJZS12HTfv_ra$HIeypD",
+      "inlet_port_guid": "3mmpxSYKTI7hhVN6Ws0Z9x",
+      "outlet_port_guid": "0ZCj_ByzLOP9WTUXqP$YXl",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 13.931003674222213,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 5.909054333132313,
+        "reference_velocity_pressure_Pa": 20.95015386714586,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.08259234011733504,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.08259234011733505649999999999",
+      "signed_tabulated_contribution_Pa": 1.730322233705813
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-17",
+      "product_guid": "3FRUibkjjTCA_HQeOt3zGq",
+      "inlet_port_guid": "3noMfqayHLR9Pk0mskH5Q4",
+      "outlet_port_guid": "1EP$Hx_cTMORCbUhsgiIGM",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 13.88872734541707,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 5.891122163293237,
+        "reference_velocity_pressure_Pa": 20.82319220570687,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.08288827441897106,
+        "support_indexes": [
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            2
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.08288827441897105749999999999",
+      "signed_tabulated_contribution_Pa": 1.7259984698256106
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-18",
+      "product_guid": "2dMvZV34jPX8IHxG0dDJtT",
+      "inlet_port_guid": "2rT1348rvQ5R2Kl2vH_QQU",
+      "outlet_port_guid": "2ejz5swoTLwhunJhHTCsoW",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 14.958514728731252,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 7.402370860401239,
+        "reference_velocity_pressure_Pa": 32.877056612950426,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.07529039689888123,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.07529039689888123600000000000",
+      "signed_tabulated_contribution_Pa": 2.4753266412560255
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-19",
+      "product_guid": "3ZuxyTKx1MRw4gCYfVFRA_",
+      "inlet_port_guid": "2F4vqd15LVEQMhqOs4u2b9",
+      "outlet_port_guid": "1mazHYNZzST8PxqowUWGHS",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 17.04450500702523,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.9132780429116918,
+          "outlet_to_inlet_area_ratio": 0.8276222158592462
+        },
+        "reference_velocity_m_s": 7.2296948965869126,
+        "reference_velocity_pressure_Pa": 31.361092978640908,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.06068846495082339,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.06068846495082339000000000000",
+      "signed_tabulated_contribution_Pa": 1.9032565920537623
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "maximum",
+      "id": "VAV-20",
+      "product_guid": "3FCff2DUrKkx8Orj$gw8Iu",
+      "inlet_port_guid": "2GrWPgM$fVMgPJsdYhsPFn",
+      "outlet_port_guid": "3MlNptuPvH8hZfILM_IdCW",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 16.679063838886687,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.9132780429116918,
+          "outlet_to_inlet_area_ratio": 0.8276222158592462
+        },
+        "reference_velocity_m_s": 7.074687276993087,
+        "reference_velocity_pressure_Pa": 30.030720040348715,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.06324655312779319,
+        "support_indexes": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.06324655312779319100000000000",
+      "signed_tabulated_contribution_Pa": 1.8993395304977987
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-01",
+      "product_guid": "0ZvL2d7mjHBgUb$BMNqc3$",
+      "inlet_port_guid": "1pVn47NY1KMflWVCz2bgsw",
+      "outlet_port_guid": "0uZYnrfBXNr8VSgWpr1ybE",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.377277212680236,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.5633882756535026,
+          "outlet_to_inlet_area_ratio": 0.6949131141908539
+        },
+        "reference_velocity_m_s": 3.155859513055345,
+        "reference_velocity_pressure_Pa": 5.975669559685151,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16071811902247665,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1607181190224766959999999999",
+      "signed_tabulated_contribution_Pa": 0.9603983715324687
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-02",
+      "product_guid": "0605Yd06LLBBo7DnXK$8AR",
+      "inlet_port_guid": "3XAr0QVTvOSgYyzUQ6Xvvw",
+      "outlet_port_guid": "2ZDaM4bcjVFxiBwOYvysYH",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.5495060465276635,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.3539102793904836,
+        "reference_velocity_pressure_Pa": 3.3245361620521106,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.17241628118550326,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1724162811855032585000000000",
+      "signed_tabulated_contribution_Pa": 0.5732041617277505
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-03",
+      "product_guid": "1gUy0S3gzKSAO4VCRzaRLu",
+      "inlet_port_guid": "1Nach5LejUzeY7ZUbkDrc7",
+      "outlet_port_guid": "1JLWsaLT5O7wmQsr1xh5eo",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.562035401102524,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.3592248022111852,
+        "reference_velocity_pressure_Pa": 3.3395650004210435,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.17224087022145523,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1722408702214552114999999999",
+      "signed_tabulated_contribution_Pa": 0.575209581833635
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-04",
+      "product_guid": "1yo3oMeLjHKvejNdyVZDDU",
+      "inlet_port_guid": "3Fb1_rlLTOwvCtkxuUdnkQ",
+      "outlet_port_guid": "0bo4UCk3jQsOhBQgiVIkLJ",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.856110253902675,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.483961276613199,
+        "reference_velocity_pressure_Pa": 3.7020381742283233,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16812382228225312,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1681238222822530975000000000",
+      "signed_tabulated_contribution_Pa": 0.6224008080860794
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-05",
+      "product_guid": "14frf0CbvTmfmxDxOuXDDP",
+      "inlet_port_guid": "0y5$dSHeHL$wnTXqQhz2nL",
+      "outlet_port_guid": "0plidN9O5QH9zrBSz4f6Be",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.60382238223757,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.3769494075389015,
+        "reference_velocity_pressure_Pa": 3.389933091599721,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.1716558524855646,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1716558524855645674999999999",
+      "signed_tabulated_contribution_Pa": 0.5819018547075756
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-06",
+      "product_guid": "1jeQUDHlPPX8wGccFpt_S7",
+      "inlet_port_guid": "0jRRd$BevL9wnNgiDgCp4l",
+      "outlet_port_guid": "1H1IPd541UOOxIvPYcN19i",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.970820918274673,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 2.9547205440937114,
+        "reference_velocity_pressure_Pa": 5.238224096213663,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16640850714415456,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1664085071441545780000000000",
+      "signed_tabulated_contribution_Pa": 0.8716850519374538
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-07",
+      "product_guid": "0JfUHjcB5SvPKt2ri92tEC",
+      "inlet_port_guid": "2wrGC$CJvR6wjawiPZzMH3",
+      "outlet_port_guid": "0XNRziYMnRSAZw48dRG3TQ",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.872175916985237,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.490775780311042,
+        "reference_velocity_pressure_Pa": 3.7223783926704486,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16789890299909727,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1678989029990972295000000000",
+      "signed_tabulated_contribution_Pa": 0.6249832486769112
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-08",
+      "product_guid": "1iMV4IGVbTQQ3Zslkcf4ed",
+      "inlet_port_guid": "1su5cB_S1IcRXtUX$Q8Ame",
+      "outlet_port_guid": "2amXM29enGnBx8rNbrZ0yv",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.872175916985237,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.490775780311042,
+        "reference_velocity_pressure_Pa": 3.7223783926704486,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16789890299909727,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1678989029990972295000000000",
+      "signed_tabulated_contribution_Pa": 0.6249832486769112
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-09",
+      "product_guid": "073$13FGvKQfQFW3Bfaw_Y",
+      "inlet_port_guid": "0C28fjdfPNQwZ0BaMs$fxq",
+      "outlet_port_guid": "2iBmc_XkDQNhHaIU98VDTS",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.872175916985247,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.4907757803110466,
+        "reference_velocity_pressure_Pa": 3.722378392670462,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.1678989029990971,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1678989029990970895000000000",
+      "signed_tabulated_contribution_Pa": 0.6249832486769129
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-10",
+      "product_guid": "2ut_eWMFvGiPfJKc68n7Wb",
+      "inlet_port_guid": "0dV_$N8VnHSvpLvY6Mrwbb",
+      "outlet_port_guid": "3iZEMA19rOJu_aea_8ClaN",
+      "geometry": {
+        "width_m": 0.45,
+        "height_m": 0.25,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.1910087273593595,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.4027950739123582,
+          "outlet_to_inlet_area_ratio": 0.8827970302498626
+        },
+        "reference_velocity_m_s": 2.626013731842998,
+        "reference_velocity_pressure_Pa": 4.137568871896794,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16433286550174986,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1643328655017498624999999999",
+      "signed_tabulated_contribution_Pa": 0.6799385489296427
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-11",
+      "product_guid": "3eWODGgi1JVgoXONtliPba",
+      "inlet_port_guid": "2pTu_OvEzRixAZpKp_3SBi",
+      "outlet_port_guid": "0WkQg7YZHQFPGD_$Ou_6AY",
+      "geometry": {
+        "width_m": 0.45,
+        "height_m": 0.25,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.9177234613244,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.4027950739123582,
+          "outlet_to_inlet_area_ratio": 0.8827970302498626
+        },
+        "reference_velocity_m_s": 2.5100954876727513,
+        "reference_velocity_pressure_Pa": 3.780347614341064,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.1681588592262393,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1681588592262392955000000000",
+      "signed_tabulated_contribution_Pa": 0.6356989423062286
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-12",
+      "product_guid": "1GeF7U9_PHg89aSWWC4FLo",
+      "inlet_port_guid": "0WvpIl7srLrvHYUNmeG26J",
+      "outlet_port_guid": "0uxjwySrzIMeEzSFD1Xtho",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.425761489317274,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.5633882756535026,
+          "outlet_to_inlet_area_ratio": 0.6949131141908539
+        },
+        "reference_velocity_m_s": 3.179852443040318,
+        "reference_velocity_pressure_Pa": 6.066876935705687,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16003933914955812,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1600393391495581640000000000",
+      "signed_tabulated_contribution_Pa": 0.9709389754920343
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-13",
+      "product_guid": "0Lx_JY7arRsxNLeOIqw_of",
+      "inlet_port_guid": "3JIa7vu1zHi96L0Wj6DqfP",
+      "outlet_port_guid": "1lo7NtJoDM0fRhlrNgIqH8",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.112593032574002,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 3.024877895056579,
+        "reference_velocity_pressure_Pa": 5.489931768001152,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16442369754396394,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1644236975439639720000000000",
+      "signed_tabulated_contribution_Pa": 0.9026748805588206
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-14",
+      "product_guid": "2V76E$fNPNBBedH8MA2JbC",
+      "inlet_port_guid": "1s03h2g7bNwAwJSdhlOKED",
+      "outlet_port_guid": "3pJhFfmZXIvACE5RG3Vacs",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.159360838580802,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 3.048021412355439,
+        "reference_velocity_pressure_Pa": 5.5742607181063475,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16376894825986874,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1637689482598687720000000001",
+      "signed_tabulated_contribution_Pa": 0.9128908151305771
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-15",
+      "product_guid": "1MjS_85M1MDR3f02Qq8aC0",
+      "inlet_port_guid": "2qfzlVCkDS0RAhYug9_2BT",
+      "outlet_port_guid": "0EdSg9Fu5NS8HwLE2zgEJ6",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.176762799320552,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 3.0566329469516074,
+        "reference_velocity_pressure_Pa": 5.605802983434041,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16352532080951224,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1635253208095122719999999999",
+      "signed_tabulated_contribution_Pa": 0.9166907312609723
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-16",
+      "product_guid": "19FJZS12HTfv_ra$HIeypD",
+      "inlet_port_guid": "3mmpxSYKTI7hhVN6Ws0Z9x",
+      "outlet_port_guid": "0ZCj_ByzLOP9WTUXqP$YXl",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.572401469688886,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.3636217332529252,
+        "reference_velocity_pressure_Pa": 3.352024618743337,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.17209574526124616,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1720957452612461435000000000",
+      "signed_tabulated_contribution_Pa": 0.5768691748966791
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-17",
+      "product_guid": "3FRUibkjjTCA_HQeOt3zGq",
+      "inlet_port_guid": "3noMfqayHLR9Pk0mskH5Q4",
+      "outlet_port_guid": "1EP$Hx_cTMORCbUhsgiIGM",
+      "geometry": {
+        "width_m": 0.35,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.5554909381668285,
+          "L_over_D": 1.0000000000000002,
+          "B": 1.043746334756219,
+          "outlet_to_inlet_area_ratio": 0.9458539609819957
+        },
+        "reference_velocity_m_s": 2.3564488653172946,
+        "reference_velocity_pressure_Pa": 3.3317107529130987,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.172332492702555,
+        "support_indexes": [
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            1,
+            1
+          ],
+          [
+            3,
+            1,
+            2
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1723324927025549485000000000",
+      "signed_tabulated_contribution_Pa": 0.5741620190134206
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-18",
+      "product_guid": "2dMvZV34jPX8IHxG0dDJtT",
+      "inlet_port_guid": "2rT1348rvQ5R2Kl2vH_QQU",
+      "outlet_port_guid": "2ejz5swoTLwhunJhHTCsoW",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "diameter_m": 0.30479999999999996,
+        "taper_length_m": 0.3048,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 5.9834058914925015,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.8518430727880958,
+          "outlet_to_inlet_area_ratio": 0.7296587699003966
+        },
+        "reference_velocity_m_s": 2.960948344160496,
+        "reference_velocity_pressure_Pa": 5.2603290580720685,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.16623231751910494,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1662323175191049790000000001",
+      "signed_tabulated_contribution_Pa": 0.8744366902364104
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-19",
+      "product_guid": "3ZuxyTKx1MRw4gCYfVFRA_",
+      "inlet_port_guid": "2F4vqd15LVEQMhqOs4u2b9",
+      "outlet_port_guid": "1mazHYNZzST8PxqowUWGHS",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.817802002810094,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.9132780429116918,
+          "outlet_to_inlet_area_ratio": 0.8276222158592462
+        },
+        "reference_velocity_m_s": 2.891877958634765,
+        "reference_velocity_pressure_Pa": 5.017774876582545,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.15455077196065867,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1545507719606586839999999999",
+      "signed_tabulated_contribution_Pa": 0.7755009807006311
+    },
+    {
+      "stage": "longer_taper",
+      "condition": "minimum",
+      "id": "VAV-20",
+      "product_guid": "3FCff2DUrKkx8Orj$gw8Iu",
+      "inlet_port_guid": "2GrWPgM$fVMgPJsdYhsPFn",
+      "outlet_port_guid": "3MlNptuPvH8hZfILM_IdCW",
+      "geometry": {
+        "width_m": 0.4,
+        "height_m": 0.3,
+        "diameter_m": 0.35559999999999997,
+        "taper_length_m": 0.3556,
+        "start_collar_m": 0.05,
+        "end_collar_m": 0.04999999999999999,
+        "source_quantities": {
+          "Re_divided_by_1e4": 6.671625535554673,
+          "L_over_D": 1.0000000000000002,
+          "B": 0.9132780429116918,
+          "outlet_to_inlet_area_ratio": 0.8276222158592462
+        },
+        "reference_velocity_m_s": 2.8298749107972347,
+        "reference_velocity_pressure_Pa": 4.804915206455794,
+        "source_family_conditions": {
+          "H_less_than_D": true,
+          "contraction": true,
+          "rectangle_width_not_less_than_height": true
+        },
+        "scope": "Parameters of the supported native centred ruled-loft CSG family only; mesh/material checks and physical source applicability remain separate",
+        "physical_applicability_verified": false
+      },
+      "lookup": {
+        "status": "calculated",
+        "coefficient": 0.15659724250223453,
+        "support_indexes": [
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+      "physical_applicability_verified": false,
+      "independent_Decimal_coefficient": "0.1565972425022345780000000000",
+      "signed_tabulated_contribution_Pa": 0.7524364717880323
+    }
+  ]
+}
