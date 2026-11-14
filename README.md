@@ -1,5 +1,14 @@
 # BSE3227 HVAC mini-design
 
+The separate [manufacturer ADPI comparison](05_Calculations/Manufacturer%20ADPI%20Comparison.html)
+preserves the original course design. Native manufacturer chart extraction and
+source replay cover 365 points and six 600 mm panel neck tables. Eight sampled
+layouts across six necks yield no whole-layout candidate under the explicit paired
+curve diagnostic; this is not proof of global infeasibility or actual ADPI.
+The preliminary maximum and conditional part-load assumptions remain unverified.
+Official K-Select 13.3.54 has been downloaded and its signature verified, but no
+installer or selection run has executed. See 05_Calculations/Manufacturer_ADPI_Comparison.json.
+
 A new [connection layout study](03_Design_Drawings/Connection_Layout/Supply%20Air%20Distribution.pdf)
 actually relocates ten VAV groups and their taps, retaining all eighty diffuser
 positions/flows. Three inherited candidate sections increase to 550 x 350 mm;
