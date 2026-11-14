@@ -1,0 +1,798 @@
+{
+  "network_bodies": 129,
+  "ports": 277,
+  "links": 128,
+  "boundaries": 21,
+  "connected_directed_tree": true,
+  "trimmed_rectangular_segments": 20,
+  "original_requirement_ids_retained": 33,
+  "native_rectangular_cap_matches": 108,
+  "native_circular_cap_matches": 20,
+  "source_flows_reconciled_at_all277ports": true,
+  "maximum_m3_s": 12.000372763419485,
+  "minimum_m3_s": 4.800149105367794,
+  "raw_network_intersections": 0,
+  "raw_network_clearance_violations": 128,
+  "contact_waivers": 0,
+  "candidate_casings": 20,
+  "candidate_casings_moved": 5,
+  "casing_plus_network_intersections": 0,
+  "nonphysical_reservation_proxies_excluded_from149body_casing_intersection_check": 60,
+  "both_cases": {
+    "straight_spans": 65,
+    "fitting_paths": 83,
+    "conditional_values": 31,
+    "numerical_gaps": 52
+  },
+  "native_DWG_reopened": true,
+  "native_DWG_entities": 23196,
+  "all129native_GUIDs_in_section": true,
+  "actual_PDF_visually_inspected": true,
+  "PDF_review": "Actual horizontal material sections;20inlet labels, title/notes/reference show no observed clipping or overlap",
+  "print_reference_expected_mm": 50.0,
+  "print_reference_measured_mm": 49.99566666666666,
+  "native20CADlabel_datum_checks_pass": true,
+  "coordinate_CSV200cells_reconciled": true,
+  "pressure_HTML280cells_reconciled": true,
+  "scope": "Integrated rigid mixed-profile network to proposed equipment inlet boundaries; VAV internal/discharge/plenum/flex, actual installation and full pressure unresolved",
+  "pressure_budget_complete": false,
+  "full_pressure_verified": false,
+  "installation_verified": false,
+  "design_accepted": false,
+  "deliverable_sha256": {
+    "Candidate Equipment Spaces.ifc": "38368bd8236fd6a4b453c916254f016b97706666fb9ba356899f81311fd04f97",
+    "Supply Network with VAV Inlets.dwg": "254d596fb5b921801b88bd3217b35704ac4ec59bccf48e79c46476fc72389258",
+    "Supply Network with VAV Inlets.ifc": "79b669d2fc53a42b50c1eb34b9e311ad78386149f50d5e488f6a8fc56af6f0d0",
+    "Supply Network with VAV Inlets.pdf": "4f7b2f8adf01011096f61bb9cc2031a74bc207417d0cad1bc3873e251baabb1e"
+  },
+  "coordinates": [
+    {
+      "id": "VAV-01",
+      "inlet_point_m": [
+        68.245932,
+        19.520583999999996,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 575.6751425686068,
+      "qmin_L_s": 230.27005702744273,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "3ghabIwrDQLg6Y7VnT6k9S",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-02",
+      "inlet_point_m": [
+        75.68593200000001,
+        19.520583999999996,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 584.4445324089027,
+      "qmin_L_s": 233.7778129635611,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0CI$xPy$nOoQmwHjdwAjLE",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-03",
+      "inlet_point_m": [
+        83.12593199999999,
+        19.407277649053885,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -0.11330635094611452,
+        0.0
+      ],
+      "qmax_L_s": 585.7640575548338,
+      "qmin_L_s": 234.30562302193357,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0aSJlhhx9N2goyv7rs6Grd",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-04",
+      "inlet_point_m": [
+        90.56593199999999,
+        19.407277649053885,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -0.11330635094611452,
+        0.0
+      ],
+      "qmax_L_s": 616.7344607577531,
+      "qmin_L_s": 246.6937843031013,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "1aFMWquD1LhBYzkBn6nBgW",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-05",
+      "inlet_point_m": [
+        98.6984325,
+        19.520583999999996,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 590.1648406958004,
+      "qmin_L_s": 236.06593627832018,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "2GyaCxr2vTHu1DzdTPMY7i",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-06",
+      "inlet_point_m": [
+        105.6767655,
+        19.520583999999996,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 538.984439400712,
+      "qmin_L_s": 215.59377576028479,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "1JiggJBInVcfqALklD7mEk",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-07",
+      "inlet_point_m": [
+        68.245932,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 618.4264111528702,
+      "qmin_L_s": 247.37056446114812,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0qjKGdPovVTvPEUUC0DbI8",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-08",
+      "inlet_point_m": [
+        75.68593200000001,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 618.4264111528702,
+      "qmin_L_s": 247.37056446114812,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "3szP9lGPfSWx81bORgVyuh",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-09",
+      "inlet_point_m": [
+        83.12593199999999,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 618.4264111528714,
+      "qmin_L_s": 247.37056446114858,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "1TUaKP9KHMnvz3e4p1t0T2",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-10",
+      "inlet_point_m": [
+        90.56593199999999,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 652.0041910874131,
+      "qmin_L_s": 260.80167643496526,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0$iQoADbDIFP6aO3Yi4_Oc",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-11",
+      "inlet_point_m": [
+        98.6984325,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 623.2232368578052,
+      "qmin_L_s": 249.28929474312213,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0N_8ZHrmjQOv3eDx_LSQCR",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-12",
+      "inlet_point_m": [
+        105.6767655,
+        26.35058400000001,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -3.552713678800501e-15,
+        0.0
+      ],
+      "qmax_L_s": 580.0518055133923,
+      "qmin_L_s": 232.02072220535695,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "1K38iW1SfHTwx0umfXesVW",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-13",
+      "inlet_point_m": [
+        68.245932,
+        33.49404200000002,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qmax_L_s": 551.782171001471,
+      "qmin_L_s": 220.71286840058846,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "3a_POezRTQSeJiiavNVqIw",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-14",
+      "inlet_point_m": [
+        75.685932,
+        33.49404200000002,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qmax_L_s": 556.0038885923348,
+      "qmin_L_s": 222.4015554369339,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "1o0rNmVMbMffWfqaf_T5et",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-15",
+      "inlet_point_m": [
+        83.12593199999999,
+        33.362978919243126,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -0.13106308075689554,
+        0.0
+      ],
+      "qmax_L_s": 557.5747590274335,
+      "qmin_L_s": 223.0299036109734,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "21Gr8ySeTKJvZJWGXxSsih",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-16",
+      "inlet_point_m": [
+        90.56593200000002,
+        33.0672776490539,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -0.4267643509461223,
+        0.0
+      ],
+      "qmax_L_s": 586.8557568983574,
+      "qmin_L_s": 234.742302759343,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "1SO2KrjUzMtQBWLv4vMT1J",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-17",
+      "inlet_point_m": [
+        98.6984325,
+        33.18557891924312,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        -0.3084630807569013,
+        0.0
+      ],
+      "qmax_L_s": 585.0748294418718,
+      "qmin_L_s": 234.0299317767487,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "3m2dRiJ1vGYQnnGVoXLXcf",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-18",
+      "inlet_point_m": [
+        105.6767655,
+        33.49404200000002,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qmax_L_s": 540.1204816346908,
+      "qmin_L_s": 216.04819265387636,
+      "nominal_diameter_mm": 304.79999999999995,
+      "source_port_guid": "03ca1JnLjG7gceXjjtU5TO",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-19",
+      "inlet_point_m": [
+        98.6984325,
+        41.160584,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qmax_L_s": 718.0147332359453,
+      "qmin_L_s": 287.20589329437814,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "0t24RykiTV3A1Mx7Q3gKxN",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    },
+    {
+      "id": "VAV-20",
+      "inlet_point_m": [
+        105.6767655,
+        41.160584,
+        0.0
+      ],
+      "shift_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "qmax_L_s": 702.6202032835482,
+      "qmin_L_s": 281.0480813134193,
+      "nominal_diameter_mm": 355.59999999999997,
+      "source_port_guid": "1dg3L3cN1JwPXP7QTftlD8",
+      "datum": "Proposed equipment inlet collar entrance; installation unverified"
+    }
+  ],
+  "pressure": {
+    "maximum": {
+      "ports": 277,
+      "straight_sections": 65,
+      "fitting_paths": 83,
+      "conditional_values": 31,
+      "numerical_gaps": 52,
+      "outlet_paths": 20,
+      "inlet_m3_s": 12.000372763419485,
+      "rows": [
+        {
+          "id": "VAV-01",
+          "outlet_port_guid": "3ghabIwrDQLg6Y7VnT6k9S",
+          "flow_L_s": 575.6751425686068,
+          "known_straight_Pa": 31.896187065377493,
+          "conditional_signed_fitting_Pa": 50.93994699307337,
+          "missing_fitting_paths": 8,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-02",
+          "outlet_port_guid": "0CI$xPy$nOoQmwHjdwAjLE",
+          "flow_L_s": 584.4445324089027,
+          "known_straight_Pa": 24.04039933213362,
+          "conditional_signed_fitting_Pa": 44.223400724689256,
+          "missing_fitting_paths": 8,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-03",
+          "outlet_port_guid": "0aSJlhhx9N2goyv7rs6Grd",
+          "flow_L_s": 585.7640575548338,
+          "known_straight_Pa": 16.67813710190961,
+          "conditional_signed_fitting_Pa": 42.72784876961631,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-04",
+          "outlet_port_guid": "1aFMWquD1LhBYzkBn6nBgW",
+          "flow_L_s": 616.7344607577531,
+          "known_straight_Pa": 17.574611891758238,
+          "conditional_signed_fitting_Pa": 79.25373915221408,
+          "missing_fitting_paths": 6,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-05",
+          "outlet_port_guid": "2GyaCxr2vTHu1DzdTPMY7i",
+          "flow_L_s": 590.1648406958004,
+          "known_straight_Pa": 23.62479444984623,
+          "conditional_signed_fitting_Pa": 44.99147512110388,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-06",
+          "outlet_port_guid": "1JiggJBInVcfqALklD7mEk",
+          "flow_L_s": 538.984439400712,
+          "known_straight_Pa": 30.859326626600552,
+          "conditional_signed_fitting_Pa": 51.534759128682396,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-07",
+          "outlet_port_guid": "0qjKGdPovVTvPEUUC0DbI8",
+          "flow_L_s": 618.4264111528702,
+          "known_straight_Pa": 25.550371368809767,
+          "conditional_signed_fitting_Pa": 52.68461714597352,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-08",
+          "outlet_port_guid": "3szP9lGPfSWx81bORgVyuh",
+          "flow_L_s": 618.4264111528702,
+          "known_straight_Pa": 17.779736086859682,
+          "conditional_signed_fitting_Pa": 44.301201838974585,
+          "missing_fitting_paths": 6,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-09",
+          "outlet_port_guid": "1TUaKP9KHMnvz3e4p1t0T2",
+          "flow_L_s": 618.4264111528714,
+          "known_straight_Pa": 9.961889542264801,
+          "conditional_signed_fitting_Pa": 42.72784876961631,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-10",
+          "outlet_port_guid": "0$iQoADbDIFP6aO3Yi4_Oc",
+          "flow_L_s": 652.0041910874131,
+          "known_straight_Pa": 10.877607089357612,
+          "conditional_signed_fitting_Pa": 42.72784876961631,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-11",
+          "outlet_port_guid": "0N_8ZHrmjQOv3eDx_LSQCR",
+          "flow_L_s": 623.2232368578052,
+          "known_straight_Pa": 17.81983055144094,
+          "conditional_signed_fitting_Pa": 45.23362627657355,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-12",
+          "outlet_port_guid": "1K38iW1SfHTwx0umfXesVW",
+          "flow_L_s": 580.0518055133923,
+          "known_straight_Pa": 24.961294696553608,
+          "conditional_signed_fitting_Pa": 51.836581621051934,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-13",
+          "outlet_port_guid": "3a_POezRTQSeJiiavNVqIw",
+          "flow_L_s": 551.782171001471,
+          "known_straight_Pa": 19.694279650935584,
+          "conditional_signed_fitting_Pa": 52.883061223696885,
+          "missing_fitting_paths": 2,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-14",
+          "outlet_port_guid": "1o0rNmVMbMffWfqaf_T5et",
+          "flow_L_s": 556.0038885923348,
+          "known_straight_Pa": 12.586960598454281,
+          "conditional_signed_fitting_Pa": 45.10259530024974,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-15",
+          "outlet_port_guid": "21Gr8ySeTKJvZJWGXxSsih",
+          "flow_L_s": 557.5747590274335,
+          "known_straight_Pa": 5.845926474501602,
+          "conditional_signed_fitting_Pa": 42.72784876961631,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-16",
+          "outlet_port_guid": "1SO2KrjUzMtQBWLv4vMT1J",
+          "flow_L_s": 586.8557568983574,
+          "known_straight_Pa": 5.560068078879402,
+          "conditional_signed_fitting_Pa": 42.72784876961631,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-17",
+          "outlet_port_guid": "3m2dRiJ1vGYQnnGVoXLXcf",
+          "flow_L_s": 585.0748294418718,
+          "known_straight_Pa": 11.66435456652133,
+          "conditional_signed_fitting_Pa": 44.86122514969879,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-18",
+          "outlet_port_guid": "03ca1JnLjG7gceXjjtU5TO",
+          "flow_L_s": 540.1204816346908,
+          "known_straight_Pa": 18.613128893141983,
+          "conditional_signed_fitting_Pa": 51.3818797463035,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-19",
+          "outlet_port_guid": "0t24RykiTV3A1Mx7Q3gKxN",
+          "flow_L_s": 718.0147332359453,
+          "known_straight_Pa": 17.429353813727257,
+          "conditional_signed_fitting_Pa": 52.351422604727375,
+          "missing_fitting_paths": 2,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-20",
+          "outlet_port_guid": "1dg3L3cN1JwPXP7QTftlD8",
+          "flow_L_s": 702.6202032835482,
+          "known_straight_Pa": 23.80170993374604,
+          "conditional_signed_fitting_Pa": 52.95436637787805,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        }
+      ],
+      "critical_path": null,
+      "fan_duty_Pa": null
+    },
+    "minimum": {
+      "ports": 277,
+      "straight_sections": 65,
+      "fitting_paths": 83,
+      "conditional_values": 31,
+      "numerical_gaps": 52,
+      "outlet_paths": 20,
+      "inlet_m3_s": 4.800149105367794,
+      "rows": [
+        {
+          "id": "VAV-01",
+          "outlet_port_guid": "3ghabIwrDQLg6Y7VnT6k9S",
+          "flow_L_s": 230.27005702744273,
+          "known_straight_Pa": 5.84517307811018,
+          "conditional_signed_fitting_Pa": 8.302486780524728,
+          "missing_fitting_paths": 8,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-02",
+          "outlet_port_guid": "0CI$xPy$nOoQmwHjdwAjLE",
+          "flow_L_s": 233.7778129635611,
+          "known_straight_Pa": 4.384529282492793,
+          "conditional_signed_fitting_Pa": 7.075744115950279,
+          "missing_fitting_paths": 8,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-03",
+          "outlet_port_guid": "0aSJlhhx9N2goyv7rs6Grd",
+          "flow_L_s": 234.30562302193357,
+          "known_straight_Pa": 3.026764536978931,
+          "conditional_signed_fitting_Pa": 6.836455803138607,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-04",
+          "outlet_port_guid": "1aFMWquD1LhBYzkBn6nBgW",
+          "flow_L_s": 246.6937843031013,
+          "known_straight_Pa": 3.190925993863795,
+          "conditional_signed_fitting_Pa": 12.68059826435425,
+          "missing_fitting_paths": 6,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-05",
+          "outlet_port_guid": "2GyaCxr2vTHu1DzdTPMY7i",
+          "flow_L_s": 236.06593627832018,
+          "known_straight_Pa": 4.312027497475848,
+          "conditional_signed_fitting_Pa": 7.198636019376619,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-06",
+          "outlet_port_guid": "1JiggJBInVcfqALklD7mEk",
+          "flow_L_s": 215.59377576028479,
+          "known_straight_Pa": 5.659164377742446,
+          "conditional_signed_fitting_Pa": 8.396425084447483,
+          "missing_fitting_paths": 7,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-07",
+          "outlet_port_guid": "0qjKGdPovVTvPEUUC0DbI8",
+          "flow_L_s": 247.37056446114812,
+          "known_straight_Pa": 4.691947635332446,
+          "conditional_signed_fitting_Pa": 8.61428391416567,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-08",
+          "outlet_port_guid": "3szP9lGPfSWx81bORgVyuh",
+          "flow_L_s": 247.37056446114812,
+          "known_straight_Pa": 3.2473348400949784,
+          "conditional_signed_fitting_Pa": 7.088192294235931,
+          "missing_fitting_paths": 6,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-09",
+          "outlet_port_guid": "1TUaKP9KHMnvz3e4p1t0T2",
+          "flow_L_s": 247.37056446114858,
+          "known_straight_Pa": 1.8074143442454496,
+          "conditional_signed_fitting_Pa": 6.836455803138607,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-10",
+          "outlet_port_guid": "0$iQoADbDIFP6aO3Yi4_Oc",
+          "flow_L_s": 260.80167643496526,
+          "known_straight_Pa": 1.9748498800969534,
+          "conditional_signed_fitting_Pa": 6.836455803138607,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-11",
+          "outlet_port_guid": "0N_8ZHrmjQOv3eDx_LSQCR",
+          "flow_L_s": 249.28929474312213,
+          "known_straight_Pa": 3.258017374973537,
+          "conditional_signed_fitting_Pa": 7.2373802042517665,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-12",
+          "outlet_port_guid": "1K38iW1SfHTwx0umfXesVW",
+          "flow_L_s": 232.02072220535695,
+          "known_straight_Pa": 4.585578631241291,
+          "conditional_signed_fitting_Pa": 8.449100255650446,
+          "missing_fitting_paths": 5,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-13",
+          "outlet_port_guid": "3a_POezRTQSeJiiavNVqIw",
+          "flow_L_s": 220.71286840058846,
+          "known_straight_Pa": 3.6402290681325105,
+          "conditional_signed_fitting_Pa": 8.622006677025098,
+          "missing_fitting_paths": 2,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-14",
+          "outlet_port_guid": "1o0rNmVMbMffWfqaf_T5et",
+          "flow_L_s": 222.4015554369339,
+          "known_straight_Pa": 2.3151653888393384,
+          "conditional_signed_fitting_Pa": 7.216415248039956,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-15",
+          "outlet_port_guid": "21Gr8ySeTKJvZJWGXxSsih",
+          "flow_L_s": 223.0299036109734,
+          "known_straight_Pa": 1.0695626123288395,
+          "conditional_signed_fitting_Pa": 6.836455803138607,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-16",
+          "outlet_port_guid": "1SO2KrjUzMtQBWLv4vMT1J",
+          "flow_L_s": 234.742302759343,
+          "known_straight_Pa": 1.018839699254004,
+          "conditional_signed_fitting_Pa": 6.836455803138607,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-17",
+          "outlet_port_guid": "3m2dRiJ1vGYQnnGVoXLXcf",
+          "flow_L_s": 234.0299317767487,
+          "known_straight_Pa": 2.149776072118905,
+          "conditional_signed_fitting_Pa": 7.177796023951804,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-18",
+          "outlet_port_guid": "03ca1JnLjG7gceXjjtU5TO",
+          "flow_L_s": 216.04819265387636,
+          "known_straight_Pa": 3.4433391845181873,
+          "conditional_signed_fitting_Pa": 8.372822500130685,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-19",
+          "outlet_port_guid": "0t24RykiTV3A1Mx7Q3gKxN",
+          "flow_L_s": 287.20589329437814,
+          "known_straight_Pa": 3.200076253680584,
+          "conditional_signed_fitting_Pa": 8.705171377667588,
+          "missing_fitting_paths": 2,
+          "complete_pressure_Pa": null
+        },
+        {
+          "id": "VAV-20",
+          "outlet_port_guid": "1dg3L3cN1JwPXP7QTftlD8",
+          "flow_L_s": 281.0480813134193,
+          "known_straight_Pa": 4.384474422382879,
+          "conditional_signed_fitting_Pa": 9.00044018784837,
+          "missing_fitting_paths": 3,
+          "complete_pressure_Pa": null
+        }
+      ],
+      "critical_path": null,
+      "fan_duty_Pa": null
+    }
+  }
+}
