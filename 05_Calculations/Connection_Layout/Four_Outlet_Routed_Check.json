@@ -1,0 +1,4116 @@
+{
+  "route_count": 80,
+  "distinct_terminals": 80,
+  "source_group_flows_reconciled": true,
+  "assumptions": {
+    "bore_m": 0.25082499999999996,
+    "radius_over_bore": 1.5,
+    "initial_straight_m": 0.15,
+    "elevation_m": 0,
+    "roughness_m": 9e-05
+  },
+  "maximum_plan_centreline_m": 3.6572407040119117,
+  "turn_range_deg": [
+    1.0620142995436521,
+    72.80614153765131
+  ],
+  "routes": [
+    {
+      "vav": "VAV-01",
+      "terminal": "SD-01",
+      "outlet": "VAV-01-J-1",
+      "P": [
+        67.95700699999999,
+        18.288684
+      ],
+      "A": [
+        67.80700699999998,
+        18.288684
+      ],
+      "E": [
+        67.68256976392118,
+        18.26750991783309
+      ],
+      "T": [
+        66.385932,
+        17.813084
+      ],
+      "centre": [
+        67.80700699999998,
+        17.9124465
+      ],
+      "turn_deg": 19.31376848547581,
+      "signed_bulge": 0.08447227606774049,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3739623013842022,
+      "arc_length_m": 0.12682546659296312,
+      "plan_centreline_m": 1.6507877679771652,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13220794627087828,
+          "Reynolds": 44493.8030211605,
+          "Darcy_f": 0.02260124378390559,
+          "straight_only_Pa": 0.5898465784550929,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05288317850835132,
+          "Reynolds": 17797.521208464204,
+          "Darcy_f": 0.02736573688536474,
+          "straight_only_Pa": 0.11427042810965439,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-01",
+      "terminal": "SD-02",
+      "outlet": "VAV-01-J-2",
+      "P": [
+        68.534857,
+        18.288684
+      ],
+      "A": [
+        68.68485700000001,
+        18.288684
+      ],
+      "E": [
+        68.80929423607881,
+        18.26750991783309
+      ],
+      "T": [
+        70.105932,
+        17.813084
+      ],
+      "centre": [
+        68.68485700000001,
+        17.9124465
+      ],
+      "turn_deg": 19.31376848547581,
+      "signed_bulge": -0.08447227606774049,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3739623013842022,
+      "arc_length_m": 0.12682546659296312,
+      "plan_centreline_m": 1.6507877679771652,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.7223019279463088,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13929374904192296,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-01",
+      "terminal": "SD-13",
+      "outlet": "VAV-01-J-3",
+      "P": [
+        67.95700699999999,
+        18.644284
+      ],
+      "A": [
+        67.80700699999998,
+        18.644284
+      ],
+      "E": [
+        67.46473103706207,
+        18.864310675787433
+      ],
+      "T": [
+        66.385932,
+        21.228084000000003
+      ],
+      "centre": [
+        67.80700699999998,
+        19.020521499999997
+      ],
+      "turn_deg": 65.46858774541946,
+      "signed_bulge": -0.29369304776516053,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5983132395123167,
+      "arc_length_m": 0.42990492478146836,
+      "plan_centreline_m": 3.178218164293785,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.3025991192151238,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.25120231276423877,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-01",
+      "terminal": "SD-14",
+      "outlet": "VAV-01-J-4",
+      "P": [
+        68.534857,
+        18.644284
+      ],
+      "A": [
+        68.68485700000001,
+        18.644284
+      ],
+      "E": [
+        69.02713296293793,
+        18.864310675787433
+      ],
+      "T": [
+        70.105932,
+        21.228084000000003
+      ],
+      "centre": [
+        68.68485700000001,
+        19.020521499999997
+      ],
+      "turn_deg": 65.46858774541946,
+      "signed_bulge": 0.29369304776516053,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5983132395123167,
+      "arc_length_m": 0.42990492478146836,
+      "plan_centreline_m": 3.178218164293785,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.3025991192151238,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.25120231276423877,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-02",
+      "terminal": "SD-03",
+      "outlet": "VAV-02-J-1",
+      "P": [
+        75.346207,
+        18.288684
+      ],
+      "A": [
+        75.196207,
+        18.288684
+      ],
+      "E": [
+        75.06727312360069,
+        18.26590188887234
+      ],
+      "T": [
+        73.825932,
+        17.813084
+      ],
+      "centre": [
+        75.196207,
+        17.9124465
+      ],
+      "turn_deg": 20.041018209546323,
+      "signed_bulge": 0.08766901198195023,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.321352271585828,
+      "arc_length_m": 0.13160101237286662,
+      "plan_centreline_m": 1.6029532839586946,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6973667140514749,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13448506822274084,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-02",
+      "terminal": "SD-04",
+      "outlet": "VAV-02-J-2",
+      "P": [
+        76.02565700000001,
+        18.288684
+      ],
+      "A": [
+        76.17565700000002,
+        18.288684
+      ],
+      "E": [
+        76.30459087639933,
+        18.265901888872335
+      ],
+      "T": [
+        77.545932,
+        17.813084
+      ],
+      "centre": [
+        76.17565700000002,
+        17.9124465
+      ],
+      "turn_deg": 20.04101820954675,
+      "signed_bulge": -0.0876690119819521,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3213522715858,
+      "arc_length_m": 0.1316010123728694,
+      "plan_centreline_m": 1.6029532839586693,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14097733611117416,
+          "Reynolds": 47445.089348311005,
+          "Darcy_f": 0.0223321772659339,
+          "straight_only_Pa": 0.6398286951676043,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05639093444446967,
+          "Reynolds": 18978.0357393244,
+          "Darcy_f": 0.02696931960367213,
+          "straight_only_Pa": 0.12362964428299078,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-02",
+      "terminal": "SD-15",
+      "outlet": "VAV-02-J-3",
+      "P": [
+        75.346207,
+        18.644284
+      ],
+      "A": [
+        75.196207,
+        18.644284
+      ],
+      "E": [
+        74.85118181767115,
+        18.870480572366272
+      ],
+      "T": [
+        73.825932,
+        21.228084000000003
+      ],
+      "centre": [
+        75.196207,
+        19.020521499999997
+      ],
+      "turn_deg": 66.49724757201551,
+      "signed_bulge": -0.2985750387512717,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.570881387895024,
+      "arc_length_m": 0.43665970506018964,
+      "plan_centreline_m": 3.1575410929552135,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.2895974332204567,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.24869497682065034,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-02",
+      "terminal": "SD-16",
+      "outlet": "VAV-02-J-4",
+      "P": [
+        76.02565700000001,
+        18.644284
+      ],
+      "A": [
+        76.17565700000002,
+        18.644284
+      ],
+      "E": [
+        76.52068218232887,
+        18.870480572366276
+      ],
+      "T": [
+        77.545932,
+        21.228084000000003
+      ],
+      "centre": [
+        76.17565700000002,
+        19.020521499999997
+      ],
+      "turn_deg": 66.4972475720161,
+      "signed_bulge": 0.2985750387512745,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.57088138789501,
+      "arc_length_m": 0.43665970506019347,
+      "plan_centreline_m": 3.1575410929552032,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.2895974332204496,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.24869497682064903,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-03",
+      "terminal": "SD-05",
+      "outlet": "VAV-03-J-1",
+      "P": [
+        82.78620699999999,
+        18.11977764905389
+      ],
+      "A": [
+        82.63620699999998,
+        18.11977764905389
+      ],
+      "E": [
+        82.55150773081314,
+        18.11011986781294
+      ],
+      "T": [
+        81.26593199999999,
+        17.813084
+      ],
+      "centre": [
+        82.63620699999998,
+        17.743540149053892
+      ],
+      "turn_deg": 13.010041473291308,
+      "signed_bulge": 0.05682807070571901,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3194450600245362,
+      "arc_length_m": 0.0854315190473985,
+      "plan_centreline_m": 1.5548765790719348,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14229686125710417,
+          "Reynolds": 47889.1677383057,
+          "Darcy_f": 0.022293780405206125,
+          "straight_only_Pa": 0.6498978444918118,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.056918744502841664,
+          "Reynolds": 19155.66709532228,
+          "Darcy_f": 0.026912677518899916,
+          "straight_only_Pa": 0.12552732316284484,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-03",
+      "terminal": "SD-06",
+      "outlet": "VAV-03-J-2",
+      "P": [
+        83.465657,
+        18.11977764905389
+      ],
+      "A": [
+        83.615657,
+        18.11977764905389
+      ],
+      "E": [
+        83.70035626918684,
+        18.11011986781294
+      ],
+      "T": [
+        84.98593199999999,
+        17.813084
+      ],
+      "centre": [
+        83.615657,
+        17.743540149053892
+      ],
+      "turn_deg": 13.010041473291308,
+      "signed_bulge": -0.05682807070571901,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3194450600245362,
+      "arc_length_m": 0.0854315190473985,
+      "plan_centreline_m": 1.5548765790719348,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590997,
+          "Reynolds": 49748.754733168455,
+          "Darcy_f": 0.022138422742235108,
+          "straight_only_Pa": 0.6964627661083633,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.059128959506364,
+          "Reynolds": 19899.50189326739,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.1343107445873428,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-03",
+      "terminal": "SD-17",
+      "outlet": "VAV-03-J-3",
+      "P": [
+        82.78620699999999,
+        18.47537764905389
+      ],
+      "A": [
+        82.63620699999998,
+        18.47537764905389
+      ],
+      "E": [
+        82.2875744970768,
+        18.710158320615776
+      ],
+      "T": [
+        81.26593199999999,
+        21.228084000000003
+      ],
+      "centre": [
+        82.63620699999998,
+        18.851615149053888
+      ],
+      "turn_deg": 67.91525982957158,
+      "signed_bulge": -0.3053264175167034,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243857892,
+      "arc_length_m": 0.4459712004493122,
+      "plan_centreline_m": 3.3132682248351015,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.3589930451871755,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.2620777113585281,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-03",
+      "terminal": "SD-18",
+      "outlet": "VAV-03-J-4",
+      "P": [
+        83.465657,
+        18.47537764905389
+      ],
+      "A": [
+        83.615657,
+        18.47537764905389
+      ],
+      "E": [
+        83.96428950292318,
+        18.710158320615776
+      ],
+      "T": [
+        84.98593199999999,
+        21.228084000000003
+      ],
+      "centre": [
+        83.615657,
+        18.851615149053888
+      ],
+      "turn_deg": 67.91525982957158,
+      "signed_bulge": 0.3053264175167034,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243857892,
+      "arc_length_m": 0.4459712004493122,
+      "plan_centreline_m": 3.3132682248351015,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876591013,
+          "Reynolds": 49748.75473316851,
+          "Darcy_f": 0.022138422742235098,
+          "straight_only_Pa": 1.3589930451871843,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636406,
+          "Reynolds": 19899.501893267407,
+          "Darcy_f": 0.026683300486342137,
+          "straight_only_Pa": 0.26207771135853003,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-04",
+      "terminal": "SD-07",
+      "outlet": "VAV-04-J-1",
+      "P": [
+        90.22620699999999,
+        18.11977764905389
+      ],
+      "A": [
+        90.07620699999998,
+        18.11977764905389
+      ],
+      "E": [
+        89.99150773081314,
+        18.11011986781294
+      ],
+      "T": [
+        88.70593199999999,
+        17.813084
+      ],
+      "centre": [
+        90.07620699999998,
+        17.743540149053892
+      ],
+      "turn_deg": 13.010041473291308,
+      "signed_bulge": 0.05682807070571901,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3194450600245362,
+      "arc_length_m": 0.0854315190473985,
+      "plan_centreline_m": 1.5548765790719348,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.696462766108359,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13431074458734177,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-04",
+      "terminal": "SD-08",
+      "outlet": "VAV-04-J-2",
+      "P": [
+        90.90565699999999,
+        18.11977764905389
+      ],
+      "A": [
+        91.055657,
+        18.11977764905389
+      ],
+      "E": [
+        91.14035626918684,
+        18.11011986781294
+      ],
+      "T": [
+        92.42593199999999,
+        17.813084
+      ],
+      "centre": [
+        91.055657,
+        17.743540149053892
+      ],
+      "turn_deg": 13.010041473291308,
+      "signed_bulge": -0.05682807070571901,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3194450600245362,
+      "arc_length_m": 0.0854315190473985,
+      "plan_centreline_m": 1.5548765790719348,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1572150781832292,
+          "Reynolds": 52909.805484073026,
+          "Darcy_f": 0.021892767401480415,
+          "straight_only_Pa": 0.7790400610578723,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06288603127329168,
+          "Reynolds": 21163.92219362921,
+          "Darcy_f": 0.026319910319415486,
+          "straight_only_Pa": 0.14985233554996716,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-04",
+      "terminal": "SD-19",
+      "outlet": "VAV-04-J-3",
+      "P": [
+        90.22620699999999,
+        18.47537764905389
+      ],
+      "A": [
+        90.07620699999998,
+        18.47537764905389
+      ],
+      "E": [
+        89.7275744970768,
+        18.710158320615776
+      ],
+      "T": [
+        88.70593199999999,
+        21.228084000000003
+      ],
+      "centre": [
+        90.07620699999998,
+        18.851615149053888
+      ],
+      "turn_deg": 67.91525982957158,
+      "signed_bulge": -0.3053264175167034,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243857892,
+      "arc_length_m": 0.4459712004493122,
+      "plan_centreline_m": 3.3132682248351015,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590955,
+          "Reynolds": 49748.754733168316,
+          "Darcy_f": 0.022138422742235125,
+          "straight_only_Pa": 1.3589930451871755,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636383,
+          "Reynolds": 19899.50189326733,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.2620777113585281,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-04",
+      "terminal": "SD-20",
+      "outlet": "VAV-04-J-4",
+      "P": [
+        90.90565699999999,
+        18.47537764905389
+      ],
+      "A": [
+        91.055657,
+        18.47537764905389
+      ],
+      "E": [
+        91.40428950292318,
+        18.710158320615776
+      ],
+      "T": [
+        92.42593199999999,
+        21.228084000000003
+      ],
+      "centre": [
+        91.055657,
+        18.851615149053888
+      ],
+      "turn_deg": 67.91525982957158,
+      "signed_bulge": 0.3053264175167034,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243857892,
+      "arc_length_m": 0.4459712004493122,
+      "plan_centreline_m": 3.3132682248351015,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1638745850427049,
+          "Reynolds": 55151.02316259654,
+          "Darcy_f": 0.021731154358856253,
+          "straight_only_Pa": 1.6394420636305977,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06554983401708198,
+          "Reynolds": 22060.40926503862,
+          "Darcy_f": 0.02608033425085963,
+          "straight_only_Pa": 0.31480847302144305,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-05",
+      "terminal": "SD-09",
+      "outlet": "VAV-05-J-1",
+      "P": [
+        98.3587075,
+        18.23807891924311
+      ],
+      "A": [
+        98.20870749999999,
+        18.23807891924311
+      ],
+      "E": [
+        98.08213559156968,
+        18.216149489152
+      ],
+      "T": [
+        96.95384924999999,
+        17.813084
+      ],
+      "centre": [
+        98.20870749999999,
+        17.861841419243113
+      ],
+      "turn_deg": 19.6586014800679,
+      "signed_bulge": 0.08598782391515414,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.1981201346768433,
+      "arc_length_m": 0.12908984112290944,
+      "plan_centreline_m": 1.4772099757997528,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.15357715280241208,
+          "Reynolds": 51685.483195849025,
+          "Darcy_f": 0.021985322099837872,
+          "straight_only_Pa": 0.684907677650699,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06143086112096483,
+          "Reynolds": 20674.193278339608,
+          "Darcy_f": 0.026456928330476102,
+          "straight_only_Pa": 0.13187382569741654,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-05",
+      "terminal": "SD-10",
+      "outlet": "VAV-05-J-2",
+      "P": [
+        99.0381575,
+        18.23807891924311
+      ],
+      "A": [
+        99.1881575,
+        18.23807891924311
+      ],
+      "E": [
+        99.31472940843031,
+        18.216149489152
+      ],
+      "T": [
+        100.44301575,
+        17.813084
+      ],
+      "centre": [
+        99.1881575,
+        17.861841419243113
+      ],
+      "turn_deg": 19.6586014800679,
+      "signed_bulge": -0.08598782391515414,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.1981201346768433,
+      "arc_length_m": 0.12908984112290944,
+      "plan_centreline_m": 1.4772099757997528,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345542,
+          "Reynolds": 46661.7442020666,
+          "Darcy_f": 0.02240119140810652,
+          "straight_only_Pa": 0.5687941150789895,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738217,
+          "Reynolds": 18664.697680826637,
+          "Darcy_f": 0.027071080986642283,
+          "straight_only_Pa": 0.10997894726943273,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-05",
+      "terminal": "SD-21",
+      "outlet": "VAV-05-J-3",
+      "P": [
+        98.3587075,
+        18.59367891924311
+      ],
+      "A": [
+        98.20870749999999,
+        18.59367891924311
+      ],
+      "E": [
+        97.85672751637198,
+        18.837007625209484
+      ],
+      "T": [
+        96.95384924999999,
+        21.228084000000003
+      ],
+      "centre": [
+        98.20870749999999,
+        18.96991641924311
+      ],
+      "turn_deg": 69.31329941335538,
+      "signed_bulge": -0.3120077198375146,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.555862945067331,
+      "arc_length_m": 0.45515154361549187,
+      "plan_centreline_m": 3.161014488682823,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.15928824610647738,
+          "Reynolds": 53607.517897045516,
+          "Darcy_f": 0.02184140321198829,
+          "straight_only_Pa": 1.469167036220902,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06371529844259095,
+          "Reynolds": 21443.00715881821,
+          "Darcy_f": 0.026243813456967132,
+          "straight_only_Pa": 0.28244738865161373,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-05",
+      "terminal": "SD-22",
+      "outlet": "VAV-05-J-4",
+      "P": [
+        99.0381575,
+        18.59367891924311
+      ],
+      "A": [
+        99.1881575,
+        18.59367891924311
+      ],
+      "E": [
+        99.54013748362802,
+        18.837007625209484
+      ],
+      "T": [
+        100.44301575,
+        21.228084000000003
+      ],
+      "centre": [
+        99.1881575,
+        18.96991641924311
+      ],
+      "turn_deg": 69.31329941335538,
+      "signed_bulge": 0.3120077198375146,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.555862945067331,
+      "arc_length_m": 0.45515154361549187,
+      "plan_centreline_m": 3.161014488682823,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345556,
+          "Reynolds": 46661.74420206665,
+          "Darcy_f": 0.02240119140810652,
+          "straight_only_Pa": 1.1416481957177618,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738223,
+          "Reynolds": 18664.697680826655,
+          "Darcy_f": 0.027071080986642293,
+          "straight_only_Pa": 0.22074290747479058,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-06",
+      "terminal": "SD-11",
+      "outlet": "VAV-06-J-1",
+      "P": [
+        105.3878405,
+        18.288684
+      ],
+      "A": [
+        105.23784049999999,
+        18.288684
+      ],
+      "E": [
+        105.10270266321375,
+        18.263576705870964
+      ],
+      "T": [
+        103.93218225,
+        17.813084
+      ],
+      "centre": [
+        105.23784049999999,
+        17.9124465
+      ],
+      "turn_deg": 21.04998451033374,
+      "signed_bulge": 0.0921070361073053,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2542175711546355,
+      "arc_length_m": 0.13822647347695768,
+      "plan_centreline_m": 1.5424440446315932,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345484,
+          "Reynolds": 46661.74420206641,
+          "Darcy_f": 0.02240119140810654,
+          "straight_only_Pa": 0.5924625485656151,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738194,
+          "Reynolds": 18664.69768082656,
+          "Darcy_f": 0.02707108098664231,
+          "straight_only_Pa": 0.1145553472872392,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-06",
+      "terminal": "SD-12",
+      "outlet": "VAV-06-J-2",
+      "P": [
+        105.96569050000001,
+        18.288684
+      ],
+      "A": [
+        106.11569050000001,
+        18.288684
+      ],
+      "E": [
+        106.25082833678626,
+        18.263576705870964
+      ],
+      "T": [
+        107.42134875,
+        17.813084
+      ],
+      "centre": [
+        106.11569050000001,
+        17.9124465
+      ],
+      "turn_deg": 21.04998451033374,
+      "signed_bulge": -0.0921070361073053,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2542175711546355,
+      "arc_length_m": 0.13822647347695768,
+      "plan_centreline_m": 1.5424440446315932,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.12303527672034707,
+          "Reynolds": 41406.79529075276,
+          "Darcy_f": 0.022911688760668115,
+          "straight_only_Pa": 0.47716456851284084,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.04921411068813883,
+          "Reynolds": 16562.718116301105,
+          "Darcy_f": 0.02782212955705225,
+          "straight_only_Pa": 0.09270890214248576,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-06",
+      "terminal": "SD-23",
+      "outlet": "VAV-06-J-3",
+      "P": [
+        105.3878405,
+        18.644284
+      ],
+      "A": [
+        105.23784049999999,
+        18.644284
+      ],
+      "E": [
+        104.88941073055078,
+        18.878566041606092
+      ],
+      "T": [
+        103.93218225,
+        21.228084000000003
+      ],
+      "centre": [
+        105.23784049999999,
+        19.020521499999997
+      ],
+      "turn_deg": 67.83328899779629,
+      "signed_bulge": -0.304935451906841,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.537029956621137,
+      "arc_length_m": 0.4454329321670382,
+      "plan_centreline_m": 3.132462888788175,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.138649720893455,
+          "Reynolds": 46661.74420206646,
+          "Darcy_f": 0.02240119140810653,
+          "straight_only_Pa": 1.1337022473397074,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.055459888357382,
+          "Reynolds": 18664.697680826583,
+          "Darcy_f": 0.02707108098664231,
+          "straight_only_Pa": 0.21920652196286555,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-06",
+      "terminal": "SD-24",
+      "outlet": "VAV-06-J-4",
+      "P": [
+        105.96569050000001,
+        18.644284
+      ],
+      "A": [
+        106.11569050000001,
+        18.644284
+      ],
+      "E": [
+        106.46412026944923,
+        18.878566041606092
+      ],
+      "T": [
+        107.42134875,
+        21.228084000000003
+      ],
+      "centre": [
+        106.11569050000001,
+        19.020521499999997
+      ],
+      "turn_deg": 67.83328899779629,
+      "signed_bulge": 0.304935451906841,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.537029956621137,
+      "arc_length_m": 0.4454329321670382,
+      "plan_centreline_m": 3.132462888788175,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.138649720893455,
+          "Reynolds": 46661.74420206646,
+          "Darcy_f": 0.02240119140810653,
+          "straight_only_Pa": 1.1337022473397074,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.055459888357382,
+          "Reynolds": 18664.697680826583,
+          "Darcy_f": 0.02707108098664231,
+          "straight_only_Pa": 0.21920652196286555,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-07",
+      "terminal": "SD-25",
+      "outlet": "VAV-07-J-1",
+      "P": [
+        67.906207,
+        25.118684000000012
+      ],
+      "A": [
+        67.75620699999999,
+        25.118684000000012
+      ],
+      "E": [
+        67.62727312360067,
+        25.095901888872348
+      ],
+      "T": [
+        66.385932,
+        24.64308400000001
+      ],
+      "centre": [
+        67.75620699999999,
+        24.742446500000014
+      ],
+      "turn_deg": 20.041018209546685,
+      "signed_bulge": 0.08766901198195182,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3213522715858146,
+      "arc_length_m": 0.13160101237286898,
+      "plan_centreline_m": 1.6029532839586835,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6973667140514686,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13448506822273965,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-07",
+      "terminal": "SD-26",
+      "outlet": "VAV-07-J-2",
+      "P": [
+        68.585657,
+        25.118684000000012
+      ],
+      "A": [
+        68.735657,
+        25.118684000000012
+      ],
+      "E": [
+        68.86459087639932,
+        25.095901888872348
+      ],
+      "T": [
+        70.105932,
+        24.64308400000001
+      ],
+      "centre": [
+        68.735657,
+        24.742446500000014
+      ],
+      "turn_deg": 20.041018209546685,
+      "signed_bulge": -0.08766901198195182,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3213522715858146,
+      "arc_length_m": 0.13160101237286898,
+      "plan_centreline_m": 1.6029532839586835,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6973667140514686,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13448506822273965,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-07",
+      "terminal": "SD-37",
+      "outlet": "VAV-07-J-3",
+      "P": [
+        67.906207,
+        25.47428400000001
+      ],
+      "A": [
+        67.75620699999999,
+        25.47428400000001
+      ],
+      "E": [
+        67.41118181767114,
+        25.70048057236629
+      ],
+      "T": [
+        66.385932,
+        28.058084000000004
+      ],
+      "centre": [
+        67.75620699999999,
+        25.85052150000001
+      ],
+      "turn_deg": 66.49724757201571,
+      "signed_bulge": -0.29857503875127267,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5708813878950054,
+      "arc_length_m": 0.436659705060191,
+      "plan_centreline_m": 3.1575410929551966,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5130304948246835,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.2907207157352204,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-07",
+      "terminal": "SD-38",
+      "outlet": "VAV-07-J-4",
+      "P": [
+        68.585657,
+        25.47428400000001
+      ],
+      "A": [
+        68.735657,
+        25.47428400000001
+      ],
+      "E": [
+        69.08068218232886,
+        25.70048057236629
+      ],
+      "T": [
+        70.105932,
+        28.058084000000004
+      ],
+      "centre": [
+        68.735657,
+        25.85052150000001
+      ],
+      "turn_deg": 66.49724757201571,
+      "signed_bulge": 0.29857503875127267,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5708813878950054,
+      "arc_length_m": 0.436659705060191,
+      "plan_centreline_m": 3.1575410929551966,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5130304948246835,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.2907207157352204,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-08",
+      "terminal": "SD-27",
+      "outlet": "VAV-08-J-1",
+      "P": [
+        75.346207,
+        25.118684000000012
+      ],
+      "A": [
+        75.196207,
+        25.118684000000012
+      ],
+      "E": [
+        75.06727312360069,
+        25.095901888872348
+      ],
+      "T": [
+        73.825932,
+        24.64308400000001
+      ],
+      "centre": [
+        75.196207,
+        24.742446500000014
+      ],
+      "turn_deg": 20.041018209546472,
+      "signed_bulge": 0.08766901198195087,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3213522715858277,
+      "arc_length_m": 0.1316010123728676,
+      "plan_centreline_m": 1.6029532839586953,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6973667140514747,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.1344850682227408,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-08",
+      "terminal": "SD-28",
+      "outlet": "VAV-08-J-2",
+      "P": [
+        76.02565700000001,
+        25.118684000000012
+      ],
+      "A": [
+        76.17565700000002,
+        25.118684000000012
+      ],
+      "E": [
+        76.30459087639933,
+        25.095901888872348
+      ],
+      "T": [
+        77.545932,
+        24.64308400000001
+      ],
+      "centre": [
+        76.17565700000002,
+        24.742446500000014
+      ],
+      "turn_deg": 20.041018209546895,
+      "signed_bulge": -0.08766901198195273,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3213522715858013,
+      "arc_length_m": 0.13160101237287036,
+      "plan_centreline_m": 1.6029532839586715,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6973667140514622,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.1344850682227384,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-08",
+      "terminal": "SD-39",
+      "outlet": "VAV-08-J-3",
+      "P": [
+        75.346207,
+        25.47428400000001
+      ],
+      "A": [
+        75.196207,
+        25.47428400000001
+      ],
+      "E": [
+        74.85118181767115,
+        25.700480572366285
+      ],
+      "T": [
+        73.825932,
+        28.058084000000004
+      ],
+      "centre": [
+        75.196207,
+        25.85052150000001
+      ],
+      "turn_deg": 66.49724757201543,
+      "signed_bulge": -0.2985750387512713,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5708813878950143,
+      "arc_length_m": 0.43665970506018903,
+      "plan_centreline_m": 3.1575410929552032,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5130304948246887,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.29072071573522135,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-08",
+      "terminal": "SD-40",
+      "outlet": "VAV-08-J-4",
+      "P": [
+        76.02565700000001,
+        25.47428400000001
+      ],
+      "A": [
+        76.17565700000002,
+        25.47428400000001
+      ],
+      "E": [
+        76.52068218232887,
+        25.70048057236629
+      ],
+      "T": [
+        77.545932,
+        28.058084000000004
+      ],
+      "centre": [
+        76.17565700000002,
+        25.85052150000001
+      ],
+      "turn_deg": 66.49724757201601,
+      "signed_bulge": 0.29857503875127406,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5708813878949996,
+      "arc_length_m": 0.43665970506019286,
+      "plan_centreline_m": 3.1575410929551926,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5130304948246802,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.2907207157352198,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-09",
+      "terminal": "SD-29",
+      "outlet": "VAV-09-J-1",
+      "P": [
+        82.78620699999999,
+        25.068078919243124
+      ],
+      "A": [
+        82.63620699999998,
+        25.068078919243124
+      ],
+      "E": [
+        82.52016842920187,
+        25.049737642320963
+      ],
+      "T": [
+        81.26593199999999,
+        24.64308400000001
+      ],
+      "centre": [
+        82.63620699999998,
+        24.691841419243126
+      ],
+      "turn_deg": 17.963942241351866,
+      "signed_bulge": 0.07854340262540274,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3185128763686704,
+      "arc_length_m": 0.11796172033033268,
+      "plan_centreline_m": 1.586474596699003,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6960209454339102,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13422554080237728,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-09",
+      "terminal": "SD-30",
+      "outlet": "VAV-09-J-2",
+      "P": [
+        83.465657,
+        25.068078919243124
+      ],
+      "A": [
+        83.615657,
+        25.068078919243124
+      ],
+      "E": [
+        83.73169557079811,
+        25.049737642320963
+      ],
+      "T": [
+        84.98593199999999,
+        24.64308400000001
+      ],
+      "centre": [
+        83.615657,
+        24.691841419243126
+      ],
+      "turn_deg": 17.963942241351866,
+      "signed_bulge": -0.07854340262540274,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3185128763686704,
+      "arc_length_m": 0.11796172033033268,
+      "plan_centreline_m": 1.586474596699003,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590997,
+          "Reynolds": 49748.754733168455,
+          "Darcy_f": 0.022138422742235108,
+          "straight_only_Pa": 0.6960209454339147,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.059128959506364,
+          "Reynolds": 19899.50189326739,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.13422554080237828,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-09",
+      "terminal": "SD-41",
+      "outlet": "VAV-09-J-3",
+      "P": [
+        82.78620699999999,
+        25.423678919243123
+      ],
+      "A": [
+        82.63620699999998,
+        25.423678919243123
+      ],
+      "E": [
+        82.29003456670729,
+        25.65254171709088
+      ],
+      "T": [
+        81.26593199999999,
+        28.058084000000004
+      ],
+      "centre": [
+        82.63620699999998,
+        25.79991641924312
+      ],
+      "turn_deg": 66.93927082611928,
+      "signed_bulge": -0.30067687906612023,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.6144635667761977,
+      "arc_length_m": 0.43956228751005216,
+      "plan_centreline_m": 3.20402585428625,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5372657172682327,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.29537738408320857,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-09",
+      "terminal": "SD-42",
+      "outlet": "VAV-09-J-4",
+      "P": [
+        83.465657,
+        25.423678919243123
+      ],
+      "A": [
+        83.615657,
+        25.423678919243123
+      ],
+      "E": [
+        83.96182943329269,
+        25.65254171709088
+      ],
+      "T": [
+        84.98593199999999,
+        28.058084000000004
+      ],
+      "centre": [
+        83.615657,
+        25.79991641924312
+      ],
+      "turn_deg": 66.93927082611928,
+      "signed_bulge": 0.30067687906612023,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.6144635667761977,
+      "arc_length_m": 0.43956228751005216,
+      "plan_centreline_m": 3.20402585428625,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1613908068105263,
+          "Reynolds": 54315.122276696886,
+          "Darcy_f": 0.021790294653838437,
+          "straight_only_Pa": 1.5372657172682442,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421051,
+          "Reynolds": 21726.04891067875,
+          "Darcy_f": 0.026168053450978532,
+          "straight_only_Pa": 0.29537738408321035,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-10",
+      "terminal": "SD-31",
+      "outlet": "VAV-10-J-1",
+      "P": [
+        90.22620699999999,
+        25.068078919243124
+      ],
+      "A": [
+        90.07620699999998,
+        25.068078919243124
+      ],
+      "E": [
+        89.96016842920187,
+        25.049737642320963
+      ],
+      "T": [
+        88.70593199999999,
+        24.64308400000001
+      ],
+      "centre": [
+        90.07620699999998,
+        24.691841419243126
+      ],
+      "turn_deg": 17.963942241351866,
+      "signed_bulge": 0.07854340262540274,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3185128763686704,
+      "arc_length_m": 0.11796172033033268,
+      "plan_centreline_m": 1.586474596699003,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1478223987659094,
+          "Reynolds": 49748.75473316827,
+          "Darcy_f": 0.022138422742235136,
+          "straight_only_Pa": 0.6960209454339102,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636377,
+          "Reynolds": 19899.501893267312,
+          "Darcy_f": 0.02668330048634216,
+          "straight_only_Pa": 0.13422554080237728,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-10",
+      "terminal": "SD-32",
+      "outlet": "VAV-10-J-2",
+      "P": [
+        90.90565699999999,
+        25.068078919243124
+      ],
+      "A": [
+        91.055657,
+        25.068078919243124
+      ],
+      "E": [
+        91.17169557079811,
+        25.049737642320963
+      ],
+      "T": [
+        92.42593199999999,
+        24.64308400000001
+      ],
+      "centre": [
+        91.055657,
+        24.691841419243126
+      ],
+      "turn_deg": 17.963942241351866,
+      "signed_bulge": -0.07854340262540274,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3185128763686704,
+      "arc_length_m": 0.11796172033033268,
+      "plan_centreline_m": 1.586474596699003,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16387458504270475,
+          "Reynolds": 55151.02316259648,
+          "Darcy_f": 0.021731154358856253,
+          "straight_only_Pa": 0.8396555222658447,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.0655498340170819,
+          "Reynolds": 22060.409265038597,
+          "Darcy_f": 0.02608033425085963,
+          "straight_only_Pa": 0.1612320915099397,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-10",
+      "terminal": "SD-43",
+      "outlet": "VAV-10-J-3",
+      "P": [
+        90.22620699999999,
+        25.423678919243123
+      ],
+      "A": [
+        90.07620699999998,
+        25.423678919243123
+      ],
+      "E": [
+        89.73003456670729,
+        25.65254171709088
+      ],
+      "T": [
+        88.70593199999999,
+        28.058084000000004
+      ],
+      "centre": [
+        90.07620699999998,
+        25.79991641924312
+      ],
+      "turn_deg": 66.93927082611928,
+      "signed_bulge": -0.30067687906612023,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.6144635667761977,
+      "arc_length_m": 0.43956228751005216,
+      "plan_centreline_m": 3.20402585428625,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16139080681052567,
+          "Reynolds": 54315.12227669667,
+          "Darcy_f": 0.021790294653838443,
+          "straight_only_Pa": 1.5372657172682327,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06455632272421027,
+          "Reynolds": 21726.048910678674,
+          "Darcy_f": 0.026168053450978564,
+          "straight_only_Pa": 0.29537738408320857,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-10",
+      "terminal": "SD-44",
+      "outlet": "VAV-10-J-4",
+      "P": [
+        90.90565699999999,
+        25.423678919243123
+      ],
+      "A": [
+        91.055657,
+        25.423678919243123
+      ],
+      "E": [
+        91.40182943329269,
+        25.65254171709088
+      ],
+      "T": [
+        92.42593199999999,
+        28.058084000000004
+      ],
+      "centre": [
+        91.055657,
+        25.79991641924312
+      ],
+      "turn_deg": 66.93927082611928,
+      "signed_bulge": 0.30067687906612023,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.6144635667761977,
+      "arc_length_m": 0.43956228751005216,
+      "plan_centreline_m": 3.20402585428625,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.17891640046827323,
+          "Reynolds": 60213.25725293359,
+          "Darcy_f": 0.02139902577516035,
+          "straight_only_Pa": 1.8553359511640184,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.0715665601873093,
+          "Reynolds": 24085.302901173443,
+          "Darcy_f": 0.025586564836309462,
+          "straight_only_Pa": 0.3549445594869906,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-11",
+      "terminal": "SD-33",
+      "outlet": "VAV-11-J-1",
+      "P": [
+        98.3587075,
+        25.118684000000012
+      ],
+      "A": [
+        98.20870749999999,
+        25.118684000000012
+      ],
+      "E": [
+        98.06826426869642,
+        25.09148855360855
+      ],
+      "T": [
+        96.95384924999999,
+        24.64308400000001
+      ],
+      "centre": [
+        98.20870749999999,
+        24.742446500000014
+      ],
+      "turn_deg": 21.918259118386345,
+      "signed_bulge": 0.09592909184527988,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2012441373813432,
+      "arc_length_m": 0.1439280708829691,
+      "plan_centreline_m": 1.4951722082643122,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1592882461064772,
+          "Reynolds": 53607.517897045465,
+          "Darcy_f": 0.02184140321198829,
+          "straight_only_Pa": 0.7336673677971575,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06371529844259088,
+          "Reynolds": 21443.00715881819,
+          "Darcy_f": 0.026243813456967142,
+          "straight_only_Pa": 0.14104756441190153,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-11",
+      "terminal": "SD-34",
+      "outlet": "VAV-11-J-2",
+      "P": [
+        99.0381575,
+        25.118684000000012
+      ],
+      "A": [
+        99.1881575,
+        25.118684000000012
+      ],
+      "E": [
+        99.32860073130357,
+        25.09148855360855
+      ],
+      "T": [
+        100.44301575,
+        24.64308400000001
+      ],
+      "centre": [
+        99.1881575,
+        24.742446500000014
+      ],
+      "turn_deg": 21.918259118386345,
+      "signed_bulge": -0.09592909184527988,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2012441373813432,
+      "arc_length_m": 0.1439280708829691,
+      "plan_centreline_m": 1.4951722082643122,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345542,
+          "Reynolds": 46661.7442020666,
+          "Darcy_f": 0.02240119140810652,
+          "straight_only_Pa": 0.5701121833342613,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738217,
+          "Reynolds": 18664.697680826637,
+          "Darcy_f": 0.027071080986642283,
+          "straight_only_Pa": 0.11023380180343917,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-11",
+      "terminal": "SD-45",
+      "outlet": "VAV-11-J-3",
+      "P": [
+        98.3587075,
+        25.47428400000001
+      ],
+      "A": [
+        98.20870749999999,
+        25.47428400000001
+      ],
+      "E": [
+        97.85768307115863,
+        25.71510914176469
+      ],
+      "T": [
+        96.95384924999999,
+        28.058084000000004
+      ],
+      "centre": [
+        98.20870749999999,
+        25.85052150000001
+      ],
+      "turn_deg": 68.90521362170358,
+      "signed_bulge": -0.3100548522486671,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.511263977082662,
+      "arc_length_m": 0.4524718143345325,
+      "plan_centreline_m": 3.113735791417194,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1739090879946307,
+          "Reynolds": 58528.0758311515,
+          "Darcy_f": 0.021504915996442744,
+          "straight_only_Pa": 1.6958508134414234,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06956363519785229,
+          "Reynolds": 23411.230332460604,
+          "Darcy_f": 0.025744210206137267,
+          "straight_only_Pa": 0.3248250015146801,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-11",
+      "terminal": "SD-46",
+      "outlet": "VAV-11-J-4",
+      "P": [
+        99.0381575,
+        25.47428400000001
+      ],
+      "A": [
+        99.1881575,
+        25.47428400000001
+      ],
+      "E": [
+        99.53918192884136,
+        25.71510914176469
+      ],
+      "T": [
+        100.44301575,
+        28.058084000000004
+      ],
+      "centre": [
+        99.1881575,
+        25.85052150000001
+      ],
+      "turn_deg": 68.90521362170358,
+      "signed_bulge": 0.3100548522486671,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.511263977082662,
+      "arc_length_m": 0.4524718143345325,
+      "plan_centreline_m": 3.113735791417194,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.15137618186324192,
+          "Reynolds": 50944.7594331329,
+          "Darcy_f": 0.02204287918413902,
+          "straight_only_Pa": 1.3170090296093084,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06055047274529677,
+          "Reynolds": 20377.90377325316,
+          "Darcy_f": 0.02654207100414607,
+          "straight_only_Pa": 0.25373198762270227,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-12",
+      "terminal": "SD-35",
+      "outlet": "VAV-12-J-1",
+      "P": [
+        105.3878405,
+        25.118684000000012
+      ],
+      "A": [
+        105.23784049999999,
+        25.118684000000012
+      ],
+      "E": [
+        105.10270266321375,
+        25.093576705870976
+      ],
+      "T": [
+        103.93218225,
+        24.64308400000001
+      ],
+      "centre": [
+        105.23784049999999,
+        24.742446500000014
+      ],
+      "turn_deg": 21.049984510333893,
+      "signed_bulge": 0.09210703610730597,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2542175711546368,
+      "arc_length_m": 0.13822647347695868,
+      "plan_centreline_m": 1.5424440446315955,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345484,
+          "Reynolds": 46661.74420206641,
+          "Darcy_f": 0.02240119140810654,
+          "straight_only_Pa": 0.5924625485656158,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738194,
+          "Reynolds": 18664.69768082656,
+          "Darcy_f": 0.02707108098664231,
+          "straight_only_Pa": 0.11455534728723932,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-12",
+      "terminal": "SD-36",
+      "outlet": "VAV-12-J-2",
+      "P": [
+        105.96569050000001,
+        25.118684000000012
+      ],
+      "A": [
+        106.11569050000001,
+        25.118684000000012
+      ],
+      "E": [
+        106.25082833678626,
+        25.093576705870976
+      ],
+      "T": [
+        107.42134875,
+        24.64308400000001
+      ],
+      "centre": [
+        106.11569050000001,
+        24.742446500000014
+      ],
+      "turn_deg": 21.049984510333893,
+      "signed_bulge": -0.09210703610730597,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2542175711546368,
+      "arc_length_m": 0.13822647347695868,
+      "plan_centreline_m": 1.5424440446315955,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345484,
+          "Reynolds": 46661.74420206641,
+          "Darcy_f": 0.02240119140810654,
+          "straight_only_Pa": 0.5924625485656158,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738194,
+          "Reynolds": 18664.69768082656,
+          "Darcy_f": 0.02707108098664231,
+          "straight_only_Pa": 0.11455534728723932,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-12",
+      "terminal": "SD-47",
+      "outlet": "VAV-12-J-3",
+      "P": [
+        105.3878405,
+        25.47428400000001
+      ],
+      "A": [
+        105.23784049999999,
+        25.47428400000001
+      ],
+      "E": [
+        104.8894107305508,
+        25.708566041606105
+      ],
+      "T": [
+        103.93218225,
+        28.058084000000004
+      ],
+      "centre": [
+        105.23784049999999,
+        25.85052150000001
+      ],
+      "turn_deg": 67.83328899779619,
+      "signed_bulge": -0.3049354519068405,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.537029956621132,
+      "arc_length_m": 0.44543293216703755,
+      "plan_centreline_m": 3.1324628887881696,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1513761818632413,
+          "Reynolds": 50944.759433132705,
+          "Darcy_f": 0.022042879184139035,
+          "straight_only_Pa": 1.3297601238266006,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06055047274529653,
+          "Reynolds": 20377.90377325308,
+          "Darcy_f": 0.02654207100414608,
+          "straight_only_Pa": 0.25618858465991295,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-12",
+      "terminal": "SD-48",
+      "outlet": "VAV-12-J-4",
+      "P": [
+        105.96569050000001,
+        25.47428400000001
+      ],
+      "A": [
+        106.11569050000001,
+        25.47428400000001
+      ],
+      "E": [
+        106.46412026944921,
+        25.708566041606105
+      ],
+      "T": [
+        107.42134875,
+        28.058084000000004
+      ],
+      "centre": [
+        106.11569050000001,
+        25.85052150000001
+      ],
+      "turn_deg": 67.83328899779619,
+      "signed_bulge": 0.3049354519068405,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.537029956621132,
+      "arc_length_m": 0.44543293216703755,
+      "plan_centreline_m": 3.1324628887881696,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1513761818632413,
+          "Reynolds": 50944.759433132705,
+          "Darcy_f": 0.022042879184139035,
+          "straight_only_Pa": 1.3297601238266006,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06055047274529653,
+          "Reynolds": 20377.90377325308,
+          "Darcy_f": 0.02654207100414608,
+          "straight_only_Pa": 0.25618858465991295,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-13",
+      "terminal": "SD-49",
+      "outlet": "VAV-13-J-1",
+      "P": [
+        67.95700699999999,
+        32.26214200000002
+      ],
+      "A": [
+        67.80700699999998,
+        32.26214200000002
+      ],
+      "E": [
+        67.76370228860934,
+        32.25964151767103
+      ],
+      "T": [
+        66.385932,
+        32.1
+      ],
+      "centre": [
+        67.80700699999998,
+        31.88590450000002
+      ],
+      "turn_deg": 6.609358455040235,
+      "signed_bulge": 0.028846764103663568,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3869882416008346,
+      "arc_length_m": 0.043400901826641795,
+      "plan_centreline_m": 1.5803891434274764,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13545179079297537,
+          "Reynolds": 45585.499725243186,
+          "Darcy_f": 0.02249878813109786,
+          "straight_only_Pa": 0.6216079446225494,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05418071631719015,
+          "Reynolds": 18234.199890097276,
+          "Darcy_f": 0.027214888666637686,
+          "straight_only_Pa": 0.12030508245067638,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-13",
+      "terminal": "SD-50",
+      "outlet": "VAV-13-J-2",
+      "P": [
+        68.534857,
+        32.26214200000002
+      ],
+      "A": [
+        68.68485700000001,
+        32.26214200000002
+      ],
+      "E": [
+        68.72816171139065,
+        32.25964151767103
+      ],
+      "T": [
+        70.105932,
+        32.1
+      ],
+      "centre": [
+        68.68485700000001,
+        31.88590450000002
+      ],
+      "turn_deg": 6.609358455040235,
+      "signed_bulge": -0.028846764103663568,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3869882416008346,
+      "arc_length_m": 0.043400901826641795,
+      "plan_centreline_m": 1.5803891434274764,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590972,
+          "Reynolds": 49748.754733168375,
+          "Darcy_f": 0.022138422742235115,
+          "straight_only_Pa": 0.7284757432193276,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636389,
+          "Reynolds": 19899.50189326735,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.14048435070308177,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-13",
+      "terminal": "SD-61",
+      "outlet": "VAV-13-J-3",
+      "P": [
+        67.95700699999999,
+        32.61774200000002
+      ],
+      "A": [
+        67.80700699999998,
+        32.61774200000002
+      ],
+      "E": [
+        67.47400203937596,
+        32.81887281079015
+      ],
+      "T": [
+        66.385932,
+        34.88808400000001
+      ],
+      "centre": [
+        67.80700699999998,
+        32.99397950000002
+      ],
+      "turn_deg": 62.26289709090172,
+      "signed_bulge": -0.2785602652510627,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.337847590442739,
+      "arc_length_m": 0.4088544905631202,
+      "plan_centreline_m": 2.8967020810058592,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 0.9900937734116565,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.19169047770260098,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-13",
+      "terminal": "SD-62",
+      "outlet": "VAV-13-J-4",
+      "P": [
+        68.534857,
+        32.61774200000002
+      ],
+      "A": [
+        68.68485700000001,
+        32.61774200000002
+      ],
+      "E": [
+        69.01786196062403,
+        32.81887281079015
+      ],
+      "T": [
+        70.105932,
+        34.88808400000001
+      ],
+      "centre": [
+        68.68485700000001,
+        32.99397950000002
+      ],
+      "turn_deg": 62.26289709090172,
+      "signed_bulge": 0.2785602652510627,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.337847590442739,
+      "arc_length_m": 0.4088544905631202,
+      "plan_centreline_m": 2.8967020810058592,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 0.9900937734116565,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.19169047770260098,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-14",
+      "terminal": "SD-51",
+      "outlet": "VAV-14-J-1",
+      "P": [
+        75.39700699999999,
+        32.26214200000002
+      ],
+      "A": [
+        75.24700699999998,
+        32.26214200000002
+      ],
+      "E": [
+        75.20370228860934,
+        32.25964151767103
+      ],
+      "T": [
+        73.825932,
+        32.1
+      ],
+      "centre": [
+        75.24700699999998,
+        31.88590450000002
+      ],
+      "turn_deg": 6.609358455040235,
+      "signed_bulge": 0.028846764103663568,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3869882416008346,
+      "arc_length_m": 0.043400901826641795,
+      "plan_centreline_m": 1.5803891434274764,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590972,
+          "Reynolds": 49748.754733168375,
+          "Darcy_f": 0.022138422742235115,
+          "straight_only_Pa": 0.7284757432193276,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636389,
+          "Reynolds": 19899.50189326735,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.14048435070308177,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-14",
+      "terminal": "SD-52",
+      "outlet": "VAV-14-J-2",
+      "P": [
+        75.974857,
+        32.26214200000002
+      ],
+      "A": [
+        76.124857,
+        32.26214200000002
+      ],
+      "E": [
+        76.16816171139065,
+        32.25964151767103
+      ],
+      "T": [
+        77.545932,
+        32.1
+      ],
+      "centre": [
+        76.124857,
+        31.88590450000002
+      ],
+      "turn_deg": 6.609358455040235,
+      "signed_bulge": -0.028846764103663568,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3869882416008346,
+      "arc_length_m": 0.043400901826641795,
+      "plan_centreline_m": 1.5803891434274764,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13967350838383905,
+          "Reynolds": 47006.293831778916,
+          "Darcy_f": 0.02237063120797322,
+          "straight_only_Pa": 0.6571949999189335,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05586940335353562,
+          "Reynolds": 18802.51753271157,
+          "Darcy_f": 0.0270260272445778,
+          "straight_only_Pa": 0.12703348283872465,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-14",
+      "terminal": "SD-63",
+      "outlet": "VAV-14-J-3",
+      "P": [
+        75.39700699999999,
+        32.61774200000002
+      ],
+      "A": [
+        75.24700699999998,
+        32.61774200000002
+      ],
+      "E": [
+        74.91400203937596,
+        32.81887281079015
+      ],
+      "T": [
+        73.825932,
+        34.88808400000001
+      ],
+      "centre": [
+        75.24700699999998,
+        32.99397950000002
+      ],
+      "turn_deg": 62.26289709090172,
+      "signed_bulge": -0.2785602652510627,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.337847590442739,
+      "arc_length_m": 0.4088544905631202,
+      "plan_centreline_m": 2.8967020810058592,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 0.9900937734116565,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.19169047770260098,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-14",
+      "terminal": "SD-64",
+      "outlet": "VAV-14-J-4",
+      "P": [
+        75.974857,
+        32.61774200000002
+      ],
+      "A": [
+        76.124857,
+        32.61774200000002
+      ],
+      "E": [
+        76.45786196062403,
+        32.81887281079015
+      ],
+      "T": [
+        77.545932,
+        34.88808400000001
+      ],
+      "centre": [
+        76.124857,
+        32.99397950000002
+      ],
+      "turn_deg": 62.26289709090172,
+      "signed_bulge": 0.2785602652510627,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.337847590442739,
+      "arc_length_m": 0.4088544905631202,
+      "plan_centreline_m": 2.8967020810058592,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 0.9900937734116565,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.19169047770260098,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-15",
+      "terminal": "SD-53",
+      "outlet": "VAV-15-J-1",
+      "P": [
+        82.83700699999999,
+        32.12627891924312
+      ],
+      "A": [
+        82.68700699999998,
+        32.12627891924312
+      ],
+      "E": [
+        82.68003359412647,
+        32.126214289100545
+      ],
+      "T": [
+        81.26593199999999,
+        32.1
+      ],
+      "centre": [
+        82.68700699999998,
+        31.75004141924312
+      ],
+      "turn_deg": 1.0620142995436521,
+      "signed_bulge": 0.004633944726064265,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.4143445504770378,
+      "arc_length_m": 0.006973805198571758,
+      "plan_centreline_m": 1.5713183556756096,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14124437881893673,
+          "Reynolds": 47534.96099349245,
+          "Darcy_f": 0.02232436474170985,
+          "straight_only_Pa": 0.6826078088054464,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05649775152757469,
+          "Reynolds": 19013.98439739698,
+          "Darcy_f": 0.0269577962833585,
+          "straight_only_Pa": 0.13188533668293795,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-15",
+      "terminal": "SD-54",
+      "outlet": "VAV-15-J-2",
+      "P": [
+        83.414857,
+        32.12627891924312
+      ],
+      "A": [
+        83.564857,
+        32.12627891924312
+      ],
+      "E": [
+        83.57183040587351,
+        32.126214289100545
+      ],
+      "T": [
+        84.98593199999999,
+        32.1
+      ],
+      "centre": [
+        83.564857,
+        31.75004141924312
+      ],
+      "turn_deg": 1.0620142995436521,
+      "signed_bulge": -0.004633944726064265,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.4143445504770378,
+      "arc_length_m": 0.006973805198571758,
+      "plan_centreline_m": 1.5713183556756096,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876591027,
+          "Reynolds": 49748.75473316856,
+          "Darcy_f": 0.022138422742235098,
+          "straight_only_Pa": 0.7414416247406989,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636411,
+          "Reynolds": 19899.501893267425,
+          "Darcy_f": 0.026683300486342137,
+          "straight_only_Pa": 0.14298478186194682,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-15",
+      "terminal": "SD-65",
+      "outlet": "VAV-15-J-3",
+      "P": [
+        82.83700699999999,
+        32.48187891924312
+      ],
+      "A": [
+        82.68700699999998,
+        32.48187891924312
+      ],
+      "E": [
+        82.34960070951112,
+        32.69164824947846
+      ],
+      "T": [
+        81.26593199999999,
+        34.88808400000001
+      ],
+      "centre": [
+        82.68700699999998,
+        32.858116419243125
+      ],
+      "turn_deg": 63.73937384913002,
+      "signed_bulge": -0.2855150867183494,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.4492178094531916,
+      "arc_length_m": 0.41854989795690706,
+      "plan_centreline_m": 3.0177677074100986,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 1.0344160063367522,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.200271634589369,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-15",
+      "terminal": "SD-66",
+      "outlet": "VAV-15-J-4",
+      "P": [
+        83.414857,
+        32.48187891924312
+      ],
+      "A": [
+        83.564857,
+        32.48187891924312
+      ],
+      "E": [
+        83.90226329048886,
+        32.69164824947846
+      ],
+      "T": [
+        84.98593199999999,
+        34.88808400000001
+      ],
+      "centre": [
+        83.564857,
+        32.858116419243125
+      ],
+      "turn_deg": 63.73937384913002,
+      "signed_bulge": 0.2855150867183494,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.4492178094531916,
+      "arc_length_m": 0.41854989795690706,
+      "plan_centreline_m": 3.0177677074100986,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13425399072129351,
+          "Reynolds": 45182.38718963999,
+          "Darcy_f": 0.02253620408475582,
+          "straight_only_Pa": 1.0344160063367602,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05370159628851741,
+          "Reynolds": 18072.954875855998,
+          "Darcy_f": 0.027269991001233715,
+          "straight_only_Pa": 0.20027163458937022,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-16",
+      "terminal": "SD-55",
+      "outlet": "VAV-16-J-1",
+      "P": [
+        90.22620700000002,
+        31.779777649053894
+      ],
+      "A": [
+        90.07620700000001,
+        31.779777649053894
+      ],
+      "E": [
+        89.98785319151186,
+        31.7902990557084
+      ],
+      "T": [
+        88.70593199999999,
+        32.1
+      ],
+      "centre": [
+        90.07620700000001,
+        32.15601514905389
+      ],
+      "turn_deg": 13.58190856931508,
+      "signed_bulge": -0.05933173005237107,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3188012041783714,
+      "arc_length_m": 0.08918673188102647,
+      "plan_centreline_m": 1.5579879360593978,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14782239876590972,
+          "Reynolds": 49748.754733168375,
+          "Darcy_f": 0.022138422742235115,
+          "straight_only_Pa": 0.6961576021823362,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05912895950636389,
+          "Reynolds": 19899.50189326735,
+          "Darcy_f": 0.02668330048634215,
+          "straight_only_Pa": 0.13425189464428697,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-16",
+      "terminal": "SD-56",
+      "outlet": "VAV-16-J-2",
+      "P": [
+        90.90565700000002,
+        31.779777649053894
+      ],
+      "A": [
+        91.05565700000002,
+        31.779777649053894
+      ],
+      "E": [
+        91.14401080848818,
+        31.790299055708402
+      ],
+      "T": [
+        92.42593199999999,
+        32.1
+      ],
+      "centre": [
+        91.05565700000002,
+        32.15601514905389
+      ],
+      "turn_deg": 13.581908569315665,
+      "signed_bulge": 0.059331730052373625,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.3188012041783155,
+      "arc_length_m": 0.0891867318810303,
+      "plan_centreline_m": 1.5579879360593458,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.15594659779401857,
+          "Reynolds": 52482.905905298045,
+          "Darcy_f": 0.021924683131242555,
+          "straight_only_Pa": 0.7673005989407504,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06237863911760744,
+          "Reynolds": 20993.162362119223,
+          "Darcy_f": 0.026367173180649375,
+          "straight_only_Pa": 0.1476439875753145,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-16",
+      "terminal": "SD-67",
+      "outlet": "VAV-16-J-3",
+      "P": [
+        90.22620700000002,
+        32.13537764905389
+      ],
+      "A": [
+        90.07620700000001,
+        32.13537764905389
+      ],
+      "E": [
+        89.72757449707683,
+        32.37015832061578
+      ],
+      "T": [
+        88.70593199999999,
+        34.88808400000001
+      ],
+      "centre": [
+        90.07620700000001,
+        32.511615149053895
+      ],
+      "turn_deg": 67.91525982957108,
+      "signed_bulge": -0.30532641751670103,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243858066,
+      "arc_length_m": 0.44597120044930894,
+      "plan_centreline_m": 3.3132682248351157,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.134253990721293,
+          "Reynolds": 45182.387189639805,
+          "Darcy_f": 0.02253620408475583,
+          "straight_only_Pa": 1.1411040375913648,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.053701596288517194,
+          "Reynolds": 18072.954875855925,
+          "Darcy_f": 0.027269991001233757,
+          "straight_only_Pa": 0.22092733430746395,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-16",
+      "terminal": "SD-68",
+      "outlet": "VAV-16-J-4",
+      "P": [
+        90.90565700000002,
+        32.13537764905389
+      ],
+      "A": [
+        91.05565700000002,
+        32.13537764905389
+      ],
+      "E": [
+        91.4042895029232,
+        32.370158320615786
+      ],
+      "T": [
+        92.42593199999999,
+        34.88808400000001
+      ],
+      "centre": [
+        91.05565700000002,
+        32.511615149053895
+      ],
+      "turn_deg": 67.91525982957221,
+      "signed_bulge": 0.30532641751670636,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.7172970243857786,
+      "arc_length_m": 0.4459712004493163,
+      "plan_centreline_m": 3.313268224835095,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.14883276961713612,
+          "Reynolds": 50088.78907225932,
+          "Darcy_f": 0.0221109226633769,
+          "straight_only_Pa": 1.3759227763066018,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.059533107846854456,
+          "Reynolds": 20035.515628903733,
+          "Darcy_f": 0.026642663970377005,
+          "straight_only_Pa": 0.2652679762770342,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-17",
+      "terminal": "SD-57",
+      "outlet": "VAV-17-J-1",
+      "P": [
+        98.3587075,
+        31.898078919243115
+      ],
+      "A": [
+        98.20870749999999,
+        31.898078919243115
+      ],
+      "E": [
+        98.14746962960626,
+        31.903096026974733
+      ],
+      "T": [
+        96.95384924999999,
+        32.1
+      ],
+      "centre": [
+        98.20870749999999,
+        32.274316419243114
+      ],
+      "turn_deg": 9.367357511314989,
+      "signed_bulge": -0.04089558343463486,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.209752365240324,
+      "arc_length_m": 0.061511531942045734,
+      "plan_centreline_m": 1.4212638971823697,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1524893230261201,
+          "Reynolds": 51319.380513278644,
+          "Darcy_f": 0.022013618974232887,
+          "straight_only_Pa": 0.6819421334079461,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06099572921044803,
+          "Reynolds": 20527.75220531146,
+          "Darcy_f": 0.026498793244914644,
+          "straight_only_Pa": 0.1313415562925841,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-17",
+      "terminal": "SD-58",
+      "outlet": "VAV-17-J-2",
+      "P": [
+        99.0381575,
+        31.898078919243115
+      ],
+      "A": [
+        99.1881575,
+        31.898078919243115
+      ],
+      "E": [
+        99.24939537039373,
+        31.903096026974733
+      ],
+      "T": [
+        100.44301575,
+        32.1
+      ],
+      "centre": [
+        99.1881575,
+        32.274316419243114
+      ],
+      "turn_deg": 9.367357511314989,
+      "signed_bulge": 0.04089558343463486,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.209752365240324,
+      "arc_length_m": 0.061511531942045734,
+      "plan_centreline_m": 1.4212638971823697,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1386497208934557,
+          "Reynolds": 46661.74420206669,
+          "Darcy_f": 0.02240119140810652,
+          "straight_only_Pa": 0.5737019449671167,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738228,
+          "Reynolds": 18664.697680826674,
+          "Darcy_f": 0.027071080986642283,
+          "straight_only_Pa": 0.1109278986565242,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-17",
+      "terminal": "SD-69",
+      "outlet": "VAV-17-J-3",
+      "P": [
+        98.3587075,
+        32.253678919243114
+      ],
+      "A": [
+        98.20870749999999,
+        32.253678919243114
+      ],
+      "E": [
+        97.85672751637198,
+        32.49700762520949
+      ],
+      "T": [
+        96.95384924999999,
+        34.88808400000001
+      ],
+      "centre": [
+        98.20870749999999,
+        32.629916419243116
+      ],
+      "turn_deg": 69.31329941335544,
+      "signed_bulge": -0.3120077198375148,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5558629450673345,
+      "arc_length_m": 0.4551515436154922,
+      "plan_centreline_m": 3.1610144886828264,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.15633996490847535,
+          "Reynolds": 52615.29128302551,
+          "Darcy_f": 0.021914745529372635,
+          "straight_only_Pa": 1.4200369031049085,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06253598596339013,
+          "Reynolds": 21046.116513210203,
+          "Darcy_f": 0.02635245863123956,
+          "straight_only_Pa": 0.273214863070158,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-17",
+      "terminal": "SD-70",
+      "outlet": "VAV-17-J-4",
+      "P": [
+        99.0381575,
+        32.253678919243114
+      ],
+      "A": [
+        99.1881575,
+        32.253678919243114
+      ],
+      "E": [
+        99.54013748362802,
+        32.49700762520949
+      ],
+      "T": [
+        100.44301575,
+        34.88808400000001
+      ],
+      "centre": [
+        99.1881575,
+        32.629916419243116
+      ],
+      "turn_deg": 69.31329941335544,
+      "signed_bulge": 0.3120077198375148,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.5558629450673345,
+      "arc_length_m": 0.4551515436154922,
+      "plan_centreline_m": 3.1610144886828264,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13759582061382064,
+          "Reynolds": 46307.06029108639,
+          "Darcy_f": 0.022432992930484844,
+          "straight_only_Pa": 1.125954609570508,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05503832824552826,
+          "Reynolds": 18522.82411643456,
+          "Darcy_f": 0.027117952668324563,
+          "straight_only_Pa": 0.21777626483372667,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-18",
+      "terminal": "SD-59",
+      "outlet": "VAV-18-J-1",
+      "P": [
+        105.3878405,
+        32.26214200000002
+      ],
+      "A": [
+        105.23784049999999,
+        32.26214200000002
+      ],
+      "E": [
+        105.19063016504963,
+        32.259168268239215
+      ],
+      "T": [
+        103.93218225,
+        32.1
+      ],
+      "centre": [
+        105.23784049999999,
+        31.88590450000002
+      ],
+      "turn_deg": 7.20848421643286,
+      "signed_bulge": 0.03146332202499462,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2684737650054214,
+      "arc_length_m": 0.04733511095282166,
+      "plan_centreline_m": 1.465808875958243,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.13864972089345515,
+          "Reynolds": 46661.744202066504,
+          "Darcy_f": 0.02240119140810654,
+          "straight_only_Pa": 0.5984774718333397,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05545988835738205,
+          "Reynolds": 18664.6976808266,
+          "Darcy_f": 0.027071080986642293,
+          "straight_only_Pa": 0.11571836024984494,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-18",
+      "terminal": "SD-60",
+      "outlet": "VAV-18-J-2",
+      "P": [
+        105.96569050000001,
+        32.26214200000002
+      ],
+      "A": [
+        106.11569050000001,
+        32.26214200000002
+      ],
+      "E": [
+        106.16290083495038,
+        32.259168268239215
+      ],
+      "T": [
+        107.42134875,
+        32.1
+      ],
+      "centre": [
+        106.11569050000001,
+        31.88590450000002
+      ],
+      "turn_deg": 7.20848421643286,
+      "signed_bulge": -0.03146332202499462,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.2684737650054214,
+      "arc_length_m": 0.04733511095282166,
+      "plan_centreline_m": 1.465808875958243,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1262791195135955,
+          "Reynolds": 42498.49141300165,
+          "Darcy_f": 0.022798199590743844,
+          "straight_only_Pa": 0.5052453585216041,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.0505116478054382,
+          "Reynolds": 16999.396565200655,
+          "Darcy_f": 0.027655399665846032,
+          "straight_only_Pa": 0.09806221592972895,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-18",
+      "terminal": "SD-71",
+      "outlet": "VAV-18-J-3",
+      "P": [
+        105.3878405,
+        32.61774200000002
+      ],
+      "A": [
+        105.23784049999999,
+        32.61774200000002
+      ],
+      "E": [
+        104.89731801133685,
+        32.83398234027239
+      ],
+      "T": [
+        103.93218225,
+        34.88808400000001
+      ],
+      "centre": [
+        105.23784049999999,
+        32.99397950000002
+      ],
+      "turn_deg": 64.83314746086958,
+      "signed_bulge": -0.2906837042853575,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.269541950770471,
+      "arc_length_m": 0.42573225331962455,
+      "plan_centreline_m": 2.845274204090096,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1375958206138201,
+          "Reynolds": 46307.060291086214,
+          "Darcy_f": 0.022432992930484855,
+          "straight_only_Pa": 1.0068116781322853,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05503832824552805,
+          "Reynolds": 18522.824116434487,
+          "Darcy_f": 0.027117952668324573,
+          "straight_only_Pa": 0.19473226077760034,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-18",
+      "terminal": "SD-72",
+      "outlet": "VAV-18-J-4",
+      "P": [
+        105.96569050000001,
+        32.61774200000002
+      ],
+      "A": [
+        106.11569050000001,
+        32.61774200000002
+      ],
+      "E": [
+        106.45621298866315,
+        32.83398234027239
+      ],
+      "T": [
+        107.42134875,
+        34.88808400000001
+      ],
+      "centre": [
+        106.11569050000001,
+        32.99397950000002
+      ],
+      "turn_deg": 64.83314746086958,
+      "signed_bulge": 0.2906837042853575,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 2.269541950770471,
+      "arc_length_m": 0.42573225331962455,
+      "plan_centreline_m": 2.845274204090096,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1375958206138201,
+          "Reynolds": 46307.060291086214,
+          "Darcy_f": 0.022432992930484855,
+          "straight_only_Pa": 1.0068116781322853,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.05503832824552805,
+          "Reynolds": 18522.824116434487,
+          "Darcy_f": 0.027117952668324573,
+          "straight_only_Pa": 0.19473226077760034,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-19",
+      "terminal": "SD-78",
+      "outlet": "VAV-19-J-1",
+      "P": [
+        99.0381575,
+        42.392484
+      ],
+      "A": [
+        99.1881575,
+        42.392484
+      ],
+      "E": [
+        99.44746292662063,
+        42.49611307729201
+      ],
+      "T": [
+        100.44301575,
+        43.443084
+      ],
+      "centre": [
+        99.1881575,
+        42.768721500000005
+      ],
+      "turn_deg": 43.56734943933916,
+      "signed_bulge": 0.19242190339147272,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.374001220011488,
+      "arc_length_m": 0.28608862247769334,
+      "plan_centreline_m": 1.8100898424891811,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.1853399636540626,
+          "Reynolds": 62375.06948241111,
+          "Darcy_f": 0.021269373785833986,
+          "straight_only_Pa": 1.090926642886122,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.07413598546162506,
+          "Reynolds": 24950.027792964447,
+          "Darcy_f": 0.025393242055274896,
+          "straight_only_Pa": 0.2083910101823961,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-19",
+      "terminal": "SD-77",
+      "outlet": "VAV-19-J-2",
+      "P": [
+        98.3587075,
+        42.392484
+      ],
+      "A": [
+        98.20870749999999,
+        42.392484
+      ],
+      "E": [
+        97.94940207337936,
+        42.49611307729201
+      ],
+      "T": [
+        96.95384924999999,
+        43.443084
+      ],
+      "centre": [
+        98.20870749999999,
+        42.768721500000005
+      ],
+      "turn_deg": 43.56734943933916,
+      "signed_bulge": -0.19242190339147272,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.374001220011488,
+      "arc_length_m": 0.28608862247769334,
+      "plan_centreline_m": 1.8100898424891811,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.18533996365406188,
+          "Reynolds": 62375.069482410865,
+          "Darcy_f": 0.021269373785834007,
+          "straight_only_Pa": 1.0909266428861142,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.07413598546162475,
+          "Reynolds": 24950.027792964345,
+          "Darcy_f": 0.025393242055274916,
+          "straight_only_Pa": 0.20839101018239456,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-19",
+      "terminal": "SD-74",
+      "outlet": "VAV-19-J-3",
+      "P": [
+        99.0381575,
+        42.036884
+      ],
+      "A": [
+        99.1881575,
+        42.036884
+      ],
+      "E": [
+        99.54758096628981,
+        41.771864431496994
+      ],
+      "T": [
+        100.44301575,
+        38.878084000000015
+      ],
+      "centre": [
+        99.1881575,
+        41.6606465
+      ],
+      "turn_deg": 72.80614153765131,
+      "signed_bulge": -0.3288129656004727,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 3.029153122176716,
+      "arc_length_m": 0.47808758183519584,
+      "plan_centreline_m": 3.6572407040119117,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.17366740296391076,
+          "Reynolds": 58446.73816232496,
+          "Darcy_f": 0.021510139581236782,
+          "straight_only_Pa": 2.0207318063941364,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06946696118556431,
+          "Reynolds": 23378.69526492999,
+          "Darcy_f": 0.025751981358780075,
+          "straight_only_Pa": 0.38707585406650347,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-19",
+      "terminal": "SD-73",
+      "outlet": "VAV-19-J-4",
+      "P": [
+        98.3587075,
+        42.036884
+      ],
+      "A": [
+        98.20870749999999,
+        42.036884
+      ],
+      "E": [
+        97.84928403371018,
+        41.771864431496994
+      ],
+      "T": [
+        96.95384924999999,
+        38.878084000000015
+      ],
+      "centre": [
+        98.20870749999999,
+        41.6606465
+      ],
+      "turn_deg": 72.80614153765131,
+      "signed_bulge": 0.3288129656004727,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 3.029153122176716,
+      "arc_length_m": 0.47808758183519584,
+      "plan_centreline_m": 3.6572407040119117,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.17366740296391003,
+          "Reynolds": 58446.73816232473,
+          "Darcy_f": 0.02151013958123679,
+          "straight_only_Pa": 2.0207318063941204,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06946696118556402,
+          "Reynolds": 23378.695264929895,
+          "Darcy_f": 0.0257519813587801,
+          "straight_only_Pa": 0.3870758540665006,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-20",
+      "terminal": "SD-80",
+      "outlet": "VAV-20-J-1",
+      "P": [
+        106.0164905,
+        42.392484
+      ],
+      "A": [
+        106.16649050000001,
+        42.392484
+      ],
+      "E": [
+        106.42579592662064,
+        42.49611307729201
+      ],
+      "T": [
+        107.42134875,
+        43.443084
+      ],
+      "centre": [
+        106.16649050000001,
+        42.768721500000005
+      ],
+      "turn_deg": 43.56734943933916,
+      "signed_bulge": 0.19242190339147272,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.374001220011488,
+      "arc_length_m": 0.28608862247769334,
+      "plan_centreline_m": 1.8100898424891811,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.16994543370166632,
+          "Reynolds": 57194.131402472456,
+          "Darcy_f": 0.02159194831469133,
+          "straight_only_Pa": 0.9311368826755181,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06797817348066652,
+          "Reynolds": 22877.652560988987,
+          "Darcy_f": 0.025873622866905397,
+          "straight_only_Pa": 0.17852495153238201,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-20",
+      "terminal": "SD-79",
+      "outlet": "VAV-20-J-2",
+      "P": [
+        105.3370405,
+        42.392484
+      ],
+      "A": [
+        105.1870405,
+        42.392484
+      ],
+      "E": [
+        104.92773507337937,
+        42.49611307729201
+      ],
+      "T": [
+        103.93218225,
+        43.443084
+      ],
+      "centre": [
+        105.1870405,
+        42.768721500000005
+      ],
+      "turn_deg": 43.56734943933916,
+      "signed_bulge": -0.19242190339147272,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 1.374001220011488,
+      "arc_length_m": 0.28608862247769334,
+      "plan_centreline_m": 1.8100898424891811,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.18533996365406188,
+          "Reynolds": 62375.069482410865,
+          "Darcy_f": 0.021269373785834007,
+          "straight_only_Pa": 1.0909266428861142,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.07413598546162475,
+          "Reynolds": 24950.027792964345,
+          "Darcy_f": 0.025393242055274916,
+          "straight_only_Pa": 0.20839101018239456,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-20",
+      "terminal": "SD-76",
+      "outlet": "VAV-20-J-3",
+      "P": [
+        106.0164905,
+        42.036884
+      ],
+      "A": [
+        106.16649050000001,
+        42.036884
+      ],
+      "E": [
+        106.52591396628982,
+        41.771864431496994
+      ],
+      "T": [
+        107.42134875,
+        38.878084000000015
+      ],
+      "centre": [
+        106.16649050000001,
+        41.6606465
+      ],
+      "turn_deg": 72.80614153765131,
+      "signed_bulge": -0.3288129656004727,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 3.029153122176716,
+      "arc_length_m": 0.47808758183519584,
+      "plan_centreline_m": 3.6572407040119117,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.17366740296391003,
+          "Reynolds": 58446.73816232473,
+          "Darcy_f": 0.02151013958123679,
+          "straight_only_Pa": 2.0207318063941204,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06946696118556402,
+          "Reynolds": 23378.695264929895,
+          "Darcy_f": 0.0257519813587801,
+          "straight_only_Pa": 0.3870758540665006,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "vav": "VAV-20",
+      "terminal": "SD-75",
+      "outlet": "VAV-20-J-4",
+      "P": [
+        105.3370405,
+        42.036884
+      ],
+      "A": [
+        105.1870405,
+        42.036884
+      ],
+      "E": [
+        104.82761703371018,
+        41.771864431496994
+      ],
+      "T": [
+        103.93218225,
+        38.878084000000015
+      ],
+      "centre": [
+        105.1870405,
+        41.6606465
+      ],
+      "turn_deg": 72.80614153765131,
+      "signed_bulge": 0.3288129656004727,
+      "radius_m": 0.37623749999999995,
+      "initial_straight_m": 0.15,
+      "final_straight_m": 3.029153122176716,
+      "arc_length_m": 0.47808758183519584,
+      "plan_centreline_m": 3.6572407040119117,
+      "bore_m": 0.25082499999999996,
+      "pressure": {
+        "maximum": {
+          "flow_m3_s": 0.17366740296391003,
+          "Reynolds": 58446.73816232473,
+          "Darcy_f": 0.02151013958123679,
+          "straight_only_Pa": 2.0207318063941204,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.06946696118556402,
+          "Reynolds": 23378.695264929895,
+          "Darcy_f": 0.0257519813587801,
+          "straight_only_Pa": 0.3870758540665006,
+          "arc_fitting_loss_Pa": null,
+          "total_pressure_Pa": null
+        }
+      }
+    }
+  ],
+  "pressure_budget_complete": false,
+  "installed_length_verified": false,
+  "design_accepted": false,
+  "source_sha256": {
+    "review.json": "ba859b70cd8dacb13fb862141fd848444ddf76eadb8411cf7c71a3f1b5907d1f",
+    "allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "route_j_outlets.py": "69b46263adf08d32524570346fc221199368a69dee848c8147a0e03eb5bcbe52"
+  },
+  "native80path_geometry_and_tangency_checks": true,
+  "native_reopen_pass": true,
+  "actual_PDF_visually_inspected": true,
+  "visual_review": "Viewed actual final PDF;20group labels,80paths and80terminal markers legible, no observed clipping. Vertical/physical routes not accepted.",
+  "print_reference_measured_mm": 49.99566666666666,
+  "deliverable_sha256": {
+    "Four Outlet Connection Routes.dwg": "e23f8e30b0c47fb311e14efb9fc446001e0be75db97178b264b02f8d3bd89742",
+    "Four Outlet Connection Routes.pdf": "49b9f23a5bf1a4afd02d43cbbb3be1fd472835992f5b5ffa77a2c9bafc965f93"
+  }
+}
