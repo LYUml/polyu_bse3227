@@ -1,5 +1,15 @@
 # BSE3227 HVAC mini-design
 
+A new [connection layout study](03_Design_Drawings/Connection_Layout/Supply%20Air%20Distribution.pdf)
+actually relocates ten VAV groups and their taps, retaining all eighty diffuser
+positions/flows. Three inherited candidate sections increase to 550 x 350 mm;
+total planar flex shortens 0.951 m and rigid centreline 1.188 m. All twenty
+untrimmed straight-friction path estimates are nonincreasing. Source/native
+geometry, selected sizes, column projections and actual A1 PDF are checked.
+The earlier Agent_Study/report/IFC/pressure records remain separate historical
+scenarios. Installed geometry, complete pressure, ADPI and full acceptance remain
+pending. See 05_Calculations/VAV_Layout_Improvement_Check.json.
+
 The new [VAV connection schedule](03_Design_Drawings/Agent_Study/VAV%20Connection%20Schedule.pdf)
 provides 20 groups, all 80 diffuser outlet IDs, maximum/minimum flows and native-plan
 length ranges, with an editable DWG and calculation CSV. AutoCAD save/reopen and
