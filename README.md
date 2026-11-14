@@ -1,5 +1,13 @@
 # BSE3227 HVAC mini-design
 
+The new [VAV connection schedule](03_Design_Drawings/Agent_Study/VAV%20Connection%20Schedule.pdf)
+provides 20 groups, all 80 diffuser outlet IDs, maximum/minimum flows and native-plan
+length ranges, with an editable DWG and calculation CSV. AutoCAD save/reopen and
+A4 print-reference checks pass; the actual PDF was visually inspected. Independent
+flow/coordinate/native-text checks pass. Plan lengths remain lower bounds; installed
+length, hardware, ADPI and full acceptance remain pending. See
+05_Calculations/VAV_Connection_Schedule_Check.json.
+
 Runtime-refresh maintenance is now tested with backups and preserved user
 settings. This project config remains byte-identical; actual Codex reads still
 return the existing45 numeric gaps. No engineering values changed. See
