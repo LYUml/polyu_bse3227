@@ -1,0 +1,2134 @@
+{
+  "source_ifc_sha256": "25215de8ad232678c2874a44e410382e4ae0ec784a0a1f1b260811ae7285549f",
+  "catalogue_sha256": "ba747af8d424da4e59b0d4d93c888bd9b5df299d303c0824fa89f9305870d766",
+  "source_locator": "Printed A2-10/A2-11; visually reviewed 4-outlet side/end views and J table row",
+  "dimensions_in": {
+    "plenum_length": 36,
+    "outlet_collar_projection": 3.375,
+    "outlet_bore": 9.875,
+    "X": 6.375,
+    "Y": 14
+  },
+  "datum_assumptions": "Base discharge at inlet collar entrance+3.375+15.5in; plenum starts at base discharge, slip-drive overlap not inferred; outlet centre at casing midheight; z=0 inherited reference",
+  "candidate_count": 20,
+  "outlets": 80,
+  "terminal_count": 80,
+  "maximum_plan_lower_bound_m": 3.4571150028011766,
+  "original209records_unchanged": true,
+  "records": [
+    {
+      "id": "VAV-01",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-01-J-1",
+          "point_m": [
+            67.95700699999999,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-01-J-2",
+          "point_m": [
+            68.534857,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-01-J-3",
+          "point_m": [
+            67.95700699999999,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-01-J-4",
+          "point_m": [
+            68.534857,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-01-J-1",
+          "terminal": "SD-01",
+          "terminal_point_m": [
+            66.385932,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.641484698565594
+        },
+        {
+          "outlet": "VAV-01-J-2",
+          "terminal": "SD-02",
+          "terminal_point_m": [
+            70.105932,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.641484698565594
+        },
+        {
+          "outlet": "VAV-01-J-3",
+          "terminal": "SD-13",
+          "terminal_point_m": [
+            66.385932,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.0239542151998595
+        },
+        {
+          "outlet": "VAV-01-J-4",
+          "terminal": "SD-14",
+          "terminal_point_m": [
+            70.105932,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.0239542151998595
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.0239542151998595,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.912634320653547,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-02",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-02-J-1",
+          "point_m": [
+            75.346207,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-02-J-2",
+          "point_m": [
+            76.02565700000001,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-02-J-3",
+          "point_m": [
+            75.346207,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-02-J-4",
+          "point_m": [
+            76.02565700000001,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-02-J-1",
+          "terminal": "SD-03",
+          "terminal_point_m": [
+            73.825932,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5929317109107461
+        },
+        {
+          "outlet": "VAV-02-J-2",
+          "terminal": "SD-04",
+          "terminal_point_m": [
+            77.545932,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.592931710910719
+        },
+        {
+          "outlet": "VAV-02-J-3",
+          "terminal": "SD-15",
+          "terminal_point_m": [
+            73.825932,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9978756671391587
+        },
+        {
+          "outlet": "VAV-02-J-4",
+          "terminal": "SD-16",
+          "terminal_point_m": [
+            77.545932,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9978756671391444
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.9978756671391587,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.957003138987565,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-03",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-03-J-1",
+          "point_m": [
+            82.78620699999999,
+            18.11977764905389,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-03-J-2",
+          "point_m": [
+            83.465657,
+            18.11977764905389,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-03-J-3",
+          "point_m": [
+            82.78620699999999,
+            18.47537764905389,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-03-J-4",
+          "point_m": [
+            83.465657,
+            18.47537764905389,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-03-J-1",
+          "terminal": "SD-05",
+          "terminal_point_m": [
+            81.26593199999999,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5509020181800606
+        },
+        {
+          "outlet": "VAV-03-J-2",
+          "terminal": "SD-06",
+          "terminal_point_m": [
+            84.98593199999999,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5509020181800606
+        },
+        {
+          "outlet": "VAV-03-J-3",
+          "terminal": "SD-17",
+          "terminal_point_m": [
+            81.26593199999999,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.144618948324909
+        },
+        {
+          "outlet": "VAV-03-J-4",
+          "terminal": "SD-18",
+          "terminal_point_m": [
+            84.98593199999999,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.144618948324909
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.144618948324909,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.963679290071414,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-04",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-04-J-1",
+          "point_m": [
+            90.22620699999999,
+            18.11977764905389,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-04-J-2",
+          "point_m": [
+            90.90565699999999,
+            18.11977764905389,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-04-J-3",
+          "point_m": [
+            90.22620699999999,
+            18.47537764905389,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-04-J-4",
+          "point_m": [
+            90.90565699999999,
+            18.47537764905389,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-04-J-1",
+          "terminal": "SD-07",
+          "terminal_point_m": [
+            88.70593199999999,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5509020181800606
+        },
+        {
+          "outlet": "VAV-04-J-2",
+          "terminal": "SD-08",
+          "terminal_point_m": [
+            92.42593199999999,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5509020181800606
+        },
+        {
+          "outlet": "VAV-04-J-3",
+          "terminal": "SD-19",
+          "terminal_point_m": [
+            88.70593199999999,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.144618948324909
+        },
+        {
+          "outlet": "VAV-04-J-4",
+          "terminal": "SD-20",
+          "terminal_point_m": [
+            92.42593199999999,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.144618948324909
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.144618948324909,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.1203743644684314,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-05",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-05-J-1",
+          "point_m": [
+            98.3587075,
+            18.23807891924311,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-05-J-2",
+          "point_m": [
+            99.0381575,
+            18.23807891924311,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-05-J-3",
+          "point_m": [
+            98.3587075,
+            18.59367891924311,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-05-J-4",
+          "point_m": [
+            99.0381575,
+            18.59367891924311,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-05-J-1",
+          "terminal": "SD-09",
+          "terminal_point_m": [
+            96.95384924999999,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4677354611698703
+        },
+        {
+          "outlet": "VAV-05-J-2",
+          "terminal": "SD-10",
+          "terminal_point_m": [
+            100.44301575,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4677354611698703
+        },
+        {
+          "outlet": "VAV-05-J-3",
+          "terminal": "SD-21",
+          "terminal_point_m": [
+            96.95384924999999,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9855848392083586
+        },
+        {
+          "outlet": "VAV-05-J-4",
+          "terminal": "SD-22",
+          "terminal_point_m": [
+            100.44301575,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9855848392083586
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.9855848392083586,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.9859450977575697,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-06",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-06-J-1",
+          "point_m": [
+            105.3878405,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-06-J-2",
+          "point_m": [
+            105.96569050000001,
+            18.288684,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-06-J-3",
+          "point_m": [
+            105.3878405,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-06-J-4",
+          "point_m": [
+            105.96569050000001,
+            18.644284,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-06-J-1",
+          "terminal": "SD-11",
+          "terminal_point_m": [
+            103.93218225,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5313837862511996
+        },
+        {
+          "outlet": "VAV-06-J-2",
+          "terminal": "SD-12",
+          "terminal_point_m": [
+            107.42134875,
+            17.813084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5313837862511996
+        },
+        {
+          "outlet": "VAV-06-J-3",
+          "terminal": "SD-23",
+          "terminal_point_m": [
+            103.93218225,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9656303513406854
+        },
+        {
+          "outlet": "VAV-06-J-4",
+          "terminal": "SD-24",
+          "terminal_point_m": [
+            107.42134875,
+            21.228084000000003,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9656303513406854
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.9656303513406854,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.7269973295913763,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-07",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-07-J-1",
+          "point_m": [
+            67.906207,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-07-J-2",
+          "point_m": [
+            68.585657,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-07-J-3",
+          "point_m": [
+            67.906207,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-07-J-4",
+          "point_m": [
+            68.585657,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-07-J-1",
+          "terminal": "SD-25",
+          "terminal_point_m": [
+            66.385932,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5929317109107337
+        },
+        {
+          "outlet": "VAV-07-J-2",
+          "terminal": "SD-26",
+          "terminal_point_m": [
+            70.105932,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5929317109107337
+        },
+        {
+          "outlet": "VAV-07-J-3",
+          "terminal": "SD-37",
+          "terminal_point_m": [
+            66.385932,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.997875667139142
+        },
+        {
+          "outlet": "VAV-07-J-4",
+          "terminal": "SD-38",
+          "terminal_point_m": [
+            70.105932,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.997875667139142
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.997875667139142,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.128934804941287,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-08",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-08-J-1",
+          "point_m": [
+            75.346207,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-08-J-2",
+          "point_m": [
+            76.02565700000001,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-08-J-3",
+          "point_m": [
+            75.346207,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-08-J-4",
+          "point_m": [
+            76.02565700000001,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-08-J-1",
+          "terminal": "SD-27",
+          "terminal_point_m": [
+            73.825932,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5929317109107473
+        },
+        {
+          "outlet": "VAV-08-J-2",
+          "terminal": "SD-28",
+          "terminal_point_m": [
+            77.545932,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5929317109107202
+        },
+        {
+          "outlet": "VAV-08-J-3",
+          "terminal": "SD-39",
+          "terminal_point_m": [
+            73.825932,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9978756671391498
+        },
+        {
+          "outlet": "VAV-08-J-4",
+          "terminal": "SD-40",
+          "terminal_point_m": [
+            77.545932,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.997875667139135
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.9978756671391498,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.128934804941287,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-09",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-09-J-1",
+          "point_m": [
+            82.78620699999999,
+            25.068078919243124,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-09-J-2",
+          "point_m": [
+            83.465657,
+            25.068078919243124,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-09-J-3",
+          "point_m": [
+            82.78620699999999,
+            25.423678919243123,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-09-J-4",
+          "point_m": [
+            83.465657,
+            25.423678919243123,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-09-J-1",
+          "terminal": "SD-29",
+          "terminal_point_m": [
+            81.26593199999999,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5785616101398945
+        },
+        {
+          "outlet": "VAV-09-J-2",
+          "terminal": "SD-30",
+          "terminal_point_m": [
+            84.98593199999999,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5785616101398945
+        },
+        {
+          "outlet": "VAV-09-J-3",
+          "terminal": "SD-41",
+          "terminal_point_m": [
+            81.26593199999999,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.041599284117266
+        },
+        {
+          "outlet": "VAV-09-J-4",
+          "terminal": "SD-42",
+          "terminal_point_m": [
+            84.98593199999999,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.041599284117266
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.041599284117266,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.1289348049412933,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-10",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-10-J-1",
+          "point_m": [
+            90.22620699999999,
+            25.068078919243124,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-10-J-2",
+          "point_m": [
+            90.90565699999999,
+            25.068078919243124,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-10-J-3",
+          "point_m": [
+            90.22620699999999,
+            25.423678919243123,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-10-J-4",
+          "point_m": [
+            90.90565699999999,
+            25.423678919243123,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-10-J-1",
+          "terminal": "SD-31",
+          "terminal_point_m": [
+            88.70593199999999,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5785616101398945
+        },
+        {
+          "outlet": "VAV-10-J-2",
+          "terminal": "SD-32",
+          "terminal_point_m": [
+            92.42593199999999,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5785616101398945
+        },
+        {
+          "outlet": "VAV-10-J-3",
+          "terminal": "SD-43",
+          "terminal_point_m": [
+            88.70593199999999,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.041599284117266
+        },
+        {
+          "outlet": "VAV-10-J-4",
+          "terminal": "SD-44",
+          "terminal_point_m": [
+            92.42593199999999,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.041599284117266
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.041599284117266,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.2988219288013316,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-11",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-11-J-1",
+          "point_m": [
+            98.3587075,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-11-J-2",
+          "point_m": [
+            99.0381575,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-11-J-3",
+          "point_m": [
+            98.3587075,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-11-J-4",
+          "point_m": [
+            99.0381575,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-11-J-1",
+          "terminal": "SD-33",
+          "terminal_point_m": [
+            96.95384924999999,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4831797135185865
+        },
+        {
+          "outlet": "VAV-11-J-2",
+          "terminal": "SD-34",
+          "terminal_point_m": [
+            100.44301575,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4831797135185865
+        },
+        {
+          "outlet": "VAV-11-J-3",
+          "terminal": "SD-45",
+          "terminal_point_m": [
+            96.95384924999999,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.94102858581705
+        },
+        {
+          "outlet": "VAV-11-J-4",
+          "terminal": "SD-46",
+          "terminal_point_m": [
+            100.44301575,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.94102858581705
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.94102858581705,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.153204394064152,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-12",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-12-J-1",
+          "point_m": [
+            105.3878405,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-12-J-2",
+          "point_m": [
+            105.96569050000001,
+            25.118684000000012,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-12-J-3",
+          "point_m": [
+            105.3878405,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-12-J-4",
+          "point_m": [
+            105.96569050000001,
+            25.47428400000001,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-12-J-1",
+          "terminal": "SD-35",
+          "terminal_point_m": [
+            103.93218225,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5313837862512008
+        },
+        {
+          "outlet": "VAV-12-J-2",
+          "terminal": "SD-36",
+          "terminal_point_m": [
+            107.42134875,
+            24.64308400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5313837862512008
+        },
+        {
+          "outlet": "VAV-12-J-3",
+          "terminal": "SD-47",
+          "terminal_point_m": [
+            103.93218225,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9656303513406765
+        },
+        {
+          "outlet": "VAV-12-J-4",
+          "terminal": "SD-48",
+          "terminal_point_m": [
+            107.42134875,
+            28.058084000000004,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.9656303513406765
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.9656303513406765,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.9347780919583775,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-13",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-13-J-1",
+          "point_m": [
+            67.95700699999999,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-13-J-2",
+          "point_m": [
+            68.534857,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-13-J-3",
+          "point_m": [
+            67.95700699999999,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-13-J-4",
+          "point_m": [
+            68.534857,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-13-J-1",
+          "terminal": "SD-49",
+          "terminal_point_m": [
+            66.385932,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5794197300872825
+        },
+        {
+          "outlet": "VAV-13-J-2",
+          "terminal": "SD-50",
+          "terminal_point_m": [
+            70.105932,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5794197300872825
+        },
+        {
+          "outlet": "VAV-13-J-3",
+          "terminal": "SD-61",
+          "terminal_point_m": [
+            66.385932,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.7609290922783485
+        },
+        {
+          "outlet": "VAV-13-J-4",
+          "terminal": "SD-62",
+          "terminal_point_m": [
+            70.105932,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.7609290922783485
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.7609290922783485,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.791747584605976,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-14",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-14-J-1",
+          "point_m": [
+            75.39700699999999,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-14-J-2",
+          "point_m": [
+            75.974857,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-14-J-3",
+          "point_m": [
+            75.39700699999999,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-14-J-4",
+          "point_m": [
+            75.974857,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-14-J-1",
+          "terminal": "SD-51",
+          "terminal_point_m": [
+            73.825932,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5794197300872825
+        },
+        {
+          "outlet": "VAV-14-J-2",
+          "terminal": "SD-52",
+          "terminal_point_m": [
+            77.545932,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5794197300872825
+        },
+        {
+          "outlet": "VAV-14-J-3",
+          "terminal": "SD-63",
+          "terminal_point_m": [
+            73.825932,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.7609290922783485
+        },
+        {
+          "outlet": "VAV-14-J-4",
+          "terminal": "SD-64",
+          "terminal_point_m": [
+            77.545932,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.7609290922783485
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.7609290922783485,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.813107408294717,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-15",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-15-J-1",
+          "point_m": [
+            82.83700699999999,
+            32.12627891924312,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-15-J-2",
+          "point_m": [
+            83.414857,
+            32.12627891924312,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-15-J-3",
+          "point_m": [
+            82.83700699999999,
+            32.48187891924312,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-15-J-4",
+          "point_m": [
+            83.414857,
+            32.48187891924312,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-15-J-1",
+          "terminal": "SD-53",
+          "terminal_point_m": [
+            81.26593199999999,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5712947645879705
+        },
+        {
+          "outlet": "VAV-15-J-2",
+          "terminal": "SD-54",
+          "terminal_point_m": [
+            84.98593199999999,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5712947645879705
+        },
+        {
+          "outlet": "VAV-15-J-3",
+          "terminal": "SD-65",
+          "terminal_point_m": [
+            81.26593199999999,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.8736909274111673
+        },
+        {
+          "outlet": "VAV-15-J-4",
+          "terminal": "SD-66",
+          "terminal_point_m": [
+            84.98593199999999,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.8736909274111673
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.8736909274111673,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.8210552434611857,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-16",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-16-J-1",
+          "point_m": [
+            90.22620700000002,
+            31.779777649053894,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-16-J-2",
+          "point_m": [
+            90.90565700000002,
+            31.779777649053894,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-16-J-3",
+          "point_m": [
+            90.22620700000002,
+            32.13537764905389,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-16-J-4",
+          "point_m": [
+            90.90565700000002,
+            32.13537764905389,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-16-J-1",
+          "terminal": "SD-55",
+          "terminal_point_m": [
+            88.70593199999999,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5536339432667312
+        },
+        {
+          "outlet": "VAV-16-J-2",
+          "terminal": "SD-56",
+          "terminal_point_m": [
+            92.42593199999999,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.5536339432666755
+        },
+        {
+          "outlet": "VAV-16-J-3",
+          "terminal": "SD-67",
+          "terminal_point_m": [
+            88.70593199999999,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.144618948324929
+        },
+        {
+          "outlet": "VAV-16-J-4",
+          "terminal": "SD-68",
+          "terminal_point_m": [
+            92.42593199999999,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.1446189483249016
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.144618948324929,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.9692027541584585,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-17",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-17-J-1",
+          "point_m": [
+            98.3587075,
+            31.898078919243115,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-17-J-2",
+          "point_m": [
+            99.0381575,
+            31.898078919243115,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-17-J-3",
+          "point_m": [
+            98.3587075,
+            32.253678919243114,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-17-J-4",
+          "point_m": [
+            99.0381575,
+            32.253678919243114,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-17-J-1",
+          "terminal": "SD-57",
+          "terminal_point_m": [
+            96.95384924999999,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.419295186156531
+        },
+        {
+          "outlet": "VAV-17-J-2",
+          "terminal": "SD-58",
+          "terminal_point_m": [
+            100.44301575,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.419295186156531
+        },
+        {
+          "outlet": "VAV-17-J-3",
+          "terminal": "SD-69",
+          "terminal_point_m": [
+            96.95384924999999,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.985584839208365
+        },
+        {
+          "outlet": "VAV-17-J-4",
+          "terminal": "SD-70",
+          "terminal_point_m": [
+            100.44301575,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.985584839208365
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.985584839208365,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.960192133326004,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-18",
+      "inlet_size_in": 12,
+      "ports": [
+        {
+          "id": "VAV-18-J-1",
+          "point_m": [
+            105.3878405,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-18-J-2",
+          "point_m": [
+            105.96569050000001,
+            32.26214200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-18-J-3",
+          "point_m": [
+            105.3878405,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            -0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-18-J-4",
+          "point_m": [
+            105.96569050000001,
+            32.61774200000002,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-18-J-1",
+          "terminal": "SD-59",
+          "terminal_point_m": [
+            103.93218225,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4646607009669732
+        },
+        {
+          "outlet": "VAV-18-J-2",
+          "terminal": "SD-60",
+          "terminal_point_m": [
+            107.42134875,
+            32.1,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.4646607009669732
+        },
+        {
+          "outlet": "VAV-18-J-3",
+          "terminal": "SD-71",
+          "terminal_point_m": [
+            103.93218225,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.6969230129458692
+        },
+        {
+          "outlet": "VAV-18-J-4",
+          "terminal": "SD-72",
+          "terminal_point_m": [
+            107.42134875,
+            34.88808400000001,
+            0.0
+          ],
+          "plan_lower_bound_m": 2.6969230129458692
+        }
+      ],
+      "maximum_plan_lower_bound_m": 2.6969230129458692,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 2.732745146989979,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-19",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-19-J-1",
+          "point_m": [
+            99.0381575,
+            42.392484,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-19-J-2",
+          "point_m": [
+            98.3587075,
+            42.392484,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-19-J-3",
+          "point_m": [
+            99.0381575,
+            42.036884,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-19-J-4",
+          "point_m": [
+            98.3587075,
+            42.036884,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-19-J-1",
+          "terminal": "SD-78",
+          "terminal_point_m": [
+            100.44301575,
+            43.443084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.7542482898931566
+        },
+        {
+          "outlet": "VAV-19-J-2",
+          "terminal": "SD-77",
+          "terminal_point_m": [
+            96.95384924999999,
+            43.443084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.7542482898931566
+        },
+        {
+          "outlet": "VAV-19-J-3",
+          "terminal": "SD-74",
+          "terminal_point_m": [
+            100.44301575,
+            38.878084000000015,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.4571150028011766
+        },
+        {
+          "outlet": "VAV-19-J-4",
+          "terminal": "SD-73",
+          "terminal_point_m": [
+            96.95384924999999,
+            38.878084000000015,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.4571150028011766
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.4571150028011766,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.6328029475559305,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    },
+    {
+      "id": "VAV-20",
+      "inlet_size_in": 14,
+      "ports": [
+        {
+          "id": "VAV-20-J-1",
+          "point_m": [
+            106.0164905,
+            42.392484,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-20-J-2",
+          "point_m": [
+            105.3370405,
+            42.392484,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "id": "VAV-20-J-3",
+          "point_m": [
+            106.0164905,
+            42.036884,
+            0.0
+          ],
+          "direction": [
+            1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        {
+          "id": "VAV-20-J-4",
+          "point_m": [
+            105.3370405,
+            42.036884,
+            0.0
+          ],
+          "direction": [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "routes": [
+        {
+          "outlet": "VAV-20-J-1",
+          "terminal": "SD-80",
+          "terminal_point_m": [
+            107.42134875,
+            43.443084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.7542482898931566
+        },
+        {
+          "outlet": "VAV-20-J-2",
+          "terminal": "SD-79",
+          "terminal_point_m": [
+            103.93218225,
+            43.443084,
+            0.0
+          ],
+          "plan_lower_bound_m": 1.7542482898931566
+        },
+        {
+          "outlet": "VAV-20-J-3",
+          "terminal": "SD-76",
+          "terminal_point_m": [
+            107.42134875,
+            38.878084000000015,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.4571150028011766
+        },
+        {
+          "outlet": "VAV-20-J-4",
+          "terminal": "SD-75",
+          "terminal_point_m": [
+            103.93218225,
+            38.878084000000015,
+            0.0
+          ],
+          "plan_lower_bound_m": 3.4571150028011766
+        }
+      ],
+      "maximum_plan_lower_bound_m": 3.4571150028011766,
+      "outlet_bore_m": 0.25082499999999996,
+      "maximum_outlet_velocity_if_equal_split_m_s": 3.5549141645009334,
+      "assignment": "All24permutations checked; minimize longest planar distance, then total; same20groups/80terminals preserved",
+      "physical_product_selected": false
+    }
+  ],
+  "installed_length_verified": false,
+  "pressure_verified": false,
+  "design_accepted": false,
+  "intersection_review": {
+    "ifc_sha256": "45e71f1140e0acc5dd9221df4ae7400d46cf9e14ef1d2a0f0668c13db264435b",
+    "physical_scope_bodies": 169,
+    "excluded_nonphysical_reservations": 60,
+    "intersection_count": 0,
+    "unverified": [],
+    "boolean_candidates": 0,
+    "findings": [],
+    "design_accepted": false
+  },
+  "delivered_ifc_sha256": "45e71f1140e0acc5dd9221df4ae7400d46cf9e14ef1d2a0f0668c13db264435b"
+}
