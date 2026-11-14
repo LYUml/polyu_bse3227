@@ -1,0 +1,2072 @@
+{
+  "groups": 20,
+  "casing_envelopes": 20,
+  "inlet_reservations": 20,
+  "both_side_access_reservations": 40,
+  "original89network_entities_unchanged": true,
+  "native_box_reconciliation": 80,
+  "casing_network_overlap_pairs": 0,
+  "all_overlap_categories": {
+    "existing_network/inlet_reservation": 20
+  },
+  "contact_waivers": 0,
+  "candidate_inlet_counts": {
+    "12": 7,
+    "14": 13
+  },
+  "nominal_inlet_duct_maximum_velocity_range_m_s": [
+    5.884775698476208,
+    7.949631107600794
+  ],
+  "collar_over8m_s_groups": [
+    "VAV-01",
+    "VAV-12"
+  ],
+  "collar_velocity_note": "Course branch-duct target applies to proposed nominal inlet duct; no manufacturer internal-collar velocity limit claimed",
+  "native_reopen_pass": true,
+  "native_entity_count": 193,
+  "all169native_GUIDs_projected": true,
+  "actual_PDF_visually_inspected": true,
+  "actual_PDF_review": "Final rendered monochrome plot has bold casing outlines and dashed reservations; title/legend/notes/reference not visibly clipped or overlapping",
+  "reference_expected_mm": 50.0,
+  "reference_measured_mm": 49.99566666666666,
+  "source_catalogue_sha256": "ba747af8d424da4e59b0d4d93c888bd9b5df299d303c0824fa89f9305870d766",
+  "source_IOM_sha256": "ea1d801c7d69eee95d000c88994e9bd6e80d1670a386ddec89fd4f55b9e6bd69",
+  "assumptions": [
+    "Original abstract VAV node is proposed inlet collar entrance centre",
+    "Inherited centreline z=0, not installed elevation",
+    "Both-side access reservation includes conservative casing-length and height coverage; control handedness unselected"
+  ],
+  "upstream_rectangular_duct_replacements_required": 20,
+  "connected_equipment": false,
+  "full_pressure_verified": false,
+  "installation_verified": false,
+  "design_accepted": false,
+  "deliverable_sha256": {
+    "VAV Equipment Space.dwg": "72f4b800841ad0a8598f4b73ad59232946929c04627f108295a344ea39844698",
+    "VAV Equipment Space.ifc": "22b42ba43415e9316ff2555f4e64200370cf9358aaeadde986ec7574e50b34aa",
+    "VAV Equipment Space.pdf": "3f50017cc7d5121a2ee21cbe05da5369c46f10020aa8edd84a12ee886d6412f8"
+  },
+  "rows": [
+    {
+      "id": "VAV-01",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 575.6751425686068,
+      "minimum_flow_L_s": 230.27005702744276,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 71.00683904374525,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 45.444376987996954,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 31.558595130553446,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.18590662652906,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 17.75170976093631,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.026042280245974,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.361094246999238,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.8896487826383614,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.796476656632265,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.437927440234078,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.8896487826383614,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 8.056620851057634,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 15.28035064299855,
+      "minimum_minimum_static_estimate_Pa": 2.6989540767144415,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-02",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 584.4445324089027,
+      "minimum_flow_L_s": 233.7778129635611,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 72.08850230633355,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 46.13664147605346,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 32.03933435837047,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.53910279390483,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 18.022125576583388,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.239704159275762,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.534160369013366,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.009833589592617,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.884775698476208,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.505531394145847,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 5.884775698476208,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 5.991285314640496,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.265822918604748,
+      "minimum_minimum_static_estimate_Pa": 1.4077534046597775,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-03",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 585.7640575548338,
+      "minimum_flow_L_s": 234.30562302193354,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 72.25125956771754,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 46.24080612333922,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 32.111670918985574,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.59224802211185,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 18.062814891929385,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.271853741771364,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.560201530834805,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.027917729746394,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.8980620055279624,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.515703722982346,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 5.8980620055279624,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.004812092958588,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.295392078571016,
+      "minimum_minimum_static_estimate_Pa": 1.419581068646284,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-04",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 616.7344607577531,
+      "minimum_flow_L_s": 246.69378430310127,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 76.0713140962792,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 48.68564102161868,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 33.80947293167965,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 24.839612766131985,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 19.0178285240698,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.02643241407984,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.17141025540467,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.452368232919913,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.209903191532996,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.75445713101745,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.209903191532996,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.322297348802037,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.989405989068095,
+      "minimum_minimum_static_estimate_Pa": 1.6971866328451162,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-05",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 590.1648406958004,
+      "minimum_flow_L_s": 236.06593627832018,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 72.79407560587886,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 46.588208387762464,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 32.352922491501715,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.769494075389016,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 18.198518901469715,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.37907666288965,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.647052096940616,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.088230622875429,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.942373518847254,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.549629725367429,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 5.942373518847254,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.049925608345098,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.394008964405554,
+      "minimum_minimum_static_estimate_Pa": 1.4590278229800986,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-06",
+      "capacity_only_size_in": 9,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 538.984439400712,
+      "minimum_flow_L_s": 215.59377576028476,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 66.4812122421085,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 42.547975834949426,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 29.54720544093711,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 21.70815093619869,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 16.620303060527124,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 13.132091307083158,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 10.636993958737357,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.386801360234277,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.427037734049673,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.155075765131781,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.386801360234277,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 7.543131449963336,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 13.311578869625329,
+      "minimum_minimum_static_estimate_Pa": 2.2729247749353156,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-07",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 618.4264111528702,
+      "minimum_flow_L_s": 247.3705644611481,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 76.28000827202565,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 48.819205294096406,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 33.90222589867807,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 24.907757803110417,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 19.070002068006414,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.067655954968028,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.204801323524102,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.475556474669517,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.226939450777604,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.767500517001603,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.226939450777604,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.339641950373693,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 10.027320804138103,
+      "minimum_minimum_static_estimate_Pa": 1.7123525588731194,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-08",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 618.4264111528702,
+      "minimum_flow_L_s": 247.3705644611481,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 76.28000827202565,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 48.819205294096406,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 33.90222589867807,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 24.907757803110417,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 19.070002068006414,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.067655954968028,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.204801323524102,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.475556474669517,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.226939450777604,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.767500517001603,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.226939450777604,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.339641950373693,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 10.027320804138103,
+      "minimum_minimum_static_estimate_Pa": 1.7123525588731194,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-09",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 618.4264111528714,
+      "minimum_flow_L_s": 247.37056446114855,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 76.2800082720258,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 48.819205294096506,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 33.90222589867814,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 24.907757803110467,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 19.07000206800645,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.067655954968059,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.204801323524126,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.475556474669535,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.226939450777617,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.767500517001612,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.226939450777617,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.339641950373705,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 10.02732080413813,
+      "minimum_minimum_static_estimate_Pa": 1.7123525588731299,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-10",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 652.0041910874131,
+      "minimum_flow_L_s": 260.80167643496526,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 80.42167053769181,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 51.469869144122754,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 35.74296468341859,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 26.260137318429983,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 20.105417634422952,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.88576208151937,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.867467286030688,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.935741170854648,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.565034329607496,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 5.026354408605738,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.565034329607496,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.683856069360963,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 10.838481239558043,
+      "minimum_minimum_static_estimate_Pa": 2.0133295426792057,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-11",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 623.2232368578052,
+      "minimum_flow_L_s": 249.28929474312213,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 76.871674309978,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 49.19787155838591,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 34.165188582212444,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 25.10095487672751,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 19.2179185774945,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 15.184528258761086,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 12.299467889596478,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.541297145553111,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 6.2752387191818775,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.804479644373625,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 6.2752387191818775,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.388815395943306,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 10.134812584068857,
+      "minimum_minimum_static_estimate_Pa": 1.7553492708454215,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-12",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 580.0518055133923,
+      "minimum_flow_L_s": 232.02072220535695,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 71.54667996840715,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 45.789875179780566,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 31.798524430403177,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.362181214173763,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 17.886669992101787,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.132677524623633,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.447468794945141,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.949631107600794,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.840545303543441,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.471667498025447,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.949631107600794,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 8.117872608049742,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 15.515196250285843,
+      "minimum_minimum_static_estimate_Pa": 2.7497731261602163,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-13",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 551.782171001471,
+      "minimum_flow_L_s": 220.71286840058843,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 68.05975263877302,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 43.558241688814725,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 30.24877895056579,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 22.223592698374866,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 17.014938159693255,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 13.443901755807016,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 10.889560422203681,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.562194737641447,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.555898174593716,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.253734539923314,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.562194737641447,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 7.722236753695688,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 13.998287233416724,
+      "minimum_minimum_static_estimate_Pa": 2.421523961854112,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-14",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 556.0038885923348,
+      "minimum_flow_L_s": 222.4015554369339,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 68.58048177799736,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 43.8915083379183,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 30.480214123554386,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 22.39362670301955,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 17.14512044449934,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 13.546761832690837,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 10.972877084479576,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.620053530888597,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.598406675754887,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.286280111124835,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.620053530888597,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 7.781320037747292,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 14.224818689900735,
+      "minimum_minimum_static_estimate_Pa": 2.4705438835850773,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-15",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 557.5747590274335,
+      "minimum_flow_L_s": 223.0299036109734,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 68.77424130641116,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 44.01551443610313,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 30.56632946951607,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 22.456895120460786,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 17.19356032660279,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 13.585035319784918,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.003878609025783,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.6415823673790175,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.614223780115196,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.298390081650697,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.6415823673790175,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 7.803304498367317,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 14.309109398587808,
+      "minimum_minimum_static_estimate_Pa": 2.4887838402190017,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-16",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 586.8557568983574,
+      "minimum_flow_L_s": 234.74230275934298,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 72.38591558087083,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 46.326985971757324,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 32.1715180359426,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.636217332529252,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 18.096478895217707,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.298452460418929,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.581746492939331,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.04287950898565,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.909054333132313,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.524119723804427,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 5.909054333132313,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 6.016003372681741,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.319855903776055,
+      "minimum_minimum_static_estimate_Pa": 1.429366598728301,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-17",
+      "capacity_only_size_in": 10,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 585.0748294418718,
+      "minimum_flow_L_s": 234.02993177674873,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 72.16624650034214,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 46.186397760218966,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 32.0738873334854,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 23.564488653172948,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 18.041561625085535,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 14.255061037104621,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 11.546599440054742,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 8.01847183337135,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.891122163293237,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.510390406271384,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 5.891122163293237,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 5.99774664526827,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 9.27994720706685,
+      "minimum_minimum_static_estimate_Pa": 1.4134031200446173,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-18",
+      "capacity_only_size_in": 9,
+      "revised_candidate_size_in": 12,
+      "maximum_flow_L_s": 540.1204816346908,
+      "minimum_flow_L_s": 216.04819265387636,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 66.62133774361115,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 42.637656155911124,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 29.609483441604954,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 21.753906201995477,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 16.655334435902788,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 13.159770418491089,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 10.659414038977781,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 7.402370860401239,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 5.438476550498869,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 4.163833608975697,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.402370860401239,
+      "actual_collar_diameter_m": 0.301625,
+      "maximum_collar_velocity_m_s": 7.559030454233554,
+      "recommended_upstream_straight_m": 0.9143999999999999,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.4064,
+      "casing_height_m": 0.381,
+      "maximum_minimum_static_estimate_Pa": 13.372537305700611,
+      "minimum_minimum_static_estimate_Pa": 2.28611578077456,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-19",
+      "capacity_only_size_in": 12,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 718.0147332359453,
+      "minimum_flow_L_s": 287.20589329437814,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 88.56376248318968,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 56.68080798924139,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 39.361672214750975,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 28.91877958634765,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 22.14094062079742,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 17.494076539889317,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 14.170201997310347,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 9.840418053687744,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 7.2296948965869126,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 5.535235155199355,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.2296948965869126,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 7.360546447754746,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 13.577600257895018,
+      "minimum_minimum_static_estimate_Pa": 2.6050200568823505,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    },
+    {
+      "id": "VAV-20",
+      "capacity_only_size_in": 12,
+      "revised_candidate_size_in": 14,
+      "maximum_flow_L_s": 702.6202032835482,
+      "minimum_flow_L_s": 281.0480813134193,
+      "options": [
+        {
+          "size_in": 4,
+          "nominal_duct_diameter_m": 0.1016,
+          "maximum_duct_velocity_m_s": 86.6649191431653,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 5,
+          "nominal_duct_diameter_m": 0.127,
+          "maximum_duct_velocity_m_s": 55.46554825162579,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 6,
+          "nominal_duct_diameter_m": 0.15239999999999998,
+          "maximum_duct_velocity_m_s": 38.51774184140681,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 7,
+          "nominal_duct_diameter_m": 0.17779999999999999,
+          "maximum_duct_velocity_m_s": 28.29874910797235,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 8,
+          "nominal_duct_diameter_m": 0.2032,
+          "maximum_duct_velocity_m_s": 21.666229785791327,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 9,
+          "nominal_duct_diameter_m": 0.2286,
+          "maximum_duct_velocity_m_s": 17.11899637395858,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 10,
+          "nominal_duct_diameter_m": 0.254,
+          "maximum_duct_velocity_m_s": 13.866387062906448,
+          "capacity_pass": false,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 12,
+          "nominal_duct_diameter_m": 0.30479999999999996,
+          "maximum_duct_velocity_m_s": 9.629435460351703,
+          "capacity_pass": true,
+          "velocity_pass": false,
+          "combined_pass": false
+        },
+        {
+          "size_in": 14,
+          "nominal_duct_diameter_m": 0.35559999999999997,
+          "maximum_duct_velocity_m_s": 7.074687276993087,
+          "capacity_pass": true,
+          "velocity_pass": true,
+          "combined_pass": true
+        },
+        {
+          "size_in": 16,
+          "nominal_duct_diameter_m": 0.4064,
+          "maximum_duct_velocity_m_s": 5.416557446447832,
+          "capacity_pass": false,
+          "velocity_pass": true,
+          "combined_pass": false
+        }
+      ],
+      "maximum_duct_velocity_m_s": 7.074687276993087,
+      "actual_collar_diameter_m": 0.352425,
+      "maximum_collar_velocity_m_s": 7.202733317312011,
+      "recommended_upstream_straight_m": 1.0668,
+      "recommended_control_access_m": 0.4572,
+      "casing_length_m": 0.3937,
+      "casing_width_m": 0.508,
+      "casing_height_m": 0.4445,
+      "maximum_minimum_static_estimate_Pa": 12.938801538804254,
+      "minimum_minimum_static_estimate_Pa": 2.467030017004272,
+      "installed_geometry_verified": false,
+      "total_pressure_loss_Pa": null
+    }
+  ]
+}
