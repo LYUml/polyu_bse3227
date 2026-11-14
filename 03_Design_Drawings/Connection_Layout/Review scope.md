@@ -27,3 +27,15 @@ cells and80rawplanconnections independently reconcile. Actual A4PDF inspected;
 05_Calculations/Connection_Layout. These are straight XY lower-bound lengths,
 not installed flex lengths or selected hardware. Full pressure and ADPI remain
 unresolved; do not combine with the separate earlier network-study geometry.
+
+
+Supply Network Coordination IFC/DWG/PDF now rebases the finite rigid network
+to this recentered layout and three compensated sizes.89bodies/197ports/
+88links,all88materialcapinterfaces and21sourceboundaryframes match.
+Actual native112entityDWGreopen and1:200PDF inspected;10mreference49.995667mm.
+Maximum/minimum31conditional fitting values and32numerical gaps; fullpressure
+unknown. Raw89validgeometry/zero intersections/88clearanceviolations, no waivers.
+See the matching calculation report in05_Calculations/Connection_Layout.
+Earlier Network_Study is preserved as a different historical scenario.
+Installed hardware,physicalclearance,flexlength,ADPI and final acceptance remain
+unresolved; this coordination overview is not an installation drawing.
