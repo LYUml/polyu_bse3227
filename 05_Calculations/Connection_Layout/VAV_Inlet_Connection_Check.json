@@ -1,0 +1,807 @@
+{
+  "native_bodies": 40,
+  "transitions": 20,
+  "round_leads": 20,
+  "owned_ports": 80,
+  "local_links": 20,
+  "schema_express_pass": true,
+  "all_native_caps_and_walls_pass": true,
+  "maximum_circle_chord_error_m": 2.2176822101309666e-06,
+  "raw_intersection_pairs": 0,
+  "raw_clearance_violation_pairs": 20,
+  "contact_waivers": 0,
+  "common_CadQuery_worker_actual_cases": 20,
+  "common_worker_sha256": "a8bda9a3886def23bffef5fc9fe78854f381b66785c748fd8bdfba5f84184e78",
+  "common_STEP_units_reimport_pass": true,
+  "common_BRep_hashes_match_project_prototype": true,
+  "independent_nominal_boundary_frames_verified": true,
+  "CAD_versions": {
+    "cadquery": "2.6.1",
+    "cadquery-ocp": "7.8.1.1.post1"
+  },
+  "new_dependency_lock_sha256": "e4e059b07bdb31d9f50ecfe75cc9e7c8e64774b51d0c3bb13108808ce2dcdacb",
+  "OCP_binary_sha256": "0006d52ee7e33bc00d5308fc7040d06bb222525d078e20f69b9ac6f62687c8b8",
+  "native_DWG_reopen_pass": true,
+  "native_DWG_entity_count": 1266,
+  "actual_PDF_visually_inspected": true,
+  "PDF_review": "Five actual saved-native longitudinal material section families represent20cases; labels/notes/reference show no observed clipping or overlap",
+  "drawing_representative_native_GUIDs": 10,
+  "drawing_is_whole_network_plan": false,
+  "reference_expected_mm": 50.0,
+  "reference_measured_mm": 49.99566666666666,
+  "shifted_candidate_units": {
+    "VAV-03": 0.11330635094610986,
+    "VAV-04": 0.11330635094610986,
+    "VAV-15": 0.131063080756898,
+    "VAV-16": 0.42676435094612475,
+    "VAV-17": 0.30846308075690376
+  },
+  "maximum_round_straight_friction_range_Pa": [
+    1.1417409642611263,
+    2.0678825502696725
+  ],
+  "assumptions": [
+    "0.3m taper and50mm end collars; no product or prescribed angle acceptance",
+    "0.8mm section-plane-offset wall, not constant sheet-normal thickness",
+    "80mm minimum retained rectangle is internal construction policy",
+    "Nominal circular bore and inherited chart roughness/fluid properties",
+    "Proposed VAV inlet datum and reference elevation remain assumptions"
+  ],
+  "network_merged": false,
+  "full_pressure_verified": false,
+  "installation_verified": false,
+  "design_accepted": false,
+  "deliverable_sha256": {
+    "VAV Inlet Connections.dwg": "09bddfe210ba1153fbf278744f424cab9c214621582b09169238b14b14a9d120",
+    "VAV Inlet Connections.ifc": "15e8cd16472befb251a20193ce625446afcc955529fc9a235e0ce0da83dccf36",
+    "VAV Inlet Connections.pdf": "3eda1c04f0d379bd7149b306a32c4270236da3ddf184be8a7afa543e27ec0754",
+    "STEP/VAV-01.step": "db5b3eb0c9674f782fb01111d9e8bb2e8a85fb6e50bf72cf9c8296786d8ec605",
+    "STEP/VAV-02.step": "e4f1eb831809d3c5724a8831226a3bb228a89e9303f6e544499ff58668ef757e",
+    "STEP/VAV-03.step": "5e86a6615c967987dac7a8c73c05a6139fa101db6db28fcbc66e5e5f0602da4d",
+    "STEP/VAV-04.step": "8c42279cb2a37084ade34fab1727022b23934fa5243c8af8a9f64b3166cd96eb",
+    "STEP/VAV-05.step": "0b459ca52551cb396c3aab69acd41343199c142fcf5312831bd633230db0ef99",
+    "STEP/VAV-06.step": "caa97e6ed769c63355ec1697391b54e95df9e62d797a13c9d7fec1b49791b534",
+    "STEP/VAV-07.step": "57f631a5889df8b814a0b85dae4ac281d792ec62c6ed5a9f27de3d441cf2701b",
+    "STEP/VAV-08.step": "fd8c87d19e3915f9dc6eab750e3564854ffacd3050357b369cc41a72ec500253",
+    "STEP/VAV-09.step": "07c95d0bf9a5b198aae7d8e36660f37b2e17e7d2ec7ea49b655d99fe1f43e76f",
+    "STEP/VAV-10.step": "63c86a45e7932ebf34c683c0fa298f0b5f79528ef1b39a778f7ab03a16098835",
+    "STEP/VAV-11.step": "ce201f39e6c585316e0165ced007c523c6c6b12a35670b3bcf69fab4efb5b9c1",
+    "STEP/VAV-12.step": "87f60dda700f8c7b838263d834819d6d2f2f3632d5d65a0beb9e517e07112624",
+    "STEP/VAV-13.step": "a1e884db968266d0f4e93bf8e2621a57b737700f3c050074966a5047843b3e2a",
+    "STEP/VAV-14.step": "d6f42de17c8f7c66d3152e01b7aecd4fd0e353c855019ebda429528ef21e5784",
+    "STEP/VAV-15.step": "e92ffd686b5998c762ebd0e6d152840503d317c4fdeb6fe0eea581209d641f17",
+    "STEP/VAV-16.step": "58ab79ab01c99659b179f7780ec89121dbb149909db5397d0763169f1678f005",
+    "STEP/VAV-17.step": "03af06383585b6ec28643d8ef3256230e9eda77724028cbe660a3a3022021b3f",
+    "STEP/VAV-18.step": "0c1038740c316c17fced3d847569d82a493401d00e6afd3b3104b120f3575440",
+    "STEP/VAV-19.step": "f4220c6136107517c9df8873c6942436e66251258b159f3b6fd4d26a1f096a97",
+    "STEP/VAV-20.step": "163df427183b6545f1cee53a0f7c18e0d0cfbdb6326868049dad426f8e43486b"
+  },
+  "air": {
+    "density_kg_m3": 1.2,
+    "viscosity_Pa_s": 1.81e-05,
+    "roughness_m": 9e-05
+  },
+  "source_ifc_sha256": "9001cfe4f75ea6ac54ca578480bdede88148a9d4ec850b275748239e4675b82b",
+  "rows": [
+    {
+      "id": "VAV-01",
+      "source_section_guid": "3yhBBouBPRw8LwOEWLhhps",
+      "transition_guid": "0ZvL2d7mjHBgUb$BMNqc3$",
+      "round_lead_guid": "06Hh2xMdTKoQv70$AWSAwq",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.5606000000000002,
+      "proposed_inlet_point_m": [
+        68.245932,
+        19.520584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5756751425686069,
+        "velocity_m_s": 7.8896487826383614,
+        "Re": 159431.9303170059,
+        "Darcy_factor": 0.018196452675781394,
+        "straight_friction_Pa": 2.038799781542217,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.23027005702744274,
+        "velocity_m_s": 3.155859513055345,
+        "Re": 63772.77212680236,
+        "Darcy_factor": 0.020957176535375918,
+        "straight_friction_Pa": 0.37569948563818134,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-02",
+      "source_section_guid": "2dwkXYndrQe8akRs1ziEM_",
+      "transition_guid": "0605Yd06LLBBo7DnXK$8AR",
+      "round_lead_guid": "07KKmEREfJPfr$AKuoBsTg",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.20329618943233219,
+      "proposed_inlet_point_m": [
+        75.68593200000001,
+        19.520584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5844445324089027,
+        "velocity_m_s": 5.884775698476208,
+        "Re": 138737.65116319156,
+        "Darcy_factor": 0.018316194638614856,
+        "straight_friction_Pa": 1.1417409642611263,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2337778129635611,
+        "velocity_m_s": 2.3539102793904836,
+        "Re": 55495.060465276634,
+        "Darcy_factor": 0.021342762782366024,
+        "straight_friction_Pa": 0.21286436000422732,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-03",
+      "source_section_guid": "3Y2iFalPLIjPgobiCbmlpM",
+      "transition_guid": "1gUy0S3gzKSAO4VCRzaRLu",
+      "round_lead_guid": "1ZZAlC4lrO2QbhtVItI3gO",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.11330635094610986,
+      "retained_rectangular_m": 0.07999999999999985,
+      "proposed_inlet_point_m": [
+        83.12593199999999,
+        19.40727764905389,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5857640575548339,
+        "velocity_m_s": 5.8980620055279624,
+        "Re": 139050.88502756308,
+        "Darcy_factor": 0.018310237378209932,
+        "straight_friction_Pa": 1.1465292730813323,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.23430562302193356,
+        "velocity_m_s": 2.3592248022111852,
+        "Re": 55620.35401102524,
+        "Darcy_factor": 0.02133370420236782,
+        "straight_friction_Pa": 0.21373587565068872,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-04",
+      "source_section_guid": "3ZeIIu8ZjLivD3$rEAqFH_",
+      "transition_guid": "1yo3oMeLjHKvejNdyVZDDU",
+      "round_lead_guid": "3CV6r_jBPNfeqOCnCSHL_x",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.11330635094610986,
+      "retained_rectangular_m": 0.07999999999999985,
+      "proposed_inlet_point_m": [
+        90.56593199999999,
+        19.40727764905389,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6167344607577532,
+        "velocity_m_s": 6.209903191532996,
+        "Re": 146402.75634756684,
+        "Darcy_factor": 0.018175971323389356,
+        "straight_friction_Pa": 1.2616526192412503,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2466937843031013,
+        "velocity_m_s": 2.483961276613199,
+        "Re": 58561.102539026746,
+        "Darcy_factor": 0.021129091991434132,
+        "straight_friction_Pa": 0.23466211541721332,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-05",
+      "source_section_guid": "0JgqECwtPHrA0cyUHrcIbw",
+      "transition_guid": "14frf0CbvTmfmxDxOuXDDP",
+      "round_lead_guid": "0UaNKnAprP7QMJmZT2zAM7",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.0849949192431112,
+      "proposed_inlet_point_m": [
+        98.6984325,
+        19.520584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5901648406958004,
+        "velocity_m_s": 5.942373518847254,
+        "Re": 140095.55955593922,
+        "Darcy_factor": 0.01829051410367021,
+        "straight_friction_Pa": 1.1625678566700572,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.23606593627832018,
+        "velocity_m_s": 2.3769494075389015,
+        "Re": 56038.223822375694,
+        "Darcy_factor": 0.021303701284150135,
+        "straight_friction_Pa": 0.21665436587008807,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-06",
+      "source_section_guid": "3UfxkNar9T3uv889TvBuZo",
+      "transition_guid": "1jeQUDHlPPX8wGccFpt_S7",
+      "round_lead_guid": "2q8qfOO49I_ufYGUhp5V9K",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.48559999999999737,
+      "proposed_inlet_point_m": [
+        105.6767655,
+        19.520584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.538984439400712,
+        "velocity_m_s": 7.386801360234277,
+        "Re": 149270.5229568668,
+        "Darcy_factor": 0.01835520084947925,
+        "straight_friction_Pa": 1.8027872883859435,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2155937757602848,
+        "velocity_m_s": 2.9547205440937114,
+        "Re": 59708.20918274673,
+        "Darcy_factor": 0.021205349633200064,
+        "straight_friction_Pa": 0.3332351202517923,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-07",
+      "source_section_guid": "3YEo7IX2vLHOZoUdtxYhkW",
+      "transition_guid": "0JfUHjcB5SvPKt2ri92tEC",
+      "round_lead_guid": "2PLcT9GNfN9xMf9NjlMEQ6",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.4082000000000001,
+      "proposed_inlet_point_m": [
+        68.245932,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6184264111528702,
+        "velocity_m_s": 6.226939450777604,
+        "Re": 146804.3979246309,
+        "Darcy_factor": 0.018168929533351662,
+        "straight_friction_Pa": 1.268093075866878,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2473705644611481,
+        "velocity_m_s": 2.490775780311042,
+        "Re": 58721.75916985237,
+        "Darcy_factor": 0.02111833648792062,
+        "straight_friction_Pa": 0.23583131829533896,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-08",
+      "source_section_guid": "1h76SSiWvQkv6hW9gZiAWw",
+      "transition_guid": "1iMV4IGVbTQQ3Zslkcf4ed",
+      "round_lead_guid": "3UxvOnnuHIVhzFqfXG9Qfk",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.32159745962155317,
+      "proposed_inlet_point_m": [
+        75.68593200000001,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6184264111528702,
+        "velocity_m_s": 6.226939450777604,
+        "Re": 146804.3979246309,
+        "Darcy_factor": 0.018168929533351662,
+        "straight_friction_Pa": 1.268093075866878,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2473705644611481,
+        "velocity_m_s": 2.490775780311042,
+        "Re": 58721.75916985237,
+        "Darcy_factor": 0.02111833648792062,
+        "straight_friction_Pa": 0.23583131829533896,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-09",
+      "source_section_guid": "1I5d0BkIHT3A1NnC$0VWpB",
+      "transition_guid": "073$13FGvKQfQFW3Bfaw_Y",
+      "round_lead_guid": "0NclTzqC9H5v$u3kOeny0C",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.0849949192431112,
+      "proposed_inlet_point_m": [
+        83.12593199999999,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6184264111528714,
+        "velocity_m_s": 6.226939450777617,
+        "Re": 146804.3979246312,
+        "Darcy_factor": 0.018168929533351662,
+        "straight_friction_Pa": 1.2680930758668831,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.24737056446114858,
+        "velocity_m_s": 2.4907757803110466,
+        "Re": 58721.75916985247,
+        "Darcy_factor": 0.021118336487920608,
+        "straight_friction_Pa": 0.23583131829533963,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-10",
+      "source_section_guid": "0WvdfA3zDKfO0CW$V5Jsne",
+      "transition_guid": "2ut_eWMFvGiPfJKc68n7Wb",
+      "round_lead_guid": "3umkswK7rHWwv8MZLRKluF",
+      "width_m": 0.45,
+      "height_m": 0.25,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.0849949192431112,
+      "proposed_inlet_point_m": [
+        90.56593199999999,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6520041910874131,
+        "velocity_m_s": 6.565034329607496,
+        "Re": 154775.218183984,
+        "Darcy_factor": 0.018034945065955568,
+        "straight_friction_Pa": 1.3991405120862455,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.26080167643496527,
+        "velocity_m_s": 2.626013731842998,
+        "Re": 61910.08727359359,
+        "Darcy_factor": 0.02091320631680502,
+        "straight_friction_Pa": 0.25958949440390355,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-11",
+      "source_section_guid": "1eFzE74j9IX9FCS_bpSZi8",
+      "transition_guid": "3eWODGgi1JVgoXONtliPba",
+      "round_lead_guid": "0Ki21$yXvJhhozk4LQO45F",
+      "width_m": 0.45,
+      "height_m": 0.25,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.271597459621556,
+      "proposed_inlet_point_m": [
+        98.6984325,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.6232232368578052,
+        "velocity_m_s": 6.2752387191818775,
+        "Re": 147943.08653310995,
+        "Darcy_factor": 0.018149122598470565,
+        "straight_friction_Pa": 1.2864373559533442,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.24928929474312211,
+        "velocity_m_s": 2.5100954876727513,
+        "Re": 59177.23461324399,
+        "Darcy_factor": 0.02108807036832046,
+        "straight_friction_Pa": 0.23916070952381024,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-12",
+      "source_section_guid": "0FMDd$bG1NneS7N2OdRFsP",
+      "transition_guid": "1GeF7U9_PHg89aSWWC4FLo",
+      "round_lead_guid": "2ajGV5sJXI_hAF4bOYOcYT",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.5606000000000002,
+      "proposed_inlet_point_m": [
+        105.6767655,
+        26.350584000000012,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5800518055133923,
+        "velocity_m_s": 7.949631107600794,
+        "Re": 160644.03723293182,
+        "Darcy_factor": 0.018178557191202944,
+        "straight_friction_Pa": 2.0678825502696725,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.23202072220535694,
+        "velocity_m_s": 3.179852443040318,
+        "Re": 64257.61489317274,
+        "Darcy_factor": 0.020929098731957016,
+        "straight_friction_Pa": 0.3809227991460515,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-13",
+      "source_section_guid": "2TYIpAGo5Jn84Ds4cFSqzD",
+      "transition_guid": "0Lx_JY7arRsxNLeOIqw_of",
+      "round_lead_guid": "0byDOHLwrMqBBBu_2f8_uL",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.17214199999998603,
+      "proposed_inlet_point_m": [
+        68.245932,
+        33.49404200000002,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5517821710014711,
+        "velocity_m_s": 7.562194737641447,
+        "Re": 152814.82581435004,
+        "Darcy_factor": 0.018297984771930113,
+        "straight_friction_Pa": 1.8835253979341333,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.22071286840058846,
+        "velocity_m_s": 3.024877895056579,
+        "Re": 61125.93032574002,
+        "Darcy_factor": 0.02111608561923075,
+        "straight_friction_Pa": 0.34777760777054145,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-14",
+      "source_section_guid": "0hfguPDXzM4uq$XxvCCMMo",
+      "transition_guid": "2V76E$fNPNBBedH8MA2JbC",
+      "round_lead_guid": "33yaEYLKHGWvpRvUfEvIRh",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.1355394596215469,
+      "proposed_inlet_point_m": [
+        75.685932,
+        33.49404200000002,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5560038885923347,
+        "velocity_m_s": 7.620053530888597,
+        "Re": 153984.02096452005,
+        "Darcy_factor": 0.018279556315051952,
+        "straight_friction_Pa": 1.9105314883388793,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2224015554369339,
+        "velocity_m_s": 3.048021412355439,
+        "Re": 61593.60838580802,
+        "Darcy_factor": 0.02108729182716858,
+        "straight_friction_Pa": 0.3526381874502925,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-15",
+      "source_section_guid": "10cDTQJo5IcPLAUKm5b$EG",
+      "transition_guid": "1MjS_85M1MDR3f02Qq8aC0",
+      "round_lead_guid": "0jXkbU2aTGOOdsYp6sh3fe",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.131063080756898,
+      "retained_rectangular_m": 0.07999999999999996,
+      "proposed_inlet_point_m": [
+        83.12593199999999,
+        33.362978919243126,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5575747590274335,
+        "velocity_m_s": 7.6415823673790175,
+        "Re": 154419.06998301373,
+        "Darcy_factor": 0.018272754159826786,
+        "straight_friction_Pa": 1.9206273709633828,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2230299036109734,
+        "velocity_m_s": 3.0566329469516074,
+        "Re": 61767.62799320552,
+        "Darcy_factor": 0.021076658313861026,
+        "straight_friction_Pa": 0.354454782169986,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-16",
+      "source_section_guid": "2xxjOz63jHgeE8yuHmmyJ7",
+      "transition_guid": "19FJZS12HTfv_ra$HIeypD",
+      "round_lead_guid": "0TV2Xkn3DKSAFUc1J5Ry_k",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.42676435094612475,
+      "retained_rectangular_m": 0.07999999999999985,
+      "proposed_inlet_point_m": [
+        90.56593200000002,
+        33.0672776490539,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5868557568983575,
+        "velocity_m_s": 5.909054333132313,
+        "Re": 139310.03674222212,
+        "Darcy_factor": 0.018305323908017705,
+        "straight_friction_Pa": 1.150498057382744,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.234742302759343,
+        "velocity_m_s": 2.3636217332529252,
+        "Re": 55724.01469688886,
+        "Darcy_factor": 0.0213262315626547,
+        "straight_friction_Pa": 0.21445815966911927,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-17",
+      "source_section_guid": "1ljYkCFLnPd9wUABuPtBnw",
+      "transition_guid": "3FRUibkjjTCA_HQeOt3zGq",
+      "round_lead_guid": "09iuYmf6LSW8R9mYn6AcHU",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.30846308075690376,
+      "retained_rectangular_m": 0.07999999999999985,
+      "proposed_inlet_point_m": [
+        98.6984325,
+        33.18557891924312,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5850748294418717,
+        "velocity_m_s": 5.891122163293237,
+        "Re": 138887.2734541707,
+        "Darcy_factor": 0.018313346517704446,
+        "straight_friction_Pa": 1.144027003403617,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2340299317767487,
+        "velocity_m_s": 2.3564488653172946,
+        "Re": 55554.90938166828,
+        "Darcy_factor": 0.02133843214972296,
+        "straight_friction_Pa": 0.21328045153061567,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-18",
+      "source_section_guid": "1JDTIpFW5QSREtJ610AQ34",
+      "transition_guid": "2dMvZV34jPX8IHxG0dDJtT",
+      "round_lead_guid": "2n$_2Nh81GCPjQyeJ$34fh",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 0.9143999999999999,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.17214199999998603,
+      "proposed_inlet_point_m": [
+        105.6767655,
+        33.49404200000002,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.5401204816346908,
+        "velocity_m_s": 7.402370860401239,
+        "Re": 149585.14728731252,
+        "Darcy_factor": 0.018350037630062477,
+        "straight_friction_Pa": 1.8098856780400039,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.21604819265387634,
+        "velocity_m_s": 2.960948344160496,
+        "Re": 59834.058914925015,
+        "Darcy_factor": 0.021197302602665394,
+        "straight_friction_Pa": 0.3345143605006424,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-19",
+      "source_section_guid": "2A5hnkfKfVQA3ppPSDKTLp",
+      "transition_guid": "3ZuxyTKx1MRw4gCYfVFRA_",
+      "round_lead_guid": "0cr3rgUA1P6PywRB4N$ri9",
+      "width_m": 0.4,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.5965974596215482,
+      "proposed_inlet_point_m": [
+        98.6984325,
+        41.160584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.7180147332359453,
+        "velocity_m_s": 7.2296948965869126,
+        "Re": 170445.0500702523,
+        "Darcy_factor": 0.017799816685504077,
+        "straight_friction_Pa": 1.6746651182305718,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2872058932943781,
+        "velocity_m_s": 2.891877958634765,
+        "Re": 68178.02002810093,
+        "Darcy_factor": 0.020550840319724283,
+        "straight_friction_Pa": 0.3093584707469163,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    },
+    {
+      "id": "VAV-20",
+      "source_section_guid": "2NUeFlDmPKeAdID44c7Y3d",
+      "transition_guid": "3FCff2DUrKkx8Orj$gw8Iu",
+      "round_lead_guid": "3TePo9tCHLDvp0H0X$zAoM",
+      "width_m": 0.4,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "transition_total_m": 0.39999999999999997,
+      "round_length_m": 1.0668,
+      "proposed_VAV_shift_m": 0.0,
+      "retained_rectangular_m": 0.6331999999999944,
+      "proposed_inlet_point_m": [
+        105.6767655,
+        41.160584,
+        0.0
+      ],
+      "maximum": {
+        "flow_m3_s": 0.7026202032835482,
+        "velocity_m_s": 7.074687276993087,
+        "Re": 166790.63838886685,
+        "Darcy_factor": 0.017851629247558475,
+        "straight_friction_Pa": 1.6082918405925886,
+        "complete_local_pressure_Pa": null
+      },
+      "minimum": {
+        "flow_m3_s": 0.2810480813134193,
+        "velocity_m_s": 2.8298749107972347,
+        "Re": 66716.25535554673,
+        "Darcy_factor": 0.020630967128881815,
+        "straight_friction_Pa": 0.2973901430443616,
+        "complete_local_pressure_Pa": null
+      },
+      "full_pressure_Pa": null,
+      "existing_network_revised": false
+    }
+  ]
+}

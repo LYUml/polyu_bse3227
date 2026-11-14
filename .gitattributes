@@ -3,3 +3,6 @@
 *.png binary
 *.jpg binary
 *.xlsx binary
+# Preserve exact native CAD bytes and source-linked hashes across checkouts.
+*.step binary
+03_Design_Drawings/Connection_Layout/VAV_Inlet_Connections/*.ifc -text whitespace=cr-at-eol
