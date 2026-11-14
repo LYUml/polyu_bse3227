@@ -1,5 +1,11 @@
 # BSE3227 HVAC mini-design
 
+Mixed-neck checks now also reject all eight sampled layouts. A separately
+verified necessary bound for regular square interior grids gives about 39.4–39.8
+W/m² at the inherited 12 K assumptions; it is not a bound for arbitrary layouts
+or an actual room-load result. This highlights the need to resolve the room
+sensible-load basis before issuing an ADPI design. Seven targeted controls pass.
+
 The separate [manufacturer ADPI comparison](05_Calculations/Manufacturer%20ADPI%20Comparison.html)
 preserves the original course design. Native manufacturer chart extraction and
 source replay cover 365 points and six 600 mm panel neck tables. Eight sampled
