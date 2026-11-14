@@ -17,3 +17,13 @@ they remain preserved and must not be treated as outputs of this revision.
 Installed geometry/elevation/slack, hardware, obstacle completeness, chart-method
 applicability, room loads, ADPI and full project/code acceptance remain pending.
 See 05_Calculations/VAV_Layout_Improvement_Check.json and Connection Layout Duct Sizing.csv.
+
+
+The matching VAV Connection Schedule now uses this same recentered native
+layout:20groups/80terminals,10updatedgroupconnectionlengths,unchanged prescribed
+maximum/minimum flows and membership. Saved/reopened DWG185entities,140native
+cells and80rawplanconnections independently reconcile. Actual A4PDF inspected;
+100mmreference measured100.033667mm. Companion CSV/check are under
+05_Calculations/Connection_Layout. These are straight XY lower-bound lengths,
+not installed flex lengths or selected hardware. Full pressure and ADPI remain
+unresolved; do not combine with the separate earlier network-study geometry.
