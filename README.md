@@ -1,5 +1,11 @@
 # BSE3227 HVAC mini-design
 
+The authorized K-Select13.3.54 launch was blocked by host Application Control
+on an installer-extracted component. The outer signature is valid, but no installer
+window, installation or actual manufacturer selection ran. Policy stays unchanged.
+See 05_Calculations/K_Select_Runtime_Check.json. Existing course and comparison
+outputs remain unchanged.
+
 Mixed-neck checks now also reject all eight sampled layouts. A separately
 verified necessary bound for regular square interior grids gives about 39.4–39.8
 W/m² at the inherited 12 K assumptions; it is not a bound for arbitrary layouts
