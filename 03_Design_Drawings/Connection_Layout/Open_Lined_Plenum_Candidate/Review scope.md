@@ -1,0 +1,5 @@
+Separate open lined chamber construction candidate.20solid envelopes replaced by combined metal+liner CSG material withone rectangular inlet/four circular outlet mouths each.20actualnative meshes,100materialcaps andindependent connectedair probes pass;IFCschema/EXPRESS0. All644other representations and1287portframes are unchanged.
+
+SourceA2-10/11 supplies outsidecandidate dimensions andstandardhalf-inch liner. Metal0.8mm isassumed,not verified22gaugeconversion;W/Houtsideinterpretation andunlinedcollars areunverified. Damperblades andslipdriveoverlap omitted. All80reducerjointmaterialcaps/sealing remainunverified. No manufacturerinternalgeometry,completepressure orinstalledproduct acceptance.
+
+ActualnativeDWGreopened;actualPDFsixmaterialsections viewed. Existing604bodycollisionevidence is reusedonly forunchangedbodies andnewmaterialinsideoldsolidboxes;80externalcollarAABBs have no new positiveoverlap candidates againstunchanged584bodies,otherboxesorcollars. No full-networkremesh orclearanceacceptance claimed. Sourceoriginals preserved.
