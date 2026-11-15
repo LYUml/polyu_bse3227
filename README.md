@@ -441,3 +441,5 @@ PDF/images remain private and excluded from public snapshots.
 See [native bend fitting study](05_Calculations/Native_Elbow_Fitting_Data.json).
 
 Transition source-family screening: 31 saved transitions, nine diagram-geometry candidates and22 unmatched. No new transition coefficients or complete pressure/fan acceptance. See05_Calculations/Transition_Family_Check.json. Private source caution and identity records stay excluded.
+
+CFD analysis now includes coarse/fine numerical studies and a host-selected agent convergence command. Boundary targets are in 05_Calculations/data/cfd_boundary_targets.json; CFD Numerical Convergence Check.json preserves executed pending snapshots. Complete pressure and design acceptance remain open. Raw histories and fields stay private.
