@@ -1,5 +1,7 @@
 # BSE3227 HVAC mini-design
 
+Axial bend refinement now has executed numerical-window and native-probe checks; pressure changes about0.061%, while the conditional velocity discrepancy persists. See 05_Calculations/Bend Axial Grid Check.json and Bend Axial Grid Comparison.png. This is not full grid independence or project pressure acceptance.
+
 Developed-inlet bend execution now passes terminal residual and full numerical-window checks. The conditional experimental velocity discrepancy remains; this is not project pressure acceptance. See 05_Calculations/Developed Bend Check.json and Developed Bend Comparison.png. Earlier milestones below remain historical.
 
 Current analysis milestone: the native developed reference inlet passes terminal residual, flow, axial and export-flux checks. The new bend run is pending; complete pressure and ADPI acceptance remain open. See 05_Calculations/Developed Reference Inlet Check.json. Earlier status entries below are historical snapshots; their former runtime blocks do not describe current K-Select execution.
