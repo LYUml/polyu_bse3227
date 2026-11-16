@@ -1,5 +1,7 @@
 # BSE3227 HVAC mini-design
 
+Current analysis milestone: the native developed reference inlet passes terminal residual, flow, axial and export-flux checks. The new bend run is pending; complete pressure and ADPI acceptance remain open. See 05_Calculations/Developed Reference Inlet Check.json. Earlier status entries below are historical snapshots; their former runtime blocks do not describe current K-Select execution.
+
 The authorized K-Select13.3.54 launch was blocked by host Application Control
 on an installer-extracted component. The outer signature is valid, but no installer
 window, installation or actual manufacturer selection ran. Policy stays unchanged.
