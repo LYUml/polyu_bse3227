@@ -1,31 +1,28 @@
 # BSE3227 HVAC mini-design
 
-[ADPI design assessment](05_Calculations/ADPI%20Design%20Assessment.pdf) now
-documents a fresh manufacturer-basis check of the unchanged coursework geometry.
-All eight original1400panel/neck options were checked; no current-layout option
-clears the paired source-curve diagnostic. A separate existing63-outlet1900
-comparison passes its paired source checks, but is a different product from the
-brief. Source graph readings are not measured or exact actual-load ADPI. The
-formal sixteen-page report remains preserved pending the product/basis decision.
-See [executed basis review](05_Calculations/Connection_Layout/Manufacturer%20Basis%20Review.json).
+Current review package: **18-page report**, retaining the coursework main design
+(189 W/m2 total, sensible factor0.90,80diffusers,20VAV groups,47rigid sections,
+600mm/8inch1400/51400). The native DWG, plot and main engineering schedules are
+unchanged. The first16report pages are pixel-identical to the previous package.
+User direction is to retain the course solution and keep own-method alternatives
+in an appendix; no product/load substitution is adopted.
 
-Current coursework handover: the illustrated report has16pages, with the same
-80diffusers/20VAV groups/47rigid sections. Twelve diffusers move150mm south
-within their existing service areas; prescribed flows and rigid sizes remain
-unchanged. Native-throw ratios improve from1.2066–3.2797 to1.2117–3.1122.
-This is conditional classroom selection margin, not a measured ADPI improvement.
-The formal report, actual reopened drawings and updated connection schedules
-have been reconciled. User acceptance is pending.
+[Formal PDF with authorized group members](04_Final_Report/Connection_Layout/BSE3227%20HVAC%20Mini-Design.pdf)
+and [anonymous PDF](04_Final_Report/Public_Snapshot/BSE3227%20HVAC%20Mini-Design.pdf)
+now include a two-page Appendix E. It compares an explicitly assumed150W/m2
+load with a6inch neck, retaining the prescribed product family and layout.
+48actual K-Select conditions,2352independent scalar checks,640directional checks
+and47actual Online Ductulator checks support that supplementary comparison.
+[Supplementary evidence](05_Calculations/Supplementary_Load_Study/Delivery%20Check.json)
+keeps it separate from the main submission.
 
-[Phone-viewable anonymous PDF](04_Final_Report/Public_Snapshot/BSE3227%20HVAC%20Mini-Design.pdf)
-has identical engineering content to the
-[formal report with group members](04_Final_Report/Connection_Layout/BSE3227%20HVAC%20Mini-Design.pdf).
-Both reports are now tracked with explicit user authorization. See
-[final delivery check](05_Calculations/Connection_Layout/Refined%20Coursework%20Delivery%20Check.json).
-The170.1versus160W/m2 applicability assumption, installed lengths and complete
-statutory conformity remain explicit limitations. No CFD/full-pressure research
-is required for this finite coursework review. Earlier entries below are
-historical studies, not competing current submission baselines.
+The main design still has170.1W/m2 sensible duty above the classroom160W/m2
+table limit. Its1.2117-3.1122 ratio range uses an explicit coursework approximation;
+no measured ADPI or manufacturer Type3 pass is claimed. Conditional flexible
+length3.373m is below the4m ordinary design cap, assuming0.50m additional routing.
+Actual installation and full statutory compliance are unestablished.
+Ready for user review; acceptance remains unconfirmed. Automatic research stops
+at this handoff. Earlier entries below describe historical studies.
 
 Axial bend refinement now has executed numerical-window and native-probe checks; pressure changes about0.061%, while the conditional velocity discrepancy persists. See 05_Calculations/Bend Axial Grid Check.json and Bend Axial Grid Comparison.png. This is not full grid independence or project pressure acceptance.
 
