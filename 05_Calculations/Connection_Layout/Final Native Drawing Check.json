@@ -1,7 +1,8 @@
 {
-  "original_dwg_sha256": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
-  "saved_copy_dwg_sha256": "8e2eada1fb3450cafca239ba2a17d079faba45787e04f361c54fcecd5233da86",
-  "native_export_sha256": "d357d0f4b9ceb8499e7c1454fdaaacead14016c3e170af21a3c3a3026df1a23e",
+  "original_dwg_sha256": "409d138abd511fdfc924ba25d9b06fe979596f59f16ca1683e794ae892f11cdc",
+  "source_before_revision_sha256": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
+  "saved_copy_dwg_sha256": "409d138abd511fdfc924ba25d9b06fe979596f59f16ca1683e794ae892f11cdc",
+  "native_export_sha256": "a6438afdfde8613c8eab5a40224e682261e901e0355f298cf0639b0aef0ba4dd",
   "native_geometry": {
     "generated_entity_count": 718,
     "layers": [
@@ -15,11 +16,23 @@
       "BSA_VAV",
       "BSA_FLOW_DIRECTION"
     ],
-    "comparison": "Ordered effective DXF attributes and polyline vertices; handles/owners excluded; 1e-7 drawing-unit absolute tolerance",
+    "comparison": "Approved4TEXTrevisions only; allentity/block/paper/style records preserved by existing revision verifier",
     "generated_native_correspondence": true
   },
+  "preservation": {
+    "preserved_records": 4885,
+    "edited_texts": 4,
+    "edited_entities": 4,
+    "edited_kinds": {
+      "text": 4
+    },
+    "blocks_and_paper_entities_preserved": true,
+    "numeric_absolute_tolerance_drawing_units": 1e-07,
+    "maximum_numeric_difference_drawing_units": 2.9103830456733704e-11,
+    "scope": "Saved entity/block/paper and layer/style tags, exact strings/integers and 1e-7 drawing-unit float bound; unexamined dictionaries/product semantics and visual acceptance remain separate"
+  },
   "plot": {
-    "pdf_sha256": "c2772101c615874fe9110e0344b883d1395dddabc843d55cc5914b81fc24b820",
+    "pdf_sha256": "105d425fe0778c3eea36727f123dbb6cb57a06a93fcba7d04a6714f201c447e6",
     "dwg_unchanged": true,
     "paper_mm": [
       841.0222222222221,
@@ -38,11 +51,7 @@
     "actual_A1_plot_inspected": true,
     "observed_clipping_or_overlap": false,
     "rendered_pixels_identical_to_report_plan": true,
-    "comparison_render_pixels": [
-      2384,
-      1684
-    ],
-    "scope": "Whole-sheet layout review, not independently legible inspection of every fine annotation"
+    "all4revisednotes_inspected": true
   },
   "design_accepted": false,
   "fresh_flex_check": {
@@ -51,5 +60,5 @@
     "all_prior_lengths_match_1e_10m": true,
     "installed_lengths_verified": false
   },
-  "scope": "Current coursework DWG copied, saved in AutoCAD, reopened, generated layers compared, actual A1 plot inspected; full design acceptance remains false"
+  "scope": "Current coursework published DWG independently saved/reopened; fourapprovednotes revised, allgeometry/80route lengths preserved; courseassumptions explicit"
 }
