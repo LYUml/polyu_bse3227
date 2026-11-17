@@ -1,0 +1,41 @@
+{
+  "publication": "2021 ASHRAE Principles of HVAC Ninth Edition online fitting supplement",
+  "printed_page": 12,
+  "source_diagram_and_correction_row_visually_inspected": true,
+  "scope": "Source-bound Reynolds correction extension, not physical applicability or complete pressure acceptance",
+  "cases": {
+    "maximum": {
+      "finite_paths": 29,
+      "numerical_gaps": 34,
+      "outlets": 20
+    },
+    "minimum": {
+      "finite_paths": 29,
+      "numerical_gaps": 34,
+      "outlets": 20
+    }
+  },
+  "maximum_result_unchanged": true,
+  "other_fitting_results_unchanged": true,
+  "minimum_reynolds_independently_recomputed": 83720.65924240109,
+  "minimum_KRe": 1.3651173630303957,
+  "minimum_coefficient": 0.2539118295236536,
+  "minimum_local_dynamic_loss_Pa": 1.229869858155801,
+  "independent_decimal_point_matches": true,
+  "pressure_budget_complete": false,
+  "design_accepted": false,
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\reynolds-source-extension\\basis.json": "373a5ad09f1011494e46f6a831ac3f9aa42636b0524c00203100d49869d81a6c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\full-network-transition-study\\ashrae2021.pdf": "746121b31696fd23cc11a39fd83d7be9ba3fec9bf0d81caa3b5e1ce6235abfbb",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\analysis.json": "3ec2214fa5e24571029cc34b548115d32f6b26330cdd7183fcaa493795fce2e8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\minimum-flow\\analysis.json": "72eb7cce616c6601f969c84168c581ef47950bb946bcd5ac3859c30ffe51fce2",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\reduced-branch-study\\reynolds_basis.py": "d9118c96d1904d9b0c6115dc6292d9b36ff2973c02b9096c2b217ec9f82821e8"
+  },
+  "artifacts": {
+    "basis.json": "373a5ad09f1011494e46f6a831ac3f9aa42636b0524c00203100d49869d81a6c",
+    "maximum/fitting-data.json": "f3a3cb8835795186eec5e099ca0e49e8cb3e5b99c09e41c012b4b7992334e151",
+    "maximum/pressure-ledger.json": "38ae197a3d8a99f7dc55d24c90505f7f84ffe43ad73422689455c62aa2d773ce",
+    "minimum/fitting-data.json": "0ad2aca1c9dab7ec44c2e4b7453df5920c77f776537b477ec7ded02757b77c06",
+    "minimum/pressure-ledger.json": "78ad1476c536dce7dd5fe4f7d76a3b74417b0fb70bd5df8c36f293a46af2375a"
+  }
+}

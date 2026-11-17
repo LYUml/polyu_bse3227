@@ -1,0 +1,51 @@
+{
+  "upstream_commit": "3eecd3710e976927c4b7c639900e833d12150453",
+  "capabilities": {
+    "ok": true,
+    "name": "K-Select Agent Toolkit",
+    "version": "0.1.1",
+    "backend": "Installed Krueger GRD 10.0.2 on Windows",
+    "supported": {
+      "model": [
+        "1400"
+      ],
+      "module_necks_in": {
+        "12x12": [
+          6,
+          8
+        ],
+        "24x24": [
+          6,
+          8,
+          10,
+          12,
+          14,
+          15
+        ]
+      },
+      "input_airflow_units": [
+        "cfm",
+        "l/s"
+      ],
+      "terminal_velocity_fpm": 50,
+      "throw_pattern": "Horizontal",
+      "operations": [
+        "launch",
+        "status",
+        "calculate performance with native PDF",
+        "read/verify saved report"
+      ]
+    },
+    "unsupported": [
+      "ADPI automation",
+      "other product families",
+      "project schedules",
+      "headless operation",
+      "autonomous engineering design"
+    ],
+    "requirements": "Installed K-Select with GRD module; unlocked interactive Windows desktop. Avoid mouse/keyboard use during product navigation."
+  },
+  "scope": "Read-only existing toolkit CLI capability check; no native calculation or VAV integration executed.",
+  "mcp_client_attempt": "Existing agent MCP1.30 client to toolkit MCP2.3 server returned BrokenResourceError; root cause not established. CLI fallback succeeded; user repository not modified.",
+  "engineering_accepted": false
+}

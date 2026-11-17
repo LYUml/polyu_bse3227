@@ -1,0 +1,802 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Delivery review evidence</title><style>body{font:16px/1.5 Arial,sans-serif;color:#20343c;max-width:1050px;margin:32px auto;padding:0 18px;overflow-wrap:anywhere}h1{line-height:1.2}h2{font-size:21px}h3{font-size:16px;margin-bottom:6px}.notice{background:#fff1d6;border-left:5px solid #a96a10;padding:16px}.counts{display:flex;gap:16px;flex-wrap:wrap}.status{font-size:14px;padding:3px 8px;border-radius:4px;background:#edf0f2}.pass{background:#e1f0e7}.fail{background:#f9e3e0}.pending{background:#fff1d6}article{border:1px solid #cad3d7;border-radius:6px;margin:22px 0;padding:18px}dl{display:flex;flex-wrap:wrap;gap:12px 30px}dl div{min-width:140px}dt{font-size:13px;color:#52656c}dd{margin:0}p,blockquote,pre{white-space:pre-wrap}blockquote{margin:12px 0;padding:12px 16px;background:#f4f6f7}pre{font:13px/1.5 Consolas,monospace;overflow-wrap:anywhere}summary{cursor:pointer;color:#075665}details{border-top:1px solid #dce2e5;padding-top:12px}a{color:#075665}</style><h1>Delivery review evidence</h1><p class="notice"><strong>needs_review</strong>. Design accepted: false. Scoped review passes do not establish whole-design acceptance.</p><p>Source/byte consistency, recorded reviewer assertions and optional adapter-reported Boolean facts; not reviewer authentication, semantic completeness or engineering certification</p><div class="counts"><p class="status pass">pass: <strong>4</strong></p><p class="status fail">fail: <strong>0</strong></p><p class="status pending">pending: <strong>29</strong></p></div><p>Execution, recorded review and effective review are separate. Expand each requirement to inspect the original quote, source locator, blockers and evidence. <a href="audit.json">Complete audit JSON</a>.</p><section><h2>Engineering review requests</h2><p>Engineering acceptance: not established. 0 retained requests. An empty queue does not establish complete engineering coverage.</p></section><section><h2>Remaining requirement reviews</h2><p>29 requirements remain. Execution prerequisites are unchanged.</p><ul><li><strong>work-identity</strong> — R001-identity, R002-identity, R003-identity, R004-identity<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-layout</strong> — R004-layout, R006-layout, R007-layout<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-routing</strong> — R004-routing, R010-routing, R011-routing<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-delivery</strong> — R005-delivery, R011-delivery, R014-delivery<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-terminal</strong> — R006-terminal, R007-terminal, R009-terminal<p>perform the specified review and record evidence separately</p></li><li><strong>work-adpi</strong> — R006-adpi, R007-adpi, R009-adpi<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-sizing</strong> — R012-sizing, R013-sizing<p>resolve the cited missing/conflicting design inputs before a new run</p></li><li><strong>work-schedule</strong> — R014-schedule<p>perform the specified review and record evidence separately</p></li><li><strong>air-allocation</strong> — producer-air-allocation-P007<p>review complete requirement acceptance against retained artifacts</p></li><li><strong>terminal-lookup</strong> — producer-terminal-lookup-P007, producer-terminal-lookup-P009<p>review complete requirement acceptance against retained artifacts</p></li><li><strong>duct-schedule</strong> — producer-duct-schedule-P013<p>review complete requirement acceptance against retained artifacts</p></li><li><strong>duct-sheet</strong> — producer-duct-sheet-P011<p>review complete requirement acceptance against retained artifacts</p></li><li><strong>native-sheet</strong> — producer-native-sheet-P011<p>review complete requirement acceptance against retained artifacts</p></li><li><strong>hk-flex-length</strong> — hk-flex-check<p>resolve the recorded pending condition before a new run</p></li></ul></section><article><h2>R001-identity <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-identity</dd></div><div><dt>Source passage</dt><dd>P001</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 1,
+  &quot;end_line&quot;: 2,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>The Hong Kong Polytechnic University 
+Department of Building Environment and Energy Engineering </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-identity&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Group member identities remain missing.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-identity&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P001&quot;,
+        &quot;quote&quot;: &quot;The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P002&quot;,
+        &quot;quote&quot;: &quot;BSE3227 HVACR 1 2026/27 Semester 1 &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P003&quot;,
+        &quot;quote&quot;: &quot;Mini-design assignment &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R002-identity <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-identity</dd></div><div><dt>Source passage</dt><dd>P002</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 4,
+  &quot;end_line&quot;: 4,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>BSE3227 HVACR 1 2026/27 Semester 1 </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-identity&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Group member identities remain missing.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-identity&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P001&quot;,
+        &quot;quote&quot;: &quot;The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P002&quot;,
+        &quot;quote&quot;: &quot;BSE3227 HVACR 1 2026/27 Semester 1 &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P003&quot;,
+        &quot;quote&quot;: &quot;Mini-design assignment &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R003-identity <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-identity</dd></div><div><dt>Source passage</dt><dd>P003</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 7,
+  &quot;end_line&quot;: 7,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Mini-design assignment </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-identity&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Group member identities remain missing.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-identity&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P001&quot;,
+        &quot;quote&quot;: &quot;The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P002&quot;,
+        &quot;quote&quot;: &quot;BSE3227 HVACR 1 2026/27 Semester 1 &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P003&quot;,
+        &quot;quote&quot;: &quot;Mini-design assignment &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R004-identity <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-identity</dd></div><div><dt>Source passage</dt><dd>P004</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 10,
+  &quot;end_line&quot;: 13,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Students should form groups of up to five members, with each group tasked with designing 
+the air conditioning layout for an open-plan office on a typical floor. The architectural layout 
+plan for this floor is provided. It is assumed that a variable air volume (VAV) system will be 
+utilized in the design. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-identity&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Group member identities remain missing.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-identity&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P001&quot;,
+        &quot;quote&quot;: &quot;The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P002&quot;,
+        &quot;quote&quot;: &quot;BSE3227 HVACR 1 2026/27 Semester 1 &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P003&quot;,
+        &quot;quote&quot;: &quot;Mini-design assignment &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R004-layout <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-layout</dd></div><div><dt>Source passage</dt><dd>P004</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 10,
+  &quot;end_line&quot;: 13,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Students should form groups of up to five members, with each group tasked with designing 
+the air conditioning layout for an open-plan office on a typical floor. The architectural layout 
+plan for this floor is provided. It is assumed that a variable air volume (VAV) system will be 
+utilized in the design. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-load&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-layout&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-layout&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R004-routing <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-routing</dd></div><div><dt>Source passage</dt><dd>P004</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 10,
+  &quot;end_line&quot;: 13,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Students should form groups of up to five members, with each group tasked with designing 
+the air conditioning layout for an open-plan office on a typical floor. The architectural layout 
+plan for this floor is provided. It is assumed that a variable air volume (VAV) system will be 
+utilized in the design. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-layout&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-routing&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-routing&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P010&quot;,
+        &quot;quote&quot;: &quot;3. Single-line diagram of AC layout plan &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R005-delivery <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-delivery</dd></div><div><dt>Source passage</dt><dd>P005</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 15,
+  &quot;end_line&quot;: 15,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Each group is required to complete the following tasks. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-identity&quot;,
+  &quot;work-schedule&quot;,
+  &quot;work-adpi&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-delivery&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;All primary obligations and actual native/visual/domain checks require separate evidence.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-delivery&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P005&quot;,
+        &quot;quote&quot;: &quot;Each group is required to complete the following tasks. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P014&quot;,
+        &quot;quote&quot;: &quot;Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R006-load <span class="status pass">pass</span></h2><dl><div><dt>Task</dt><dd>work-load</dd></div><div><dt>Source passage</dt><dd>P006</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pass</dd></div><div><dt>Effective review</dt><dd>pass</dd></div></dl><h3>Acceptance target</h3><p>Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">Scoped preliminary load/air-balance review only. Given drawing area1022m2; course lecturep1 visually checked: office189W/m2 and approximate SHF0.9. Independent Decimal calculation gives193.158kWthermal total,173.8422kWthermal sensible and12.000372763419483m3/s using adopted1.2kg/m3, assumed1006J/(kg K) and12K. Not electrical power, verified detailed room load, physical area/scale or whole diffusion acceptance. Other original paragraph obligations retain separate pending IDs.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 17,
+  &quot;end_line&quot;: 17,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>1. Space air diffusion design for maximum load condition </blockquote><h3>Reviewer assertion</h3><p>Host AI scoped arithmetic reviewer; not authenticated professional signoff · 2026-11-13T18:17:12.363658+00:00</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[
+  {
+    &quot;artifact&quot;: &quot;air-allocation/allocation.json&quot;,
+    &quot;sha256&quot;: &quot;4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681&quot;
+  }
+]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R006-layout <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-layout</dd></div><div><dt>Source passage</dt><dd>P006</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 17,
+  &quot;end_line&quot;: 17,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>1. Space air diffusion design for maximum load condition </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-load&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-layout&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-layout&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R006-terminal <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-terminal</dd></div><div><dt>Source passage</dt><dd>P006</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 17,
+  &quot;end_line&quot;: 17,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>1. Space air diffusion design for maximum load condition </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R006-adpi <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-adpi</dd></div><div><dt>Source passage</dt><dd>P006</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 17,
+  &quot;end_line&quot;: 17,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>1. Space air diffusion design for maximum load condition </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-terminal&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-adpi&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-adpi&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P009&quot;,
+        &quot;quote&quot;: &quot;• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R007-load <span class="status pass">pass</span></h2><dl><div><dt>Task</dt><dd>work-load</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pass</dd></div><div><dt>Effective review</dt><dd>pass</dd></div></dl><h3>Acceptance target</h3><p>Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">Same limited rule-of-thumb thermal/airflow arithmetic as R006-load; independently recomputed from source-classified inputs and reconciled to saved output. Full original quote is retained; diffuser placement, product performance, L and ADPI are separately pending and are not accepted by this scoped review.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Host AI scoped arithmetic reviewer; not authenticated professional signoff · 2026-11-13T18:17:12.363658+00:00</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[
+  {
+    &quot;artifact&quot;: &quot;air-allocation/allocation.json&quot;,
+    &quot;sha256&quot;: &quot;4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681&quot;
+  }
+]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R007-layout <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-layout</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-load&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-layout&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-layout&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R007-terminal <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-terminal</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R007-adpi <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-adpi</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-terminal&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-adpi&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-adpi&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P009&quot;,
+        &quot;quote&quot;: &quot;• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R008-minimum <span class="status pass">pass</span></h2><dl><div><dt>Task</dt><dd>work-minimum</dd></div><div><dt>Source passage</dt><dd>P008</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pass</dd></div><div><dt>Effective review</dt><dd>pass</dd></div></dl><h3>Acceptance target</h3><p>Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">Scoped turndown arithmetic only: independently checked every one of80 unique source terminal IDs; each minimum flow in L/s equals0.4times its maximum. Sum maximum12000.372763419482L/s; minimum4800.149105367793L/s. This does not accept physical distribution, throw, L, ADPI or whole minimum-load diffusion.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 30,
+  &quot;end_line&quot;: 30,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>2. Space air diffusion design for minimum load condition </blockquote><h3>Reviewer assertion</h3><p>Host AI scoped arithmetic reviewer; not authenticated professional signoff · 2026-11-13T18:17:12.364163+00:00</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[
+  {
+    &quot;artifact&quot;: &quot;air-allocation/allocation.json&quot;,
+    &quot;sha256&quot;: &quot;4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681&quot;
+  }
+]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R009-minimum <span class="status pass">pass</span></h2><dl><div><dt>Task</dt><dd>work-minimum</dd></div><div><dt>Source passage</dt><dd>P009</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pass</dd></div><div><dt>Effective review</dt><dd>pass</dd></div></dl><h3>Acceptance target</h3><p>Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">Independently reconciled all80 source IDs and all per-outlet0.4maximum minimum-flow calculations, including total-flow conservation. The remaining original quote obligations T0.25/L and ASHRAE ADPI remain separately pending. No detailed room-load/installation fact is established.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 32,
+  &quot;end_line&quot;: 36,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of 
+40%. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Host AI scoped arithmetic reviewer; not authenticated professional signoff · 2026-11-13T18:17:12.364163+00:00</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[
+  {
+    &quot;artifact&quot;: &quot;air-allocation/allocation.json&quot;,
+    &quot;sha256&quot;: &quot;4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681&quot;
+  }
+]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R009-terminal <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-terminal</dd></div><div><dt>Source passage</dt><dd>P009</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 32,
+  &quot;end_line&quot;: 36,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of 
+40%. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R009-adpi <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-adpi</dd></div><div><dt>Source passage</dt><dd>P009</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 32,
+  &quot;end_line&quot;: 36,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of 
+40%. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-terminal&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-adpi&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-adpi&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P006&quot;,
+        &quot;quote&quot;: &quot;1. Space air diffusion design for maximum load condition &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P007&quot;,
+        &quot;quote&quot;: &quot;• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P009&quot;,
+        &quot;quote&quot;: &quot;• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R010-routing <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-routing</dd></div><div><dt>Source passage</dt><dd>P010</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 38,
+  &quot;end_line&quot;: 38,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>3. Single-line diagram of AC layout plan </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-layout&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-routing&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-routing&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P010&quot;,
+        &quot;quote&quot;: &quot;3. Single-line diagram of AC layout plan &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R011-routing <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-routing</dd></div><div><dt>Source passage</dt><dd>P011</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 40,
+  &quot;end_line&quot;: 47,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Use single lines to sketch the air duct layout for distribution of supply air to all supply 
+air diffusers in the office. 
+• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the 
+VAV box to the diffuser) to be within 5 m. 
+• Use straight ductwork as far as possible. 
+• Minimize bends and turns. 
+• Plan branch ducts to extend from the main trunk to distribute air evenly throughout 
+the space. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-layout&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-routing&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-routing&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P004&quot;,
+        &quot;quote&quot;: &quot;Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P010&quot;,
+        &quot;quote&quot;: &quot;3. Single-line diagram of AC layout plan &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R011-delivery <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-delivery</dd></div><div><dt>Source passage</dt><dd>P011</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 40,
+  &quot;end_line&quot;: 47,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Use single lines to sketch the air duct layout for distribution of supply air to all supply 
+air diffusers in the office. 
+• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the 
+VAV box to the diffuser) to be within 5 m. 
+• Use straight ductwork as far as possible. 
+• Minimize bends and turns. 
+• Plan branch ducts to extend from the main trunk to distribute air evenly throughout 
+the space. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-identity&quot;,
+  &quot;work-schedule&quot;,
+  &quot;work-adpi&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-delivery&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;All primary obligations and actual native/visual/domain checks require separate evidence.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-delivery&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P005&quot;,
+        &quot;quote&quot;: &quot;Each group is required to complete the following tasks. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P014&quot;,
+        &quot;quote&quot;: &quot;Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R012-sizing <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-sizing</dd></div><div><dt>Source passage</dt><dd>P012</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 1,
+  &quot;end_line&quot;: 1,
+  &quot;page&quot;: 2,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>4. Sizing of supply air ducts </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-routing&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-sizing&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-sizing&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P012&quot;,
+        &quot;quote&quot;: &quot;4. Sizing of supply air ducts &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P013&quot;,
+        &quot;quote&quot;: &quot;• Determine the size of the main air ducts and each section of the branch air ducts.  \n• The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n• Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n• The following table for air duct sizing is suggested for your use.  &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R013-sizing <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-sizing</dd></div><div><dt>Source passage</dt><dd>P013</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 3,
+  &quot;end_line&quot;: 9,
+  &quot;page&quot;: 2,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Determine the size of the main air ducts and each section of the branch air ducts.  
+• The air duct size should satisfy the requirements of maximum air velocity and 
+limiting air-pressure drops. 
+• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  
+• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. 
+• Label each section of the air duct and tabulate the air duct sizing calculation in a table. 
+• The following table for air duct sizing is suggested for your use.  </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-routing&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-sizing&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-sizing&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P012&quot;,
+        &quot;quote&quot;: &quot;4. Sizing of supply air ducts &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P013&quot;,
+        &quot;quote&quot;: &quot;• Determine the size of the main air ducts and each section of the branch air ducts.  \n• The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n• Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n• The following table for air duct sizing is suggested for your use.  &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R014-schedule <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-schedule</dd></div><div><dt>Source passage</dt><dd>P014</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Every section appears withL/s,mm by mm,m/s andPa/m,consistent with editable drawing and calculations.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 11,
+  &quot;end_line&quot;: 11,
+  &quot;page&quot;: 2,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>R014-delivery <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>work-delivery</dd></div><div><dt>Source passage</dt><dd>P014</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 11,
+  &quot;end_line&quot;: 11,
+  &quot;page&quot;: 2,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[
+  &quot;work-identity&quot;,
+  &quot;work-schedule&quot;,
+  &quot;work-adpi&quot;
+]</pre><h3>Input blockers</h3><pre>[
+  {
+    &quot;id&quot;: &quot;gap-delivery&quot;,
+    &quot;kind&quot;: &quot;missing&quot;,
+    &quot;description&quot;: &quot;All primary obligations and actual native/visual/domain checks require separate evidence.&quot;,
+    &quot;blocks_tasks&quot;: [
+      &quot;work-delivery&quot;
+    ],
+    &quot;sources&quot;: [
+      {
+        &quot;passage&quot;: &quot;P005&quot;,
+        &quot;quote&quot;: &quot;Each group is required to complete the following tasks. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P011&quot;,
+        &quot;quote&quot;: &quot;• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. &quot;
+      },
+      {
+        &quot;passage&quot;: &quot;P014&quot;,
+        &quot;quote&quot;: &quot;Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) &quot;
+      }
+    ]
+  }
+]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-air-allocation-P007 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>air-allocation</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Execute classified preliminary thermal/airflow balance and nearest-centre scenario allocation;actual room load and physical layout acceptance remain pending.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-terminal-lookup-P007 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>terminal-lookup</dd></div><div><dt>Source passage</dt><dd>P007</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Execute source-pinned bounded maximum-flow throw lookup;product,L and ADPI acceptance remain pending.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 19,
+  &quot;end_line&quot;: 28,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the cooling load of the open plan office using rule of thumb. 
+• Determine the total supply air flow rate of the office. 
+• Distribute supply air diffusers on the layout plan. 
+• Calculate the supply air flow rate of each diffuser. 
+• Find out the characteristic room length, L. 
+• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 
+Series 4-cone”, and select a suitable type of diffuser. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-terminal-lookup-P009 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>terminal-lookup</dd></div><div><dt>Source passage</dt><dd>P009</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Execute the same original terminal inventory at40percent minimum flow without extrapolation;ADPI applicability remains pending.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 32,
+  &quot;end_line&quot;: 36,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of 
+40%. 
+• From the diffuser performance data, find the corresponding T0.25. 
+• Calculate T0.25 / L. 
+• Check if it meets the ASHRAE ADPI requirement. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-duct-schedule-P013 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>duct-schedule</dd></div><div><dt>Source passage</dt><dd>P013</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Execute conditional section numerical sizing under declared source criteria;chart-method,geometry and manufactured-size applicability remain pending.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 3,
+  &quot;end_line&quot;: 9,
+  &quot;page&quot;: 2,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Determine the size of the main air ducts and each section of the branch air ducts.  
+• The air duct size should satisfy the requirements of maximum air velocity and 
+limiting air-pressure drops. 
+• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  
+• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. 
+• Label each section of the air duct and tabulate the air duct sizing calculation in a table. 
+• The following table for air duct sizing is suggested for your use.  </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-duct-sheet-P011 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>duct-sheet</dd></div><div><dt>Source passage</dt><dd>P011</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Bind source section labels/schedule to the preserved single-line design scenario;physical routing/installed lengths remain pending.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 40,
+  &quot;end_line&quot;: 47,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Use single lines to sketch the air duct layout for distribution of supply air to all supply 
+air diffusers in the office. 
+• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the 
+VAV box to the diffuser) to be within 5 m. 
+• Use straight ductwork as far as possible. 
+• Minimize bends and turns. 
+• Plan branch ducts to extend from the main trunk to distribute air evenly throughout 
+the space. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>producer-native-sheet-P011 <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>native-sheet</dd></div><div><dt>Source passage</dt><dd>P011</dd></div><div><dt>Execution</dt><dd>pass</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Save and independently reopen native DWG and plot at declared scale;actual visual and full engineering review remain separate.</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 40,
+  &quot;end_line&quot;: 47,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Use single lines to sketch the air duct layout for distribution of supply air to all supply 
+air diffusers in the office. 
+• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the 
+VAV box to the diffuser) to be within 5 m. 
+• Use straight ductwork as far as possible. 
+• Minimize bends and turns. 
+• Plan branch ducts to extend from the main trunk to distribute air evenly throughout 
+the space. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article><article><h2>hk-flex-check <span class="status pending">pending</span></h2><dl><div><dt>Task</dt><dd>hk-flex-length</dd></div><div><dt>Source passage</dt><dd>P011</dd></div><div><dt>Execution</dt><dd>pending</dd></div><div><dt>Recorded review</dt><dd>pending</dd></div><div><dt>Effective review</dt><dd>pending</dd></div></dl><h3>Acceptance target</h3><p>Additional Hong Kong project check selected by user; keep assignment 5m criterion distinct from ordinary FSD 4m path; installed evidence and applicability pending</p><h3>Review observations</h3><p class="notes">No review observations recorded.</p><details><summary>Original source and review evidence</summary><h3>Source locator</h3><pre>{
+  &quot;start_line&quot;: 40,
+  &quot;end_line&quot;: 47,
+  &quot;page&quot;: 1,
+  &quot;source_document&quot;: &quot;sources/D001/BSE3227 Mini design assignment.pdf&quot;,
+  &quot;source_sha256&quot;: &quot;7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680&quot;
+}</pre><h3>Original quote</h3><blockquote>• Use single lines to sketch the air duct layout for distribution of supply air to all supply 
+air diffusers in the office. 
+• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the 
+VAV box to the diffuser) to be within 5 m. 
+• Use straight ductwork as far as possible. 
+• Minimize bends and turns. 
+• Plan branch ducts to extend from the main trunk to distribute air evenly throughout 
+the space. </blockquote><h3>Reviewer assertion</h3><p>Unrecorded · Unrecorded</p><h3>Blocking tasks</h3><pre>[]</pre><h3>Input blockers</h3><pre>[]</pre><h3>Engineering review requests</h3><pre>[]</pre><h3>Cited artifacts</h3><pre>[]</pre><h3>Supplemental attachments</h3><pre>[]</pre><h3>Reported Boolean facts</h3><pre>[]</pre><h3>Review issues</h3><pre>[]</pre></details></article></html>

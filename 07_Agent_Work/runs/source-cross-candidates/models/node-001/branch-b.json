@@ -1,0 +1,49 @@
+{
+  "project_uuid": "28d17cb7-36ec-576f-8f29-379858521d89",
+  "source": "Source node J1; Explicit isolated cross geometry study: maximum incident core section, core half-width plus 0.1m arm reach, 0.05m transition end straights and 30 degree included wall-plane angle. These are study assumptions, not manufacturer, code or installed dimensions; source route, selected sizes and existing minimum remainder remain unchanged.; construction basis {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}; cross transition branch-b",
+  "classification": "assumed",
+  "wall_model": "section_plane_offset",
+  "start_section_m": [
+    0.85,
+    0.85
+  ],
+  "section_offset_m": 0.0008,
+  "port_directions": {
+    "start": "SINK",
+    "end": "SOURCE"
+  },
+  "placement": {
+    "source": "Source cross cap branch-b",
+    "origin_m": [
+      87.025,
+      28.75058400000001,
+      0.0
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "end_section_m": [
+    0.55,
+    0.45
+  ],
+  "geometry_method": "explicit_station_brep",
+  "transition_length_m": 0.7464101615137754,
+  "start_length_m": 0.05,
+  "end_length_m": 0.05,
+  "upstream_angle_degrees": 30
+}

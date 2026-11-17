@@ -1,0 +1,68 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/foamPostProcess.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\actual-family-1-resolution-high-order -solver incompressibleFluid -time 0 -funcs (yPlus totalPressureIncompressible(rhoInf=1.2,result=Pt))
+Date   : Nov 16 2026
+Time   : 20:08:34
+Host   : "LYUML-WIN"
+PID    : 20028
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-high-order
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Time = 0s
+Selecting solver incompressibleFluid
+--> FOAM Warning : 
+    From function const Foam::HashTable<Foam::List<int>, Foam::word>& Foam::polyBoundaryMesh::groupPatchIndices() const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 506
+    Removing patchGroup 'wall' which clashes with patch 0 of the same name.
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+RAS
+{
+    model           kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.84999999999999998;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.85599999999999998;
+    gamma1          0.55555555555555558;
+    gamma2          0.44;
+    beta1           0.074999999999999997;
+    beta2           0.082799999999999999;
+    betaStar        0.089999999999999997;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+}
+
+No MRF models present
+
+Selecting patchDistMethod meshWave
+yPlus yPlus write:
+    writing object yPlus
+    patch wall y+ : min = 0.014021624926055451, max = 0.84405361852889016, average = 0.33177664230031367
+
+    functionObjects::pressure totalPressureIncompressible(rhoInf=1.2,result=Pt) writing field: Pt
+
+End
+

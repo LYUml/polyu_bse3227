@@ -1,0 +1,75 @@
+{
+  "gmsh_version": "4.15.2",
+  "representatives": [
+    {
+      "family": 1,
+      "native_connected_fluid_volumes": 1,
+      "native_air_volume_m3": 0.14035989400454135,
+      "analytic_air_volume_m3": 0.14035989400454157,
+      "source_caps": [
+        {
+          "port_guid": "1Cc$YUqe1RkPDrweFH5rfd",
+          "surface": 2,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "1cACJ$r95UUfSElMvT2RNO",
+          "surface": 10,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "2JOjpWsjLHrunAiICQX3vE",
+          "surface": 13,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "37yD1_Q5XTDefq$7Vzdxll",
+          "surface": 4,
+          "native_area_m2": 0.13430759999999994
+        },
+        {
+          "port_guid": "2sM9z$SxPIsAHdwFRZr$fx",
+          "surface": 14,
+          "native_area_m2": 0.048783515153795996
+        }
+      ],
+      "air_material_overlap_m3": 0
+    },
+    {
+      "family": 2,
+      "native_connected_fluid_volumes": 1,
+      "native_air_volume_m3": 0.2002786629145412,
+      "analytic_air_volume_m3": 0.20027866291454158,
+      "source_caps": [
+        {
+          "port_guid": "2Z$r9LTCzLaANbfVqnelBD",
+          "surface": 14,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "2IA3ZuxZDMDg$FrbH_9uBN",
+          "surface": 2,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "2UI9jTONfKmPl8KqD6afG3",
+          "surface": 10,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "0gXdbGBNvMgQy11KGDda3T",
+          "surface": 13,
+          "native_area_m2": 0.048783515153795996
+        },
+        {
+          "port_guid": "2DojJVefnJO9fHjMs$1BdN",
+          "surface": 4,
+          "native_area_m2": 0.20081749999999995
+        }
+      ],
+      "air_material_overlap_m3": 0
+    }
+  ],
+  "scope": "Native air geometry checks only; no mesh, pressure, manufacturer or engineering acceptance.",
+  "engineering_accepted": false
+}

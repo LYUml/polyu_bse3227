@@ -1,0 +1,93 @@
+{
+  "schema": "bsa.drawing-ifc-graph/1",
+  "source": "Current source IFC terminal system; schematic topology only",
+  "ifc": "..\\..\\..\\recentered-open-plenum-network\\Supply Air Open Plenum Reviewed.ifc",
+  "ifc_sha256": "a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937",
+  "products": [
+    "0H39KgpqzUUuUHJs4UMNyo",
+    "0JKovyfdPMT8DW7XyoKwWN",
+    "0UCv_uIB9GUQGvYe_k2U23",
+    "0YqWHErafRrvhXjhDkeFTO",
+    "0vFFtDwD1Vn9TlAXgMXXqY",
+    "15Qf1Dd31NHxGYjRuL1f2h",
+    "1I7wpJvo9IYebwQiOqCyZP",
+    "1LS4aiZ0fS6R7Uwd9rekvZ",
+    "1NZjli1MLHCB0AzLyZs1uu",
+    "1O801ea8DHDxv8MdflAyqS",
+    "1WzvdZ6m9OyxtY270uNFgu",
+    "1Xq2Mr9frGnO5I_f61p4PL",
+    "1enI0FVEjKbvoo0rFsLGtE",
+    "1fseIi_urMhhjK9GfWn67_",
+    "1oCqj9601JVBm8PyDuvcFv",
+    "1rMQJokL5UHx$kijGQ_HMg",
+    "2V76E$fNPNBBedH8MA2JbC",
+    "2ZK07OpjjQJwNER07yc15g",
+    "2dH2heBj9PLuDLGUFIfdnf",
+    "2w_PjRgznTU9ojDleenvX$",
+    "33yaEYLKHGWvpRvUfEvIRh",
+    "3LapxzQtLOJuP4emevf0_s",
+    "3ZsrO$YWDS6vt3om4kUhcQ",
+    "3sRwUevKzVF9bTpU6nj7w8"
+  ],
+  "marked_products": [
+    "1WzvdZ6m9OyxtY270uNFgu"
+  ],
+  "graph": {
+    "source": "Current source IFC terminal system; schematic topology only",
+    "layers": {
+      "TOPOLOGY": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "GAPS": {
+        "color": 1,
+        "lineweight": 50
+      },
+      "NOTES": {
+        "color": 7,
+        "lineweight": 18
+      }
+    },
+    "sheet": {
+      "paper": "A1",
+      "window": [
+        0,
+        0,
+        827,
+        574
+      ],
+      "scale": 1,
+      "title": "SUPPLY NETWORK SYSTEM SCHEMATIC",
+      "number": "BSE3227-CS-08",
+      "reference_length": 50
+    },
+    "notes": [],
+    "layout": {
+      "origin": [
+        15,
+        45
+      ],
+      "factor": 1.0,
+      "node_width_mm": 24.0,
+      "node_height_mm": 9.0,
+      "text_height_mm": 2.0,
+      "ranksep_mm": 4.0,
+      "nodesep_mm": 4.0,
+      "rankdir": "LR",
+      "edge_ports": "rank_direction"
+    },
+    "source_files": [
+      {
+        "path": "..\\..\\..\\recentered-logical-supply-network\\vav-candidate-station-pressure\\maximum\\analysis.json",
+        "sha256": "7113ca627ed38de02d9108381600ba0645c3208c19dd616b79cdab2983245d6c"
+      },
+      {
+        "path": "..\\..\\..\\recentered-logical-supply-network\\vav-candidate-station-pressure\\minimum\\analysis.json",
+        "sha256": "07e963c55fc9c9b04efd4adff9566dbf53ea3b983df25b54970db6cec325f9a9"
+      }
+    ],
+    "node_layer": "TOPOLOGY",
+    "marked_layer": "GAPS",
+    "edge_layer": "TOPOLOGY"
+  }
+}

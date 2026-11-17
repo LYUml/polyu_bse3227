@@ -1,0 +1,53 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/mapFields.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-extended-mapped-startup -sourceTime 0.25 -mapMethod mapNearest -noFunctionObjects C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-initialized-residence
+Date   : Nov 17 2026
+Time   : 07:21:42
+Host   : "LYUML-WIN"
+PID    : 23492
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-extended-mapped-startup
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification" "plenum-family-1-initialized-residence"
+Target: "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification" "plenum-family-1-extended-mapped-startup"
+Mapping method: mapNearest
+
+Create databases as time
+
+Source time: 0.25s
+Target time: 0.25s
+Create meshes
+
+--> FOAM Warning : 
+    From function Foam::Istream& Foam::regIOobject::readStream(const Foam::word&, bool)
+    in file db/regIOobject/regIOobjectRead.C at line 169
+    Reading "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-extended-mapped-startup/constant/polyMesh/faceZones" at line 1
+    Unexpected class name regIOobject, expected faceZoneList
+    while reading object faceZones
+Source mesh size: 142480	Target mesh size: 190880
+
+
+Mapping fields for time 0.25
+
+    interpolating p
+    interpolating nut
+    interpolating k
+    interpolating epsilon
+    interpolating U
+
+End
+

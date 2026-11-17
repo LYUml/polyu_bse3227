@@ -1,0 +1,44 @@
+{
+  "studies": [
+    {
+      "study": "scalar-reference-probe",
+      "input_sha256": "a6d063927fbf886774a226760d2bddb02523220e00ef52d9004fe9562e55270c",
+      "flow_pressure_rms_log10_first_last": [
+        -2.823193676,
+        -2.821473083
+      ],
+      "velocity_x_rms_log10_first_last": [
+        -1.402073331,
+        -1.400464225
+      ],
+      "omega_rms_log10_first_last": [
+        -0.3074714108,
+        -0.3747658815
+      ],
+      "final_relative_mass_imbalance": 0.003948347072275828,
+      "final_flow_linear_residual_log10": -6.022980942,
+      "final_turb_linear_residual_log10": -7.596282927
+    },
+    {
+      "study": "bounded-scalar-probe",
+      "input_sha256": "a6d063927fbf886774a226760d2bddb02523220e00ef52d9004fe9562e55270c",
+      "flow_pressure_rms_log10_first_last": [
+        -2.823193676,
+        -2.822267051
+      ],
+      "velocity_x_rms_log10_first_last": [
+        -1.402073331,
+        -1.39986637
+      ],
+      "omega_rms_log10_first_last": [
+        0.1808476277,
+        -0.1080870733
+      ],
+      "final_relative_mass_imbalance": 0.00394449330309904,
+      "final_flow_linear_residual_log10": -6.023560976,
+      "final_turb_linear_residual_log10": -7.713115916
+    }
+  ],
+  "scope": "30-step controlled diagnostic; insufficient for convergence rate, mesh independence or pressure acceptance",
+  "pressure_accepted": false
+}

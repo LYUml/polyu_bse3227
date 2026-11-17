@@ -1,0 +1,26 @@
+{
+  "scope": "Single-outlet prescribed-flow native verification; no physical or project pressure acceptance",
+  "backend": "OpenFOAM12 build12-8e8552546d20 serial blueCFD2024-1",
+  "boundary": "flowRateOutletVelocity volumetricFlowRate positive outward",
+  "target_m3_s": 0.000254,
+  "pressure_boundaries": "zeroGradient all flow patches pRefCell0/pRefValue0",
+  "initial_native_convergence_iteration": 289,
+  "window": [
+    290,
+    489
+  ],
+  "samples": 200,
+  "max_outlet_relative_error": 1.0671281225251027e-15,
+  "max_signed_flux_imbalance_relative": 1.0671281225251027e-15,
+  "independent_saved_U_dot_Sf_m3_s": 0.00025399999999999994,
+  "independent_saved_field_time": 400,
+  "relative_algebra_check_target": 1e-10,
+  "multi_outlet_verified": false,
+  "physical_validation": false,
+  "project_pressure_accepted": false,
+  "notes": [
+    "First controlDict observer ignored because system/functions exists; moved observer to system/functions, preserved failed observation log.",
+    "Continued same saved solution for200iterations with early residual stop removed only to collect flow window; no pressure stability claim.",
+    "Final489 fields not written at inherited100step cadence; independent field400 is inside observed window."
+  ]
+}

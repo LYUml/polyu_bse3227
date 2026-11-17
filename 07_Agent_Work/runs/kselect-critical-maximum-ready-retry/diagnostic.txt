@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 295, in select_1400
+    wait_for(lambda: "[GRD Performance]" in root.window_text(), "1400 performance screen did not open")
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 81, in wait_for
+    raise KSelectError("state_timeout", message)
+cli_anything.kselect.core.KSelectError: 1400 performance screen did not open
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 390, in calculate
+    self.select_1400(root)
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 297, in select_1400
+    self.require_unblocked(root)
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 203, in require_unblocked
+    raise KSelectError("blocked", "Close or resolve the existing GRD report/dialog before calculating", dialogs=[d.window_text() for d in dialogs])
+cli_anything.kselect.core.KSelectError: Close or resolve the existing GRD report/dialog before calculating

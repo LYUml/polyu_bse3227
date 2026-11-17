@@ -1,0 +1,117 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+14
+(
+    air_inlet
+    {
+        type            patch;
+        nFaces          8652;
+        startFace       6750360;
+    }
+    air_outlet_0
+    {
+        type            patch;
+        nFaces          3108;
+        startFace       6759012;
+    }
+    air_outlet_1
+    {
+        type            patch;
+        nFaces          3108;
+        startFace       6762120;
+    }
+    air_outlet_2
+    {
+        type            patch;
+        nFaces          3108;
+        startFace       6765228;
+    }
+    air_outlet_3
+    {
+        type            patch;
+        nFaces          3108;
+        startFace       6768336;
+    }
+    air_wall_1
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          4438;
+        startFace       6771444;
+    }
+    air_wall_3
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          14314;
+        startFace       6775882;
+    }
+    air_wall_5
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          21244;
+        startFace       6790196;
+    }
+    air_wall_6
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          8652;
+        startFace       6811440;
+    }
+    air_wall_7
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          21244;
+        startFace       6820092;
+    }
+    air_wall_8
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          4432;
+        startFace       6841336;
+    }
+    air_wall_9
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          14314;
+        startFace       6845768;
+    }
+    air_wall_11
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          4438;
+        startFace       6860082;
+    }
+    air_wall_12
+    {
+        type            wall;
+        inGroups        List<word> 1(wall);
+        nFaces          4432;
+        startFace       6864520;
+    }
+)
+
+// ************************************************************************* //

@@ -1,0 +1,483 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\equal-cross-compound-core-candidate\\equipment-space\\sync-review.json": "64c9ab7d982d5cbb1bb4ac63183fb419782060ff30d36696b0d6aef19b3393b4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\j-outlet-candidate\\geometry\\obstacles.json": "1d769c9436d9423527eceac2fe7b378292bd3bd83cb2c4e9ad00bfca2a06cefa",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\equal-cross-compound-core-candidate\\equipment-space\\model.ifc": "2ecfe8677083f856621e805a9f32fa259cb6c6bb25a6169427f41bcf1534c292",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\upstream-gap-survey\\compose_current_outlet_assembly.py": "6e14b20976b91c73c67579b3b82754b43cce30eea00b8f99370e56b7ee1096d7"
+  },
+  "inputs_unchanged": true,
+  "original_entities_unchanged": true,
+  "original_entity_count": 27154,
+  "obstacles": [
+    {
+      "id": "VAV-01-J-PLENUM",
+      "origin_m": [
+        68.042732,
+        18.126759,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-01",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "0HYVMlmZXU$vltJ0td80AQ",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-02-J-PLENUM",
+      "origin_m": [
+        75.431932,
+        18.126759,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-02",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1hkqWVhDbU3u0fIMW4RWTm",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-03-J-PLENUM",
+      "origin_m": [
+        82.87193199999999,
+        17.95785264905389,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-03",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "2fapkhRhHNRvvYC2WcJnBt",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-04-J-PLENUM",
+      "origin_m": [
+        90.31193199999998,
+        17.95785264905389,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-04",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "3dqKnBn1HMsx0_mb7ndsYS",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-05-J-PLENUM",
+      "origin_m": [
+        98.44443249999999,
+        18.07615391924311,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-05",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1aBepUMgHS68$RyF9MWJ$d",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-06-J-PLENUM",
+      "origin_m": [
+        105.4735655,
+        18.126759,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-06",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1EH7fSfDHVBABoNMHn0PvH",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-07-J-PLENUM",
+      "origin_m": [
+        67.99193199999999,
+        24.956759000000012,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-07",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "3EVZ5qX8vPJve4yEkIRZLg",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-08-J-PLENUM",
+      "origin_m": [
+        75.431932,
+        24.956759000000012,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-08",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "0EGzqXRvrS8eKo$Agw78eL",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-09-J-PLENUM",
+      "origin_m": [
+        82.87193199999999,
+        24.906153919243124,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-09",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "2hZDxAb_jLqeCeRYlk9ARC",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-10-J-PLENUM",
+      "origin_m": [
+        90.31193199999998,
+        24.906153919243124,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-10",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1yqrdj41bHcwzjjtxRNYKA",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-11-J-PLENUM",
+      "origin_m": [
+        98.44443249999999,
+        24.956759000000012,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-11",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "2_xHPpyfXPvBkAVErrUML2",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-12-J-PLENUM",
+      "origin_m": [
+        105.4735655,
+        24.956759000000012,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-12",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "3h8qMUGsTKkeuuRo57k0VL",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-13-J-PLENUM",
+      "origin_m": [
+        68.042732,
+        32.10021700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-13",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "3Wds1Zma9QSPSQCQPonswa",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-14-J-PLENUM",
+      "origin_m": [
+        75.482732,
+        32.10021700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-14",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1WzvdZ6m9OyxtY270uNFgu",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-15-J-PLENUM",
+      "origin_m": [
+        82.922732,
+        31.964353919243123,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-15",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1PItEEuo9SqBn$9PVWvHfj",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-16-J-PLENUM",
+      "origin_m": [
+        90.31193200000001,
+        31.617852649053894,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-16",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "20QpI7eMjK_eO4Ze7RucoL",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-17-J-PLENUM",
+      "origin_m": [
+        98.44443249999999,
+        31.736153919243115,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-17",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1Tep$V6hDIAPA6hkgdINcf",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-18-J-PLENUM",
+      "origin_m": [
+        105.4735655,
+        32.10021700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.9144000000000005,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-18",
+        "OutletType": "J",
+        "NominalInlet_in": 12,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "1DIELkv2vOPevrgKuqT_eh",
+      "saved_volume_m3": 0.14158423295999686
+    },
+    {
+      "id": "VAV-19-J-PLENUM",
+      "origin_m": [
+        98.44443249999999,
+        41.640009,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-19",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "2xszVpI0HV1R3KAdkTSd6o",
+      "saved_volume_m3": 0.20647700640000408
+    },
+    {
+      "id": "VAV-20-J-PLENUM",
+      "origin_m": [
+        105.4227655,
+        41.640009,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.9144000000000005,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-10/A2-11 J four-outlet attenuator; candidate envelope, datum assumption",
+      "properties": {
+        "VAVID": "VAV-20",
+        "OutletType": "J",
+        "NominalInlet_in": 14,
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Solid coordination envelope, not airflow volume or fabricated wall"
+      },
+      "guid": "11$FT_d3zKJwN2GrkHlUh6",
+      "saved_volume_m3": 0.20647700640000408
+    }
+  ],
+  "body_context_id": 10,
+  "saved_ifc_sha256": "9f85c9241617af6bc1bcffc5b40c2e73a9946e5343e541d904be4f45d2babec0",
+  "calculated_checks_pass": true,
+  "design_accepted": false,
+  "scope": "explicit source-linked closed IFC obstacle boxes; original entities preserved",
+  "pending": [
+    "source obstacle applicability/completeness",
+    "route-to-obstacle clearance/clash",
+    "BIM viewer and full engineering acceptance"
+  ]
+}

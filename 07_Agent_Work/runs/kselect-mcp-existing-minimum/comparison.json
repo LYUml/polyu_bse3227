@@ -1,0 +1,353 @@
+{
+  "summary": {
+    "transport": "MCP stdio",
+    "toolkit_version": "0.1.1",
+    "toolkit_commit": "3eecd3710e976927c4b7c639900e833d12150453",
+    "existing_native_PDF_reused": true,
+    "independent_MCP_checks_all_pass": true,
+    "minimum_native_export_available": true,
+    "design_minimum_L_s": 52.88317850835132,
+    "effective_minimum_CFM": 112.0,
+    "effective_minimum_L_s": 52.858113638400006,
+    "native_throw_ft": 8.0,
+    "native_throw_m": 2.4384,
+    "native_total_pressure_display_in_wc": 0.01,
+    "native_pressure_display_rounding_interval_Pa": [
+      1.24544455,
+      3.73633365
+    ],
+    "catalogue_linear_total_pressure_at_effective_flow_Pa": 3.987572383185456,
+    "native_and_catalogue_linear_pressure_match_at_display_precision": false,
+    "native_pressure_reference_confirmed_by_prior_UI_total_pressure_label": true,
+    "minimum_nominal_paired_curve_screen_passes_four_directions": true,
+    "minimum_nearest_foot_uncertainty_screen_passes_four_directions": false,
+    "characteristic_lengths_physically_accepted": false,
+    "display_rounding_interval_is_diagnostic_assumption": true,
+    "acoustic_NC_accepted": false,
+    "ADPI_verified": false,
+    "fan_pressure_complete": false,
+    "design_accepted": false,
+    "native_PDF_sha256": "0dee7660b2aecd148e5e62dfdf39cb0e30ca9af595594e536db04bca8a1a3234"
+  },
+  "directions": [
+    {
+      "direction": "east",
+      "condition": "maximum",
+      "diagnostic_L_m": 1.8599999999999994,
+      "nominal_ratio": 2.2941935483870974,
+      "assumed_nearest_foot_display_ratio_interval": [
+        2.2122580645161296,
+        2.3761290322580653
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.2941935483870974,
+          "represented_ADPI": null
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.2941935483870974,
+          "represented_ADPI": null
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        }
+      ]
+    },
+    {
+      "direction": "east",
+      "condition": "minimum",
+      "diagnostic_L_m": 1.8599999999999994,
+      "nominal_ratio": 1.3109677419354844,
+      "assumed_nearest_foot_display_ratio_interval": [
+        1.2290322580645165,
+        1.3929032258064522
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.3109677419354844,
+          "represented_ADPI": 86.68448665625748,
+          "stroke_margin_lower_ADPI": 86.44647031933022
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.3109677419354844,
+          "represented_ADPI": 82.55496804698065,
+          "stroke_margin_lower_ADPI": 82.31999352079575
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 84.87684933200472,
+          "any_outside_source_domain": false
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 80.80445429979488,
+          "any_outside_source_domain": false
+        }
+      ]
+    },
+    {
+      "direction": "west",
+      "condition": "maximum",
+      "diagnostic_L_m": 1.8599999999999994,
+      "nominal_ratio": 2.2941935483870974,
+      "assumed_nearest_foot_display_ratio_interval": [
+        2.2122580645161296,
+        2.3761290322580653
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.2941935483870974,
+          "represented_ADPI": null
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.2941935483870974,
+          "represented_ADPI": null
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        }
+      ]
+    },
+    {
+      "direction": "west",
+      "condition": "minimum",
+      "diagnostic_L_m": 1.8599999999999994,
+      "nominal_ratio": 1.3109677419354844,
+      "assumed_nearest_foot_display_ratio_interval": [
+        1.2290322580645165,
+        1.3929032258064522
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.3109677419354844,
+          "represented_ADPI": 86.68448665625748,
+          "stroke_margin_lower_ADPI": 86.44647031933022
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.3109677419354844,
+          "represented_ADPI": 82.55496804698065,
+          "stroke_margin_lower_ADPI": 82.31999352079575
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 84.87684933200472,
+          "any_outside_source_domain": false
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 80.80445429979488,
+          "any_outside_source_domain": false
+        }
+      ]
+    },
+    {
+      "direction": "north",
+      "condition": "maximum",
+      "diagnostic_L_m": 1.7075000000000014,
+      "nominal_ratio": 2.499092240117128,
+      "assumed_nearest_foot_display_ratio_interval": [
+        2.409838945827231,
+        2.5883455344070256
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.499092240117128,
+          "represented_ADPI": null
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.499092240117128,
+          "represented_ADPI": null
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        }
+      ]
+    },
+    {
+      "direction": "north",
+      "condition": "minimum",
+      "diagnostic_L_m": 1.7075000000000014,
+      "nominal_ratio": 1.4280527086383592,
+      "assumed_nearest_foot_display_ratio_interval": [
+        1.3387994143484616,
+        1.5173060029282566
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.4280527086383592,
+          "represented_ADPI": 84.42327018131175,
+          "stroke_margin_lower_ADPI": 84.18041493898204
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.4280527086383592,
+          "represented_ADPI": 80.39368360131962,
+          "stroke_margin_lower_ADPI": 80.15558337443053
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 82.40018049374983,
+          "any_outside_source_domain": false
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": 78.38471467299158,
+          "any_outside_source_domain": false
+        }
+      ]
+    },
+    {
+      "direction": "south",
+      "condition": "maximum",
+      "diagnostic_L_m": 1.7074999999999996,
+      "nominal_ratio": 2.4990922401171307,
+      "assumed_nearest_foot_display_ratio_interval": [
+        2.409838945827233,
+        2.5883455344070283
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.4990922401171307,
+          "represented_ADPI": null
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "status": "outside_published_curve_or_fragment_domain",
+          "ratio": 2.4990922401171307,
+          "represented_ADPI": null
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        },
+        {
+          "load_Btuh_ft2": 60,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": null,
+          "any_outside_source_domain": true
+        }
+      ]
+    },
+    {
+      "direction": "south",
+      "condition": "minimum",
+      "diagnostic_L_m": 1.7074999999999996,
+      "nominal_ratio": 1.4280527086383605,
+      "assumed_nearest_foot_display_ratio_interval": [
+        1.338799414348463,
+        1.5173060029282581
+      ],
+      "nominal_paired_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.4280527086383605,
+          "represented_ADPI": 84.42327018131172,
+          "stroke_margin_lower_ADPI": 84.18041493898201
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "status": "paired_curve_threshold_met",
+          "ratio": 1.4280527086383605,
+          "represented_ADPI": 80.3936836013196,
+          "stroke_margin_lower_ADPI": 80.1555833744305
+        }
+      ],
+      "display_uncertainty_screen": [
+        {
+          "load_Btuh_ft2": 20,
+          "all_sampled_bounds_and_knots_pass": true,
+          "minimum_stroke_margin_lower_ADPI": 82.4001804937498,
+          "any_outside_source_domain": false
+        },
+        {
+          "load_Btuh_ft2": 40,
+          "all_sampled_bounds_and_knots_pass": false,
+          "minimum_stroke_margin_lower_ADPI": 78.38471467299154,
+          "any_outside_source_domain": false
+        }
+      ]
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\kselect-mcp-existing-minimum\\review.json": "c3802e78849e7661d34f9d6562ef4558853bb3b7baf2e1f3fbd44434b0707aaa",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\terminal-lookup\\terminal-results.json": "42626d4688bb917f03d24a6613a40cfbac67e72afeb5a63bf2461e79b0136b4a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\Krueger_1400_51400_Performance.pdf": "073c639219b28068a0c8190a926d493e42a12c0918db464ee8439c55a3994aef",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\manufacturer-adpi-native-curves\\curves.json": "dc59a674eda24baeac6f0a8dd2e1f81034a6bf9a101972e086f23279e1ff737e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\upstream-gap-survey\\compare_mcp_minimum.py": "a53fc484134e08dc5abaf0f3697ff2d335f835b8f23533b4fb93875cfffb7596"
+  }
+}

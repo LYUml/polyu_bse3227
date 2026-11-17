@@ -1,0 +1,36 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/surfaceConvert.exe -writePrecision 17 C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-native-hex-feasibility\constant\triSurface\air.obj C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-native-hex-feasibility\constant\triSurface\air-convert17.obj
+Date   : Nov 16 2026
+Time   : 21:04:13
+Host   : "LYUML-WIN"
+PID    : 4020
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/building-services-agent
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Output write precision set to 17
+Reading : "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-native-hex-feasibility/constant/triSurface/air.obj"
+Read surface:
+Triangles    : 58034
+Vertices     : 29019
+Bounding Box : (0 0 -0.17699999999999999) (68.534857000000002 19.041159 0.17699999999999999)
+
+Maintaining face ordering
+writing "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-native-hex-feasibility/constant/triSurface/air-convert17.obj"
+
+End
+

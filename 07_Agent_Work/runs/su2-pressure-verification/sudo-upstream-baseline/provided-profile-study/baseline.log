@@ -1,0 +1,1102 @@
+
+-------------------------------------------------------------------------
+|    ___ _   _ ___                                                      |
+|   / __| | | |_  )   Release 8.6.0 "Harrier"                           |
+|   \__ \ |_| |/ /                                                      |
+|   |___/\___//___|   Suite (Computational Fluid Dynamics Code)         |
+|                                                                       |
+-------------------------------------------------------------------------
+| SU2 Project Website: https://su2code.github.io                        |
+|                                                                       |
+| The SU2 Project is maintained by the SU2 Foundation                   |
+| (http://su2foundation.org)                                            |
+-------------------------------------------------------------------------
+| Copyright 2012-2026, SU2 Contributors                                 |
+|                                                                       |
+| SU2 is free software; you can redistribute it and/or                  |
+| modify it under the terms of the GNU Lesser General Public            |
+| License as published by the Free Software Foundation; either          |
+| version 2.1 of the License, or (at your option) any later version.    |
+|                                                                       |
+| SU2 is distributed in the hope that it will be useful,                |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of        |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+| Lesser General Public License for more details.                       |
+|                                                                       |
+| You should have received a copy of the GNU Lesser General Public      |
+| License along with SU2. If not, see <http://www.gnu.org/licenses/>.   |
+-------------------------------------------------------------------------
+
+Parsing config file for zone 0
+
+----------------- Physical Case Definition ( Zone 0 ) -------------------
+Incompressible RANS equations.
+Turbulence model: Menter's k-omega SST-2003m with no production modification
+using default hard coded lower limit clipping.
+Hybrid RANS/LES: No Hybrid RANS/LES
+Reading and writing ASCII SU2 native restart files.
+Read flow solution from: ../provided-profile-diagnostic/restart.
+Dimensional simulation.
+The reference area is 1 m^2.
+The semi-span will be computed using the max y(3D) value.
+The reference length is 1 m.
+Reference origin for moment evaluation is (0, 0, 0).
+Surface(s) where the force coefficients are evaluated: inlet, outlet.
+
+Surface(s) plotted in the output file: wall_bend.
+Surface(s) to be analyzed in detail: inlet, outlet.
+Input mesh file name: ../sudo_coarse.su2
+
+--------------- Space Numerical Integration ( Zone 0 ) ------------------
+Flux difference splitting (FDS) upwind scheme for the flow inviscid terms.
+Second order integration in space, with slope limiter.
+No slope-limiting method. 
+Average of gradients with correction (viscous flow terms).
+Average of gradients with correction (viscous turbulence terms).
+Gradient for upwind reconstruction: inverse-distance weighted Least-Squares.
+Gradient for viscous and source terms: inverse-distance weighted Least-Squares.
+
+--------------- Time Numerical Integration  ( Zone 0 ) ------------------
+Local time stepping (steady state simulation).
+Euler implicit method for the flow equations.
+FGMRES is used for solving the linear system.
+Using LU-SGS preconditioning.
+Convergence criteria of the linear solver: 1e-10.
+Max number of linear iterations: 15.
+No CFL adaptation.
+Courant-Friedrichs-Lewy number:      200
+Euler implicit time integration for the turbulence model.
+
+------------------ Convergence Criteria  ( Zone 0 ) ---------------------
+Maximum number of solver subiterations: 1000.
+Begin convergence monitoring at iteration 10.
+Residual minimum value: 1e-14.
+Cauchy series min. value: 1e-06.
+Number of Cauchy elements: 100.
+Begin windowed time average at iteration 0.
+
+-------------------- Output Information ( Zone 0 ) ----------------------
+File writing frequency: 
++------------------------------------+
+|                     File| Frequency|
++------------------------------------+
+|            RESTART_ASCII|       100|
++------------------------------------+
+Writing the convergence history file every 1 inner iterations.
+Writing the screen convergence history every 1 inner iterations.
+The tabular file format is CSV (.csv).
+Convergence history file name: history.
+Forces breakdown file name: forces_breakdown.dat.
+Surface file name: surface.
+Volume file name: flow.
+Restart file name: restart.
+
+------------- Config File Boundary Information ( Zone 0 ) ---------------
++-----------------------------------------------------------------------+
+|                        Marker Type|                        Marker Name|
++-----------------------------------------------------------------------+
+|                     Symmetry plane|                         symmetry_1|
+|                                   |                      symmetry_bend|
+|                                   |                         symmetry_2|
++-----------------------------------------------------------------------+
+|                     Inlet boundary|                              inlet|
++-----------------------------------------------------------------------+
+|                    Outlet boundary|                             outlet|
++-----------------------------------------------------------------------+
+|                     Heat flux wall|                             wall_1|
+|                                   |                             wall_2|
+|                                   |                          wall_bend|
++-----------------------------------------------------------------------+
+
+-------------------- Output Preprocessing ( Zone 0 ) --------------------
+Screen output fields: INNER_ITER, RMS_PRESSURE, RMS_VELOCITY-X, RMS_VELOCITY-Y, RMS_VELOCITY-Z
+History output group(s): ITER, RMS_RES, LINSOL, SURFACE_MASSFLOW, SURFACE_TOTAL_PRESSURE
+Convergence field(s): RMS_PRESSURE
+Warning: No (valid) fields chosen for time convergence monitoring. Time convergence monitoring inactive.
+Volume output fields: SOLUTION, PRIMITIVE, RESIDUAL, COORDINATES
+
+------------------- Geometry Preprocessing ( Zone 0 ) -------------------
+Three dimensional problem.
+75396 grid points.
+69938 volume elements.
+8 surface markers.
+578 boundary elements in index 0 (Marker = inlet).
+578 boundary elements in index 1 (Marker = outlet).
+1998 boundary elements in index 2 (Marker = wall_2).
+1110 boundary elements in index 3 (Marker = wall_bend).
+1369 boundary elements in index 4 (Marker = wall_1).
+1517 boundary elements in index 5 (Marker = symmetry_1).
+1230 boundary elements in index 6 (Marker = symmetry_bend).
+2214 boundary elements in index 7 (Marker = symmetry_2).
+69938 hexahedra.
+Setting point connectivity.
+Renumbering points (Reverse Cuthill McKee Ordering).
+Recomputing point connectivity.
+Setting element connectivity.
+Checking the numerical grid orientation.
+All volume elements are correctly oriented.
+There has been a re-orientation of 10594 QUADRILATERAL surface elements.
+Identifying edges and vertices.
+Setting the control volume structure.
+Volume of the computational grid: 0.00800348.
+Searching for the closest normal neighbors to the surfaces.
+Storing a mapping from global to local point index.
+Compute the surface curvature.
+Max K: 0. Mean K: 0. Standard deviation K: 0.
+Computing mesh quality statistics for the dual control volumes.
++--------------------------------------------------------------+
+|           Mesh Quality Metric|        Minimum|        Maximum|
++--------------------------------------------------------------+
+|    Orthogonality Angle (deg.)|        62.9151|        89.9243|
+|     CV Face Area Aspect Ratio|          2.409|        94.5856|
+|           CV Sub-Volume Ratio|        1.00475|        5.76354|
+|                     CV Volume|    7.53086e-09|    3.09905e-07|
++--------------------------------------------------------------+
+Finding max control volume width.
+Semi-span length = -1e+10 m.
+Wetted area = 0 m^2.
+Area projection in the x-plane = 0 m^2, y-plane = 0 m^2, z-plane = 0 m^2.
+Max. coordinate in the x-direction = -1e+10 m, y-direction = -1e+10 m, z-direction = -1e+10 m.
+Min. coordinate in the x-direction = 1e+10 m, y-direction = 1e+10 m, z-direction = 1e+10 m.
+Computing wall distances.
+
+-------------------- Solver Preprocessing ( Zone 0 ) --------------------
+ Warning: There is no restart file (flow.meta).
+ Computation will continue without updating metadata parameters.
+Incompressible flow: rho_ref, vel_ref, temp_ref, p_ref
+are set to 1.0 in order to perform a dimensional calculation.
+Force coefficients computed using initial values.
+The reference area for force coeffs. is 1 m^2.
+The reference length for force coeffs. is 1 m.
+The pressure is decomposed into thermodynamic and dynamic components.
+The initial value of the dynamic pressure is 0.
+Mach number: 0.0231103, computed using the Bulk modulus.
+For external flows, the initial state is imposed at the far-field.
+Angle of attack (deg): 90, computed using the initial velocity.
+Side slip angle (deg): 0, computed using the initial velocity.
+Reynolds number per meter: 531092, computed using initial values.
+Reynolds number is a byproduct of inputs only (not used internally).
+SI units only. The grid should be dimensional (meters).
+No energy equation.
+
+-- Models:
++------------------------------------------------------------------------------+
+|          Viscosity Model|        Conductivity Model|              Fluid Model|
++------------------------------------------------------------------------------+
+|       CONSTANT_VISCOSITY|          CONSTANT_PRANDTL|         CONSTANT_DENSITY|
++------------------------------------------------------------------------------+
+-- Fluid properties:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|             Viscosity|     1.785e-05|             1|   N.s/m^2|     1.785e-05|
++------------------------------------------------------------------------------+
+|        Prandtl (Lam.)|             -|             -|         -|          0.72|
+|       Prandtl (Turb.)|             -|             -|         -|           0.9|
++------------------------------------------------------------------------------+
+|          Bulk Modulus|        142000|             1|        Pa|        142000|
++------------------------------------------------------------------------------+
+-- Initial and free-stream conditions:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|      Dynamic Pressure|             0|             1|        Pa|             0|
+|        Total Pressure|         37.92|             1|        Pa|         37.92|
+|               Density|         1.185|             1|    kg/m^3|         1.185|
+|            Velocity-X|             0|             1|       m/s|             0|
+|            Velocity-Y|             0|             1|       m/s|             0|
+|            Velocity-Z|             8|             1|       m/s|             8|
+|    Velocity Magnitude|             8|             1|       m/s|             8|
++------------------------------------------------------------------------------+
+|             Viscosity|     1.785e-05|             1|   N.s/m^2|     1.785e-05|
+|          Conductivity|             -|             1|   W/m^2.K|             -|
+|     Turb. Kin. Energy|          0.24|             1|   m^2/s^2|          0.24|
+|     Spec. Dissipation|       1593.28|             1|       1/s|       1593.28|
++------------------------------------------------------------------------------+
+|           Mach Number|             -|             -|         -|     0.0231103|
+|       Reynolds Number|             -|             -|         -|        531092|
++------------------------------------------------------------------------------+
+All ranks use edge coloring.
+Among the ranks that use edge coloring,
+      the minimum efficiency is 1,
+      the maximum number of colors is 1,
+      the minimum edge color group size is 512.
+Initialize Jacobian structure (Navier-Stokes). MG level: 0.
+Initialize Jacobian structure (SST model).
+y+ < 1 in 4712 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 4712 points. No problem, but you can increase your near-wall mesh size.
+
+Reading inlet profile from file: ../provided-inlet.dat
+No Inlet Interpolation being used
+No Inlet Interpolation being used
+
+------------------- Numerics Preprocessing ( Zone 0 ) -------------------
+
+----------------- Integration Preprocessing ( Zone 0 ) ------------------
+
+------------------- Iteration Preprocessing ( Zone 0 ) ------------------
+Euler/Navier-Stokes/RANS fluid iteration.
+
+------------------------------ Begin Solver -----------------------------
+
+Simulation Run using the Single-zone Driver
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|           0|   -7.288019|   -6.436563|   -6.467539|   -5.634651|
+|           1|   -7.655262|   -6.447646|   -6.590339|   -5.837246|
+|           2|   -7.746322|   -6.402958|   -6.710441|   -5.955436|
+|           3|   -7.792309|   -6.351294|   -6.837363|   -6.032558|
+|           4|   -7.811119|   -6.306216|   -6.912291|   -6.107655|
+|           5|   -7.813029|   -6.274407|   -6.924611|   -6.175564|
+|           6|   -7.812566|   -6.255747|   -6.891366|   -6.234771|
+|           7|   -7.821896|   -6.248025|   -6.835141|   -6.283458|
+|           8|   -7.848276|   -6.248036|   -6.774280|   -6.319230|
+|           9|   -7.897418|   -6.251748|   -6.718292|   -6.341712|
+|          10|   -7.971073|   -6.255105|   -6.671271|   -6.353282|
+|          11|   -8.058646|   -6.254787|   -6.634168|   -6.357665|
+|          12|   -8.121370|   -6.248671|   -6.606125|   -6.358319|
+|          13|   -8.113644|   -6.236168|   -6.585334|   -6.357363|
+|          14|   -8.056148|   -6.218068|   -6.569416|   -6.355601|
+|          15|   -7.996814|   -6.196273|   -6.555965|   -6.352995|
+|          16|   -7.955635|   -6.173401|   -6.543139|   -6.349332|
+|          17|   -7.935342|   -6.151943|   -6.529860|   -6.344609|
+|          18|   -7.933783|   -6.133764|   -6.515952|   -6.339371|
+|          19|   -7.947925|   -6.120155|   -6.501871|   -6.334375|
+|          20|   -7.974881|   -6.111885|   -6.488599|   -6.330618|
+|          21|   -8.011310|   -6.109309|   -6.477045|   -6.328963|
+|          22|   -8.053456|   -6.112553|   -6.468244|   -6.330157|
+|          23|   -8.096865|   -6.121698|   -6.462870|   -6.334639|
+|          24|   -8.135883|   -6.136476|   -6.461326|   -6.342611|
+|          25|   -8.163687|   -6.157023|   -6.463882|   -6.353708|
+|          26|   -8.172861|   -6.182983|   -6.470528|   -6.367081|
+|          27|   -8.159141|   -6.213500|   -6.481128|   -6.381382|
+|          28|   -8.125244|   -6.248280|   -6.495460|   -6.394375|
+|          29|   -8.080269|   -6.287091|   -6.513119|   -6.403965|
+|          30|   -8.034538|   -6.329233|   -6.533776|   -6.409255|
+|          31|   -7.995567|   -6.374208|   -6.557143|   -6.410984|
+|          32|   -7.968092|   -6.421486|   -6.582847|   -6.411650|
+|          33|   -7.954669|   -6.469805|   -6.610520|   -6.414705|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          34|   -7.956555|   -6.518626|   -6.639934|   -6.423166|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          35|   -7.974148|   -6.566816|   -6.670790|   -6.439320|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          36|   -8.007188|   -6.612768|   -6.702896|   -6.464453|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          37|   -8.054543|   -6.654728|   -6.736166|   -6.498895|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          38|   -8.113545|   -6.690347|   -6.770504|   -6.542181|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          39|   -8.179003|   -6.717920|   -6.805910|   -6.593080|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          40|   -8.242537|   -6.736791|   -6.842433|   -6.649723|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          41|   -8.294538|   -6.748142|   -6.880193|   -6.709717|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          42|   -8.330043|   -6.754430|   -6.919344|   -6.770493|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          43|   -8.353075|   -6.758465|   -6.960024|   -6.829841|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          44|   -8.373269|   -6.762883|   -7.002375|   -6.886454|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          45|   -8.399730|   -6.769763|   -7.046518|   -6.940232|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          46|   -8.438528|   -6.780647|   -7.092515|   -6.992084|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          47|   -8.492828|   -6.796566|   -7.140305|   -7.043396|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          48|   -8.562640|   -6.818340|   -7.189747|   -7.095386|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          49|   -8.641413|   -6.846523|   -7.240562|   -7.148721|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          50|   -8.708417|   -6.881542|   -7.292392|   -7.203256|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          51|   -8.731500|   -6.923724|   -7.344911|   -7.258102|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          52|   -8.703973|   -6.973378|   -7.397909|   -7.312132|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          53|   -8.653879|   -7.030771|   -7.451143|   -7.364482|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          54|   -8.606060|   -7.095855|   -7.504316|   -7.414732|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          55|   -8.570709|   -7.167844|   -7.557213|   -7.463243|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          56|   -8.550034|   -7.244687|   -7.609783|   -7.511286|
+|          57|   -8.543094|   -7.322461|   -7.662081|   -7.560124|
+|          58|   -8.547520|   -7.395271|   -7.714197|   -7.608401|
+|          59|   -8.559739|   -7.456878|   -7.766166|   -7.647107|
+|          60|   -8.574660|   -7.504303|   -7.817901|   -7.655853|
+|          61|   -8.585730|   -7.540328|   -7.869161|   -7.616443|
+|          62|   -8.586428|   -7.571868|   -7.919540|   -7.537566|
+|          63|   -8.573255|   -7.606413|   -7.968419|   -7.444311|
+|          64|   -8.547756|   -7.649978|   -8.014996|   -7.354236|
+|          65|   -8.515197|   -7.706767|   -8.058577|   -7.274488|
+|          66|   -8.481420|   -7.778534|   -8.098800|   -7.206943|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          67|   -8.450862|   -7.859794|   -8.135618|   -7.151608|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          68|   -8.426251|   -7.923010|   -8.169154|   -7.107996|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          69|   -8.409026|   -7.915505|   -8.199437|   -7.075553|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          70|   -8.399801|   -7.831540|   -8.226094|   -7.053761|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          71|   -8.398688|   -7.722676|   -8.248194|   -7.042146|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          72|   -8.405468|   -7.620561|   -8.264428|   -7.040272|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          73|   -8.419682|   -7.532676|   -8.273669|   -7.047741|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          74|   -8.440666|   -7.458675|   -8.275666|   -7.064202|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          75|   -8.467573|   -7.396728|   -8.271383|   -7.089347|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          76|   -8.499405|   -7.345103|   -8.262796|   -7.122913|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          77|   -8.535084|   -7.302442|   -8.252249|   -7.164664|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          78|   -8.573574|   -7.267732|   -8.241871|   -7.214356|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          79|   -8.614068|   -7.240231|   -8.233230|   -7.271678|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          80|   -8.656182|   -7.219397|   -8.227252|   -7.336190|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          81|   -8.700087|   -7.204825|   -8.224288|   -7.407220|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          82|   -8.746491|   -7.196212|   -8.224273|   -7.483762|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|          83|   -8.796444|   -7.193324|   -8.226862|   -7.564325|
+|          84|   -8.850971|   -7.195980|   -8.231589|   -7.646785|
+|          85|   -8.910506|   -7.204033|   -8.237987|   -7.728278|
+|          86|   -8.973978|   -7.217358|   -8.245673|   -7.805336|
+|          87|   -9.037342|   -7.235837|   -8.254387|   -7.874521|
+|          88|   -9.092009|   -7.259325|   -8.263897|   -7.933543|
+|          89|   -9.126110|   -7.287616|   -8.273630|   -7.982135|
+|          90|   -9.132742|   -7.320432|   -8.282639|   -8.021822|
+|          91|   -9.117464|   -7.357480|   -8.290939|   -8.055352|
+|          92|   -9.091983|   -7.398465|   -8.299714|   -8.085807|
+|          93|   -9.065073|   -7.443034|   -8.309744|   -8.114009|
+|          94|   -9.040765|   -7.490744|   -8.321170|   -8.134928|
+|          95|   -9.019783|   -7.541089|   -8.333966|   -8.135694|
+|          96|   -9.000988|   -7.593590|   -8.348094|   -8.102276|
+|          97|   -8.982427|   -7.647943|   -8.363476|   -8.034758|
+|          98|   -8.962195|   -7.704223|   -8.379947|   -7.948357|
+|          99|   -8.939147|   -7.763095|   -8.397229|   -7.858682|
+|         100|   -8.913272|   -7.825988|   -8.415013|   -7.774550|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1486.97 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         101|   -8.885597|   -7.895179|   -8.433103|   -7.699529|
+|         102|   -8.857738|   -7.973769|   -8.451486|   -7.634573|
+|         103|   -8.831396|   -8.065202|   -8.470299|   -7.579555|
+|         104|   -8.808016|   -8.170476|   -8.489699|   -7.533981|
+|         105|   -8.788648|   -8.275472|   -8.509747|   -7.497274|
+|         106|   -8.773954|   -8.322571|   -8.530321|   -7.468874|
+|         107|   -8.764279|   -8.259851|   -8.551057|   -7.448274|
+|         108|   -8.759735|   -8.143555|   -8.571333|   -7.435026|
+|         109|   -8.760261|   -8.030080|   -8.590300|   -7.428733|
+|         110|   -8.765682|   -7.933251|   -8.606991|   -7.429032|
+|         111|   -8.775741|   -7.852733|   -8.620533|   -7.435580|
+|         112|   -8.790132|   -7.785925|   -8.630361|   -7.448040|
+|         113|   -8.808534|   -7.730452|   -8.636394|   -7.466079|
+|         114|   -8.830639|   -7.684490|   -8.639052|   -7.489358|
+|         115|   -8.856193|   -7.646683|   -8.639125|   -7.517537|
+|         116|   -8.885017|   -7.616018|   -8.637550|   -7.550269|
+|         117|   -8.917034|   -7.591732|   -8.635218|   -7.587192|
+|         118|   -8.952275|   -7.573239|   -8.632836|   -7.627925|
+|         119|   -8.990869|   -7.560082|   -8.630884|   -7.672059|
+|         120|   -9.033019|   -7.551894|   -8.629635|   -7.719152|
+|         121|   -9.078951|   -7.548378|   -8.629204|   -7.768748|
+|         122|   -9.128849|   -7.549283|   -8.629611|   -7.820402|
+|         123|   -9.182720|   -7.554391|   -8.630840|   -7.873734|
+|         124|   -9.240184|   -7.563507|   -8.632877|   -7.928487|
+|         125|   -9.300105|   -7.576446|   -8.635723|   -7.984583|
+|         126|   -9.359992|   -7.593025|   -8.639375|   -8.042134|
+|         127|   -9.415294|   -7.613052|   -8.643751|   -8.101361|
+|         128|   -9.459316|   -7.636325|   -8.648566|   -8.162352|
+|         129|   -9.485270|   -7.662641|   -8.653335|   -8.224622|
+|         130|   -9.490322|   -7.691850|   -8.657765|   -8.286195|
+|         131|   -9.477322|   -7.723893|   -8.662212|   -8.341534|
+|         132|   -9.451950|   -7.758821|   -8.667415|   -8.378616|
+|         133|   -9.419380|   -7.796790|   -8.673914|   -8.381275|
+|         134|   -9.383221|   -7.838060|   -8.681907|   -8.343579|
+|         135|   -9.345783|   -7.883017|   -8.691414|   -8.278117|
+|         136|   -9.308569|   -7.932226|   -8.702375|   -8.202633|
+|         137|   -9.272623|   -7.986498|   -8.714656|   -8.128447|
+|         138|   -9.238730|   -8.046995|   -8.728081|   -8.060513|
+|         139|   -9.207515|   -8.115341|   -8.742512|   -8.000465|
+|         140|   -9.179491|   -8.193689|   -8.757887|   -7.948563|
+|         141|   -9.155065|   -8.284506|   -8.774191|   -7.904560|
+|         142|   -9.134538|   -8.388944|   -8.791405|   -7.868053|
+|         143|   -9.118100|   -8.499297|   -8.809450|   -7.838601|
+|         144|   -9.105834|   -8.577291|   -8.828164|   -7.815763|
+|         145|   -9.097734|   -8.561367|   -8.847283|   -7.799113|
+|         146|   -9.093720|   -8.469247|   -8.866436|   -7.788245|
+|         147|   -9.093663|   -8.363387|   -8.885160|   -7.782777|
+|         148|   -9.097402|   -8.269184|   -8.902942|   -7.782352|
+|         149|   -9.104764|   -8.190114|   -8.919269|   -7.786633|
+|         150|   -9.115578|   -8.124488|   -8.933701|   -7.795303|
+|         151|   -9.129688|   -8.070083|   -8.945931|   -7.808050|
+|         152|   -9.146964|   -8.025049|   -8.955830|   -7.824578|
+|         153|   -9.167315|   -7.987963|   -8.963455|   -7.844600|
+|         154|   -9.190703|   -7.957747|   -8.969014|   -7.867856|
+|         155|   -9.217144|   -7.933574|   -8.972814|   -7.894121|
+|         156|   -9.246716|   -7.914803|   -8.975210|   -7.923218|
+|         157|   -9.279553|   -7.900922|   -8.976550|   -7.955023|
+|         158|   -9.315841|   -7.891520|   -8.977155|   -7.989476|
+|         159|   -9.355809|   -7.886259|   -8.977303|   -8.026586|
+|         160|   -9.399712|   -7.884857|   -8.977232|   -8.066435|
+|         161|   -9.447804|   -7.887074|   -8.977149|   -8.109196|
+|         162|   -9.500283|   -7.892706|   -8.977239|   -8.155139|
+|         163|   -9.557157|   -7.901578|   -8.977669|   -8.204642|
+|         164|   -9.617961|   -7.913538|   -8.978587|   -8.258170|
+|         165|   -9.681173|   -7.928453|   -8.980104|   -8.316211|
+|         166|   -9.743166|   -7.946209|   -8.982241|   -8.379096|
+|         167|   -9.796975|   -7.966709|   -8.984847|   -8.446590|
+|         168|   -9.832676|   -7.989895|   -8.987544|   -8.516996|
+|         169|   -9.842188|   -8.015779|   -8.989959|   -8.585261|
+|         170|   -9.825666|   -8.044491|   -8.992276|   -8.639801|
+|         171|   -9.790856|   -8.076294|   -8.995321|   -8.662381|
+|         172|   -9.746835|   -8.111568|   -8.999873|   -8.641456|
+|         173|   -9.700207|   -8.150795|   -9.006215|   -8.586773|
+|         174|   -9.654809|   -8.194567|   -9.014309|   -8.518089|
+|         175|   -9.612567|   -8.243630|   -9.024017|   -8.449056|
+|         176|   -9.574325|   -8.298953|   -9.035169|   -8.385601|
+|         177|   -9.540386|   -8.361828|   -9.047613|   -8.329550|
+|         178|   -9.510810|   -8.433954|   -9.061245|   -8.281112|
+|         179|   -9.485563|   -8.517407|   -9.075997|   -8.239966|
+|         180|   -9.464569|   -8.614002|   -9.091811|   -8.205659|
+|         181|   -9.447733|   -8.722029|   -9.108606|   -8.177727|
+|         182|   -9.434938|   -8.824162|   -9.126255|   -8.155729|
+|         183|   -9.426044|   -8.869020|   -9.144579|   -8.139239|
+|         184|   -9.420895|   -8.820512|   -9.163332|   -8.127852|
+|         185|   -9.419325|   -8.724902|   -9.182213|   -8.121182|
+|         186|   -9.421164|   -8.628591|   -9.200866|   -8.118865|
+|         187|   -9.426257|   -8.545215|   -9.218905|   -8.120570|
+|         188|   -9.434463|   -8.475611|   -9.235932|   -8.125995|
+|         189|   -9.445667|   -8.417930|   -9.251571|   -8.134863|
+|         190|   -9.459783|   -8.370207|   -9.265505|   -8.146922|
+|         191|   -9.476758|   -8.330838|   -9.277499|   -8.161949|
+|         192|   -9.496581|   -8.298580|   -9.287426|   -8.179753|
+|         193|   -9.519282|   -8.272481|   -9.295273|   -8.200193|
+|         194|   -9.544947|   -8.251797|   -9.301130|   -8.223189|
+|         195|   -9.573715|   -8.235943|   -9.305184|   -8.248738|
+|         196|   -9.605782|   -8.224451|   -9.307687|   -8.276911|
+|         197|   -9.641400|   -8.216939|   -9.308932|   -8.307859|
+|         198|   -9.680875|   -8.213096|   -9.309228|   -8.341812|
+|         199|   -9.724566|   -8.212664|   -9.308886|   -8.379071|
+|         200|   -9.772856|   -8.215432|   -9.308205|   -8.420016|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1491.52 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         201|   -9.826111|   -8.221230|   -9.307462|   -8.465103|
+|         202|   -9.884542|   -8.229923|   -9.306910|   -8.514858|
+|         203|   -9.947883|   -8.241405|   -9.306767|   -8.569849|
+|         204|  -10.014658|   -8.255603|   -9.307196|   -8.630576|
+|         205|  -10.080767|   -8.272469|   -9.308260|   -8.697208|
+|         206|  -10.137602|   -8.291981|   -9.309827|   -8.768953|
+|         207|  -10.172415|   -8.314168|   -9.311512|   -8.842679|
+|         208|  -10.175586|   -8.339135|   -9.312946|   -8.910204|
+|         209|  -10.149583|   -8.367113|   -9.314414|   -8.955407|
+|         210|  -10.105904|   -8.398459|   -9.316892|   -8.960018|
+|         211|  -10.055578|   -8.433642|   -9.321145|   -8.922595|
+|         212|  -10.005372|   -8.473222|   -9.327339|   -8.861175|
+|         213|   -9.958564|   -8.517865|   -9.335352|   -8.793906|
+|         214|   -9.916438|   -8.568399|   -9.345005|   -8.730157|
+|         215|   -9.879324|   -8.625886|   -9.356124|   -8.673213|
+|         216|   -9.847151|   -8.691720|   -9.368566|   -8.623733|
+|         217|   -9.819714|   -8.767684|   -9.382234|   -8.581471|
+|         218|   -9.796781|   -8.855785|   -9.397053|   -8.545943|
+|         219|   -9.778129|   -8.957054|   -9.412946|   -8.516642|
+|         220|   -9.763551|   -9.066228|   -9.429816|   -8.493095|
+|         221|   -9.752847|   -9.155609|   -9.447531|   -8.474860|
+|         222|   -9.745823|   -9.169203|   -9.465914|   -8.461523|
+|         223|   -9.742290|   -9.100159|   -9.484738|   -8.452689|
+|         224|   -9.742066|   -9.003973|   -9.503729|   -8.447991|
+|         225|   -9.744990|   -8.913804|   -9.522565|   -8.447091|
+|         226|   -9.750921|   -8.837090|   -9.540888|   -8.449688|
+|         227|   -9.759745|   -8.773313|   -9.558319|   -8.455518|
+|         228|   -9.771381|   -8.720532|   -9.574481|   -8.464351|
+|         229|   -9.785777|   -8.676923|   -9.589030|   -8.475989|
+|         230|   -9.802920|   -8.641022|   -9.601680|   -8.490274|
+|         231|   -9.822835|   -8.611700|   -9.612237|   -8.507092|
+|         232|   -9.845596|   -8.588084|   -9.620619|   -8.526389|
+|         233|   -9.871329|   -8.569491|   -9.626863|   -8.548185|
+|         234|   -9.900216|   -8.555379|   -9.631116|   -8.572576|
+|         235|   -9.932501|   -8.545314|   -9.633619|   -8.599737|
+|         236|   -9.968490|   -8.538944|   -9.634677|   -8.629920|
+|         237|  -10.008549|   -8.535986|   -9.634632|   -8.663445|
+|         238|  -10.053102|   -8.536210|   -9.633834|   -8.700699|
+|         239|  -10.102610|   -8.539433|   -9.632623|   -8.742134|
+|         240|  -10.157508|   -8.545517|   -9.631318|   -8.788267|
+|         241|  -10.218043|   -8.554357|   -9.630204|   -8.839666|
+|         242|  -10.283872|   -8.565888|   -9.629525|   -8.896903|
+|         243|  -10.353124|   -8.580070|   -9.629460|   -8.960404|
+|         244|  -10.420593|   -8.596896|   -9.630064|   -9.030072|
+|         245|  -10.475595|   -8.616388|   -9.631166|   -9.104419|
+|         246|  -10.503655|   -8.638618|   -9.632341|   -9.178683|
+|         247|  -10.496879|   -8.663751|   -9.633289|   -9.241619|
+|         248|  -10.462060|   -8.692073|   -9.634514|   -9.274434|
+|         249|  -10.412964|   -8.723998|   -9.637070|   -9.262954|
+|         250|  -10.360294|   -8.760036|   -9.641570|   -9.214955|
+|         251|  -10.309755|   -8.800788|   -9.648044|   -9.150919|
+|         252|  -10.263753|   -8.846971|   -9.656326|   -9.085719|
+|         253|  -10.223030|   -8.899474|   -9.666227|   -9.025808|
+|         254|  -10.187604|   -8.959448|   -9.677577|   -8.973075|
+|         255|  -10.157234|   -9.028388|   -9.690247|   -8.927644|
+|         256|  -10.131615|   -9.108156|   -9.704145|   -8.889092|
+|         257|  -10.110452|   -9.200625|   -9.719192|   -8.856888|
+|         258|  -10.093482|   -9.305694|   -9.735308|   -8.830521|
+|         259|  -10.080465|   -9.413334|   -9.752390|   -8.809528|
+|         260|  -10.071183|   -9.485033|   -9.770302|   -8.793476|
+|         261|  -10.065430|   -9.469571|   -9.788868|   -8.781966|
+|         262|  -10.063015|   -9.387403|   -9.807865|   -8.774618|
+|         263|  -10.063761|   -9.292346|   -9.827019|   -8.771086|
+|         264|  -10.067518|   -9.207088|   -9.846012|   -8.771059|
+|         265|  -10.074162|   -9.135335|   -9.864485|   -8.774263|
+|         266|  -10.083599|   -9.075825|   -9.882053|   -8.780468|
+|         267|  -10.095768|   -9.026603|   -9.898325|   -8.789480|
+|         268|  -10.110643|   -8.985961|   -9.912939|   -8.801141|
+|         269|  -10.128233|   -8.952552|   -9.925592|   -8.815338|
+|         270|  -10.148589|   -8.925336|   -9.936074|   -8.832007|
+|         271|  -10.171815|   -8.903506|   -9.944294|   -8.851150|
+|         272|  -10.198064|   -8.886430|   -9.950290|   -8.872843|
+|         273|  -10.227552|   -8.873605|   -9.954221|   -8.897239|
+|         274|  -10.260557|   -8.864629|   -9.956349|   -8.924567|
+|         275|  -10.297421|   -8.859179|   -9.957002|   -8.955127|
+|         276|  -10.338549|   -8.856993|   -9.956548|   -8.989280|
+|         277|  -10.384405|   -8.857868|   -9.955360|   -9.027453|
+|         278|  -10.435483|   -8.861645|   -9.953800|   -9.070127|
+|         279|  -10.492227|   -8.868206|   -9.952203|   -9.117847|
+|         280|  -10.554827|   -8.877473|   -9.950862|   -9.171191|
+|         281|  -10.622691|   -8.889401|   -9.950023|   -9.230704|
+|         282|  -10.693261|   -8.903975|   -9.949854|   -9.296694|
+|         283|  -10.759840|   -8.921209|   -9.950372|   -9.368724|
+|         284|  -10.809688|   -8.941149|   -9.951337|   -9.444463|
+|         285|  -10.828130|   -8.963900|   -9.952287|   -9.517327|
+|         286|  -10.811176|   -8.989667|   -9.953072|   -9.573198|
+|         287|  -10.769620|   -9.018782|   -9.954436|   -9.592545|
+|         288|  -10.717633|   -9.051693|   -9.957407|   -9.567514|
+|         289|  -10.664568|   -9.088943|   -9.962399|   -9.512571|
+|         290|  -10.614915|   -9.131163|   -9.969346|   -9.447649|
+|         291|  -10.570360|   -9.179115|   -9.978058|   -9.384474|
+|         292|  -10.531279|   -9.233755|   -9.988349|   -9.327510|
+|         293|  -10.497523|   -9.296323|  -10.000058|   -9.277814|
+|         294|  -10.468775|   -9.368422|  -10.013068|   -9.235224|
+|         295|  -10.444698|   -9.451977|  -10.027289|   -9.199243|
+|         296|  -10.424983|   -9.548605|  -10.042647|   -9.169332|
+|         297|  -10.409361|   -9.656529|  -10.059054|   -9.144995|
+|         298|  -10.397588|   -9.759388|  -10.076404|   -9.125781|
+|         299|  -10.389445|   -9.808910|  -10.094554|   -9.111274|
+|         300|  -10.384727|   -9.768069|  -10.113322|   -9.101085|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1485.51 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         301|  -10.383249|   -9.678071|  -10.132477|   -9.094852|
+|         302|  -10.384843|   -9.585202|  -10.151738|   -9.092247|
+|         303|  -10.389370|   -9.504255|  -10.170777|   -9.092981|
+|         304|  -10.396721|   -9.436600|  -10.189224|   -9.096806|
+|         305|  -10.406817|   -9.380562|  -10.206683|   -9.103514|
+|         306|  -10.419613|   -9.334224|  -10.222759|   -9.112937|
+|         307|  -10.435100|   -9.295987|  -10.237085|   -9.124944|
+|         308|  -10.453303|   -9.264604|  -10.249363|   -9.139453|
+|         309|  -10.474297|   -9.239111|  -10.259397|   -9.156432|
+|         310|  -10.498202|   -9.218761|  -10.267116|   -9.175920|
+|         311|  -10.525199|   -9.202965|  -10.272586|   -9.198029|
+|         312|  -10.555526|   -9.191255|  -10.275995|   -9.222947|
+|         313|  -10.589488|   -9.183257|  -10.277630|   -9.250937|
+|         314|  -10.627453|   -9.178672|  -10.277844|   -9.282323|
+|         315|  -10.669853|   -9.177260|  -10.277020|   -9.317494|
+|         316|  -10.717175|   -9.178837|  -10.275542|   -9.356896|
+|         317|  -10.769924|   -9.183260|  -10.273777|   -9.401031|
+|         318|  -10.828519|   -9.190432|  -10.272057|   -9.450456|
+|         319|  -10.893020|   -9.200290|  -10.270673|   -9.505750|
+|         320|  -10.962455|   -9.212804|  -10.269861|   -9.567410|
+|         321|  -11.033345|   -9.227974|  -10.269759|   -9.635586|
+|         322|  -11.097261|   -9.245827|  -10.270330|   -9.709417|
+|         323|  -11.139774|   -9.266427|  -10.271254|   -9.785568|
+|         324|  -11.147622|   -9.289908|  -10.272068|   -9.855427|
+|         325|  -11.121626|   -9.316510|  -10.272843|   -9.902362|
+|         326|  -11.075275|   -9.346603|  -10.274523|   -9.908090|
+|         327|  -11.021928|   -9.380666|  -10.278013|   -9.871938|
+|         328|  -10.969370|   -9.419267|  -10.283545|   -9.812437|
+|         329|  -10.921038|   -9.463068|  -10.290987|   -9.747555|
+|         330|  -10.878080|   -9.512880|  -10.300145|   -9.686337|
+|         331|  -10.840628|   -9.569730|  -10.310837|   -9.631844|
+|         332|  -10.808438|   -9.634954|  -10.322914|   -9.584597|
+|         333|  -10.781163|   -9.710260|  -10.336269|   -9.544270|
+|         334|  -10.758460|   -9.797594|  -10.350820|   -9.510333|
+|         335|  -10.740025|   -9.898110|  -10.366488|   -9.482258|
+|         336|  -10.725591|  -10.007519|  -10.383185|   -9.459563|
+|         337|  -10.714921|  -10.101377|  -10.400796|   -9.441811|
+|         338|  -10.707798|  -10.125281|  -10.419171|   -9.428600|
+|         339|  -10.704023|  -10.063961|  -10.438116|   -9.419553|
+|         340|  -10.703418|   -9.970163|  -10.457389|   -9.414322|
+|         341|  -10.705825|   -9.880281|  -10.476696|   -9.412595|
+|         342|  -10.711115|   -9.803386|  -10.495696|   -9.414101|
+|         343|  -10.719192|   -9.739389|  -10.514008|   -9.418610|
+|         344|  -10.729989|   -9.686415|  -10.531230|   -9.425935|
+|         345|  -10.743473|   -9.642621|  -10.546961|   -9.435923|
+|         346|  -10.759649|   -9.606513|  -10.560844|   -9.448465|
+|         347|  -10.778558|   -9.576935|  -10.572597|   -9.463498|
+|         348|  -10.800290|   -9.552993|  -10.582049|   -9.481018|
+|         349|  -10.824985|   -9.533992|  -10.589164|   -9.501089|
+|         350|  -10.852843|   -9.519382|  -10.594040|   -9.523851|
+|         351|  -10.884122|   -9.508727|  -10.596900|   -9.549517|
+|         352|  -10.919150|   -9.501678|  -10.598055|   -9.578373|
+|         353|  -10.958315|   -9.497956|  -10.597877|   -9.610764|
+|         354|  -11.002073|   -9.497341|  -10.596759|   -9.647096|
+|         355|  -11.050923|   -9.499663|  -10.595086|   -9.687831|
+|         356|  -11.105366|   -9.504796|  -10.593221|   -9.733490|
+|         357|  -11.165765|   -9.512656|  -10.591492|   -9.784637|
+|         358|  -11.231988|   -9.523192|  -10.590178|   -9.841840|
+|         359|  -11.302551|   -9.536387|  -10.589496|   -9.905533|
+|         360|  -11.372826|   -9.552249|  -10.589548|   -9.975657|
+|         361|  -11.432513|   -9.570817|  -10.590225|  -10.050821|
+|         362|  -11.466158|   -9.592172|  -10.591131|  -10.126481|
+|         363|  -11.463379|   -9.616475|  -10.591864|  -10.191799|
+|         364|  -11.429772|   -9.644005|  -10.592759|  -10.228235|
+|         365|  -11.380109|   -9.675164|  -10.594876|  -10.220708|
+|         366|  -11.326323|   -9.710458|  -10.598938|  -10.175592|
+|         367|  -11.274716|   -9.750480|  -10.605026|  -10.113207|
+|         368|  -11.227868|   -9.795927|  -10.612972|  -10.048963|
+|         369|  -11.186520|   -9.847663|  -10.622583|   -9.989693|
+|         370|  -11.150642|   -9.906793|  -10.633683|   -9.937436|
+|         371|  -11.119932|   -9.974755|  -10.646136|   -9.892349|
+|         372|  -11.094035|  -10.053355|  -10.659844|   -9.854009|
+|         373|  -11.072611|  -10.144496|  -10.674727|   -9.821874|
+|         374|  -11.055368|  -10.248545|  -10.690707|   -9.795430|
+|         375|  -11.042045|  -10.357552|  -10.707689|   -9.774211|
+|         376|  -11.032411|  -10.437538|  -10.725550|   -9.757793|
+|         377|  -11.026257|  -10.434495|  -10.744129|   -9.745783|
+|         378|  -11.023388|  -10.358052|  -10.763219|   -9.737816|
+|         379|  -11.023633|  -10.263303|  -10.782565|   -9.733557|
+|         380|  -11.026845|  -10.176878|  -10.801860|   -9.732707|
+|         381|  -11.032904|  -10.103845|  -10.820748|   -9.735011|
+|         382|  -11.041723|  -10.043221|  -10.838838|   -9.740254|
+|         383|  -11.053248|   -9.993056|  -10.855723|   -9.748261|
+|         384|  -11.067457|   -9.951600|  -10.871009|   -9.758898|
+|         385|  -11.084365|   -9.917460|  -10.884350|   -9.772069|
+|         386|  -11.104029|   -9.889563|  -10.895490|   -9.787730|
+|         387|  -11.126554|   -9.867079|  -10.904294|   -9.805897|
+|         388|  -11.152096|   -9.849359|  -10.910761|   -9.826659|
+|         389|  -11.180873|   -9.835889|  -10.915029|   -9.850178|
+|         390|  -11.213166|   -9.826262|  -10.917350|   -9.876691|
+|         391|  -11.249317|   -9.820150|  -10.918059|   -9.906500|
+|         392|  -11.289739|   -9.817293|  -10.917539|   -9.939969|
+|         393|  -11.334901|   -9.817488|  -10.916186|   -9.977521|
+|         394|  -11.385313|   -9.820579|  -10.914384|  -10.019634|
+|         395|  -11.441459|   -9.826454|  -10.912489|  -10.066840|
+|         396|  -11.503613|   -9.835039|  -10.910817|  -10.119712|
+|         397|  -11.571382|   -9.846295|  -10.909633|  -10.178797|
+|         398|  -11.642622|   -9.860213|  -10.909130|  -10.244436|
+|         399|  -11.711331|   -9.876811|  -10.909362|  -10.316304|
+|         400|  -11.765336|   -9.896138|  -10.910142|  -10.392343|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                      (1485.7 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         401|  -11.789095|   -9.918293|  -10.911013|  -10.466561|
+|         402|  -11.776253|   -9.943467|  -10.911705|  -10.525748|
+|         403|  -11.736475|   -9.971976|  -10.912827|  -10.550430|
+|         404|  -11.684635|  -10.004253|  -10.915449|  -10.530487|
+|         405|  -11.631008|  -10.040830|  -10.920091|  -10.478381|
+|         406|  -11.580595|  -10.082325|  -10.926722|  -10.414386|
+|         407|  -11.535291|  -10.129474|  -10.935156|  -10.351219|
+|         408|  -11.495534|  -10.183201|  -10.945203|  -10.293924|
+|         409|  -11.461177|  -10.244697|  -10.956698|  -10.243786|
+|         410|  -11.431886|  -10.315504|  -10.969515|  -10.200714|
+|         411|  -11.407305|  -10.397512|  -10.983565|  -10.164222|
+|         412|  -11.387106|  -10.492468|  -10.998769|  -10.133772|
+|         413|  -11.371005|  -10.599469|  -11.015047|  -10.108861|
+|         414|  -11.358752|  -10.705395|  -11.032297|  -10.089041|
+|         415|  -11.350122|  -10.766399|  -11.050386|  -10.073897|
+|         416|  -11.344910|  -10.737550|  -11.069143|  -10.063047|
+|         417|  -11.342930|  -10.651091|  -11.088347|  -10.056134|
+|         418|  -11.344015|  -10.557372|  -11.107729|  -10.052835|
+|         419|  -11.348028|  -10.474672|  -11.126965|  -10.052864|
+|         420|  -11.354859|  -10.405348|  -11.145690|  -10.055980|
+|         421|  -11.364430|  -10.347891|  -11.163504|  -10.061981|
+|         422|  -11.376698|  -10.300358|  -11.179997|  -10.070706|
+|         423|  -11.391650|  -10.261099|  -11.194786|  -10.082030|
+|         424|  -11.409315|  -10.228820|  -11.207543|  -10.095873|
+|         425|  -11.429761|  -10.202524|  -11.218043|  -10.112209|
+|         426|  -11.453109|  -10.181437|  -11.226185|  -10.131075|
+|         427|  -11.479532|  -10.164954|  -11.232011|  -10.152580|
+|         428|  -11.509266|  -10.152594|  -11.235692|  -10.176908|
+|         429|  -11.542609|  -10.143975|  -11.237509|  -10.204316|
+|         430|  -11.579924|  -10.138789|  -11.237816|  -10.235124|
+|         431|  -11.621641|  -10.136796|  -11.237004|  -10.269713|
+|         432|  -11.668245|  -10.137805|  -11.235469|  -10.308521|
+|         433|  -11.720248|  -10.141675|  -11.233589|  -10.352040|
+|         434|  -11.778101|  -10.148305|  -11.231711|  -10.400818|
+|         435|  -11.841958|  -10.157633|  -11.230139|  -10.455428|
+|         436|  -11.911075|  -10.169627|  -11.229120|  -10.516385|
+|         437|  -11.982480|  -10.184288|  -11.228819|  -10.583905|
+|         438|  -12.048583|  -10.201642|  -11.229232|  -10.657313|
+|         439|  -12.095518|  -10.221749|  -11.230087|  -10.733719|
+|         440|  -12.108810|  -10.244729|  -11.230904|  -10.805411|
+|         441|  -12.086824|  -10.270808|  -11.231613|  -10.856810|
+|         442|  -12.042210|  -10.300334|  -11.233062|  -10.868889|
+|         443|  -11.989073|  -10.333773|  -11.236234|  -10.837779|
+|         444|  -11.936020|  -10.371679|  -11.241455|  -10.780469|
+|         445|  -11.886951|  -10.414699|  -11.248617|  -10.715857|
+|         446|  -11.843216|  -10.463614|  -11.257528|  -10.654097|
+|         447|  -11.805023|  -10.519414|  -11.268001|  -10.598812|
+|         448|  -11.772144|  -10.583381|  -11.279882|  -10.550729|
+|         449|  -11.744227|  -10.657166|  -11.293058|  -10.509586|
+|         450|  -11.720921|  -10.742709|  -11.307444|  -10.474863|
+|         451|  -11.701911|  -10.841431|  -11.322963|  -10.446029|
+|         452|  -11.686922|  -10.950461|  -11.339530|  -10.422597|
+|         453|  -11.675713|  -11.049731|  -11.357036|  -10.404131|
+|         454|  -11.668065|  -11.087323|  -11.375338|  -10.390227|
+|         455|  -11.663779|  -11.036014|  -11.394251|  -10.380510|
+|         456|  -11.662674|  -10.943849|  -11.413541|  -10.374632|
+|         457|  -11.664592|  -10.852444|  -11.432923|  -10.372283|
+|         458|  -11.669403|  -10.773570|  -11.452061|  -10.373188|
+|         459|  -11.677006|  -10.707797|  -11.470578|  -10.377118|
+|         460|  -11.687334|  -10.653331|  -11.488068|  -10.383885|
+|         461|  -11.700351|  -10.608285|  -11.504124|  -10.393337|
+|         462|  -11.716058|  -10.571110|  -11.518373|  -10.405364|
+|         463|  -11.734493|  -10.540607|  -11.530514|  -10.419898|
+|         464|  -11.755739|  -10.515846|  -11.540354|  -10.436931|
+|         465|  -11.779931|  -10.496108|  -11.547831|  -10.456520|
+|         466|  -11.807260|  -10.480826|  -11.553024|  -10.478797|
+|         467|  -11.837978|  -10.469549|  -11.556141|  -10.503965|
+|         468|  -11.872403|  -10.461918|  -11.557487|  -10.532300|
+|         469|  -11.910918|  -10.457648|  -11.557430|  -10.564140|
+|         470|  -11.953967|  -10.456510|  -11.556366|  -10.599881|
+|         471|  -12.002050|  -10.458331|  -11.554689|  -10.639977|
+|         472|  -12.055673|  -10.462981|  -11.552770|  -10.684937|
+|         473|  -12.115239|  -10.470370|  -11.550944|  -10.735318|
+|         474|  -12.180731|  -10.480446|  -11.549500|  -10.791691|
+|         475|  -12.250956|  -10.493188|  -11.548669|  -10.854518|
+|         476|  -12.321915|  -10.508601|  -11.548577|  -10.923847|
+|         477|  -12.384254|  -10.526721|  -11.549155|  -10.998556|
+|         478|  -12.422847|  -10.547622|  -11.550046|  -11.074717|
+|         479|  -12.425545|  -10.571449|  -11.550800|  -11.142617|
+|         480|  -12.395564|  -10.598461|  -11.551602|  -11.184585|
+|         481|  -12.347312|  -10.629042|  -11.553461|  -11.183747|
+|         482|  -12.293572|  -10.663685|  -11.557207|  -11.143037|
+|         483|  -12.241397|  -10.702968|  -11.562994|  -11.082105|
+|         484|  -12.193770|  -10.747570|  -11.570670|  -11.017647|
+|         485|  -12.151611|  -10.798322|  -11.580039|  -10.957537|
+|         486|  -12.114954|  -10.856287|  -11.590924|  -10.904285|
+|         487|  -12.083516|  -10.922847|  -11.603182|  -10.858212|
+|         488|  -12.056938|  -10.999757|  -11.616708|  -10.818939|
+|         489|  -12.034875|  -11.088952|  -11.631422|  -10.785931|
+|         490|  -12.017026|  -11.191269|  -11.647248|  -10.758666|
+|         491|  -12.003127|  -11.300880|  -11.664093|  -10.736674|
+|         492|  -11.992942|  -11.389013|  -11.681842|  -10.719529|
+|         493|  -11.986260|  -11.400421|  -11.700339|  -10.706836|
+|         494|  -11.982886|  -11.331388|  -11.719387|  -10.698228|
+|         495|  -11.982645|  -11.236860|  -11.738737|  -10.693367|
+|         496|  -11.985388|  -11.148565|  -11.758090|  -10.691953|
+|         497|  -11.990991|  -11.073511|  -11.777096|  -10.693724|
+|         498|  -11.999365|  -11.011130|  -11.795369|  -10.698464|
+|         499|  -12.010450|  -10.959498|  -11.812498|  -10.705995|
+|         500|  -12.024222|  -10.916811|  -11.828082|  -10.716176|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1491.26 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         501|  -12.040690|  -10.881625|  -11.841765|  -10.728908|
+|         502|  -12.059905|  -10.852822|  -11.853271|  -10.744142|
+|         503|  -12.081964|  -10.829541|  -11.862444|  -10.761884|
+|         504|  -12.107018|  -10.811108|  -11.869261|  -10.782213|
+|         505|  -12.135274|  -10.796993|  -11.873841|  -10.805281|
+|         506|  -12.167004|  -10.786773|  -11.876420|  -10.831314|
+|         507|  -12.202542|  -10.780113|  -11.877328|  -10.860603|
+|         508|  -12.242290|  -10.776743|  -11.876942|  -10.893505|
+|         509|  -12.286710|  -10.776451|  -11.875663|  -10.930432|
+|         510|  -12.336308|  -10.779078|  -11.873878|  -10.971852|
+|         511|  -12.391581|  -10.784505|  -11.871950|  -11.018289|
+|         512|  -12.452856|  -10.792654|  -11.870203|  -11.070311|
+|         513|  -12.519890|  -10.803480|  -11.868911|  -11.128475|
+|         514|  -12.590913|  -10.816972|  -11.868280|  -11.193170|
+|         515|  -12.660682|  -10.833143|  -11.868395|  -11.264217|
+|         516|  -12.717992|  -10.852037|  -11.869110|  -11.339921|
+|         517|  -12.747173|  -10.873744|  -11.869996|  -11.415078|
+|         518|  -12.739582|  -10.898438|  -11.870701|  -11.477736|
+|         519|  -12.702867|  -10.926414|  -11.871684|  -11.508782|
+|         520|  -12.652024|  -10.958089|  -11.874024|  -11.495312|
+|         521|  -12.598234|  -10.993980|  -11.878352|  -11.446739|
+|         522|  -12.547162|  -11.034691|  -11.884692|  -11.383537|
+|         523|  -12.501040|  -11.080937|  -11.892865|  -11.319824|
+|         524|  -12.460451|  -11.133606|  -11.902680|  -11.261535|
+|         525|  -12.425303|  -11.193842|  -11.913965|  -11.210324|
+|         526|  -12.395274|  -11.263131|  -11.926590|  -11.166221|
+|         527|  -12.370003|  -11.343319|  -11.940460|  -11.128769|
+|         528|  -12.349158|  -11.436255|  -11.955497|  -11.097430|
+|         529|  -12.332447|  -11.541798|  -11.971621|  -11.071695|
+|         530|  -12.319618|  -11.649835|  -11.988735|  -11.051109|
+|         531|  -12.310440|  -11.721785|  -12.006713|  -11.035254|
+|         532|  -12.304709|  -11.706630|  -12.025389|  -11.023746|
+|         533|  -12.302233|  -11.624990|  -12.044551|  -11.016223|
+|         534|  -12.302846|  -11.530509|  -12.063936|  -11.012359|
+|         535|  -12.306405|  -11.445771|  -12.083230|  -11.011863|
+|         536|  -12.312796|  -11.374458|  -12.102071|  -11.014488|
+|         537|  -12.321937|  -11.315307|  -12.120064|  -11.020028|
+|         538|  -12.333779|  -11.266364|  -12.136798|  -11.028316|
+|         539|  -12.348307|  -11.225921|  -12.151880|  -11.039222|
+|         540|  -12.365542|  -11.192634|  -12.164973|  -11.052661|
+|         541|  -12.385547|  -11.165464|  -12.175831|  -11.068597|
+|         542|  -12.408432|  -11.143609|  -12.184335|  -11.087057|
+|         543|  -12.434365|  -11.126440|  -12.190502|  -11.108140|
+|         544|  -12.463571|  -11.113460|  -12.194487|  -11.132019|
+|         545|  -12.496339|  -11.104273|  -12.196557|  -11.158938|
+|         546|  -12.533021|  -11.098563|  -12.197058|  -11.189210|
+|         547|  -12.574038|  -11.096078|  -12.196379|  -11.223205|
+|         548|  -12.619867|  -11.096623|  -12.194917|  -11.261351|
+|         549|  -12.671020|  -11.100048|  -12.193055|  -11.304134|
+|         550|  -12.727968|  -11.106247|  -12.191146|  -11.352090|
+|         551|  -12.790934|  -11.115153|  -12.189501|  -11.405794|
+|         552|  -12.859378|  -11.126730|  -12.188378|  -11.465777|
+|         553|  -12.930797|  -11.140974|  -12.187956|  -11.532325|
+|         554|  -12.998481|  -11.157907|  -12.188267|  -11.604962|
+|         555|  -13.049436|  -11.177583|  -12.189083|  -11.681266|
+|         556|  -13.068440|  -11.200111|  -12.189932|  -11.754481|
+|         557|  -13.051256|  -11.225695|  -12.190623|  -11.810295|
+|         558|  -13.009084|  -11.254667|  -12.191883|  -11.829255|
+|         559|  -12.956545|  -11.287476|  -12.194753|  -11.804015|
+|         560|  -12.903139|  -11.324662|  -12.199661|  -11.749338|
+|         561|  -12.853335|  -11.366856|  -12.206538|  -11.684983|
+|         562|  -12.808757|  -11.414814|  -12.215194|  -11.622455|
+|         563|  -12.769728|  -11.469489|  -12.225439|  -11.566098|
+|         564|  -12.736060|  -11.532112|  -12.237114|  -11.516922|
+|         565|  -12.707409|  -11.604275|  -12.250098|  -11.474748|
+|         566|  -12.683418|  -11.687895|  -12.264305|  -11.439073|
+|         567|  -12.663766|  -11.784598|  -12.279657|  -11.409361|
+|         568|  -12.648174|  -11.892691|  -12.296072|  -11.385121|
+|         569|  -12.636396|  -11.996120|  -12.313445|  -11.365908|
+|         570|  -12.628209|  -12.046967|  -12.331639|  -11.351315|
+|         571|  -12.623413|  -12.007373|  -12.350476|  -11.340963|
+|         572|  -12.621824|  -11.917828|  -12.369730|  -11.334501|
+|         573|  -12.623280|  -11.825028|  -12.389123|  -11.331613|
+|         574|  -12.627646|  -11.744059|  -12.408329|  -11.332019|
+|         575|  -12.634819|  -11.676367|  -12.426973|  -11.335483|
+|         576|  -12.644724|  -11.620286|  -12.444653|  -11.341811|
+|         577|  -12.657324|  -11.573895|  -12.460959|  -11.350847|
+|         578|  -12.672610|  -11.535591|  -12.475512|  -11.362474|
+|         579|  -12.690617|  -11.504121|  -12.487994|  -11.376617|
+|         580|  -12.711421|  -11.478521|  -12.498194|  -11.393259|
+|         581|  -12.735146|  -11.458044|  -12.506031|  -11.412445|
+|         582|  -12.761976|  -11.442100|  -12.511561|  -11.434296|
+|         583|  -12.792154|  -11.430225|  -12.514975|  -11.459005|
+|         584|  -12.825987|  -11.422047|  -12.516564|  -11.486837|
+|         585|  -12.863847|  -11.417268|  -12.516691|  -11.518119|
+|         586|  -12.906171|  -11.415654|  -12.515750|  -11.553240|
+|         587|  -12.953449|  -11.417023|  -12.514138|  -11.592643|
+|         588|  -13.006194|  -11.421239|  -12.512228|  -11.636829|
+|         589|  -13.064836|  -11.428206|  -12.510364|  -11.686349|
+|         590|  -13.129457|  -11.437867|  -12.508842|  -11.741775|
+|         591|  -13.199124|  -11.450195|  -12.507903|  -11.803601|
+|         592|  -13.270421|  -11.465194|  -12.507694|  -11.871969|
+|         593|  -13.334970|  -11.482893|  -12.508184|  -11.946016|
+|         594|  -13.378259|  -11.503358|  -12.509060|  -12.022403|
+|         595|  -13.386713|  -11.526722|  -12.509850|  -12.092539|
+|         596|  -13.360930|  -11.553223|  -12.510592|  -12.139839|
+|         597|  -13.314518|  -11.583227|  -12.512218|  -12.146039|
+|         598|  -13.261032|  -11.617212|  -12.515650|  -12.110358|
+|         599|  -13.208351|  -11.655742|  -12.521130|  -12.051230|
+|         600|  -13.159933|  -11.699478|  -12.528528|  -11.986616|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1287.37 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         601|  -13.116920|  -11.749224|  -12.537651|  -11.925591|
+|         602|  -13.079432|  -11.806001|  -12.548313|  -11.871234|
+|         603|  -13.047216|  -11.871136|  -12.560368|  -11.824073|
+|         604|  -13.019913|  -11.946327|  -12.573705|  -11.783785|
+|         605|  -12.997176|  -12.033521|  -12.588243|  -11.749843|
+|         606|  -12.978695|  -12.133915|  -12.603904|  -11.721721|
+|         607|  -12.964201|  -12.243438|  -12.620601|  -11.698940|
+|         608|  -12.953457|  -12.338273|  -12.638220|  -11.681068|
+|         609|  -12.946246|  -12.364210|  -12.656616|  -11.667707|
+|         610|  -12.942371|  -12.304227|  -12.675596|  -11.658485|
+|         611|  -12.941655|  -12.210628|  -12.694920|  -11.653061|
+|         612|  -12.943943|  -12.120553|  -12.714296|  -11.651127|
+|         613|  -12.949110|  -12.043414|  -12.733383|  -11.652416|
+|         614|  -12.957058|  -11.979196|  -12.751797|  -11.656705|
+|         615|  -12.967726|  -11.926030|  -12.769130|  -11.663810|
+|         616|  -12.981082|  -11.882064|  -12.784979|  -11.673587|
+|         617|  -12.997130|  -11.845799|  -12.798976|  -11.685928|
+|         618|  -13.015915|  -11.816070|  -12.810831|  -11.700774|
+|         619|  -13.037527|  -11.791982|  -12.820367|  -11.718126|
+|         620|  -13.062107|  -11.772836|  -12.827541|  -11.738049|
+|         621|  -13.089854|  -11.758082|  -12.832450|  -11.760683|
+|         622|  -13.121029|  -11.747282|  -12.835316|  -11.786243|
+|         623|  -13.155956|  -11.740089|  -12.836454|  -11.815011|
+|         624|  -13.195028|  -11.736223|  -12.836239|  -11.847335|
+|         625|  -13.238697|  -11.735467|  -12.835069|  -11.883616|
+|         626|  -13.287466|  -11.737650|  -12.833336|  -11.924315|
+|         627|  -13.341837|  -11.742649|  -12.831406|  -11.969947|
+|         628|  -13.402183|  -11.750380|  -12.829610|  -12.021075|
+|         629|  -13.468392|  -11.760794|  -12.828231|  -12.078264|
+|         630|  -13.539027|  -11.773874|  -12.827489|  -12.141947|
+|         631|  -13.609550|  -11.789629|  -12.827490|  -12.212074|
+|         632|  -13.669770|  -11.808099|  -12.828134|  -12.287282|
+|         633|  -13.704209|  -11.829365|  -12.829029|  -12.363094|
+|         634|  -13.702173|  -11.853583|  -12.829758|  -12.428806|
+|         635|  -13.668978|  -11.881030|  -12.830632|  -12.465987|
+|         636|  -13.619431|  -11.912104|  -12.832702|  -12.459349|
+|         637|  -13.565611|  -11.947309|  -12.836712|  -12.414858|
+|         638|  -13.513915|  -11.987235|  -12.842752|  -12.352748|
+|         639|  -13.466967|  -12.032576|  -12.850656|  -12.288568|
+|         640|  -13.425523|  -12.084190|  -12.860230|  -12.229269|
+|         641|  -13.389555|  -12.143173|  -12.871298|  -12.176943|
+|         642|  -13.358761|  -12.210955|  -12.883724|  -12.131767|
+|         643|  -13.332779|  -12.289333|  -12.897408|  -12.093323|
+|         644|  -13.311271|  -12.380218|  -12.912270|  -12.061073|
+|         645|  -13.293940|  -12.484062|  -12.928233|  -12.034502|
+|         646|  -13.280526|  -12.593283|  -12.945202|  -12.013147|
+|         647|  -13.270798|  -12.674733|  -12.963058|  -11.996585|
+|         648|  -13.264547|  -12.674005|  -12.981639|  -11.984427|
+|         649|  -13.261579|  -12.598635|  -13.000743|  -11.976309|
+|         650|  -13.261724|  -12.503877|  -13.020113|  -11.971897|
+|         651|  -13.264835|  -12.417150|  -13.039445|  -11.970896|
+|         652|  -13.270794|  -12.343801|  -13.058382|  -11.973052|
+|         653|  -13.279514|  -12.282900|  -13.076533|  -11.978152|
+|         654|  -13.290941|  -12.232501|  -13.093488|  -11.986023|
+|         655|  -13.305054|  -12.190842|  -13.108849|  -11.996531|
+|         656|  -13.321868|  -12.156523|  -13.122267|  -12.009582|
+|         657|  -13.341439|  -12.128466|  -13.133481|  -12.025132|
+|         658|  -13.363870|  -12.105834|  -13.142349|  -12.043199|
+|         659|  -13.389320|  -12.087976|  -13.148869|  -12.063868|
+|         660|  -13.418004|  -12.074376|  -13.153175|  -12.087303|
+|         661|  -13.450201|  -12.064625|  -13.155518|  -12.113736|
+|         662|  -13.486255|  -12.058395|  -13.156235|  -12.143469|
+|         663|  -13.526574|  -12.055426|  -13.155711|  -12.176865|
+|         664|  -13.571629|  -12.055513|  -13.154343|  -12.214343|
+|         665|  -13.621928|  -12.058500|  -13.152518|  -12.256378|
+|         666|  -13.677958|  -12.064277|  -13.150595|  -12.303502|
+|         667|  -13.740004|  -12.072767|  -13.148890|  -12.356284|
+|         668|  -13.807697|  -12.083933|  -13.147672|  -12.415271|
+|         669|  -13.878956|  -12.097765|  -13.147135|  -12.480811|
+|         670|  -13.947901|  -12.114281|  -13.147340|  -12.552598|
+|         671|  -14.002497|  -12.133528|  -13.148106|  -12.628631|
+
+----------------------------- Solver Exit -------------------------------
+All convergence criteria satisfied.
++-----------------------------------------------------------------------+
+|      Convergence Field     |     Value    |   Criterion  |  Converged |
++-----------------------------------------------------------------------+
+|                      rms[P]|      -14.0025|         < -14|         Yes|
++-----------------------------------------------------------------------+
+-------------------------------------------------------------------------
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1444.73 MB/s)|
++-----------------------------------------------------------------------+
+
+--------------------------- Finalizing Solver ---------------------------
+Deleted CNumerics container.
+Deleted CIntegration container.
+Deleted CSolver container.
+Deleted CIteration container.
+Deleted CInterface container.
+Deleted CGeometry container.
+Deleted CFreeFormDefBox class.
+Deleted CSurfaceMovement class.
+Deleted CVolumetricMovement class.
+Deleted CConfig container.
+Deleted nInst container.
+Deleted COutput class.
+-------------------------------------------------------------------------
+
+
+-------------------------- Performance Summary --------------------------
+Simulation totals:
+   Wall-clock time (hrs):      0.1808 |            Core-hrs:      0.1808
+                   Cores:           1 |          DOFs/point:           7
+             Points/core:       75396 |   Ghost points/core:           0
+ Ghost/Owned Point Ratio:           0 | 
+
+Preprocessing phase:
+       Preproc. Time (s):       8.508 |   Preproc. Time (%):     1.30716
+
+Compute phase:
+        Compute Time (s):     641.171 |    Compute Time (%):     98.5085
+         Iteration count:         672 |         Avg. s/iter:    0.954124
+     Core-s/iter/Mpoints:     12.6548 |           Mpoints/s:   0.0790212
+
+Output phase:
+         Output Time (s):         1.2 |     Output Time (%):    0.184366
+            Output count:           1 |       Avg. s/output:         1.2
+-------------------------------------------------------------------------
+
+
+------------------------- Exit Success (SU2_CFD) ------------------------
+

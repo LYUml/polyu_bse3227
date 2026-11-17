@@ -1,0 +1,50 @@
+import json,copy,math,hashlib
+from pathlib import Path
+import ifcopenshell
+from ifcopenshell.util import system,placement
+from fluids.friction import friction_factor
+from bsa.duct_chain_analysis import boundary_paths
+from bsa.source_pressure_ledger import calculate as audit
+from bsa.circular_native import straight_wall
+from bsa.round_bend_quantities import calculate as bend
+from bsa.round_reducer_quantities import calculate as reducer
+from bsa.duct_fitting_chain import value
+B=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs');R=B/'logical-equipment-network';O=R/'pressure-reviewed';O.mkdir(exist_ok=False);path=R/'Supply Air Logical Network.ifc';m=ifcopenshell.open(str(path));sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();flow=json.loads((R/'flow-review.json').read_text());assert flow['ifc_sha256']==sha(path);parent=B/'equal-cross-compound-core-candidate';oldmodel=ifcopenshell.open(str(parent/'Supply Network.ifc'));mainids={o.GlobalId for o in oldmodel.by_type('IfcDistributionElement')}
+for g in mainids:assert value(m.by_guid(g).Representation)==value(oldmodel.by_guid(g).Representation) and __import__('numpy').array_equal(placement.get_local_placement(m.by_guid(g).ObjectPlacement),placement.get_local_placement(oldmodel.by_guid(g).ObjectPlacement))
+integration=json.loads((R/'integration.json').read_text());logical={(r['source_port'],r['sink_port']) for r in integration['logical_interfaces']};prefix=json.loads((B/'round-reducer-loss-review/review.json').read_text());oldreducer={ (r['product_guid'],r['condition']):r for r in prefix['records']};summary={};allrows=[]
+for condition in ['maximum','minimum']:
+ folder=O/condition;folder.mkdir();case=copy.deepcopy(json.loads((parent/'pressure-reviewed'/condition/'analysis.json').read_text()));data=copy.deepcopy(json.loads((parent/'pressure-reviewed'/condition/'fitting-data.json').read_text()));tables=data['table_results'];oldrequests={tuple(r[k] for k in ['product_guid','inlet_port_guid','outlet_port_guid']):r for r in data['data_requests']};rho=case['air']['density_kg_m3'];expected=flow['cases'][condition]['port_flows'];assert all(math.isclose(r['flow_m3_s'],expected[g]['flow_m3_s'],rel_tol=1e-12) for g,r in case['port_flows'].items())
+ for obj in m.by_type('IfcDistributionElement'):
+  if obj.GlobalId in mainids:continue
+  owned=system.get_ports(obj);ins=[p for p in owned if p.FlowDirection=='SINK'];outs=[p for p in owned if p.FlowDirection=='SOURCE'];assert len(ins)==1;Q=expected[ins[0].GlobalId]['flow_m3_s'];assert math.isclose(Q,math.fsum(expected[p.GlobalId]['flow_m3_s'] for p in outs),rel_tol=1e-12);dimensions={};native=None
+  if obj.is_a('IfcDuctSegment'):
+   native=straight_wall(obj);dimensions={p.GlobalId:native['inner_m'] for p in owned};D=native['inner_m'];L=native['length_m'];v=Q/(math.pi*D*D/4);Re=rho*v*D/case['air']['viscosity_Pa_s'];f=friction_factor(Re=Re,eD=case['air']['roughness_m']/D);case['straight_sections'].append(dict(guid=obj.GlobalId,source_section=expected[ins[0].GlobalId]['source_section'],section_type='circular',length_m=L,diameter_m=D,flow_m3_s=Q,straight_friction_Pa=f*L/D*rho*v*v/2,calculation=dict(Re=Re,Darcy_factor=f,velocity_m_s=v),construction_basis='Assumed smooth rigid-equivalent branch,not installed corrugated flex'))
+  elif obj.is_a('IfcDuctFitting') and obj.PredefinedType=='BEND':
+   native=bend(obj);dimensions={p.GlobalId:native['inner_m'] for p in owned}
+  elif obj.is_a('IfcDuctFitting') and obj.PredefinedType=='TRANSITION':
+   native=reducer(obj,Q,rho);dimensions={ins[0].GlobalId:native['inlet_diameter_m'],outs[0].GlobalId:native['outlet_diameter_m']}
+  else:assert obj.is_a('IfcAirTerminalBox') or (obj.is_a('IfcDuctFitting') and obj.PredefinedType=='JUNCTION')
+  for p in owned:
+   q=expected[p.GlobalId]['flow_m3_s'];D=dimensions.get(p.GlobalId);area=None if D is None else math.pi*D*D/4;v=None if D is None else q/area;case['port_flows'][p.GlobalId]=dict(**expected[p.GlobalId],owner_guid=obj.GlobalId,direction=p.FlowDirection,section_type='equipment_internal_unknown' if D is None else 'circular',diameter_m=D,actual_area_m2=area,actual_velocity_m_s=v,actual_velocity_pressure_Pa=None if v is None else rho*v*v/2)
+  case['products'].append(dict(guid=obj.GlobalId,ifc_class=obj.is_a(),incoming_flow_m3_s=Q,outgoing_flow_m3_s=Q,continuity_pass=True,native_geometry=native,internal_area_unknown=not bool(dimensions)))
+  if obj.is_a('IfcDuctSegment'):continue
+  for out in outs:
+   case['missing_fitting_path_losses'].append(dict(product_guid=obj.GlobalId,ifc_class=obj.is_a(),predefined_type=obj.PredefinedType,inlet_port_guid=ins[0].GlobalId,outlet_port_guid=out.GlobalId,coefficient=None,required_basis=['Applicable sourced device/fitting loss and reference velocity','Actual equipment/plenum area and total-loss curve;minimum static is not total pressure','Bend/product/station/body-friction/interaction/installation correspondence']))
+  if obj.is_a('IfcDuctFitting') and obj.PredefinedType=='TRANSITION':
+   old=oldreducer[(obj.GlobalId,condition)];assert math.isclose(Q,old['flow_m3_s'],rel_tol=1e-12);vp=float(native['inlet_velocity_pressure_Pa']);loss=.1125*vp;assert math.isclose(loss,old['conditional_reducer_loss_Pa'],rel_tol=1e-12);tables.append(dict(product_guid=obj.GlobalId,inlet_port_guid=ins[0].GlobalId,outlet_port_guid=outs[0].GlobalId,status='calculated',coefficient=.1125,reference_port_guid=ins[0].GlobalId,reference_velocity_pressure_Pa=vp,signed_tabulated_contribution_Pa=loss,source_id='ashrae2021-4-1',citation_location='Printed19Fitting4-1 large inlet Ao/Vo contraction;exact unchanged80reducer native bodies andsource flows',source_document_sha256=prefix['source_document_sha256'],physical_applicability_verified=False))
+ case['interfaces']=[];connected=set()
+ for r in m.by_type('IfcRelConnectsPorts'):
+  a,b=r.RelatingPort.GlobalId,r.RelatedPort.GlobalId;qa,qb=[case['port_flows'][g]['flow_m3_s'] for g in [a,b]];assert math.isclose(qa,qb,rel_tol=1e-12);case['interfaces'].append(dict(source_port=a,sink_port=b,flow_m3_s=qa,continuity_pass=True,interface_basis='logical_equipment_connection' if (a,b) in logical else 'inherited_saved_connection',physical_cap_verified=False if (a,b) in logical else None));connected.update([a,b])
+ case['boundary_ports']=[g for g in case['port_flows'] if g not in connected];case['boundary_paths']=boundary_paths(case['port_flows'],case['products'],case['interfaces'],case['straight_sections'],case['missing_fitting_path_losses'],case['boundary_ports']);assert (len(case['products']),len(case['port_flows']),len(case['straight_sections']),len(case['missing_fitting_path_losses']),len(case['boundary_paths']))==(604,1287,225,458,80);case['source_ifc_sha256']=sha(path);case['straight_friction_subtotal_Pa']=math.fsum(r['straight_friction_Pa'] for r in case['straight_sections']);case['scope']='One logical supply tree to80terminal connection planes;unknown device areas remain null,225straight spans include assumed rigid-equivalent downstream geometry. Not physical airway or fan duty.'
+ keys=['product_guid','inlet_port_guid','outlet_port_guid'];key=lambda r:tuple(r[k] for k in keys);bytable={key(r):r for r in tables};requests=[]
+ for missing in case['missing_fitting_path_losses']:
+  k=key(missing);request=copy.deepcopy(oldrequests[k]) if k in oldrequests else dict(**{x:missing[x] for x in keys},predefined_type=missing['predefined_type'],required_evidence=missing['required_basis']);result=bytable.get(k);affected=[p['outlet_port_guid'] for p in case['boundary_paths'] if any(s['kind']=='fitting' and key(s)==k for s in p['steps'])];assert affected;request.update(recorded_table_result=result,status='conditional_numeric_value' if result else 'source_data_required',affected_outlet_port_guids=affected);requests.append(request)
+ data['data_requests']=requests;data['table_results']=tables;data['boundary_paths']=[]
+ for p in case['boundary_paths']:
+  values=[bytable.get(key(s),{}).get('signed_tabulated_contribution_Pa') for s in p['steps'] if s['kind']=='fitting'];n=sum(v is None for v in values);assert n==5;subtotal=math.fsum(v for v in values if v is not None);data['boundary_paths'].append(dict(inlet_port_guid=p['inlet_port_guid'],outlet_port_guid=p['outlet_port_guid'],known_straight_friction_Pa=p['known_straight_friction_Pa'],supplied_table_contribution_Pa=subtotal,unresolved_fitting_path_count=n,tabulated_plus_separate_straight_Pa=None,complete_total_pressure_drop_Pa=None))
+ data.update(unique_fitting_paths=458,calculated_table_paths=194,unsupplied_table_paths=264,source_analysis=str(folder),scope=case['scope']);ledger=audit(case,data);assert ledger['conditional_numerical_path_count']==194 and ledger['numerically_unresolved_fitting_path_count']==264 and ledger['critical_path'] is None and ledger['fan_duty_Pa'] is None
+ for filename,obj in [('analysis.json',case),('fitting-data.json',data),('pressure-ledger.json',ledger)]:(folder/filename).write_text(json.dumps(obj,indent=2))
+ for p in ledger['outlet_paths']:allrows.append(dict(condition=condition,terminal=expected[p['outlet_port_guid']]['source_section'],terminal_port_guid=p['outlet_port_guid'],flow_m3_s=expected[p['outlet_port_guid']]['flow_m3_s'],rigid_proxy_straight_subtotal_Pa=p['known_straight_friction_Pa'],conditional_dynamic_subtotal_Pa=p['conditional_signed_table_subtotal_Pa'],unresolved_component_paths=len(p['numerically_unresolved_fitting_paths']),complete_pressure_Pa=None))
+ summary[condition]=dict(inlet_m3_s=flow['cases'][condition]['inlet_m3_s'],ports=1287,interfaces=603,products=604,straight_spans=225,directed_component_paths=458,conditional_values=194,numerical_gaps=264,outlet_paths=80,per_outlet_numerical_gaps=5,device_clear_area_unknown_ports=140)
+(O/'review.json').write_text(json.dumps(dict(ifc_sha256=sha(path),cases=summary,outlet_rows=allrows,source_main_ifc_sha256=sha(parent/'Supply Network.ifc'),logical_only_equipment_interfaces=120,physical_airway_continuity_verified=False,complete_pressure_verified=False,design_accepted=False),indent=2));print(json.dumps(summary))
+

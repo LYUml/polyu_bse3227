@@ -1,0 +1,5 @@
+import json,hashlib
+from pathlib import Path
+import ezdxf
+from bsa.duct_sheet_native import run
+R=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/logical-equipment-network/drawing');p=R/'Supply Air Logical Network.dxf';doc=ezdxf.readfile(p);s=json.loads((R/'sheet.json').read_text());ref=next(e for e in doc.modelspace() if e.dxftype()=='LINE' and e.dxf.layer=='BSA_SECTION_REFERENCE');spec=dict(source_sha256=hashlib.sha256(p.read_bytes()).hexdigest(),layers=sorted({e.dxf.layer for e in doc.modelspace()}),sheet={k:s[k] for k in ['source','window_drawing_units','scale_denominator','pdf_tolerance_mm']});spec['sheet']['reference_handle']=ref.dxf.handle;(R/'settings.json').write_text(json.dumps(spec,indent=2));n=run(p,R/'settings.json',R/'native','C:/Program Files/Autodesk/AutoCAD 2027/accoreconsole.exe');projection=json.loads((R/'projection.json').read_text());projection['native_reopen_pass']=n['native_reopen_pass'];(R/'projection.json').write_text(json.dumps(projection,indent=2));print('Logical network DWG actually saved/reopened and plotted')

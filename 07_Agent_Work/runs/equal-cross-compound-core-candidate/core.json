@@ -1,0 +1,76 @@
+{
+  "project_uuid": "68c4a631-eb13-5519-8e39-7ff84fe7dee7",
+  "source": "Separate candidate: constant1350x900mm trunk; branch clear height900mm; 50mm lower-end/lateral-stub guards; existing37.5mmupper-cap clearance,45degree transitions and50mm collars are assumptions. Preserve original upper inlet and branch axes. No product, coefficient, interaction or integrated network approval.",
+  "classification": "assumed",
+  "placement": {
+    "source": "Original source XY and explicit study elevation",
+    "origin_m": [
+      86.5,
+      35.58058400000001,
+      0.0
+    ],
+    "rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "wall_thickness_m": 0.0008,
+  "stations": [
+    {
+      "y_m": -0.35,
+      "width_m": 1.35,
+      "height_m": 0.9
+    },
+    {
+      "y_m": 0.9069159999999883,
+      "width_m": 1.35,
+      "height_m": 0.9
+    }
+  ],
+  "branches": [
+    {
+      "id": "D-22",
+      "y_m": 0.619415999999994,
+      "side": 1,
+      "width_m": 0.5,
+      "height_m": 0.9,
+      "reach_m": 0.725
+    },
+    {
+      "id": "D-02",
+      "y_m": 0.0,
+      "side": -1,
+      "width_m": 0.6,
+      "height_m": 0.9,
+      "reach_m": 0.725
+    },
+    {
+      "id": "D-05",
+      "y_m": 0.0,
+      "side": 1,
+      "width_m": 0.6,
+      "height_m": 0.9,
+      "reach_m": 0.725
+    }
+  ],
+  "port_directions": {
+    "lower": "SOURCE",
+    "upper": "SINK",
+    "D-22": "SOURCE",
+    "D-02": "SOURCE",
+    "D-05": "SOURCE"
+  }
+}

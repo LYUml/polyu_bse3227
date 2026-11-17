@@ -1,0 +1,48 @@
+{
+  "rule_pack": "hk-flex-length-2026.11.10",
+  "jurisdiction": "HK",
+  "checks": [
+    {
+      "id": "HK.FSD.MV2023.7.2.flex_length",
+      "status": "pending",
+      "scope": "Maximum installed flexible-duct length across the explicitly complete connection inventory; ordinary limit only, no Director-approved extension path",
+      "source_url": "https://www.hkfsd.gov.hk/eng/source/licensing/MECHANICAL_VS_EN_2_2023.pdf",
+      "source_sha256": "950c83c826b18d2c1daf9e959698a82f1d20299ad6456f274c7e099d5d897635",
+      "edition": "Circular 2/2023",
+      "clause": "7.2",
+      "pdf_page_1_based": 14,
+      "reasons": [
+        "edition applicability decision missing or mismatched",
+        "missing sourced applicability fact: mechanical_ventilating_system_scope_confirmed",
+        "missing sourced applicability fact: complete_flexible_connection_inventory",
+        "missing sourced applicability fact: actual_installed_lengths_verified",
+        "missing or invalid sourced metric/unit: maximum_complete_connection_length"
+      ]
+    }
+  ],
+  "supported_checks_pass": false,
+  "coverage": {
+    "complete": false,
+    "implemented": [
+      "Clause 7.2 ordinary flexible connection length maximum only"
+    ],
+    "pending": [
+      "Project legal/edition/amendment scope",
+      "Clause 7.1 tested product",
+      "Clauses 7.3 and 7.4 main-duct and fire-boundary/damper restrictions",
+      "Director-approved extension path",
+      "Geometry/installed-length evidence authentication",
+      "Remaining mechanical ventilation and fire requirements"
+    ]
+  },
+  "regulatory_compliance": "not_established",
+  "design_accepted": false,
+  "scope": "Selected sourced checks only; applicability assertions remain project evidence, not an independent legal determination",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-pack.json": "3213a62c41b4b3cd6c232096dd200fbb8dc9cfed67255dd7d634093dc95693b9",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-project.json": "8620d58b6debb35d63a3dbacfdb6932085bc6109140191ffde52a0c161ed2b0d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-regulation-review\\FSD_Mechanical_Ventilating_Systems_2023.pdf": "950c83c826b18d2c1daf9e959698a82f1d20299ad6456f274c7e099d5d897635"
+  },
+  "inputs_unchanged": true,
+  "missing_sources": []
+}

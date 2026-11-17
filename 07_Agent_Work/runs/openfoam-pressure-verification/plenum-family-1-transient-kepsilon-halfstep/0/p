@@ -1,0 +1,8 @@
+FoamFile {format ascii;class volScalarField;object p;}
+dimensions [0 2 -2 0 0 0 0];internalField uniform 0;boundaryField {air_wall {type zeroGradient;}
+air_inlet {type fixedFluxPressure;value uniform 0;}
+air_outlet_0 {type fixedFluxPressure;value uniform 0;}
+air_outlet_1 {type fixedFluxPressure;value uniform 0;}
+air_outlet_2 {type fixedFluxPressure;value uniform 0;}
+air_outlet_3 {type fixedFluxPressure;value uniform 0;}
+}

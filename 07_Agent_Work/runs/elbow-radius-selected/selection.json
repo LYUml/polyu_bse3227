@@ -1,0 +1,1463 @@
+{
+  "status": "candidate_selected",
+  "screening": [
+    {
+      "node": "CORRIDOR-A",
+      "id": "original",
+      "radius_m": 2.0250000000000004,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "CORRIDOR-A",
+      "id": "width-radius",
+      "radius_m": 1.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "CORRIDOR-A",
+      "id": "compact-radius",
+      "radius_m": 1.0125000000000002,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "CORRIDOR-B",
+      "id": "original",
+      "radius_m": 2.0250000000000004,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "CORRIDOR-B",
+      "id": "width-radius",
+      "radius_m": 1.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "CORRIDOR-B",
+      "id": "compact-radius",
+      "radius_m": 1.0125000000000002,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-01",
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-01",
+      "id": "width-radius",
+      "radius_m": 0.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-01",
+      "id": "compact-radius",
+      "radius_m": 0.26249999999999996,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-06",
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-06",
+      "id": "width-radius",
+      "radius_m": 0.4,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-06",
+      "id": "compact-radius",
+      "radius_m": 0.30000000000000004,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-07",
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-07",
+      "id": "width-radius",
+      "radius_m": 0.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-07",
+      "id": "compact-radius",
+      "radius_m": 0.26249999999999996,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-12",
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-12",
+      "id": "width-radius",
+      "radius_m": 0.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-12",
+      "id": "compact-radius",
+      "radius_m": 0.26249999999999996,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-13",
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-13",
+      "id": "width-radius",
+      "radius_m": 0.4,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-13",
+      "id": "compact-radius",
+      "radius_m": 0.30000000000000004,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-18",
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-18",
+      "id": "width-radius",
+      "radius_m": 0.4,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-18",
+      "id": "compact-radius",
+      "radius_m": 0.30000000000000004,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-20",
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-20",
+      "id": "width-radius",
+      "radius_m": 0.4,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "TAP-VAV-20",
+      "id": "compact-radius",
+      "radius_m": 0.30000000000000004,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    },
+    {
+      "node": "UP-TURN",
+      "id": "original",
+      "radius_m": 0.75,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0,
+      "geometry_eligible": true
+    },
+    {
+      "node": "UP-TURN",
+      "id": "width-radius",
+      "radius_m": 0.5,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only",
+      "geometry_eligible": true
+    },
+    {
+      "node": "UP-TURN",
+      "id": "compact-radius",
+      "radius_m": 0.375,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence",
+      "geometry_eligible": true
+    }
+  ],
+  "selected": {
+    "CORRIDOR-A": {
+      "id": "width-radius",
+      "radius_m": 1.35,
+      "penalty": 1,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+    },
+    "CORRIDOR-B": {
+      "id": "compact-radius",
+      "radius_m": 1.0125000000000002,
+      "penalty": 2,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+    },
+    "TAP-VAV-01": {
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-06": {
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-07": {
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-12": {
+      "id": "original",
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-13": {
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-18": {
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "TAP-VAV-20": {
+      "id": "original",
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    },
+    "UP-TURN": {
+      "id": "original",
+      "radius_m": 0.75,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+      "penalty": 0
+    }
+  },
+  "selected_radii": {
+    "CORRIDOR-A": {
+      "radius_m": 1.35,
+      "classification": "design_target",
+      "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+    },
+    "CORRIDOR-B": {
+      "radius_m": 1.0125000000000002,
+      "classification": "design_target",
+      "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+    },
+    "TAP-VAV-01": {
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-06": {
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-07": {
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-12": {
+      "radius_m": 0.5249999999999999,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-13": {
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-18": {
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "TAP-VAV-20": {
+      "radius_m": 0.6000000000000001,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    },
+    "UP-TURN": {
+      "radius_m": 0.75,
+      "classification": "design_target",
+      "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction."
+    }
+  },
+  "objective": 3.0,
+  "versions": {
+    "scipy": "1.18.1",
+    "numpy": "2.5.4"
+  },
+  "policy": {
+    "basis": "Explicit alternative radius study on unchanged source centreline/section scenario; no product or regulatory recommendation",
+    "minimum_remainder_m": {
+      "value": 0.05,
+      "classification": "design_target",
+      "source": "Host-selected positive known-elbow-only remainder for geometric study; other fitting trims remain unknown"
+    },
+    "nodes": {
+      "CORRIDOR-A": [
+        {
+          "id": "original",
+          "radius_m": 2.0250000000000004,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 1.35,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 1.0125000000000002,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "CORRIDOR-B": [
+        {
+          "id": "original",
+          "radius_m": 2.0250000000000004,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 1.35,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 1.0125000000000002,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-01": [
+        {
+          "id": "original",
+          "radius_m": 0.5249999999999999,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.35,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.26249999999999996,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-06": [
+        {
+          "id": "original",
+          "radius_m": 0.6000000000000001,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.4,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.30000000000000004,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-07": [
+        {
+          "id": "original",
+          "radius_m": 0.5249999999999999,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.35,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.26249999999999996,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-12": [
+        {
+          "id": "original",
+          "radius_m": 0.5249999999999999,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.35,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.26249999999999996,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-13": [
+        {
+          "id": "original",
+          "radius_m": 0.6000000000000001,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.4,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.30000000000000004,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-18": [
+        {
+          "id": "original",
+          "radius_m": 0.6000000000000001,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.4,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.30000000000000004,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "TAP-VAV-20": [
+        {
+          "id": "original",
+          "radius_m": 0.6000000000000001,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.4,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.30000000000000004,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ],
+      "UP-TURN": [
+        {
+          "id": "original",
+          "radius_m": 0.75,
+          "classification": "design_target",
+          "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+          "penalty": 0
+        },
+        {
+          "id": "width-radius",
+          "radius_m": 0.5,
+          "penalty": 1,
+          "classification": "design_target",
+          "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+        },
+        {
+          "id": "compact-radius",
+          "radius_m": 0.375,
+          "penalty": 2,
+          "classification": "design_target",
+          "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+        }
+      ]
+    }
+  },
+  "design_accepted": false,
+  "scope": "Finite supplied geometric radius/known-elbow trim selection only; other fitting trims, products, installed scale, full pressure and complete design remain unresolved",
+  "solver_status": 0,
+  "source_budgets": [
+    {
+      "section": "A-01",
+      "source_centreline_m": 2.5,
+      "elbow_nodes": [
+        "CORRIDOR-A"
+      ]
+    },
+    {
+      "section": "A-02",
+      "source_centreline_m": 3.0,
+      "elbow_nodes": [
+        "CORRIDOR-A",
+        "CORRIDOR-B"
+      ]
+    },
+    {
+      "section": "A-03",
+      "source_centreline_m": 1.2999999999999972,
+      "elbow_nodes": [
+        "CORRIDOR-B"
+      ]
+    },
+    {
+      "section": "D-01",
+      "source_centreline_m": 0.619415999999994,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-02",
+      "source_centreline_m": 3.3740680000000083,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-03",
+      "source_centreline_m": 7.4399999999999835,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-04",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-13"
+      ]
+    },
+    {
+      "section": "D-05",
+      "source_centreline_m": 4.065931999999989,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-06",
+      "source_centreline_m": 7.439999999999998,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-07",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-18"
+      ]
+    },
+    {
+      "section": "D-08",
+      "source_centreline_m": 6.829999999999998,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-09",
+      "source_centreline_m": 3.3740680000000083,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-10",
+      "source_centreline_m": 7.4399999999999835,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-11",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-07"
+      ]
+    },
+    {
+      "section": "D-12",
+      "source_centreline_m": 4.065931999999989,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-13",
+      "source_centreline_m": 7.439999999999998,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-14",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-12"
+      ]
+    },
+    {
+      "section": "D-15",
+      "source_centreline_m": 6.8300000000000125,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-16",
+      "source_centreline_m": 3.3740680000000083,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-17",
+      "source_centreline_m": 7.4399999999999835,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-18",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-01"
+      ]
+    },
+    {
+      "section": "D-19",
+      "source_centreline_m": 4.065931999999989,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-20",
+      "source_centreline_m": 7.439999999999998,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-21",
+      "source_centreline_m": 7.440000000000012,
+      "elbow_nodes": [
+        "TAP-VAV-06"
+      ]
+    },
+    {
+      "section": "D-22",
+      "source_centreline_m": 12.198432499999996,
+      "elbow_nodes": [
+        "UP-TURN"
+      ]
+    },
+    {
+      "section": "D-23",
+      "source_centreline_m": 2.2605840000000015,
+      "elbow_nodes": [
+        "UP-TURN"
+      ]
+    },
+    {
+      "section": "D-24",
+      "source_centreline_m": 6.978333000000006,
+      "elbow_nodes": [
+        "TAP-VAV-20"
+      ]
+    },
+    {
+      "section": "D-25",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": [
+        "TAP-VAV-01"
+      ]
+    },
+    {
+      "section": "D-26",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-27",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-28",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-29",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-30",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": [
+        "TAP-VAV-06"
+      ]
+    },
+    {
+      "section": "D-31",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": [
+        "TAP-VAV-07"
+      ]
+    },
+    {
+      "section": "D-32",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-33",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-34",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-35",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-36",
+      "source_centreline_m": 2.3999999999999986,
+      "elbow_nodes": [
+        "TAP-VAV-12"
+      ]
+    },
+    {
+      "section": "D-37",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": [
+        "TAP-VAV-13"
+      ]
+    },
+    {
+      "section": "D-38",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-39",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-40",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-41",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-42",
+      "source_centreline_m": 2.4000000000000057,
+      "elbow_nodes": [
+        "TAP-VAV-18"
+      ]
+    },
+    {
+      "section": "D-43",
+      "source_centreline_m": 2.6999999999999957,
+      "elbow_nodes": []
+    },
+    {
+      "section": "D-44",
+      "source_centreline_m": 2.6999999999999957,
+      "elbow_nodes": [
+        "TAP-VAV-20"
+      ]
+    }
+  ],
+  "fit": {
+    "candidate_elbow_nodes": [
+      "CORRIDOR-A",
+      "CORRIDOR-B",
+      "TAP-VAV-01",
+      "TAP-VAV-06",
+      "TAP-VAV-07",
+      "TAP-VAV-12",
+      "TAP-VAV-13",
+      "TAP-VAV-18",
+      "TAP-VAV-20",
+      "UP-TURN"
+    ],
+    "authored_elbow_nodes": [
+      "CORRIDOR-A",
+      "CORRIDOR-B",
+      "TAP-VAV-01",
+      "TAP-VAV-06",
+      "TAP-VAV-07",
+      "TAP-VAV-12",
+      "TAP-VAV-13",
+      "TAP-VAV-18",
+      "TAP-VAV-20",
+      "UP-TURN"
+    ],
+    "blocked_elbow_nodes": {},
+    "source_section_budgets": [
+      {
+        "section": "A-01",
+        "source_centreline_m": 2.5,
+        "declared_elbow_trims_m": {
+          "CORRIDOR-A": 1.35
+        },
+        "remaining_after_declared_elbows_m": 1.15,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "A-02",
+        "source_centreline_m": 3.0,
+        "declared_elbow_trims_m": {
+          "CORRIDOR-A": 1.35,
+          "CORRIDOR-B": 1.0125000000000002
+        },
+        "remaining_after_declared_elbows_m": 0.6374999999999997,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "A-03",
+        "source_centreline_m": 1.2999999999999972,
+        "declared_elbow_trims_m": {
+          "CORRIDOR-B": 1.0125000000000002
+        },
+        "remaining_after_declared_elbows_m": 0.287499999999997,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-01",
+        "source_centreline_m": 0.619415999999994,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 0.619415999999994,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-02",
+        "source_centreline_m": 3.3740680000000083,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 3.3740680000000083,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-03",
+        "source_centreline_m": 7.4399999999999835,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.4399999999999835,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-04",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-13": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 6.840000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-05",
+        "source_centreline_m": 4.065931999999989,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 4.065931999999989,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-06",
+        "source_centreline_m": 7.439999999999998,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.439999999999998,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-07",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-18": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 6.840000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-08",
+        "source_centreline_m": 6.829999999999998,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 6.829999999999998,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-09",
+        "source_centreline_m": 3.3740680000000083,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 3.3740680000000083,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-10",
+        "source_centreline_m": 7.4399999999999835,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.4399999999999835,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-11",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-07": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 6.915000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-12",
+        "source_centreline_m": 4.065931999999989,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 4.065931999999989,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-13",
+        "source_centreline_m": 7.439999999999998,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.439999999999998,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-14",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-12": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 6.915000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-15",
+        "source_centreline_m": 6.8300000000000125,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 6.8300000000000125,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-16",
+        "source_centreline_m": 3.3740680000000083,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 3.3740680000000083,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-17",
+        "source_centreline_m": 7.4399999999999835,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.4399999999999835,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-18",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-01": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 6.915000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-19",
+        "source_centreline_m": 4.065931999999989,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 4.065931999999989,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-20",
+        "source_centreline_m": 7.439999999999998,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 7.439999999999998,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-21",
+        "source_centreline_m": 7.440000000000012,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-06": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 6.840000000000012,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-22",
+        "source_centreline_m": 12.198432499999996,
+        "declared_elbow_trims_m": {
+          "UP-TURN": 0.75
+        },
+        "remaining_after_declared_elbows_m": 11.448432499999996,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-23",
+        "source_centreline_m": 2.2605840000000015,
+        "declared_elbow_trims_m": {
+          "UP-TURN": 0.75
+        },
+        "remaining_after_declared_elbows_m": 1.5105840000000015,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-24",
+        "source_centreline_m": 6.978333000000006,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-20": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 6.378333000000007,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-25",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-01": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 1.8749999999999987,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-26",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-27",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-28",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-29",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-30",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-06": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 1.7999999999999985,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-31",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-07": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 1.8749999999999987,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-32",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-33",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-34",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-35",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.3999999999999986,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-36",
+        "source_centreline_m": 2.3999999999999986,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-12": 0.5249999999999999
+        },
+        "remaining_after_declared_elbows_m": 1.8749999999999987,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-37",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-13": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 1.8000000000000056,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-38",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.4000000000000057,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-39",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.4000000000000057,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-40",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.4000000000000057,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-41",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.4000000000000057,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-42",
+        "source_centreline_m": 2.4000000000000057,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-18": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 1.8000000000000056,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-43",
+        "source_centreline_m": 2.6999999999999957,
+        "declared_elbow_trims_m": {},
+        "remaining_after_declared_elbows_m": 2.6999999999999957,
+        "other_fitting_trims_known": false
+      },
+      {
+        "section": "D-44",
+        "source_centreline_m": 2.6999999999999957,
+        "declared_elbow_trims_m": {
+          "TAP-VAV-20": 0.6000000000000001
+        },
+        "remaining_after_declared_elbows_m": 2.0999999999999956,
+        "other_fitting_trims_known": false
+      }
+    ],
+    "all_declared_elbows_fit": true,
+    "remaining_nonelbow_junction_nodes": [
+      "J0",
+      "J1",
+      "J2",
+      "ROOT",
+      "TAP-VAV-02",
+      "TAP-VAV-03",
+      "TAP-VAV-04",
+      "TAP-VAV-05",
+      "TAP-VAV-08",
+      "TAP-VAV-09",
+      "TAP-VAV-10",
+      "TAP-VAV-11",
+      "TAP-VAV-14",
+      "TAP-VAV-15",
+      "TAP-VAV-16",
+      "TAP-VAV-17",
+      "TAP-VAV-19"
+    ],
+    "remaining_source_connection_nodes": [
+      {
+        "node": "J0",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "J1",
+        "requirement": "multi_branch_connection_required"
+      },
+      {
+        "node": "J2",
+        "requirement": "multi_branch_connection_required"
+      },
+      {
+        "node": "ROOT",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-02",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-03",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-04",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-05",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-08",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-09",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-10",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-11",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-14",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-15",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-16",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-17",
+        "requirement": "unequal_section_tee_required"
+      },
+      {
+        "node": "TAP-VAV-19",
+        "requirement": "unequal_section_tee_required"
+      }
+    ],
+    "full_fitting_trim_complete": false,
+    "design_accepted": false
+  },
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\workflow.json": "a9c4bf5a473c046be35195b83aa52be9be469887825a2e3d1ae62ebff5f23c19",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\elbow-radius-study\\basis.json": "f7fe19865de6205c8ace72739d148248498359bdd94218e384735d42f24122f8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\elbow-radius-study\\policy.json": "12818d0c91628582b80ab4e353800106b2676320e92db69f2cff2f7e9c30b3a8",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\.venv\\Lib\\site-packages\\scipy\\optimize\\_highspy\\_core.cp312-win_amd64.pyd": "e6beb8321a4905c9bd0ba0eec2dfa7e27d76a01ab7d0abeab81fcce9ae6732e1",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\.venv\\Lib\\site-packages\\scipy\\optimize\\_milp.py": "803785ebcc365d1c04967a267650953da01ed285ee8be1c7a66a9fe3dbf75c3c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\elbow_radius_selection.py": "dcc4de46c7dcc4eaee63aae5758e58b396ed7921d64fa711c0f86faddf7e794a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_elbow_backbone.py": "d84d102bf23369c74b1a3f87940f41b7618cf09925f26d079c613b1f3d929080",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\bim.py": "54e08f1c9cae300995f35e562880e3cd730cad514a1cf721d195bb5322767e85",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_geometry.py": "9d179958ae9f6f82c8ae9a73a29d37b9332db73422cbeb7ee98c21eec6116d8f",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_elbow.py": "6f37501817ba065fbf6a7bc2149a4dcc5c7a27fa25180a057cf73ce71a999539",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\circular_geometry.py": "b907345bd2904bf313b017cc1c7e1a07e403ff726bbb8a85e476ae538ea25cb9",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_backbone_ifc.py": "3ded22c622ae312c4ff8233267bbd6aeca70e348054eb4dbb0a0242fadcf8106",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_system_paths.py": "d90416163442a388c7680222ddffa042b6be583229510988d16fc810a27a0278",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_equivalent.py": "6c626b7090b16fc50e0ea921281a17028e5aebb48f16cc292cacca481257acd6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\duct-schedule\\results.json": "de862e26e829491cb0f99a3c9b84e1faa843b2fd0ac6567a497df359024ba7af",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_junction_review.py": "26ccbc444f33467f3b47f0a17ed25b7cf6bbb5c69898e6eb4db3372dce72a443",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\native-sheet\\reopened\\source-export.dxf": "69ff2aae177d20508dde987b073358a10510bb08c8f3b6020041cd73ae0d9c5f",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\sheet-binding.json": "1333708275c655c3537e0adfe4aa9649429b9f281309623ee5df9338249f8978",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-inputs\\ducts.json": "ff27a8fcd1e11376671baf80103a5a3339dddc5c686b74f4c1ada3b9abd4e229"
+  },
+  "source": {
+    "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+    "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow",
+    "native_task": "native-sheet",
+    "basis": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\elbow-radius-study\\basis.json",
+    "policy": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\elbow-radius-study\\policy.json",
+    "schedule": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\duct-schedule\\results.json"
+  },
+  "native_saved_checks": {
+    "body_count": 57,
+    "owned_ports": 114,
+    "actual_links": 20,
+    "coincident_opposed_linked_ports": true,
+    "native_geometry_pass": true,
+    "complete_network": false
+  },
+  "artifacts": {
+    "junction.json": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+    "selected-radii.json": "2df2387ca52909a7bb560414b630ad2757cb93c99afb944b27a4d648c9d8b7d0",
+    "native/elbow-backbone.json": "cad0cf402c4067b51907ffbc5f6e8e12403ea5d08b2b9efda877a9e7a51c9d80",
+    "native/fittings-recontained.ifc": "b7d1b5ca2dc3cb43e7dfb9aceeac582cf0e17c13c0b61257817a725426a05327",
+    "native/junction-review.json": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+    "native/model-input.json": "261ae220d5bdfbdafce279cf51ba46954909029334b54751083c740744407ecc",
+    "native/Supply Backbone.ifc": "876fd66812ac08220cde27ee97fd5ffa1753784cf08196fb31fa3298c289c3cf",
+    "native/bim/bim-verification.json": "49303faa6ae5d158f7dcedf1175eb0c944f9991ef545ff4069d19bc4ef46cc0d",
+    "native/bim/model.ifc": "24324d8897dda817fa02cded02e71e514bef79eb06120be066333c73549d51c2",
+    "native/bim/schema-validation.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+}

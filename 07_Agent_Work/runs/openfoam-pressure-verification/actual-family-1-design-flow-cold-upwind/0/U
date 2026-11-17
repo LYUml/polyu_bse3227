@@ -1,0 +1,43 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volVectorField;
+    location    "10";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField uniform (0 0 0);
+
+boundaryField
+{
+    wall
+    {
+        type            noSlip;
+    }
+    outlet_0
+    { type flowRateOutletVelocity; volumetricFlowRate 0.14782239876590955; value uniform (0 0 0); }
+    inlet
+    { type flowRateInletVelocity; volumetricFlowRate 0.57567514256860686; value uniform (0 -4.2862439844699844 0); }
+    outlet_2
+    { type flowRateOutletVelocity; volumetricFlowRate 0.13220794627087828; value uniform (0 0 0); }
+    outlet_1
+    { type flowRateOutletVelocity; volumetricFlowRate 0.14782239876590955; value uniform (0 0 0); }
+    outlet_3
+    { type flowRateOutletVelocity; volumetricFlowRate 0.14782239876590941; value uniform (0 0 0); }
+}
+
+
+// ************************************************************************* //

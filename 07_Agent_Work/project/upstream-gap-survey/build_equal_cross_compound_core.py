@@ -1,0 +1,20 @@
+import copy,json,math,uuid,hashlib
+from pathlib import Path
+import numpy as np,ifcopenshell
+from ifcopenshell.util import placement,system
+from bsa import compound_junction as core,rectangular_transition as transition
+B=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs');O=B/'equal-cross-compound-core-candidate';O.mkdir(exist_ok=False);R=B/'supported-transition-stages';source=R/'Supply Network.ifc';m=ifcopenshell.open(str(source));old=m.by_guid('3tK$ugPAvIAAusb9mKjQEp');spec=json.loads((B/'source-compound-junction-native/junction-spec.json').read_text());spec['project_uuid']=str(uuid.uuid5(uuid.NAMESPACE_URL,'bse3227/equal-cross-compound-core'));spec['source']='Separate candidate: constant1350x900mm trunk; branch clear height900mm; 50mm lower-end/lateral-stub guards; existing37.5mmupper-cap clearance,45degree transitions and50mm collars are assumptions. Preserve original upper inlet and branch axes. No product, coefficient, interaction or integrated network approval.';spec['stations']=[dict(y_m=-.35,width_m=1.35,height_m=.9),dict(y_m=spec['stations'][-1]['y_m'],width_m=1.35,height_m=.9)]
+for b in spec['branches']:
+ b.update(height_m=.9,reach_m=.725)
+ if b['id']=='D-02':b['width_m']=.6
+p=O/'core.json';p.write_text(json.dumps(spec,indent=2));result=core.run(p,O/'core');frames=core.port_frames(spec);oldports={p.Name:p for p in system.get_ports(old)};cases=[]
+for name,end in [('D-22',[.5,.4]),('D-02',[.5,.45]),('D-05',[.6,.4]),('lower',[.85,.85])]:
+ f=frames[name];start=[1.35,.9] if name=='lower' else [next(b['width_m'] for b in spec['branches'] if b['id']==name),.9];stages=[(start,[.9,.9]),([.9,.9],end)] if name=='lower' else [(start,[.6,.55]),([.6,.55],end)] if name=='D-02' else [(start,end)];distance=0;folders=[]
+ for i,(a,b) in enumerate(stages):
+  L=max(abs(u-v) for u,v in zip(a,b))/(2*math.tan(math.radians(22.5)));data=dict(project_uuid=str(uuid.uuid5(uuid.NAMESPACE_URL,'equal-cross-compound/'+name+'/'+str(i))),source=spec['source'],classification='assumed',placement=dict(source='Actual candidate core port frame',origin_m=(f[:3,3]+f[:3,2]*distance).tolist(),rotation=f[:3,:3].tolist()),wall_model='section_plane_offset',start_section_m=a,end_section_m=b,section_offset_m=.0008,start_length_m=.05,end_length_m=.05,upstream_angle_degrees=45.,transition_length_m=L,port_directions=dict(start='SINK',end='SOURCE'),geometry_method='explicit_station_brep');path=O/(name+'-'+str(i)+'.json');path.write_text(json.dumps(data,indent=2));folder=O/(name+'-'+str(i));transition.run(path,folder);folders.append(str(folder));distance+=.1+L
+ oldp=oldports[name];oldpoint=placement.get_local_placement(oldp.ObjectPlacement)[:3,3];newpoint=f[:3,3]+f[:3,2]*distance;delta=float((newpoint-oldpoint)@f[:3,2]);assert np.linalg.norm((newpoint-oldpoint)-delta*f[:3,2])<1e-9
+ link=(*oldp.ConnectedTo,*oldp.ConnectedFrom)[0];peer=link.RelatedPort if link.RelatingPort==oldp else link.RelatingPort;straight=system.get_port_element(peer);assert straight.is_a('IfcDuctSegment');depth=straight.Representation.Representations[0].Items[0].Depth;assert depth-delta>.08
+ cases.append(dict(port=name,stage_folders=folders,new_external_point_m=newpoint.tolist(),additional_reach_m=delta,adjacent_straight_guid=straight.GlobalId,old_straight_length_m=depth,remaining_straight_length_m=depth-delta))
+report=dict(source_ifc_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),source_guid=old.GlobalId,core_native_checks=result['checks'],transition_bodies=6,cases=cases,all_apertures_in_constant_section=True,upper_cap_preserved=True,branch_axes_preserved=True,whole_network_integrated=False,source_coefficients_verified=False,full_pressure_accepted=False,design_accepted=False)
+(O/'review.json').write_text(json.dumps(report,indent=2));print(json.dumps(report))
+

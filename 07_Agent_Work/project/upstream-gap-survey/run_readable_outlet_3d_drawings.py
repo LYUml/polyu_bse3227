@@ -1,0 +1,8 @@
+import json,hashlib
+from pathlib import Path
+import ezdxf
+from bsa.duct_sheet_native import run as plan
+from bsa.ifc_native import run as detail
+R=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/three-dimensional-outlet-candidate');O=R/'drawing-readable-screened';p=O/'Supply and Three Dimensional Branch Connections.dxf';d=ezdxf.readfile(p);sheet=json.loads((O/'sheet.json').read_text());ref=next(e for e in d.modelspace() if e.dxftype()=='LINE' and e.dxf.layer=='BSA_SECTION_REFERENCE');settings=dict(source_sha256=hashlib.sha256(p.read_bytes()).hexdigest(),layers=sorted({e.dxf.layer for e in d.modelspace()}),sheet={k:sheet[k] for k in ['source','window_drawing_units','scale_denominator','pdf_tolerance_mm']});settings['sheet']['reference_handle']=ref.dxf.handle;(O/'settings.json').write_text(json.dumps(settings,indent=2));n=plan(p,O/'settings.json',O/'native','C:/Program Files/Autodesk/AutoCAD 2027/accoreconsole.exe');proj=json.loads((O/'projection.json').read_text());proj['native_reopen_pass']=n['native_reopen_pass'];(O/'projection.json').write_text(json.dumps(proj,indent=2));print('80route nativeplanreopened',flush=True)
+Q=R/'detail-readable-screened';n=detail(Q/'Terminal Turn Connection Detail.dxf',Q/'sheet.json',Q/'native');proj=json.loads((Q/'projection.json').read_text());proj['native_reopen_pass']=n['native_reopen_pass'];(Q/'projection.json').write_text(json.dumps(proj,indent=2));print('Terminalturn native detailreopened')
+

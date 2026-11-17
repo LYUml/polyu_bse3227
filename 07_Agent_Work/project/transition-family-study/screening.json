@@ -1,0 +1,531 @@
+{
+  "source_record_sha256": "5eb31d47dbf9e98c513678556e89ef1caef4ac313807d9170f9e108d31708aec",
+  "source_pdf_sha256": "746121b31696fd23cc11a39fd83d7be9ba3fec9bf0d81caa3b5e1ce6235abfbb",
+  "method_sha256": "6431c0977fabce4dc080749264eb8f2d09b7efec80ec5eac41f65be4fb50e581",
+  "source_locations": {
+    "centred_one_plane": "2021 ASHRAE Principles of HVAC 9th edition supplement, printed page19, Fitting4-2",
+    "centred_equal_angle_pyramidal": "same supplement printed page20,Fitting4-4"
+  },
+  "source_cautions": [
+    "Both sources label contraction region A0/A1>1 tentative, adapted from round Fitting4-1.",
+    "Page19 Fitting4-2 has duplicated 30-degree column labels; do not silently replace one with20 or interpolate through an ambiguous header.",
+    "Fitting4-3 three sides straight does not match these centred tapers.",
+    "Geometry screening does not establish coefficient, product, friction, interaction or full pressure acceptance."
+  ],
+  "rows": [
+    {
+      "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+      "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+      "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+      "geometry_sha256": "bd6a3efc620b6bbdff92b23431d98201b08ec50fb06fb933800246b23c2132ed",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6250000000000002,
+      "wall_angles_deg": [
+        7.664727971928834,
+        29.999999999999996
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+      "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+      "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+      "geometry_sha256": "bd6a3efc620b6bbdff92b23431d98201b08ec50fb06fb933800246b23c2132ed",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6250000000000002,
+      "wall_angles_deg": [
+        7.664727971928834,
+        29.999999999999996
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0jkIpE339UJuVju7ICXFwa",
+      "inlet_port_guid": "3feqvu8S5SWRQiRbBPK2Kq",
+      "outlet_port_guid": "2EjiMHLC9LBBzUh2cH8p5c",
+      "geometry_sha256": "79a78317003d1b8a4c3b2ad3a2a13c2f894fe86f4f4e9fa09704187ab5cc4254",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666665,
+      "wall_angles_deg": [
+        30.000000000000004,
+        10.207818722034194
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3z9ozOSnnMnvtNIjqeNtuy",
+      "inlet_port_guid": "2F0LXllz9KKPlESk4Fozjl",
+      "outlet_port_guid": "2S$icV1EzJ2OIDW97YizPi",
+      "geometry_sha256": "79a78317003d1b8a4c3b2ad3a2a13c2f894fe86f4f4e9fa09704187ab5cc4254",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666665,
+      "wall_angles_deg": [
+        30.000000000000004,
+        10.207818722034194
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+      "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+      "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5",
+      "geometry_sha256": "6dc4f26ebaeacf71ba5f0f72806eb03811844369e424d484cefd14ab74c28b2a",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.3714285714285714,
+      "wall_angles_deg": [
+        29.999999999999993,
+        15.261480424860128
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0QAIEcNFbU9uNQwzBeZ0t$",
+      "inlet_port_guid": "0Bfuy6ljXM9PHyB5CQ7Sl5",
+      "outlet_port_guid": "3BWTz4mqjOzxKrjEi4gI7H",
+      "geometry_sha256": "27020ecec3adb00ab2c764d0e453b0f22dc28c53e0ed30a722d201718d285f24",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.2857142857142856,
+      "wall_angles_deg": [
+        29.999999999999996,
+        12.235178472509205
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0rXojppeTH0BTVX2pgkVrd",
+      "inlet_port_guid": "0rn3VgsATOYO_4EsETpjkR",
+      "outlet_port_guid": "1JWwvHqZ5Pk8QXvkqnkPUt",
+      "geometry_sha256": "6dc4f26ebaeacf71ba5f0f72806eb03811844369e424d484cefd14ab74c28b2a",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.3714285714285714,
+      "wall_angles_deg": [
+        29.999999999999993,
+        15.261480424860128
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "1WPaQv8A1IEOF5XVmPvGFS",
+      "inlet_port_guid": "2sS1YGhVvOnvy2rdoEwH2E",
+      "outlet_port_guid": "1ZJwaT4cHJ4R9nu1sX9aUK",
+      "geometry_sha256": "27020ecec3adb00ab2c764d0e453b0f22dc28c53e0ed30a722d201718d285f24",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.2857142857142856,
+      "wall_angles_deg": [
+        29.999999999999996,
+        12.235178472509205
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+      "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+      "outlet_port_guid": "2Fese000fPyOpofbM3XvoW",
+      "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7499999999999998,
+      "wall_angles_deg": [
+        29.999999999999993,
+        29.999999999999993
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0LQm0tkK1SSANsJUcWzpUp",
+      "inlet_port_guid": "1wli8L8C5Rkwvrdxckf_Sr",
+      "outlet_port_guid": "2uc1FgP4XODeMXIvXXAKCz",
+      "geometry_sha256": "79a78317003d1b8a4c3b2ad3a2a13c2f894fe86f4f4e9fa09704187ab5cc4254",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666665,
+      "wall_angles_deg": [
+        30.000000000000004,
+        10.207818722034194
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2FvdFUVL5HUxtti7erekMp",
+      "inlet_port_guid": "2ztp7Y0mfPTwv3dOWeYYlO",
+      "outlet_port_guid": "1zpj_pI8DU$enV_vvprOJv",
+      "geometry_sha256": "4a23f4cdc7a82ace7c3f79f8041ee016d93daec4e7806636020e271729cb1d8a",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7142857142857146,
+      "wall_angles_deg": [
+        30.000000000000004,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2LPJbVlufJBB3G7Q2EUQS4",
+      "inlet_port_guid": "3FzfIirMXVwvRHKc3Josrr",
+      "outlet_port_guid": "0Yw$p0fGLN8vcJOlVIsQGn",
+      "geometry_sha256": "4a23f4cdc7a82ace7c3f79f8041ee016d93daec4e7806636020e271729cb1d8a",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7142857142857146,
+      "wall_angles_deg": [
+        30.000000000000004,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+      "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+      "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6",
+      "geometry_sha256": "6a8ab41ce5be556c27295018f005be6317796e37920dfc36d66f5e1bdb34c3c6",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.375,
+      "wall_angles_deg": [
+        30.000000000000004,
+        15.261480424860109
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3keZvoOvDI1QEE40muWnKO",
+      "inlet_port_guid": "2QES6g6NjPkfT0FZEiouaj",
+      "outlet_port_guid": "3WnMSoGPPHLRDlpuAf$STb",
+      "geometry_sha256": "92d2c5614889d4521a5b9b441162d6decc639e8bf9b49ede4e6b1de6481df0b8",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.3571428571428577,
+      "wall_angles_deg": [
+        30.000000000000004,
+        22.725830864491336
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0xQD0bae1JS9QSYLjgwgUq",
+      "inlet_port_guid": "3sOMkKWwLJSANSoe$H_BdC",
+      "outlet_port_guid": "1R2J3rTFXJY8ftlMqOvi8j",
+      "geometry_sha256": "bbaf39d7e7fa2ff171d4cd1f6951672837a40619f5bd3957dc0cc8eeb93f01d6",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.4142857142857146,
+      "wall_angles_deg": [
+        15.261480424860125,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "1kRfzbQLPPDvvOqiEvOxrv",
+      "inlet_port_guid": "17$K9H775GmA4wrzCHx_lN",
+      "outlet_port_guid": "0fPuD_47zM3R6K2axNhGxl",
+      "geometry_sha256": "88453c2f7cbcdccab679dfc95a8f3192497d0360f73846b23cd487d66dc7ec79",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.2,
+      "wall_angles_deg": [
+        15.261480424860121,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3h3LVEhmLMw8Yn5iIujoaS",
+      "inlet_port_guid": "0qAVw_HpLI6hYe5UzzALmj",
+      "outlet_port_guid": "0EvGYEXPfHA8XCZDkoFbUT",
+      "geometry_sha256": "79a78317003d1b8a4c3b2ad3a2a13c2f894fe86f4f4e9fa09704187ab5cc4254",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666665,
+      "wall_angles_deg": [
+        30.000000000000004,
+        10.207818722034194
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "1E6qDLPtXOJBPMoLX7sfQX",
+      "inlet_port_guid": "0VStysC3jTlBJVqcmZYZ1E",
+      "outlet_port_guid": "0zmZvpaoXU8vIZTfjN3qKw",
+      "geometry_sha256": "43d9cff051966f698849b00fb5ac408e5bd0aa675142f8cc3cc2fd8eeb9e0010",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.5555555555555554,
+      "wall_angles_deg": [
+        15.261480424860112,
+        29.999999999999993
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2JMPWE5frHZh$wlOnAqtDb",
+      "inlet_port_guid": "15zFWxHNfNbPw3ZRK36Vdk",
+      "outlet_port_guid": "051NCvL2bI7B9BhgLTja3E",
+      "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7499999999999998,
+      "wall_angles_deg": [
+        29.999999999999993,
+        29.999999999999993
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3FblPVezLThPoeuBShdypc",
+      "inlet_port_guid": "097bEnBmLIIf$aB0e0aGVe",
+      "outlet_port_guid": "2db8$o0CzOkhgonABzevp_",
+      "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7499999999999998,
+      "wall_angles_deg": [
+        29.999999999999993,
+        29.999999999999993
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3EOykJlO1HYxMOUeXGrm9C",
+      "inlet_port_guid": "2aGVDvF3rSUxtXb5pwjpJD",
+      "outlet_port_guid": "2ZgPCBlYTInRH24B_VNV18",
+      "geometry_sha256": "33114f8a42fd006c8393776c3832ab63caf2e666ad876f2c4c515d4b93c800f6",
+      "matching_families": [
+        "centred_one_plane"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.2857142857142858,
+      "wall_angles_deg": [
+        0.0,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0cW67j4gPKUPzUzhJtLtz1",
+      "inlet_port_guid": "0PTBJNoGHKAPiy_410RXWO",
+      "outlet_port_guid": "2wvLG4IUjJBe0ET48DuaEG",
+      "geometry_sha256": "8709f3d96ed15f64932954fe055cc546898adcced6676595e352d87be0383d8b",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.25,
+      "wall_angles_deg": [
+        15.261480424860112,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "3_1R9TjS5TtxR81DWGT3Tt",
+      "inlet_port_guid": "1oqFi$Z8XOKfTGhetCDnlA",
+      "outlet_port_guid": "3RNb2Epq1UHu8ZiPMBD4Wp",
+      "geometry_sha256": "6dc4f26ebaeacf71ba5f0f72806eb03811844369e424d484cefd14ab74c28b2a",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.3714285714285714,
+      "wall_angles_deg": [
+        29.999999999999993,
+        15.261480424860128
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2y$Az85hPMlOPIGdLz8IVo",
+      "inlet_port_guid": "3dLQHND_XMXuHqsIIsictR",
+      "outlet_port_guid": "3DK3TsZvbQ49Dr2KI6PnbB",
+      "geometry_sha256": "27020ecec3adb00ab2c764d0e453b0f22dc28c53e0ed30a722d201718d285f24",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.2857142857142856,
+      "wall_angles_deg": [
+        29.999999999999996,
+        12.235178472509205
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "inlet_port_guid": "1p6TIdnIbSjBYvAs4khC5G",
+      "outlet_port_guid": "2HLqNrtUDQd9MK97gKpnzs",
+      "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.7499999999999998,
+      "wall_angles_deg": [
+        29.999999999999993,
+        29.999999999999993
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "1ajBybKSfTYRID46oZ1lzZ",
+      "inlet_port_guid": "1Vq_tj5WzNaej$nLx02mVb",
+      "outlet_port_guid": "3H1uLYBYHL0B9wgISWRIce",
+      "geometry_sha256": "79a78317003d1b8a4c3b2ad3a2a13c2f894fe86f4f4e9fa09704187ab5cc4254",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666665,
+      "wall_angles_deg": [
+        30.000000000000004,
+        10.207818722034194
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "1PiEAHH0TK3gfwO81Khyfo",
+      "inlet_port_guid": "1xPf9_NwnUsPPGD2kkbW_O",
+      "outlet_port_guid": "1x2hi6q2jJQPf0Pjv1hQ1y",
+      "geometry_sha256": "2b108115c54276a85ff5cf811cd8cf839e64f4929fa757358bbbe40c4439cf7b",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666667,
+      "wall_angles_deg": [
+        29.999999999999986,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "0vO79c8jTJt8g4jVJA93Q4",
+      "inlet_port_guid": "0vjBWs19XJPwpebHyv7oZw",
+      "outlet_port_guid": "2bZl_wHavLpOqEjYw4Sfum",
+      "geometry_sha256": "2b108115c54276a85ff5cf811cd8cf839e64f4929fa757358bbbe40c4439cf7b",
+      "matching_families": [
+        "centred_equal_angle_pyramidal"
+      ],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.6666666666666667,
+      "wall_angles_deg": [
+        29.999999999999986,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+      "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+      "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+      "geometry_sha256": "b5a2f6a8088fa9cb1b9b4f6475e3989ff039eaa542e82826225f5733a302e59f",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 1.8525641025641022,
+      "wall_angles_deg": [
+        24.19758204564059,
+        29.999999999999996
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2z0OsSxEPMxe7bw868aznG",
+      "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+      "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19",
+      "geometry_sha256": "1fda4aa5d07ee389faabea44a229015b1d8ffca4345ed669ecd998c0d838e62f",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.9191919191919187,
+      "wall_angles_deg": [
+        22.725830864491336,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    },
+    {
+      "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+      "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+      "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+      "geometry_sha256": "1fda4aa5d07ee389faabea44a229015b1d8ffca4345ed669ecd998c0d838e62f",
+      "matching_families": [],
+      "flow_change": "contraction",
+      "inlet_to_outlet_area_ratio": 2.9191919191919187,
+      "wall_angles_deg": [
+        22.725830864491336,
+        30.000000000000004
+      ],
+      "within_displayed_outer_bounds": true,
+      "coefficient": null,
+      "physical_applicability_verified": false
+    }
+  ]
+}

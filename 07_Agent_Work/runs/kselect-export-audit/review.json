@@ -1,0 +1,57 @@
+{
+  "terminal": "SD-01",
+  "model": "1400",
+  "neck_in": 8,
+  "module_in": [
+    24,
+    24
+  ],
+  "design_flow_L_s": 132.2079462708783,
+  "design_flow_CFM": 280.1327736293122,
+  "export_flow_CFM": 280,
+  "export_flow_L_s": 132.145284096,
+  "export_matches_integer_CFM_rounding": true,
+  "catalogue_total_pressure_Pa": 22.780657947492188,
+  "catalogue_static_pressure_Pa": 12.844739955249574,
+  "native_pressure_display_in_wc": 0.09,
+  "native_pressure_display_interval_Pa": [
+    21.17255735,
+    23.66344645
+  ],
+  "native_pressure_matches_catalogue_total_at_display_precision": true,
+  "native_pressure_matches_static": false,
+  "pressure_reference_interpretation": "Numerical correspondence to catalogue Pt; export field itself says only Pressure,w.c. Do not assert software documentation of its definition.",
+  "export_table_throw_value": 14,
+  "export_table_throw_unit": "ft",
+  "export_summary_throw_value": 14.0,
+  "export_summary_throw_unit": "m",
+  "throw_labels_consistent": false,
+  "summary_throw_metres_accepted": false,
+  "table_throw_converted_m": 4.2672,
+  "catalogue_interpolated_T025_m": 4.202520560859131,
+  "table_throw_matches_catalogue_at_published_display_precision": true,
+  "octave_band_difference_from_nearby_printed_point_dB": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "acoustic_agreement_verified": false,
+  "minimum_native_export_available": false,
+  "ADPI_verified": false,
+  "fan_pressure_complete": false,
+  "design_accepted": false,
+  "original_sources_modified": false,
+  "source_pages_visually_inspected": true,
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\05_Calculations\\k-select sd-01 maximum.pdf": "41d84536c92e397a80e0830148bbae5930e6a9e4b7f9e942183975d01ea2d22d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\05_Calculations\\k-select 1400 performance.pdf": "ddc3a1a62fca1c52782cc11be8dfcd954bfa851dd36fa996393d93aa63c24406",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\Krueger_1400_51400_Performance.pdf": "073c639219b28068a0c8190a926d493e42a12c0918db464ee8439c55a3994aef",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\catalogue-source-bound.json": "064ed5e1db100107bdcddb559101eb6000ddbaec88c10ef255888b69b1497a8a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\terminal-lookup\\terminal-results.json": "42626d4688bb917f03d24a6613a40cfbac67e72afeb5a63bf2461e79b0136b4a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\upstream-gap-survey\\audit_kselect_exports.py": "6db661d7e946766913e2cfb90a152eec29c7187c983554f5d3046dd2d2e97e20"
+  },
+  "independent_decimal_pressure_checks_match": true
+}

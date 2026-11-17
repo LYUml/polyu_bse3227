@@ -1,0 +1,240 @@
+{
+  "basis": "Explicit alternative radius study on unchanged source centreline/section scenario; no product or regulatory recommendation",
+  "minimum_remainder_m": {
+    "value": 0.05,
+    "classification": "design_target",
+    "source": "Host-selected positive known-elbow-only remainder for geometric study; other fitting trims remain unknown"
+  },
+  "nodes": {
+    "CORRIDOR-A": [
+      {
+        "id": "original",
+        "radius_m": 2.0250000000000004,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 1.35,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 1.0125000000000002,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "CORRIDOR-B": [
+      {
+        "id": "original",
+        "radius_m": 2.0250000000000004,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 1.35,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 1.0125000000000002,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-01": [
+      {
+        "id": "original",
+        "radius_m": 0.5249999999999999,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.35,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.26249999999999996,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-06": [
+      {
+        "id": "original",
+        "radius_m": 0.6000000000000001,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.4,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.30000000000000004,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-07": [
+      {
+        "id": "original",
+        "radius_m": 0.5249999999999999,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.35,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.26249999999999996,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-12": [
+      {
+        "id": "original",
+        "radius_m": 0.5249999999999999,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.35,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.26249999999999996,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-13": [
+      {
+        "id": "original",
+        "radius_m": 0.6000000000000001,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.4,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.30000000000000004,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-18": [
+      {
+        "id": "original",
+        "radius_m": 0.6000000000000001,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.4,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.30000000000000004,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "TAP-VAV-20": [
+      {
+        "id": "original",
+        "radius_m": 0.6000000000000001,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.4,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.30000000000000004,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ],
+    "UP-TURN": [
+      {
+        "id": "original",
+        "radius_m": 0.75,
+        "classification": "design_target",
+        "source": "Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.",
+        "penalty": 0
+      },
+      {
+        "id": "width-radius",
+        "radius_m": 0.5,
+        "penalty": 1,
+        "classification": "design_target",
+        "source": "Host-declared radius equal to nominal source width for geometric comparison only"
+      },
+      {
+        "id": "compact-radius",
+        "radius_m": 0.375,
+        "penalty": 2,
+        "classification": "design_target",
+        "source": "Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence"
+      }
+    ]
+  }
+}

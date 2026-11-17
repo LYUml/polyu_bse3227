@@ -1,0 +1,2103 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-vav-connection-schedule\\revised-junction.json": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-network-integrated\\Supply Network.ifc": "9001cfe4f75ea6ac54ca578480bdede88148a9d4ec850b275748239e4675b82b",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\upstream-gap-survey\\place_vav_envelopes.py": "aa47b850d1940d0d5adce892e00ef2d5bb33a57886b566ef99045d40099b6395",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\vav-manufacturer-capacity\\inlet-revision.json": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d"
+  },
+  "inputs_unchanged": true,
+  "original_entities_unchanged": true,
+  "original_entity_count": 10172,
+  "obstacles": [
+    {
+      "id": "VAV-01-CASING",
+      "origin_m": [
+        68.042732,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.39369999999999905,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-01",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "0QeLlx3ZLQdA0jrbuOYfRJ",
+      "saved_volume_m3": 0.06095987807999847
+    },
+    {
+      "id": "VAV-01-INLET-RESERVATION",
+      "origin_m": [
+        68.093532,
+        19.520584,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-01",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "0I1mcGH9HGuRntS7XnP25O",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-01-ACCESS-LEFT",
+      "origin_m": [
+        67.426782,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-01",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "11dP4quLHQ_BzMtW1xsmQP",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-01-ACCESS-RIGHT",
+      "origin_m": [
+        68.44913199999999,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-01",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "068EGGVNjHof0nQdfk8wdE",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-02-CASING",
+      "origin_m": [
+        75.431932,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-02",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "3PSHnx2AfK1fP6Vliki1Il",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-02-INLET-RESERVATION",
+      "origin_m": [
+        75.508132,
+        19.520584,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-02",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "05gwS2_L1V0h8G7S58xEMk",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-02-ACCESS-LEFT",
+      "origin_m": [
+        74.815982,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-02",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "09HlGYcOPMc8kw6GgSeSpf",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-02-ACCESS-RIGHT",
+      "origin_m": [
+        75.93993200000001,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-02",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3blhz27lXVyP0PEIrDpQE6",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-03-CASING",
+      "origin_m": [
+        82.87193199999999,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-03",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "0QL$eSxSHK1x6FLXYgWMeS",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-03-INLET-RESERVATION",
+      "origin_m": [
+        82.94813199999999,
+        19.520584,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-03",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2QLWZCiRXHK8V_EWZDktIG",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-03-ACCESS-LEFT",
+      "origin_m": [
+        82.25598199999999,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-03",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3SU6u8AXrUF8GxB2muQQ87",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-03-ACCESS-RIGHT",
+      "origin_m": [
+        83.379932,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-03",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1Z2yaHuVzRZP6QIW8T9TmJ",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-04-CASING",
+      "origin_m": [
+        90.31193199999998,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-04",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "11q8oWG5vMiB_ZKtDxxwhH",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-04-INLET-RESERVATION",
+      "origin_m": [
+        90.38813199999998,
+        19.520584,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-04",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "0oRB5pZt5H$fJrrqPktsBc",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-04-ACCESS-LEFT",
+      "origin_m": [
+        89.69598199999999,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-04",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "25sZooyx1RYPXrtT7m8qWv",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-04-ACCESS-RIGHT",
+      "origin_m": [
+        90.819932,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-04",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "27SiQPZ5DMXR6wuxfpqpbi",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-05-CASING",
+      "origin_m": [
+        98.44443249999999,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-05",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "07PhkGup1HJO46Hyh0smqr",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-05-INLET-RESERVATION",
+      "origin_m": [
+        98.52063249999999,
+        19.520584,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-05",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2qAk3lNcDHfvIem39YloE5",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-05-ACCESS-LEFT",
+      "origin_m": [
+        97.82848249999999,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-05",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "261Ee2ATbRSf0gDcrNEf3P",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-05-ACCESS-RIGHT",
+      "origin_m": [
+        98.9524325,
+        19.041159,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-05",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3DjtzuaPPQJwdsGpw831z4",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-06-CASING",
+      "origin_m": [
+        105.4735655,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.39369999999999905,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-06",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "3Wyi_$47TTYunFEpcoMP0X",
+      "saved_volume_m3": 0.06095987807999847
+    },
+    {
+      "id": "VAV-06-INLET-RESERVATION",
+      "origin_m": [
+        105.5243655,
+        19.520584,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-06",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "0zBr_OrN5I5OWzFvTKxfJL",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-06-ACCESS-LEFT",
+      "origin_m": [
+        104.85761550000001,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-06",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "0v5sUxwyjQjglmYHjg4WAs",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-06-ACCESS-RIGHT",
+      "origin_m": [
+        105.8799655,
+        19.041159,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-06",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3MD7L1qbjP9BCZpj8K9kKP",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-07-CASING",
+      "origin_m": [
+        67.99193199999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-07",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "3RoxT5vPjOjAsBiGkary7g",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-07-INLET-RESERVATION",
+      "origin_m": [
+        68.06813199999999,
+        26.350584000000012,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-07",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "3ev6olsK1GYPSBhwWrvXPW",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-07-ACCESS-LEFT",
+      "origin_m": [
+        67.375982,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-07",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "33FkGssJPV8wsTQwHSMEKY",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-07-ACCESS-RIGHT",
+      "origin_m": [
+        68.499932,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-07",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "0QltxrJVjNrQLpthfGGdSP",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-08-CASING",
+      "origin_m": [
+        75.431932,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-08",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "3o$58hG4HG0v2ZgBR86eqn",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-08-INLET-RESERVATION",
+      "origin_m": [
+        75.508132,
+        26.350584000000012,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-08",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2iajqi6F1MrQ$obtnbenHt",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-08-ACCESS-LEFT",
+      "origin_m": [
+        74.815982,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-08",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2Cav5lE$LPY8L7dlhAlJ0Z",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-08-ACCESS-RIGHT",
+      "origin_m": [
+        75.93993200000001,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-08",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2amyPGEnXUD9RDanq04HXx",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-09-CASING",
+      "origin_m": [
+        82.87193199999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-09",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "3fpnWHNtXJIvAS9OzVzctg",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-09-INLET-RESERVATION",
+      "origin_m": [
+        82.94813199999999,
+        26.350584000000012,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-09",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "3BgheMa6rSVvOi0r3LpyEF",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-09-ACCESS-LEFT",
+      "origin_m": [
+        82.25598199999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-09",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "16JE7MeeLTKRUv_HZCjWGL",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-09-ACCESS-RIGHT",
+      "origin_m": [
+        83.379932,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-09",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "206hCe23DOxQDkpfJRpGzv",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-10-CASING",
+      "origin_m": [
+        90.31193199999998,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-10",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "2q7jRIYsLPjgLqAH4ZmwWf",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-10-INLET-RESERVATION",
+      "origin_m": [
+        90.38813199999998,
+        26.350584000000012,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-10",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "1IYRvUUJLJ$QAGk$f2DDlE",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-10-ACCESS-LEFT",
+      "origin_m": [
+        89.69598199999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-10",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1w8BwOm1rHDxNjiUvV5adB",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-10-ACCESS-RIGHT",
+      "origin_m": [
+        90.819932,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-10",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2WJquLnePK7wH7Vx3IMA24",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-11-CASING",
+      "origin_m": [
+        98.44443249999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.39369999999999905,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-11",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "1trSthrt1U4Be6wMaFwscN",
+      "saved_volume_m3": 0.08889982220000149
+    },
+    {
+      "id": "VAV-11-INLET-RESERVATION",
+      "origin_m": [
+        98.52063249999999,
+        26.350584000000012,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-11",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2n9cFqvX1GdAiR0FPAdsD8",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-11-ACCESS-LEFT",
+      "origin_m": [
+        97.82848249999999,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-11",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1aU6_4jTXJnvla1XELozuY",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-11-ACCESS-RIGHT",
+      "origin_m": [
+        98.9524325,
+        25.871159000000013,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-11",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1Q$9e_BajPSh6pacBLqnYi",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-12-CASING",
+      "origin_m": [
+        105.4735655,
+        25.871159000000013,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.39369999999999905,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-12",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "05GbPBF9rPoAY2EciXANmD",
+      "saved_volume_m3": 0.06095987807999847
+    },
+    {
+      "id": "VAV-12-INLET-RESERVATION",
+      "origin_m": [
+        105.5243655,
+        26.350584000000012,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-12",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "0BAQh3exnLtA5vDbLfSl8T",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-12-ACCESS-LEFT",
+      "origin_m": [
+        104.85761550000001,
+        25.871159000000013,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-12",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "0Nbq6tA4nGKuPczxsTuaui",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-12-ACCESS-RIGHT",
+      "origin_m": [
+        105.8799655,
+        25.871159000000013,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-12",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2JbyxdLZ1Vju6iBb256Cc4",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-13-CASING",
+      "origin_m": [
+        68.042732,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.3937000000000026,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-13",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "0Mu3TH8mrRQ9K3x5Gsl1MW",
+      "saved_volume_m3": 0.06095987807999901
+    },
+    {
+      "id": "VAV-13-INLET-RESERVATION",
+      "origin_m": [
+        68.093532,
+        33.49404200000002,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-13",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "1tiQ54jSnLnvCFG8q1kcvo",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-13-ACCESS-LEFT",
+      "origin_m": [
+        67.426782,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-13",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3KSaxGvXvTYQ2a7h8FxdCr",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-13-ACCESS-RIGHT",
+      "origin_m": [
+        68.44913199999999,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-13",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1pMM6T3bfUWf5SnTeDP2YS",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-14-CASING",
+      "origin_m": [
+        75.482732,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.3937000000000026,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-14",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "0UCv_uIB9GUQGvYe_k2U23",
+      "saved_volume_m3": 0.06095987807999901
+    },
+    {
+      "id": "VAV-14-INLET-RESERVATION",
+      "origin_m": [
+        75.533532,
+        33.49404200000002,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-14",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "0n5GCImYvOTBX_1JL8Mk8S",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-14-ACCESS-LEFT",
+      "origin_m": [
+        74.866782,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-14",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3mILAQ1pLMZxsOtjvKr37L",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-14-ACCESS-RIGHT",
+      "origin_m": [
+        75.88913199999999,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-14",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3v6Gr9WhvNNRZ2nXyeu9DN",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-15-CASING",
+      "origin_m": [
+        82.922732,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.3937000000000026,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-15",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "1WMSBG$6PHBgnrtrn4_x7i",
+      "saved_volume_m3": 0.06095987807999901
+    },
+    {
+      "id": "VAV-15-INLET-RESERVATION",
+      "origin_m": [
+        82.97353199999999,
+        33.49404200000002,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-15",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2maXmq8H9NUxxd_01LqgP1",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-15-ACCESS-LEFT",
+      "origin_m": [
+        82.306782,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-15",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "39lPX87SnJq83kChdY4jE9",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-15-ACCESS-RIGHT",
+      "origin_m": [
+        83.32913199999999,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-15",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3qP5vKzaXVqAat1RhGccG9",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-16-CASING",
+      "origin_m": [
+        90.31193200000001,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.3937000000000026,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-16",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "1bsR7Y5W5ISPcAHDCXBvUx",
+      "saved_volume_m3": 0.08889982220000231
+    },
+    {
+      "id": "VAV-16-INLET-RESERVATION",
+      "origin_m": [
+        90.38813200000001,
+        33.49404200000002,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-16",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2ukEQQo3zLxuLvuApyxy2A",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-16-ACCESS-LEFT",
+      "origin_m": [
+        89.69598200000001,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-16",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2yurGE69nKXw3$YcSvCOza",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-16-ACCESS-RIGHT",
+      "origin_m": [
+        90.81993200000002,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-16",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2DNXPHnVrPkgPl1yl0SL95",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-17-CASING",
+      "origin_m": [
+        98.44443249999999,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.3937000000000026,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-17",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "1DbGBA5oHMbvDdJRwtCToR",
+      "saved_volume_m3": 0.08889982220000231
+    },
+    {
+      "id": "VAV-17-INLET-RESERVATION",
+      "origin_m": [
+        98.52063249999999,
+        33.49404200000002,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-17",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "2B7wsh7hHG$9HaIq09SkWw",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-17-ACCESS-LEFT",
+      "origin_m": [
+        97.82848249999999,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-17",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "00iCQrFyHPZBUce8ZoXkWp",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-17-ACCESS-RIGHT",
+      "origin_m": [
+        98.9524325,
+        33.01461700000002,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-17",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3q0TkQb9HJW8_kbTdEjaKX",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-18-CASING",
+      "origin_m": [
+        105.4735655,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.40639999999999077,
+        0.3937000000000026,
+        0.381
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-18",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "180nmnLNPP8xnA4gA0l6gn",
+      "saved_volume_m3": 0.06095987807999901
+    },
+    {
+      "id": "VAV-18-INLET-RESERVATION",
+      "origin_m": [
+        105.5243655,
+        33.49404200000002,
+        -0.15239999999999998
+      ],
+      "size_m": [
+        0.3048000000000002,
+        0.9144000000000005,
+        0.30479999999999996
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-18",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "1nAj9O6TrQavTKjidcq5ph",
+      "saved_volume_m3": 0.08495053977600009
+    },
+    {
+      "id": "VAV-18-ACCESS-LEFT",
+      "origin_m": [
+        104.85761550000001,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-18",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1KL0DPXGbNfxD4B0VwVGie",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-18-ACCESS-RIGHT",
+      "origin_m": [
+        105.8799655,
+        33.01461700000002,
+        -0.1905
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.381
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-18",
+        "NominalInlet_in": 12,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "11$7ipi6jNgO1c8UuTGv0S",
+      "saved_volume_m3": 0.11250999675374941
+    },
+    {
+      "id": "VAV-19-CASING",
+      "origin_m": [
+        98.44443249999999,
+        41.246309,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.3937000000000026,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-19",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "1EUR5Eq_5OywqMTdjTlzh7",
+      "saved_volume_m3": 0.08889982220000231
+    },
+    {
+      "id": "VAV-19-INLET-RESERVATION",
+      "origin_m": [
+        98.52063249999999,
+        40.093784,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-19",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "3nfhQrH_1IHwPevbtfgnKc",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-19-ACCESS-LEFT",
+      "origin_m": [
+        98.9524325,
+        41.160584,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-19",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1SPAe5f3zPZA8m$qR0rWas",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-19-ACCESS-RIGHT",
+      "origin_m": [
+        97.82848249999999,
+        41.160584,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-19",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "1UDnk5HTDMDwIQawiJyZc4",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-20-CASING",
+      "origin_m": [
+        105.4227655,
+        41.246309,
+        -0.22225
+      ],
+      "size_m": [
+        0.5080000000000098,
+        0.3937000000000026,
+        0.4445
+      ],
+      "source": "LMHS MiniCatalog printed A2-7; manufacturer dimensions, candidate placement assumption",
+      "properties": {
+        "VAVID": "VAV-20",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Manufacturer casing envelope; not internal product geometry"
+      },
+      "guid": "0SpISO5CzQ6QXggrQ7bcoN",
+      "saved_volume_m3": 0.08889982220000231
+    },
+    {
+      "id": "VAV-20-INLET-RESERVATION",
+      "origin_m": [
+        105.4989655,
+        40.093784,
+        -0.17779999999999999
+      ],
+      "size_m": [
+        0.3556000000000097,
+        1.0668000000000006,
+        0.35559999999999997
+      ],
+      "source": "SDIOM PDF6 Step2A recommends3D; nominal round size from candidate",
+      "properties": {
+        "VAVID": "VAV-20",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Reserved straight circular duct space; box is not a duct solid"
+      },
+      "guid": "1zJFeIZ91JTx$HYNboddi9",
+      "saved_volume_m3": 0.13489831084800374
+    },
+    {
+      "id": "VAV-20-ACCESS-LEFT",
+      "origin_m": [
+        105.9307655,
+        41.160584,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-20",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "2qcCmGv_XMJfWMk3QXN_Gz",
+      "saved_volume_m3": 0.13126166287937432
+    },
+    {
+      "id": "VAV-20-ACCESS-RIGHT",
+      "origin_m": [
+        104.8068155,
+        41.160584,
+        -0.22225
+      ],
+      "size_m": [
+        0.615949999999998,
+        0.4794249999999991,
+        0.4445
+      ],
+      "source": "SDIOM PDF3 recommends18in access; A2-7 control projection6.25in; length/height and both-side extent host design policy",
+      "properties": {
+        "VAVID": "VAV-20",
+        "NominalInlet_in": 14,
+        "SourceNodeSHA256": "00cd79d693f3cfb28560a8703c0d26b6c22aeba20cc0cb0cebc642ac98bd2ffb",
+        "CandidateSHA256": "cb95112cccaf3ca776b9ba874a68af4be9e9e09acb5d0079e30c3913ad59861d",
+        "ElevationBasis": "Inherited study centreline z=0; not installed elevation",
+        "DatumAssumption": "Original abstract VAV node is proposed inlet collar entrance; not a source-specified equipment datum",
+        "PhysicalEquipmentSelected": false,
+        "RepresentationKind": "Both-side conservative control/access reservation; not physical equipment"
+      },
+      "guid": "3vLSYdSh1GPPAQVuqoEdTA",
+      "saved_volume_m3": 0.13126166287937432
+    }
+  ],
+  "body_context_id": 10,
+  "saved_ifc_sha256": "22b42ba43415e9316ff2555f4e64200370cf9358aaeadde986ec7574e50b34aa",
+  "calculated_checks_pass": true,
+  "design_accepted": false,
+  "scope": "explicit source-linked closed IFC obstacle boxes; original entities preserved",
+  "pending": [
+    "source obstacle applicability/completeness",
+    "route-to-obstacle clearance/clash",
+    "BIM viewer and full engineering acceptance"
+  ]
+}

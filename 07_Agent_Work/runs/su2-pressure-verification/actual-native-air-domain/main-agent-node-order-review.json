@@ -1,0 +1,22 @@
+{
+  "source_sha256": "5bc3e3291686deb5b16df8a5eeecb2b2b3edf5bfc7b9a27d25125e4e41b1a185",
+  "target_mesh_sha256": "a34324d73e65a4d10abcc102451b06c0ed3388300d5e01e051bfbd811b550fd0",
+  "agent_method_sha256": "80978cd6eb1fa5d7610d9eb41083376a5914f1bda55712d0c7a435f0b8666d6b",
+  "verification_method_sha256": "6ba8c7953ce19ac88a07b32cd73fdd30472eb2682686413c7ea4e6d0e68513a7",
+  "gmsh_version": "4.15.2",
+  "cells_checked": 265741,
+  "source_cell_type_counts": {
+    "13": 234212,
+    "10": 31529
+  },
+  "nodes_checked": 126183,
+  "maximum_coordinate_difference_m": 7.105427357601002e-15,
+  "all_source_cells_roundtrip_pass": true,
+  "all_native_gmsh_cells_match_source_ordering": true,
+  "canonical_volume_connectivity_sha256": "e47d2cb162c147c0ca7c2c34f189148c41eaeed283e7ed7f7016281764e984f6",
+  "minimum_native_SICN": 4.976009600201703e-05,
+  "minimum_native_signed_volume_m3": 6.786172264261679e-09,
+  "target_solver_import_executed": false,
+  "engineering_accepted": false,
+  "scope": "Existing Gmsh mesh plus new thin ordering helper replay on all actual main cells. Node ordering only; no new solver, geometry, pressure or general mesh-format acceptance."
+}

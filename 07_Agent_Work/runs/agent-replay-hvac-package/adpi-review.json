@@ -1,0 +1,5231 @@
+{
+  "criterion": {
+    "source": "Canvas BSE3227 original lecture p5; ASHRAE Fundamentals2005 table reproduced in class",
+    "room_load_range_W_m2": [
+      35,
+      160
+    ],
+    "ratio_range": [
+      1,
+      3.4
+    ]
+  },
+  "facts": {
+    "room_load_verified": null,
+    "product_category_verified": true,
+    "lengths_verified": null,
+    "installation_verified": null,
+    "edition_selected": true
+  },
+  "room_load_W_m2": 170.1,
+  "load_in_source_range": false,
+  "applicability": "pending",
+  "missing_facts": [
+    "room_load_verified",
+    "lengths_verified",
+    "installation_verified"
+  ],
+  "rejected_facts": [],
+  "data_requests": [
+    {
+      "code": "applicability_fact_unknown",
+      "fact": "installation_verified",
+      "action": "Verify ceiling and installation conditions against the selected source and actual project."
+    },
+    {
+      "code": "applicability_fact_unknown",
+      "fact": "lengths_verified",
+      "action": "Verify characteristic lengths against walls, outlet midplanes or intersecting jets under the selected source definition."
+    },
+    {
+      "code": "applicability_fact_unknown",
+      "fact": "room_load_verified",
+      "action": "Establish the room sensible load from source-backed room calculations; keep preliminary cooling allowances separate."
+    },
+    {
+      "code": "criterion_load_domain_mismatch",
+      "supplied_load_W_m2": 170.1,
+      "source_range_W_m2": [
+        35,
+        160
+      ],
+      "load_verified": null,
+      "action": "Resolve the room load and criterion applicability with source evidence; do not clamp the load, extrapolate the interval or silently replace the criterion."
+    }
+  ],
+  "cases": [
+    {
+      "terminal": "SD-01",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.259419656375878,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.259961712474615,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.259419656375878,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.259961712474615,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.4612126271502945,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.372491235843503,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.461212627150297,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-01",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.3724912358435044,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.57205660422137,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430092,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-02",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.57205660422137,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430092,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-03",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3165678469284736,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3399691792482495,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3165678469284736,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3399691792482495,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5234648288649812,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4596443182440653,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.523464828864984,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-04",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4596443182440668,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3251669029462643,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3520078576731565,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3251669029462643,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3520078576731565,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5328318825651808,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4727581934243446,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5328318825651834,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-05",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.472758193424346,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.361175619197841,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253712,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978497,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253765,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430147,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5720566042213764,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-06",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430163,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978372,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.402420060425366,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.57205660422137,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430092,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-07",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 1.9901588578333147,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.222589585017979,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.422385651242941,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.488114105288504,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.638733418045016,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.6210203430961139,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.638733418045019,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-08",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6210203430961156,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5573679250272696,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.551177190613158,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 1.9706814412696503,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.1953212018288488,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.6129084896573,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5848654433533111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.6129084896573027,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-09",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5848654433533127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687097,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687097,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5069415387973213,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493407,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.506941538797324,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-10",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493423,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687257,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511799,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687057,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511683,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5069415387973173,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.436511712149335,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.50694153879732,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-11",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493365,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3140225789047477,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.254093986358688,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3140225789047664,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2540939863586982,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.364278202798849,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.281330226955842,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.3642782027988516,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-12",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2813302269558433,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-13",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-14",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-15",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-16",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-17",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978417,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978506,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.402420060425378,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213777,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430178,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221375,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-18",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430163,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253727,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978386,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253674,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.527672803743012,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221371,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-19",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430105,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.0258137917950045,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2725064925643448,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.465784197085077,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5488720694674942,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.686007968713466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.687204714031941,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.686007968713463,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-20",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6872047140319393,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5970481027330967,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.6067294394013159,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.001258578421443,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.238129193841359,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.653450436001437,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.6416241682351007,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.6534504360014344,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-21",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.641624168235099,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687106,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511752,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687106,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511752,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.506941538797325,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493436,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5069415387973226,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-22",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.436511712149342,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687266,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511812,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687066,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511697,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.506941538797321,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493378,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.506941538797318,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-23",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493363,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687066,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511697,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687266,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511812,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.506941538797321,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493378,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.506941538797318,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-24",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493363,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-25",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-26",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-27",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-28",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-29",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.361175619197841,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253712,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978497,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253765,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5720566042213764,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430163,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5720566042213764,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-30",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430163,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978466,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4024200604253716,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978372,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.402420060425366,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.572056604221373,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-31",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5276728037430107,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.025813791795003,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2725064925643432,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4657841970850756,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5488720694674925,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.686007968713464,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.6872047140319388,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.686007968713464,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-32",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6872047140319388,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5970481027330954,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.6067294394013143,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.0012585784214423,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.238129193841358,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.653450436001436,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.6416241682350992,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.653450436001436,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-33",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6416241682350992,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687097,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687097,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.506941538797324,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493423,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.506941538797324,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-34",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493423,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687257,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511799,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687057,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511683,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.50694153879732,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493365,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.50694153879732,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-35",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493365,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687057,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511683,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687257,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511799,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.50694153879732,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4365117121493365,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.50694153879732,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-36",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4365117121493365,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-37",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-38",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-39",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-40",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-41",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4495979590128703,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664122,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4495979590128796,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.526211336166418,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.254501183975102,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459889,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.6683761076216435,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-42",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033894,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.449597959012876,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5262113361664127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4495979590128667,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5262113361664067,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2545011839750986,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.404657140459884,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.668376107621639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-43",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.6625201085033836,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.124974590712587,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3330979268350283,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.586480942230965,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.6226228760364374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.380482203266764,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4933900404796994,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.8174843645971275,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-44",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.767542342271024,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.714107327200817,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7056178097391543,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.0914632137929825,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3143315557600495,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.342941407855496,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.4723671950493893,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.773051936595508,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-45",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7426601825901171,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.542075771083739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5297681750922154,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.542075771083739,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5297681750922154,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1944359113170773,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3205657587386543,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.597284222819057,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-46",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5629914697797684,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.542075771083755,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5297681750922216,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.5420757710837347,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5297681750922092,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1944359113170737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3205657587386492,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5972842228190522,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-47",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5629914697797622,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5420757710837347,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5297681750922092,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.542075771083755,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.5297681750922216,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1944359113170737,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3205657587386492,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.5972842228190522,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-48",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.5629914697797622,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.2805590797847866,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2895569052470877,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.2805590797847866,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2895569052470877,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.0428350712530143,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.7205908026871344,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.098925305919124,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-49",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.18685091118152,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978484,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978484,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.150397657823788,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.8711784238862175,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.173121188915354,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-50",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2907251473762418,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978484,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978484,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.150397657823788,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.8711784238862175,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.173121188915354,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-51",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2907251473762418,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3080710875453843,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3280737161119238,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3080710875453843,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3280737161119238,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.0795429569800663,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.771981842705007,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.1242461361564233,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-52",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2223000735137382,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.318308105695255,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3424055415217429,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.318308105695255,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3424055415217429,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.093201694492106,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.7911040752218632,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.1336678330738055,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-53",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2354904491980738,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978426,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.361175619197852,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253794,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.150397657823792,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.8711784238862246,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.173121188915357,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-54",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2907251473762467,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.3611756191978484,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.402420060425374,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3611756191978395,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4024200604253687,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.150397657823788,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.8711784238862175,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.173121188915354,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-55",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2907251473762418,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 1.983367426355975,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2130815809497033,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4141192427111027,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.47654113334393,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.221037667044925,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.9700744367958098,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.2218481489682858,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-56",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.358942891450346,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5498097787076794,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5405957857657318,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 1.9648572113899165,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.1871672799972215,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.190976620948027,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.9279889722601522,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.2011122599379287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-57",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.3299126468078464,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687115,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511768,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687115,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511768,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.070641112316864,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.759519260176524,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.1181057090233604,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-58",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2137034755274507,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4536534312687275,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.4059768993511825,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4536534312687075,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4059768993511712,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 3.0706411123168587,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.7595192601765168,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.118105709023357,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-59",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2137034755274458,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.347829483721267,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2856470975207726,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.347829483721286,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.285647097520783,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.9382070204170856,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.6089317192350439,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.026753644141185,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-60",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.1098292946938346,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-61",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-62",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-63",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-64",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-65",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382811,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843285,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.2727532793828193,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843334,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.475737100821114,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3928254989826443,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081967,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-66",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.706009962047668,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.272753279382816,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.2786287846843287,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.272753279382807,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2786287846843238,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.47573710082111,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.392825498982639,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.032420185081962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-67",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7060099620476619,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 1.9452800605474025,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.1597592688177019,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.3677599844713995,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.4116381718083457,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.5792290314007684,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.53771420179416,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.1591828446465704,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-68",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.8834776854381128,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.5765637023503896,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.5780512788655263,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 1.9854735100021985,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.2160300980544165,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.2531478083601475,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3799708414786405,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.2244579988827313,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-69",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.9748629013687389,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4463310241298943,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3957255293568323,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4463310241298943,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3957255293568323,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1392622198758784,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.2205310176006632,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.061477436585386,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-70",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.7466901141524542,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4463310241299103,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3957255293568385,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4463310241298903,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3957255293568271,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.139262219875875,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.2205310176006587,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.0614774365853807,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-71",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.746690114152448,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.4463310241298903,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.3957255293568271,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.4463310241299103,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.3957255293568385,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.139262219875875,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.2205310176006587,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 3.0614774365853807,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-72",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.746690114152448,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.712008319082483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7044423651928875,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.7120083190825053,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.7044423651929013,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.0728693482286844,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3027564516564751,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.371591121469662,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-73",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.490497043060605,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.7120083190824893,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.704442365192891,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.7120083190824893,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.704442365192891,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.072869348228689,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.302756451656478,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.371591121469667,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-74",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.4904970430606082,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.7120083190825053,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7044423651929013,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.712008319082483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.7044423651928875,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.0728693482286844,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3027564516564751,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.371591121469662,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-75",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.490497043060605,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.712008319082483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7044423651928875,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.7120083190825053,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.7044423651929013,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.0728693482286844,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.3027564516564751,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.371591121469662,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-76",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.490497043060605,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.813383234927752,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.761212318066238,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.813383234927775,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.7612123180662522,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1503532387670483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.346147430357959,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.1503532387670483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-77",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.346147430357959,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.8133832349277585,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7612123180662416,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.8133832349277585,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.7612123180662416,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.150353238767053,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.346147430357962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.150353238767053,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-78",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.346147430357962,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.813383234927775,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.7612123180662522,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.813383234927752,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.761212318066238,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.1503532387670483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.346147430357959,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.1503532387670483,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-79",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.346147430357959,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "east",
+      "case": "maximum",
+      "ratio": 2.679683422193579,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "east",
+      "case": "minimum",
+      "ratio": 1.6863404229351013,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "west",
+      "case": "maximum",
+      "ratio": 2.679683422193601,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "west",
+      "case": "minimum",
+      "ratio": 1.686340422935115,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "north",
+      "case": "maximum",
+      "ratio": 2.0481624594355368,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "north",
+      "case": "minimum",
+      "ratio": 1.2889205939323127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "south",
+      "case": "maximum",
+      "ratio": 2.0481624594355368,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    },
+    {
+      "terminal": "SD-80",
+      "direction": "south",
+      "case": "minimum",
+      "ratio": 1.2889205939323127,
+      "ratio_in_range": true,
+      "status": "not_evaluated"
+    }
+  ],
+  "all_ratios_within_scope": false,
+  "ADPI_verified": false,
+  "design_accepted": false,
+  "scope": "Supplied source interval and declared applicability only; not measured/predicted ADPI, source authentication or full comfort acceptance; source bytes pinned, transcription and declared facts require independent review; evidence records do not set applicability facts automatically",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\adpi-settings.json": "c465bf2c517e0cb29680a2d45d991ba1d9736741753a3da034678417e1100e0e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\krueger-introduction.pdf": "5a3459034c1ab2fe89e2a28c2c498a39e80d88ee0e09bc0163a043ad4e494e49",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\category-review.json": "85f8edf680b74906c2f10a270f805edf76d84cdabb515dc7ae91c8efb2f0ebd5",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\classroom-table.png": "1984ce119f6283272c0a21c999818a532c7e2112f2f70d79e40ed7d0ff753231",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\krueger-introduction.png": "f55c8d71d3b4d43b2d25386690eff0b17fd926c1f6f48be7fbb078db3b8e3447",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\adpi_review.py": "d04be64a8b4381c0d2c3e01a4e8b28b23c4a475e1525bb340add579ba89e72f2",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\adpi_screen.py": "a1399b361efb655e8675aa57b89213a1eaa063abd1f870a24ed41f01d1266b34",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\workflow.json": "22964fcf18e592093842276b62e142d2dd1d9d36bb330cc3495a6497bd552938",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\terminal-lookup\\terminal-results.json": "301acd3d859b5f541c554c36735b2cacf9b58726ba83ac79e8a606e654ca659d"
+  },
+  "lookup_task": "terminal-lookup",
+  "settings_path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\adpi-settings.json",
+  "fact_evidence": {
+    "product_category_verified": [
+      {
+        "source": "..\\sources\\D002\\Space air diffusion design and air duct sizing.pdf",
+        "sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+        "locator": "p5 classroom example and2005 selection table",
+        "note": "Explicit course-specific1400-family mapping;retains classroom edition and stated bounds"
+      },
+      {
+        "source": "krueger-introduction.pdf",
+        "sha256": "5a3459034c1ab2fe89e2a28c2c498a39e80d88ee0e09bc0163a043ad4e494e49",
+        "locator": "B1-4 introduction and family heading",
+        "note": "Square-face,four-cone,round-neck louvered family;not a measured ADPI or later handbook category mapping"
+      },
+      {
+        "source": "category-review.json",
+        "sha256": "85f8edf680b74906c2f10a270f805edf76d84cdabb515dc7ae91c8efb2f0ebd5",
+        "locator": "findings and retained_unknowns",
+        "note": "Recorded interpretation and retained limits;reviewer assertion,not independent authentication"
+      },
+      {
+        "source": "classroom-table.png",
+        "sha256": "1984ce119f6283272c0a21c999818a532c7e2112f2f70d79e40ed7d0ff753231",
+        "locator": "Original lecture p5 inspected table render",
+        "note": "Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns"
+      },
+      {
+        "source": "krueger-introduction.png",
+        "sha256": "f55c8d71d3b4d43b2d25386690eff0b17fd926c1f6f48be7fbb078db3b8e3447",
+        "locator": "Manufacturer introduction inspected render",
+        "note": "Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns"
+      }
+    ]
+  },
+  "generator_sha256": "d04be64a8b4381c0d2c3e01a4e8b28b23c4a475e1525bb340add579ba89e72f2"
+}

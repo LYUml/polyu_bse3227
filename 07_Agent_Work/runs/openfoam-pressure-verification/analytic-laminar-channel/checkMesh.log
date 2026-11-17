@@ -1,0 +1,112 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/checkMesh.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\analytic-laminar-channel -allTopology -allGeometry
+Date   : Nov 16 2026
+Time   : 18:23:19
+Host   : "LYUML-WIN"
+PID    : 7248
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/analytic-laminar-channel
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Enabling all (cell, face, edge, point) topology checks.
+
+Enabling all geometry checks.
+
+Time = 0s
+
+Mesh stats
+    points:           3234
+    internal points:  0
+    edges:            7921
+    internal edges:   1457
+    internal edges using one boundary point:   0
+    internal edges using two boundary points:  1457
+    faces:            6224
+    internal faces:   2992
+    cells:            1536
+    faces per cell:   6
+    boundary patches: 4
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     1536
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Topological cell zip-up check OK.
+    Face-face connectivity OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    inlet               32       66       ok (non-closed singly connected)  
+    outlet              32       66       ok (non-closed singly connected)  
+    wall                96       196      ok (non-closed singly connected)  
+    frontAndBack        3072     3234     ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (0 0 0) (1 0.10000000000000002 0.010000000000000004)
+    Patch bounding boxes
+        inlet                (0 0 0) (0 0.10000000000000001 0.01)
+        outlet               (1 0 0) (1 0.10000000000000001 0.01)
+        wall                 (0 0 0) (1 0.10000000000000002 0.010000000000000002)
+        frontAndBack         (0 0 0) (1 0.10000000000000002 0.010000000000000004)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+    Max cell openness = 2.1684043449710084e-16 OK.
+    Max aspect ratio = 6.666666666666738 OK.
+    Minimum face area = 3.1249999999999743e-05. Maximum face area = 0.00020833333333333486.  Face area magnitudes OK.
+    Min volume = 6.5104166666665574e-07. Max volume = 6.510416666666748e-07.  Total volume = 0.0010000000000000195.  Cell volumes OK.
+    Mesh non-orthogonality Max: 0 average: 0
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 5.3290705182005999e-14 OK.
+    Coupled point location match (average 0) OK.
+    Face tets OK.
+    Min/max edge length = 0.0031249999999999611 0.020833333333333481 OK.
+    All angles in faces OK.
+    Face flatness (1 = flat, 0 = butterfly) : min = 0.99999999999999956  average = 1
+    All face flatness OK.
+    Cell determinant (wellposedness) : minimum: 0.17058612068967804 average: 0.82334531047181014
+    Cell determinant check OK.
+    Concave cell check OK.
+    Face interpolation weight : minimum: 0.4999999999999814 average: 0.49999999999999994
+    Face interpolation weight check OK.
+    Face volume ratio : minimum: 0.99999999999997269 average: 0.99999999999999989
+    Face volume ratio check OK.
+
+Mesh OK.
+
+End
+

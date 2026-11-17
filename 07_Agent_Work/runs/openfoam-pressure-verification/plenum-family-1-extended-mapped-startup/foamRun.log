@@ -1,0 +1,196 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/foamRun.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-extended-mapped-startup -solver incompressibleFluid
+Date   : Nov 17 2026
+Time   : 07:24:22
+Host   : "LYUML-WIN"
+PID    : 13888
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-extended-mapped-startup
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0.25
+
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kEpsilon
+RAS
+{
+    model           kEpsilon;
+    turbulence      on;
+    printCoeffs     on;
+    Cmu             0.089999999999999997;
+    C1              1.4399999999999999;
+    C2              1.9199999999999999;
+    C3              0;
+    sigmak          1;
+    sigmaEps        1.3;
+}
+
+No MRF models present
+
+Courant Number mean: 0.063505159370985886 max: 0.32772806632374885
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: No corrector convergence criteria found
+        Calculations will do 2 corrections
+
+
+PIMPLE: Operating solver in transient mode with 2 outer correctors
+
+
+
+Starting time loop
+
+surfaceFieldValue flux_inlet:
+    total faces  = 1368
+    total area   = 0.13430760000000136
+
+
+surfaceFieldValue flux_outlet_0:
+    total faces  = 484
+    total area   = 0.048688435422557963
+
+
+surfaceFieldValue flux_outlet_1:
+    total faces  = 484
+    total area   = 0.048688460702124639
+
+
+surfaceFieldValue flux_outlet_2:
+    total faces  = 484
+    total area   = 0.048690322631854965
+
+
+surfaceFieldValue flux_outlet_3:
+    total faces  = 484
+    total area   = 0.048690227327784136
+
+
+surfaceFieldValue pressure_inlet:
+    total faces  = 1368
+    total area   = 0.13430760000000136
+pressure_inlet average weight field phi
+
+surfaceFieldValue pressure_outlet_0:
+    total faces  = 484
+    total area   = 0.048688435422557963
+pressure_outlet_0 average weight field phi
+
+surfaceFieldValue pressure_outlet_1:
+    total faces  = 484
+    total area   = 0.048688460702124639
+pressure_outlet_1 average weight field phi
+
+surfaceFieldValue pressure_outlet_2:
+    total faces  = 484
+    total area   = 0.048690322631854965
+pressure_outlet_2 average weight field phi
+
+surfaceFieldValue pressure_outlet_3:
+    total faces  = 484
+    total area   = 0.048690227327784136
+pressure_outlet_3 average weight field phi
+
+surfaceFieldValue original_flux_0:
+    total faces  = 484
+    total area   = 0.048688435422557963
+
+
+surfaceFieldValue original_pressure_0:
+    total faces  = 484
+    total area   = 0.048688435422557963
+original_pressure_0 average weight field phi
+
+surfaceFieldValue original_flux_1:
+    total faces  = 484
+    total area   = 0.048688460702124639
+
+
+surfaceFieldValue original_pressure_1:
+    total faces  = 484
+    total area   = 0.048688460702124639
+original_pressure_1 average weight field phi
+
+surfaceFieldValue original_flux_2:
+    total faces  = 484
+    total area   = 0.048690322631854965
+
+
+surfaceFieldValue original_pressure_2:
+    total faces  = 484
+    total area   = 0.048690322631854965
+original_pressure_2 average weight field phi
+
+surfaceFieldValue original_flux_3:
+    total faces  = 484
+    total area   = 0.048690227327784136
+
+
+surfaceFieldValue original_pressure_3:
+    total faces  = 484
+    total area   = 0.048690227327784136
+original_pressure_3 average weight field phi
+
+
+
+--> FOAM FATAL ERROR: 
+surfaceFieldValue original_pressure_0: faceZone("original_outlet_0"):
+    Unable to process internal faces for volume field Pt
+
+
+    From function Foam::tmp<Foam::Field<Type> > Foam::functionObjects::fieldValues::surfaceFieldValue::filterField(Foam::VolField<Type>&) const [with Type = double; Foam::VolField<Type> = Foam::GeometricField<double, Foam::fvPatchField, Foam::volMesh>]
+    in file fieldValues/surfaceFieldValue/surfaceFieldValueTemplates.C at line 360.
+
+FOAM aborting
+
+Generating stack trace...
+
+
+Backtrace:
+	ZN10StackTraceC1Ev [0x7ffc61f21805+0x25]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\ThirdParty-12\platforms\mingw_w64Gcc122DPInt32\lib\libstack_trace.dll
+	ZN4Foam5error10printStackERNS_7OstreamE [0x7ffba141c0dc+0x23c]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libOpenFOAM.dll
+	ZN4Foam5error5abortEv [0x7ffba1186138+0x298]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libOpenFOAM.dll
+	ZNK4Foam15functionObjects11fieldValues17surfaceFieldValue11filterFieldIdEENS_3tmpINS_5FieldIT_EEEERKNS_14GeometricFieldIS6_NS_12fvPatchFieldENS_7volMeshEEE [0x7ffb9946c203+0x1d3]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libfieldFunctionObjects.dll
+	ZNK4Foam15functionObjects11fieldValues17surfaceFieldValue14getFieldValuesIdEENS_3tmpINS_5FieldIT_EEEERKNS_4wordE [0x7ffb9946dcd3+0xe3]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libfieldFunctionObjects.dll
+	ZN4Foam15functionObjects11fieldValues17surfaceFieldValue5writeEv [0x7ffb990e202e+0xc2e]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libfieldFunctionObjects.dll
+	ZN4Foam15functionObjects11timeControl5writeEv [0x7ffba12781fa+0xaa]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libOpenFOAM.dll
+	ZN4Foam18functionObjectList5startEv [0x7ffba126ba92+0xc2]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libOpenFOAM.dll
+	ZNK4Foam4Time3runEv [0x7ffba127b205+0x155]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\lib\libOpenFOAM.dll
+	(No symbol) [0x7ff7f9bc438b]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\bin\foamRun.exe
+	(No symbol) [0x7ff7f9bc12ee]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\bin\foamRun.exe
+	(No symbol) [0x7ff7f9bc1406]
+		 module: C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-runtime-files\app\OpenFOAM-12\platforms\mingw_w64Gcc122DPInt32Opt\bin\foamRun.exe
+	BaseThreadInitThunk [0x7ffc7d0ce8d7+0x17]
+		 module: C:\WINDOWS\System32\KERNEL32.DLL
+	RtlUserThreadStart [0x7ffc7efe8d9c+0x2c]
+		 module: C:\WINDOWS\SYSTEM32\ntdll.dll

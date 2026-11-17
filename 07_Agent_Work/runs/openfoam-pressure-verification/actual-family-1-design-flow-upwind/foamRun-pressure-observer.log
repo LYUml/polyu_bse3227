@@ -1,0 +1,135 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/foamRun.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\actual-family-1-design-flow-upwind
+Date   : Nov 16 2026
+Time   : 18:31:50
+Host   : "LYUML-WIN"
+PID    : 16424
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-upwind
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 10
+
+Selecting solver incompressibleFluid
+--> FOAM Warning : 
+    From function const Foam::HashTable<Foam::List<int>, Foam::word>& Foam::polyBoundaryMesh::groupPatchIndices() const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 506
+    Removing patchGroup 'wall' which clashes with patch 0 of the same name.
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+Selecting RAS turbulence model kOmegaSST
+RAS
+{
+    model           kOmegaSST;
+    turbulence      on;
+    printCoeffs     on;
+    alphaK1         0.84999999999999998;
+    alphaK2         1;
+    alphaOmega1     0.5;
+    alphaOmega2     0.85599999999999998;
+    gamma1          0.55555555555555558;
+    gamma2          0.44;
+    beta1           0.074999999999999997;
+    beta2           0.082799999999999999;
+    betaStar        0.089999999999999997;
+    a1              0.31;
+    b1              1;
+    c1              10;
+    F3              false;
+}
+
+No MRF models present
+
+Selecting patchDistMethod meshWave
+
+SIMPLE: No convergence criteria found
+
+
+SIMPLE: Operating solver in steady-state mode with 1 outer corrector
+SIMPLE: Operating solver in SIMPLE mode
+
+
+
+Starting time loop
+
+surfaceFieldValue flux_inlet:
+    total faces  = 1044
+    total area   = 0.13430760000000092
+
+
+surfaceFieldValue flux_outlet_0:
+    total faces  = 5880
+    total area   = 0.048763926286938229
+
+
+surfaceFieldValue flux_outlet_1:
+    total faces  = 5878
+    total area   = 0.048763926286938354
+
+
+surfaceFieldValue flux_outlet_2:
+    total faces  = 5878
+    total area   = 0.048763926286937979
+
+
+surfaceFieldValue flux_outlet_3:
+    total faces  = 5876
+    total area   = 0.048763926286937861
+
+
+surfaceFieldValue pressure_inlet:
+    total faces  = 1044
+    total area   = 0.13430760000000092
+pressure_inlet average weight field phi
+
+surfaceFieldValue pressure_outlet_0:
+    total faces  = 5880
+    total area   = 0.048763926286938229
+pressure_outlet_0 average weight field phi
+
+surfaceFieldValue pressure_outlet_1:
+    total faces  = 5878
+    total area   = 0.048763926286938354
+pressure_outlet_1 average weight field phi
+
+surfaceFieldValue pressure_outlet_2:
+    total faces  = 5878
+    total area   = 0.048763926286937979
+pressure_outlet_2 average weight field phi
+
+surfaceFieldValue pressure_outlet_3:
+    total faces  = 5876
+    total area   = 0.048763926286937861
+pressure_outlet_3 average weight field phi
+
+Time = 11s
+
+smoothSolver:  Solving for Ux, Initial residual = 0.03733065538415168, Final residual = 0.00039885763392830543, No Iterations 2
+smoothSolver:  Solving for Uy, Initial residual = 0.034764188930802242, Final residual = 0.0032566528020359373, No Iterations 1
+smoothSolver:  Solving for Uz, Initial residual = 0.064417561853008828, Final residual = 0.0062467341548458188, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.050956153164068881, Final residual = 0.0029154452300403427, No Iterations 2
+GAMG:  Solving for p, Initial residual = 0.01505792084889401, Final residual = 0.0013299031973526936, No Iterations 2
+GAMG:  Solving for p, Initial residual = 0.004648006176154836, Final residual = 0.00038307262475706822, No Iterations 4
+time step continuity errors : sum local = 0.013393018905204139, global = -1.9954256180783115e-14, cumulative = -1.9954256180783115e-14
+smoothSolver:  Solving for omega, Initial residual = 9.6020060667386241e-06, Final residual = 9.6020060667386241e-06, No Iterations 0
+smoothSolver:  Solving for k, Initial residual = 0.0099238966751240519, Final residual = 0.00094325570789530807, No Iterations 1
+ExecutionTime = 14.523999999999999 s  ClockTime = 14 s
+
+End
+

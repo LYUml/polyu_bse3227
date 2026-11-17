@@ -1,0 +1,35 @@
+{
+  "source_sha256": "5bc3e3291686deb5b16df8a5eeecb2b2b3edf5bfc7b9a27d25125e4e41b1a185",
+  "source_boundary_review_sha256": "7f8af9e66c4550808f55288d64815b74d435cfa5dd09703be59665d71cf25deb",
+  "output_sha256": "a34324d73e65a4d10abcc102451b06c0ed3388300d5e01e051bfbd811b550fd0",
+  "method_sha256": "404bc81e23246f99e2a8b9bbaed96cd53c24a2ff0e5db7c26b2d80ac7015b456",
+  "gmsh_version": "4.15.2",
+  "volume_cells": 265741,
+  "nodes": 126183,
+  "canonical_volume_connectivity_sha256": "e47d2cb162c147c0ca7c2c34f189148c41eaeed283e7ed7f7016281764e984f6",
+  "minimum_SICN": 4.976009600201703e-05,
+  "minimum_signed_volume_m3": 6.786172264261679e-09,
+  "maximum_coordinate_difference_m": 7.105427357601002e-15,
+  "prism_su2_to_gmsh_permutation": [
+    0,
+    2,
+    1,
+    3,
+    5,
+    4
+  ],
+  "all_volume_connectivity_preserved": true,
+  "all_boundary_names_and_orientations_preserved": true,
+  "boundary_face_counts": {
+    "outlet_0": 342,
+    "inlet": 792,
+    "outlet_2": 618,
+    "outlet_3": 342,
+    "outlet_4": 340,
+    "wall": 10646
+  },
+  "new_geometry_or_remeshing": false,
+  "target_solver_import_executed": false,
+  "engineering_accepted": false,
+  "scope": "Source-checked SU2 discrete mesh encoded with existing Gmsh API as MSH2.2; identifiers may renumber, geometry/connectivity/boundary correspondence checked. No OpenFOAM or pressure acceptance."
+}

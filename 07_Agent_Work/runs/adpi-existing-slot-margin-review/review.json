@@ -1,0 +1,40 @@
+{
+  "scope": "Existing separate63-slot1900 comparison; unchanged geometry/specs and full source event partition. No replacement of required1400 coursework; no measured or actual-load-interpolated ADPI.",
+  "inputs": {
+    "07_Agent_Work\\runs\\manufacturer-linear-slot-layout\\frame-b-clearance-corrected\\allocation.json": "fc90ccf1df1b80538e52aa37024da673294391436c14914e7875c9922263b317",
+    "07_Agent_Work\\runs\\manufacturer-linear-slot-layout\\frame-b-clearance-corrected\\Selected Linear Slot Schedule.json": "6446f25d3a3fe817e26dd277f53901eb394a54fb7fe10ce9348d9321811590e8",
+    "07_Agent_Work\\runs\\manufacturer-linear-slot-layout\\frame-b-clearance-corrected\\slot-count-event-sample-check.json": "c1802867ea8acc5da06b3432ede3edae07b30f8a63a9ce5d35c75342ee8696f9",
+    "07_Agent_Work\\runs\\manufacturer-type4-native-curves\\curves.json": "577147907a0895abb6c0e3d9c750829b1ef11966a684db5846326a2a7f3f45ef",
+    "07_Agent_Work\\project\\bse3227-column-row-candidate\\office-boundary.geojson": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617"
+  },
+  "characteristic_length_method": "Planar wall or opposing-slot midplane; NO added ceiling/occupied-zone distance. ASHRAE2023Applications chapter58Table5 ceiling-slot row; troffer addition not transferred.",
+  "terminal_count": 63,
+  "curve_checks": 1624,
+  "all_source_domain_and_paired80_checks_pass": true,
+  "minimum_source_curve_lower_ADPI": 80.08167416430112,
+  "critical": {
+    "terminal": "main-3-2",
+    "selected": "0.5inch-8slots",
+    "sample_y_m": 18.822983999999998,
+    "direction": "west",
+    "condition": "maximum",
+    "load_Btuh_ft2": 60,
+    "L_m": 5.579999999999998,
+    "T050_m": 8.021818315151775,
+    "status": "paired_curve_threshold_met",
+    "ratio": 1.4376018485935085,
+    "represented_ADPI": 80.33376386584789,
+    "stroke_margin_lower_ADPI": 80.08167416430112
+  },
+  "exact_2D_event_partition": "Axis-aligned source boundary and vertical finite slots verified. Events include every boundary vertex and opposing segment endpoint; interval lengths are constant. Not continuous3D flow or occupied-zone performance.",
+  "source_load_pair_assumption": "40/60Btuh-ft2 at maximum,20/40at minimum; both endpoint curves pass. This does not mathematically prove intermediate-load monotonicity.",
+  "ADPI_measured": false,
+  "actual_load_interpolation_verified": false,
+  "coursework_1400_replaced": false,
+  "formal_coursework_package_changed": false,
+  "remaining": [
+    "1900differs from required1400/51400series",
+    "Ordered48inch vs4ftactive correspondence is a coursework specification assumption",
+    "Inlet/plenum and installation remain outside terminal-performance check"
+  ]
+}

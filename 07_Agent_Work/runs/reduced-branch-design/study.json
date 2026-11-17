@@ -1,0 +1,614 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-native-fitting-analysis\\fitting-data.json": "437dd26b5aeec5a4a95bfa3cc09009765edf458557d00be14b4c6b84aa77c824",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\reduced-branch-study\\run_study.py": "2d4c0186f8caa5e0c7092671a507ee6a9f1723602276f9c0a8b76bca3f928480",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-003\\tee.json": "75fb6e20f29d2aa979620fc9466558350cb759851182be5c5eaa5d8482c19135",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-003\\project.json": "256c34b14bac46a9355218edfdc79934b60c425339348f995a80c32c4e272811",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-003\\binding.json": "9e86c059c5653f6edd9ba62b86dbe596c30157ef86b4c99e8a1ede06957cc9f7",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-003\\branch\\transition.ifc": "d53326926d6310ff6a124ae489da43d4f078845068bb45561a8743185960b6ce",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-004\\tee.json": "e1d6ac6839dd1c27e7a2275edad6172d600fad8bdddfd8fb75344dcea81adeb7",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-004\\project.json": "df9cb7a521ab27e8ffec9b88fb7d895b8770ab2b16807f0c3a1ad26e4dec466c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-004\\binding.json": "e0a0bfb054f65f4e89b543aa2f1bf260edb1bae2e4478e3d26ba0fb47e5b32ee",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-004\\branch\\transition.ifc": "df3d7d52326ac42fe9f66316370c01d46cd9f884867bd60609cc5322f84894e2",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-005\\tee.json": "94689d532793ecfb5b900ef3da5dd40745a6785cdd9ef4f32789620538931590",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-005\\project.json": "19906c90149c4b774e2ca7cada73227affdcb153c2f059138355896133859452",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-005\\binding.json": "597639e139b2c88927d041c9ed81d6b471feb0697e252a53706b2917c237ee88",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-005\\branch\\transition.ifc": "1a6de5cfb6c9e5354f8c144339f445fe96036c4194618d062f1a57b27e932fc4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-006\\tee.json": "c2c95006c9eca46ba31072acba82b7ca96e477d3d749e0151139783c21b26c11",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-006\\project.json": "76f1a1df14203ed8fe47d80dc5fb4fe4bdc3c0bbb6de46bd232b1a10eb5843b3",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-006\\binding.json": "752fa81c55b6c70a0d835215ef8f9957e4247c4bd871cb19d2300a535c3e9aaf",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-006\\branch\\transition.ifc": "626728abb2ca4eff7f8aba200c4e8fcffc3c3d7c9984ac89d22a02a4b704f9f4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-007\\tee.json": "c59fab684f70e9632c5b9cca985d54ca2fc2fd874e4524e928b4c340a07be580",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-007\\project.json": "1f85cc0082776f0554b430a191e40f3e955ebbf6cc0156e04cdadf27acb41e6c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-007\\binding.json": "d435fbbc482f199581a689bac35b6ad53e784097ce16ca5945624f47efc1c9be",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-007\\branch\\transition.ifc": "d1fcbe088c321f46cbf46ad9800f019dee1f2d6be472aac70bb97fb6c05bde7a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-008\\tee.json": "74a1dabdbd74673977091e8b98abdfbc043e7f4c856f164fc980a00f425b01ae",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-008\\project.json": "64f6874c5d09c6567cdc23a233393da55917e9b37b1603ec1c7ad14e8991bb1e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-008\\binding.json": "c09cbaabf8228cde5303d90a9c59ac2f8e79bbbb31e7352995fe82c2f5e3ba40",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-008\\branch\\transition.ifc": "015c5e160aa81dd32ce396cbe424221e2e05eff9efc101acc6b57abbf6d21082",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-009\\tee.json": "e87f3d78f17b78f7cde99196be4c6213870854109dc4cc3a625caf28b3eb5a80",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-009\\project.json": "60aee818500c08d0a4fda2d3bbb65984ee5ffb4d74e5ebf1198da08d61cd4a4f",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-009\\binding.json": "b30bdd5a982b683286bc0670a62147ab98133d27bdb1b096a4bf9c269469c4d5",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-009\\branch\\transition.ifc": "d23906835c4eb10f4acdbfdcfd5e2b0a9c3c15bcdfd29e083cc78cf7f319729b",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-010\\tee.json": "c572d6cc7b84d7e3e0a9f9ffb38ea46d9ae749daefbe75bc450c33d592f6d4d0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-010\\project.json": "4f118e3229e8aaa46539eec84641b79632ffa13d3bd7c250306b72f1dc0d8ecd",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-010\\binding.json": "4e3384f846ce613c2c3e3c2afa9c5c2a2bd1119199d9a883e43f1f8a044b26b8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-010\\branch\\transition.ifc": "72250047a0594372588274f0779e0884cc8d1d0cfabe5281f22f8a906d974f77",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-011\\tee.json": "38fc0082a58749a7ecaa1d9f5f7bae3663873731de77e77270ae305c2944e97b",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-011\\project.json": "d5ffa26019053861797171db8ee983359b07f6f21eb6341c78c1ad665e051088",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-011\\binding.json": "2272a32965823c7d95ec06bf54f019742379b7fccf4c73549ace9802b7d36695",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-011\\branch\\transition.ifc": "2abfefb926f01b9f079057c8712d35d57e11613165e7ca679e85a8b91c13053c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-012\\tee.json": "90259a69aadf8003bb2bb5e8f36e9de400ffdb336173815053b2d426ce419ed1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-012\\project.json": "7439d059029a6a25a7bc2dd8a1344c3a349365ebc8f593e80c6fd0ae6650328c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-012\\binding.json": "637873eb6b6df65e1aa689029ed5a5a08550fb3fd5816ba6f6f3dcc10fdcfe77",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-012\\branch\\transition.ifc": "49a5040de4d074a32b2d82bcf1b9351bd24dc1360283014ce9cee7f5c5cc3537",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-013\\tee.json": "9f616805674bac49b015121fa616e6f81a14705d383e4d2a4ebaed81daaf9d9a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-013\\project.json": "58be7b5644c366b5591df897a26ee7c4f4f2e40825188936135b527787c659dc",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-013\\binding.json": "e456888a551228f8fe11f1b2d9ec7297df31300a5b20ba3f911be663b028ce0d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-013\\branch\\transition.ifc": "c41a2fa695ed171d3d553c4c7bcc895b489de0e77e3a2ac392050ec004839467",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-014\\tee.json": "44cc89a784f5480d85ed4fb4e9d10df826cf3191034ce95b808965fd41a1deaa",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-014\\project.json": "9ed8a9b145611f46f23b29c14e048bf347a76173f17f75805da8d0836b454dfe",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-014\\binding.json": "c8c2791414059c1a12765142f5d1db046c7ad68ad6b0f0cd925c2f138f006e38",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-014\\branch\\transition.ifc": "266ce7d8a146dcfd44a5c3d7030b826a4cddb155485449c401f7cbf2d6e0b7a6",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-015\\tee.json": "889972f249cf43a4002af378c10c4a2c05d46463081cabcc30044dfce5f3dc48",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-015\\project.json": "82b67f61120540a2884473e2757b0b5534eeedc83929949f861a1cc96e65c200",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-015\\binding.json": "fa9c83f53e7da4fab2ea07bc6a238db0bd6e471a8571d6f5f4cb351a6e0a46d1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-015\\branch\\transition.ifc": "1e967836bf5cd0aa4657d82fda7d0730aaed5cd5c64ef54342009d0b541d94e9"
+  },
+  "cases": [
+    {
+      "node": "TAP-VAV-02",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.35
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.3799038105676658,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0013692864687455196,
+        "independent_material_volume_m3": 0.0013692864687454287,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-02\\native\\result.json",
+      "native_ifc_sha256": "ce6e60afe4bf0da1368b6c91caf68ad7b8052fd18bc0fcc6b96221360a5fa877",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-03",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.6,
+        0.4
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.5665063509461098,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0018920868132406407,
+        "independent_material_volume_m3": 0.0018920868132423219,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-03\\native\\result.json",
+      "native_ifc_sha256": "2008a4ba9ce5380d11b0d1e970f4a649b80489bbc7dabd0b83c6381ac14bf2a3",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-04",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.6,
+        0.4
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.5665063509461098,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0018920868132406407,
+        "independent_material_volume_m3": 0.0018920868132423219,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-04\\native\\result.json",
+      "native_ifc_sha256": "edf8658d83162e00aed6405c49481a3bb1fa744f801aaa2847fcf47e7626621e",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "calculated",
+        "coefficient": 1.1503802141816732,
+        "support_indexes": [
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "signed_conditional_loss_Pa": 36.525890382597765,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-05",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.35
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.3799038105676658,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0013692864687455196,
+        "independent_material_volume_m3": 0.0013692864687454287,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-05\\native\\result.json",
+      "native_ifc_sha256": "9501aeb1deaa8cfed8b406193107156a969b8694618866b4f1833df28ff75672",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-08",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.45,
+        0.4
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.2866025403784439,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.001203886296495738,
+        "independent_material_volume_m3": 0.0012038862964969532,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-08\\native\\result.json",
+      "native_ifc_sha256": "59d1ea0ce644e12042b457d8801d1e63315874da1b4e9c9a739bf2f32b29bb3f",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-09",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.55,
+        0.45
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.47320508075688783,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0017146866409942017,
+        "independent_material_volume_m3": 0.0017146866409938621,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-09\\native\\result.json",
+      "native_ifc_sha256": "f0ed616381f6eee8d7e6f5362af7f55cd91e10c926c4833ee8ed1fe7e2c2bfda",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-10",
+      "branch_section_m": [
+        0.45,
+        0.25
+      ],
+      "original_core_section_m": [
+        0.55,
+        0.45
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.4732050807568877,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0017544790474589345,
+        "independent_material_volume_m3": 0.0017544790474544603,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-10\\native\\result.json",
+      "native_ifc_sha256": "09fdba279121e17c47ff95bbe7858521b1bcab787ef7ed0c70976a845b172927",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-11",
+      "branch_section_m": [
+        0.45,
+        0.25
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.35
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.28660254037844385,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0012968784997302407,
+        "independent_material_volume_m3": 0.0012968784997272054,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-11\\native\\result.json",
+      "native_ifc_sha256": "552d0f882427d26689c5af82919dfb4f8e442491078b6773187ad0c0f60f4be8",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-14",
+      "branch_section_m": [
+        0.4,
+        0.25
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.35
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.28660254037844385,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.001276014296495832,
+        "independent_material_volume_m3": 0.00127601429649693,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-14\\native\\result.json",
+      "native_ifc_sha256": "cad6ea5517b29d9ba8280593545b6cead4f175cc1c4fe49bf59017a5fc0b5330",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-15",
+      "branch_section_m": [
+        0.4,
+        0.25
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.45
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.4732050807568877,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0015825586409923473,
+        "independent_material_volume_m3": 0.0015825586409938808,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-15\\native\\result.json",
+      "native_ifc_sha256": "531b0b15aecb92c0ecfacd0b7ed6be655afc408b7b3867a05b3182eadf9e37ca",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-16",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.6,
+        0.4
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.5665063509461098,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.00189208681324445,
+        "independent_material_volume_m3": 0.0018920868132423219,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-16\\native\\result.json",
+      "native_ifc_sha256": "516c6bcb7ee2ae89b3d3ca395547e084b71f7fa9c40e344e0b473507aa786250",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-17",
+      "branch_section_m": [
+        0.35,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.35
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.3799038105676658,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0013692864687441368,
+        "independent_material_volume_m3": 0.0013692864687454287,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-17\\native\\result.json",
+      "native_ifc_sha256": "6e61422ffbae1ecca6cf34b564f7bfe93b76234f402edfdfb3a1d8c93f005470",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    },
+    {
+      "node": "TAP-VAV-19",
+      "branch_section_m": [
+        0.4,
+        0.3
+      ],
+      "original_core_section_m": [
+        0.5,
+        0.4
+      ],
+      "original_external_endpoint_preserved": true,
+      "main_core_frames_preserved": true,
+      "removed_separate_transition_length_m": 0.2866025403784439,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 3,
+        "native_material_volume_m3": 0.0013468784997259793,
+        "independent_material_volume_m3": 0.0013468784997271999,
+        "euler_characteristic": -2,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "native_profiles_and_port_frames_verified": true
+      },
+      "native_result": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design\\TAP-VAV-19\\native\\result.json",
+      "native_ifc_sha256": "daec7bede9c8260ec2ca106b255a912d4f1e551fcf21cec715999c20a283feba",
+      "original_query_status": "pending",
+      "revised_query": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": []
+      },
+      "signed_conditional_loss_Pa": null,
+      "full_pressure_verified": false,
+      "physical_applicability_verified": false
+    }
+  ],
+  "candidate_count": 13,
+  "branch_transitions_removed_in_local_candidates": 13,
+  "complete_parent_network_modified": false,
+  "original_requirement_ids": [
+    "R001-identity",
+    "R002-identity",
+    "R003-identity",
+    "R004-identity",
+    "R004-layout",
+    "R004-routing",
+    "R005-delivery",
+    "R006-load",
+    "R006-layout",
+    "R006-terminal",
+    "R006-adpi",
+    "R007-load",
+    "R007-layout",
+    "R007-terminal",
+    "R007-adpi",
+    "R008-minimum",
+    "R009-minimum",
+    "R009-terminal",
+    "R009-adpi",
+    "R010-routing",
+    "R011-routing",
+    "R011-delivery",
+    "R012-sizing",
+    "R013-sizing",
+    "R014-schedule",
+    "R014-delivery",
+    "producer-air-allocation-P007",
+    "producer-terminal-lookup-P007",
+    "producer-terminal-lookup-P009",
+    "producer-duct-schedule-P013",
+    "producer-duct-sheet-P011",
+    "producer-native-sheet-P011",
+    "hk-flex-check"
+  ],
+  "conditional_branch_values": 1,
+  "original_source_pressure_gaps_remain": 45,
+  "design_accepted": false,
+  "scope": "Isolated source-linked geometry revisions preserve branch external and core main end frames. Main-arm transitions remain in original models. No whole-network merge, collision, full pressure, CAD or installation acceptance."
+}

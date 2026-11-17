@@ -1,0 +1,670 @@
+{
+  "network_bodies": 136,
+  "ports": 291,
+  "links": 135,
+  "native_rectangular_material_interfaces": 115,
+  "native_circular_material_interfaces": 20,
+  "schema_EXPRESS_errors": 0,
+  "both_flow_cases": {
+    "maximum": {
+      "ports": 291,
+      "straight_sections": 65,
+      "fitting_paths": 90,
+      "conditional_values": 66,
+      "numerical_gaps": 24,
+      "outlet_paths": 20,
+      "inlet_m3_s": 12.000372763419485
+    },
+    "minimum": {
+      "ports": 291,
+      "straight_sections": 65,
+      "fitting_paths": 90,
+      "conditional_values": 66,
+      "numerical_gaps": 24,
+      "outlet_paths": 20,
+      "inlet_m3_s": 4.800149105367794
+    }
+  },
+  "original_requirement_ids_retained": 33,
+  "reduced_branch_crosses": 1,
+  "new_expanders": 2,
+  "downstream_straights_trimmed": 2,
+  "trim_each_m": 0.859575411272515,
+  "source_inlet_datums_unchanged": 20,
+  "raw_intersections": 0,
+  "raw_unwaived_clearance_findings": 135,
+  "candidate_space_model_elements": 216,
+  "network_plus_casing_intersections": 0,
+  "nonphysical_reservations_excluded": 60,
+  "independent_new_coefficient_queries": 10,
+  "independent_Decimal_matches": true,
+  "native_DWG_reopened": true,
+  "native_entity_count": 23968,
+  "actual_PDF_visually_inspected": true,
+  "actual_PDF_review": "Actual final network material section viewed;20labels,title,notes and print reference readable;not installed elevation or architectural acceptance",
+  "print_reference_measured_mm": 49.99566666666666,
+  "native20labels_reconcile": true,
+  "close_coupled_interaction_verified": false,
+  "full_pressure_verified": false,
+  "installed_clearance_verified": false,
+  "design_accepted": false,
+  "deliverable_sha256": {
+    "Candidate Equipment Spaces.ifc": "8bb38a0044157dec1d5dfa2eb8a5d72d2ade7ba5a87459039cfb1a6cf43cb485",
+    "Supply Network with Staged Transitions.dwg": "f0f390e24775d9246067b8b430a16aea0c689a023ea590377b533b57696ce485",
+    "Supply Network with Staged Transitions.ifc": "371ec8965d2cd73f7e45876048e311e806d16554f2acc99e813c66845d981f7b",
+    "Supply Network with Staged Transitions.pdf": "847a9326149069e1d5ceec2b3d195d7166d58191549d373a5d8928f2e8440d59"
+  },
+  "new_conditional_queries": [
+    {
+      "condition": "maximum",
+      "product_guid": "2qLFw7bETM59i3mPyoprok",
+      "outlet_port_guid": "3FL4fytHLPpvTyR6Z9Wbzb",
+      "coefficient": 0.061176470588235284,
+      "reference_port_guid": "1fcDJObUvUyh3gMd7Vg0_2",
+      "conditional_Pa": 0.41389451442654956,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 1.0,
+        "outlet_to_inlet_area_ratio": 1.3076923076923075,
+        "inlet_to_outlet_area_ratio": 0.7647058823529412,
+        "outlet_to_inlet_width_ratio": 1.3076923076923077,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.7647058823529413,
+        "inlet_aspect_ratio": 0.7647058823529412,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0,
+        "taper_length_m": 0.759575411272515,
+        "inlet_straight_length_m": 0.05,
+        "outlet_straight_length_m": 0.050000000000000044,
+        "total_length_m": 0.8595754112725151,
+        "taper_width_angle_deg": 14.999999999999996,
+        "taper_height_angle_deg": 0.0,
+        "major_taper_angle_deg": 14.999999999999996,
+        "taper_angle_difference_deg": 14.999999999999996,
+        "outlet_hydraulic_diameter_m": 0.85,
+        "taper_length_over_outlet_hydraulic_diameter": 0.8936181309088412,
+        "total_length_over_outlet_hydraulic_diameter": 1.0112651897323708
+      },
+      "citation": "Printed19,Fitting4-2 expansion Ao/A1=.5,1;unambiguous10,15,45degree columns"
+    },
+    {
+      "condition": "maximum",
+      "product_guid": "0jYRsv3EbJ$hyweSBF1ZlT",
+      "outlet_port_guid": "1hVEBxZiDS$PuechORmMat",
+      "coefficient": 0.061176470588235284,
+      "reference_port_guid": "3IgYCafE1IrPEbmr7GO8at",
+      "conditional_Pa": 0.413894514426549,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 1.0,
+        "outlet_to_inlet_area_ratio": 1.3076923076923075,
+        "inlet_to_outlet_area_ratio": 0.7647058823529412,
+        "outlet_to_inlet_width_ratio": 1.3076923076923077,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.7647058823529412,
+        "inlet_aspect_ratio": 0.7647058823529412,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0,
+        "taper_length_m": 0.759575411272515,
+        "inlet_straight_length_m": 0.05,
+        "outlet_straight_length_m": 0.050000000000000044,
+        "total_length_m": 0.8595754112725151,
+        "taper_width_angle_deg": 14.999999999999996,
+        "taper_height_angle_deg": 0.0,
+        "major_taper_angle_deg": 14.999999999999996,
+        "taper_angle_difference_deg": 14.999999999999996,
+        "outlet_hydraulic_diameter_m": 0.85,
+        "taper_length_over_outlet_hydraulic_diameter": 0.8936181309088412,
+        "total_length_over_outlet_hydraulic_diameter": 1.0112651897323708
+      },
+      "citation": "Printed19,Fitting4-2 expansion Ao/A1=.5,1;unambiguous10,15,45degree columns"
+    },
+    {
+      "condition": "maximum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+      "coefficient": 0.10607556490345074,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 6.324649221743334,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.48481108774137316,
+        "outlet_to_inlet_area_ratio": 1.0,
+        "inlet_to_outlet_area_ratio": 1.0,
+        "outlet_to_inlet_width_ratio": 1.0,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.48481108774137316,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    },
+    {
+      "condition": "maximum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+      "coefficient": 0.929091569039858,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 55.39615343462642,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.2575944561293135,
+        "outlet_to_inlet_area_ratio": 0.7647058823529412,
+        "inlet_to_outlet_area_ratio": 1.3076923076923075,
+        "outlet_to_inlet_width_ratio": 0.7647058823529412,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.3368542887844868,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 0.7647058823529412,
+        "deflection_deg": 90.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    },
+    {
+      "condition": "maximum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+      "coefficient": 0.9290915690398582,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 55.396153434626434,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.2575944561293133,
+        "outlet_to_inlet_area_ratio": 0.7647058823529412,
+        "inlet_to_outlet_area_ratio": 1.3076923076923075,
+        "outlet_to_inlet_width_ratio": 0.7647058823529412,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.3368542887844866,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 0.7647058823529412,
+        "deflection_deg": 90.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    },
+    {
+      "condition": "minimum",
+      "product_guid": "2qLFw7bETM59i3mPyoprok",
+      "outlet_port_guid": "3FL4fytHLPpvTyR6Z9Wbzb",
+      "coefficient": 0.061176470588235284,
+      "reference_port_guid": "1fcDJObUvUyh3gMd7Vg0_2",
+      "conditional_Pa": 0.06622312230824796,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 1.0,
+        "outlet_to_inlet_area_ratio": 1.3076923076923075,
+        "inlet_to_outlet_area_ratio": 0.7647058823529412,
+        "outlet_to_inlet_width_ratio": 1.3076923076923077,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.7647058823529411,
+        "inlet_aspect_ratio": 0.7647058823529412,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0,
+        "taper_length_m": 0.759575411272515,
+        "inlet_straight_length_m": 0.05,
+        "outlet_straight_length_m": 0.050000000000000044,
+        "total_length_m": 0.8595754112725151,
+        "taper_width_angle_deg": 14.999999999999996,
+        "taper_height_angle_deg": 0.0,
+        "major_taper_angle_deg": 14.999999999999996,
+        "taper_angle_difference_deg": 14.999999999999996,
+        "outlet_hydraulic_diameter_m": 0.85,
+        "taper_length_over_outlet_hydraulic_diameter": 0.8936181309088412,
+        "total_length_over_outlet_hydraulic_diameter": 1.0112651897323708
+      },
+      "citation": "Printed19,Fitting4-2 expansion Ao/A1=.5,1;unambiguous10,15,45degree columns"
+    },
+    {
+      "condition": "minimum",
+      "product_guid": "0jYRsv3EbJ$hyweSBF1ZlT",
+      "outlet_port_guid": "1hVEBxZiDS$PuechORmMat",
+      "coefficient": 0.061176470588235284,
+      "reference_port_guid": "3IgYCafE1IrPEbmr7GO8at",
+      "conditional_Pa": 0.06622312230824788,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 1.0,
+        "outlet_to_inlet_area_ratio": 1.3076923076923075,
+        "inlet_to_outlet_area_ratio": 0.7647058823529412,
+        "outlet_to_inlet_width_ratio": 1.3076923076923077,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.7647058823529411,
+        "inlet_aspect_ratio": 0.7647058823529412,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0,
+        "taper_length_m": 0.759575411272515,
+        "inlet_straight_length_m": 0.05,
+        "outlet_straight_length_m": 0.050000000000000044,
+        "total_length_m": 0.8595754112725151,
+        "taper_width_angle_deg": 14.999999999999996,
+        "taper_height_angle_deg": 0.0,
+        "major_taper_angle_deg": 14.999999999999996,
+        "taper_angle_difference_deg": 14.999999999999996,
+        "outlet_hydraulic_diameter_m": 0.85,
+        "taper_length_over_outlet_hydraulic_diameter": 0.8936181309088412,
+        "total_length_over_outlet_hydraulic_diameter": 1.0112651897323708
+      },
+      "citation": "Printed19,Fitting4-2 expansion Ao/A1=.5,1;unambiguous10,15,45degree columns"
+    },
+    {
+      "condition": "minimum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+      "coefficient": 0.10607556490345074,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 1.0119438754789334,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.48481108774137316,
+        "outlet_to_inlet_area_ratio": 1.0,
+        "inlet_to_outlet_area_ratio": 1.0,
+        "outlet_to_inlet_width_ratio": 1.0,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.48481108774137316,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 1.0,
+        "deflection_deg": 0.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    },
+    {
+      "condition": "minimum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+      "coefficient": 0.929091569039858,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 8.863384549540228,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.2575944561293135,
+        "outlet_to_inlet_area_ratio": 0.7647058823529412,
+        "inlet_to_outlet_area_ratio": 1.3076923076923075,
+        "outlet_to_inlet_width_ratio": 0.7647058823529412,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.33685428878448687,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 0.7647058823529412,
+        "deflection_deg": 90.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    },
+    {
+      "condition": "minimum",
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+      "coefficient": 0.9290915690398582,
+      "reference_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "conditional_Pa": 8.86338454954023,
+      "native_quantities": {
+        "outlet_to_inlet_flow_ratio": 0.2575944561293133,
+        "outlet_to_inlet_area_ratio": 0.7647058823529412,
+        "inlet_to_outlet_area_ratio": 1.3076923076923075,
+        "outlet_to_inlet_width_ratio": 0.7647058823529412,
+        "outlet_to_inlet_height_ratio": 1.0,
+        "outlet_to_inlet_velocity_ratio": 0.33685428878448664,
+        "inlet_aspect_ratio": 1.0,
+        "outlet_aspect_ratio": 0.7647058823529412,
+        "deflection_deg": 90.0
+      },
+      "citation": "Printed47/48,Fitting5-35 diverging instruction to5-23;printed38main/39theta90branch"
+    }
+  ],
+  "native_cross_reader_sha256": "cf4eaf850184d3b5f9de7b262d6e156d234d8250086ae25070d950ec543e2845",
+  "native_cross_controls_passed": 7,
+  "upstream_commit": "94247560a667905bfbf67e45a58965a58254fce8",
+  "upstream_selected_branch_cells_match": true,
+  "upstream_main_used": false,
+  "pressure_rows": [
+    {
+      "condition": "maximum",
+      "vav": "VAV-01",
+      "flow_L_s": 575.6751425686068,
+      "straight_Pa": 30.40122095936102,
+      "conditional_signed_fitting_Pa": 114.16805109140303,
+      "missing_fitting_paths": 5,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-02",
+      "flow_L_s": 584.4445324089027,
+      "straight_Pa": 22.489668580440288,
+      "conditional_signed_fitting_Pa": 106.62145179339748,
+      "missing_fitting_paths": 5,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-03",
+      "flow_L_s": 585.7640575548338,
+      "straight_Pa": 15.188280964230087,
+      "conditional_signed_fitting_Pa": 105.12911885793766,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-04",
+      "flow_L_s": 616.7344607577531,
+      "straight_Pa": 16.084755740771993,
+      "conditional_signed_fitting_Pa": 141.72345571727072,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-05",
+      "flow_L_s": 590.1648406958004,
+      "straight_Pa": 22.12936974452534,
+      "conditional_signed_fitting_Pa": 107.40330896824521,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-06",
+      "flow_L_s": 538.984439400712,
+      "straight_Pa": 29.25471993372633,
+      "conditional_signed_fitting_Pa": 115.6282887744676,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-07",
+      "flow_L_s": 618.4264111528702,
+      "straight_Pa": 24.504949548667703,
+      "conditional_signed_fitting_Pa": 110.29411602352818,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-08",
+      "flow_L_s": 618.4264111528702,
+      "straight_Pa": 16.73431426671762,
+      "conditional_signed_fitting_Pa": 101.91070071652923,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-09",
+      "flow_L_s": 618.4264111528714,
+      "straight_Pa": 8.978006630726092,
+      "conditional_signed_fitting_Pa": 100.33734764717097,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-10",
+      "flow_L_s": 652.0041910874131,
+      "straight_Pa": 9.893862797678743,
+      "conditional_signed_fitting_Pa": 100.41698228373801,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-11",
+      "flow_L_s": 623.2232368578052,
+      "straight_Pa": 16.781268604411945,
+      "conditional_signed_fitting_Pa": 102.87352377631177,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-12",
+      "flow_L_s": 580.0518055133923,
+      "straight_Pa": 23.97830362640172,
+      "conditional_signed_fitting_Pa": 110.20795785375516,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-13",
+      "flow_L_s": 551.782171001471,
+      "straight_Pa": 19.68879000951159,
+      "conditional_signed_fitting_Pa": 55.38885898268671,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-14",
+      "flow_L_s": 556.0038885923348,
+      "straight_Pa": 12.581392737743176,
+      "conditional_signed_fitting_Pa": 47.61837013627556,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-15",
+      "flow_L_s": 557.5747590274335,
+      "straight_Pa": 5.84592647450161,
+      "conditional_signed_fitting_Pa": 45.24718951193634,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-16",
+      "flow_L_s": 586.8557568983574,
+      "straight_Pa": 5.56006807887941,
+      "conditional_signed_fitting_Pa": 44.45817100332212,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-17",
+      "flow_L_s": 585.0748294418718,
+      "straight_Pa": 11.66435456652134,
+      "conditional_signed_fitting_Pa": 46.5872236195244,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-18",
+      "flow_L_s": 540.1204816346908,
+      "straight_Pa": 18.497929322927348,
+      "conditional_signed_fitting_Pa": 54.80900731946623,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-19",
+      "flow_L_s": 718.0147332359453,
+      "straight_Pa": 17.364575490987733,
+      "conditional_signed_fitting_Pa": 54.25467919678113,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "maximum",
+      "vav": "VAV-20",
+      "flow_L_s": 702.6202032835482,
+      "straight_Pa": 23.202588866005655,
+      "conditional_signed_fitting_Pa": 99.10861081982712,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-01",
+      "flow_L_s": 230.27005702744273,
+      "straight_Pa": 5.571076145365618,
+      "conditional_signed_fitting_Pa": 18.97066006003264,
+      "missing_fitting_paths": 5,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-02",
+      "flow_L_s": 233.7778129635611,
+      "straight_Pa": 4.10003997384238,
+      "conditional_signed_fitting_Pa": 17.356723185653472,
+      "missing_fitting_paths": 5,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-03",
+      "flow_L_s": 234.30562302193357,
+      "straight_Pa": 2.7536205972496006,
+      "conditional_signed_fitting_Pa": 17.119440292947683,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-04",
+      "flow_L_s": 246.6937843031013,
+      "straight_Pa": 2.917782051751685,
+      "conditional_signed_fitting_Pa": 23.010773989952828,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-05",
+      "flow_L_s": 236.06593627832018,
+      "straight_Pa": 4.037846174569807,
+      "conditional_signed_fitting_Pa": 17.488312791596694,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-06",
+      "flow_L_s": 215.59377576028479,
+      "straight_Pa": 5.364607499968717,
+      "conditional_signed_fitting_Pa": 19.127533257537067,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-07",
+      "flow_L_s": 247.37056446114812,
+      "straight_Pa": 4.50031730507559,
+      "conditional_signed_fitting_Pa": 18.168874834691056,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-08",
+      "flow_L_s": 247.37056446114812,
+      "straight_Pa": 3.0557045098381224,
+      "conditional_signed_fitting_Pa": 16.64278321476132,
+      "missing_fitting_paths": 4,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-09",
+      "flow_L_s": 247.37056446114858,
+      "straight_Pa": 1.6272245065027453,
+      "conditional_signed_fitting_Pa": 16.391046723663997,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-10",
+      "flow_L_s": 260.80167643496526,
+      "straight_Pa": 1.7946863002831595,
+      "conditional_signed_fitting_Pa": 16.446002023916726,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-11",
+      "flow_L_s": 249.28929474312213,
+      "straight_Pa": 3.0676447708059835,
+      "conditional_signed_fitting_Pa": 16.802686818406475,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-12",
+      "flow_L_s": 232.02072220535695,
+      "straight_Pa": 4.405551856205711,
+      "conditional_signed_fitting_Pa": 18.34964690299096,
+      "missing_fitting_paths": 3,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-13",
+      "flow_L_s": 220.71286840058846,
+      "straight_Pa": 3.6392057403768887,
+      "conditional_signed_fitting_Pa": 9.52468155758392,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-14",
+      "flow_L_s": 222.4015554369339,
+      "straight_Pa": 2.3141278308955417,
+      "conditional_signed_fitting_Pa": 8.129306063170533,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-15",
+      "flow_L_s": 223.0299036109734,
+      "straight_Pa": 1.069562612328841,
+      "conditional_signed_fitting_Pa": 7.753146534399579,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-16",
+      "flow_L_s": 234.742302759343,
+      "straight_Pa": 1.0188396992540054,
+      "conditional_signed_fitting_Pa": 7.413324978035286,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-17",
+      "flow_L_s": 234.0299317767487,
+      "straight_Pa": 2.1497760721189065,
+      "conditional_signed_fitting_Pa": 7.751958042965224,
+      "missing_fitting_paths": 2,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-18",
+      "flow_L_s": 216.04819265387636,
+      "straight_Pa": 3.421844456067171,
+      "conditional_signed_fitting_Pa": 9.399547339472168,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-19",
+      "flow_L_s": 287.20589329437814,
+      "straight_Pa": 3.1880526927999013,
+      "conditional_signed_fitting_Pa": 9.480672358368219,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    },
+    {
+      "condition": "minimum",
+      "vav": "VAV-20",
+      "flow_L_s": 281.0480813134193,
+      "straight_Pa": 4.2731645210860645,
+      "conditional_signed_fitting_Pa": 16.833661445468604,
+      "missing_fitting_paths": 1,
+      "complete_pressure": null
+    }
+  ]
+}

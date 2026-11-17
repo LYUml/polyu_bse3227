@@ -1,0 +1,20 @@
+{
+  "mesh": "07_Agent_Work/runs/su2-pressure-verification/actual-native-air-domain/wall-only-oriented-air.su2",
+  "field": "07_Agent_Work/runs/su2-pressure-verification/actual-native-air-domain/pressure-based-level-ilu-steady-study/protected-checkpoint.csv",
+  "start_m": [
+    82.825,
+    40.0,
+    0.45
+  ],
+  "end_m": [
+    84.175,
+    40.0,
+    0.45
+  ],
+  "fields": [
+    "Velocity_x",
+    "Velocity_y",
+    "Velocity_z"
+  ],
+  "tolerance_m": 1e-09
+}

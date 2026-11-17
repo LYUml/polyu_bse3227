@@ -1,0 +1,36 @@
+{
+  "scope": "Cross-scenario coursework consistency review, not new design adoption",
+  "source_sha256": {
+    "original_ducts": "fb399491f0d3dc0b9a8b3cc6b7a343ed996602a43bb1cfabb4e774259a6206d3",
+    "current_ducts": "7db3280370d77b274717fefa3be223636682c3d27c31c56d93f9e156e465dc21",
+    "original_terminals": "4400a1fec762be8f38c1805323b4866f5387e19cb6550500343f39a4ec7c3a8c",
+    "original_vav": "2dcd29917bf1b7f77a9680c4d1a7c98999a3d81515fba43778b09c79b2dcbdbb",
+    "current_vav": "309f7dabfab4ad4ddb59ef513b77b3ec067f8fac032b4095baf179520f868f21",
+    "original_report": "221522b7782f628f7936afb6262fe7236e095126d55be20af72c77a1c9689808"
+  },
+  "velocity_recalculation": {
+    "original": {
+      "sections": 49,
+      "maximum_velocity_arithmetic_difference_m_s": 1.7763568394002505e-15
+    },
+    "current": {
+      "sections": 47,
+      "maximum_velocity_arithmetic_difference_m_s": 1.7763568394002505e-15
+    }
+  },
+  "original": {
+    "VAV01_Qmax_L_s": 603.7047800427697,
+    "maximum_friction_Pa_m": 0.79753739313479,
+    "terminal_count": 80,
+    "stored_course_ratio_pass_both_flows": 80,
+    "stored_course_ratio_flags_are_not_ADPI_applicability_acceptance": true
+  },
+  "current": {
+    "VAV01_Qmax_display_L_s": 575.7,
+    "maximum_friction_Pa_m": 1.2160618594601207,
+    "sections_above_original_selected_0_8_Pa_m": 44,
+    "within_course_upper_recommendation_1_23": true
+  },
+  "decision_pending": "User choosing coursework baseline. Do not combine report fromoriginal withnewlayout or silentlyrevert actualdesign. CurrentQ/geometry/ADPI need matchingreport. Expandedagent/fullpressuregoal remainsincomplete.",
+  "engineering_accepted": false
+}

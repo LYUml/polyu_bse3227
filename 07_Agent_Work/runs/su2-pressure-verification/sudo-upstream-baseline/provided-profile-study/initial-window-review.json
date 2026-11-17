@@ -1,0 +1,36 @@
+{
+  "window_iterations": [
+    164,
+    363
+  ],
+  "maximum_relative_flow_errors": {
+    "inlet": 3.513299688812161e-05,
+    "outlet": 0.0005083563471016987
+  },
+  "maximum_relative_mass_imbalance": 0.00047366542360226515,
+  "pressures": {
+    "outlet": {
+      "mean_Pa": 21.665628690899997,
+      "range_Pa": 0.21971379000000013,
+      "relative_range": 0.01014112228796224,
+      "positive": true,
+      "stable": false
+    }
+  },
+  "numerical_targets": {
+    "flow": 0.001,
+    "mass": 0.001,
+    "pressure_range": 0.005
+  },
+  "flow_pass": true,
+  "mass_pass": true,
+  "pressure_stability_pass": false,
+  "numerical_window_pass": false,
+  "engineering_accepted": false,
+  "scope": "Complete supplied domain; numerical window only. Requires separate model, turbulence, mesh and source applicability verification.",
+  "provenance": {
+    "history_sha256": "6fb0d87fff7d070ce755791f0b6fd1d530084f913410d3f2977f58dbf6c5b2f7",
+    "targets_sha256": "a03a0331c4d43aace07420a70c131f52c7eecb207c682b738baf288e65e30631",
+    "method_sha256": "256877f3486b8c681fd255293b6834761fec91bb130c1690cd62332a60283092"
+  }
+}

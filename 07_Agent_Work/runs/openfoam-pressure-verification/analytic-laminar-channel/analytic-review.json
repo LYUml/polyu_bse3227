@@ -1,0 +1,31 @@
+{
+  "scope": "Synthetic laminar planar Poiseuille check, not project turbulent physics",
+  "formula": "u=6 Umean y/H (1-y/H); d(p/rho)/dx=-12 nu Umean/H^2",
+  "native_cells": 1536,
+  "native_cell_centres_reconstructed_from_all_owner_neighbour_faces": true,
+  "native_pressure_dimensions": [
+    0,
+    2,
+    -2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "interior_scope_x_m": [
+    0.2,
+    0.8
+  ],
+  "cells_examined": 896,
+  "native_kinematic_pressure_slope": -11.982462080452498,
+  "expected_kinematic_pressure_slope": -12,
+  "density_for_conversion_kg_m3": 1.2,
+  "native_pressure_slope_Pa_m": -14.378954496542997,
+  "expected_pressure_slope_Pa_m": -14.4,
+  "pressure_slope_relative_error": 0.0014614932956251714,
+  "velocity_profile_relative_l2_error": 0.0005953930890029572,
+  "predeclared_relative_check_target": 0.01,
+  "analytic_checks_passed": true,
+  "engineering_accepted": false,
+  "turbulent_or_multi_branch_pressure_validated": false
+}

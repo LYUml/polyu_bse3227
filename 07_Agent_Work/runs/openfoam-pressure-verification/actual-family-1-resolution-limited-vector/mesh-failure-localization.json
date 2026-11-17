@@ -1,0 +1,244 @@
+{
+  "scope": "Read-only native mesh failure localization; no remeshing or pressure acceptance",
+  "native_cells": 684730,
+  "small_determinant_set_count": 117366,
+  "underdetermined_cell_face_count_histogram": {
+    "4": 3,
+    "5": 117363
+  },
+  "low_weight_face_count": 4,
+  "low_weight_faces": [
+    {
+      "face_index": 21084,
+      "face_centroid_m": [
+        68.06587918180885,
+        18.676700312968645,
+        -0.12139952201963237
+      ],
+      "adjacent_cells": [
+        {
+          "cell_index": 6144,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": false,
+          "bounds_m": [
+            [
+              68.06382795290688,
+              18.66812851549747,
+              -0.1271163079862189
+            ],
+            [
+              68.08991989232884,
+              18.68526548309383,
+              -0.1136053146412248
+            ]
+          ]
+        },
+        {
+          "cell_index": 171396,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": true,
+          "bounds_m": [
+            [
+              68.06382795290688,
+              18.67209458283644,
+              -0.128022890553499
+            ],
+            [
+              68.06690479625985,
+              18.68526548309383,
+              -0.1136053146412248
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "face_index": 415863,
+      "face_centroid_m": [
+        68.0648546250102,
+        18.678763180698244,
+        -0.11638569946357746
+      ],
+      "adjacent_cells": [
+        {
+          "cell_index": 175873,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": true,
+          "bounds_m": [
+            [
+              68.06382795290688,
+              18.67274087297566,
+              -0.128022890553499
+            ],
+            [
+              68.06690479625985,
+              18.68526548309383,
+              -0.1120748403180542
+            ]
+          ]
+        },
+        {
+          "cell_index": 183461,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": false,
+          "bounds_m": [
+            [
+              68.06382795290688,
+              18.66812851549747,
+              -0.1252431720592743
+            ],
+            [
+              68.08991989232884,
+              18.68526548309383,
+              -0.1120748403180542
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "face_index": 24156,
+      "face_centroid_m": [
+        68.42701189877285,
+        18.76177272492993,
+        -0.028682576122546377
+      ],
+      "adjacent_cells": [
+        {
+          "cell_index": 7084,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": false,
+          "bounds_m": [
+            [
+              68.4039707533558,
+              18.75712189097936,
+              -0.03495062207288312
+            ],
+            [
+              68.42803979457088,
+              18.76828364740367,
+              -0.02284779421977532
+            ]
+          ]
+        },
+        {
+          "cell_index": 123697,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": true,
+          "bounds_m": [
+            [
+              68.42495920374014,
+              18.75788952191731,
+              -0.03474659962859319
+            ],
+            [
+              68.42803979457088,
+              18.77217215670428,
+              -0.02284779421977532
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "face_index": 325099,
+      "face_centroid_m": [
+        68.4259860673504,
+        18.766533603192254,
+        -0.029277918148948635
+      ],
+      "adjacent_cells": [
+        {
+          "cell_index": 123697,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": true,
+          "bounds_m": [
+            [
+              68.42495920374014,
+              18.75788952191731,
+              -0.03474659962859319
+            ],
+            [
+              68.42803979457088,
+              18.77217215670428,
+              -0.02284779421977532
+            ]
+          ]
+        },
+        {
+          "cell_index": 179347,
+          "face_vertex_counts": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "topology": "tetrahedron",
+          "also_underdetermined": false,
+          "bounds_m": [
+            [
+              68.40625379050205,
+              18.75914500546881,
+              -0.03474659962859319
+            ],
+            [
+              68.42803979457088,
+              18.77217215670428,
+              -0.01449745173917137
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "source_mesh_sha256": {
+    "owner": "8a05adad6b4abbd5874ce0a416dc86007cfa5725197769dd5ab657c5430b2bc2",
+    "neighbour": "8e04c5e3e6378eed637f4d193838d1dc4a1a8a1f0051ea9ab1751aba7cf82c56",
+    "faces": "284cddbde33f3aa84cb442e6982a8b1d6a163436bec7c42b542d9fe832802eff",
+    "points": "3af7cfe0558e97bc37f7a10030b9d29113da364cfa692eddb51df9b1f4f824de"
+  },
+  "mesh_modified": false,
+  "engineering_accepted": false
+}

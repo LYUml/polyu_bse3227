@@ -1,0 +1,27 @@
+import json,hashlib,shutil
+from pathlib import Path
+import ifcopenshell,numpy as np
+from ifcopenshell.util import system,placement
+from bsa.source_tee_network import snapshot
+B=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs');R=B/'equal-cross-compound-core-candidate';S=B/'supported-transition-stages';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();h=sha(R/'Supply Network.ifc');review=json.loads((R/'review.json').read_text());integ=json.loads((R/'integration.json').read_text());old=ifcopenshell.open(str(S/'Supply Network.ifc'));m=ifcopenshell.open(str(R/'Supply Network.ifc'));a,_=snapshot([S/'Supply Network.ifc']);b,_=snapshot([R/'Supply Network.ifc']);changed={review['source_guid'],*[r['adjacent_straight_guid'] for r in review['cases']]};unchanged=set(a['objects'])-changed;assert len(unchanged)==153;assert all(a['objects'][g]==b['objects'][g] for g in unchanged)
+for g,r in a['ports'].items():
+ if r==b['ports'].get(g):continue
+ owner=system.get_port_element(old.by_guid(g));assert owner.GlobalId in changed
+for r in review['cases']:
+ obj=m.by_guid(r['adjacent_straight_guid']);prior=old.by_guid(obj.GlobalId);po=next(p for p in system.get_ports(prior) if p.FlowDirection=='SOURCE');pn=m.by_guid(po.GlobalId);assert np.allclose(placement.get_local_placement(po.ObjectPlacement),placement.get_local_placement(pn.ObjectPlacement),rtol=0,atol=1e-9)
+for p in system.get_ports(old.by_guid(review['source_guid'])):
+ if p.FlowDirection=='SINK':assert np.allclose(placement.get_local_placement(p.ObjectPlacement),placement.get_local_placement(m.by_guid(p.GlobalId).ObjectPlacement),rtol=0,atol=1e-9)
+for filename in ['native-cap-review.json','intersection-review.json','flow-review.json','schema-review.json','junction-source-review.json','transition-source-review.json']:
+ d=json.loads((R/filename).read_text());assert d['ifc_sha256']==h
+caps=json.loads((R/'native-cap-review.json').read_text());assert len(caps['interfaces'])==163
+clash=json.loads((R/'intersection-review.json').read_text());assert clash['intersection_count']==0 and not clash['unverified'];source=json.loads((R/'junction-source-review.json').read_text());trans=json.loads((R/'transition-source-review.json').read_text());assert source['source_query_count']==10 and trans['source_query_count']==12
+native=json.loads((R/'drawing/native/native-verification.json').read_text());proj=json.loads((R/'drawing/projection.json').read_text());assert proj['native_reopen_pass'] and proj['represented_products']==164 and proj['boundary_labels']==20
+proj['actual_PDF_visual_review']='Actual PDF rendered and viewed: header,20outlet labels,whole material outline and limitations visible; no observed clipping. Not fabrication or installation acceptance.';(R/'drawing/projection.json').write_text(json.dumps(proj,indent=2))
+P=B.parent.parent;D=P/'03_Design_Drawings/Connection_Layout/Constant_Junction_Core';D.mkdir(exist_ok=False);C=P/'05_Calculations/Connection_Layout/Constant_Junction_Core_Check.json';files={}
+for src,name in [(R/'Supply Network.ifc','Supply Network with Constant Junction Core.ifc'),(R/'drawing/native/section.dwg','Supply Network with Constant Junction Core.dwg'),(R/'drawing/native/sheet.pdf','Supply Network with Constant Junction Core.pdf')]:
+ dest=D/name;shutil.copy2(src,dest);assert sha(src)==sha(dest);files[str(dest.relative_to(P)).replace('\\','/')]=sha(dest)
+summary=dict(scope='Separate geometric and source-family candidate; previous158body pressure scenario preserved and NOT transferred.',ifc_sha256=h,parent_ifc_sha256=sha(S/'Supply Network.ifc'),bodies=164,ports=347,interfaces=163,unchanged_parent_products=153,upper_inlet_and_four_far_straight_caps_preserved=True,source_flow_cases_reconciled=['maximum','minimum'],native_material_interfaces_match=163,duct_intersections=0,intersection_scope_excludes_equipment_and_installation_clearance=True,schema_express_errors=0,native_DWG_reopened=True,actual_PDF_visual_review=proj['actual_PDF_visual_review'],source_query_counts=dict(junction_components=10,transitions=12),junction_source_review=source,transition_source_review=trans,adjusted_straights=review['cases'],deliverable_sha256=files,close_coupling_clear_length_m=.06941599999999398,source_pressure_ledger_integrated=False,full_pressure_verified=False,design_accepted=False)
+# Public review retains derived values and hashes; remove private runtime paths.
+for row in summary['adjusted_straights']:row.pop('stage_folders',None)
+C.write_text(json.dumps(summary,indent=2));(D/'Review scope.md').write_text('Separate constant-section junction candidate. The existing158body pressure scenario is preserved. Three branch apertures are now outside tapered trunk regions; equal opposed lower branch areas and equal branch/main heights are authored assumptions. Six external contractions restore the inherited downstream sections.\n\nNative geometry,163material interfaces, both prescribed-flow cases, schema, duct-only intersections and actual DWG reopening/PDF review execute.22component source queries independently reconcile. This is NOT complete pressure: the69.416mm clear spacing between branch apertures, close-coupled interactions, pressure reference stations, body friction, equipment, acoustics and installed clearance remain unresolved. The prior108conditional values/4numeric gaps must not be reported as current164body pressure coverage.\n')
+(R/'publish-review.json').write_text(json.dumps(summary,indent=2));print(json.dumps(dict(files=files,unchanged_products=153,source_queries=22)))

@@ -1,0 +1,1882 @@
+{
+  "source": "Current same-model native main port topology; schematic only",
+  "layers": {
+    "TOPOLOGY": {
+      "color": 7,
+      "lineweight": 18
+    },
+    "GAPS": {
+      "color": 1,
+      "lineweight": 50
+    },
+    "NOTES": {
+      "color": 7,
+      "lineweight": 18
+    }
+  },
+  "sheet": {
+    "paper": "A1",
+    "window": [
+      0,
+      0,
+      827,
+      574
+    ],
+    "scale": 1,
+    "title": "SUPPLY AIR MAIN SYSTEM",
+    "number": "BSE3227-S-01",
+    "reference_length": 50
+  },
+  "notes": [
+    {
+      "id": "note-0",
+      "kind": "text",
+      "layer": "NOTES",
+      "source": "Current source model topology and conditional pressure scope",
+      "classification": "secondary_transcription",
+      "insert": [
+        15,
+        545
+      ],
+      "text": "OUTnn connects to VAV-nn on S02/S03; full component references are in the index.",
+      "height": 3.0,
+      "rotation": 0
+    },
+    {
+      "id": "note-1",
+      "kind": "text",
+      "layer": "NOTES",
+      "source": "Current source model topology and conditional pressure scope",
+      "classification": "secondary_transcription",
+      "insert": [
+        15,
+        539
+      ],
+      "text": "! marks the compound main junction: 4 numerical loss paths unresolved; other losses conditional.",
+      "height": 3.0,
+      "rotation": 0
+    },
+    {
+      "id": "note-2",
+      "kind": "text",
+      "layer": "NOTES",
+      "source": "Current source model topology and conditional pressure scope",
+      "classification": "secondary_transcription",
+      "insert": [
+        15,
+        533
+      ],
+      "text": "SD labels on S02/S03 identify terminal connection planes, not modeled diffuser geometry.",
+      "height": 3.0,
+      "rotation": 0
+    },
+    {
+      "id": "note-3",
+      "kind": "text",
+      "layer": "NOTES",
+      "source": "Current source model topology and conditional pressure scope",
+      "classification": "secondary_transcription",
+      "insert": [
+        15,
+        527
+      ],
+      "text": "Schematic lengths are not installed duct lengths. Full pressure, installation and ADPI unverified.",
+      "height": 3.0,
+      "rotation": 0
+    }
+  ],
+  "layout": {
+    "origin": [
+      25,
+      65
+    ],
+    "factor": 1.35,
+    "node_width_mm": 13.97,
+    "node_height_mm": 6.35,
+    "text_height_mm": 2,
+    "ranksep_mm": 4.064,
+    "nodesep_mm": 7.4,
+    "rankdir": "LR"
+  },
+  "source_files": [
+    {
+      "path": "..\\..\\runs\\recentered-open-plenum-network\\Supply Air Open Plenum Reviewed.ifc",
+      "sha256": "a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937"
+    },
+    {
+      "path": "..\\..\\runs\\recentered-logical-supply-network\\vav-candidate-station-pressure\\maximum\\analysis.json",
+      "sha256": "7113ca627ed38de02d9108381600ba0645c3208c19dd616b79cdab2983245d6c"
+    },
+    {
+      "path": "..\\..\\runs\\recentered-logical-supply-network\\vav-candidate-station-pressure\\minimum\\analysis.json",
+      "sha256": "07e963c55fc9c9b04efd4adff9566dbf53ea3b983df25b54970db6cec325f9a9"
+    }
+  ],
+  "schema": "bsa.drawing-graph/1",
+  "nodes": [
+    {
+      "id": "00GeeqwXDGqujg1GB$eSes",
+      "label": "N002",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 00GeeqwXDGqujg1GB$eSes",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "01iiRNwCPHCg2TQaDQTBPh",
+      "label": "N004",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 01iiRNwCPHCg2TQaDQTBPh",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "04F5YvifTSJg7FlI6PRqZ5",
+      "label": "N009",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 04F5YvifTSJg7FlI6PRqZ5",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "07b4f9lQPRehcpJNvrJdoA",
+      "label": "N022",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 07b4f9lQPRehcpJNvrJdoA",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0AKG640HHRCvsX97I0rPis",
+      "label": "N028",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0AKG640HHRCvsX97I0rPis",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0FMDd$bG1NneS7N2OdRFsP",
+      "label": "OUT12",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0FMDd$bG1NneS7N2OdRFsP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0GlYPBdTrOk9iSc8VSdy5M",
+      "label": "N040",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0GlYPBdTrOk9iSc8VSdy5M",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0JgqECwtPHrA0cyUHrcIbw",
+      "label": "OUT05",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0JgqECwtPHrA0cyUHrcIbw",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0KANCt4H1OwBz_XiEYPohN",
+      "label": "N052",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0KANCt4H1OwBz_XiEYPohN",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0RLFLPx$LMfeWyG_rCXnXn",
+      "label": "N069",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0RLFLPx$LMfeWyG_rCXnXn",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0RZ5PgHVXJLvQNvy$btRzb",
+      "label": "N070",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0RZ5PgHVXJLvQNvy$btRzb",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0SUZH4h0PHngnCHgcUSoRv",
+      "label": "N071",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0SUZH4h0PHngnCHgcUSoRv",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0UHvCBIGrKUh162tPWAMb6",
+      "label": "N077",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0UHvCBIGrKUh162tPWAMb6",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "label": "N080",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0V2LoAkZ5G5gS9d5BbC$m4",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0WD0vb27TQyg59IaExUFo$",
+      "label": "N083",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0WD0vb27TQyg59IaExUFo$",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0WTAykFzDO6g74PUW_qYSH",
+      "label": "N084",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0WTAykFzDO6g74PUW_qYSH",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0WvdfA3zDKfO0CW$V5Jsne",
+      "label": "OUT10",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0WvdfA3zDKfO0CW$V5Jsne",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0g9bpYq$DOCvGnKRTNdtFF",
+      "label": "N100",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0g9bpYq$DOCvGnKRTNdtFF",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0hfguPDXzM4uq$XxvCCMMo",
+      "label": "OUT14",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0hfguPDXzM4uq$XxvCCMMo",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0ibn1oYr9NqAKrRPJhTTLc",
+      "label": "N109",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0ibn1oYr9NqAKrRPJhTTLc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0jYRsv3EbJ$hyweSBF1ZlT",
+      "label": "N114",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0jYRsv3EbJ$hyweSBF1ZlT",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0jkIpE339UJuVju7ICXFwa",
+      "label": "N115",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0jkIpE339UJuVju7ICXFwa",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0jrW4IiM9QGe5EURDoYzuc",
+      "label": "N116",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0jrW4IiM9QGe5EURDoYzuc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0qNVk8Gl5MtunvH8kUxih0",
+      "label": "N127",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0qNVk8Gl5MtunvH8kUxih0",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0qwPADch1QdQ32y4qexfYV",
+      "label": "N129",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0qwPADch1QdQ32y4qexfYV",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0rXojppeTH0BTVX2pgkVrd",
+      "label": "N130",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0rXojppeTH0BTVX2pgkVrd",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "0xQD0bae1JS9QSYLjgwgUq",
+      "label": "N140",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 0xQD0bae1JS9QSYLjgwgUq",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "10cDTQJo5IcPLAUKm5b$EG",
+      "label": "OUT15",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 10cDTQJo5IcPLAUKm5b$EG",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "10hC2HAf5QjBh8eHXVJY72",
+      "label": "N149",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 10hC2HAf5QjBh8eHXVJY72",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "16XnXAKsDR7fGY5Y8JvRrZ",
+      "label": "N160",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 16XnXAKsDR7fGY5Y8JvRrZ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1GS8rKBADM7RZvHhbL6Ep3",
+      "label": "N184",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1GS8rKBADM7RZvHhbL6Ep3",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1I5d0BkIHT3A1NnC$0VWpB",
+      "label": "OUT09",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1I5d0BkIHT3A1NnC$0VWpB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1JDTIpFW5QSREtJ610AQ34",
+      "label": "OUT18",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1JDTIpFW5QSREtJ610AQ34",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1LnLmgXgrLMPCjBotJJT1X",
+      "label": "N203",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1LnLmgXgrLMPCjBotJJT1X",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1NNygbUo1H2gfBYTyXz_Mi",
+      "label": "N208",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1NNygbUo1H2gfBYTyXz_Mi",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1PiEAHH0TK3gfwO81Khyfo",
+      "label": "N214",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1PiEAHH0TK3gfwO81Khyfo",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1T1iJcPpbHQe9NXE03EuZB",
+      "label": "N220",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1T1iJcPpbHQe9NXE03EuZB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1TIfjG5dDG7vbAe6RHp7j4",
+      "label": "N221",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1TIfjG5dDG7vbAe6RHp7j4",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1TWK5B6RfT_AFHX9Xe4Kgi",
+      "label": "N223",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1TWK5B6RfT_AFHX9Xe4Kgi",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1Ufk3tsn5INAsuK0h2HT1y",
+      "label": "N226",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1Ufk3tsn5INAsuK0h2HT1y",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1YJt4TrT9S8BByBTRqevjy",
+      "label": "N233",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1YJt4TrT9S8BByBTRqevjy",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1ZMsCt7frSIOnceShsMcSz",
+      "label": "N235",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1ZMsCt7frSIOnceShsMcSz",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1ZxXtlVuXVUe8l3ahJGy2D",
+      "label": "N238",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1ZxXtlVuXVUe8l3ahJGy2D",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1eFzE74j9IX9FCS_bpSZi8",
+      "label": "OUT11",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1eFzE74j9IX9FCS_bpSZi8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1h76SSiWvQkv6hW9gZiAWw",
+      "label": "OUT08",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1h76SSiWvQkv6hW9gZiAWw",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1hJrcsal9PEeDP4SMx$KOp",
+      "label": "N262",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1hJrcsal9PEeDP4SMx$KOp",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1ljYkCFLnPd9wUABuPtBnw",
+      "label": "OUT17",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1ljYkCFLnPd9wUABuPtBnw",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "1pO1kxbLLHgeS$_8xwTnCF",
+      "label": "N276",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 1pO1kxbLLHgeS$_8xwTnCF",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "223pk9Z9fHyP3zWtKUZIvr",
+      "label": "N307",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 223pk9Z9fHyP3zWtKUZIvr",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "26EjKRjm1Oaf1Pm8QC5__S",
+      "label": "N319",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 26EjKRjm1Oaf1Pm8QC5__S",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "27IHODPwvOcvX4rYmwPpKF",
+      "label": "N320",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 27IHODPwvOcvX4rYmwPpKF",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2A5hnkfKfVQA3ppPSDKTLp",
+      "label": "OUT19",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2A5hnkfKfVQA3ppPSDKTLp",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2Acysx8AbINgOLlSWUMu3$",
+      "label": "N330",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2Acysx8AbINgOLlSWUMu3$",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2Ak1om3Z1N5xCmvkzr$r14",
+      "label": "N331",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2Ak1om3Z1N5xCmvkzr$r14",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "label": "N336",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2Dsp0tDUbIPeYXMKPfWKVu",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2FvdFUVL5HUxtti7erekMp",
+      "label": "N339",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2FvdFUVL5HUxtti7erekMp",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2GbZoz5nfRsPMRMT$Zb04z",
+      "label": "N343",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2GbZoz5nfRsPMRMT$Zb04z",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2Hhpdn9zvHWgPTh84ov2v6",
+      "label": "N344",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2Hhpdn9zvHWgPTh84ov2v6",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2JMPWE5frHZh$wlOnAqtDb",
+      "label": "N347",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2JMPWE5frHZh$wlOnAqtDb",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2JsVFcCh5MBxs36NfRYoo1",
+      "label": "N348",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2JsVFcCh5MBxs36NfRYoo1",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "label": "N350",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2K8VLv$mHMsBKiV6ZO9m6P",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2NUeFlDmPKeAdID44c7Y3d",
+      "label": "OUT20",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2NUeFlDmPKeAdID44c7Y3d",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2S6vsh9WvK7QxoNkNqHEuL",
+      "label": "N367",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2S6vsh9WvK7QxoNkNqHEuL",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2TYIpAGo5Jn84Ds4cFSqzD",
+      "label": "OUT13",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2TYIpAGo5Jn84Ds4cFSqzD",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2XEZn9xizSj8RijhAxhINj",
+      "label": "N378",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2XEZn9xizSj8RijhAxhINj",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2XwTInSaDUehdxilTykrGb",
+      "label": "N381",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2XwTInSaDUehdxilTykrGb",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2ccvQtxx1NM9BcgfkkqDoa",
+      "label": "N393",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2ccvQtxx1NM9BcgfkkqDoa",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2d3C3bkV5TKOINf_o71Axc",
+      "label": "N395",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2d3C3bkV5TKOINf_o71Axc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2dKtjbtJ5GG9NXTFtT112S",
+      "label": "N397",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2dKtjbtJ5GG9NXTFtT112S",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2dn9VHyVbTPeHkLMTVDJUw",
+      "label": "N399",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2dn9VHyVbTPeHkLMTVDJUw",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2dwkXYndrQe8akRs1ziEM_",
+      "label": "OUT02",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2dwkXYndrQe8akRs1ziEM_",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2fieqZej5SJAaqHsMO0oF8",
+      "label": "N404",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2fieqZej5SJAaqHsMO0oF8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2gx8F2$bXVygUIF5pMJ0LR",
+      "label": "N407",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2gx8F2$bXVygUIF5pMJ0LR",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2itLDYgonR0OKoH78TWU_m",
+      "label": "N410",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2itLDYgonR0OKoH78TWU_m",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2qLFw7bETM59i3mPyoprok",
+      "label": "N426",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2qLFw7bETM59i3mPyoprok",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2qcqvYPk5G8vc$41LcIAkK",
+      "label": "N428",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2qcqvYPk5G8vc$41LcIAkK",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2rKpl9k2TUAhJWrPrXQmSK",
+      "label": "N429",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2rKpl9k2TUAhJWrPrXQmSK",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2s98LbeQnOCR5h4UlU$jeq",
+      "label": "N431",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2s98LbeQnOCR5h4UlU$jeq",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2v8d4ojL5QafzZ9D0Bm0K7",
+      "label": "N437",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2v8d4ojL5QafzZ9D0Bm0K7",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2ww9pYvAfSyx5JhKUO62Me",
+      "label": "N442",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2ww9pYvAfSyx5JhKUO62Me",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2xxjOz63jHgeE8yuHmmyJ7",
+      "label": "OUT16",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2xxjOz63jHgeE8yuHmmyJ7",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "2z0OsSxEPMxe7bw868aznG",
+      "label": "N448",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 2z0OsSxEPMxe7bw868aznG",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "313870AqbVSRXmShgN8WDS",
+      "label": "N453",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 313870AqbVSRXmShgN8WDS",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "32SL8_FtLLxRDkUZc7lzNQ",
+      "label": "N456",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 32SL8_FtLLxRDkUZc7lzNQ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "34mxrHmz5STv2lghv93cpE",
+      "label": "N461",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 34mxrHmz5STv2lghv93cpE",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "38dK30VmnKehhKPOSvl9WN",
+      "label": "N467",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 38dK30VmnKehhKPOSvl9WN",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3BAXRbMxzN3eioe3GnwiQn",
+      "label": "N472",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3BAXRbMxzN3eioe3GnwiQn",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3DcSerARnJc8mAlL$xnPwO",
+      "label": "N475",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3DcSerARnJc8mAlL$xnPwO",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3DhC$V0cPTkO8XfPybGL1V",
+      "label": "N476",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3DhC$V0cPTkO8XfPybGL1V",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3EOykJlO1HYxMOUeXGrm9C",
+      "label": "N478",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3EOykJlO1HYxMOUeXGrm9C",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3GLkYHze9Uw8_FjhVKOzKc",
+      "label": "N483",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3GLkYHze9Uw8_FjhVKOzKc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3IGC6EqWfHaQxpwnA5F9ZZ",
+      "label": "N486",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3IGC6EqWfHaQxpwnA5F9ZZ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3KVa$eR3TNbgQrEvSpYAD8",
+      "label": "N490",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3KVa$eR3TNbgQrEvSpYAD8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3MrppTZp9HmPVxHHgd4Sv1",
+      "label": "N497",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3MrppTZp9HmPVxHHgd4Sv1",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3MshfZ5Q5K_eON58DjXDyB",
+      "label": "N498",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3MshfZ5Q5K_eON58DjXDyB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3TG4i8QwvGw8JWXR1SDbXG",
+      "label": "N513",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3TG4i8QwvGw8JWXR1SDbXG",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3Tf1SEAG9NLxz6miD8JeEM",
+      "label": "N517",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3Tf1SEAG9NLxz6miD8JeEM",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3TmcSYvanVjvXn8akvTRnk",
+      "label": "N518",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3TmcSYvanVjvXn8akvTRnk",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3UfxkNar9T3uv889TvBuZo",
+      "label": "OUT06",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3UfxkNar9T3uv889TvBuZo",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3Y2iFalPLIjPgobiCbmlpM",
+      "label": "OUT03",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3Y2iFalPLIjPgobiCbmlpM",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3YEo7IX2vLHOZoUdtxYhkW",
+      "label": "OUT07",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3YEo7IX2vLHOZoUdtxYhkW",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3YrSwlhyvPVRNUSDnDuRY$",
+      "label": "N532",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3YrSwlhyvPVRNUSDnDuRY$",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3ZeIIu8ZjLivD3$rEAqFH_",
+      "label": "OUT04",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3ZeIIu8ZjLivD3$rEAqFH_",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3_1R9TjS5TtxR81DWGT3Tt",
+      "label": "N536",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3_1R9TjS5TtxR81DWGT3Tt",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3_2J5UZTzTsQMQxcqWPfNK",
+      "label": "N537",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3_2J5UZTzTsQMQxcqWPfNK",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3_3cf04PnN2xcqwNqA9Dlz",
+      "label": "N538",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3_3cf04PnN2xcqwNqA9Dlz",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3__drCT4XK$8OhZtbklpLq",
+      "label": "N539",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3__drCT4XK$8OhZtbklpLq",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3a7$AHZw5N4Q86Z0VE5lAm",
+      "label": "N541",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3a7$AHZw5N4Q86Z0VE5lAm",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3bnJDrEfPJpOdFEQN7QpDb",
+      "label": "N545",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3bnJDrEfPJpOdFEQN7QpDb",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3cmKKWOIXG2wIWIQw2L$Ga",
+      "label": "N547",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3cmKKWOIXG2wIWIQw2L$Ga",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3h3LVEhmLMw8Yn5iIujoaS",
+      "label": "N554",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3h3LVEhmLMw8Yn5iIujoaS",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3h4dRuzpTPWhqatM$v0mDU",
+      "label": "N555",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3h4dRuzpTPWhqatM$v0mDU",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3nUnywxFXUIfHj1ihinFuB",
+      "label": "N561",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3nUnywxFXUIfHj1ihinFuB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3tK$ugPAvIAAusb9mKjQEp",
+      "label": "N580!",
+      "layer": "GAPS",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3tK$ugPAvIAAusb9mKjQEp",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3uzI7S5cvHNQB22z57Xy_y",
+      "label": "N587",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3uzI7S5cvHNQB22z57Xy_y",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3wTmMPy0nMnuyTKqqLAA0H",
+      "label": "N589",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3wTmMPy0nMnuyTKqqLAA0H",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3yhBBouBPRw8LwOEWLhhps",
+      "label": "OUT01",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3yhBBouBPRw8LwOEWLhhps",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "3ysY1EiSPKuwnw9GCI$6QR",
+      "label": "N596",
+      "layer": "TOPOLOGY",
+      "source": "Current same-model native main port topology; schematic only; IFC a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937; 3ysY1EiSPKuwnw9GCI$6QR",
+      "classification": "secondary_transcription"
+    }
+  ],
+  "edges": [
+    {
+      "id": "E000",
+      "from": "0AKG640HHRCvsX97I0rPis",
+      "to": "3h4dRuzpTPWhqatM$v0mDU",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0$3siXB_jSIvotCZZMg48B > 32BzXyWKfR2et4LUj3Hm4A",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E001",
+      "from": "2GbZoz5nfRsPMRMT$Zb04z",
+      "to": "3uzI7S5cvHNQB22z57Xy_y",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0$eywnGm1P_vjAxP4lFxWO > 2p2kAvu4HJsAOypfrjpYjd",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E002",
+      "from": "3uzI7S5cvHNQB22z57Xy_y",
+      "to": "2v8d4ojL5QafzZ9D0Bm0K7",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 00ykYCcUTUSB9FRGLpGqWu > 0hyS6ic$fUGw2K_wd42UCL",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E003",
+      "from": "07b4f9lQPRehcpJNvrJdoA",
+      "to": "27IHODPwvOcvX4rYmwPpKF",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 02sJllga9KqeAoH10kRfqz > 3v6c4joeLK_fhh2T_bI1HK",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E004",
+      "from": "1YJt4TrT9S8BByBTRqevjy",
+      "to": "1NNygbUo1H2gfBYTyXz_Mi",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 04nmuN2u1J3eOaMizp3Mco > 0fCuBSHLDKpOb2I8$l0YZY",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E005",
+      "from": "2JMPWE5frHZh$wlOnAqtDb",
+      "to": "38dK30VmnKehhKPOSvl9WN",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 051NCvL2bI7B9BhgLTja3E > 0G6DhiXbfRHvy7otAfVi6E",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E006",
+      "from": "2dKtjbtJ5GG9NXTFtT112S",
+      "to": "1I5d0BkIHT3A1NnC$0VWpB",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 06HJV7q5nVUvn6CrlLPuR6 > 340uDoGwDHg9qXrw0AI2Qp",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E007",
+      "from": "1pO1kxbLLHgeS$_8xwTnCF",
+      "to": "2Hhpdn9zvHWgPTh84ov2v6",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 08fu5hXC5UHwzWpe13ncd7 > 2wFgskqxTR99DbMrLsYlzl",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E008",
+      "from": "2GbZoz5nfRsPMRMT$Zb04z",
+      "to": "0RLFLPx$LMfeWyG_rCXnXn",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0B$TVH4_vT_xlrygN9n2g5 > 0b9rGyW_HLqQqcqJTIPIwW",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E009",
+      "from": "1ZxXtlVuXVUe8l3ahJGy2D",
+      "to": "0WvdfA3zDKfO0CW$V5Jsne",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0ETAH_gHHTV9H4GpJooWjG > 3Coz8G33DQ99OhGHJ0RlI1",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E010",
+      "from": "3_2J5UZTzTsQMQxcqWPfNK",
+      "to": "2Acysx8AbINgOLlSWUMu3$",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0EvGYEXPfHA8XCZDkoFbUT > 2zUCN1hfXRNhCBURkEVZXf",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E011",
+      "from": "3_3cf04PnN2xcqwNqA9Dlz",
+      "to": "2qcqvYPk5G8vc$41LcIAkK",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0ExIwBlv5NavFWBhKTbaN_ > 1oMbOVJKbPbhrv1da6Qnrg",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E012",
+      "from": "3BAXRbMxzN3eioe3GnwiQn",
+      "to": "04F5YvifTSJg7FlI6PRqZ5",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0UmgjQTyDLw8DyPQHYOLYH > 0vX9wxjufIiu9$Dx93H8XQ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E013",
+      "from": "0UHvCBIGrKUh162tPWAMb6",
+      "to": "3EOykJlO1HYxMOUeXGrm9C",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0VkTZ2pMbK4xpjp9ffynIe > 2aGVDvF3rSUxtXb5pwjpJD",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E014",
+      "from": "2dn9VHyVbTPeHkLMTVDJUw",
+      "to": "3YrSwlhyvPVRNUSDnDuRY$",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0XAS3hVRbV_uQzzNHui1xC > 0CGvss2bzPVQPMVAiCLEFh",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E015",
+      "from": "2Hhpdn9zvHWgPTh84ov2v6",
+      "to": "3a7$AHZw5N4Q86Z0VE5lAm",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0eH2JEN2bPFB3AtFVqW19u > 0sAvzqB1PGUgrhLLkohPBT",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E016",
+      "from": "3h3LVEhmLMw8Yn5iIujoaS",
+      "to": "3_2J5UZTzTsQMQxcqWPfNK",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0fw_KGnt5Tqgy22oncROR1 > 1L85n5moXQVPA6piSv0pLE",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E017",
+      "from": "313870AqbVSRXmShgN8WDS",
+      "to": "1TIfjG5dDG7vbAe6RHp7j4",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0jfQ4MGwTUzO$zFUeXlyp5 > 1O95hY4IHG7P4ujOgw4o6I",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E018",
+      "from": "3wTmMPy0nMnuyTKqqLAA0H",
+      "to": "10cDTQJo5IcPLAUKm5b$EG",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0kmfTHPULHePECZOzJHqJE > 0QpK1ZltvKExiCvJIe5Aka",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E019",
+      "from": "3MshfZ5Q5K_eON58DjXDyB",
+      "to": "1PiEAHH0TK3gfwO81Khyfo",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0lj9zTt0HRHeiXhV7kTYxb > 1xPf9_NwnUsPPGD2kkbW_O",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E020",
+      "from": "04F5YvifTSJg7FlI6PRqZ5",
+      "to": "2xxjOz63jHgeE8yuHmmyJ7",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0mKMIf4PLVxPxT9zrJpwAu > 1YRfnAngvJRxZhNbr9WgoE",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E021",
+      "from": "3tK$ugPAvIAAusb9mKjQEp",
+      "to": "1LnLmgXgrLMPCjBotJJT1X",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0p9MUXr_HGLPv9CJE2cNDO > 0vSb1JZD5TzAnhYpQZsRFE",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E022",
+      "from": "3DcSerARnJc8mAlL$xnPwO",
+      "to": "0xQD0bae1JS9QSYLjgwgUq",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0s2rFFocjUO97pw1w_LPsN > 3sOMkKWwLJSANSoe$H_BdC",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E023",
+      "from": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "to": "2rKpl9k2TUAhJWrPrXQmSK",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0s8otnNxrG882wR6ajB9wc > 1z$R6hlkzGxPzeqR_vFKHk",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E024",
+      "from": "1hJrcsal9PEeDP4SMx$KOp",
+      "to": "2TYIpAGo5Jn84Ds4cFSqzD",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0wYPAheBrJI9Q5$QQtsU47 > 1kl2VoWSjIvAViRjR4TPIE",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E025",
+      "from": "27IHODPwvOcvX4rYmwPpKF",
+      "to": "0RZ5PgHVXJLvQNvy$btRzb",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0y2UyKXe9G$8OfcxWvJsB6 > 0ygT3j5qrHHgAlcCJTfrXw",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E026",
+      "from": "0g9bpYq$DOCvGnKRTNdtFF",
+      "to": "3DcSerARnJc8mAlL$xnPwO",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0zR2sFd7PI0QQ$97eg2mOh > 1l83sKCWfNBhPBByroHfdh",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E027",
+      "from": "1pO1kxbLLHgeS$_8xwTnCF",
+      "to": "2qLFw7bETM59i3mPyoprok",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 0zXiOuMfbVnAg_KHbIFAy3 > 1fcDJObUvUyh3gMd7Vg0_2",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E028",
+      "from": "2ww9pYvAfSyx5JhKUO62Me",
+      "to": "3__drCT4XK$8OhZtbklpLq",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 10mYAu9$nPXx394eyg20Nz > 0QMAjz$MDG99BRVSWGakej",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E029",
+      "from": "2XwTInSaDUehdxilTykrGb",
+      "to": "2dwkXYndrQe8akRs1ziEM_",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 125KqWp99MVf6mBR$mJH$7 > 0rhbB3hp9PCPRGEHceWB63",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E030",
+      "from": "1ZMsCt7frSIOnceShsMcSz",
+      "to": "0hfguPDXzM4uq$XxvCCMMo",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 13ZnKIhQnRjgMr5hzuR$bn > 34MP8mJ$5TquQUAfNLwIu2",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E031",
+      "from": "32SL8_FtLLxRDkUZc7lzNQ",
+      "to": "3TG4i8QwvGw8JWXR1SDbXG",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 188Z9OroPL5OmEPyfb3xoZ > 2g$VDkD5jRYuxq4vYNe72A",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E032",
+      "from": "3BAXRbMxzN3eioe3GnwiQn",
+      "to": "3_1R9TjS5TtxR81DWGT3Tt",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 18l_BQy7bMuxYSDHZFCBop > 1oqFi$Z8XOKfTGhetCDnlA",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E033",
+      "from": "2itLDYgonR0OKoH78TWU_m",
+      "to": "3_3cf04PnN2xcqwNqA9Dlz",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 18v6pdZarO0RNoVJv8ud19 > 1UbGPGhzvOo8CGZRTtpoq6",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E034",
+      "from": "3TG4i8QwvGw8JWXR1SDbXG",
+      "to": "3MshfZ5Q5K_eON58DjXDyB",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 19gnO84sLS0OzkuF6EStT5 > 1Xg7RqPGrRxOQWFtXuTK9i",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E035",
+      "from": "0rXojppeTH0BTVX2pgkVrd",
+      "to": "2s98LbeQnOCR5h4UlU$jeq",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1JWwvHqZ5Pk8QXvkqnkPUt > 0NmDVlADfVUffDKlSR1fOI",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E036",
+      "from": "3tK$ugPAvIAAusb9mKjQEp",
+      "to": "16XnXAKsDR7fGY5Y8JvRrZ",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1JXx68DOjGoB7rRh$1wW9w > 2sX0$TTO9VLPBcJ6WmhwDf",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E037",
+      "from": "3IGC6EqWfHaQxpwnA5F9ZZ",
+      "to": "1h76SSiWvQkv6hW9gZiAWw",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1KQ6QXPunPiwVKaXddFhN_ > 2lCUI3zqnGPPgpNGCQSXs5",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E038",
+      "from": "1Ufk3tsn5INAsuK0h2HT1y",
+      "to": "1pO1kxbLLHgeS$_8xwTnCF",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1Kmkyb5kbK2hnCzoEJNKPU > 1mDKJuBeTQnf_0HHwfZ5TI",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E039",
+      "from": "0qNVk8Gl5MtunvH8kUxih0",
+      "to": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1L1OqNwV5Po99U1MQrEyJK > 26IKQzvmLVcgbajEDuD3Xx",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E040",
+      "from": "2ccvQtxx1NM9BcgfkkqDoa",
+      "to": "0JgqECwtPHrA0cyUHrcIbw",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1LTjOX0nnPFP1pR8xYY3dw > 1koRi1_bzG2gtB6AbpFNtY",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E041",
+      "from": "2qcqvYPk5G8vc$41LcIAkK",
+      "to": "2dKtjbtJ5GG9NXTFtT112S",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1Lo4fCHwHKpBgehtk1ZQtH > 3qGMKACmfKwPz7s9Q4taU8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E042",
+      "from": "0ibn1oYr9NqAKrRPJhTTLc",
+      "to": "3UfxkNar9T3uv889TvBuZo",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1QyjMIWCjSHQTRaBRhP8p2 > 2Sw6qrqbjPcP_mfpEJuyNt",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E043",
+      "from": "0xQD0bae1JS9QSYLjgwgUq",
+      "to": "2Ak1om3Z1N5xCmvkzr$r14",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1R2J3rTFXJY8ftlMqOvi8j > 3GHOKFKgvRLuSRvuXUYu5I",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E044",
+      "from": "0WTAykFzDO6g74PUW_qYSH",
+      "to": "3ZeIIu8ZjLivD3$rEAqFH_",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1Rkc5yZ21KGPvafajWvd9r > 1kfE3Ou1jT899k6Xyn0qIj",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E045",
+      "from": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "to": "1ZMsCt7frSIOnceShsMcSz",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1S_N5GN_LIvgSglN69NqHL > 0WHrEPVpTHEuTOrL9ud$zk",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E046",
+      "from": "1NNygbUo1H2gfBYTyXz_Mi",
+      "to": "223pk9Z9fHyP3zWtKUZIvr",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1TTm_5Ue5H3h1ESptg8FlK > 3YFNW55$POZBf84AWYuRUT",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E047",
+      "from": "0UHvCBIGrKUh162tPWAMb6",
+      "to": "3wTmMPy0nMnuyTKqqLAA0H",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1ZL_8UkvTGrPV04vRTWkiC > 3WeVxCOA1TAez0$J5KPTNi",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E048",
+      "from": "2JsVFcCh5MBxs36NfRYoo1",
+      "to": "0WTAykFzDO6g74PUW_qYSH",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1ZOyco7kTG3RG07Uim3ZW8 > 3sLDGk2DzT08jNltux$XO3",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E049",
+      "from": "3DcSerARnJc8mAlL$xnPwO",
+      "to": "0qwPADch1QdQ32y4qexfYV",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1bEO4yEs9I1RzXgutXD9QZ > 05vJsCeoPK8ByEcZQtxTJQ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E050",
+      "from": "3cmKKWOIXG2wIWIQw2L$Ga",
+      "to": "0UHvCBIGrKUh162tPWAMb6",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1epqkUk2bROhKeOzefYom1 > 2HxAY926DRIOGl0bjGsiSB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E051",
+      "from": "2d3C3bkV5TKOINf_o71Axc",
+      "to": "2ccvQtxx1NM9BcgfkkqDoa",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1gNMdIL3nRCfHcGS3hfTKn > 3xAYLD0x1R8OzqspQ0cyI$",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E052",
+      "from": "0jYRsv3EbJ$hyweSBF1ZlT",
+      "to": "2dn9VHyVbTPeHkLMTVDJUw",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1hVEBxZiDS$PuechORmMat > 34aZ0QXkHL1hfjJaQvI$Pl",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E053",
+      "from": "223pk9Z9fHyP3zWtKUZIvr",
+      "to": "34mxrHmz5STv2lghv93cpE",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1hyjTwMR5Nae9qEEtNmnoX > 3F1GuPkT1LqAkuzNso3YGc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E054",
+      "from": "3tK$ugPAvIAAusb9mKjQEp",
+      "to": "3cmKKWOIXG2wIWIQw2L$Ga",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1nZG_eMK1Gye1MngM01C4c > 245x2h9xjVCOUeWFE$DKAr",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E055",
+      "from": "1T1iJcPpbHQe9NXE03EuZB",
+      "to": "3yhBBouBPRw8LwOEWLhhps",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1oHMyDUUDOGw0kmQR75W9w > 2Mcz75$mbGDf7NmerFwH1Q",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E056",
+      "from": "10hC2HAf5QjBh8eHXVJY72",
+      "to": "1T1iJcPpbHQe9NXE03EuZB",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1v_Ja4ZjHTgflfseZrCMVo > 0j1OuFfI1UYuWN5GaStw1Z",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E057",
+      "from": "3__drCT4XK$8OhZtbklpLq",
+      "to": "3tK$ugPAvIAAusb9mKjQEp",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1w77cfnQrNmwPXHKl1eHli > 1eaqInnnrTIwoGGSUzFSzP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E058",
+      "from": "2gx8F2$bXVygUIF5pMJ0LR",
+      "to": "2JsVFcCh5MBxs36NfRYoo1",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1wX6A_LhXMwAT5sxQtr6W7 > 1oGr7$WYDJ8hyfAyQtKjh1",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E059",
+      "from": "2Acysx8AbINgOLlSWUMu3$",
+      "to": "0jrW4IiM9QGe5EURDoYzuc",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1wZcj5l45Gt9AbNhHo_A2P > 0tezDgJE9RvP8RzXgaa5tB",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E060",
+      "from": "1PiEAHH0TK3gfwO81Khyfo",
+      "to": "2A5hnkfKfVQA3ppPSDKTLp",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1x2hi6q2jJQPf0Pjv1hQ1y > 16z_IT8SXSuw6YVju7qqxd",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E061",
+      "from": "3tK$ugPAvIAAusb9mKjQEp",
+      "to": "1Ufk3tsn5INAsuK0h2HT1y",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1x9U27nGzJ4Q1jY7FHDFze > 3pj1s13iHGXxItqamkCra$",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E062",
+      "from": "2FvdFUVL5HUxtti7erekMp",
+      "to": "01iiRNwCPHCg2TQaDQTBPh",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 1zpj_pI8DU$enV_vvprOJv > 25iSNidCvNbRMagRDWEJTD",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E063",
+      "from": "3MrppTZp9HmPVxHHgd4Sv1",
+      "to": "1ljYkCFLnPd9wUABuPtBnw",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 21KyqpQRDG8vQ5oYrjuw7c > 2aGph530jTqBfncQCLQ0Q9",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E064",
+      "from": "2fieqZej5SJAaqHsMO0oF8",
+      "to": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 25dUuZGd9RlPwVhYTZdJAj > 3H866S3rfOHvzLKNGUAT1n",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E065",
+      "from": "3h4dRuzpTPWhqatM$v0mDU",
+      "to": "3TmcSYvanVjvXn8akvTRnk",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 274jScd6nP8unjFMAD57VJ > 31ztJ54B1KAwkY1nJau0p8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E066",
+      "from": "3a7$AHZw5N4Q86Z0VE5lAm",
+      "to": "0GlYPBdTrOk9iSc8VSdy5M",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 28BBe1LdPLF8FaN_NcfClv > 1FmTpqj6jGbxJd8cQacamm",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E067",
+      "from": "0jkIpE339UJuVju7ICXFwa",
+      "to": "3KVa$eR3TNbgQrEvSpYAD8",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 28DYiyNf9VYRLwzcSfzvtq > 1ZUg$uCWTOzwpBp8LbWoeF",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E068",
+      "from": "3ysY1EiSPKuwnw9GCI$6QR",
+      "to": "313870AqbVSRXmShgN8WDS",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 29d4g7OQbRXwjXemZUMx_V > 1iMoCEMgHJevWnZqQ5IUFS",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E069",
+      "from": "3YrSwlhyvPVRNUSDnDuRY$",
+      "to": "0g9bpYq$DOCvGnKRTNdtFF",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 29mH$Ion1ULwX4L96Nz8rZ > 2es9LeJgfS1B9eKuf2F4$q",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E070",
+      "from": "01iiRNwCPHCg2TQaDQTBPh",
+      "to": "0WD0vb27TQyg59IaExUFo$",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2Aesy4qBjQfPyKBz_EtKK9 > 38yy7kNGzGxxIfsZILjcOU",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E071",
+      "from": "16XnXAKsDR7fGY5Y8JvRrZ",
+      "to": "3BAXRbMxzN3eioe3GnwiQn",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2Bszff$LTO_9a0dglP6_tY > 2xpbJX7jnQgO2grYaphpZx",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E072",
+      "from": "2s98LbeQnOCR5h4UlU$jeq",
+      "to": "2d3C3bkV5TKOINf_o71Axc",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2Dv5XrU_zQduRTd58zZ62d > 0$7xLgTjbUHRLIu6TQcqLM",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E073",
+      "from": "3KVa$eR3TNbgQrEvSpYAD8",
+      "to": "10hC2HAf5QjBh8eHXVJY72",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2EjiMHLC9LBBzUh2cH8p5c > 2K$upTuUHGQvxWnUUJB4AO",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E074",
+      "from": "0GlYPBdTrOk9iSc8VSdy5M",
+      "to": "2GbZoz5nfRsPMRMT$Zb04z",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2FBapol$nNiReFqqPcNNGF > 0dR44ah91JrwoF3lu_418z",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E075",
+      "from": "3DhC$V0cPTkO8XfPybGL1V",
+      "to": "3bnJDrEfPJpOdFEQN7QpDb",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2FDCMe5OjRLhOX$VaPRdjs > 0DBFIu2JDVHQPpe5f5ihoy",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E076",
+      "from": "0SUZH4h0PHngnCHgcUSoRv",
+      "to": "0KANCt4H1OwBz_XiEYPohN",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2Fese000fPyOpofbM3XvoW > 1BEgzJUFbM_Rq_Q3edpySP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E077",
+      "from": "2rKpl9k2TUAhJWrPrXQmSK",
+      "to": "00GeeqwXDGqujg1GB$eSes",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2HLqNrtUDQd9MK97gKpnzs > 3Aabk8yE9NMQpZ4FUytcbP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E078",
+      "from": "38dK30VmnKehhKPOSvl9WN",
+      "to": "1hJrcsal9PEeDP4SMx$KOp",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2K4tWhXKnQ4vC0y6Yjy9QX > 3MDpUslpfUHeT50dWeoVww",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E079",
+      "from": "34mxrHmz5STv2lghv93cpE",
+      "to": "3ysY1EiSPKuwnw9GCI$6QR",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2KJBFJeYXV_eblaFt$mMtm > 0k4loRkPHQiw$mcn9jjSrb",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E080",
+      "from": "0AKG640HHRCvsX97I0rPis",
+      "to": "3h3LVEhmLMw8Yn5iIujoaS",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2Mw4_k0ETQdhCWoR$m26S6 > 0qAVw_HpLI6hYe5UzzALmj",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E081",
+      "from": "2qcqvYPk5G8vc$41LcIAkK",
+      "to": "07b4f9lQPRehcpJNvrJdoA",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2P_zK_1S1L6Pd_3Ph2n5cO > 38l7dDSVbTPvdCZLLVqB1V",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E082",
+      "from": "0qwPADch1QdQ32y4qexfYV",
+      "to": "1ZxXtlVuXVUe8l3ahJGy2D",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2X5G5U9fPI68SVs6arp$vt > 3M5UtwbxrHjfKdYvYsNqH_",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E083",
+      "from": "2XEZn9xizSj8RijhAxhINj",
+      "to": "2FvdFUVL5HUxtti7erekMp",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2XVFgFS9HLqga3vlsxPQcS > 2ztp7Y0mfPTwv3dOWeYYlO",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E084",
+      "from": "3EOykJlO1HYxMOUeXGrm9C",
+      "to": "2fieqZej5SJAaqHsMO0oF8",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2ZgPCBlYTInRH24B_VNV18 > 3uGDIrLV9RlBdYlMNVQ8tm",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E085",
+      "from": "2Ak1om3Z1N5xCmvkzr$r14",
+      "to": "0AKG640HHRCvsX97I0rPis",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2c24JEoCzSTwoiOcuRQdra > 1vHPf3YCPJePl4FpDGGXZg",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E086",
+      "from": "1TIfjG5dDG7vbAe6RHp7j4",
+      "to": "3nUnywxFXUIfHj1ihinFuB",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2f9Gv$aWbRRhuLabYDW7Hh > 2eDy1o6TfJVe8S7L6Ku49B",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E087",
+      "from": "3nUnywxFXUIfHj1ihinFuB",
+      "to": "2XwTInSaDUehdxilTykrGb",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2iuBlXixfUgg54RbHw2A0c > 0ElX93GCPRjO7OcHzIeEsz",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E088",
+      "from": "3bnJDrEfPJpOdFEQN7QpDb",
+      "to": "3GLkYHze9Uw8_FjhVKOzKc",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2iylxtA39V$R98O9dQ71w8 > 3U04xaSwHI3BeIodELIqRd",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E089",
+      "from": "26EjKRjm1Oaf1Pm8QC5__S",
+      "to": "3Y2iFalPLIjPgobiCbmlpM",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2jmpM9KizVlQn5m8h6UeC7 > 39TvK_HIvHLREOnz5qrsDY",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E090",
+      "from": "1pO1kxbLLHgeS$_8xwTnCF",
+      "to": "0jYRsv3EbJ$hyweSBF1ZlT",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2sY$pT2HLT_vGIq2bU2aaj > 3IgYCafE1IrPEbmr7GO8at",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E091",
+      "from": "2z0OsSxEPMxe7bw868aznG",
+      "to": "2itLDYgonR0OKoH78TWU_m",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2tHEICtLrImAMkL__rUAr0 > 1feJ2cfKbURecxneSxRPla",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E092",
+      "from": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "to": "2JMPWE5frHZh$wlOnAqtDb",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2tNGgXY0XKReKAWgYkwGtg > 15zFWxHNfNbPw3ZRK36Vdk",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E093",
+      "from": "34mxrHmz5STv2lghv93cpE",
+      "to": "26EjKRjm1Oaf1Pm8QC5__S",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 2z22jWXSrP_vk2MXukh_67 > 22zGUVQojP$A9pTz3iiovn",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E094",
+      "from": "1LnLmgXgrLMPCjBotJJT1X",
+      "to": "32SL8_FtLLxRDkUZc7lzNQ",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 32VFhOgTjMlRJM2S1ngjOf > 0BcuWcI55HuhPJ79uWa9vR",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E095",
+      "from": "2XEZn9xizSj8RijhAxhINj",
+      "to": "3IGC6EqWfHaQxpwnA5F9ZZ",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 382kKKzb1POROR8L3525QG > 2a8gmsHZ1Lpubed0c9UeLO",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E096",
+      "from": "1TWK5B6RfT_AFHX9Xe4Kgi",
+      "to": "1JDTIpFW5QSREtJ610AQ34",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 39NU49EXfUafAGD0acjryX > 3lEaNmbGLPHfJHTzQcYc6x",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E097",
+      "from": "1GS8rKBADM7RZvHhbL6Ep3",
+      "to": "2ww9pYvAfSyx5JhKUO62Me",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3AHfHBmovMox314OcElvL$ > 2cO1LFWE5GoeQ3L2z_4o$q",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E098",
+      "from": "2d3C3bkV5TKOINf_o71Axc",
+      "to": "2S6vsh9WvK7QxoNkNqHEuL",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3CpLmocJPUOReUAQBRYuXq > 1aTCnctAzNnPvODOWALaHX",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E099",
+      "from": "0RLFLPx$LMfeWyG_rCXnXn",
+      "to": "1YJt4TrT9S8BByBTRqevjy",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3E7CcI1szLVQKk_83JAmJB > 1rS_9IcmfSqfvyOANBe7zg",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E100",
+      "from": "3nUnywxFXUIfHj1ihinFuB",
+      "to": "0jkIpE339UJuVju7ICXFwa",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3Eml8WTKPU2hjYyow37wiq > 3feqvu8S5SWRQiRbBPK2Kq",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E101",
+      "from": "2qLFw7bETM59i3mPyoprok",
+      "to": "2z0OsSxEPMxe7bw868aznG",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3FL4fytHLPpvTyR6Z9Wbzb > 2pVHr334XIg8naxCs33_Pt",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E102",
+      "from": "0RZ5PgHVXJLvQNvy$btRzb",
+      "to": "2XEZn9xizSj8RijhAxhINj",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3G_3oiciXM2fbKSfoonkkB > 1hlzxYpazLqPqLMGuB8JwP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E103",
+      "from": "3GLkYHze9Uw8_FjhVKOzKc",
+      "to": "2NUeFlDmPKeAdID44c7Y3d",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3Ii_jGjozMsBXMUkcBY5I8 > 3L3OoG5BPSPQRiGNL8iyi8",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E104",
+      "from": "3_1R9TjS5TtxR81DWGT3Tt",
+      "to": "0qNVk8Gl5MtunvH8kUxih0",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3RNb2Epq1UHu8ZiPMBD4Wp > 14sV276gjReA5UtfkUd9SF",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E105",
+      "from": "00GeeqwXDGqujg1GB$eSes",
+      "to": "1TWK5B6RfT_AFHX9Xe4Kgi",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3S5I7mBSnO9fJRtqwH97CJ > 1wLl5BuijGh8Fl74e_vajg",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E106",
+      "from": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "to": "3MrppTZp9HmPVxHHgd4Sv1",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3W7N38onzQ5fWBxRBucUYC > 0ucHsJHbvQuuGzvdDbHdiP",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E107",
+      "from": "3Tf1SEAG9NLxz6miD8JeEM",
+      "to": "1GS8rKBADM7RZvHhbL6Ep3",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3Z$IVZpT9Qsv$NJERunZYq > 2tD0ljWczL0eLHvQXj1YmQ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E108",
+      "from": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "to": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3cuQS10H5QHxLhP3oQCW_D > 1p6TIdnIbSjBYvAs4khC5G",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E109",
+      "from": "3TmcSYvanVjvXn8akvTRnk",
+      "to": "1eFzE74j9IX9FCS_bpSZi8",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3d5EAxtPDG7fVtegcLTDm9 > 0wy1Bi2SfLwQ9xDpcuDFvo",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E110",
+      "from": "0WTAykFzDO6g74PUW_qYSH",
+      "to": "0rXojppeTH0BTVX2pgkVrd",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3e27f9dJDQVRpPQ0nZq1Dz > 0rn3VgsATOYO_4EsETpjkR",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E111",
+      "from": "3MshfZ5Q5K_eON58DjXDyB",
+      "to": "3DhC$V0cPTkO8XfPybGL1V",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3ekUOlKIvPDOL6tapAxwgR > 3iWFuHnmHQtBaLUNe0Onmf",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E112",
+      "from": "2v8d4ojL5QafzZ9D0Bm0K7",
+      "to": "2gx8F2$bXVygUIF5pMJ0LR",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3gTwB9qL1PwOs9X8T685c2 > 0OMXcCPzXPq8PhHsdhSEMc",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E113",
+      "from": "0KANCt4H1OwBz_XiEYPohN",
+      "to": "0ibn1oYr9NqAKrRPJhTTLc",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3jeX4s4Z5IYeuE$7WMm0Qx > 1wmPghLTzMc9crpVwFcXDv",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E114",
+      "from": "2S6vsh9WvK7QxoNkNqHEuL",
+      "to": "0SUZH4h0PHngnCHgcUSoRv",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3kLRCi0OHSUuerB8m65pZ_ > 2302mRacrI$OI2LuTeukS4",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E115",
+      "from": "0WD0vb27TQyg59IaExUFo$",
+      "to": "3YEo7IX2vLHOZoUdtxYhkW",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3qCmCCPGzIA8Av$hAWq5H_ > 2QPuMlxgfNPxVEGZEUOXtQ",
+      "classification": "secondary_transcription"
+    },
+    {
+      "id": "E116",
+      "from": "0jrW4IiM9QGe5EURDoYzuc",
+      "to": "0FMDd$bG1NneS7N2OdRFsP",
+      "layer": "TOPOLOGY",
+      "source": "Native directed IFC ports 3xUCeixorQyByUoyI1gNC3 > 39AG_b47bHrwMOVosoYUT5",
+      "classification": "secondary_transcription"
+    }
+  ]
+}

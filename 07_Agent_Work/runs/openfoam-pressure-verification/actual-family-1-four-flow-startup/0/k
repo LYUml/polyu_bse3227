@@ -1,0 +1,9 @@
+FoamFile {format ascii;class volScalarField;object k;}
+dimensions [0 2 -2 0 0 0 0]; internalField uniform 0.068901870528889769; boundaryField {
+inlet {type fixedValue;value uniform 0.068901870528889769;}
+wall {type fixedValue;value uniform 0;}
+outlet_0 {type zeroGradient;}
+outlet_1 {type zeroGradient;}
+outlet_2 {type zeroGradient;}
+outlet_3 {type zeroGradient;}
+}

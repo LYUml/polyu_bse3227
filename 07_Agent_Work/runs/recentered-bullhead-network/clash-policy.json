@@ -1,0 +1,13 @@
+{
+  "scope": "all represented non-feature non-virtual IfcElements",
+  "sources": {
+    "numerical": "Untrimmed straight-wall diagnostic. All distance tolerances are20micrometres,twice the existing mesh linear deflection,as required by the existing clash engine. These and1e-10m3 overlap threshold are software detection controls,not installation clearances. No contact/junction waivers;full physical policy review remains pending."
+  },
+  "source": "numerical",
+  "minimum_clearance_m": 2e-05,
+  "intersection_tolerance_m": 2e-05,
+  "contact_tolerance_m": 2e-05,
+  "overlap_volume_tolerance_m3": 1e-10,
+  "maximum_boolean_pairs": 10000,
+  "allowed_contacts": []
+}

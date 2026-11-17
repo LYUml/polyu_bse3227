@@ -1,0 +1,18 @@
+{
+  "scope": "Mixed-order numerical settling only, no engineering pressure approval",
+  "source_saved_time": 20,
+  "source_native_index": 20,
+  "end_time": 420,
+  "budget_new_steps": 400,
+  "expected_field_times": [
+    210,
+    420
+  ],
+  "required_window": [
+    221,
+    420
+  ],
+  "reason": "Twenty-step mixed diagnostic has no negative-k bounding, all6fields684730finite/nonnegative turbulence, exact5signedtargets and actualyPlusmax0.97345<1. New-grid full-order counterpart has19negative-k events; this isolates scalar transport while retaining higher-order momentum.",
+  "physical_and_numerical_parameters_unchanged_since_startup": true,
+  "engineering_accepted": false
+}

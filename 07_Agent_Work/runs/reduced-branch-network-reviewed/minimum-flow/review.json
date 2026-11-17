@@ -1,0 +1,28 @@
+{
+  "scenario": "given40percentminimumflow",
+  "ports": 197,
+  "outlets": 20,
+  "inlet_flow_m3_s": 4.800149105367794,
+  "flow_continuity_pass": true,
+  "all_saved_port_flows_match_point4_maximum": true,
+  "elbow_reynolds_recomputed": true,
+  "conditional_numerical_paths": 28,
+  "numerical_gaps": 35,
+  "new_branch_pressure_matches_point16_maximum": true,
+  "pressure_budget_complete": false,
+  "design_accepted": false,
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D001\\BSE3227 Mini design assignment.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\analysis.json": "3ec2214fa5e24571029cc34b548115d32f6b26330cdd7183fcaa493795fce2e8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\basis.json": "ac638a5c85207a4f8ca191e5d1097d3650f3aab8cd23b7bce279e5099296a0da",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-network-reviewed\\Supply Network.ifc": "df434ed486a5025ca121737f40e4aba07039789587b5cb1e4a88325c23d38994",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\reduced-branch-study\\minimum_pressure.py": "c2fb754510110182e747dded63a1168ec99aff6c0c8bffc58eab0c5817f91ccc",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\full-network-transition-study\\ashrae2021.pdf": "746121b31696fd23cc11a39fd83d7be9ba3fec9bf0d81caa3b5e1ce6235abfbb"
+  },
+  "artifacts": {
+    "analysis.json": "72eb7cce616c6601f969c84168c581ef47950bb946bcd5ac3859c30ffe51fce2",
+    "fitting-data.json": "3d0ca6fd686777c22a15c7fd19748350666e9791d268efa6e0791d9e1c8d0d06",
+    "pressure-ledger.json": "91586a3bdbd7514b7c38e1099594b018ff512390c5a0883286c0498ea4b09c3a"
+  },
+  "scope": "Given minimum supply-flow scenario with inherited air properties; not actual part-load room gains, ADPI prediction, equipment control or complete pressure duty"
+}

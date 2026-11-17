@@ -1,0 +1,53 @@
+{
+  "scope": "Review of preliminary rule-of-thumb cooling and supply-airflow only",
+  "original_plan_sha256": "8b2fefb0237f38180fb1a707b4662efcae049dba7d78efdf9f0b736f63f8e83a",
+  "retained_original_issue": {
+    "id": "gap-load-airflow",
+    "kind": "missing",
+    "description": "Canvas lecture verifies office189W/m2 and approximateSHF0.9; chart density1.20kg/m3 adopted. Specific heat and 24/12C remain explicit trial assumptions; actual room sensible load and ADPI applicability are not established.",
+    "blocks_tasks": [
+      "work-load-airflow"
+    ],
+    "sources": [
+      {
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition "
+      },
+      {
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+      }
+    ]
+  },
+  "resolution": "The brief explicitly requests a rule-of-thumb cooling calculation. Adopt the already stated 12 K temperature difference and 1006 J/(kg K) heat capacity as declared design assumptions for this preliminary coursework scenario. Lack of a detailed measured room load does not prevent this scoped calculation. ADPI room-load and physical applicability remain unresolved separately.",
+  "source_evidence": {
+    "runs\\bse3227-agent-intake-v1\\sources\\brief.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+    "runs\\bse3227-agent-intake-v1\\sources\\layout.pdf": "53a1036fbc657fcdd09b76060b0108adb27297542ceaf430e2cd9d2fc10607bd",
+    "runs\\bse3227-canvas-sources\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "runs\\bse3227-agent-intake-v1\\brief-1.png": "c4b19a9ae2196278a9caf81dd0df6561b3e6de75e2ccabcbd616ce28bd0477dd",
+    "runs\\bse3227-agent-intake-v1\\layout-1.png": "3893cf2b256b4a0369dca75cbeb7702f4d1feec5c8b9031a7b0e3c5fdabbd092",
+    "runs\\bse3227-coursework-scope-review\\course-load.png": "a55bd2f3eacc870812a76f880b0a53775e605c98f1b98f5ad807857b3a06d6e0",
+    "runs\\bse3227-coursework-scope-review\\course-chart.png": "35e38bb4d1b142fd4cd8e8e377646050a3683da760fc74f3be68afe770307b55"
+  },
+  "observations": [
+    "Brief p1 explicitly requests rule-of-thumb cooling and total supply airflow;no numerical project temperatures or heat capacity are specified.",
+    "Original layout p1 labels open-plan office area1022m2. This given load area is retained;independent drawing scale and interpreted net-area difference remain unresolved for geometry.",
+    "Course lecture p1 states office189W/m2,approximately0.9 sensible heat factor and the sensible air-balance equation.",
+    "Lecture p9 gives1.20kg/m3 for its duct friction chart;the same density is explicitly adopted as a constant-property preliminary scenario,not measured room air.",
+    "12K temperature difference,represented as24/12C in the existing study,and1006J/(kgK) are selected study assumptions;they are not asserted as supplied project temperatures or measured properties.",
+    "Single-line coursework scope does not by itself require full finite fitting or whole-fan-pressure design. Those capabilities remain in the agent development goal and are not accepted here."
+  ],
+  "independent_decimal_calculation": {
+    "total_cooling_W": "193158",
+    "approximate_sensible_W": "173842.2",
+    "volume_flow_m3_s": "12.00037276341948310139165010",
+    "volume_flow_L_s": "12000.37276341948310139165010",
+    "minimum_40_percent_L_s": "4800.149105367793240556660040"
+  },
+  "engineering_limits": [
+    "Detailed room sensible load and ADPI load-band/category/characteristic-length applicability remain unverified.",
+    "Terminal geometry,product selection,installed routing,fire requirements and final drawing/report acceptance remain pending.",
+    "Thermal cooling kW is not motor electrical input or kVA."
+  ],
+  "design_accepted": false
+}

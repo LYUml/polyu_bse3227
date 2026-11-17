@@ -1,0 +1,49 @@
+{
+  "project_uuid": "e68f27e0-df61-50d2-88d2-6a0ea46bc20c",
+  "source": "Separate candidate: constant1350x900mm trunk; branch clear height900mm; 50mm lower-end/lateral-stub guards; existing37.5mmupper-cap clearance,45degree transitions and50mm collars are assumptions. Preserve original upper inlet and branch axes. No product, coefficient, interaction or integrated network approval.",
+  "classification": "assumed",
+  "placement": {
+    "source": "Actual candidate core port frame",
+    "origin_m": [
+      86.5,
+      34.587385948466064,
+      0.0
+    ],
+    "rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "wall_model": "section_plane_offset",
+  "start_section_m": [
+    0.9,
+    0.9
+  ],
+  "end_section_m": [
+    0.85,
+    0.85
+  ],
+  "section_offset_m": 0.0008,
+  "start_length_m": 0.05,
+  "end_length_m": 0.05,
+  "upstream_angle_degrees": 45.0,
+  "transition_length_m": 0.06035533905932743,
+  "port_directions": {
+    "start": "SINK",
+    "end": "SOURCE"
+  },
+  "geometry_method": "explicit_station_brep"
+}

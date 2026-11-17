@@ -1,0 +1,31 @@
+{
+  "original_plan_sha256": "a0c029719530cf37a3c241bf445629ba08359904463f9c80fdc584a2fe71297a",
+  "original_issue": {
+    "id": "gap-schedule",
+    "kind": "missing",
+    "description": "Reconcile current selected section values and labels against source/native artifacts.",
+    "blocks_tasks": [
+      "work-schedule"
+    ],
+    "sources": [
+      {
+        "passage": "P014",
+        "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) "
+      }
+    ]
+  },
+  "evidence": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\05_Calculations\\agent_checks\\duct_schedule_correspondence.json",
+  "evidence_sha256": "6cf8bd09f7f63319215084858f2677726920893fd5e76b6bad79bca116e93e53",
+  "resolution": "Conditional47section/235field calculation-to-editable/native schedule correspondence independently checked,including47drawing labels andQ/(W H)velocity. All original sizing,geometry,friction-method,physical-route and installation gaps remain.",
+  "dependency_change": {
+    "previous": [
+      "work-sizing"
+    ],
+    "current": [
+      "duct-schedule",
+      "native-sheet"
+    ],
+    "basis": "This requirement is the traceable schedule presentation of the current declared design;method/suitability approval is a separate work-sizing obligation."
+  },
+  "design_accepted": false
+}

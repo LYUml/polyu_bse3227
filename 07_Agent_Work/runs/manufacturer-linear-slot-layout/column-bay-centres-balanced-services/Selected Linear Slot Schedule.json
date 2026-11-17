@@ -1,0 +1,2032 @@
+{
+  "scope": "Manufacturer comparison candidate, not coursework submission or accepted ADPI design",
+  "source_performance_sha256": "86f81caae86ec36357ea39878a4c1a134b9c139102b12bbc92b0ea849a2e8edf",
+  "flow_pressure_method": "Linear interpolation in published per-length flow; section static pressure excludes plenum, not total pressure",
+  "selection_counts": {
+    "0.5inch-8slots": 7,
+    "1.0inch-2slots": 47,
+    "0.75inch-6slots": 4,
+    "0.75inch-4slots": 1,
+    "0.5inch-6slots": 1,
+    "1.5inch-2slots": 3
+  },
+  "terminals": [
+    {
+      "plan_number": 1,
+      "id": "main-1-2",
+      "center_m": [
+        70.105932,
+        19.432584
+      ],
+      "service_load_area_m2": 18.449655380788297,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 216.63673378286452,
+          "flow_L_s_per_m": 177.68760973003978,
+          "T050_m": 8.02181831515177,
+          "diffuser_section_static_Pa": 9.169587479891145
+        },
+        "minimum": {
+          "flow_L_s": 86.65469351314582,
+          "flow_L_s_per_m": 71.07504389201593,
+          "T050_m": 3.162313556763076,
+          "diffuser_section_static_Pa": 1.5623135567630757
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 2,
+      "id": "main-1-3",
+      "center_m": [
+        70.105932,
+        20.703917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 3,
+      "id": "main-1-4",
+      "center_m": [
+        70.105932,
+        21.975250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 4,
+      "id": "main-1-5",
+      "center_m": [
+        70.105932,
+        23.246584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 5,
+      "id": "main-1-6",
+      "center_m": [
+        70.105932,
+        24.517917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 6,
+      "id": "main-1-7",
+      "center_m": [
+        70.105932,
+        25.789250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 7,
+      "id": "main-1-8",
+      "center_m": [
+        70.105932,
+        27.060584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 8,
+      "id": "main-1-9",
+      "center_m": [
+        70.105932,
+        28.331917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 9,
+      "id": "main-1-10",
+      "center_m": [
+        70.105932,
+        29.603250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 10,
+      "id": "main-1-12",
+      "center_m": [
+        70.105932,
+        32.14591733333334
+      ],
+      "service_load_area_m2": 14.060034467707226,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633357,
+          "flow_L_s_per_m": 135.41141369449932,
+          "T050_m": 6.953487505714134,
+          "diffuser_section_static_Pa": 51.27474826241266
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053343,
+          "flow_L_s_per_m": 54.16456547779972,
+          "T050_m": 3.435735805984594,
+          "diffuser_section_static_Pa": 9.507207417953781
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 11,
+      "id": "main-1-13",
+      "center_m": [
+        70.105932,
+        33.41725066666667
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 12,
+      "id": "main-1-14",
+      "center_m": [
+        70.105932,
+        34.688584000000006
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 13,
+      "id": "main-2-2",
+      "center_m": [
+        81.26593199999999,
+        19.432584
+      ],
+      "service_load_area_m2": 18.449655380788297,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 216.63673378286452,
+          "flow_L_s_per_m": 177.68760973003978,
+          "T050_m": 8.02181831515177,
+          "diffuser_section_static_Pa": 9.169587479891145
+        },
+        "minimum": {
+          "flow_L_s": 86.65469351314582,
+          "flow_L_s_per_m": 71.07504389201593,
+          "T050_m": 3.162313556763076,
+          "diffuser_section_static_Pa": 1.5623135567630757
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 14,
+      "id": "main-2-3",
+      "center_m": [
+        81.26593199999999,
+        20.703917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 15,
+      "id": "main-2-4",
+      "center_m": [
+        81.26593199999999,
+        21.975250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 16,
+      "id": "main-2-5",
+      "center_m": [
+        81.26593199999999,
+        23.246584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 17,
+      "id": "main-2-6",
+      "center_m": [
+        81.26593199999999,
+        24.517917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 18,
+      "id": "main-2-7",
+      "center_m": [
+        81.26593199999999,
+        25.789250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 19,
+      "id": "main-2-8",
+      "center_m": [
+        81.26593199999999,
+        27.060584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 20,
+      "id": "main-2-9",
+      "center_m": [
+        81.26593199999999,
+        28.331917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 21,
+      "id": "main-2-10",
+      "center_m": [
+        81.26593199999999,
+        29.603250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 22,
+      "id": "main-2-12",
+      "center_m": [
+        81.26593199999999,
+        32.14591733333334
+      ],
+      "service_load_area_m2": 14.060034467707226,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633357,
+          "flow_L_s_per_m": 135.41141369449932,
+          "T050_m": 6.953487505714134,
+          "diffuser_section_static_Pa": 51.27474826241266
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053343,
+          "flow_L_s_per_m": 54.16456547779972,
+          "T050_m": 3.435735805984594,
+          "diffuser_section_static_Pa": 9.507207417953781
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 23,
+      "id": "main-2-13",
+      "center_m": [
+        81.26593199999999,
+        33.41725066666667
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 24,
+      "id": "main-2-14",
+      "center_m": [
+        81.26593199999999,
+        34.688584000000006
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 25,
+      "id": "main-3-2",
+      "center_m": [
+        92.42593199999999,
+        19.432584
+      ],
+      "service_load_area_m2": 18.44965538078832,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 216.6367337828648,
+          "flow_L_s_per_m": 177.68760973004004,
+          "T050_m": 8.021818315151775,
+          "diffuser_section_static_Pa": 9.169587479891174
+        },
+        "minimum": {
+          "flow_L_s": 86.65469351314593,
+          "flow_L_s_per_m": 71.07504389201601,
+          "T050_m": 3.1623135567630802,
+          "diffuser_section_static_Pa": 1.56231355676308
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 26,
+      "id": "main-3-3",
+      "center_m": [
+        92.42593199999999,
+        20.703917333333333
+      ],
+      "service_load_area_m2": 14.060034467707283,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633425,
+          "flow_L_s_per_m": 135.41141369449988,
+          "T050_m": 6.953487505714148,
+          "diffuser_section_static_Pa": 51.27474826241311
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053371,
+          "flow_L_s_per_m": 54.164565477799954,
+          "T050_m": 3.435735805984612,
+          "diffuser_section_static_Pa": 9.507207417953836
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 27,
+      "id": "main-3-4",
+      "center_m": [
+        92.42593199999999,
+        21.975250666666668
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 28,
+      "id": "main-3-5",
+      "center_m": [
+        92.42593199999999,
+        23.246584
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 29,
+      "id": "main-3-6",
+      "center_m": [
+        92.42593199999999,
+        24.517917333333333
+      ],
+      "service_load_area_m2": 14.060034467707283,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633425,
+          "flow_L_s_per_m": 135.41141369449988,
+          "T050_m": 6.953487505714148,
+          "diffuser_section_static_Pa": 51.27474826241311
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053371,
+          "flow_L_s_per_m": 54.164565477799954,
+          "T050_m": 3.435735805984612,
+          "diffuser_section_static_Pa": 9.507207417953836
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 30,
+      "id": "main-3-7",
+      "center_m": [
+        92.42593199999999,
+        25.789250666666668
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 31,
+      "id": "main-3-8",
+      "center_m": [
+        92.42593199999999,
+        27.060584
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 32,
+      "id": "main-3-9",
+      "center_m": [
+        92.42593199999999,
+        28.331917333333333
+      ],
+      "service_load_area_m2": 14.060034467707283,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633425,
+          "flow_L_s_per_m": 135.41141369449988,
+          "T050_m": 6.953487505714148,
+          "diffuser_section_static_Pa": 51.27474826241311
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053371,
+          "flow_L_s_per_m": 54.164565477799954,
+          "T050_m": 3.435735805984612,
+          "diffuser_section_static_Pa": 9.507207417953836
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 33,
+      "id": "main-3-10",
+      "center_m": [
+        92.42593199999999,
+        29.603250666666668
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 34,
+      "id": "main-3-12",
+      "center_m": [
+        92.42593199999999,
+        32.14591733333334
+      ],
+      "service_load_area_m2": 14.060034467707245,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633383,
+          "flow_L_s_per_m": 135.41141369449952,
+          "T050_m": 6.953487505714139,
+          "diffuser_section_static_Pa": 51.27474826241282
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053354,
+          "flow_L_s_per_m": 54.16456547779982,
+          "T050_m": 3.4357358059846015,
+          "diffuser_section_static_Pa": 9.507207417953804
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 35,
+      "id": "main-3-13",
+      "center_m": [
+        92.42593199999999,
+        33.41725066666667
+      ],
+      "service_load_area_m2": 14.060034467707283,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633425,
+          "flow_L_s_per_m": 135.41141369449988,
+          "T050_m": 6.953487505714148,
+          "diffuser_section_static_Pa": 51.27474826241311
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053371,
+          "flow_L_s_per_m": 54.164565477799954,
+          "T050_m": 3.435735805984612,
+          "diffuser_section_static_Pa": 9.507207417953836
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 36,
+      "id": "main-3-14",
+      "center_m": [
+        92.42593199999999,
+        34.688584000000006
+      ],
+      "service_load_area_m2": 14.060034467707204,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633334,
+          "flow_L_s_per_m": 135.41141369449912,
+          "T050_m": 6.953487505714129,
+          "diffuser_section_static_Pa": 51.2747482624125
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053334,
+          "flow_L_s_per_m": 54.164565477799655,
+          "T050_m": 3.435735805984589,
+          "diffuser_section_static_Pa": 9.507207417953767
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 37,
+      "id": "main-4-2",
+      "center_m": [
+        103.585932,
+        19.432584
+      ],
+      "service_load_area_m2": 18.449655380788297,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 216.63673378286452,
+          "flow_L_s_per_m": 177.68760973003978,
+          "T050_m": 8.02181831515177,
+          "diffuser_section_static_Pa": 9.169587479891145
+        },
+        "minimum": {
+          "flow_L_s": 86.65469351314582,
+          "flow_L_s_per_m": 71.07504389201593,
+          "T050_m": 3.162313556763076,
+          "diffuser_section_static_Pa": 1.5623135567630757
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 38,
+      "id": "main-4-3",
+      "center_m": [
+        103.585932,
+        20.703917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 39,
+      "id": "main-4-4",
+      "center_m": [
+        103.585932,
+        21.975250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 40,
+      "id": "main-4-5",
+      "center_m": [
+        103.585932,
+        23.246584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 41,
+      "id": "main-4-6",
+      "center_m": [
+        103.585932,
+        24.517917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 42,
+      "id": "main-4-7",
+      "center_m": [
+        103.585932,
+        25.789250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 43,
+      "id": "main-4-8",
+      "center_m": [
+        103.585932,
+        27.060584
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 44,
+      "id": "main-4-9",
+      "center_m": [
+        103.585932,
+        28.331917333333333
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 45,
+      "id": "main-4-10",
+      "center_m": [
+        103.585932,
+        29.603250666666668
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 46,
+      "id": "main-4-12",
+      "center_m": [
+        103.585932,
+        32.14591733333334
+      ],
+      "service_load_area_m2": 14.060034467707226,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633357,
+          "flow_L_s_per_m": 135.41141369449932,
+          "T050_m": 6.953487505714134,
+          "diffuser_section_static_Pa": 51.27474826241266
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053343,
+          "flow_L_s_per_m": 54.16456547779972,
+          "T050_m": 3.435735805984594,
+          "diffuser_section_static_Pa": 9.507207417953781
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 47,
+      "id": "main-4-13",
+      "center_m": [
+        103.585932,
+        33.41725066666667
+      ],
+      "service_load_area_m2": 14.060034467707265,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633405,
+          "flow_L_s_per_m": 135.41141369449971,
+          "T050_m": 6.953487505714143,
+          "diffuser_section_static_Pa": 51.27474826241298
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053362,
+          "flow_L_s_per_m": 54.16456547779988,
+          "T050_m": 3.4357358059846064,
+          "diffuser_section_static_Pa": 9.507207417953818
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 48,
+      "id": "main-4-14",
+      "center_m": [
+        103.585932,
+        34.688584000000006
+      ],
+      "service_load_area_m2": 14.060034467707187,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 165.09359557633312,
+          "flow_L_s_per_m": 135.41141369449895,
+          "T050_m": 6.953487505714125,
+          "diffuser_section_static_Pa": 51.274748262412366
+        },
+        "minimum": {
+          "flow_L_s": 66.03743823053325,
+          "flow_L_s_per_m": 54.164565477799584,
+          "T050_m": 3.4357358059845837,
+          "diffuser_section_static_Pa": 9.507207417953751
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 49,
+      "id": "bay-1-1",
+      "center_m": [
+        102.187599,
+        37.35641733333334
+      ],
+      "service_load_area_m2": 23.372342167760838,
+      "selected": "0.75inch-6slots",
+      "slot_width_inch": 0.75,
+      "slots": 6,
+      "active_length_m": 1.2192,
+      "source_page": 4,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 274.4391569151838,
+          "flow_L_s_per_m": 225.0977336902754,
+          "T050_m": 8.94868000683506,
+          "diffuser_section_static_Pa": 19.43900005695884
+        },
+        "minimum": {
+          "flow_L_s": 109.77566276607352,
+          "flow_L_s_per_m": 90.03909347611017,
+          "T050_m": 3.767651161644514,
+          "diffuser_section_static_Pa": 3.854387278949754
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 50,
+      "id": "bay-1-2",
+      "center_m": [
+        102.187599,
+        39.21452566666666
+      ],
+      "service_load_area_m2": 21.349831495897217,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 250.6907401046579,
+          "flow_L_s_per_m": 205.619045361432,
+          "T050_m": 8.601527356558023,
+          "diffuser_section_static_Pa": 12.226235152760484
+        },
+        "minimum": {
+          "flow_L_s": 100.27629604186316,
+          "flow_L_s_per_m": 82.2476181445728,
+          "T050_m": 3.7314824337801236,
+          "diffuser_section_static_Pa": 2.131482433780124
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 51,
+      "id": "bay-1-3",
+      "center_m": [
+        102.187599,
+        40.443725666666666
+      ],
+      "service_load_area_m2": 18.719115398035107,
+      "selected": "0.75inch-4slots",
+      "slot_width_inch": 0.75,
+      "slots": 4,
+      "active_length_m": 1.2192,
+      "source_page": 4,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 219.8007461623158,
+          "flow_L_s_per_m": 180.28276424074457,
+          "T050_m": 8.030122476015613,
+          "diffuser_section_static_Pa": 28.77417309623778
+        },
+        "minimum": {
+          "flow_L_s": 87.92029846492632,
+          "flow_L_s_per_m": 72.11310569629784,
+          "T050_m": 3.7524584320192154,
+          "diffuser_section_static_Pa": 5.176556412831705
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 52,
+      "id": "bay-1-4",
+      "center_m": [
+        102.187599,
+        41.92141733333334
+      ],
+      "service_load_area_m2": 22.692613674814318,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 266.45775251863233,
+          "flow_L_s_per_m": 218.55130619966562,
+          "T050_m": 8.86993277018174,
+          "diffuser_section_static_Pa": 13.6414636973219
+        },
+        "minimum": {
+          "flow_L_s": 106.58310100745294,
+          "flow_L_s_per_m": 87.42052247986625,
+          "T050_m": 3.9950077489743183,
+          "diffuser_section_static_Pa": 2.3950077489743187
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 53,
+      "id": "bay-1-5",
+      "center_m": [
+        102.187599,
+        43.72520802013776
+      ],
+      "service_load_area_m2": 21.419763897211414,
+      "selected": "0.5inch-8slots",
+      "slot_width_inch": 0.5,
+      "slots": 8,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 251.51188969762407,
+          "flow_L_s_per_m": 206.29256044752628,
+          "T050_m": 8.615505971552432,
+          "diffuser_section_static_Pa": 12.299940577276463
+        },
+        "minimum": {
+          "flow_L_s": 100.60475587904963,
+          "flow_L_s_per_m": 82.51702417901052,
+          "T050_m": 3.745206892138272,
+          "diffuser_section_static_Pa": 2.1452068921382716
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 54,
+      "id": "bay-1-6",
+      "center_m": [
+        101.7150991259125,
+        45.02558382762999
+      ],
+      "service_load_area_m2": 17.409645988992768,
+      "selected": "0.5inch-6slots",
+      "slot_width_inch": 0.5,
+      "slots": 6,
+      "active_length_m": 1.2192,
+      "source_page": 1,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 204.4248938816869,
+          "flow_L_s_per_m": 167.67133684521562,
+          "T050_m": 7.76678342113039,
+          "diffuser_section_static_Pa": 14.358297512442416
+        },
+        "minimum": {
+          "flow_L_s": 81.76995755267477,
+          "flow_L_s_per_m": 67.06853473808626,
+          "T050_m": 3.444958870886915,
+          "diffuser_section_static_Pa": 2.5364910048695175
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 55,
+      "id": "edge-1-1",
+      "center_m": [
+        71.965932,
+        18.161250666666664
+      ],
+      "service_load_area_m2": 31.92005029019984,
+      "selected": "0.75inch-6slots",
+      "slot_width_inch": 0.75,
+      "slots": 6,
+      "active_length_m": 1.2192,
+      "source_page": 4,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 374.8067535317948,
+          "flow_L_s_per_m": 307.4202374768658,
+          "T050_m": 10.460369932372815,
+          "diffuser_section_static_Pa": 36.54430862410691
+        },
+        "minimum": {
+          "flow_L_s": 149.92270141271794,
+          "flow_L_s_per_m": 122.96809499074634,
+          "T050_m": 5.5026200586522265,
+          "diffuser_section_static_Pa": 6.191284160633611
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 56,
+      "id": "edge-1-2",
+      "center_m": [
+        86.845932,
+        18.161250666666664
+      ],
+      "service_load_area_m2": 33.173361139120125,
+      "selected": "0.75inch-6slots",
+      "slot_width_inch": 0.75,
+      "slots": 6,
+      "active_length_m": 1.2192,
+      "source_page": 4,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 389.5231893199368,
+          "flow_L_s_per_m": 319.4908048883996,
+          "T050_m": 10.681014713013758,
+          "diffuser_section_static_Pa": 39.114171363336695
+        },
+        "minimum": {
+          "flow_L_s": 155.80927572797475,
+          "flow_L_s_per_m": 127.79632195535986,
+          "T050_m": 5.757010511626487,
+          "diffuser_section_static_Pa": 6.533932525864248
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 57,
+      "id": "edge-1-3",
+      "center_m": [
+        101.725932,
+        18.161250666666664
+      ],
+      "service_load_area_m2": 31.638328786871366,
+      "selected": "0.75inch-6slots",
+      "slot_width_inch": 0.75,
+      "slots": 6,
+      "active_length_m": 1.2192,
+      "source_page": 4,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 371.4987661977316,
+          "flow_L_s_per_m": 304.7069932724176,
+          "T050_m": 10.410772995302258,
+          "diffuser_section_static_Pa": 35.96665018057924
+        },
+        "minimum": {
+          "flow_L_s": 148.59950647909264,
+          "flow_L_s_per_m": 121.88279730896706,
+          "T050_m": 5.445437707676759,
+          "diffuser_section_static_Pa": 6.11426303482992
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 58,
+      "id": "edge-15-1",
+      "center_m": [
+        71.965932,
+        35.95991733333334
+      ],
+      "service_load_area_m2": 18.7467126236096,
+      "selected": "1.5inch-2slots",
+      "slot_width_inch": 1.5,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 10,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 220.12479410177772,
+          "flow_L_s_per_m": 180.54855159266543,
+          "T050_m": 8.035695436620404,
+          "diffuser_section_static_Pa": 115.65983631640165
+        },
+        "minimum": {
+          "flow_L_s": 88.0499176407111,
+          "flow_L_s_per_m": 72.2194206370662,
+          "T050_m": 4.693936904876104,
+          "diffuser_section_static_Pa": 20.91797817552023
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 59,
+      "id": "edge-15-2",
+      "center_m": [
+        86.845932,
+        35.95991733333334
+      ],
+      "service_load_area_m2": 18.746712623609582,
+      "selected": "1.5inch-2slots",
+      "slot_width_inch": 1.5,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 10,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 220.1247941017775,
+          "flow_L_s_per_m": 180.54855159266526,
+          "T050_m": 8.0356954366204,
+          "diffuser_section_static_Pa": 115.65983631640142
+        },
+        "minimum": {
+          "flow_L_s": 88.049917640711,
+          "flow_L_s_per_m": 72.21942063706611,
+          "T050_m": 4.693936904876099,
+          "diffuser_section_static_Pa": 20.917978175520194
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 60,
+      "id": "edge-15-3",
+      "center_m": [
+        101.725932,
+        35.95991733333334
+      ],
+      "service_load_area_m2": 18.746712623609582,
+      "selected": "1.5inch-2slots",
+      "slot_width_inch": 1.5,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 10,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 220.1247941017775,
+          "flow_L_s_per_m": 180.54855159266526,
+          "T050_m": 8.0356954366204,
+          "diffuser_section_static_Pa": 115.65983631640142
+        },
+        "minimum": {
+          "flow_L_s": 88.049917640711,
+          "flow_L_s_per_m": 72.21942063706611,
+          "T050_m": 4.693936904876099,
+          "diffuser_section_static_Pa": 20.917978175520194
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 61,
+      "id": "column-band-1",
+      "center_m": [
+        72.12718212591253,
+        30.874584
+      ],
+      "service_load_area_m2": 17.021787461245843,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 199.87064054271022,
+          "flow_L_s_per_m": 163.93589283358776,
+          "T050_m": 7.653144541201209,
+          "diffuser_section_static_Pa": 73.98669202976232
+        },
+        "minimum": {
+          "flow_L_s": 79.9482562170841,
+          "flow_L_s_per_m": 65.57435713343511,
+          "T050_m": 4.3134120871873165,
+          "diffuser_section_static_Pa": 12.140236261561949
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 62,
+      "id": "column-band-2",
+      "center_m": [
+        86.99634879257914,
+        30.874584
+      ],
+      "service_load_area_m2": 17.949197666239865,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 210.76033541993874,
+          "flow_L_s_per_m": 172.8677291830206,
+          "T050_m": 7.872227319583525,
+          "diffuser_section_static_Pa": 81.09845606648055
+        },
+        "minimum": {
+          "flow_L_s": 84.3041341679755,
+          "flow_L_s_per_m": 69.14709167320825,
+          "T050_m": 4.555230339821138,
+          "diffuser_section_static_Pa": 13.192824570711693
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    },
+    {
+      "plan_number": 63,
+      "id": "column-band-3",
+      "center_m": [
+        101.71509891849166,
+        30.874584
+      ],
+      "service_load_area_m2": 16.653686060511724,
+      "selected": "1.0inch-2slots",
+      "slot_width_inch": 1.0,
+      "slots": 2,
+      "active_length_m": 1.2192,
+      "source_page": 7,
+      "cases": {
+        "maximum": {
+          "flow_L_s": 195.5483763318039,
+          "flow_L_s_per_m": 160.39072861860555,
+          "T050_m": 7.566187683097872,
+          "diffuser_section_static_Pa": 71.16393863594631
+        },
+        "minimum": {
+          "flow_L_s": 78.21935053272156,
+          "flow_L_s_per_m": 64.15629144744223,
+          "T050_m": 4.20433011134171,
+          "diffuser_section_static_Pa": 11.81299033402513
+        }
+      },
+      "frame": null,
+      "outer_body_width_m": null,
+      "plenum": null,
+      "physical_ADPI_accepted": false
+    }
+  ],
+  "design_accepted": false
+}

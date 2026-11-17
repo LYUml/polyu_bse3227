@@ -1,0 +1,49 @@
+ 
+39 
+Appendix A: Detailed Results 
+This appendix documents the simulation inputs and results for each set. Each set is documented 
+similarly, consisting of two tables.  
+The first table in each set includes the fully developed losses of the inlet and outlet ducts present 
+in all cases from the set. This includes simulated flow values and duct diameters and variables 
+for calculating the friction factor per Equation 3 and Equation 4.  
+The second table in each set contains simulation results and the box loss calculations per 
+Equation 5, the conversion to EL from pressure using Equation 7, and the comparable EL values 
+from ACCA Manual D adjusted using Equation 6 to the maximum friction rate and velocity in 
+the simulation from the reference values in the manual. The first columns in the second table 
+identify each case number and any parameters that are changing between cases. The next 
+columns document the measurements taken from the CFD simulations through to the calculated 
+box losses and EL values. Finally, the ACCA Manual D comparable values are noted, along with 
+the difference between the simulations and ACCA Manual D. Positive values in the last two 
+columns indicate potential additional pressure not accounted for by ACCA Manual D that could 
+be present in systems installed with the given configuration, dimensions, and flows. 
+Set 1: Four and Five Outlets with an Entrance Diffuser 
+Gilman et al. (1951) described an entrance fitting as diagrammed in Figure 3 as greatly 
+increasing performance in junction boxes. Comparisons were made between boxes with and 
+without the fitting. In addition, two “spreads” were used to test if either performed better. Initial 
+results in a box similar to that in Set 1 with four outlets—two on each side of a rectangle—did 
+not yield a significant reduction in pressure, and a hypothesis was that the results in the Gilman 
+study were so dramatic because there was an outlet out the back of the box. Thus, with the same 
+outlet flows, an additional outlet was placed at the back, and the inlet flow increased by the 
+additional outlet’s flow. Rectangular and circular inlet ducts were used because the design of the 
+fitting aligned better with a rectilinear profile. The outer edges of the circular duct caused the 
+turning to be less pronounced because most of the flow was concentrated in the center vanes. 
+The detailed, fully developed loss calculation inputs and results for Set 1 are presented in Table 
+12. Table 13 details the inputs and results from the simulations of Set 1. 
+Table 12. Set 1: Four and Five Outlets with an Entrance Diffuser, Fully Developed Losses 
+Inlet B 16 1,125 806 108,984 0 0.000 0.018 0.0537 16 0.0007 0.2
+InletA 16 900 645 87,188 0 0.000 0.019 0.0359 16 0.0005 0.1
+Outlet 10 225 413 34,875 0 0.000 0.023 0.0289 200 0.0048 1.2
+Flow, cfm
+Diameter, in.
+ID
+Loss Rate, IWC/ 
+100 ft
+Friction Factor
+k/d
+Roughness
+Reynolds
+Velocity, fpm
+Loss, Pa
+Loss, IWC
+Length, in.
+ 

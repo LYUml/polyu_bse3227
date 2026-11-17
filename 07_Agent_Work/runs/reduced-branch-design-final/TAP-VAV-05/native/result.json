@@ -1,0 +1,72 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\reduced-branch-design-final\\TAP-VAV-05\\project.json": "449076b855409b1e97336eafcb05bf1d63fd215373a1f98a8933493bd2857b8d",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\unequal_rectangular_tee.py": "5d925d872d8fb9a5c41a3bc07402f6c4a32f77ae53b9d0861e9d8e3166d1a30a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_tee.py": "2a1b4d02564a737c56ada58c0f4b7fdea402a341a282622232c414c4856cc0fa"
+  },
+  "ifc_sha256": "93ae7f59c3ba219ba3210f9d62ff02e5bae698a9a06d46460082865b63b2684b",
+  "parameters": {
+    "tee": {
+      "project_uuid": "0b259924-3e98-5e96-81eb-fc9395da5044",
+      "source": "Source node TAP-VAV-05; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}; Separate reduced-branch study: inherit existing scheduled branch section and original external endpoint; replace the enlarged branch plus taper with one sharp reduced branch. Assumed construction, not a product or installed geometry.",
+      "classification": "assumed",
+      "internal_width_m": 0.5,
+      "internal_height_m": 0.35,
+      "wall_thickness_m": 0.0008,
+      "main_half_length_m": 0.35,
+      "branch_length_m": 0.7299038105676658,
+      "port_directions": {
+        "main-a": "SINK",
+        "main-b": "SOURCE",
+        "branch": "SOURCE"
+      },
+      "placement": {
+        "source": "Original source rays/XY and explicit study elevation",
+        "origin_m": [
+          98.00593199999999,
+          21.920583999999998,
+          0
+        ],
+        "rotation": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    "branch_section_m": [
+      0.35,
+      0.3
+    ]
+  },
+  "checks": {
+    "schema_express_issue_count": 0,
+    "ports": 3,
+    "native_material_volume_m3": 0.0013692864687455196,
+    "independent_material_volume_m3": 0.0013692864687454287,
+    "euler_characteristic": -2,
+    "bore_probe_overlap_m3": [
+      0.0,
+      0.0
+    ],
+    "native_profiles_and_port_frames_verified": true
+  },
+  "versions": {
+    "ifcopenshell": "0.8.5",
+    "manifold3d": "3.5.4"
+  },
+  "design_accepted": false,
+  "scope": "Isolated reduced-branch fitting geometry; no pressure, network merge, physical installation or native CAD acceptance"
+}

@@ -1,0 +1,86 @@
+{
+  "project_uuid": "a4ab4a05-33f6-5879-b87e-7b8630f8e48e",
+  "source": "Original adjacent nodes ROOT/J2; Explicit compound construction alternative: absorb the residual A-03 straight up to its verified elbow cap and all D-01 into a single tapered trunk; preserve D-01 clear profile internally and all external source end sections/rays. Side takeoff reaches 0.9m, outlet reach 1.0m, and 30 degree included trunk angle limit are study choices, not code/manufacturer/installed facts. Retain original failed separate-core scenario and require new pressure/coordination/product review.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+  "classification": "assumed",
+  "placement": {
+    "source": "Original source XY and explicit study elevation",
+    "origin_m": [
+      86.5,
+      35.58058400000001,
+      0.0
+    ],
+    "rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "wall_thickness_m": 0.0008,
+  "stations": [
+    {
+      "y_m": -1.0,
+      "width_m": 0.85,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0,
+      "width_m": 1.25,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0.619415999999994,
+      "width_m": 1.25,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0.9069159999999883,
+      "width_m": 1.35,
+      "height_m": 0.9
+    }
+  ],
+  "branches": [
+    {
+      "id": "D-22",
+      "y_m": 0.619415999999994,
+      "side": 1,
+      "width_m": 0.5,
+      "height_m": 0.4,
+      "reach_m": 0.9
+    },
+    {
+      "id": "D-02",
+      "y_m": 0.0,
+      "side": -1,
+      "width_m": 0.5,
+      "height_m": 0.45,
+      "reach_m": 0.9
+    },
+    {
+      "id": "D-05",
+      "y_m": 0.0,
+      "side": 1,
+      "width_m": 0.6,
+      "height_m": 0.4,
+      "reach_m": 0.9
+    }
+  ],
+  "port_directions": {
+    "lower": "SOURCE",
+    "upper": "SINK",
+    "D-22": "SOURCE",
+    "D-02": "SOURCE",
+    "D-05": "SOURCE"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "window": [
+    1,
+    10
+  ],
+  "samples": 10,
+  "max_relative_flux_errors": {
+    "inlet": 5.013985999849425e-15,
+    "outlet_0": 4.881837746045126e-15,
+    "outlet_1": 7.134993628835184e-15,
+    "outlet_2": 8.187612617411673e-15,
+    "outlet_3": 7.321247693689294e-15
+  },
+  "max_relative_global_imbalance": 6.1228482882776634e-15,
+  "relative_tolerance": 1e-10,
+  "signed_flux_window_passed": true,
+  "pressure_accepted": false,
+  "engineering_accepted": false,
+  "scope": "Actual four-outlet startup only; ten samples are NOT full200step acceptance",
+  "foamRun_returncode": 0,
+  "terminal_step": 10,
+  "input_assumptions": {
+    "scope": "Actual source-family numerical startup trial ONLY, not accepted project pressure",
+    "source_cfg_sha256": "f07425c8350f77b1361981f7e1ae1a6c6693d110964383be69dd71a5a7a75bbd",
+    "source_mesh_case": "plenum-family-1-constrained-core-topology-merged",
+    "source_mesh_check_failed_categories": 3,
+    "density_kg_m3": 1.2,
+    "dynamic_viscosity_Pa_s": 1.81e-05,
+    "kinematic_viscosity_m2_s": 1.5083333333333333e-05,
+    "inlet_speed_m_s": 4.286470825870307,
+    "native_inlet_area_m2": 0.1343076000000014,
+    "targets_outward_m3_s": {
+      "inlet": -0.5757056090926648,
+      "outlet_0": 0.14782239876590955,
+      "outlet_1": 0.14782239876590955,
+      "outlet_2": 0.13220794627087828,
+      "outlet_3": 0.14785286528996738
+    },
+    "inlet_turbulence_intensity_assumption": 0.05,
+    "inlet_turbulent_viscosity_ratio_assumption": 10,
+    "inlet_k_m2_s2": 0.06890187052888977,
+    "inlet_omega_s_1": 456.807981407004,
+    "wall_treatment": "smooth low-Re nut0/k0 with native omegaWallFunction; source NO_WALL_FUNCTION equivalence NOT verified",
+    "turbulence_model": "native OpenFOAM kOmegaSST; equivalence to SU2 SST options NOT verified",
+    "budget_steps": 10,
+    "engineering_accepted": false
+  },
+  "negative_k_bounding_events": 5,
+  "source_design_inlet_m3_s": 0.5756751425686069,
+  "inherited_speed_native_area_inlet_m3_s": 0.5757056090926648,
+  "inlet_relative_difference_from_design": 5.292311896945256e-05,
+  "full_pressure_convergence_verified": false,
+  "next_required_correction": "Use source design Q and all four exact source fractions with flowRateInletVelocity; inherited old uniform speed times native area is slightly different. Address negative-k numerical behavior before extending.",
+  "minimum_prebounding_k": -0.043227922352031954
+}

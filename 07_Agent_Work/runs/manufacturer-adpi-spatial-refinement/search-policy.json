@@ -1,0 +1,58 @@
+{
+  "parameter_names": [
+    "main_left_inward_shift_m",
+    "main_join_shift_m",
+    "bay_left_inward_shift_m",
+    "right_inward_shift_m",
+    "bottom_inward_shift_m",
+    "main_top_inward_shift_m",
+    "bay_bottom_shift_m",
+    "bay_top_inward_shift_m",
+    "hypothetical_downward_distance_m"
+  ],
+  "bounds": [
+    [
+      0,
+      3.5
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      0,
+      3.5
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "finite_budget": {
+    "maxiter": 35,
+    "popsize": 5,
+    "seed": 3227,
+    "polish": false
+  },
+  "scope": "Separate80terminal two-zone row/column candidate; actual source boundary and full fresh nearest-centre area allocation each evaluation. Hypothetical downward travel only on aligned opposing jets. Necessary ratio envelope objective; exact source screen required after search. No actual building height claimed."
+}

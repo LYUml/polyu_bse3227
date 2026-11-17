@@ -1,0 +1,44 @@
+ 
+9 
+Table 2. Mesh Grid Densities 
+Model  
+Number 
+Number of 
+Elements 
+Number of 
+Nodes 
+1 194,520 218,449 
+2 393,982 432,228 
+ 
+Table 3. Normalized Mass Flow Rates 
+Outlet  
+Number 
+Gilman  
+Study 
+Model 1 Model 2 
+1 0.148 0.110 0.113 
+2 0.175 0.207 0.210 
+3 0.206 0.236 0.236 
+4 0.175 0.207 0.203 
+5 0.148 0.110 0.111 
+6 0.148 0.131 0.128 
+ 
+The IBACOS team used the ANSYS CFX computer code.1 They used the standard k-ε 
+turbulence model based on findings from Liu et al. (2012). The team tested other turbulence 
+models in CFX, and for the phenomena studied, those models did not show any advantages. 
+The IBACOS team used structured meshes for the boxes where possible. The models generally 
+ranged between 250,000 and 500,000 elements. For ease of modeling, CFX dissimilar mesh 
+interfaces (Generalized Grid Interfaces) were used, with CFX calculating the interfaces where 
+the inlet and outlet pipe faces met the plenum. Some cases employed imprinted faces and 
+continuous meshes, and the results were similar. The outlet sections had swept meshes with 
+density ratios in the 1:12 range. Outside the boundary layer in the outlet sections, which were 
+five elements deep, the mesh densities were kept similar to the mesh densities in the plenum. 
+Inside the plenum, the mesh density was uniform and fine, without further refinement at the 
+boundary layer or coarseness in the center. This avoids bias of flow due to higher mesh densities 
+in any region within the box. That is, meshes were sufficiently fine to allow for sharp pressure 
+gradients anywhere within the box, rather than predicting where sharp gradients would be with 
+finer meshes only in those areas. Figure 7 documents a typical mesh cross section. 
+ 
+                                                 
+1 ANSYS, Inc. Canonsburg, PA: 
+www.ansys.com/Products/Simulation+Technology/Fluid+Dynamics/Fluid+Dynamics+Products/ANSYS+CFX. 

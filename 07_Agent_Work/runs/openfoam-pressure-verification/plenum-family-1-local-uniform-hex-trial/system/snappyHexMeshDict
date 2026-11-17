@@ -1,0 +1,21 @@
+FoamFile { format ascii; class dictionary; object snappyHexMeshDict; }
+#includeEtc "caseDicts/mesh/generation/snappyHexMeshDict.cfg"
+castellatedMesh true;
+snap true;
+addLayers false;
+geometry { air {type triSurfaceMesh; file "air.obj";} }
+castellatedMeshControls {
+ maxLocalCells 500000;
+ maxGlobalCells 500000;
+ minRefinementCells 10;
+ nCellsBetweenLevels 3;
+ features ();
+ refinementSurfaces { air {level (2 2); patchInfo {type wall;} regions {inlet { level (2 2); patchInfo {type patch;} }
+outlet_0 { level (2 2); patchInfo {type patch;} }
+outlet_1 { level (2 2); patchInfo {type patch;} }
+outlet_2 { level (2 2); patchInfo {type patch;} }
+outlet_3 { level (2 2); patchInfo {type patch;} }} } }
+ refinementRegions {air {mode inside;level 2;} }
+ insidePoint (.001 .002 .003);
+}
+mergeTolerance 1e-6;

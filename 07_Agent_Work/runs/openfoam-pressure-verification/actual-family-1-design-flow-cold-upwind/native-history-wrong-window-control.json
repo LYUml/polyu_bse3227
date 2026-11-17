@@ -1,0 +1,49 @@
+{
+  "schema": "bsa.openfoam-history.v1",
+  "units": {
+    "phi": "m3/s",
+    "Pt": "Pa"
+  },
+  "time_basis": "steady_deltaT_1",
+  "density_kg_m3": 1.2,
+  "inlet": "inlet",
+  "outward_volume_targets_m3_s": {
+    "inlet": -0.5756751425686069,
+    "outlet_0": 0.14782239876590955,
+    "outlet_1": 0.14782239876590955,
+    "outlet_2": 0.13220794627087828,
+    "outlet_3": 0.1478223987659094
+  },
+  "basis_files": {
+    "source_flow": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/startup-inputs.json",
+    "native_pressure_observer": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/system/functions",
+    "phase_numerics": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/system/fvSolution.to250",
+    "phase_control": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/system/controlDict.to250"
+  },
+  "patches": {
+    "inlet": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/flux_inlet/50/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/pressure_inlet/50/surfaceFieldValue.dat"
+    },
+    "outlet_0": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/flux_outlet_0/50/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/pressure_outlet_0/50/surfaceFieldValue.dat"
+    },
+    "outlet_1": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/flux_outlet_1/50/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/pressure_outlet_1/50/surfaceFieldValue.dat"
+    },
+    "outlet_2": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/flux_outlet_2/50/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/pressure_outlet_2/50/surfaceFieldValue.dat"
+    },
+    "outlet_3": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/flux_outlet_3/50/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/postProcessing/pressure_outlet_3/50/surfaceFieldValue.dat"
+    }
+  },
+  "expected_window": [
+    451,
+    650
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "official_reference": {
+    "url": "https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch21/F21_Ch21_si.aspx",
+    "edition": "2021 Fundamentals Chapter21",
+    "snapshot": "ashrae-2021-duct-design.html",
+    "sha256": "a1afbfd564c8240c5ca4ca651c5e0d3531df60f06b9cda4532c92c6dde4365a7",
+    "scope": "Equation family and chart construction corroboration;not authentication of a2013classroom chart edition"
+  },
+  "lecture": {
+    "document": "Space air diffusion design and air duct sizing.pdf",
+    "pages": [
+      7,
+      8,
+      9
+    ],
+    "visually_checked": true,
+    "edition_as_printed_on_chart": "2013 Fundamentals Chapter21 Figure10"
+  },
+  "classifications": {
+    "chart_density": {
+      "value": 1.2,
+      "unit": "kg/m3",
+      "classification": "reference-chart condition"
+    },
+    "roughness": {
+      "value": 0.09,
+      "unit": "mm",
+      "classification": "reference-chart condition;not installed-duct measurement"
+    },
+    "viscosity": {
+      "value": 1.81e-05,
+      "unit": "Pa s",
+      "classification": "declared design assumption"
+    },
+    "velocity_limits": {
+      "main": 10,
+      "branch": 8,
+      "unit": "m/s",
+      "classification": "office supply limits selected from classroom reference"
+    },
+    "pressure_gradient_limit": {
+      "value": 1.23,
+      "unit": "Pa/m",
+      "classification": "selected upper end of reference recommended band;not a statutory limit"
+    },
+    "aspect_ratio": {
+      "value": 4,
+      "classification": "chosen preferred-ratio cap;not stated as mandatory universal maximum"
+    },
+    "candidate_grid": {
+      "classification": "declared design choice;does not establish manufactured availability or spatial fit"
+    }
+  },
+  "independent_equations": {
+    "report": "05_Calculations\\agent_checks\\duct_equation_review\\review.json",
+    "sha256": "fb4ca0ac35d6a52cf0b0fe44949aba359f8f41817813324c0dbd63b784bd9c35",
+    "sections": 47,
+    "candidates": 16779,
+    "maximum_residual": 3.375077994860476e-14,
+    "numerical_checks_pass": true
+  },
+  "scanned_chart_readings_verified": false,
+  "source_edition_equivalence_verified": false,
+  "physical_applicability_verified": false,
+  "remaining_requests": [
+    "Read and retain actual classroom friction-chart points or an accepted alternative method for the selected cases;do not fabricate readings from algebra",
+    "Confirm operating conditions and installed duct construction if asserting physical applicability",
+    "Validate manufacturing size availability and actual installation space separately from finite-grid ranking"
+  ],
+  "original_requirements_preserved": 33,
+  "unresolved_inputs_unchanged": 6,
+  "design_accepted": false
+}

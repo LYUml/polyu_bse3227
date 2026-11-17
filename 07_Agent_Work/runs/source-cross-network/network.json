@@ -1,0 +1,548 @@
+{
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-cross-candidates",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-cross-candidates\\cross-candidates.json": "48d0fd00b4fba2a7616633b1768f3a4830484e2da6f84eb4d79f39b3b785fa95",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_cross_network.py": "f3ee0de6f5d2a212ba7c25d07c2b42547169d3403d9cfaac05e63f82b929fee9",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_tee_network.py": "d4002463d3d44edae5ae27bbd1e1a37c1826611bf16a60a6413b5bd939ee10bb",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_cross_candidates.py": "cfdb8a69166980df93509477422f915586cf13470fa354d1cda9f2cf41a9ae6e"
+  },
+  "checks": {
+    "bodies": 103,
+    "owned_ports": 222,
+    "actual_links": 97,
+    "boundary_ports": 28,
+    "source_geometry_properties_frames_preserved": true,
+    "coincident_opposed_interfaces": true,
+    "schema_express_pass": true,
+    "complete_network": false,
+    "design_accepted": false
+  },
+  "trimmed_checks": {
+    "body_count": 57,
+    "owned_ports": 114,
+    "actual_links": 20,
+    "coincident_opposed_linked_ports": true,
+    "native_geometry_pass": true,
+    "complete_network": false
+  },
+  "interfaces": [
+    {
+      "node": "J1",
+      "arm": "main-a",
+      "section": "D-08",
+      "port": "out",
+      "width_m": 0.85,
+      "height_m": 0.85,
+      "reach_m": 0.5249999999999986
+    },
+    {
+      "node": "J1",
+      "arm": "main-b",
+      "section": "D-15",
+      "port": "in",
+      "width_m": 0.65,
+      "height_m": 0.6,
+      "reach_m": 1.0915063509461085
+    },
+    {
+      "node": "J1",
+      "arm": "branch-a",
+      "section": "D-09",
+      "port": "in",
+      "width_m": 0.55,
+      "height_m": 0.45,
+      "reach_m": 1.3714101615137793
+    },
+    {
+      "node": "J1",
+      "arm": "branch-b",
+      "section": "D-12",
+      "port": "in",
+      "width_m": 0.55,
+      "height_m": 0.45,
+      "reach_m": 1.3714101615137793
+    }
+  ],
+  "budgets": [
+    {
+      "section": "A-01",
+      "remaining_m": 1.1499999999999986,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.1499999999999986,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "A-02",
+      "remaining_m": 0.6375000000000028,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 0.6375000000000028,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "A-03",
+      "remaining_m": 0.2874999999999943,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 0.2874999999999943,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-01",
+      "remaining_m": 0.619415999999994,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 0.619415999999994,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-02",
+      "remaining_m": 3.024068000000014,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 3.024068000000014,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-03",
+      "remaining_m": 6.453397459621556,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.453397459621556,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-04",
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.203397459621584,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-05",
+      "remaining_m": 3.6659319999999838,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 3.6659319999999838,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-06",
+      "remaining_m": 6.403397459621559,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.403397459621559,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-07",
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.203397459621584,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-08",
+      "remaining_m": 6.305,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.829999999999998,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.5249999999999986
+    },
+    {
+      "section": "D-09",
+      "remaining_m": 1.627657838486229,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 2.9990680000000083,
+      "from_cross_trim_m": 1.3714101615137793,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-10",
+      "remaining_m": 6.4533974596215415,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.4533974596215415,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-11",
+      "remaining_m": 6.303397459621564,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.303397459621564,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-12",
+      "remaining_m": 2.31952183848621,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 3.6909319999999894,
+      "from_cross_trim_m": 1.3714101615137793,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-13",
+      "remaining_m": 6.428397459621564,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.428397459621564,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-14",
+      "remaining_m": 6.185096189432343,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.185096189432343,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-15",
+      "remaining_m": 5.313493649053903,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.405000000000012,
+      "from_cross_trim_m": 1.0915063509461085,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-16",
+      "remaining_m": 2.0758629192431215,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 2.0758629192431215,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-17",
+      "remaining_m": 6.403397459621544,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.403397459621544,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-18",
+      "remaining_m": 6.185096189432343,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.185096189432343,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-19",
+      "remaining_m": 2.7677269192431027,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 2.7677269192431027,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-20",
+      "remaining_m": 6.403397459621559,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.403397459621559,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-21",
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 6.203397459621584,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-22",
+      "remaining_m": 11.448432499999996,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 11.448432499999996,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-23",
+      "remaining_m": 1.160584,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.160584,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-24",
+      "remaining_m": 5.741730459621579,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 5.741730459621579,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-25",
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.875,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-26",
+      "remaining_m": 1.670096189432332,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.670096189432332,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-27",
+      "remaining_m": 1.43349364905389,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.43349364905389,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-28",
+      "remaining_m": 1.43349364905389,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.43349364905389,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-29",
+      "remaining_m": 1.670096189432332,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.670096189432332,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-30",
+      "remaining_m": 1.7999999999999972,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.7999999999999972,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-31",
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.875,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-32",
+      "remaining_m": 1.7883974596215566,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.7883974596215566,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-33",
+      "remaining_m": 1.551794919243111,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.551794919243111,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-34",
+      "remaining_m": 1.551794919243111,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.551794919243111,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-35",
+      "remaining_m": 1.7633974596215545,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.7633974596215545,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-36",
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.875,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-37",
+      "remaining_m": 1.8000000000000043,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.8000000000000043,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-38",
+      "remaining_m": 1.763397459621558,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.763397459621558,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-39",
+      "remaining_m": 1.5767949192431132,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.5767949192431132,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-40",
+      "remaining_m": 1.4334936490539008,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.4334936490539008,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-41",
+      "remaining_m": 1.6700961894323356,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.6700961894323356,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-42",
+      "remaining_m": 1.8000000000000043,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 1.8000000000000043,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-43",
+      "remaining_m": 2.063397459621548,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 2.063397459621548,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    },
+    {
+      "section": "D-44",
+      "remaining_m": 2.0999999999999943,
+      "minimum_remainder_m": 0.05,
+      "before_cross_length_m": 2.0999999999999943,
+      "from_cross_trim_m": 0.0,
+      "to_cross_trim_m": 0.0
+    }
+  ],
+  "unresolved_nodes": {
+    "ROOT": [
+      "Known both-end fitting reach exceeds source budget on A-03",
+      "Known both-end fitting reach exceeds source budget on D-01"
+    ],
+    "J2": [
+      "Combined source cross reach exceeds inherited budget on D-01"
+    ]
+  },
+  "original_requirement_ids": [
+    "R001-identity",
+    "R002-identity",
+    "R003-identity",
+    "R004-identity",
+    "R004-layout",
+    "R004-routing",
+    "R005-delivery",
+    "R006-load",
+    "R006-layout",
+    "R006-terminal",
+    "R006-adpi",
+    "R007-load",
+    "R007-layout",
+    "R007-terminal",
+    "R007-adpi",
+    "R008-minimum",
+    "R009-minimum",
+    "R009-terminal",
+    "R009-adpi",
+    "R010-routing",
+    "R011-routing",
+    "R011-delivery",
+    "R012-sizing",
+    "R013-sizing",
+    "R014-schedule",
+    "R014-delivery",
+    "producer-air-allocation-P007",
+    "producer-terminal-lookup-P007",
+    "producer-terminal-lookup-P009",
+    "producer-duct-schedule-P013",
+    "producer-duct-sheet-P011",
+    "producer-native-sheet-P011",
+    "hk-flex-check"
+  ],
+  "original_network_modified": false,
+  "complete_network": false,
+  "design_accepted": false,
+  "scope": "Partial source tee/cross integration; remaining blocked nodes, raw coordination, pressure, products and full engineering acceptance remain pending",
+  "artifacts": {
+    "model-input.json": "e4876af88031b9c444a3519300a9932f7d6232ffcdd2983231844ee6a4b87282",
+    "recontained.ifc": "076953f03a2b776db81986e545dddd4cf8ebe0edf592c1aeb6370a9dd8f6896f",
+    "Supply Network.ifc": "e330c154a28984a689aa1baf7f1fc5b1f6918af3b5857afd86572aadaf22b5fd",
+    "Trimmed Backbone.ifc": "3fac0de0046c4d8fe49300e39580ef2f73b02b6f56895c0bebe48e2852475951",
+    "bim/bim-verification.json": "f6785f6069c1dea30e422260ae3f94e8bd61f25a746a2fe99be47745a6db6455",
+    "bim/model.ifc": "4a80bec35a6d173a6c0fbfc8fc4d158f82d182c6adf2b91b2ee2fbf012cbbc6f",
+    "bim/schema-validation.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "inputs/cross/node-001/project.json": "1d87ac867a9de6094f591cccd97dc677cbadef792e9e42f8dcb25223eda1263f",
+    "inputs/cross/node-002/project.json": "3baa59cece0af2a35ddb86cf11410f1ef7338c3ae3a157c07bbd402125e2df04",
+    "inputs/tee/inputs/node-001/binding.json": "d6af56c206a0f4786aac579d071fc05163d443fc1b25e646596987a5fe91cfd3",
+    "inputs/tee/inputs/node-001/project.json": "05b70427048d3d6952623b0d765cf0e95f3bddb01468021f09d04eccd05f5ff8",
+    "inputs/tee/inputs/node-001/tee.json": "1391aac01d7d9bd3e9447a169227b4d84082a9412ef60f186c4f7a0e3ba517f4",
+    "inputs/tee/inputs/node-002/binding.json": "a52c0c65a9d11971a1ee34e0aa37df2e56c10f94642065c2d4122df88c689423",
+    "inputs/tee/inputs/node-002/project.json": "7c724c35909f74bfbe7c8ff0596f987fc0e9f6bc712b33444d05adc7980b76c9",
+    "inputs/tee/inputs/node-002/tee.json": "1b7e915b2fba6859856c63f3539ca1ede60f3bcd36b14bb1cc136467d632f128",
+    "inputs/tee/inputs/node-003/binding.json": "9e86c059c5653f6edd9ba62b86dbe596c30157ef86b4c99e8a1ede06957cc9f7",
+    "inputs/tee/inputs/node-003/project.json": "256c34b14bac46a9355218edfdc79934b60c425339348f995a80c32c4e272811",
+    "inputs/tee/inputs/node-003/tee.json": "75fb6e20f29d2aa979620fc9466558350cb759851182be5c5eaa5d8482c19135",
+    "inputs/tee/inputs/node-004/binding.json": "e0a0bfb054f65f4e89b543aa2f1bf260edb1bae2e4478e3d26ba0fb47e5b32ee",
+    "inputs/tee/inputs/node-004/project.json": "df9cb7a521ab27e8ffec9b88fb7d895b8770ab2b16807f0c3a1ad26e4dec466c",
+    "inputs/tee/inputs/node-004/tee.json": "e1d6ac6839dd1c27e7a2275edad6172d600fad8bdddfd8fb75344dcea81adeb7",
+    "inputs/tee/inputs/node-005/binding.json": "597639e139b2c88927d041c9ed81d6b471feb0697e252a53706b2917c237ee88",
+    "inputs/tee/inputs/node-005/project.json": "19906c90149c4b774e2ca7cada73227affdcb153c2f059138355896133859452",
+    "inputs/tee/inputs/node-005/tee.json": "94689d532793ecfb5b900ef3da5dd40745a6785cdd9ef4f32789620538931590",
+    "inputs/tee/inputs/node-006/binding.json": "752fa81c55b6c70a0d835215ef8f9957e4247c4bd871cb19d2300a535c3e9aaf",
+    "inputs/tee/inputs/node-006/project.json": "76f1a1df14203ed8fe47d80dc5fb4fe4bdc3c0bbb6de46bd232b1a10eb5843b3",
+    "inputs/tee/inputs/node-006/tee.json": "c2c95006c9eca46ba31072acba82b7ca96e477d3d749e0151139783c21b26c11",
+    "inputs/tee/inputs/node-007/binding.json": "d435fbbc482f199581a689bac35b6ad53e784097ce16ca5945624f47efc1c9be",
+    "inputs/tee/inputs/node-007/project.json": "1f85cc0082776f0554b430a191e40f3e955ebbf6cc0156e04cdadf27acb41e6c",
+    "inputs/tee/inputs/node-007/tee.json": "c59fab684f70e9632c5b9cca985d54ca2fc2fd874e4524e928b4c340a07be580",
+    "inputs/tee/inputs/node-008/binding.json": "c09cbaabf8228cde5303d90a9c59ac2f8e79bbbb31e7352995fe82c2f5e3ba40",
+    "inputs/tee/inputs/node-008/project.json": "64f6874c5d09c6567cdc23a233393da55917e9b37b1603ec1c7ad14e8991bb1e",
+    "inputs/tee/inputs/node-008/tee.json": "74a1dabdbd74673977091e8b98abdfbc043e7f4c856f164fc980a00f425b01ae",
+    "inputs/tee/inputs/node-009/binding.json": "b30bdd5a982b683286bc0670a62147ab98133d27bdb1b096a4bf9c269469c4d5",
+    "inputs/tee/inputs/node-009/project.json": "60aee818500c08d0a4fda2d3bbb65984ee5ffb4d74e5ebf1198da08d61cd4a4f",
+    "inputs/tee/inputs/node-009/tee.json": "e87f3d78f17b78f7cde99196be4c6213870854109dc4cc3a625caf28b3eb5a80",
+    "inputs/tee/inputs/node-010/binding.json": "4e3384f846ce613c2c3e3c2afa9c5c2a2bd1119199d9a883e43f1f8a044b26b8",
+    "inputs/tee/inputs/node-010/project.json": "4f118e3229e8aaa46539eec84641b79632ffa13d3bd7c250306b72f1dc0d8ecd",
+    "inputs/tee/inputs/node-010/tee.json": "c572d6cc7b84d7e3e0a9f9ffb38ea46d9ae749daefbe75bc450c33d592f6d4d0",
+    "inputs/tee/inputs/node-011/binding.json": "2272a32965823c7d95ec06bf54f019742379b7fccf4c73549ace9802b7d36695",
+    "inputs/tee/inputs/node-011/project.json": "d5ffa26019053861797171db8ee983359b07f6f21eb6341c78c1ad665e051088",
+    "inputs/tee/inputs/node-011/tee.json": "38fc0082a58749a7ecaa1d9f5f7bae3663873731de77e77270ae305c2944e97b",
+    "inputs/tee/inputs/node-012/binding.json": "637873eb6b6df65e1aa689029ed5a5a08550fb3fd5816ba6f6f3dcc10fdcfe77",
+    "inputs/tee/inputs/node-012/project.json": "7439d059029a6a25a7bc2dd8a1344c3a349365ebc8f593e80c6fd0ae6650328c",
+    "inputs/tee/inputs/node-012/tee.json": "90259a69aadf8003bb2bb5e8f36e9de400ffdb336173815053b2d426ce419ed1",
+    "inputs/tee/inputs/node-013/binding.json": "e456888a551228f8fe11f1b2d9ec7297df31300a5b20ba3f911be663b028ce0d",
+    "inputs/tee/inputs/node-013/project.json": "58be7b5644c366b5591df897a26ee7c4f4f2e40825188936135b527787c659dc",
+    "inputs/tee/inputs/node-013/tee.json": "9f616805674bac49b015121fa616e6f81a14705d383e4d2a4ebaed81daaf9d9a",
+    "inputs/tee/inputs/node-014/binding.json": "c8c2791414059c1a12765142f5d1db046c7ad68ad6b0f0cd925c2f138f006e38",
+    "inputs/tee/inputs/node-014/project.json": "9ed8a9b145611f46f23b29c14e048bf347a76173f17f75805da8d0836b454dfe",
+    "inputs/tee/inputs/node-014/tee.json": "44cc89a784f5480d85ed4fb4e9d10df826cf3191034ce95b808965fd41a1deaa",
+    "inputs/tee/inputs/node-015/binding.json": "fa9c83f53e7da4fab2ea07bc6a238db0bd6e471a8571d6f5f4cb351a6e0a46d1",
+    "inputs/tee/inputs/node-015/project.json": "82b67f61120540a2884473e2757b0b5534eeedc83929949f861a1cc96e65c200",
+    "inputs/tee/inputs/node-015/tee.json": "889972f249cf43a4002af378c10c4a2c05d46463081cabcc30044dfce5f3dc48"
+  }
+}

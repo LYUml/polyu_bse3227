@@ -1,0 +1,43 @@
+ 
+17 
+reference velocities and friction rates. In ACCA Manual D Group 11 fittings, a range of outlet 
+duct velocities is provided, with corresponding EL values for designing systems that use these 
+fittings.  
+ACCA Manual D Section A3-3, Equivalent Length Values of Other Scenarios (Rutkowski 2009) 
+provides an equation to modify an EL to match the specific system velocities and friction rates. 
+Most EL values in ACCA Manual D are for airspeeds of 900 or 700 fpm. However, designers 
+technically should be modifying EL values based on actual system airspeeds because the actual 
+airspeed changes when standard duct diameters are chosen. The design friction rate will rarely 
+compute to exactly 0.08 IWC. Designers are instructed to adjust the EL values supplied for the 
+various duct fittings according to their specific velocity and friction rates. This analysis assumes 
+a designer would, after roughly determining the design friction rate of the system based on the 
+longest effective length, adjust the initial EL values from the reference velocity (400–900 fpm) 
+and friction rate (0.08 IWC) to the values corresponding to ducts sized to the design friction rate. 
+It is unclear the extent to which practitioners follow this requirement, but not doing so can yield 
+grossly inaccurate EL selection. Equation 6, which is from ACCA Manual D, is used to adjust 
+EL values: 
+ 
+     ⋅     ⋅= x r r x rx FR FR V VELEL
+2
+, 
+ (6) 
+where 
+xEL  = adjusted equivalent length, ft 
+rEL  = equivalent length at the reference velocity, ft 
+xV  = actual velocity in the duct, ft/min 
+rV  = reference velocity in the duct, ft/min 
+xFR  = calculated friction rate at the actual air velocity, IWC/100 ft 
+rFR  = friction rate at the reference velocity, IWC/100 ft 
+ 
+The output from the simulation is a pressure drop, and to compare a corresponding ACCA 
+Manual D EL value, the research team converted the pressure drop to an EL using Equation 7. 
+The friction rate used to calculate the pressure drop is taken from the same duct from which the 
+velocity was used to choose the corresponding EL from ACCA Manual D. This is perhaps more 
+precise than necessary because the design friction rate would probably be used by most 
+practitioners. However, to make “apples-to-apples” comparisons of values, this level of precision 
+was used. 
+ 
+FR
+PELbox
+⋅
+∆= 49.2 , (7) 

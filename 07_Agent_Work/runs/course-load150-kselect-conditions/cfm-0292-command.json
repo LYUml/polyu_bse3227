@@ -1,0 +1,108 @@
+{
+  "ok": true,
+  "request": {
+    "airflow": 292.0,
+    "airflow_unit": "cfm",
+    "model": "1400",
+    "neck_in": 6,
+    "module": "24x24",
+    "border": "F23 T-Bar",
+    "effective_cfm": 292
+  },
+  "checks": {
+    "model": true,
+    "neck": true,
+    "module": true,
+    "border": true,
+    "airflow": true,
+    "terminal_velocity": true,
+    "throw_pattern": true
+  },
+  "report": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\course-load150-kselect-conditions\\cfm-0292\\performance.pdf",
+    "sha256": "6d63aa98cd6e9e81138d00a13ba82356cf4bacb05690c9549ad25fcf68f9f23e",
+    "model": "1400",
+    "neck_in": 6.0,
+    "module": "24x24",
+    "border": "F23 T-Bar",
+    "throw_pattern": "Horizontal",
+    "terminal_velocity_fpm": 50.0,
+    "selected": {
+      "airflow_cfm": 292.0,
+      "throw_ft": 14.0,
+      "pressure_in_wc": 0.23,
+      "nc": 31.0
+    },
+    "si": {
+      "airflow_lps": 137.80865341440003,
+      "throw_m": 4.2672,
+      "pressure_pa": 57.2904493
+    },
+    "nc_reported": 31.0,
+    "table": {
+      "velocity_fpm": [
+        184.0,
+        367.0,
+        556.0,
+        745.0,
+        929.0,
+        1112.0,
+        1301.0,
+        1490.0,
+        1673.0
+      ],
+      "airflow_cfm": [
+        36.0,
+        72.0,
+        109.0,
+        146.0,
+        182.0,
+        218.0,
+        255.0,
+        292.0,
+        328.0
+      ],
+      "throw_ft": [
+        3.0,
+        7.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ],
+      "nc": [
+        null,
+        null,
+        null,
+        null,
+        17.0,
+        22.0,
+        27.0,
+        31.0,
+        35.0
+      ],
+      "pressure_in_wc": [
+        0.0,
+        0.01,
+        0.03,
+        0.06,
+        0.09,
+        0.13,
+        0.17,
+        0.23,
+        0.29
+      ]
+    },
+    "warnings": [
+      "GRD labels the selected throw as 'Throw m' even in this imperial report. Unit is established from the Throw Feet table and checked against its selected column.",
+      "NC '-' is retained as unknown/below the displayed reporting range; it is not zero.",
+      "Manufacturer results are a design aid, not project compliance approval."
+    ]
+  },
+  "output_directory": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\course-load150-kselect-conditions\\cfm-0292",
+  "backend": "GRD 10.0.2 native GUI",
+  "journal": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\course-load150-kselect-conditions\\cfm-0292\\journal.json"
+}

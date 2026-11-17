@@ -1,0 +1,45 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\workflow.json": "22964fcf18e592093842276b62e142d2dd1d9d36bb330cc3495a6497bd552938",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\terminal-lookup\\terminal-results.json": "301acd3d859b5f541c554c36735b2cacf9b58726ba83ac79e8a606e654ca659d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\workflow\\duct-schedule\\results.json": "44b163d22403f73aa165db8ac2982a89ac369c154423d4108c489d480a968898",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\terminal-review.json": "e8d121fa6b15532cf4ef9c0fd187c2bf020e01a0a2c3990b5e8f5a15e80f4fc4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\adpi-settings.json": "c465bf2c517e0cb29680a2d45d991ba1d9736741753a3da034678417e1100e0e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\krueger-introduction.pdf": "5a3459034c1ab2fe89e2a28c2c498a39e80d88ee0e09bc0163a043ad4e494e49",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\category-review.json": "85f8edf680b74906c2f10a270f805edf76d84cdabb515dc7ae91c8efb2f0ebd5",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\classroom-table.png": "1984ce119f6283272c0a21c999818a532c7e2112f2f70d79e40ed7d0ff753231",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-source-review\\krueger-introduction.png": "f55c8d71d3b4d43b2d25386690eff0b17fd926c1f6f48be7fbb078db3b8e3447",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\adpi_review.py": "d04be64a8b4381c0d2c3e01a4e8b28b23c4a475e1525bb340add579ba89e72f2",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\adpi_screen.py": "a1399b361efb655e8675aa57b89213a1eaa063abd1f870a24ed41f01d1266b34",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\agent-replay-hvac-package\\adpi-review.json": "27f9d282303de1990d520e58786f108b7d4a92730822205ba02acd4a6afa6ef7"
+  },
+  "html_sha256": "0ff5b872c6aa0d1d0c11d35d337c5a9c5f336acd8fafa9eddc11f15052202466",
+  "counts": {
+    "terminal_direction_rows": 320,
+    "leaf_groups": 20,
+    "duct_sections": 47,
+    "requirements": 33
+  },
+  "scope": "Single allocation/lookup/tree study; complete requirement states retained. No PDF or full design acceptance.",
+  "design_accepted": false,
+  "adpi_review_summary": [
+    "Applicability: pending. 640 maximum/minimum directional cases. This is source-scoped ratio screening;no measured or predicted ADPI is claimed.",
+    "Selected criterion: Canvas BSE3227 original lecture p5; ASHRAE Fundamentals2005 table reproduced in class. Room sensible-load range: 35 to 160 W/m2. T0.25/L range: 1 to 3.4.",
+    "Supplied room-load value: 170.1 W/m2. Within source range: False. An unverified preliminary value does not establish the actual room load or an ADPI failure.",
+    "Missing applicability facts: Room sensible load, Characteristic lengths, Installation conditions. Rejected facts: None declared.",
+    "Screened outcomes: not_evaluated=640, within_sourced_ratio_range=0, fail=0. All ratios within the selected applicable scope: False. Pending applicability is not a comfort pass or a measured failure.",
+    "Room sensible load: Unverified.",
+    "Product category within selected criterion: Declared supported.",
+    "Characteristic lengths: Unverified.",
+    "Installation conditions: Unverified.",
+    "Criterion edition selection: Declared supported.",
+    "Evidence for Product category within selected criterion 1: Space air diffusion design and air duct sizing.pdf; p5 classroom example and2005 selection table. Explicit course-specific1400-family mapping;retains classroom edition and stated bounds",
+    "Evidence for Product category within selected criterion 2: krueger-introduction.pdf; B1-4 introduction and family heading. Square-face,four-cone,round-neck louvered family;not a measured ADPI or later handbook category mapping",
+    "Evidence for Product category within selected criterion 3: category-review.json; findings and retained_unknowns. Recorded interpretation and retained limits;reviewer assertion,not independent authentication",
+    "Evidence for Product category within selected criterion 4: classroom-table.png; Original lecture p5 inspected table render. Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns",
+    "Evidence for Product category within selected criterion 5: krueger-introduction.png; Manufacturer introduction inspected render. Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns",
+    "Source hashes and exact evidence notes are retained in the report manifest. Declarations and source-byte identity do not authenticate physical conditions or establish comfort/engineering acceptance."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Live continuation prefix; neither full mass nor nonlinear convergence accepted.",
+  "rows": 6,
+  "all_saved_poisson_residuals_met": true,
+  "poisson_iteration_range": [
+    348.0,
+    369.0
+  ],
+  "restart_state_limitation": {
+    "source_sha256": "da23e69f9d6b724c908ae01c50a43f3c16c7adfaa8f8185f0a3ac14ea185b997",
+    "source_lines": "3645-3687",
+    "finding": "LoadRestart reconstructs EdgeMassFluxes from averaged nodal velocity and density, rather than restoring pressure-corrected edge fluxes. Do not concatenate pre/post restart histories for convergence acceptance."
+  },
+  "engineering_accepted": false
+}

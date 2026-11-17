@@ -1,0 +1,18 @@
+{
+  "schema": "bsa.module-request/1",
+  "project_id": "private-coursework",
+  "scenario_id": "explicit-manufacturer-candidate",
+  "capability": "analysis.air.classified-allocation",
+  "coordinate_frame": {
+    "id": "declared-planar-metres",
+    "kind": "source-world-si",
+    "length_unit": "m",
+    "georeferenced": false
+  },
+  "sources": {
+    "project": {
+      "path": "allocation.json",
+      "sha256": "3df175c4d2cd599ce4852d1115e7bf3acab2c80c417fd2b762386ff0256ce070"
+    }
+  }
+}

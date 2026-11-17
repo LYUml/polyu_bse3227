@@ -1,0 +1,84 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/surfaceCheck.exe C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-local-hex-trial\constant\triSurface\air.obj
+Date   : Nov 17 2026
+Time   : 03:56:14
+Host   : "LYUML-WIN"
+PID    : 10024
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/building-services-agent
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Reading surface from "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-local-hex-trial/constant/triSurface/air.obj" ...
+
+Statistics:
+Triangles    : 58034
+Vertices     : 29019
+Bounding Box : (-0.288925 -0.45045 -0.177) (0.288925 0.45045 0.177)
+
+Region	Size
+------	----
+inlet	1576
+outlet_0	7672
+outlet_1	7670
+outlet_2	7670
+outlet_3	7668
+wall	25778
+
+
+Surface has no illegal triangles.
+
+Triangle quality (equilateral=1, collapsed=0):
+    0 .. 0.05  : 0.161181
+    0.05 .. 0.1  : 0.0387015
+    0.1 .. 0.15  : 0.0354275
+    0.15 .. 0.2  : 0.0176448
+    0.2 .. 0.25  : 0.0176448
+    0.25 .. 0.3  : 0.0178861
+    0.3 .. 0.35  : 0
+    0.35 .. 0.4  : 0.0176448
+    0.4 .. 0.45  : 0.000103388
+    0.45 .. 0.5  : 0.0177138
+    0.5 .. 0.55  : 0.00013785
+    0.55 .. 0.6  : 0.0180239
+    0.6 .. 0.65  : 0.000913258
+    0.65 .. 0.7  : 0.000861564
+    0.7 .. 0.75  : 0.0014302
+    0.75 .. 0.8  : 0.0047903
+    0.8 .. 0.85  : 0.0110108
+    0.85 .. 0.9  : 0.0203157
+    0.9 .. 0.95  : 0.0412517
+    0.95 .. 1  : 0.577317
+
+    min 0.000414665 for triangle 0
+    max 1 for triangle 34221
+
+Edges:
+    min 2.99998e-05 for edge 41623 points (0.288925 -0.227811 -0.100066)(0.288925 -0.227793 -0.10009)
+    max 0.0553171 for edge 59731 points (0.0475335 0.0377826 0.177)(0.0879372 2.22293e-11 0.177)
+
+Checking for points less than 1e-6 of bounding box ((0.57785 0.9009 0.354) metre) apart.
+Found 0 nearby points.
+
+Surface is closed. All edges connected to two faces.
+
+Number of unconnected parts : 1
+
+Number of zones (connected area with consistent normal) : 1
+
+
+End
+

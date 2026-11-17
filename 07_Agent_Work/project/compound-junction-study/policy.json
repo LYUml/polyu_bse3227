@@ -1,0 +1,16 @@
+{
+  "upper_node": "ROOT",
+  "lower_node": "J2",
+  "shared_section": "D-01",
+  "inlet_section": "A-03",
+  "outlet_section": "D-08",
+  "branch_reaches_m": {
+    "D-22": 0.9,
+    "D-02": 0.9,
+    "D-05": 0.9
+  },
+  "outlet_reach_m": 1.0,
+  "maximum_included_trunk_angle_degrees": 30,
+  "classification": "assumed",
+  "source": "Explicit compound construction alternative: absorb the residual A-03 straight up to its verified elbow cap and all D-01 into a single tapered trunk; preserve D-01 clear profile internally and all external source end sections/rays. Side takeoff reaches 0.9m, outlet reach 1.0m, and 30 degree included trunk angle limit are study choices, not code/manufacturer/installed facts. Retain original failed separate-core scenario and require new pressure/coordination/product review."
+}

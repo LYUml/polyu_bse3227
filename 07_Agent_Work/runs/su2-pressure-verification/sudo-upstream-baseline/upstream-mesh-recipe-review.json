@@ -1,0 +1,23 @@
+{
+  "scope": "Executed upstream mesh/recipe topology correspondence, not grid independence or physical acceptance.",
+  "source_diameter_m": 0.104,
+  "source_centerline_bend_radius_m": 0.208,
+  "radius_over_pipe_radius": 4,
+  "inlet_nodes": 618,
+  "inlet_faces": 578,
+  "source_axial_layers": [
+    6,
+    6,
+    25,
+    30,
+    12,
+    12,
+    30
+  ],
+  "total_axial_layers": 121,
+  "actual_volume_cells": 69938,
+  "actual_nodes": 75396,
+  "extrusion_count_correspondence": true,
+  "source_N1_N2_note": "N1 and N2 variables are declared but actual extrusion Layers counts are hardcoded; changing these variables alone would not refine the mesh.",
+  "engineering_accepted": false
+}

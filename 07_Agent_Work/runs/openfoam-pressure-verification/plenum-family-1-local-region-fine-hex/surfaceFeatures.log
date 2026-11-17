@@ -1,0 +1,76 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/surfaceFeatures.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-local-region-fine-hex
+Date   : Nov 17 2026
+Time   : 04:24:22
+Host   : "LYUML-WIN"
+PID    : 13056
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-local-region-fine-hex
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "surfaceFeaturesDict"
+
+Surface            : "air.obj"
+
+
+Feature line extraction is only valid on closed manifold surfaces.
+Statistics:
+Triangles    : 58034
+Vertices     : 29019
+Bounding Box : (-0.28892500000000609 -0.45045000000000002 -0.17699999999999999) (0.28892500000000609 0.45045000000000002 0.17699999999999999)
+
+
+Constructing feature set from included angle 2.6179938779914944
+Selecting edges purely based on geometric tests: false
+
+Initial feature set:
+    feature points : 8
+    feature edges  : 1192
+    of which
+        region edges   : 1192
+        external edges : 0
+        internal edges : 0
+
+
+Final feature set:
+points      : 1188
+edges       : 1192
+boundingBox : (-0.28892500000000609 -0.45045000000000002 -0.17699999999999999) (0.28892500000000609 0.45045000000000002 0.17699999999999999)
+point classification :
+    convex feature points          :        8
+    concave feature points         :        0
+    mixed feature points           :        0
+    other (non-feature) points     :     1180
+edge classification :
+    external (convex angle) edges  :      680
+    internal (concave angle) edges :      512
+    flat region edges              :        0
+    open edges                     :        0
+    multiply connected edges       :        0
+
+Writing extendedFeatureEdgeMesh to "constant/extendedFeatureEdgeMesh/air.extendedFeatureEdgeMesh"
+
+Writing extendedEdgeMesh components to "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-local-region-fine-hex/constant/extendedFeatureEdgeMesh/air"
+
+Writing featureEdgeMesh to "constant/triSurface/air.eMesh"
+
+ExecutionTime = 0.20999999999999999 s  ClockTime = 0 s
+
+End
+

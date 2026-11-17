@@ -1,0 +1,61 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/mapFields.exe -case . -consistent -sourceTime 1050 -mapMethod interpolate -noFunctionObjects ../actual-family-1-design-flow-cold-upwind
+Date   : Nov 16 2026
+Time   : 19:52:22
+Host   : "LYUML-WIN"
+PID    : 7120
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-high-order
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification" "actual-family-1-design-flow-cold-upwind"
+Target: "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification" "actual-family-1-resolution-high-order"
+Mapping method: interpolate
+
+Create databases as time
+
+Source time: 1050s
+Target time: 0s
+Create meshes
+
+Source mesh size: 813620	Target mesh size: 684730
+
+
+Consistently creating and mapping fields for time 1050
+
+    interpolating p
+--> FOAM Warning : 
+    From function const Foam::HashTable<Foam::List<int>, Foam::word>& Foam::polyBoundaryMesh::groupPatchIndices() const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 506
+    Removing patchGroup 'wall' which clashes with patch 0 of the same name.
+--> FOAM Warning : 
+    From function const Foam::HashTable<Foam::List<int>, Foam::word>& Foam::polyBoundaryMesh::groupPatchIndices() const
+    in file meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.C at line 506
+    Removing patchGroup 'wall' which clashes with patch 0 of the same name.
+    interpolating nut
+
+
+--> FOAM FATAL IO ERROR: 
+size 5880 is not equal to the given value of 5240
+
+file: C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-high-order/0/nut/boundaryField/outlet_0 from line 36 to line 37.
+
+    From function Foam::Field<Type>::Field(const Foam::word&, const Foam::unitConversion&, const Foam::dictionary&, Foam::label) [with Type = double; Foam::label = int]
+    in file X:/OpenFOAM-12/src/OpenFOAM/fields/Fields/Field/Field.T.C at line 229.
+
+FOAM exiting
+

@@ -1,0 +1,153 @@
+{
+  "plan_sha256": "fe251ca0cafef151920d8b902fb47bcd54bb32fedd11204774868ad9b0f87154",
+  "workflow_sha256": "d97b5bf46745d6e4153a9a8c91e9b7ed75c6efa807eaa8ac4ff359352aba554a",
+  "generator_sha256": "2798d7e821c14d8f592a029c2018da00a33a0f249c4dfe62882c59c58c1b334c",
+  "stages": {
+    "report": {
+      "inputs": {
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\workflow\\workflow.json": "d97b5bf46745d6e4153a9a8c91e9b7ed75c6efa807eaa8ac4ff359352aba554a",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\workflow\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\workflow\\terminal-lookup\\terminal-results.json": "0b8802de351b496a22eaee60e4dc0d60524ee3953e3906e92af2b269e3c5f332",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\workflow\\duct-schedule\\results.json": "69af3198e1d4d02a51ae028e4c9914ff8da2fc74e2e1c967ad9f364cca2663bf"
+      },
+      "html_sha256": "a69ef537d9e0293972b26de1ee744c1bf2756fbfe1ecd4e2e25bef0019c919cc",
+      "counts": {
+        "terminal_direction_rows": 320,
+        "leaf_groups": 20,
+        "duct_sections": 47,
+        "requirements": 33
+      },
+      "scope": "Single allocation/lookup/tree study; complete requirement states retained. No PDF or full design acceptance.",
+      "design_accepted": false,
+      "adpi_review_summary": []
+    },
+    "report_pdf": {
+      "inputs": {
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\report\\HVAC System Design.html": "a69ef537d9e0293972b26de1ee744c1bf2756fbfe1ecd4e2e25bef0019c919cc",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\requirements-bound-package\\report\\report.json": "e6b893fad15815cde16c6f9e21f980eec228f6138120f139d1143818071f511d",
+        "C:\\Windows\\Fonts\\arial.ttf": "74d696e666f696e93db685a85c94bfbfcc0796dfcf8a2e2e2e2c908a54e82949"
+      },
+      "pdf_sha256": "cd8f5d67997bbe554a183e0e65bcafb91aa928cef47cfaf283ad01919df574af",
+      "reportlab_version": "4.4.9",
+      "pages": 22,
+      "numerical_rows_checked": 388,
+      "requirement_rows": 33,
+      "visual_review": "pending",
+      "design_accepted": false,
+      "adpi_review_paragraphs_checked": 0
+    }
+  },
+  "stage_errors": {},
+  "unresolved_tasks": [
+    {
+      "id": "hk-flex-length",
+      "kind": "regulations",
+      "status": "pending",
+      "scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending"
+    },
+    {
+      "id": "work-identity",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed"
+    },
+    {
+      "id": "work-load",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "Compute preliminary cooling and total supply flow with source-linked classifications."
+    },
+    {
+      "id": "work-layout",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed"
+    },
+    {
+      "id": "work-minimum",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "Calculate minimum per-terminal flow at40percent turndown."
+    },
+    {
+      "id": "work-terminal",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions."
+    },
+    {
+      "id": "work-adpi",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed"
+    },
+    {
+      "id": "work-routing",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed"
+    },
+    {
+      "id": "work-sizing",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed"
+    },
+    {
+      "id": "work-schedule",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "Provide the required section/flow/size/velocity/gradient schedule."
+    },
+    {
+      "id": "work-delivery",
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed"
+    }
+  ],
+  "status": "review_required",
+  "design_accepted": false,
+  "scope": "Prepared calculation/drawing/report package; actual visual and full requirement acceptance remain separate",
+  "review_actions": [],
+  "terminal_review_configuration": null,
+  "adpi_configuration_inputs": {},
+  "terminal_performance_configuration_inputs": {},
+  "junction_review_native_task": null,
+  "system_paths_native_task": null,
+  "plan_clearance_configuration": null,
+  "artifact_hashes": {
+    "delivery-review.json": "f918c3b66321b10497f2f9481e471d786b93a4e3664aa27268724be16240e35b",
+    "diagnosis.json": "5ace13b4b2a9b29009c8ae406341e4c8f608da114d122947a1098480519d0206",
+    "index.html": "90c3719548355da43eb5961d4284457d5b511a0d1fcd5b4b250b68eadd5fd95d",
+    "report\\HVAC System Design.html": "a69ef537d9e0293972b26de1ee744c1bf2756fbfe1ecd4e2e25bef0019c919cc",
+    "report\\report.json": "e6b893fad15815cde16c6f9e21f980eec228f6138120f139d1143818071f511d",
+    "report-pdf\\HVAC System Design.pdf": "cd8f5d67997bbe554a183e0e65bcafb91aa928cef47cfaf283ad01919df574af",
+    "report-pdf\\render.json": "fb313612088e6b453ced97440f74fdf9613448cfa248046dec890ddf41de11f0",
+    "workflow\\index.html": "41513d9a129f9c5fe553a313234fc8203624f5dee3f79d5114bafb92c4b981fb",
+    "workflow\\workflow.json": "d97b5bf46745d6e4153a9a8c91e9b7ed75c6efa807eaa8ac4ff359352aba554a",
+    "workflow\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "workflow\\duct-schedule\\results.json": "69af3198e1d4d02a51ae028e4c9914ff8da2fc74e2e1c967ad9f364cca2663bf",
+    "workflow\\duct-schedule\\schedule.csv": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+    "workflow\\duct-sheet\\drawing-update.json": "25180e3fe02e855092b00d7cbb1ab3de61fd88ef8485dc26295e1b81e7ce8e2e",
+    "workflow\\duct-sheet\\Supply Air Distribution.dxf": "1487573a6091251ccc8df80036a3f590be2eb2f1b85e1f95af3df7d12102aeb0",
+    "workflow\\hk-flex-length\\regulation-checks.json": "898d11e6ba0d3cfc571ca6358c05acc70c2c1b19db4e04e5544debd9382091b6",
+    "workflow\\native-sheet\\native-sheet.json": "6ccb18b4cf415ac9e0c13ff2b380ca909a19c33818944213486439cfaaf4e869",
+    "workflow\\native-sheet\\plot.log": "7be958a3d3ebf56845f59c92871840bf3fdcec77c15f9d673a8fb401e0f71bf2",
+    "workflow\\native-sheet\\save.log": "d54eadadefa86e6004d53b724c1baddf4d1c17a478200d9dd3c79164665163ed",
+    "workflow\\native-sheet\\save.scr": "dae2e55c646c6dd6ac97184c9b915e621be282815163d158aad1da8bcc17cfa4",
+    "workflow\\native-sheet\\Supply Air Distribution.dwg": "02901e58dbb2dcd99741376e2546359ee7968011b9643519b65b731633d0fe2e",
+    "workflow\\native-sheet\\Supply Air Distribution.dxf": "1487573a6091251ccc8df80036a3f590be2eb2f1b85e1f95af3df7d12102aeb0",
+    "workflow\\native-sheet\\Supply Air Distribution.json": "2ccea8f8efd7447b229d38a843393f5a03c134490e8ad35d47eb9d780729140b",
+    "workflow\\native-sheet\\Supply Air Distribution.log": "03fe7e282f3a2a6cd6c333aebc6e6407b2984c6ec06de9b4b4f087ac636934fb",
+    "workflow\\native-sheet\\Supply Air Distribution.pdf": "b0a692f2553543b82f2a26da95c3de610fbc1b5a88ca3cc0e2c6c3df1c7bac69",
+    "workflow\\native-sheet\\Supply Air Distribution.scr": "c8a3033f1b8be095196ba9e98a4b7551a797a234ae9c380f8141e6b701fe6dc8",
+    "workflow\\terminal-lookup\\terminal-results.json": "0b8802de351b496a22eaee60e4dc0d60524ee3953e3906e92af2b269e3c5f332",
+    "workflow\\native-sheet\\reopened\\export.log": "624f8fc8941d8c0eaab15a2a9627b18a4ad3a0873651e47eb26f555acd4962ca",
+    "workflow\\native-sheet\\reopened\\export.scr": "c44d9d9bed1b926329c84f9e53ca0e394c49169e3c693fb3448ebd57285022f6",
+    "workflow\\native-sheet\\reopened\\source-copy.dwg": "02901e58dbb2dcd99741376e2546359ee7968011b9643519b65b731633d0fe2e",
+    "workflow\\native-sheet\\reopened\\source-export.dxf": "7af9b9a7b3694cbf435b8363f5a1d374d3768e4fb98a87551930eeb7a1aa176d",
+    "workflow\\native-sheet\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "c488c14e845f23cf0fc24487ea3062ff074ce1b7a3f3204e628b74bc44591800",
+    "workflow\\native-sheet\\reopened\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "d0043ce8ccd37d0554163fe2059165b529a84bf63c8cf83af5f01e8f95fc67c7"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\tee-throat-network\\candidate4.json": "141d4e417fda74613b5714af264f711dc19de318cf99ae19e1c42b4043ce8c93"
+  },
+  "versions": {
+    "ifcopenshell": "0.8.5",
+    "manifold3d": "3.5.4"
+  },
+  "geometry_method": "explicit_station_brep",
+  "upstream_builder_sha256": "7d474a7df93e9fd46681b0814e80345e905d147c661d0fec50d9dc3b662dc6f4",
+  "generator_sha256": "257b7d5e1a018edb178e32599c48b065cdc0f32219e5f187d23e559d153e7ed6",
+  "ifc_sha256": "71002d3dfa7649b34477a84255f728e61c4d9baeebf8c98b67d1e4c2310f2b68",
+  "upstream_log_sha256": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+  "checks": {
+    "schema_express_issue_count": 0,
+    "ports": 2,
+    "material_volume_m3": 0.0003138274893067939,
+    "independent_material_volume_m3": 0.0003138274893067887,
+    "material_centroid_m": [
+      -1.7273856010516611e-16,
+      0.0,
+      0.1472417717166391
+    ],
+    "relative_volume_error": 1.6582901770096292e-14,
+    "euler_characteristic": 0,
+    "one_connected_closed_material": true,
+    "independent_maximum_included_angle_degrees": 14.999999999999998,
+    "centre_bore_overlap_m3": 0.0,
+    "bounds_m": [
+      [
+        -0.2258,
+        -0.1258,
+        0.0
+      ],
+      [
+        0.2258,
+        0.1258,
+        0.28989385281812874
+      ]
+    ]
+  },
+  "geometry_checks_pass": true,
+  "design_accepted": false,
+  "numerical_bore_extension_m": 0.0001,
+  "scope": "Centred rectangular section-plane-offset transition only; not constant sheet-normal thickness, products, joints, loss coefficients, assembly or jurisdiction acceptance"
+}

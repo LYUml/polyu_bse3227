@@ -1,0 +1,9 @@
+import json
+from pathlib import Path
+from shapely import union_all
+from shapely.geometry import shape,mapping,LineString
+from bsa.air_allocation import prepare
+base=Path(r'C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/manufacturer-linear-slot-layout');old=base/'aligned-clearance-corrected';out=base/'uniform-main-15-rows';out.mkdir(exist_ok=True);a=json.loads((old/'allocation.json').read_text());b=union_all([shape(t['geometry']) for t in a['allocation']['terminals']]);points=[dict(id=f'main-{col+1}-{row+1}',center_m=[64.525932+(col+.5)*11.16,17.525584+(row+.5)*(36.595584-17.525584)/15]) for col in range(4) for row in range(15)]+[dict(id=t['id'],center_m=t['center_m']) for t in a['terminals'] if t['id'].startswith('bay-')];ss=[LineString([(t['center_m'][0],t['center_m'][1]-.6096),(t['center_m'][0],t['center_m'][1]+.6096)]) for t in points];assert all(b.covers(s) for s in ss);assert all(not ss[i].intersects(ss[j]) for i in range(len(ss)) for j in range(i));fresh=prepare(mapping(b),points,a['load']['inputs'],a['turndown']);assert fresh['checks']['flow_conserved'] and fresh['checks']['area_conserved'];(out/'allocation.json').write_text(json.dumps(fresh,indent=2))
+for name in ['first-candidate.json','independent-performance-check.json']:(out/name).write_bytes((old/name).read_bytes())
+for name in ['check_finite_slots.py','check_dense_samples.py']:(out/name).write_text((old/name).read_text().replace('manufacturer-linear-slot-layout/aligned-clearance-corrected','manufacturer-linear-slot-layout/uniform-main-15-rows'))
+(out/'geometry-check.json').write_text(json.dumps(dict(scope='Independent source polygon containment and pairwise finite-centerline test only, not body clearance',terminals=len(points),all_inside=True,intersections=0,area_flow_conserved=True),indent=2))

@@ -1,0 +1,11 @@
+{
+  "status": "Candidate hypothesis, not executed or accepted",
+  "evidence": "Pinned SU2 8.6.0 config_template.cfg documents default ILU block decomposition and LINEAR_SOLVER_ILU_LEVEL_SCHEDULING=YES as thread-independent preconditioner effectiveness for stiff systems.",
+  "next_control": "After current probe terminates, same initial field and 500 cap, change only LINEAR_SOLVER_ILU_LEVEL_SCHEDULING to YES in short comparison. This global ILU setting may affect momentum/turbulence too; retain their linear histories.",
+  "preserve": [
+    "Original design flow targets",
+    "Existing original live mesh studies",
+    "Same physical geometry and material assumptions"
+  ],
+  "engineering_accepted": false
+}

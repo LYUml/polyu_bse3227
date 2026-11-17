@@ -1,0 +1,3 @@
+(if (= (strcase (vl-string-translate (chr 92) "/" (strcat (getvar "DWGPREFIX") (getvar "DWGNAME")))) (strcase "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/course-final-native-check/Supply Air Distribution.dwg")) (command "_.QSAVE") (princ "BSA WRONG DOCUMENT"))
+_.QUIT
+_Y

@@ -1,0 +1,33 @@
+{
+  "search_state": "finite search completed",
+  "message": "Maximum number of iterations has been exceeded.",
+  "best": {
+    "score": 35.115969690371415,
+    "parameters": [
+      1.3943536830957037,
+      1.023325630591359,
+      0.48060593801236173,
+      -0.7767543676430043,
+      1.5677893935372513,
+      -0.9049399831047826,
+      -0.9035521835686793,
+      -0.9436325402237352,
+      2.2782688941170015
+    ],
+    "calls": 1473,
+    "elapsed_seconds": 25.156000000002678,
+    "necessary_envelope_failing_terminals": 35,
+    "maximum_terminal_penalty": 1.4922333696410692
+  },
+  "versions": {
+    "scipy": "1.18.1",
+    "numpy": "2.5.4",
+    "shapely": "2.2.0",
+    "fluids": "1.3.1"
+  },
+  "source_boundary_sha256": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+  "curve_sha256": "f98aa9ded59150e157c83d5c5114faaa1a24c185928709ffe5d60c9b2f607988",
+  "scope": "Separate80terminal two-zone row/column candidate; actual source boundary and full fresh nearest-centre area allocation each evaluation. Hypothetical downward travel only on aligned opposing jets. Necessary ratio envelope objective; exact source screen required after search. No actual building height claimed.",
+  "design_accepted": false,
+  "objective": "Failed-terminal count first, then small ratio penalty; fresh allocations and unchanged source limits"
+}

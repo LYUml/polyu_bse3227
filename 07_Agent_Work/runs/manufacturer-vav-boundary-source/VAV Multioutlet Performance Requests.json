@@ -1,0 +1,2057 @@
+{
+  "scope": "Prepared source-bound data request only; no unsupported K-Select VAV call, pressure result or selected design",
+  "source_ifc_sha256": "a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937",
+  "source_catalogue_sha256": "ba747af8d424da4e59b0d4d93c888bd9b5df299d303c0824fa89f9305870d766",
+  "catalogue_locators": {
+    "base_dimensions": "PDF5/A2-7",
+    "optional_multioutlet": "PDF8-9/A2-10-11",
+    "minimum_static_curve": "PDF24-25/A2-26-27",
+    "distinct_unit_styles": "PDF28/A2-31"
+  },
+  "request_count": 40,
+  "all160_branch_flow_owner_checks_pass": true,
+  "all40_group_flow_conservation_checks_pass": true,
+  "requests": [
+    {
+      "group": "VAV-01",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0QeLlx3ZLQdA0jrbuOYfRJ",
+      "native_vav_inlet_port_guid": "1NVRftBgnIvRZeAKzTqNgG",
+      "native_Jplenum_guid": "0HYVMlmZXU$vltJ0td80AQ",
+      "prescribed_group_flow_L_s": 575.6751425686068,
+      "branches": [
+        {
+          "terminal": "SD-01",
+          "current_branch_boundary_port_guid": "1jMWNahHjS9urvdSWJMSV2",
+          "prescribed_flow_L_s": 132.2079462708783,
+          "fraction_of_group_flow": 0.22965720854469976
+        },
+        {
+          "terminal": "SD-02",
+          "current_branch_boundary_port_guid": "2muU6WL3rTDey47vJYoqp3",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.2567809304850999
+        },
+        {
+          "terminal": "SD-13",
+          "current_branch_boundary_port_guid": "3qm7burYPRV9XV0GWDCc5D",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.25678093048510015
+        },
+        {
+          "terminal": "SD-14",
+          "current_branch_boundary_port_guid": "0597V3s1fHlwYjp9BpqJyB",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.25678093048510015
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-01",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0QeLlx3ZLQdA0jrbuOYfRJ",
+      "native_vav_inlet_port_guid": "1NVRftBgnIvRZeAKzTqNgG",
+      "native_Jplenum_guid": "0HYVMlmZXU$vltJ0td80AQ",
+      "prescribed_group_flow_L_s": 230.27005702744273,
+      "branches": [
+        {
+          "terminal": "SD-01",
+          "current_branch_boundary_port_guid": "1jMWNahHjS9urvdSWJMSV2",
+          "prescribed_flow_L_s": 52.88317850835132,
+          "fraction_of_group_flow": 0.22965720854469976
+        },
+        {
+          "terminal": "SD-02",
+          "current_branch_boundary_port_guid": "2muU6WL3rTDey47vJYoqp3",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.2567809304850999
+        },
+        {
+          "terminal": "SD-13",
+          "current_branch_boundary_port_guid": "3qm7burYPRV9XV0GWDCc5D",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.2567809304851002
+        },
+        {
+          "terminal": "SD-14",
+          "current_branch_boundary_port_guid": "0597V3s1fHlwYjp9BpqJyB",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.2567809304851002
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-02",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3PSHnx2AfK1fP6Vliki1Il",
+      "native_vav_inlet_port_guid": "2kI0TQlcDM4vwuyB7Bdr2r",
+      "native_Jplenum_guid": "1hkqWVhDbU3u0fIMW4RWTm",
+      "prescribed_group_flow_L_s": 584.4445324089027,
+      "branches": [
+        {
+          "terminal": "SD-04",
+          "current_branch_boundary_port_guid": "0fSUon0tDOr8cpzzqIp1ie",
+          "prescribed_flow_L_s": 140.97733611117417,
+          "fraction_of_group_flow": 0.24121593802941138
+        },
+        {
+          "terminal": "SD-03",
+          "current_branch_boundary_port_guid": "24kkMwxT9UUAMDkYzRHZGP",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.2529280206568627
+        },
+        {
+          "terminal": "SD-15",
+          "current_branch_boundary_port_guid": "1KnpK2cD5GUukUlBJpX3UU",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.252928020656863
+        },
+        {
+          "terminal": "SD-16",
+          "current_branch_boundary_port_guid": "1TUGaIThfODwM4lrZ9x05x",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.252928020656863
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-02",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3PSHnx2AfK1fP6Vliki1Il",
+      "native_vav_inlet_port_guid": "2kI0TQlcDM4vwuyB7Bdr2r",
+      "native_Jplenum_guid": "1hkqWVhDbU3u0fIMW4RWTm",
+      "prescribed_group_flow_L_s": 233.7778129635611,
+      "branches": [
+        {
+          "terminal": "SD-04",
+          "current_branch_boundary_port_guid": "0fSUon0tDOr8cpzzqIp1ie",
+          "prescribed_flow_L_s": 56.39093444446967,
+          "fraction_of_group_flow": 0.24121593802941135
+        },
+        {
+          "terminal": "SD-03",
+          "current_branch_boundary_port_guid": "24kkMwxT9UUAMDkYzRHZGP",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.2529280206568627
+        },
+        {
+          "terminal": "SD-15",
+          "current_branch_boundary_port_guid": "1KnpK2cD5GUukUlBJpX3UU",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.25292802065686293
+        },
+        {
+          "terminal": "SD-16",
+          "current_branch_boundary_port_guid": "1TUGaIThfODwM4lrZ9x05x",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.25292802065686293
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-03",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "0QL$eSxSHK1x6FLXYgWMeS",
+      "native_vav_inlet_port_guid": "39$7wAkPPV5vYA3h12sqrX",
+      "native_Jplenum_guid": "2fapkhRhHNRvvYC2WcJnBt",
+      "prescribed_group_flow_L_s": 585.7640575548338,
+      "branches": [
+        {
+          "terminal": "SD-05",
+          "current_branch_boundary_port_guid": "3sE6HNSpvGNfS60$CVk0db",
+          "prescribed_flow_L_s": 142.29686125710415,
+          "fraction_of_group_flow": 0.24292521779348614
+        },
+        {
+          "terminal": "SD-06",
+          "current_branch_boundary_port_guid": "2SJ3h0CmXVtwq$01OyAYRJ",
+          "prescribed_flow_L_s": 147.82239876590998,
+          "fraction_of_group_flow": 0.25235826073550477
+        },
+        {
+          "terminal": "SD-17",
+          "current_branch_boundary_port_guid": "20GcNLzF9MSubX_orVslfU",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.25235826073550405
+        },
+        {
+          "terminal": "SD-18",
+          "current_branch_boundary_port_guid": "33OTUVLx9GhBF6xkZqfLCO",
+          "prescribed_flow_L_s": 147.82239876591012,
+          "fraction_of_group_flow": 0.25235826073550505
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-03",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "0QL$eSxSHK1x6FLXYgWMeS",
+      "native_vav_inlet_port_guid": "39$7wAkPPV5vYA3h12sqrX",
+      "native_Jplenum_guid": "2fapkhRhHNRvvYC2WcJnBt",
+      "prescribed_group_flow_L_s": 234.30562302193357,
+      "branches": [
+        {
+          "terminal": "SD-05",
+          "current_branch_boundary_port_guid": "3sE6HNSpvGNfS60$CVk0db",
+          "prescribed_flow_L_s": 56.91874450284166,
+          "fraction_of_group_flow": 0.24292521779348608
+        },
+        {
+          "terminal": "SD-06",
+          "current_branch_boundary_port_guid": "2SJ3h0CmXVtwq$01OyAYRJ",
+          "prescribed_flow_L_s": 59.128959506364,
+          "fraction_of_group_flow": 0.25235826073550477
+        },
+        {
+          "terminal": "SD-17",
+          "current_branch_boundary_port_guid": "20GcNLzF9MSubX_orVslfU",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.25235826073550405
+        },
+        {
+          "terminal": "SD-18",
+          "current_branch_boundary_port_guid": "33OTUVLx9GhBF6xkZqfLCO",
+          "prescribed_flow_L_s": 59.128959506364055,
+          "fraction_of_group_flow": 0.252358260735505
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-04",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "11q8oWG5vMiB_ZKtDxxwhH",
+      "native_vav_inlet_port_guid": "11$xvVA4LOreFYarIBx7g_",
+      "native_Jplenum_guid": "3dqKnBn1HMsx0_mb7ndsYS",
+      "prescribed_group_flow_L_s": 616.7344607577531,
+      "branches": [
+        {
+          "terminal": "SD-08",
+          "current_branch_boundary_port_guid": "1kOxqfNm5RPQRvqCFkAYYg",
+          "prescribed_flow_L_s": 157.2150781832292,
+          "fraction_of_group_flow": 0.25491534556065876
+        },
+        {
+          "terminal": "SD-07",
+          "current_branch_boundary_port_guid": "3GFUaho4vLBwKKbBj6j69U",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.2396856478301648
+        },
+        {
+          "terminal": "SD-19",
+          "current_branch_boundary_port_guid": "2gWV85KPDRKxkxspRZi2_l",
+          "prescribed_flow_L_s": 147.82239876590955,
+          "fraction_of_group_flow": 0.23968564783016502
+        },
+        {
+          "terminal": "SD-20",
+          "current_branch_boundary_port_guid": "1vO44AbdPLefAYGq0Coytb",
+          "prescribed_flow_L_s": 163.87458504270492,
+          "fraction_of_group_flow": 0.2657133587790113
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-04",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "11q8oWG5vMiB_ZKtDxxwhH",
+      "native_vav_inlet_port_guid": "11$xvVA4LOreFYarIBx7g_",
+      "native_Jplenum_guid": "3dqKnBn1HMsx0_mb7ndsYS",
+      "prescribed_group_flow_L_s": 246.6937843031013,
+      "branches": [
+        {
+          "terminal": "SD-08",
+          "current_branch_boundary_port_guid": "1kOxqfNm5RPQRvqCFkAYYg",
+          "prescribed_flow_L_s": 62.88603127329168,
+          "fraction_of_group_flow": 0.25491534556065876
+        },
+        {
+          "terminal": "SD-07",
+          "current_branch_boundary_port_guid": "3GFUaho4vLBwKKbBj6j69U",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23968564783016477
+        },
+        {
+          "terminal": "SD-19",
+          "current_branch_boundary_port_guid": "2gWV85KPDRKxkxspRZi2_l",
+          "prescribed_flow_L_s": 59.12895950636383,
+          "fraction_of_group_flow": 0.23968564783016502
+        },
+        {
+          "terminal": "SD-20",
+          "current_branch_boundary_port_guid": "1vO44AbdPLefAYGq0Coytb",
+          "prescribed_flow_L_s": 65.54983401708198,
+          "fraction_of_group_flow": 0.2657133587790113
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-05",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "07PhkGup1HJO46Hyh0smqr",
+      "native_vav_inlet_port_guid": "1UFv4kgoLOdgKO_ORsvGAC",
+      "native_Jplenum_guid": "1aBepUMgHS68$RyF9MWJ$d",
+      "prescribed_group_flow_L_s": 590.1648406958004,
+      "branches": [
+        {
+          "terminal": "SD-21",
+          "current_branch_boundary_port_guid": "2T2C4CX7bPjxWIb1IonpiA",
+          "prescribed_flow_L_s": 159.28824610647737,
+          "fraction_of_group_flow": 0.2699046692084835
+        },
+        {
+          "terminal": "SD-09",
+          "current_branch_boundary_port_guid": "3ixrccfsLLF9VQgGXIWR_s",
+          "prescribed_flow_L_s": 153.5771528024121,
+          "fraction_of_group_flow": 0.2602275537481115
+        },
+        {
+          "terminal": "SD-10",
+          "current_branch_boundary_port_guid": "2lE2fZWzLHIg4sqeWAT9jj",
+          "prescribed_flow_L_s": 138.64972089345542,
+          "fraction_of_group_flow": 0.23493388852170238
+        },
+        {
+          "terminal": "SD-22",
+          "current_branch_boundary_port_guid": "39PLJwsrjTEO7oXE3Hcnrn",
+          "prescribed_flow_L_s": 138.64972089345557,
+          "fraction_of_group_flow": 0.23493388852170263
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-05",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "07PhkGup1HJO46Hyh0smqr",
+      "native_vav_inlet_port_guid": "1UFv4kgoLOdgKO_ORsvGAC",
+      "native_Jplenum_guid": "1aBepUMgHS68$RyF9MWJ$d",
+      "prescribed_group_flow_L_s": 236.06593627832018,
+      "branches": [
+        {
+          "terminal": "SD-21",
+          "current_branch_boundary_port_guid": "2T2C4CX7bPjxWIb1IonpiA",
+          "prescribed_flow_L_s": 63.71529844259096,
+          "fraction_of_group_flow": 0.2699046692084835
+        },
+        {
+          "terminal": "SD-09",
+          "current_branch_boundary_port_guid": "3ixrccfsLLF9VQgGXIWR_s",
+          "prescribed_flow_L_s": 61.430861120964835,
+          "fraction_of_group_flow": 0.2602275537481115
+        },
+        {
+          "terminal": "SD-10",
+          "current_branch_boundary_port_guid": "2lE2fZWzLHIg4sqeWAT9jj",
+          "prescribed_flow_L_s": 55.45988835738217,
+          "fraction_of_group_flow": 0.23493388852170238
+        },
+        {
+          "terminal": "SD-22",
+          "current_branch_boundary_port_guid": "39PLJwsrjTEO7oXE3Hcnrn",
+          "prescribed_flow_L_s": 55.459888357382226,
+          "fraction_of_group_flow": 0.2349338885217026
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-06",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "3Wyi_$47TTYunFEpcoMP0X",
+      "native_vav_inlet_port_guid": "162FAtZ8HTfhA80JeAs14y",
+      "native_Jplenum_guid": "1EH7fSfDHVBABoNMHn0PvH",
+      "prescribed_group_flow_L_s": 538.984439400712,
+      "branches": [
+        {
+          "terminal": "SD-23",
+          "current_branch_boundary_port_guid": "0Hh0tBfHvRue4gsomIScIQ",
+          "prescribed_flow_L_s": 138.649720893455,
+          "fraction_of_group_flow": 0.25724253013244197
+        },
+        {
+          "terminal": "SD-11",
+          "current_branch_boundary_port_guid": "0CSWsEPkzJKvk1mssDSbXq",
+          "prescribed_flow_L_s": 138.64972089345486,
+          "fraction_of_group_flow": 0.25724253013244175
+        },
+        {
+          "terminal": "SD-12",
+          "current_branch_boundary_port_guid": "3TjFllCD5SDBP6cTcPblRD",
+          "prescribed_flow_L_s": 123.03527672034707,
+          "fraction_of_group_flow": 0.22827240960267425
+        },
+        {
+          "terminal": "SD-24",
+          "current_branch_boundary_port_guid": "0nK83QMC1NeBVM7qSsJfAQ",
+          "prescribed_flow_L_s": 138.649720893455,
+          "fraction_of_group_flow": 0.25724253013244197
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-06",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "3Wyi_$47TTYunFEpcoMP0X",
+      "native_vav_inlet_port_guid": "162FAtZ8HTfhA80JeAs14y",
+      "native_Jplenum_guid": "1EH7fSfDHVBABoNMHn0PvH",
+      "prescribed_group_flow_L_s": 215.59377576028479,
+      "branches": [
+        {
+          "terminal": "SD-23",
+          "current_branch_boundary_port_guid": "0Hh0tBfHvRue4gsomIScIQ",
+          "prescribed_flow_L_s": 55.459888357382,
+          "fraction_of_group_flow": 0.25724253013244197
+        },
+        {
+          "terminal": "SD-11",
+          "current_branch_boundary_port_guid": "0CSWsEPkzJKvk1mssDSbXq",
+          "prescribed_flow_L_s": 55.45988835738194,
+          "fraction_of_group_flow": 0.2572425301324417
+        },
+        {
+          "terminal": "SD-12",
+          "current_branch_boundary_port_guid": "3TjFllCD5SDBP6cTcPblRD",
+          "prescribed_flow_L_s": 49.21411068813883,
+          "fraction_of_group_flow": 0.22827240960267425
+        },
+        {
+          "terminal": "SD-24",
+          "current_branch_boundary_port_guid": "0nK83QMC1NeBVM7qSsJfAQ",
+          "prescribed_flow_L_s": 55.459888357382,
+          "fraction_of_group_flow": 0.25724253013244197
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-07",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3RoxT5vPjOjAsBiGkary7g",
+      "native_vav_inlet_port_guid": "0bfLIKwODGP9ug2SHk$1mn",
+      "native_Jplenum_guid": "3EVZ5qX8vPJve4yEkIRZLg",
+      "prescribed_group_flow_L_s": 618.4264111528702,
+      "branches": [
+        {
+          "terminal": "SD-26",
+          "current_branch_boundary_port_guid": "3ZGus5CkDLh8_ukQkzLb0P",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-38",
+          "current_branch_boundary_port_guid": "0v6e_kr9fJEOcUgmbldd59",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-37",
+          "current_branch_boundary_port_guid": "04nnDahGTHpB8BNbxKegyr",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-25",
+          "current_branch_boundary_port_guid": "1J6TdFo2LIIuLtHkjCyCam",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.23902989280541717
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-07",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3RoxT5vPjOjAsBiGkary7g",
+      "native_vav_inlet_port_guid": "0bfLIKwODGP9ug2SHk$1mn",
+      "native_Jplenum_guid": "3EVZ5qX8vPJve4yEkIRZLg",
+      "prescribed_group_flow_L_s": 247.37056446114812,
+      "branches": [
+        {
+          "terminal": "SD-26",
+          "current_branch_boundary_port_guid": "3ZGus5CkDLh8_ukQkzLb0P",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-38",
+          "current_branch_boundary_port_guid": "0v6e_kr9fJEOcUgmbldd59",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-37",
+          "current_branch_boundary_port_guid": "04nnDahGTHpB8BNbxKegyr",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-25",
+          "current_branch_boundary_port_guid": "1J6TdFo2LIIuLtHkjCyCam",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23902989280541717
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-08",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3o$58hG4HG0v2ZgBR86eqn",
+      "native_vav_inlet_port_guid": "07SOenKPjL6hRGKOpZ7GO9",
+      "native_Jplenum_guid": "0EGzqXRvrS8eKo$Agw78eL",
+      "prescribed_group_flow_L_s": 618.4264111528702,
+      "branches": [
+        {
+          "terminal": "SD-28",
+          "current_branch_boundary_port_guid": "2_$N$vmI1HNv7i7VOw_CzT",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-39",
+          "current_branch_boundary_port_guid": "0gtOQD0z9QNfn8kGAADs2h",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-40",
+          "current_branch_boundary_port_guid": "2nYFguGknVJgL4NzfuB9Ur",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-27",
+          "current_branch_boundary_port_guid": "3BpN$J0cjMWgqP3p7vASWQ",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.23902989280541717
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-08",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3o$58hG4HG0v2ZgBR86eqn",
+      "native_vav_inlet_port_guid": "07SOenKPjL6hRGKOpZ7GO9",
+      "native_Jplenum_guid": "0EGzqXRvrS8eKo$Agw78eL",
+      "prescribed_group_flow_L_s": 247.37056446114812,
+      "branches": [
+        {
+          "terminal": "SD-28",
+          "current_branch_boundary_port_guid": "2_$N$vmI1HNv7i7VOw_CzT",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-39",
+          "current_branch_boundary_port_guid": "0gtOQD0z9QNfn8kGAADs2h",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-40",
+          "current_branch_boundary_port_guid": "2nYFguGknVJgL4NzfuB9Ur",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-27",
+          "current_branch_boundary_port_guid": "3BpN$J0cjMWgqP3p7vASWQ",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23902989280541717
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-09",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3fpnWHNtXJIvAS9OzVzctg",
+      "native_vav_inlet_port_guid": "3jdviI4hvHxe2wkKwZfA2A",
+      "native_Jplenum_guid": "2hZDxAb_jLqeCeRYlk9ARC",
+      "prescribed_group_flow_L_s": 618.4264111528714,
+      "branches": [
+        {
+          "terminal": "SD-41",
+          "current_branch_boundary_port_guid": "3Cagnt05DMmvOCq2Vn98MY",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.2609701071945823
+        },
+        {
+          "terminal": "SD-30",
+          "current_branch_boundary_port_guid": "3xtvM1mxDMkxL6Vjxy7VTl",
+          "prescribed_flow_L_s": 147.82239876590998,
+          "fraction_of_group_flow": 0.23902989280541762
+        },
+        {
+          "terminal": "SD-29",
+          "current_branch_boundary_port_guid": "1eJE3PjmLU2eLWiJMgkVSS",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.2390298928054167
+        },
+        {
+          "terminal": "SD-42",
+          "current_branch_boundary_port_guid": "3ZQ3Omz91O1OmQ4A3iPDHH",
+          "prescribed_flow_L_s": 161.3908068105263,
+          "fraction_of_group_flow": 0.2609701071945833
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-09",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "3fpnWHNtXJIvAS9OzVzctg",
+      "native_vav_inlet_port_guid": "3jdviI4hvHxe2wkKwZfA2A",
+      "native_Jplenum_guid": "2hZDxAb_jLqeCeRYlk9ARC",
+      "prescribed_group_flow_L_s": 247.37056446114858,
+      "branches": [
+        {
+          "terminal": "SD-41",
+          "current_branch_boundary_port_guid": "3Cagnt05DMmvOCq2Vn98MY",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.2609701071945823
+        },
+        {
+          "terminal": "SD-30",
+          "current_branch_boundary_port_guid": "3xtvM1mxDMkxL6Vjxy7VTl",
+          "prescribed_flow_L_s": 59.128959506364,
+          "fraction_of_group_flow": 0.23902989280541764
+        },
+        {
+          "terminal": "SD-29",
+          "current_branch_boundary_port_guid": "1eJE3PjmLU2eLWiJMgkVSS",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.23902989280541673
+        },
+        {
+          "terminal": "SD-42",
+          "current_branch_boundary_port_guid": "3ZQ3Omz91O1OmQ4A3iPDHH",
+          "prescribed_flow_L_s": 64.55632272421052,
+          "fraction_of_group_flow": 0.2609701071945833
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-10",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "2q7jRIYsLPjgLqAH4ZmwWf",
+      "native_vav_inlet_port_guid": "3ZAE6_vNLNDAsmCRBmZOCW",
+      "native_Jplenum_guid": "1yqrdj41bHcwzjjtxRNYKA",
+      "prescribed_group_flow_L_s": 652.0041910874131,
+      "branches": [
+        {
+          "terminal": "SD-32",
+          "current_branch_boundary_port_guid": "2h9Jc5Y6rVpu3n3BdxJtwH",
+          "prescribed_flow_L_s": 163.87458504270475,
+          "fraction_of_group_flow": 0.25133977247814093
+        },
+        {
+          "terminal": "SD-43",
+          "current_branch_boundary_port_guid": "30akOt4ZfJPx9Is_xz0ugD",
+          "prescribed_flow_L_s": 161.39080681052567,
+          "fraction_of_group_flow": 0.24753032114925205
+        },
+        {
+          "terminal": "SD-31",
+          "current_branch_boundary_port_guid": "2wkBLyemnKxgE0nfYQkl1W",
+          "prescribed_flow_L_s": 147.8223987659094,
+          "fraction_of_group_flow": 0.22672001313269335
+        },
+        {
+          "terminal": "SD-44",
+          "current_branch_boundary_port_guid": "1xpogatCjPevU6$KUDLjbG",
+          "prescribed_flow_L_s": 178.91640046827322,
+          "fraction_of_group_flow": 0.27440989323991355
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-10",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "2q7jRIYsLPjgLqAH4ZmwWf",
+      "native_vav_inlet_port_guid": "3ZAE6_vNLNDAsmCRBmZOCW",
+      "native_Jplenum_guid": "1yqrdj41bHcwzjjtxRNYKA",
+      "prescribed_group_flow_L_s": 260.80167643496526,
+      "branches": [
+        {
+          "terminal": "SD-32",
+          "current_branch_boundary_port_guid": "2h9Jc5Y6rVpu3n3BdxJtwH",
+          "prescribed_flow_L_s": 65.5498340170819,
+          "fraction_of_group_flow": 0.251339772478141
+        },
+        {
+          "terminal": "SD-43",
+          "current_branch_boundary_port_guid": "30akOt4ZfJPx9Is_xz0ugD",
+          "prescribed_flow_L_s": 64.55632272421028,
+          "fraction_of_group_flow": 0.24753032114925208
+        },
+        {
+          "terminal": "SD-31",
+          "current_branch_boundary_port_guid": "2wkBLyemnKxgE0nfYQkl1W",
+          "prescribed_flow_L_s": 59.12895950636377,
+          "fraction_of_group_flow": 0.22672001313269338
+        },
+        {
+          "terminal": "SD-44",
+          "current_branch_boundary_port_guid": "1xpogatCjPevU6$KUDLjbG",
+          "prescribed_flow_L_s": 71.56656018730929,
+          "fraction_of_group_flow": 0.27440989323991355
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-11",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1trSthrt1U4Be6wMaFwscN",
+      "native_vav_inlet_port_guid": "2Q43NrEDrJbfzh$awfPH7p",
+      "native_Jplenum_guid": "2_xHPpyfXPvBkAVErrUML2",
+      "prescribed_group_flow_L_s": 623.2232368578052,
+      "branches": [
+        {
+          "terminal": "SD-33",
+          "current_branch_boundary_port_guid": "3iK1ECqufUQQlmT_5ee74V",
+          "prescribed_flow_L_s": 159.2882461064772,
+          "fraction_of_group_flow": 0.25558778409737065
+        },
+        {
+          "terminal": "SD-46",
+          "current_branch_boundary_port_guid": "1OYVpx981RYQsn7fP_k7Ng",
+          "prescribed_flow_L_s": 151.37618186324192,
+          "fraction_of_group_flow": 0.24289239057654063
+        },
+        {
+          "terminal": "SD-34",
+          "current_branch_boundary_port_guid": "3IC1WYyJvItg_wjqGRpF9A",
+          "prescribed_flow_L_s": 138.64972089345542,
+          "fraction_of_group_flow": 0.22247200151346377
+        },
+        {
+          "terminal": "SD-45",
+          "current_branch_boundary_port_guid": "1XTNMBmzjNNOg$oE1aRDzB",
+          "prescribed_flow_L_s": 173.9090879946307,
+          "fraction_of_group_flow": 0.27904782381262505
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-11",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1trSthrt1U4Be6wMaFwscN",
+      "native_vav_inlet_port_guid": "2Q43NrEDrJbfzh$awfPH7p",
+      "native_Jplenum_guid": "2_xHPpyfXPvBkAVErrUML2",
+      "prescribed_group_flow_L_s": 249.28929474312213,
+      "branches": [
+        {
+          "terminal": "SD-33",
+          "current_branch_boundary_port_guid": "3iK1ECqufUQQlmT_5ee74V",
+          "prescribed_flow_L_s": 63.715298442590885,
+          "fraction_of_group_flow": 0.2555877840973706
+        },
+        {
+          "terminal": "SD-46",
+          "current_branch_boundary_port_guid": "1OYVpx981RYQsn7fP_k7Ng",
+          "prescribed_flow_L_s": 60.55047274529677,
+          "fraction_of_group_flow": 0.2428923905765406
+        },
+        {
+          "terminal": "SD-34",
+          "current_branch_boundary_port_guid": "3IC1WYyJvItg_wjqGRpF9A",
+          "prescribed_flow_L_s": 55.45988835738217,
+          "fraction_of_group_flow": 0.22247200151346372
+        },
+        {
+          "terminal": "SD-45",
+          "current_branch_boundary_port_guid": "1XTNMBmzjNNOg$oE1aRDzB",
+          "prescribed_flow_L_s": 69.56363519785229,
+          "fraction_of_group_flow": 0.279047823812625
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-12",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "05GbPBF9rPoAY2EciXANmD",
+      "native_vav_inlet_port_guid": "0DtQp3nqnH0xFOXLxavrDP",
+      "native_Jplenum_guid": "3h8qMUGsTKkeuuRo57k0VL",
+      "prescribed_group_flow_L_s": 580.0518055133923,
+      "branches": [
+        {
+          "terminal": "SD-36",
+          "current_branch_boundary_port_guid": "2ik$LjgFPNdwbDxooo50X1",
+          "prescribed_flow_L_s": 138.64972089345486,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-35",
+          "current_branch_boundary_port_guid": "1YGXZ5oWXIex9yRdlWI$sg",
+          "prescribed_flow_L_s": 138.64972089345486,
+          "fraction_of_group_flow": 0.23902989280541717
+        },
+        {
+          "terminal": "SD-47",
+          "current_branch_boundary_port_guid": "0KmZ1oAK9Kh9VpGxiknuBw",
+          "prescribed_flow_L_s": 151.3761818632413,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-48",
+          "current_branch_boundary_port_guid": "10MesqwDnHfODYvTOie_o_",
+          "prescribed_flow_L_s": 151.3761818632413,
+          "fraction_of_group_flow": 0.2609701071945828
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-12",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "05GbPBF9rPoAY2EciXANmD",
+      "native_vav_inlet_port_guid": "0DtQp3nqnH0xFOXLxavrDP",
+      "native_Jplenum_guid": "3h8qMUGsTKkeuuRo57k0VL",
+      "prescribed_group_flow_L_s": 232.02072220535695,
+      "branches": [
+        {
+          "terminal": "SD-36",
+          "current_branch_boundary_port_guid": "2ik$LjgFPNdwbDxooo50X1",
+          "prescribed_flow_L_s": 55.45988835738194,
+          "fraction_of_group_flow": 0.23902989280541714
+        },
+        {
+          "terminal": "SD-35",
+          "current_branch_boundary_port_guid": "1YGXZ5oWXIex9yRdlWI$sg",
+          "prescribed_flow_L_s": 55.45988835738194,
+          "fraction_of_group_flow": 0.23902989280541714
+        },
+        {
+          "terminal": "SD-47",
+          "current_branch_boundary_port_guid": "0KmZ1oAK9Kh9VpGxiknuBw",
+          "prescribed_flow_L_s": 60.550472745296524,
+          "fraction_of_group_flow": 0.2609701071945828
+        },
+        {
+          "terminal": "SD-48",
+          "current_branch_boundary_port_guid": "10MesqwDnHfODYvTOie_o_",
+          "prescribed_flow_L_s": 60.550472745296524,
+          "fraction_of_group_flow": 0.2609701071945828
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-13",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0Mu3TH8mrRQ9K3x5Gsl1MW",
+      "native_vav_inlet_port_guid": "2$U6br2YrHFuroYIzXK5fR",
+      "native_Jplenum_guid": "3Wds1Zma9QSPSQCQPonswa",
+      "prescribed_group_flow_L_s": 551.782171001471,
+      "branches": [
+        {
+          "terminal": "SD-49",
+          "current_branch_boundary_port_guid": "0wdt5TKGvOaQz2ouT7T1Pg",
+          "prescribed_flow_L_s": 135.45179079297537,
+          "fraction_of_group_flow": 0.24548054995530882
+        },
+        {
+          "terminal": "SD-50",
+          "current_branch_boundary_port_guid": "2UbNAeVkjT$82ccz0COEGG",
+          "prescribed_flow_L_s": 147.82239876590972,
+          "fraction_of_group_flow": 0.2678999187262896
+        },
+        {
+          "terminal": "SD-62",
+          "current_branch_boundary_port_guid": "0cpFhTn9DHkQhORQD68zsB",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.2433097656592008
+        },
+        {
+          "terminal": "SD-61",
+          "current_branch_boundary_port_guid": "3KefNI9rnHIfplyInUao5b",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.2433097656592008
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-13",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0Mu3TH8mrRQ9K3x5Gsl1MW",
+      "native_vav_inlet_port_guid": "2$U6br2YrHFuroYIzXK5fR",
+      "native_Jplenum_guid": "3Wds1Zma9QSPSQCQPonswa",
+      "prescribed_group_flow_L_s": 220.71286840058846,
+      "branches": [
+        {
+          "terminal": "SD-49",
+          "current_branch_boundary_port_guid": "0wdt5TKGvOaQz2ouT7T1Pg",
+          "prescribed_flow_L_s": 54.180716317190154,
+          "fraction_of_group_flow": 0.2454805499553088
+        },
+        {
+          "terminal": "SD-50",
+          "current_branch_boundary_port_guid": "2UbNAeVkjT$82ccz0COEGG",
+          "prescribed_flow_L_s": 59.12895950636389,
+          "fraction_of_group_flow": 0.26789991872628954
+        },
+        {
+          "terminal": "SD-62",
+          "current_branch_boundary_port_guid": "0cpFhTn9DHkQhORQD68zsB",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.24330976565920076
+        },
+        {
+          "terminal": "SD-61",
+          "current_branch_boundary_port_guid": "3KefNI9rnHIfplyInUao5b",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.24330976565920076
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-14",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0UCv_uIB9GUQGvYe_k2U23",
+      "native_vav_inlet_port_guid": "3eGgaVN2LHHR4oHxpnH41_",
+      "native_Jplenum_guid": "1WzvdZ6m9OyxtY270uNFgu",
+      "prescribed_group_flow_L_s": 556.0038885923348,
+      "branches": [
+        {
+          "terminal": "SD-63",
+          "current_branch_boundary_port_guid": "1$fpxHTT1KVe9KIIpkk_Ho",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.24146232333229017
+        },
+        {
+          "terminal": "SD-52",
+          "current_branch_boundary_port_guid": "1smseg$VXKMg4rDr7AjN1x",
+          "prescribed_flow_L_s": 139.67350838383905,
+          "fraction_of_group_flow": 0.25120958908661245
+        },
+        {
+          "terminal": "SD-51",
+          "current_branch_boundary_port_guid": "1UomZybnLGS88s4GEfqXJh",
+          "prescribed_flow_L_s": 147.82239876590972,
+          "fraction_of_group_flow": 0.2658657642488072
+        },
+        {
+          "terminal": "SD-64",
+          "current_branch_boundary_port_guid": "2RsyDzvHHHSQCk14NLuCq3",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.24146232333229017
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-14",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "0UCv_uIB9GUQGvYe_k2U23",
+      "native_vav_inlet_port_guid": "3eGgaVN2LHHR4oHxpnH41_",
+      "native_Jplenum_guid": "1WzvdZ6m9OyxtY270uNFgu",
+      "prescribed_group_flow_L_s": 222.4015554369339,
+      "branches": [
+        {
+          "terminal": "SD-63",
+          "current_branch_boundary_port_guid": "1$fpxHTT1KVe9KIIpkk_Ho",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.24146232333229017
+        },
+        {
+          "terminal": "SD-52",
+          "current_branch_boundary_port_guid": "1smseg$VXKMg4rDr7AjN1x",
+          "prescribed_flow_L_s": 55.869403353535624,
+          "fraction_of_group_flow": 0.25120958908661245
+        },
+        {
+          "terminal": "SD-51",
+          "current_branch_boundary_port_guid": "1UomZybnLGS88s4GEfqXJh",
+          "prescribed_flow_L_s": 59.12895950636389,
+          "fraction_of_group_flow": 0.2658657642488072
+        },
+        {
+          "terminal": "SD-64",
+          "current_branch_boundary_port_guid": "2RsyDzvHHHSQCk14NLuCq3",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.24146232333229017
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-15",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "1WMSBG$6PHBgnrtrn4_x7i",
+      "native_vav_inlet_port_guid": "0vhkZPz3XLLPoagN2_85xG",
+      "native_Jplenum_guid": "1PItEEuo9SqBn$9PVWvHfj",
+      "prescribed_group_flow_L_s": 557.5747590274335,
+      "branches": [
+        {
+          "terminal": "SD-54",
+          "current_branch_boundary_port_guid": "3yGzqETSrPAheMpWjxIM60",
+          "prescribed_flow_L_s": 147.82239876591026,
+          "fraction_of_group_flow": 0.2651167334471057
+        },
+        {
+          "terminal": "SD-66",
+          "current_branch_boundary_port_guid": "0nJDNQQMDSoAcSg_cg7KiW",
+          "prescribed_flow_L_s": 134.25399072129352,
+          "fraction_of_group_flow": 0.24078204500409967
+        },
+        {
+          "terminal": "SD-65",
+          "current_branch_boundary_port_guid": "0IjjbA3lTK6OE7$rRjn5tJ",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.2407820450040987
+        },
+        {
+          "terminal": "SD-53",
+          "current_branch_boundary_port_guid": "22xgWxHMPG9Omvul6nY$H9",
+          "prescribed_flow_L_s": 141.24437881893672,
+          "fraction_of_group_flow": 0.25331917654469593
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-15",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "1WMSBG$6PHBgnrtrn4_x7i",
+      "native_vav_inlet_port_guid": "0vhkZPz3XLLPoagN2_85xG",
+      "native_Jplenum_guid": "1PItEEuo9SqBn$9PVWvHfj",
+      "prescribed_group_flow_L_s": 223.0299036109734,
+      "branches": [
+        {
+          "terminal": "SD-54",
+          "current_branch_boundary_port_guid": "3yGzqETSrPAheMpWjxIM60",
+          "prescribed_flow_L_s": 59.12895950636411,
+          "fraction_of_group_flow": 0.2651167334471057
+        },
+        {
+          "terminal": "SD-66",
+          "current_branch_boundary_port_guid": "0nJDNQQMDSoAcSg_cg7KiW",
+          "prescribed_flow_L_s": 53.70159628851741,
+          "fraction_of_group_flow": 0.24078204500409967
+        },
+        {
+          "terminal": "SD-65",
+          "current_branch_boundary_port_guid": "0IjjbA3lTK6OE7$rRjn5tJ",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.2407820450040987
+        },
+        {
+          "terminal": "SD-53",
+          "current_branch_boundary_port_guid": "22xgWxHMPG9Omvul6nY$H9",
+          "prescribed_flow_L_s": 56.49775152757469,
+          "fraction_of_group_flow": 0.25331917654469593
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-16",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1bsR7Y5W5ISPcAHDCXBvUx",
+      "native_vav_inlet_port_guid": "3r3IuyYjPVXxanrC4FL7q4",
+      "native_Jplenum_guid": "20QpI7eMjK_eO4Ze7RucoL",
+      "prescribed_group_flow_L_s": 586.8557568983574,
+      "branches": [
+        {
+          "terminal": "SD-56",
+          "current_branch_boundary_port_guid": "0VnklxT5jSD8jchRNocnI7",
+          "prescribed_flow_L_s": 155.94659779401857,
+          "fraction_of_group_flow": 0.26573241543752685
+        },
+        {
+          "terminal": "SD-68",
+          "current_branch_boundary_port_guid": "3522qUkr9NIeWoDOLA_viK",
+          "prescribed_flow_L_s": 148.83276961713614,
+          "fraction_of_group_flow": 0.2536104790106264
+        },
+        {
+          "terminal": "SD-67",
+          "current_branch_boundary_port_guid": "06fTUk6HLI9fyepjJgXU2c",
+          "prescribed_flow_L_s": 134.25399072129298,
+          "fraction_of_group_flow": 0.22876829466724577
+        },
+        {
+          "terminal": "SD-55",
+          "current_branch_boundary_port_guid": "2poQsQiMzIGhebD7_qF$AR",
+          "prescribed_flow_L_s": 147.82239876590972,
+          "fraction_of_group_flow": 0.25188881088460097
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-16",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1bsR7Y5W5ISPcAHDCXBvUx",
+      "native_vav_inlet_port_guid": "3r3IuyYjPVXxanrC4FL7q4",
+      "native_Jplenum_guid": "20QpI7eMjK_eO4Ze7RucoL",
+      "prescribed_group_flow_L_s": 234.742302759343,
+      "branches": [
+        {
+          "terminal": "SD-56",
+          "current_branch_boundary_port_guid": "0VnklxT5jSD8jchRNocnI7",
+          "prescribed_flow_L_s": 62.378639117607435,
+          "fraction_of_group_flow": 0.26573241543752685
+        },
+        {
+          "terminal": "SD-68",
+          "current_branch_boundary_port_guid": "3522qUkr9NIeWoDOLA_viK",
+          "prescribed_flow_L_s": 59.533107846854456,
+          "fraction_of_group_flow": 0.25361047901062633
+        },
+        {
+          "terminal": "SD-67",
+          "current_branch_boundary_port_guid": "06fTUk6HLI9fyepjJgXU2c",
+          "prescribed_flow_L_s": 53.701596288517194,
+          "fraction_of_group_flow": 0.22876829466724574
+        },
+        {
+          "terminal": "SD-55",
+          "current_branch_boundary_port_guid": "2poQsQiMzIGhebD7_qF$AR",
+          "prescribed_flow_L_s": 59.12895950636389,
+          "fraction_of_group_flow": 0.25188881088460097
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-17",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1DbGBA5oHMbvDdJRwtCToR",
+      "native_vav_inlet_port_guid": "1gB10uJtnHtQ7BiOP5X5lm",
+      "native_Jplenum_guid": "1Tep$V6hDIAPA6hkgdINcf",
+      "prescribed_group_flow_L_s": 585.0748294418718,
+      "branches": [
+        {
+          "terminal": "SD-57",
+          "current_branch_boundary_port_guid": "3iozNl$MTP9Ors_2RLBQLH",
+          "prescribed_flow_L_s": 152.48932302612008,
+          "fraction_of_group_flow": 0.2606321710533783
+        },
+        {
+          "terminal": "SD-70",
+          "current_branch_boundary_port_guid": "2gJfRRzGzHxQiK5CPHOrav",
+          "prescribed_flow_L_s": 137.59582061382065,
+          "fraction_of_group_flow": 0.23517644870328683
+        },
+        {
+          "terminal": "SD-58",
+          "current_branch_boundary_port_guid": "3t$Jh0dELLueltNuyZ4dby",
+          "prescribed_flow_L_s": 138.6497208934557,
+          "fraction_of_group_flow": 0.23697775723101897
+        },
+        {
+          "terminal": "SD-69",
+          "current_branch_boundary_port_guid": "1qp7E0GYvV3hRN1xEvTCDZ",
+          "prescribed_flow_L_s": 156.33996490847534,
+          "fraction_of_group_flow": 0.2672136230123159
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-17",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1DbGBA5oHMbvDdJRwtCToR",
+      "native_vav_inlet_port_guid": "1gB10uJtnHtQ7BiOP5X5lm",
+      "native_Jplenum_guid": "1Tep$V6hDIAPA6hkgdINcf",
+      "prescribed_group_flow_L_s": 234.0299317767487,
+      "branches": [
+        {
+          "terminal": "SD-57",
+          "current_branch_boundary_port_guid": "3iozNl$MTP9Ors_2RLBQLH",
+          "prescribed_flow_L_s": 60.99572921044803,
+          "fraction_of_group_flow": 0.2606321710533784
+        },
+        {
+          "terminal": "SD-70",
+          "current_branch_boundary_port_guid": "2gJfRRzGzHxQiK5CPHOrav",
+          "prescribed_flow_L_s": 55.03832824552826,
+          "fraction_of_group_flow": 0.23517644870328686
+        },
+        {
+          "terminal": "SD-58",
+          "current_branch_boundary_port_guid": "3t$Jh0dELLueltNuyZ4dby",
+          "prescribed_flow_L_s": 55.45988835738228,
+          "fraction_of_group_flow": 0.23697775723101897
+        },
+        {
+          "terminal": "SD-69",
+          "current_branch_boundary_port_guid": "1qp7E0GYvV3hRN1xEvTCDZ",
+          "prescribed_flow_L_s": 62.53598596339013,
+          "fraction_of_group_flow": 0.2672136230123159
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-18",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "180nmnLNPP8xnA4gA0l6gn",
+      "native_vav_inlet_port_guid": "33fBtiPOnSmxMrVKAx3n8C",
+      "native_Jplenum_guid": "1DIELkv2vOPevrgKuqT_eh",
+      "prescribed_group_flow_L_s": 540.1204816346908,
+      "branches": [
+        {
+          "terminal": "SD-71",
+          "current_branch_boundary_port_guid": "2O1CIIYSbNTQygeCPytf5O",
+          "prescribed_flow_L_s": 137.5958206138201,
+          "fraction_of_group_flow": 0.2547502368312015
+        },
+        {
+          "terminal": "SD-59",
+          "current_branch_boundary_port_guid": "1buxgy23XPcBjOVL4jJPJH",
+          "prescribed_flow_L_s": 138.64972089345514,
+          "fraction_of_group_flow": 0.25670146866830085
+        },
+        {
+          "terminal": "SD-72",
+          "current_branch_boundary_port_guid": "0YhhkBHrDGLgf2EO5Vq0U6",
+          "prescribed_flow_L_s": 137.5958206138201,
+          "fraction_of_group_flow": 0.2547502368312015
+        },
+        {
+          "terminal": "SD-60",
+          "current_branch_boundary_port_guid": "0EavQe231OihX_O0EaDQ0q",
+          "prescribed_flow_L_s": 126.27911951359549,
+          "fraction_of_group_flow": 0.2337980576692962
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-18",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 12,
+      "native_vav_guid": "180nmnLNPP8xnA4gA0l6gn",
+      "native_vav_inlet_port_guid": "33fBtiPOnSmxMrVKAx3n8C",
+      "native_Jplenum_guid": "1DIELkv2vOPevrgKuqT_eh",
+      "prescribed_group_flow_L_s": 216.04819265387636,
+      "branches": [
+        {
+          "terminal": "SD-71",
+          "current_branch_boundary_port_guid": "2O1CIIYSbNTQygeCPytf5O",
+          "prescribed_flow_L_s": 55.03832824552805,
+          "fraction_of_group_flow": 0.2547502368312015
+        },
+        {
+          "terminal": "SD-59",
+          "current_branch_boundary_port_guid": "1buxgy23XPcBjOVL4jJPJH",
+          "prescribed_flow_L_s": 55.459888357382056,
+          "fraction_of_group_flow": 0.2567014686683008
+        },
+        {
+          "terminal": "SD-72",
+          "current_branch_boundary_port_guid": "0YhhkBHrDGLgf2EO5Vq0U6",
+          "prescribed_flow_L_s": 55.03832824552805,
+          "fraction_of_group_flow": 0.2547502368312015
+        },
+        {
+          "terminal": "SD-60",
+          "current_branch_boundary_port_guid": "0EavQe231OihX_O0EaDQ0q",
+          "prescribed_flow_L_s": 50.5116478054382,
+          "fraction_of_group_flow": 0.2337980576692962
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-19",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1EUR5Eq_5OywqMTdjTlzh7",
+      "native_vav_inlet_port_guid": "3UlALNrQXIiQ$ibyFYSm$d",
+      "native_Jplenum_guid": "2xszVpI0HV1R3KAdkTSd6o",
+      "prescribed_group_flow_L_s": 718.0147332359453,
+      "branches": [
+        {
+          "terminal": "SD-73",
+          "current_branch_boundary_port_guid": "3euZEc2qzIwv642rkQ1hTE",
+          "prescribed_flow_L_s": 173.66740296391004,
+          "fraction_of_group_flow": 0.24187164263500086
+        },
+        {
+          "terminal": "SD-78",
+          "current_branch_boundary_port_guid": "0IJcQ7RD5ToPwXKLAmA8kZ",
+          "prescribed_flow_L_s": 185.33996365406261,
+          "fraction_of_group_flow": 0.2581283573649991
+        },
+        {
+          "terminal": "SD-77",
+          "current_branch_boundary_port_guid": "0F55WRgp9IE9bF0iQXeyDR",
+          "prescribed_flow_L_s": 185.33996365406188,
+          "fraction_of_group_flow": 0.2581283573649981
+        },
+        {
+          "terminal": "SD-74",
+          "current_branch_boundary_port_guid": "1XaXIT$$fTyArUG_5em_OQ",
+          "prescribed_flow_L_s": 173.66740296391075,
+          "fraction_of_group_flow": 0.24187164263500185
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-19",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "1EUR5Eq_5OywqMTdjTlzh7",
+      "native_vav_inlet_port_guid": "3UlALNrQXIiQ$ibyFYSm$d",
+      "native_Jplenum_guid": "2xszVpI0HV1R3KAdkTSd6o",
+      "prescribed_group_flow_L_s": 287.20589329437814,
+      "branches": [
+        {
+          "terminal": "SD-73",
+          "current_branch_boundary_port_guid": "3euZEc2qzIwv642rkQ1hTE",
+          "prescribed_flow_L_s": 69.46696118556402,
+          "fraction_of_group_flow": 0.24187164263500086
+        },
+        {
+          "terminal": "SD-78",
+          "current_branch_boundary_port_guid": "0IJcQ7RD5ToPwXKLAmA8kZ",
+          "prescribed_flow_L_s": 74.13598546162505,
+          "fraction_of_group_flow": 0.2581283573649992
+        },
+        {
+          "terminal": "SD-77",
+          "current_branch_boundary_port_guid": "0F55WRgp9IE9bF0iQXeyDR",
+          "prescribed_flow_L_s": 74.13598546162476,
+          "fraction_of_group_flow": 0.2581283573649981
+        },
+        {
+          "terminal": "SD-74",
+          "current_branch_boundary_port_guid": "1XaXIT$$fTyArUG_5em_OQ",
+          "prescribed_flow_L_s": 69.4669611855643,
+          "fraction_of_group_flow": 0.24187164263500183
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-20",
+      "condition": "maximum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "0SpISO5CzQ6QXggrQ7bcoN",
+      "native_vav_inlet_port_guid": "0ZZXJVSJjSQhpN5tc5oXZm",
+      "native_Jplenum_guid": "11$FT_d3zKJwN2GrkHlUh6",
+      "prescribed_group_flow_L_s": 702.6202032835482,
+      "branches": [
+        {
+          "terminal": "SD-80",
+          "current_branch_boundary_port_guid": "3Ppcig_HjUeQuB5uW_XroX",
+          "prescribed_flow_L_s": 169.9454337016663,
+          "fraction_of_group_flow": 0.24187382160015033
+        },
+        {
+          "terminal": "SD-75",
+          "current_branch_boundary_port_guid": "3L_3A$9tbRPu6maFDm$ZFt",
+          "prescribed_flow_L_s": 173.66740296391004,
+          "fraction_of_group_flow": 0.24717109208120097
+        },
+        {
+          "terminal": "SD-76",
+          "current_branch_boundary_port_guid": "2dOxtVXi1M3Pe7motXKekA",
+          "prescribed_flow_L_s": 173.66740296391004,
+          "fraction_of_group_flow": 0.24717109208120097
+        },
+        {
+          "terminal": "SD-79",
+          "current_branch_boundary_port_guid": "3kkhbNKCPVzx2v_HI86EfX",
+          "prescribed_flow_L_s": 185.33996365406188,
+          "fraction_of_group_flow": 0.2637839942374478
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    },
+    {
+      "group": "VAV-20",
+      "condition": "minimum",
+      "candidate_nominal_inlet_in": 14,
+      "native_vav_guid": "0SpISO5CzQ6QXggrQ7bcoN",
+      "native_vav_inlet_port_guid": "0ZZXJVSJjSQhpN5tc5oXZm",
+      "native_Jplenum_guid": "11$FT_d3zKJwN2GrkHlUh6",
+      "prescribed_group_flow_L_s": 281.0480813134193,
+      "branches": [
+        {
+          "terminal": "SD-80",
+          "current_branch_boundary_port_guid": "3Ppcig_HjUeQuB5uW_XroX",
+          "prescribed_flow_L_s": 67.97817348066653,
+          "fraction_of_group_flow": 0.24187382160015036
+        },
+        {
+          "terminal": "SD-75",
+          "current_branch_boundary_port_guid": "3L_3A$9tbRPu6maFDm$ZFt",
+          "prescribed_flow_L_s": 69.46696118556402,
+          "fraction_of_group_flow": 0.24717109208120097
+        },
+        {
+          "terminal": "SD-76",
+          "current_branch_boundary_port_guid": "2dOxtVXi1M3Pe7motXKekA",
+          "prescribed_flow_L_s": 69.46696118556402,
+          "fraction_of_group_flow": 0.24717109208120097
+        },
+        {
+          "terminal": "SD-79",
+          "current_branch_boundary_port_guid": "3kkhbNKCPVzx2v_HI86EfX",
+          "prescribed_flow_L_s": 74.13598546162476,
+          "fraction_of_group_flow": 0.2637839942374478
+        }
+      ],
+      "candidate_configuration": {
+        "series": "LMHS",
+        "unit_style_code": "2 - Multiple Outlets",
+        "outlet_pattern": "J, four outlets",
+        "heat": "none in current study",
+        "liner": "Half-inch candidate selection",
+        "status": "Candidate study definition, not selected/ordered factory product"
+      },
+      "required_evidence": [
+        "Manufacturer performance applicability to exact unit style and outlet pattern",
+        "Whether source minimum static difference includes the multiple-outlet attachment",
+        "Inlet/outlet reference planes and clear areas",
+        "Full-open baseline with stated branch flow split; separate actual controller state",
+        "Four inlet-to-branch pressure paths or a justified shared-boundary model"
+      ],
+      "available_accepted_multioutlet_pressure_values": null
+    }
+  ],
+  "design_accepted": false
+}

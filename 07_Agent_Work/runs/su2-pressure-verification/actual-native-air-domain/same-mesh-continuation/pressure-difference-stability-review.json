@@ -1,0 +1,47 @@
+{
+  "window_iterations": [
+    965,
+    1164
+  ],
+  "pressure_difference_scope": "Entire 15-body domain, not junction-only loss; cannot add again to included straight/bend/transition losses",
+  "proposed_numerical_relative_spread_target": 0.005,
+  "target_classification": "numerical stability design target, not published manufacturer or regulation limit",
+  "paths": [
+    {
+      "outlet": "outlet_0",
+      "last_total_pressure_difference_Pa": 176.98467195400002,
+      "mean_Pa": 178.40858260939,
+      "window_range_Pa": 2.7316094849999786,
+      "relative_window_range": 0.015310975767239846,
+      "positive_whole_window": true
+    },
+    {
+      "outlet": "outlet_2",
+      "last_total_pressure_difference_Pa": 123.63260606,
+      "mean_Pa": 122.98364305690001,
+      "window_range_Pa": 1.3119987299999991,
+      "relative_window_range": 0.01066807501704097,
+      "positive_whole_window": true
+    },
+    {
+      "outlet": "outlet_3",
+      "last_total_pressure_difference_Pa": 195.64099307,
+      "mean_Pa": 196.0184300773,
+      "window_range_Pa": 0.9031463499999859,
+      "relative_window_range": 0.004607456297062626,
+      "positive_whole_window": true
+    },
+    {
+      "outlet": "outlet_4",
+      "last_total_pressure_difference_Pa": 168.37367355,
+      "mean_Pa": 169.24014679520002,
+      "window_range_Pa": 1.948108579999996,
+      "relative_window_range": 0.011510912847159313,
+      "positive_whole_window": true
+    }
+  ],
+  "all_pressure_stability_targets_met": false,
+  "pressure_accepted": false,
+  "engineering_accepted": false,
+  "input_window_sha256": "90f17eb7994b4dca197287e425439ebf601cfad1c9037c9f22f46ac778f1018d"
+}

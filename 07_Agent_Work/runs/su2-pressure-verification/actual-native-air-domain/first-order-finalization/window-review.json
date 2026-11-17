@@ -1,0 +1,60 @@
+{
+  "window_iterations": [
+    12,
+    211
+  ],
+  "maximum_relative_flow_errors": {
+    "outlet_0": 0.0006817678217412332,
+    "inlet": 0.0005413808288207078,
+    "outlet_2": 0.0009484289557450102,
+    "outlet_3": 0.0005534097741868009,
+    "outlet_4": 0.0007723351051381222
+  },
+  "maximum_relative_mass_imbalance": 0.00029054048865004273,
+  "pressures": {
+    "outlet_0": {
+      "mean_Pa": 163.4963529355,
+      "range_Pa": 0.04270439999999098,
+      "relative_range": 0.0002611948170907399,
+      "positive": true,
+      "stable": true
+    },
+    "outlet_2": {
+      "mean_Pa": 133.95297193160002,
+      "range_Pa": 0.0371507400000155,
+      "relative_range": 0.0002773416630053245,
+      "positive": true,
+      "stable": true
+    },
+    "outlet_3": {
+      "mean_Pa": 197.63376777272998,
+      "range_Pa": 0.028515763999990895,
+      "relative_range": 0.0001442858896096276,
+      "positive": true,
+      "stable": true
+    },
+    "outlet_4": {
+      "mean_Pa": 169.77934992775002,
+      "range_Pa": 0.03822156999999038,
+      "relative_range": 0.00022512496376182175,
+      "positive": true,
+      "stable": true
+    }
+  },
+  "numerical_targets": {
+    "flow": 0.001,
+    "mass": 0.001,
+    "pressure_range": 0.005
+  },
+  "flow_pass": true,
+  "mass_pass": true,
+  "pressure_stability_pass": true,
+  "numerical_window_pass": true,
+  "engineering_accepted": false,
+  "scope": "Complete supplied domain; numerical window only. Requires separate model, turbulence, mesh and source applicability verification.",
+  "provenance": {
+    "history_sha256": "f621660f15ba51e0486ba7f544056004f469a2aa200a6d4c2b59ae6d9985ff97",
+    "targets_sha256": "86d7e8e32c6fa8986abc6dfd5d040e8bf772341b35c8789a5bdcd82a24cedd50",
+    "method_sha256": "256877f3486b8c681fd255293b6834761fec91bb130c1690cd62332a60283092"
+  }
+}

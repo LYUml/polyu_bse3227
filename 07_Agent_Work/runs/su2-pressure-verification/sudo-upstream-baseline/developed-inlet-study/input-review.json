@@ -1,0 +1,11 @@
+{
+  "source_checkpoint_sha256": "daf31f25e2fe8ed983edd2b3af338702510c700b6674150bb4aa03ce15673743",
+  "inlet_profile_sha256": "938c2c5850557688623518cb4f20ab0943f007a0027e4643dde8f3d562a56e48",
+  "inlet_review_sha256": "e2bdc14622caa7bcc5403a31d0795787fab611ec72cee1c0e1d7e30e307447fb",
+  "scope": "Original native bend mesh, smooth SST2003m wall functions and CFL200 serial method. New numerically developed inlet, no rescaling. Previous supplied-profile terminal field only initializes changed physical inlet. Experimental normalization and grid independence remain unaccepted.",
+  "changes": [
+    "Native developed inlet profile replaces upstream supplied profile.",
+    "All six logRMS <=-10 stopping target replaces upstream pressure-only -14; 2000 iteration budget."
+  ],
+  "engineering_accepted": false
+}

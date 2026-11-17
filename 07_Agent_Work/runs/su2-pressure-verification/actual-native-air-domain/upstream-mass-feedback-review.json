@@ -1,0 +1,11 @@
+{
+  "source_commit": "7048fd35f56d4bf52e586429d6746a36a10255f8",
+  "source_sha256": "da23e69f9d6b724c908ae01c50a43f3c16c7adfaa8f8185f0a3ac14ea185b997",
+  "source_lines": "3005-3041",
+  "source_feedback_formula": "dP=(m_old^2-m_target^2)/(2*rho*A^2)",
+  "source_pressure_update": "P_outlet=P_domain+damping*dP; source optionally removes damping based on local pressure range",
+  "sign": "Excess outward flow produces positive back-pressure increment.",
+  "integration_limit": "Official MASS_FLOW_OUTLET rejects pressure-based mode. An external uniform outlet-pressure controller would differ from the source pointwise P_domain update and needs separate executed validation.",
+  "current_action": "Do not change running boundaries. Wait for stable internal state before implementing and testing outer branch-flow control.",
+  "engineering_accepted": false
+}

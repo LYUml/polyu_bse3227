@@ -1,0 +1,65 @@
+{
+  "scope": "Measured uniform explicit-feature hex mesh geometry correspondence; no pressure acceptance",
+  "native_cells": 142480,
+  "native_points": 151473,
+  "source_reference_mesh_volume_m3": 0.1403540428609383,
+  "native_volume_m3": 0.14032277463502577,
+  "relative_volume_change": -0.00022278108471385227,
+  "ports": [
+    {
+      "source_port": "inlet",
+      "native_patch": "air_inlet",
+      "native_faces": 1368,
+      "source_tessellated_area_m2": 0.13430760000000136,
+      "native_area_m2": 0.1343076000000014,
+      "relative_area_change": 2.220446049250313e-16,
+      "maximum_plane_distance_m": 0.0,
+      "minimum_outward_normal_alignment": 1.0
+    },
+    {
+      "source_port": "outlet_0",
+      "native_patch": "air_outlet_0",
+      "native_faces": 484,
+      "source_tessellated_area_m2": 0.048763926286938236,
+      "native_area_m2": 0.048688435422558,
+      "relative_area_change": -0.0015480883129884715,
+      "maximum_plane_distance_m": 0.0,
+      "minimum_outward_normal_alignment": 1.0
+    },
+    {
+      "source_port": "outlet_1",
+      "native_patch": "air_outlet_1",
+      "native_faces": 484,
+      "source_tessellated_area_m2": 0.048763926286938236,
+      "native_area_m2": 0.048688460702124625,
+      "relative_area_change": -0.001547569905867574,
+      "maximum_plane_distance_m": 0.0,
+      "minimum_outward_normal_alignment": 1.0
+    },
+    {
+      "source_port": "outlet_2",
+      "native_patch": "air_outlet_2",
+      "native_faces": 484,
+      "source_tessellated_area_m2": 0.04876392628693806,
+      "native_area_m2": 0.048690322631854945,
+      "relative_area_change": -0.001509387383001437,
+      "maximum_plane_distance_m": 0.0,
+      "minimum_outward_normal_alignment": 1.0
+    },
+    {
+      "source_port": "outlet_3",
+      "native_patch": "air_outlet_3",
+      "native_faces": 484,
+      "source_tessellated_area_m2": 0.04876392628693806,
+      "native_area_m2": 0.048690227327784136,
+      "relative_area_change": -0.00151134177999257,
+      "maximum_plane_distance_m": 0.0,
+      "minimum_outward_normal_alignment": 1.0
+    }
+  ],
+  "boundary_layers_present": false,
+  "native_mesh_quality_accepted": true,
+  "pressure_run": false,
+  "source_physical_model_changed": false,
+  "design_accepted": false
+}

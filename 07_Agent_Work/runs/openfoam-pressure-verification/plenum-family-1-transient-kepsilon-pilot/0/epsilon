@@ -1,0 +1,9 @@
+FoamFile {format ascii;class volScalarField;object epsilon;}
+dimensions [0 2 -3 0 0 0 0];internalField uniform 0.115896876310234;boundaryField {
+air_wall {type epsilonWallFunction;value uniform 0.115896876310234;}
+air_inlet {type fixedValue;value uniform 0.115896876310234;}
+air_outlet_0 {type inletOutlet;inletValue uniform 0.115896876310234;value uniform 0.115896876310234;}
+air_outlet_1 {type inletOutlet;inletValue uniform 0.115896876310234;value uniform 0.115896876310234;}
+air_outlet_2 {type inletOutlet;inletValue uniform 0.115896876310234;value uniform 0.115896876310234;}
+air_outlet_3 {type inletOutlet;inletValue uniform 0.115896876310234;value uniform 0.115896876310234;}
+}

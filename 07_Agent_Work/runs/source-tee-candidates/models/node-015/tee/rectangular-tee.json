@@ -1,0 +1,67 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-015\\tee.json": "889972f249cf43a4002af378c10c4a2c05d46463081cabcc30044dfce5f3dc48"
+  },
+  "generator_sha256": "2a1b4d02564a737c56ada58c0f4b7fdea402a341a282622232c414c4856cc0fa",
+  "ifc_sha256": "6ffbf150f0d5ea1c85242ed07ebd871d82a3f8b356ab0116f6e28396a0289418",
+  "versions": {
+    "ifcopenshell": "0.8.5",
+    "manifold3d": "3.5.4"
+  },
+  "parameters": {
+    "project_uuid": "acdba49f-2951-5abb-89ed-8a8519c879e8",
+    "source": "Source node TAP-VAV-19; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+    "classification": "assumed",
+    "internal_width_m": 0.5,
+    "internal_height_m": 0.4,
+    "wall_thickness_m": 0.0008,
+    "main_half_length_m": 0.35,
+    "branch_length_m": 0.35,
+    "port_directions": {
+      "main-a": "SINK",
+      "main-b": "SOURCE",
+      "branch": "SOURCE"
+    },
+    "placement": {
+      "source": "Original source rays/XY and explicit study elevation",
+      "origin_m": [
+        98.6984325,
+        38.460584000000004,
+        0
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "checks": {
+    "schema_express_issue_count": 0,
+    "ports": 3,
+    "one_connected_material": true,
+    "euler_characteristic": -2,
+    "native_material_volume_m3": 0.0009928939519991747,
+    "independent_material_volume_m3": 0.0009928939520000013,
+    "bore_probe_overlap_m3": [
+      0.0,
+      0.0
+    ],
+    "saved_source_geometry_and_port_frames": true
+  },
+  "geometry_checks_pass": true,
+  "design_accepted": false,
+  "scope": "Source-declared ideal equal-section sharp rectangular tee only; no radiused takeoff, variable sections, losses, products, assembly or jurisdiction acceptance"
+}

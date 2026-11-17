@@ -1,0 +1,2 @@
+FoamFile {format ascii;class dictionary;object controlDict;}
+application foamRun;solver incompressibleFluid;startFrom latestTime;startTime 0;stopAt endTime;endTime 650;deltaT 1;writeControl timeStep;writeInterval 220;writeFormat ascii;writePrecision 17;runTimeModifiable false;

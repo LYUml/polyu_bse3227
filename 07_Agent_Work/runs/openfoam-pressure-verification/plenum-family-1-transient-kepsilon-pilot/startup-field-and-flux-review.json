@@ -1,0 +1,79 @@
+{
+  "scope": "Twenty physical-time startup steps only; no stationary statistics or design pressure",
+  "physical_times_exactly_match20prescribed_steps": true,
+  "final_time_s": 0.005,
+  "reference_residence_time_s": 0.24375340232499723,
+  "fraction_of_one_residence_time": 0.020512534193608847,
+  "fields": {
+    "U": {
+      "values": 142480,
+      "minimum": 0.023207365576640257,
+      "maximum": 8.7862855678623,
+      "sha256": "8bbddb1b4a52597702627bc7c35ca383cc97ca412702b0f4f5fd8d40e59373a1"
+    },
+    "p": {
+      "values": 142480,
+      "minimum": -88.67373783087145,
+      "maximum": 0.2349755429932489,
+      "sha256": "7e8dcc5f6036dbcef49a24f0e3c8f334fd98d01baa106cc034eb6f342cde8f09"
+    },
+    "k": {
+      "values": 142480,
+      "minimum": 0.060371939019221284,
+      "maximum": 3.519903399515447,
+      "sha256": "339eff2e14f18ed90f48d5470e6814e6dfc62335d5e67720ac9836d22977ccf2"
+    },
+    "epsilon": {
+      "values": 142480,
+      "minimum": 0.11414975699260407,
+      "maximum": 230.22395998461084,
+      "sha256": "c6011e7a5dbf7faed5dfa0b900903b29d2133184cb2f6f8d58942bdc44ac678d"
+    },
+    "nut": {
+      "values": 142480,
+      "minimum": 0.00010670141208178861,
+      "maximum": 0.01759775842136998,
+      "sha256": "a51446b1bab183df1fd9f1976502b8f67bc6b80702d51755daa0ca9d20d2b4f1"
+    }
+  },
+  "native_postprocess_returncode": 0,
+  "all6primary_fields_unchanged_by_postprocess": true,
+  "fluxes": {
+    "inlet": {
+      "measured_outward_m3_s": -0.5756751425686061,
+      "prescribed_outward_m3_s": -0.5756751425686069,
+      "relative_difference": 1.3499907495918863e-15
+    },
+    "outlet_0": {
+      "measured_outward_m3_s": 0.14782239876590966,
+      "prescribed_outward_m3_s": 0.14782239876590955,
+      "relative_difference": 7.510519609300195e-16
+    },
+    "outlet_1": {
+      "measured_outward_m3_s": 0.14782239876590958,
+      "prescribed_outward_m3_s": 0.14782239876590955,
+      "relative_difference": 1.8776299023250487e-16
+    },
+    "outlet_2": {
+      "measured_outward_m3_s": 0.1322079462708782,
+      "prescribed_outward_m3_s": 0.13220794627087828,
+      "relative_difference": -6.298163551855134e-16
+    },
+    "outlet_3": {
+      "measured_outward_m3_s": 0.14782239876590939,
+      "prescribed_outward_m3_s": 0.1478223987659094,
+      "relative_difference": -1.8776299023250504e-16
+    }
+  },
+  "net_outward_volume_flow_m3_s": 7.494005416219807e-16,
+  "native_yPlus_startup_only": {
+    "minimum": 17.1719813615974,
+    "maximum": 347.11354300729846,
+    "average": 44.40390744515727
+  },
+  "maximum_reported_Courant": 0.5706607344089858,
+  "old_SST_lowRe_yPlus_or_steady_window_reclassified": false,
+  "near_wall_or_statistical_acceptance": false,
+  "pressure_adopted": false,
+  "design_accepted": false
+}

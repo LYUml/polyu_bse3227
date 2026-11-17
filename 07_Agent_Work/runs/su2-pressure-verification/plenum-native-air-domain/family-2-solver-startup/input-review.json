@@ -1,0 +1,41 @@
+{
+  "source_family_review_sha256": "2389557b1a5d60a9aabfeaf1dee619e0735fcf5b7836cd60a801c3825dca3d68",
+  "mesh_sha256": "9822f2c2c28fbff74bf155eda393a248adf62037f1a3e4e2e66001761238fea3",
+  "source_member": {
+    "id": "VAV-02",
+    "guid": "1hkqWVhDbU3u0fIMW4RWTm",
+    "flows": {
+      "maximum": {
+        "inlet_m3_s": 0.5844445324089027,
+        "ordered_outlet_fractions": [
+          0.25292802065686293,
+          0.25292802065686293,
+          0.2529280206568627,
+          0.24121593802941133
+        ]
+      },
+      "minimum": {
+        "inlet_m3_s": 0.2337778129635611,
+        "ordered_outlet_fractions": [
+          0.252928020656863,
+          0.252928020656863,
+          0.2529280206568627,
+          0.24121593802941135
+        ]
+      }
+    }
+  },
+  "flowcase": "maximum",
+  "rho_kg_m3": 1.2,
+  "mu_pa_s": 1.81e-05,
+  "inlet_speed_m_s": 2.9104537387344833,
+  "inlet_effective_area_m2": 0.20080873460748752,
+  "target_outlet_mass_flows_kg_s": [
+    0.17738687851909143,
+    0.17738687851909143,
+    0.1773868785190913,
+    0.16917280333340898
+  ],
+  "scope": "Three-step actual second-family solver startup. Smooth-wall numerical diagnostic, uniform inlet/turbulence assumptions inherited; installed lining roughness and pressure unaccepted.",
+  "engineering_accepted": false
+}

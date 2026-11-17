@@ -1,0 +1,193 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-014\\project.json": "9ed8a9b145611f46f23b29c14e048bf347a76173f17f75805da8d0836b454dfe",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-014\\tee.json": "44cc89a784f5480d85ed4fb4e9d10df826cf3191034ce95b808965fd41a1deaa"
+  },
+  "source_artifacts": {
+    "branch-transition.json": "843c6261bb590779dbe3c3de272e2e40cfba6402128901c7cf80c7c81c9d8746",
+    "main-b-transition.json": "5adcd0271f1b1824fd5dcb72d0676eeb7dedbf711fab612b3d0dc5ca203af272",
+    "branch/transition.ifc": "266ce7d8a146dcfd44a5c3d7030b826a4cddb155485449c401f7cbf2d6e0b7a6",
+    "branch/transition.json": "57ae6a64654f0b1d6ac04fc49adcaee7fe35eb5d767f2527975389e1c31de1a8",
+    "branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "main-b/transition.ifc": "353dbacbfaf4879ba69f4eacf582e08ba5377208e9db7ef9821d4c681116b56f",
+    "main-b/transition.json": "f4fc6d13d80f19a52fc27847069880b8b1701c0250d44f22d321d6f1421a582e",
+    "main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "tee/rectangular-tee.ifc": "5d7a12938fbdbe11e7e8ef043f6f0229c72294bbbff2dcad621faa28f4f4074a",
+    "tee/rectangular-tee.json": "decc053f0aee3b853b180213b391eec0ba87419d5e33209d0ebe673cee0c215c"
+  },
+  "generator_sha256": "953a5df4f0e8349a02130bd324298911bcb196349e2b0a08f7aa0fb9985cd963",
+  "ifc_sha256": "adee98a8292caebabeee7be80d4c13718c47df77cf8fe7e8e679ca9e8aaab352",
+  "checks": {
+    "tee": {
+      "schema_express_issue_count": 0,
+      "ports": 3,
+      "one_connected_material": true,
+      "euler_characteristic": -2,
+      "native_material_volume_m3": 0.0009489579519992601,
+      "independent_material_volume_m3": 0.0009489579520000069,
+      "bore_probe_overlap_m3": [
+        0.0,
+        0.0
+      ],
+      "saved_source_geometry_and_port_frames": true
+    },
+    "transitions": {
+      "main-b": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.0003446567509575016,
+        "independent_material_volume_m3": 0.00034465675095750326,
+        "material_centroid_m": [
+          -9.58469110242117e-17,
+          -6.878244672538781e-16,
+          0.13511524975814715
+        ],
+        "relative_volume_error": 4.875904396718874e-15,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999996,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.2508,
+            -0.17579999999999998,
+            0.0
+          ],
+          [
+            0.2508,
+            0.17579999999999998,
+            0.28660254037844385
+          ]
+        ]
+      },
+      "branch": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.0004568571264362542,
+        "independent_material_volume_m3": 0.0004568571264362553,
+        "material_centroid_m": [
+          -1.0255177643932522e-16,
+          -1.2190335459228265e-16,
+          0.17960192780626125
+        ],
+        "relative_volume_error": 2.491834350905372e-15,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999996,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.2508,
+            -0.17579999999999998,
+            0.0
+          ],
+          [
+            0.2508,
+            0.17579999999999998,
+            0.3799038105676658
+          ]
+        ]
+      }
+    },
+    "components": 3,
+    "ports": 7,
+    "connections": 2,
+    "coincident_opposed_interfaces": 2,
+    "material_overlap_m3": [
+      0.0,
+      3.3881317890172014e-21,
+      0.0
+    ],
+    "one_connected_material": true,
+    "euler_characteristic": -2,
+    "material_volume_m3": 0.0017504718293937568,
+    "independent_material_volume_m3": 0.0017504718293937654,
+    "bore_probe_overlap_m3": [
+      0.0,
+      0.0
+    ],
+    "external_end_frames": {
+      "main-a": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          97.65593199999999
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          35.58058400000001
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "main-b": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          98.64253454037842
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          35.58058400000001
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "branch": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          98.00593199999999
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          34.85068018943234
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "assembly_checks_pass": true,
+  "design_accepted": false,
+  "scope": "Declared ideal equal-section core tee with centred section-plane-offset transitions; no product joints, constant sheet-normal taper walls, pressure loss or actual installation/regulatory acceptance"
+}

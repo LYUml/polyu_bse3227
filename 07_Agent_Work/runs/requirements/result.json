@@ -1,0 +1,1723 @@
+{
+  "schema": "bsa.module-result/1",
+  "request": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\requirements-request.json",
+    "sha256": "915a72b417b574aad040720fa852b4bfca128bf8c4f698c7de1d873c8373a2d8"
+  },
+  "project_id": "bse3227",
+  "scenario_id": "project-workspace",
+  "capability": "requirements.source-inventory",
+  "provider": {
+    "id": "bsa.source-requirements",
+    "version": "1",
+    "license": "NOASSERTION"
+  },
+  "execution": {
+    "status": "completed",
+    "diagnostics": []
+  },
+  "acceptance": {
+    "status": "pending",
+    "scope": "Exact source passages,declared obligations and unresolved inputs only;semantic completeness,design and engineering acceptance remain unassessed"
+  },
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\requirements-request.json": "915a72b417b574aad040720fa852b4bfca128bf8c4f698c7de1d873c8373a2d8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-regulated-plan.json": "e98f6f809d5c26cd12ff64b62e4dcf6d7b3481b5fc4c566a1f9ea571a61c581e",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\modules.py": "a7387adf83b1f86d8d49ef9e82c2dc5332d81393ef09a8cf2bc8a720110bba99",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\module_contract.py": "16a3c35e055e3538c1154055909d4122e55bb9640c9d73fda705bfa845e936bf",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\requirements.py": "6fca4cbaf38ded33337789dfa2a65d1152ff7bf0b6d667a3dabaa0aa68949bd3",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\__init__.py": "6e769179b2fe75fb1935651ca3ebeb62a19f393cf040c5f146e8db83f8cae3f2",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\request-v1.json": "5f0248cbd616c4ad7775ec8977f88eaccba570a6215eec73480147a70edfab2b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\result-v1.json": "4d6c03471305bb1da1a54a37f1322ce5255db9e6d99fc5a83b09cd1fd21cf1e6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\requirements-inventory-v1.json": "32494e492e507fb49b9b65ccbbd776a2f029a099d8930fb0adcba39a6151d342",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\catalogue-reviewed.json": "11552b9245ff4c5f0ff9fbbcc42a5f73ba67377518fb9c9905e0ef3489c07786",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-project.json": "8620d58b6debb35d63a3dbacfdb6932085bc6109140191ffde52a0c161ed2b0d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-sources\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-layout-cad\\Supply Air Distribution.dxf": "c09a050380aa3d92fb65f4c3e6153869d39070d260a74eeff330baf8680cbd30",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\office-boundary.geojson": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\allocation.json": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-inputs\\ducts.json": "ff27a8fcd1e11376671baf80103a5a3339dddc5c686b74f4c1ada3b9abd4e229",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cad_intake.py": "ab8f7dd945134dc824de2a25cfb2d8423752c190baa150fedb81d87e93242bd0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\sheet-binding.json": "1333708275c655c3537e0adfe4aa9649429b9f281309623ee5df9338249f8978",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workflow.py": "07c7935398d528db40c45e3f6221cfeaa6e120e738c1de821a938df2c7270e6a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-role-review.json": "4fd292d56743c6cddf8a058c70db60123ca2a0505963359ef816f2735f9f708c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\engine.py": "a06a8ce591b85dfd84c4cfc7834c92061a55fc9f5aea8bc0a44aed22a11af365",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-inspection.json": "cd29169113f3f8e499f3ee91c0250fa59b6ba4836b52e606197db1022eeb7f27",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_schedule.py": "10feb65b698e9fa69145d0ebaf7b35637018b150e182139a930f4bc704cb6343",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\service_areas.py": "b73e1411cbfde53248447c8d64c36bd7189398d85a125e7c6ac59aae73a05b34",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D001\\BSE3227 Mini design assignment.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\terminal_throw.py": "bd215d38833102c8c9cc790f3237a96290aec303af2cb7ff71a5f87144ea1c86",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_allocation.py": "82bd364fc7b01f13f0bca580d3828eef84b9521b0c5259dce6674a6efd613916",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_equivalent.py": "6c626b7090b16fc50e0ea921281a17028e5aebb48f16cc292cacca481257acd6",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\terminals.json": "a9c065f1c98a3ffe2f1f175486ee8fbb1f9f7a8a04b50c3727ba7d17ba439362",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-binding.json": "dfc0b9b52f7c2eb8f55ba46571c6ac39c66f788a004dc1c4bd3b243d859cf132",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-flow-direction-inputs\\native.json": "1319a0dd710e627e61ef1af47b33e870f01654c18e542e47b9d12886ff368b2e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\interpreted-work-review.json": "6b8f143f3a8776505adc6192f0897b677107b6e559de32e0d4211f1daafead50",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_sheet.py": "5be0d9648b9aaf147d0160081199ba160ded4bfea2923d23159e876fafea651a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cli.py": "aef02c724c188ff726903bd1f7184135117879c55c51a2c3ad033dda087baa3c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-pack.json": "3213a62c41b4b3cd6c232096dd200fbb8dc9cfed67255dd7d634093dc95693b9",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\documents.py": "cc4aea7df0e655028a1f40fc79e57ff08d2567f870b1eb77116a78082d96aa36",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-regulation-review\\FSD_Mechanical_Ventilating_Systems_2023.pdf": "950c83c826b18d2c1daf9e959698a82f1d20299ad6456f274c7e099d5d897635",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\native_cad.py": "d6a8b81b11bb2b422fdfbfa4ba3fc6b26557b5cfd0a8fc66a91c52cb74a180a0",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_load.py": "44c54e52b01bf0d2642a34d1c5d84fb9e34f8afd9343e4d3977c72679a95cd93",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cad_sheet.py": "4b06815451c5034994c992359cbc1b72debbe793af2fdc3f8d63c3a96e4066fe",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_tree_flow.py": "97936d60afcf6417021d1922f01fcd24a79ac7707cfee0d21452d6fa570ac72c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_sheet_native.py": "298c4e209ea6b5e907443bae3ca959a677e04519a6530b953f51010a990a4308"
+  },
+  "artifacts": {},
+  "payload_schema": "bsa.requirements-inventory/1",
+  "payload": {
+    "schema": "bsa.requirements-inventory/1",
+    "coordinate_frame": {
+      "id": "requirements-no-geometry",
+      "kind": "source-world-si",
+      "length_unit": "m",
+      "georeferenced": false
+    },
+    "source_plan_sha256": "e98f6f809d5c26cd12ff64b62e4dcf6d7b3481b5fc4c566a1f9ea571a61c581e",
+    "documents": [
+      {
+        "id": "D001",
+        "path": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+        "role": "primary"
+      },
+      {
+        "id": "D002",
+        "path": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+        "sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+        "role": "supplement_or_reference"
+      }
+    ],
+    "passages": [
+      {
+        "id": "P001",
+        "text": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 2,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P002",
+        "text": "BSE3227 HVACR 1 2026/27 Semester 1 ",
+        "locator": {
+          "start_line": 4,
+          "end_line": 4,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P003",
+        "text": "Mini-design assignment ",
+        "locator": {
+          "start_line": 7,
+          "end_line": 7,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P004",
+        "text": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+        "locator": {
+          "start_line": 10,
+          "end_line": 13,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P005",
+        "text": "Each group is required to complete the following tasks. ",
+        "locator": {
+          "start_line": 15,
+          "end_line": 15,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P006",
+        "text": "1. Space air diffusion design for maximum load condition ",
+        "locator": {
+          "start_line": 17,
+          "end_line": 17,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P007",
+        "text": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "locator": {
+          "start_line": 19,
+          "end_line": 28,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P008",
+        "text": "2. Space air diffusion design for minimum load condition ",
+        "locator": {
+          "start_line": 30,
+          "end_line": 30,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P009",
+        "text": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "locator": {
+          "start_line": 32,
+          "end_line": 36,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P010",
+        "text": "3. Single-line diagram of AC layout plan ",
+        "locator": {
+          "start_line": 38,
+          "end_line": 38,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P011",
+        "text": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "locator": {
+          "start_line": 40,
+          "end_line": 47,
+          "page": 1,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P012",
+        "text": "4. Sizing of supply air ducts ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 2,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P013",
+        "text": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 9,
+          "page": 2,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "P014",
+        "text": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+        "locator": {
+          "start_line": 11,
+          "end_line": 11,
+          "page": 2,
+          "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+          "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+        },
+        "disposition": "requirement"
+      },
+      {
+        "id": "D002:P001",
+        "text": "1 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P002",
+        "text": "Space air diffusion design and air duct sizing ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P003",
+        "text": "Cooling load estimation (rule-of-thumb) ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 5,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P004",
+        "text": "The figures in the table below could be used for quick preliminary estimate and also for cross \nchecking the results of detailed calculation. ",
+        "locator": {
+          "start_line": 7,
+          "end_line": 8,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P005",
+        "text": "Application Cooling load (W/m2) \nOffice 189 \nShops (general) 252 \n Jewelry shop 379 \n Boutique 317 \n Piece goods 379 \nRestaurant, night club, coffee shop 379 \nChinese tea house 473 \nDancing area 541 \nLift lobby & arcade 126 \nHotel  \n Bed room 126 \n Concourse 252 \n Banquet & function 252 \nBank  \n Hall 210 \n Vault 151 \nHospital  \n Ward room 189 \n Operation theatre (100% fresh air) 945 \n Consultation 189 \n Waiting hall 252 \nHigh class residential 189 \nTheatre 271 W/person ",
+        "locator": {
+          "start_line": 10,
+          "end_line": 33,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P006",
+        "text": "Calculation of total supply air flow rate requirement ",
+        "locator": {
+          "start_line": 35,
+          "end_line": 35,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P007",
+        "text": "\ud835\udc5e\ud835\udc5e\ud835\udc60\ud835\udc60 = \ud835\udf0c\ud835\udf0c\ud835\udc4e\ud835\udc4e\ud835\udc49\ud835\udc49\ud835\udc60\ud835\udc60\ud835\udc36\ud835\udc36\ud835\udc5d\ud835\udc5d\ud835\udc4e\ud835\udc4e(\ud835\udc47\ud835\udc47\ud835\udc5f\ud835\udc5f \u2212 \ud835\udc47\ud835\udc47\ud835\udc60\ud835\udc60) ",
+        "locator": {
+          "start_line": 37,
+          "end_line": 37,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P008",
+        "text": "Sensible heat factor ~ 0.9 for offices ",
+        "locator": {
+          "start_line": 39,
+          "end_line": 39,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P009",
+        "text": "Air diffuser type ",
+        "locator": {
+          "start_line": 41,
+          "end_line": 41,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P010",
+        "text": "Directional diffuser ",
+        "locator": {
+          "start_line": 43,
+          "end_line": 43,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P011",
+        "text": "Directional diffusers include 4-way diffusers, 3-way diffusers, \n2-way diffusers and 1-way diffusers. The 2\u00d72 ft 4-way \ndiffuser is the most common type of HVAC diffuser. ",
+        "locator": {
+          "start_line": 46,
+          "end_line": 48,
+          "page": 1,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P012",
+        "text": "2 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P013",
+        "text": "Linear Slot Diffuser ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P014",
+        "text": "Linear slot diffusers include 4-slot linear diffusers, 3-slot \nlinear diffusers, 2-slot linear diffusers and other numbers of \nslots depending on the manufacturer or upon request. The \nmore common ones are 3-slot and 2-slot. The number of slots \nin linear diffusers corresponds to the amount of airflow. The \nhigher the airflow requirement, the more slots it needs to \nhave. Linear slot diffusers always have two lengths; 600mm \nand 1200mm. \nRound Diffuser ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 13,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P015",
+        "text": "Round diffusers are similar to directional diffusers but come \nin round shapes. They typically offer better air distribution \nthan directional diffusers. They can also offer a modern and \nvisually appealing look.  ",
+        "locator": {
+          "start_line": 16,
+          "end_line": 19,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P016",
+        "text": "Generally, the size of supply air diffusers should be based on air flow requirement. Physical \ndimension is the length, width and height of a supply air diffuser. Meanwhile, the neck size is \nthe size of the connection between the diffuser and the supply air duct. A 4-way directional \ndiffuser with physical size of 2 ft length by 2 ft width is the most common type of air diffuser. \nAs for the neck size, the bigger the size, the more airflow a supply air diffuser can discharge \nwithout generating substantial noise. M ost supply air diffusers have a minimum neck size of \n150 mm and a maximum neck size of 350 mm in diameter. ",
+        "locator": {
+          "start_line": 21,
+          "end_line": 27,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P017",
+        "text": "Performance datasheet of supply air diffuser ",
+        "locator": {
+          "start_line": 31,
+          "end_line": 31,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P018",
+        "text": "Example: ",
+        "locator": {
+          "start_line": 33,
+          "end_line": 33,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P019",
+        "text": "KRUEGER Louvered face diffusers ",
+        "locator": {
+          "start_line": 37,
+          "end_line": 37,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P020",
+        "text": "1400, 54100 Series ",
+        "locator": {
+          "start_line": 39,
+          "end_line": 39,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P021",
+        "text": "The 1400 series are square face, 4-cone, round neck \nceiling \nDiffusers.  ",
+        "locator": {
+          "start_line": 41,
+          "end_line": 43,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P022",
+        "text": "PANEL SIZES: 12\u201dx12\u201d (300x300mm), 24\u201dx24\u201d \n(600x600mm) ",
+        "locator": {
+          "start_line": 45,
+          "end_line": 46,
+          "page": 2,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P023",
+        "text": "3 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 3,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P024",
+        "text": "Performance data: ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 3,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P025",
+        "text": "4 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P026",
+        "text": "Determination of supply air diffuser locations using ADPI  ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P027",
+        "text": "For standard directional diffusers, the typical air flow rate ranges from 50 to 150 L/s . So, the \nrequired number of supply air diffusers can be roughly calculated from the total supply air flow \nrate. Diffusers should be distributed evenly across the space to ensure uniform air distribution.  ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 7,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P028",
+        "text": "To assess how well a diffuser can distribute conditioned air throughout a space, we may check \nthe Air Diffusion Performance Index (ADPI) , which is a critical metric used in AC  design to \nevaluate the effectiveness of air distribution systems . ADPI measures the percentage of the \noccupied zone that receives air within a specified temperature range of the desired setpoint. A \nhigher ADPI value indicates better air distribution and comfort. An ADPI of 80% or higher is \ntypically considered acceptable for office environments. ADPI provides an assessment of space \ndiffusion for cooling mode only, but not for heating mode. ",
+        "locator": {
+          "start_line": 9,
+          "end_line": 15,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P029",
+        "text": "Before we can check the ADPI value, we need to find out the characteristic room length (L) \nfirst. It is the distance from the diffuser to the nearest boundary wall in the principle horizontal \ndirection of the airflow. Where air injected in the room does not impinge on a wall surface but \nmixes with air from neighboring diffuser, then the characteristic length L is one -half the \ndistance between diffusers discharging air at opposite direction. ",
+        "locator": {
+          "start_line": 17,
+          "end_line": 21,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P030",
+        "text": "Air diffusers should be selected so that the parameter T0.25/L is within the recommended range. \nT0.25 is the throw distance of an air jet. It is the distance from the diffuser to a point where the \nmaximum velocity in the steam cross section has been reduced to a terminal velocity of 0.25 \nm/s. For all diffuser, the terminal velocity of 0.25 m/s is selected, except in the case of ceiling \nslot diffusers, where the terminal velocity of 0.5 m/s is selected. ASHRAE recommends range \nof T0.25/L for different types of ceiling diffusers.  ",
+        "locator": {
+          "start_line": 25,
+          "end_line": 30,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P031",
+        "text": "The ADPI value should be checked for the design (maximum) supply air flow rate for each \ndiffuser. If VAV system is being adopted, ADPI should be checked for the expected minimum \nflow rate too (e.g. minimum supply flow rate setting at 40% of maximum).  ",
+        "locator": {
+          "start_line": 32,
+          "end_line": 34,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P032",
+        "text": "L                       L                       L \nL ",
+        "locator": {
+          "start_line": 37,
+          "end_line": 38,
+          "page": 4,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P033",
+        "text": "5 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P034",
+        "text": "Air Diffusion Performance Index (ADPI) Selection Guide ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P035",
+        "text": "Example: ",
+        "locator": {
+          "start_line": 6,
+          "end_line": 6,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P036",
+        "text": "Maximum supply air flow rate for each diffuser = 93 L/s \nCharacteristic room length (L) = 2.4 m ",
+        "locator": {
+          "start_line": 8,
+          "end_line": 9,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P037",
+        "text": "KRUEGER Louvered face diffusers 1400 Series 6\u201d diameter neck size is selected. According \nto ASHRAE recommendation, T0.25/L should be in the range of 1.0 \u2013 3.4.  ",
+        "locator": {
+          "start_line": 11,
+          "end_line": 12,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P038",
+        "text": "From the performance data sheet of the diffuser, the throw T0.75, T0.5 and T0.25 equal to 1.9, 2.5 \nand 3.5 m respectively.  ",
+        "locator": {
+          "start_line": 14,
+          "end_line": 15,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P039",
+        "text": "Then, T0.25/L = 3.5 / 2.4 = 1.5 which is within the recommended range.  ",
+        "locator": {
+          "start_line": 17,
+          "end_line": 17,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P040",
+        "text": "Room \nsensible \nload ",
+        "locator": {
+          "start_line": 22,
+          "end_line": 24,
+          "page": 5,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P041",
+        "text": "6 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P042",
+        "text": "Return air grilles ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P043",
+        "text": "Because the locations and characteristics of return air grilles have much less influence on the \nair temperature and speed distributions in an air -conditioned space, there is much freedom in \nlocating return air grilles in space air diffusion design, provided the face velocity and the noise \nemitted from the grilles stay within acceptable limits. A simple criterion is to limit the face \nvelocity at or below 2.5 m/s. ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 9,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P044",
+        "text": "Face velocity = Airflow rate Effective area of grille ",
+        "locator": {
+          "start_line": 11,
+          "end_line": 11,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P045",
+        "text": "Ductwork design and sizing ",
+        "locator": {
+          "start_line": 13,
+          "end_line": 13,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P046",
+        "text": "The supply air is distributed from the air handling equipment to various supply air diffusers \nthroughout the space. The conditioned air travels through the main ducts, then branch ducts \nand finally to the supply air diffusers. The duct layout should be simple, direct, and balanced. \nUnnecessary bends, branches, or splits in the air  ducts should be avoided because they  can \ncause turbulence, noise, and energy loss. Every place where you connect pieces together is a \npotential spot for air leaks, so the ductwork layout should be as direct as possible, reducing the \nnumber of connections and turns. ",
+        "locator": {
+          "start_line": 15,
+          "end_line": 21,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P047",
+        "text": "\u2022 Main ducts should be as straight as possible, minimizing bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout the \nspace. \n\u2022 Ducts shouldn\u2019t be twisted to make tight turns. Use long radius bends rather than right \nangles as the sudden change in direction wastes a huge amount of energy. \n\u2022 Avoid running supply air ducts in unconditioned spaces to prevent unwanted heat gain. \n\u2022 No air diffusers should be installed in the main duct. ",
+        "locator": {
+          "start_line": 23,
+          "end_line": 29,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P048",
+        "text": "The size of the air  ducts is based on the airflow requirements of the zone served by the air \nconditioning system. The size of your ducts affects how much air can flow through them and \nhow fast it can travel. Properly sized ducts allow for optimal airflow. Undersized ducts create \nresistance, leading to increased energy consumption as the system works harder to push a ir \nthrough. Smaller ducts can also lead to higher air velocity, resulting in noise. The air velocities \nin ducts that are too large will not be effective at distributing air throughout the rooms. ",
+        "locator": {
+          "start_line": 31,
+          "end_line": 36,
+          "page": 6,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P049",
+        "text": "7 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P050",
+        "text": "Procedures: ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P051",
+        "text": "1. Draw a single line layout for the supply ductwork systems on the building layout plan. ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 5,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P052",
+        "text": "2. Check that the duct system can be coordinated with other services, the architectural \nfeatures of the building and the structural design. ",
+        "locator": {
+          "start_line": 7,
+          "end_line": 8,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P053",
+        "text": "3. Calculate the flow rate through each duct section. ",
+        "locator": {
+          "start_line": 10,
+          "end_line": 10,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P054",
+        "text": "4. Decide the maximum air velocities for each part of the duct system according to the \ntable below. ",
+        "locator": {
+          "start_line": 12,
+          "end_line": 13,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P055",
+        "text": "Low pressure system Maximum velocity for  main duct (m/s) Maximum velocity for branch duct (m/s) \nApplication Supply Return Supply Return \nDomestic buildings, \nhotels 5 4 3 3 \nPrivate offices, libraries 10 7 8 6 \nTheatres, auditorium 6 5 5 4 \nGeneral offices, western \nrestaurants, department \nstores, shops, cafeteria, \nbank halls \n10 7 8 6 \nShopping arcade, \nChinese restaurants, lift \nlobbies, railway stations, \ncarparks \n10 7 8 6 ",
+        "locator": {
+          "start_line": 15,
+          "end_line": 30,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P056",
+        "text": "Volume flow rate \nin air duct (m3/s) Maximum velocity for medium pressure system (m/s) Maximum velocity for high pressure system (m/s) \n< 0.1 8 9 \n0.1 \u2013 0.5 9 11 \n0.5 \u2013 1.5 11 15 \n> 1.5 15 20 ",
+        "locator": {
+          "start_line": 32,
+          "end_line": 37,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P057",
+        "text": "5. Decide the limiting air-pressure drop rate through the ducts. The recommended pressure \ndrop is 0.65 to 1.23 Pa/m for low -velocity ducts and 3.3 to 5.7 Pa/m for high velocity \nducts. ",
+        "locator": {
+          "start_line": 39,
+          "end_line": 41,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P058",
+        "text": "6. Determine the suitable diameter for each air duct using the Friction Chart in ASHRAE \nHandbook.  ",
+        "locator": {
+          "start_line": 43,
+          "end_line": 44,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P059",
+        "text": "7. For rectangular air duct, circular equivalent diameter can be calculated by the equation \nbelow. \n\ud835\udc37\ud835\udc37\ud835\udc52\ud835\udc52 = 1.3 \u00d7 (\ud835\udc4e\ud835\udc4e\ud835\udc4e\ud835\udc4e)0.625 (\ud835\udc4e\ud835\udc4e + \ud835\udc4e\ud835\udc4e)0.250 ",
+        "locator": {
+          "start_line": 46,
+          "end_line": 48,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P060",
+        "text": "The aspect ratio, which is the ratio of the long side to the short side of a rectangular \nduct, should be limited to the following values. ",
+        "locator": {
+          "start_line": 50,
+          "end_line": 51,
+          "page": 7,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P061",
+        "text": "8 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P062",
+        "text": " Upper limit \nPreferable ratio 4:1 \nMarginal ratio 6:1 \nMaximum ratio 8:1 ",
+        "locator": {
+          "start_line": 4,
+          "end_line": 7,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P063",
+        "text": "8. Multiply the duct length by the pressure drop for each section of duct (supply and return) \nto calculate the pressure loss (frictional loss \u2206\ud835\udc43\ud835\udc43\ud835\udc53\ud835\udc53). ",
+        "locator": {
+          "start_line": 9,
+          "end_line": 10,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P064",
+        "text": "9. According to the duct layout, determine the duct fittings (e.g. bend, elbow, tee, valves, \netc.) to be used and find out  the fitting loss coefficients for each  duct fitting. Then \ncalculate the corresponding fitting pressure loss (dynamic loss \u2206\ud835\udc43\ud835\udc43\ud835\udc51\ud835\udc51\ud835\udc51\ud835\udc51). ",
+        "locator": {
+          "start_line": 12,
+          "end_line": 14,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P065",
+        "text": "Fitting pressure loss = \ud835\udc36\ud835\udc36\ud835\udc5c\ud835\udc5c \u00d7 \ud835\udf0c\ud835\udf0c \u00d7 \ud835\udc62\ud835\udc622 2  \nwhere Co is the fitting loss coefficient.  ",
+        "locator": {
+          "start_line": 16,
+          "end_line": 17,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P066",
+        "text": "Students can refer to Chapter 21 in ASHRAE Handbook \u2013 Fundamental 2009 for the \nvalues of fitting loss coefficients.  ",
+        "locator": {
+          "start_line": 19,
+          "end_line": 20,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P067",
+        "text": "10. Identify the critical path in the supply air path and return air path, add up frictional \nlosses and dynamic losses along the critical path as well as pressure loss across internal \ncomponents and equipment. The pressure drop across internal components of the AHU \ncould be very high, e.g. pre -filer (~50 Pa), panel filter (~100 Pa), cartridge/bag filter \n(~250 Pa), cooling coil (~100 Pa), mixing box (~50 Pa), silencer (~100 Pa), \nweatherproof louvre (~50 Pa).  ",
+        "locator": {
+          "start_line": 22,
+          "end_line": 27,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P068",
+        "text": "A safety factor of around 15% is normally added to t he frictional and dynamic losses \nbut not on equipment loss. The safety factor accounts for the additional loss in \ninstallation, system effect and ageing effect of the system etc. ",
+        "locator": {
+          "start_line": 29,
+          "end_line": 31,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P069",
+        "text": "System pressure loss along the critical path \n= \u2211\ufffd\u2206\ud835\udc43\ud835\udc43\ud835\udc53\ud835\udc53 + \u2206\ud835\udc43\ud835\udc43\ud835\udc51\ud835\udc51\ud835\udc51\ud835\udc51\ufffd \u00d7 1.15 + equipment loss ",
+        "locator": {
+          "start_line": 33,
+          "end_line": 34,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P070",
+        "text": "11. Select a suitable air-handling unit by airflow rate and fan total pressure required.  ",
+        "locator": {
+          "start_line": 36,
+          "end_line": 36,
+          "page": 8,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P071",
+        "text": "9 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 9,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P072",
+        "text": "Fig. 10 Friction Chart for Round Duct (\u03c1 = 1.20 kg/m3 and \u03b5 = 0.09 mm) in Ch. 21 of ASHRAE Handbook \u2013 Fundamentals 2013 ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 9,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P073",
+        "text": "10 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 10,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P074",
+        "text": "Fitting Loss Coefficients Table (Extracted) in Ch. 21 of ASHRAE Handbook \u2013 Fundamentals 2009 ",
+        "locator": {
+          "start_line": 3,
+          "end_line": 3,
+          "page": 10,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P075",
+        "text": "CONICAL FITTINGS ",
+        "locator": {
+          "start_line": 5,
+          "end_line": 5,
+          "page": 10,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      },
+      {
+        "id": "D002:P076",
+        "text": "11 ",
+        "locator": {
+          "start_line": 1,
+          "end_line": 1,
+          "page": 11,
+          "source_document": "sources/D002/Space air diffusion design and air duct sizing.pdf",
+          "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0"
+        },
+        "disposition": "context"
+      }
+    ],
+    "requirements": [
+      {
+        "id": "R001-identity",
+        "passage": "P001",
+        "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering ",
+        "task": "work-identity",
+        "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R002-identity",
+        "passage": "P002",
+        "quote": "BSE3227 HVACR 1 2026/27 Semester 1 ",
+        "task": "work-identity",
+        "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R003-identity",
+        "passage": "P003",
+        "quote": "Mini-design assignment ",
+        "task": "work-identity",
+        "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R004-identity",
+        "passage": "P004",
+        "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+        "task": "work-identity",
+        "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R004-layout",
+        "passage": "P004",
+        "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+        "task": "work-layout",
+        "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R004-routing",
+        "passage": "P004",
+        "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+        "task": "work-routing",
+        "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R005-delivery",
+        "passage": "P005",
+        "quote": "Each group is required to complete the following tasks. ",
+        "task": "work-delivery",
+        "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R006-load",
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition ",
+        "task": "work-load",
+        "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R006-layout",
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition ",
+        "task": "work-layout",
+        "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R006-terminal",
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition ",
+        "task": "work-terminal",
+        "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R006-adpi",
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition ",
+        "task": "work-adpi",
+        "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R007-load",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-load",
+        "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R007-layout",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-layout",
+        "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R007-terminal",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-terminal",
+        "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R007-adpi",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-adpi",
+        "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R008-minimum",
+        "passage": "P008",
+        "quote": "2. Space air diffusion design for minimum load condition ",
+        "task": "work-minimum",
+        "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R009-minimum",
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-minimum",
+        "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R009-terminal",
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-terminal",
+        "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R009-adpi",
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "task": "work-adpi",
+        "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R010-routing",
+        "passage": "P010",
+        "quote": "3. Single-line diagram of AC layout plan ",
+        "task": "work-routing",
+        "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R011-routing",
+        "passage": "P011",
+        "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "task": "work-routing",
+        "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R011-delivery",
+        "passage": "P011",
+        "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "task": "work-delivery",
+        "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R012-sizing",
+        "passage": "P012",
+        "quote": "4. Sizing of supply air ducts ",
+        "task": "work-sizing",
+        "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R013-sizing",
+        "passage": "P013",
+        "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+        "task": "work-sizing",
+        "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R014-schedule",
+        "passage": "P014",
+        "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+        "task": "work-schedule",
+        "acceptance": "Every section appears withL/s,mm by mm,m/s andPa/m,consistent with editable drawing and calculations.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "R014-delivery",
+        "passage": "P014",
+        "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+        "task": "work-delivery",
+        "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+      },
+      {
+        "id": "producer-air-allocation-P007",
+        "task": "air-allocation",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "acceptance": "Execute classified preliminary thermal/airflow balance and nearest-centre scenario allocation;actual room load and physical layout acceptance remain pending."
+      },
+      {
+        "id": "producer-terminal-lookup-P007",
+        "task": "terminal-lookup",
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "acceptance": "Execute source-pinned bounded maximum-flow throw lookup;product,L and ADPI acceptance remain pending."
+      },
+      {
+        "id": "producer-terminal-lookup-P009",
+        "task": "terminal-lookup",
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+        "acceptance": "Execute the same original terminal inventory at40percent minimum flow without extrapolation;ADPI applicability remains pending."
+      },
+      {
+        "id": "producer-duct-schedule-P013",
+        "task": "duct-schedule",
+        "passage": "P013",
+        "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+        "acceptance": "Execute conditional section numerical sizing under declared source criteria;chart-method,geometry and manufactured-size applicability remain pending."
+      },
+      {
+        "id": "producer-duct-sheet-P011",
+        "task": "duct-sheet",
+        "passage": "P011",
+        "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "acceptance": "Bind source section labels/schedule to the preserved single-line design scenario;physical routing/installed lengths remain pending."
+      },
+      {
+        "id": "producer-native-sheet-P011",
+        "task": "native-sheet",
+        "passage": "P011",
+        "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "acceptance": "Save and independently reopen native DWG and plot at declared scale;actual visual and full engineering review remain separate."
+      },
+      {
+        "id": "hk-flex-check",
+        "passage": "P011",
+        "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+        "task": "hk-flex-length",
+        "acceptance": "Additional Hong Kong project check selected by user; keep assignment 5m criterion distinct from ordinary FSD 4m path; installed evidence and applicability pending"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "air-allocation",
+        "kind": "air_allocation",
+        "project": "bse3227-aligned-design-inputs/allocation.json"
+      },
+      {
+        "id": "terminal-lookup",
+        "kind": "terminal_throw",
+        "project": "bse3227-aligned-design-inputs/terminals.json",
+        "depends_on": "air-allocation"
+      },
+      {
+        "id": "duct-schedule",
+        "kind": "duct_schedule",
+        "project": "bse3227-canvas-inputs/ducts.json",
+        "depends_on": "air-allocation"
+      },
+      {
+        "id": "duct-sheet",
+        "kind": "duct_sheet",
+        "depends_on": "duct-schedule",
+        "drawing": "bse3227-aligned-layout-cad/Supply Air Distribution.dxf",
+        "binding": "bse3227-aligned-design-inputs/sheet-binding.json"
+      },
+      {
+        "id": "native-sheet",
+        "kind": "duct_sheet_native",
+        "depends_on": "duct-sheet",
+        "settings": "bse3227-flow-direction-inputs/native.json"
+      },
+      {
+        "id": "hk-flex-length",
+        "kind": "regulations",
+        "project": "bse3227-column-row-candidate/hk-flex-project.json",
+        "pack": "bse3227-column-row-candidate/hk-flex-pack.json",
+        "sources": "bse3227-regulation-review"
+      },
+      {
+        "id": "work-identity",
+        "kind": "manual",
+        "description": "Retain course/project identity and group particulars,with VAV office scope.",
+        "requires_pass": []
+      },
+      {
+        "id": "work-load",
+        "kind": "manual",
+        "description": "Compute preliminary cooling and total supply flow with source-linked classifications.",
+        "requires_pass": [
+          "air-allocation"
+        ]
+      },
+      {
+        "id": "work-layout",
+        "kind": "manual",
+        "description": "Distribute diffusers and allocate per-outlet design flows;establish characteristic L.",
+        "requires_pass": [
+          "work-load"
+        ]
+      },
+      {
+        "id": "work-minimum",
+        "kind": "manual",
+        "description": "Calculate minimum per-terminal flow at40percent turndown.",
+        "requires_pass": [
+          "work-layout"
+        ]
+      },
+      {
+        "id": "work-terminal",
+        "kind": "manual",
+        "description": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+        "requires_pass": [
+          "work-layout",
+          "work-minimum"
+        ]
+      },
+      {
+        "id": "work-adpi",
+        "kind": "manual",
+        "description": "Check T0.25/L against the applicable course/ASHRAE basis at maximum and minimum flow.",
+        "requires_pass": [
+          "work-terminal"
+        ]
+      },
+      {
+        "id": "work-routing",
+        "kind": "manual",
+        "description": "Prepare single-line supply layout with VAV groups and flexible connections.",
+        "requires_pass": [
+          "work-layout"
+        ]
+      },
+      {
+        "id": "work-sizing",
+        "kind": "manual",
+        "description": "Size every main/branch section under the selected velocity/gradient and aspect-ratio criteria.",
+        "requires_pass": [
+          "work-routing"
+        ]
+      },
+      {
+        "id": "work-schedule",
+        "kind": "manual",
+        "description": "Provide the required section/flow/size/velocity/gradient schedule.",
+        "requires_pass": [
+          "work-sizing"
+        ]
+      },
+      {
+        "id": "work-delivery",
+        "kind": "manual",
+        "description": "Prepare editable supply drawing and sizing schedule for user inspection.",
+        "requires_pass": [
+          "work-identity",
+          "work-schedule",
+          "work-adpi"
+        ]
+      }
+    ],
+    "unresolved_inputs": [
+      {
+        "id": "gap-identity",
+        "kind": "missing",
+        "description": "Group member identities remain missing.",
+        "blocks_tasks": [
+          "work-identity"
+        ],
+        "sources": [
+          {
+            "passage": "P001",
+            "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering "
+          },
+          {
+            "passage": "P002",
+            "quote": "BSE3227 HVACR 1 2026/27 Semester 1 "
+          },
+          {
+            "passage": "P003",
+            "quote": "Mini-design assignment "
+          },
+          {
+            "passage": "P004",
+            "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+          }
+        ]
+      },
+      {
+        "id": "gap-layout",
+        "kind": "missing",
+        "description": "Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.",
+        "blocks_tasks": [
+          "work-layout"
+        ],
+        "sources": [
+          {
+            "passage": "P004",
+            "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+          },
+          {
+            "passage": "P006",
+            "quote": "1. Space air diffusion design for maximum load condition "
+          },
+          {
+            "passage": "P007",
+            "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          }
+        ]
+      },
+      {
+        "id": "gap-minimum",
+        "kind": "missing",
+        "description": "Rebind current maximum terminal flows and verify exact40percent factor.",
+        "blocks_tasks": [
+          "work-minimum"
+        ],
+        "sources": [
+          {
+            "passage": "P008",
+            "quote": "2. Space air diffusion design for minimum load condition "
+          },
+          {
+            "passage": "P009",
+            "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          }
+        ]
+      },
+      {
+        "id": "gap-terminal",
+        "kind": "missing",
+        "description": "Selected configuration,graphical table transcription and source product-family discrepancy require scoped review.",
+        "blocks_tasks": [
+          "work-terminal"
+        ],
+        "sources": [
+          {
+            "passage": "P006",
+            "quote": "1. Space air diffusion design for maximum load condition "
+          },
+          {
+            "passage": "P007",
+            "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          },
+          {
+            "passage": "P009",
+            "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          }
+        ]
+      },
+      {
+        "id": "gap-adpi",
+        "kind": "missing",
+        "description": "Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.",
+        "blocks_tasks": [
+          "work-adpi"
+        ],
+        "sources": [
+          {
+            "passage": "P006",
+            "quote": "1. Space air diffusion design for maximum load condition "
+          },
+          {
+            "passage": "P007",
+            "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          },
+          {
+            "passage": "P009",
+            "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+          }
+        ]
+      },
+      {
+        "id": "gap-routing",
+        "kind": "missing",
+        "description": "Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.",
+        "blocks_tasks": [
+          "work-routing"
+        ],
+        "sources": [
+          {
+            "passage": "P004",
+            "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+          },
+          {
+            "passage": "P010",
+            "quote": "3. Single-line diagram of AC layout plan "
+          },
+          {
+            "passage": "P011",
+            "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+          }
+        ]
+      },
+      {
+        "id": "gap-sizing",
+        "kind": "missing",
+        "description": "Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.",
+        "blocks_tasks": [
+          "work-sizing"
+        ],
+        "sources": [
+          {
+            "passage": "P012",
+            "quote": "4. Sizing of supply air ducts "
+          },
+          {
+            "passage": "P013",
+            "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  "
+          }
+        ]
+      },
+      {
+        "id": "gap-schedule",
+        "kind": "missing",
+        "description": "Reconcile current selected section values and labels against source/native artifacts.",
+        "blocks_tasks": [
+          "work-schedule"
+        ],
+        "sources": [
+          {
+            "passage": "P014",
+            "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) "
+          }
+        ]
+      },
+      {
+        "id": "gap-delivery",
+        "kind": "missing",
+        "description": "All primary obligations and actual native/visual/domain checks require separate evidence.",
+        "blocks_tasks": [
+          "work-delivery"
+        ],
+        "sources": [
+          {
+            "passage": "P005",
+            "quote": "Each group is required to complete the following tasks. "
+          },
+          {
+            "passage": "P011",
+            "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+          },
+          {
+            "passage": "P014",
+            "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) "
+          }
+        ]
+      }
+    ],
+    "interpretation_status": "not_assessed",
+    "engineering_execution": "not_executed",
+    "geometry_bound": false,
+    "design_accepted": false
+  },
+  "design_accepted": false
+}

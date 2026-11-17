@@ -1,0 +1,25 @@
+{
+  "ifc_sha256": "e11be99690781f6267cb2de874f8c7fa0c29c0e3cb0ae6e72e10e5c863849c32",
+  "distribution_bodies": 564,
+  "ports": 1147,
+  "interfaces": 483,
+  "connected_components": 81,
+  "topology": "One164body main tree plus80fivebody downstream chains;equipment/plenum internal airway connections NOT represented",
+  "cases": {
+    "maximum": {
+      "all1147_source_demands_reconciled": true,
+      "twenty_vav_group_totals_match_main_inlet_boundary_flows": true,
+      "branch_flow_total_m3_s": 12.000372763419485,
+      "do_not_sum_main_and_disconnected_branch_source_totals": true
+    },
+    "minimum": {
+      "all1147_source_demands_reconciled": true,
+      "twenty_vav_group_totals_match_main_inlet_boundary_flows": true,
+      "branch_flow_total_m3_s": 4.800149105367794,
+      "do_not_sum_main_and_disconnected_branch_source_totals": true
+    }
+  },
+  "continuous_full_airflow_system": false,
+  "full_pressure_verified": false,
+  "design_accepted": false
+}

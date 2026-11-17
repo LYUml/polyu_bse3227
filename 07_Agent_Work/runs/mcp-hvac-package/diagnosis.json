@@ -1,0 +1,1150 @@
+{
+  "plan_sha256": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+  "workflow_sha256": "a9c4bf5a473c046be35195b83aa52be9be469887825a2e3d1ae62ebff5f23c19",
+  "integrity_pass": true,
+  "tasks": [
+    {
+      "id": "air-allocation",
+      "kind": "air_allocation",
+      "status": "pass",
+      "recorded_scope": "Uniform allowance allocated by nearest-centre area; not spatial load simulation, duct routing, air coverage or ADPI acceptance",
+      "dependencies": [],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "review complete requirement acceptance against retained artifacts",
+      "requirement_ids": [
+        "producer-air-allocation-P007"
+      ],
+      "evidence": [
+        "air-allocation/allocation.json"
+      ]
+    },
+    {
+      "id": "terminal-lookup",
+      "kind": "terminal_throw",
+      "status": "pass",
+      "recorded_scope": "Bounded catalogue interpolation only; original source, characteristic lengths and ADPI acceptance require review",
+      "dependencies": [
+        "air-allocation"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "review complete requirement acceptance against retained artifacts",
+      "requirement_ids": [
+        "producer-terminal-lookup-P007",
+        "producer-terminal-lookup-P009"
+      ],
+      "evidence": [
+        "terminal-lookup/terminal-results.json"
+      ]
+    },
+    {
+      "id": "duct-schedule",
+      "kind": "duct_schedule",
+      "status": "pass",
+      "recorded_scope": "Inherited prescribed terminal demands aggregated through declared tree; section checks only, physical connections, local losses, fan duty and geometry remain pending; candidate sizing ranks feasible sections by area/perimeter, not network pressure or spatial fit",
+      "dependencies": [
+        "air-allocation"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "review complete requirement acceptance against retained artifacts",
+      "requirement_ids": [
+        "producer-duct-schedule-P013"
+      ],
+      "evidence": [
+        "duct-schedule/results.json",
+        "duct-schedule/schedule.csv"
+      ]
+    },
+    {
+      "id": "duct-sheet",
+      "kind": "duct_sheet",
+      "status": "pass",
+      "recorded_scope": "Fresh source calculations and bounded table/flow-arrow writing; original assignment and engineering/visual gaps remain; DXF preparation only, native reopening and actual plot review remain pending",
+      "dependencies": [
+        "duct-schedule"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "review complete requirement acceptance against retained artifacts",
+      "requirement_ids": [
+        "producer-duct-sheet-P011"
+      ],
+      "evidence": [
+        "duct-sheet/Supply Air Distribution.dxf",
+        "duct-sheet/allocation/allocation.json",
+        "duct-sheet/reference/Supply Air Distribution.dxf",
+        "duct-sheet/reference/drawing-update.json",
+        "duct-sheet/schedule-drawing.json",
+        "duct-sheet/schedule/results.json",
+        "duct-sheet/schedule/schedule.csv",
+        "duct-sheet/temp/gen_py/3.12/__init__.py",
+        "duct-sheet/temp/gen_py/3.12/dicts.dat",
+        "duct-sheet/workflow-binding.json",
+        "duct-sheet/writer-request.json",
+        "duct-sheet/writer.json",
+        "duct-sheet/writer.log"
+      ]
+    },
+    {
+      "id": "native-sheet",
+      "kind": "duct_sheet_native",
+      "status": "pass",
+      "recorded_scope": "Explicit generated-layer native correspondence and physical plot reference; base-building semantic fidelity, routing and engineering acceptance separate; actual plot visual and complete engineering acceptance remain pending",
+      "dependencies": [
+        "duct-sheet"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "review complete requirement acceptance against retained artifacts",
+      "requirement_ids": [
+        "producer-native-sheet-P011"
+      ],
+      "evidence": [
+        "native-sheet/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+        "native-sheet/Supply Air Distribution.dwg",
+        "native-sheet/Supply Air Distribution.dxf",
+        "native-sheet/Supply Air Distribution.json",
+        "native-sheet/Supply Air Distribution.log",
+        "native-sheet/Supply Air Distribution.pdf",
+        "native-sheet/Supply Air Distribution.scr",
+        "native-sheet/native-sheet.json",
+        "native-sheet/plot.log",
+        "native-sheet/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+        "native-sheet/reopened/export.log",
+        "native-sheet/reopened/export.scr",
+        "native-sheet/reopened/source-copy.dwg",
+        "native-sheet/reopened/source-export.dxf",
+        "native-sheet/save.log",
+        "native-sheet/save.scr"
+      ]
+    },
+    {
+      "id": "hk-flex-length",
+      "kind": "regulations",
+      "status": "pending",
+      "recorded_scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending",
+      "dependencies": [],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "hk-flex-length"
+      ],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the recorded pending condition before a new run",
+      "requirement_ids": [
+        "hk-flex-check"
+      ],
+      "evidence": [
+        "hk-flex-length/regulation-checks.json"
+      ]
+    },
+    {
+      "id": "work-identity",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "dependencies": [],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "work-identity"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-identity",
+          "kind": "missing",
+          "description": "Group member identities remain missing.",
+          "blocks_tasks": [
+            "work-identity"
+          ],
+          "sources": [
+            {
+              "passage": "P001",
+              "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering "
+            },
+            {
+              "passage": "P002",
+              "quote": "BSE3227 HVACR 1 2026/27 Semester 1 "
+            },
+            {
+              "passage": "P003",
+              "quote": "Mini-design assignment "
+            },
+            {
+              "passage": "P004",
+              "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R001-identity",
+        "R002-identity",
+        "R003-identity",
+        "R004-identity"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-load",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "Compute preliminary cooling and total supply flow with source-linked classifications.",
+      "dependencies": [
+        "air-allocation"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "work-load"
+      ],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "perform the specified review and record evidence separately",
+      "requirement_ids": [
+        "R006-load",
+        "R007-load"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-layout",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed",
+      "dependencies": [
+        "work-load"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [
+        "work-load"
+      ],
+      "upstream_action_tasks": [
+        "work-load"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-layout",
+          "kind": "missing",
+          "description": "Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.",
+          "blocks_tasks": [
+            "work-layout"
+          ],
+          "sources": [
+            {
+              "passage": "P004",
+              "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+            },
+            {
+              "passage": "P006",
+              "quote": "1. Space air diffusion design for maximum load condition "
+            },
+            {
+              "passage": "P007",
+              "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R004-layout",
+        "R006-layout",
+        "R007-layout"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-minimum",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "Calculate minimum per-terminal flow at40percent turndown.",
+      "dependencies": [
+        "air-allocation"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "work-minimum"
+      ],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "perform the specified review and record evidence separately",
+      "requirement_ids": [
+        "R008-minimum",
+        "R009-minimum"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-terminal",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+      "dependencies": [
+        "terminal-lookup"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "work-terminal"
+      ],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "perform the specified review and record evidence separately",
+      "requirement_ids": [
+        "R006-terminal",
+        "R007-terminal",
+        "R009-terminal"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-adpi",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed",
+      "dependencies": [
+        "work-terminal"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [
+        "work-terminal"
+      ],
+      "upstream_action_tasks": [
+        "work-terminal"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-adpi",
+          "kind": "missing",
+          "description": "Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.",
+          "blocks_tasks": [
+            "work-adpi"
+          ],
+          "sources": [
+            {
+              "passage": "P006",
+              "quote": "1. Space air diffusion design for maximum load condition "
+            },
+            {
+              "passage": "P007",
+              "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+            },
+            {
+              "passage": "P009",
+              "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R006-adpi",
+        "R007-adpi",
+        "R009-adpi"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-routing",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed",
+      "dependencies": [
+        "work-layout"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [
+        "work-layout"
+      ],
+      "upstream_action_tasks": [
+        "work-load"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-routing",
+          "kind": "missing",
+          "description": "Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.",
+          "blocks_tasks": [
+            "work-routing"
+          ],
+          "sources": [
+            {
+              "passage": "P004",
+              "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+            },
+            {
+              "passage": "P010",
+              "quote": "3. Single-line diagram of AC layout plan "
+            },
+            {
+              "passage": "P011",
+              "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R004-routing",
+        "R010-routing",
+        "R011-routing"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-sizing",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed",
+      "dependencies": [
+        "work-routing"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [
+        "work-routing"
+      ],
+      "upstream_action_tasks": [
+        "work-load"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-sizing",
+          "kind": "missing",
+          "description": "Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.",
+          "blocks_tasks": [
+            "work-sizing"
+          ],
+          "sources": [
+            {
+              "passage": "P012",
+              "quote": "4. Sizing of supply air ducts "
+            },
+            {
+              "passage": "P013",
+              "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R012-sizing",
+        "R013-sizing"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-schedule",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "Provide the required section/flow/size/velocity/gradient schedule.",
+      "dependencies": [
+        "duct-schedule",
+        "native-sheet"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [],
+      "upstream_action_tasks": [
+        "work-schedule"
+      ],
+      "input_blockers": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "perform the specified review and record evidence separately",
+      "requirement_ids": [
+        "R014-schedule"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "work-delivery",
+      "kind": "manual",
+      "status": "pending",
+      "recorded_scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "dependencies": [
+        "work-identity",
+        "work-schedule",
+        "work-adpi"
+      ],
+      "iteration_baseline": null,
+      "blocked_by": [
+        "work-identity",
+        "work-schedule",
+        "work-adpi"
+      ],
+      "upstream_action_tasks": [
+        "work-identity",
+        "work-schedule",
+        "work-terminal"
+      ],
+      "input_blockers": [
+        {
+          "id": "gap-delivery",
+          "kind": "missing",
+          "description": "All primary obligations and actual native/visual/domain checks require separate evidence.",
+          "blocks_tasks": [
+            "work-delivery"
+          ],
+          "sources": [
+            {
+              "passage": "P005",
+              "quote": "Each group is required to complete the following tasks. "
+            },
+            {
+              "passage": "P011",
+              "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+            },
+            {
+              "passage": "P014",
+              "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) "
+            }
+          ]
+        }
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "requirement_ids": [
+        "R005-delivery",
+        "R011-delivery",
+        "R014-delivery"
+      ],
+      "evidence": []
+    }
+  ],
+  "actions": [
+    {
+      "task": "hk-flex-length",
+      "kind": "regulations",
+      "status": "pending",
+      "next_action": "resolve the recorded pending condition before a new run",
+      "recorded_scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending",
+      "input_blockers": [],
+      "evidence": [
+        "hk-flex-length/regulation-checks.json"
+      ],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "hk-flex-length"
+      ],
+      "affected_requirements": [
+        {
+          "id": "hk-flex-check",
+          "passage": "P011",
+          "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+          "task": "hk-flex-length",
+          "acceptance": "Additional Hong Kong project check selected by user; keep assignment 5m criterion distinct from ordinary FSD 4m path; installed evidence and applicability pending"
+        }
+      ]
+    },
+    {
+      "task": "work-identity",
+      "kind": "manual",
+      "status": "pending",
+      "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+      "recorded_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "input_blockers": [
+        {
+          "id": "gap-identity",
+          "kind": "missing",
+          "description": "Group member identities remain missing.",
+          "blocks_tasks": [
+            "work-identity"
+          ],
+          "sources": [
+            {
+              "passage": "P001",
+              "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering "
+            },
+            {
+              "passage": "P002",
+              "quote": "BSE3227 HVACR 1 2026/27 Semester 1 "
+            },
+            {
+              "passage": "P003",
+              "quote": "Mini-design assignment "
+            },
+            {
+              "passage": "P004",
+              "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+            }
+          ]
+        }
+      ],
+      "evidence": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "work-identity",
+        "work-delivery"
+      ],
+      "affected_requirements": [
+        {
+          "id": "R001-identity",
+          "passage": "P001",
+          "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering ",
+          "task": "work-identity",
+          "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R002-identity",
+          "passage": "P002",
+          "quote": "BSE3227 HVACR 1 2026/27 Semester 1 ",
+          "task": "work-identity",
+          "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R003-identity",
+          "passage": "P003",
+          "quote": "Mini-design assignment ",
+          "task": "work-identity",
+          "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R004-identity",
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+          "task": "work-identity",
+          "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R005-delivery",
+          "passage": "P005",
+          "quote": "Each group is required to complete the following tasks. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R011-delivery",
+          "passage": "P011",
+          "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R014-delivery",
+          "passage": "P014",
+          "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        }
+      ]
+    },
+    {
+      "task": "work-load",
+      "kind": "manual",
+      "status": "pending",
+      "next_action": "perform the specified review and record evidence separately",
+      "recorded_scope": "Compute preliminary cooling and total supply flow with source-linked classifications.",
+      "input_blockers": [],
+      "evidence": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "work-load",
+        "work-layout",
+        "work-routing",
+        "work-sizing"
+      ],
+      "affected_requirements": [
+        {
+          "id": "R004-layout",
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+          "task": "work-layout",
+          "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R004-routing",
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+          "task": "work-routing",
+          "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R006-load",
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition ",
+          "task": "work-load",
+          "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+          "supporting_tasks": [
+            "air-allocation"
+          ]
+        },
+        {
+          "id": "R006-layout",
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition ",
+          "task": "work-layout",
+          "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R007-load",
+          "passage": "P007",
+          "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-load",
+          "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+          "supporting_tasks": [
+            "air-allocation",
+            "terminal-lookup",
+            "duct-sheet"
+          ]
+        },
+        {
+          "id": "R007-layout",
+          "passage": "P007",
+          "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-layout",
+          "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R010-routing",
+          "passage": "P010",
+          "quote": "3. Single-line diagram of AC layout plan ",
+          "task": "work-routing",
+          "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R011-routing",
+          "passage": "P011",
+          "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+          "task": "work-routing",
+          "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R012-sizing",
+          "passage": "P012",
+          "quote": "4. Sizing of supply air ducts ",
+          "task": "work-sizing",
+          "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R013-sizing",
+          "passage": "P013",
+          "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+          "task": "work-sizing",
+          "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending"
+        }
+      ]
+    },
+    {
+      "task": "work-minimum",
+      "kind": "manual",
+      "status": "pending",
+      "next_action": "perform the specified review and record evidence separately",
+      "recorded_scope": "Calculate minimum per-terminal flow at40percent turndown.",
+      "input_blockers": [],
+      "evidence": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "work-minimum"
+      ],
+      "affected_requirements": [
+        {
+          "id": "R008-minimum",
+          "passage": "P008",
+          "quote": "2. Space air diffusion design for minimum load condition ",
+          "task": "work-minimum",
+          "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+          "supporting_tasks": [
+            "air-allocation"
+          ]
+        },
+        {
+          "id": "R009-minimum",
+          "passage": "P009",
+          "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-minimum",
+          "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+          "supporting_tasks": [
+            "air-allocation",
+            "terminal-lookup"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "work-terminal",
+      "kind": "manual",
+      "status": "pending",
+      "next_action": "perform the specified review and record evidence separately",
+      "recorded_scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+      "input_blockers": [],
+      "evidence": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "work-terminal",
+        "work-adpi",
+        "work-delivery"
+      ],
+      "affected_requirements": [
+        {
+          "id": "R005-delivery",
+          "passage": "P005",
+          "quote": "Each group is required to complete the following tasks. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R006-terminal",
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition ",
+          "task": "work-terminal",
+          "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R006-adpi",
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition ",
+          "task": "work-adpi",
+          "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R007-terminal",
+          "passage": "P007",
+          "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-terminal",
+          "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R007-adpi",
+          "passage": "P007",
+          "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-adpi",
+          "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R009-terminal",
+          "passage": "P009",
+          "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-terminal",
+          "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R009-adpi",
+          "passage": "P009",
+          "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+          "task": "work-adpi",
+          "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R011-delivery",
+          "passage": "P011",
+          "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R014-delivery",
+          "passage": "P014",
+          "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        }
+      ]
+    },
+    {
+      "task": "work-schedule",
+      "kind": "manual",
+      "status": "pending",
+      "next_action": "perform the specified review and record evidence separately",
+      "recorded_scope": "Provide the required section/flow/size/velocity/gradient schedule.",
+      "input_blockers": [],
+      "evidence": [],
+      "runtime_failures": [],
+      "engineering_data_requests": {},
+      "module_state": {},
+      "affected_tasks": [
+        "work-schedule",
+        "work-delivery"
+      ],
+      "affected_requirements": [
+        {
+          "id": "R005-delivery",
+          "passage": "P005",
+          "quote": "Each group is required to complete the following tasks. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R011-delivery",
+          "passage": "P011",
+          "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        },
+        {
+          "id": "R014-schedule",
+          "passage": "P014",
+          "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+          "task": "work-schedule",
+          "acceptance": "Every section appears withL/s,mm by mm,m/s andPa/m,consistent with editable drawing and calculations.; full source quote remains authoritative, acceptance pending",
+          "supporting_tasks": [
+            "duct-schedule",
+            "duct-sheet",
+            "native-sheet"
+          ]
+        },
+        {
+          "id": "R014-delivery",
+          "passage": "P014",
+          "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+          "task": "work-delivery",
+          "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending"
+        }
+      ]
+    }
+  ],
+  "engineering_actions": [],
+  "recovery_schedule": {
+    "waves": [
+      [
+        {
+          "task": "hk-flex-length",
+          "category": "pending_condition_review",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "hk-flex-check"
+          ],
+          "next_action": "resolve the recorded pending condition before a new run",
+          "evidence": [
+            "hk-flex-length/regulation-checks.json"
+          ],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-identity",
+          "category": "source_inputs",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "R001-identity",
+            "R002-identity",
+            "R003-identity",
+            "R004-identity"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-load",
+          "category": "manual_review",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "R006-load",
+            "R007-load"
+          ],
+          "next_action": "perform the specified review and record evidence separately",
+          "evidence": [],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-minimum",
+          "category": "manual_review",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "R008-minimum",
+            "R009-minimum"
+          ],
+          "next_action": "perform the specified review and record evidence separately",
+          "evidence": [],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-terminal",
+          "category": "manual_review",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "R006-terminal",
+            "R007-terminal",
+            "R009-terminal"
+          ],
+          "next_action": "perform the specified review and record evidence separately",
+          "evidence": [],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-schedule",
+          "category": "manual_review",
+          "prerequisite_tasks": [],
+          "requirement_ids": [
+            "R014-schedule"
+          ],
+          "next_action": "perform the specified review and record evidence separately",
+          "evidence": [],
+          "ready_now": true,
+          "automatic_repair_authorized": false
+        }
+      ],
+      [
+        {
+          "task": "work-layout",
+          "category": "source_inputs",
+          "prerequisite_tasks": [
+            "work-load"
+          ],
+          "requirement_ids": [
+            "R004-layout",
+            "R006-layout",
+            "R007-layout"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": false,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-adpi",
+          "category": "source_inputs",
+          "prerequisite_tasks": [
+            "work-terminal"
+          ],
+          "requirement_ids": [
+            "R006-adpi",
+            "R007-adpi",
+            "R009-adpi"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": false,
+          "automatic_repair_authorized": false
+        }
+      ],
+      [
+        {
+          "task": "work-routing",
+          "category": "source_inputs",
+          "prerequisite_tasks": [
+            "work-layout"
+          ],
+          "requirement_ids": [
+            "R004-routing",
+            "R010-routing",
+            "R011-routing"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": false,
+          "automatic_repair_authorized": false
+        },
+        {
+          "task": "work-delivery",
+          "category": "source_inputs",
+          "prerequisite_tasks": [
+            "work-identity",
+            "work-schedule",
+            "work-adpi"
+          ],
+          "requirement_ids": [
+            "R005-delivery",
+            "R011-delivery",
+            "R014-delivery"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": false,
+          "automatic_repair_authorized": false
+        }
+      ],
+      [
+        {
+          "task": "work-sizing",
+          "category": "source_inputs",
+          "prerequisite_tasks": [
+            "work-routing"
+          ],
+          "requirement_ids": [
+            "R012-sizing",
+            "R013-sizing"
+          ],
+          "next_action": "resolve the cited missing/conflicting design inputs before a new run",
+          "evidence": [],
+          "ready_now": false,
+          "automatic_repair_authorized": false
+        }
+      ]
+    ],
+    "ready_tasks": [
+      "hk-flex-length",
+      "work-identity",
+      "work-load",
+      "work-minimum",
+      "work-terminal",
+      "work-schedule"
+    ],
+    "requires_fresh_diagnosis_after_each_wave": true,
+    "scope": "Conditional dependency order only; later waves require fresh execution and diagnosis, not assumed upstream success or automatic engineering changes"
+  },
+  "execution_pass": false,
+  "design_accepted": false,
+  "scope": "Recorded execution and declared dependency graph only; no engine invocation, automatic repair, or engineering acceptance"
+}

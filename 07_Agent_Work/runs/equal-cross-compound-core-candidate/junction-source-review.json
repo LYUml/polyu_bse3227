@@ -1,0 +1,97 @@
+{
+  "ifc_sha256": "e5702ac887365b267c213f4e871e18b9913a2ff2d7182639e4d81f2fd94c260e",
+  "native_core_matches_checked_local_body": true,
+  "source_family_geometry": {
+    "constant_main_area": true,
+    "branch_height_equals_main": true,
+    "lower_opposed_branch_areas_equal": true,
+    "deflection_deg": 90
+  },
+  "cases": {
+    "maximum": {
+      "upper_branch": {
+        "quantities": {
+          "area": 0.37037037037037035,
+          "flow": 0.11838256731907436
+        },
+        "coefficient": 1.0531621212083868,
+        "independent_decimal_match": true
+      },
+      "upper_main": {
+        "quantities": {
+          "velocity": 0.8816174326809257
+        },
+        "coefficient": 0.011838256731907429,
+        "independent_decimal_match": true
+      },
+      "lower_main": {
+        "quantities": {
+          "velocity": 0.6807660131228612
+        },
+        "coefficient": 0.04384679737542775,
+        "independent_decimal_match": true
+      },
+      "lower_left": {
+        "quantities": {
+          "area": 0.4444444444444444,
+          "flow": 0.15741040523583685
+        },
+        "coefficient": 1.0238499683422342,
+        "independent_decimal_match": true
+      },
+      "lower_right": {
+        "quantities": {
+          "area": 0.4444444444444444,
+          "flow": 0.1618235816413018
+        },
+        "coefficient": 1.027135332999636,
+        "independent_decimal_match": true
+      }
+    },
+    "minimum": {
+      "upper_branch": {
+        "quantities": {
+          "area": 0.37037037037037035,
+          "flow": 0.11838256731907434
+        },
+        "coefficient": 1.0531621212083866,
+        "independent_decimal_match": true
+      },
+      "upper_main": {
+        "quantities": {
+          "velocity": 0.8816174326809256
+        },
+        "coefficient": 0.01183825673190744,
+        "independent_decimal_match": true
+      },
+      "lower_main": {
+        "quantities": {
+          "velocity": 0.6807660131228613
+        },
+        "coefficient": 0.04384679737542774,
+        "independent_decimal_match": true
+      },
+      "lower_left": {
+        "quantities": {
+          "area": 0.4444444444444444,
+          "flow": 0.15741040523583688
+        },
+        "coefficient": 1.0238499683422344,
+        "independent_decimal_match": true
+      },
+      "lower_right": {
+        "quantities": {
+          "area": 0.4444444444444444,
+          "flow": 0.16182358164130187
+        },
+        "coefficient": 1.0271353329996358,
+        "independent_decimal_match": true
+      }
+    }
+  },
+  "source_query_count": 10,
+  "scope": "Separated component correlation screening on actual constant core, not a pressure-accepted compound fitting. Only69.416mm clear between apertures;source stations and close-coupled interaction unresolved.",
+  "source_pressure_ledger_integrated": false,
+  "full_pressure_accepted": false,
+  "design_accepted": false
+}

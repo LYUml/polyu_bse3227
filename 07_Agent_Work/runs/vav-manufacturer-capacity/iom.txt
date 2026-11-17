@@ -1,0 +1,2263 @@
+PAGE 1
+WWW.KRUEGER-HVAC.COM
+Installation, Operation & Maintenance Manual 
+for Krueger Terminal Units:
+LMHS, LMHS-LC, RVE, SVE
+SINGLE-DUCT 
+& RETROFIT 
+TERMINAL UNITS
+PAGE 2
+Single-Duct and Retrofit Terminal Units IOM
+PRE INSTALLATION ...................................................................................3
+ General ...............................................................................................................3
+ Shipping ..............................................................................................................3
+ Storage And Handling .....................................................................................3
+ Unit Weights .....................................................................................................3
+ Installation Inspection .....................................................................................3
+ Unit Identification ............................................................................................3
+ Installation Precaution ....................................................................................3
+ Service Access .................................................................................................3
+ Codes  .................................................................................................................3
+ Warranty ............................................................................................................3
+ Maintenance ......................................................................................................4
+ Control Arrangements ....................................................................................4
+ 
+INSTALLATION ...........................................................................................5
+ Step 1 Install Unit ............................................................................................5
+ Step 2 Make Duct Connections ....................................................................6
+ Step 3 Install Sensors and Make Field Wiring Connections ...................6
+CONTROLS SETUP .....................................................................................7
+ General  ...............................................................................................................7
+ Set Point .............................................................................................................7
+ System Calibration of Airflow Sensor .........................................................7
+ Pneumatic Controls .........................................................................................9
+ Analog Controls ................................................................................................12
+ Water Valve Installation ..................................................................................16
+ 
+APPENDIX A ...............................................................................................16
+ 
+REPLACEMENT PARTS ..............................................................................22
+ 
+TABLE OF CONTENTS
+PAGE 3
+3
+Single-Duct and Retrofit Terminal Units IOM
+GENERAL
+The LMHS, LMHS-LC, RVE, and SVE single duct terminals are 
+available with factory installed Pneumatic, Analog electronic, 
+and DDC control options. Figure 1 shows a basic LMHS unit.
+SHIPPING
+Inspect for damage upon receipt. Shipping damage claims 
+should be filed with shipper at time of delivery. LMHS and 
+LMHS-LC units with basic configuration or with hot water 
+coils, RVE units, and SVE units are packaged into boxes and 
+are stacked onto pallets. LMHS and LMHS-LC units with 
+attenuation or electric heat are stack directly onto pallets. 
+In both instances, pallets shall not be stacked on top of one 
+another.
+STORAGE AND HANDLING
+Store in a clean, dry, and covered location. Do not stack 
+pallets. When unpacking units, care should be taken that 
+the inlet collars and externally mounted components do not 
+become damaged. Do not lift units using collars, inlet flow 
+sensors, or externally mounted components as handles. Do 
+not lay uncrated units on end or sides. Do not stack uncrated 
+units over 6 ft high. Do not handle control boxes by tubing 
+connections or other external attachments.
+UNIT WEIGHTS
+Please see Table 5.A and Table 5.B in Appendix A for unit 
+weights.
+INITIAL INSPECTION
+Once items have been removed from the carton, check 
+carefully for damage to duct connections, inlet probes or 
+controls. File damage claim immediately with transportation 
+agency and notify Factory.
+UNIT IDENTIFICATION
+Each unit is supplied with a shipping label and an 
+identification label. Figure 2 is an example of the 
+identification label that is attached to each unit.
+Figure 2: Example Identification Label
+FOR OPERATIONS & MAINTENANCE MANUAL SEE 
+WWW.KRUEGER-HAVAC.COM
+TAG: VAV-1-01
+FACTORY NO: 441261
+MODEL NO: LMHS
+MAX CFM: 400
+             VP: .190
+FAN CFM: 
+COIL: E41 - 277/1P/1S
+CONTROL CODE: D001
+LINE: 001
+AUX CFM: 400
+VP: .156
+SIZE: 08-08
+MIN. CFM: 52
+            VP: .003
+COIL: E41 - 277/1P/1S
+CONTROL CODE: D001
+AIR 
+FLOW
+UP
+CFG: 3*3*2*OR*08*0*D001*00*0*0S0000*000*E41*4.0*KH000
+INSTALLATION PRECAUTION
+Check that construction debris does not enter unit or 
+ductwork. Do not operate the central-station air-handling 
+fan without final or construction filters in place. Accumulated 
+dust and construction debris distributed through the 
+ductwork can adversely affect unit operation.
+SERVICE ACCESS
+A minimum clearance of 18”* is recommended for control 
+enclosure access. Unit control enclosure will vary depending 
+on which control package is used. Control enclosure location 
+is specified on unit submittals. Low voltage enclosure covers 
+are removable, not hinged.
+A clearance of 36”* is recommended for units with electric 
+reheat. High Voltage electric heat control access is supplied 
+with hinged access doors and a door interlocking disconnect. 
+Specific location is indicated on the unit submittal.
+NOTE: These recommendations do not supersede NEC (National 
+Electrical Code) or local codes that may be applicable, which 
+are the responsibility of the installing contractor.
+CODES
+Install units in compliance with all applicable code requirements.
+WARRANTY
+All Krueger furnished items carry the standard 1-year limited 
+warranty from the date of shipment.
+MAINTENANCE
+No periodic preventative maintenance required, unless 
+called for by specific control sequence.
+Figure 1: Basic LMHS Unit
+PRE-INSTALLATION
+PAGE 4
+4
+Single-Duct and Retrofit Terminal Units IOM
+CONTROL ARRANGEMENTS
+The LMHS / LMHS-LC single duct and RVE / SVE retrofit 
+units are offered with a wide variety of factory-mounted 
+controls that regulate the volume of air delivery from the 
+unit and respond to cooling and heating load requirements 
+of the conditioned space. Stand-alone controls will fulfill 
+the thermal requirements of a given control space. These 
+devices are available in both pneumatic and electronic 
+arrangements. A number of DDC (Direct Digital Controls) 
+control packages by others are available for consignment 
+mounting, as indicated.
+Each control approach offers a variety of operating functions; 
+a control package number identifies combinations of control 
+functions. The following listings contain the basic function 
+arrangements for each control offering. Because of the 
+variety of functions available, circuit diagrams, operating 
+sequences, and function descriptions are contained in 
+separate Application Data publications. Refer to the specific 
+control publication for details.
+Direct Digital Electronic Control Arrangement (Field Supplied)
+Control packages are field supplied for factory mounting, 
+unless otherwise noted. All DDC control arrangements 
+include an inlet flow sensor, 24V transformer (optional), 
+and control enclosure. Contact factory for details about 
+mounting field-supplied controls.
+Analog Electronic Control Arrangement
+Pressure independent control packages are available 
+without supplemental heat, with on/off hot water or 
+electric heat, proportional hot water heat, or with cooling/
+heating automatic changeover control. All analog control 
+arrangements include an inlet flow sensor, 24V transformer 
+(optional), control enclosure, and wall thermostat with LCD 
+display.
+2100:  Heating control
+2101:  Cooling control
+2102:  Cooling with on/off electric heat control
+2103:  Cooling with on/off hot water heat control
+2104:  Cooling/heating automatic changeover control
+2105:  Cooling with proportional hot water heat control
+2110:  Cooling with solid state LineaHeat proportional heat control
+2111:  Cooling/heating with automatic change over with up 
+to 3 stages of electric heat control
+2113:  Cooling/heating with automatic change over with 
+solid state LineaHeat proportional heat
+2115:  Upstream static pressure monitoring
+2116:  Downstream static pressure monitoring
+Pneumatic Control Arrangement
+All control packages are pressure independent (unless 
+otherwise noted) and available with or without hot water 
+heat, dual maximum airflow, heating and cooling maximum 
+airflow and dual minimum airflow. All control arrangements 
+include a standard K4 LineaCross inlet flow sensor.
+1100  (Actuator only): DA-NC Pressure dependent control
+1101  (Actuator only): RA-NO Pressure dependent control
+1102  (Single function controller): DA-NO with or without 
+hot water or electric heat
+1103  (Single function controller): RA-NC with or without 
+hot water or electric heat
+1104  (Multi-function controller): DA-NO with or without 
+hot water or electric heat
+1105  (Multi-function controller): DA-NC with or without hot 
+water or electric heat
+1106  (Multi-function controller): RA-NO with or without hot 
+water or electric heat
+1107  (Multi-function controller): RA-NC with or without hot 
+water or electric heat
+1108  (Dual Maximum Control): DA-NO with or without hot 
+water or electric heat
+1109  (Heating/Cooling Maximum Control): DA-NO with or 
+without hot water or electric heat
+1110  (Dual Minimum Control): DA-NO with or without hot 
+water or electric heat
+1111  (Dual Minimum Control): RA-NO with or without hot 
+water or electric heat
+1112  (Heating/Cooling Maximum Control): RA-DO with or 
+without hot water or electric heat
+Pneumatic Control Legend
+• DA: Direct acting thermostat
+• RA: Reverse acting thermostat
+• NO: Normally open damper position
+• NC: Normally closed damper position
+• Single function controller: Provides single function, i.e., 
+DA-NO
+• Multi-function controller: Capable of providing DA-NO, 
+DA-NC, RA-NC or RA-NO functions. 
+No Control Arrangement
+• 0000: Unit with no control box.
+• D000: Unit with control enclosure and transformer.
+• D001: Unit with control enclosure and no transformer. 
+Also used for control enclosure and electric heat.
+PAGE 5
+5
+Single-Duct and Retrofit Terminal Units IOM
+STEP 1 - INSTALL UNIT 
+A. Move unit to installation area. Remove unit from shipping 
+package. Do not handle by controls, flow sensors or 
+damper extension rod.
+B. Optionally, the unit may have factory-installed hanger 
+brackets.
+C. Suspend units from building structure with field supplied 
+straps, rods, or hanger wires. Secure the unit and level 
+it in each direction. Krueger LMHS units with electric 
+heat must be mounted in the horizontal position, where 
+airflow runs parallel to the ground.
+D. Figure 3 illustrates the use of optional factory installed 
+hanger brackets for suspending units. 
+INSTALLATION OF SEISMIC MODEL LMHS-S
+Terminal units that are used in buildings subject to seismic 
+activity have been certified to be installed as outlined 
+below. This will ensure the unit’s structural integrity and 
+functionality. Seismic installation makes use of threaded 
+rods, cables for lateral bracing, and struts for added support. 
+These and other installation parts are supplied by others.  
+Install the seismic terminal unit as shown in Figure 4, as 
+described in these details: 
+• Suspend the unit with four ½” ASTM-A307 rods, with 
+HRSA (VMC) Spring and Elastomeric Angularity Hangers 
+• Use four SB-250 (VMC) ¼” Seismic Cable Kits for lateral 
+bracing and SRBC-1 (VMC) Rod Stiffening Clamps (three 
+per rod). 
+ - Attach the SB-250’s to structure using 5/8” hardware 
+ - Fasten the SRBC-1’s to L1x1x1/4 ASTM-A36 angle 
+• Each rod should be double-nutted to 1-5/8” 12 ga strut 
+fastened to the bottom of the unit with #12 screws at min 
+6” O.C. – and double-nutted to 1-5/8” 12 ga strut fastened 
+to the top with the factory-mounted 2”x2”x10 ga A36 
+angle bracket attached to the side-top-corner of the unit 
+with six #12 screws.  
+ - Use shims to fill the gap between the top bracket and 
+the strut  
+ - Place brackets on common side for rectangular 
+attachment pattern
+INSTALLATION
+Figure 3: Factory Installed Hanger Brackets (field supplied rod and nuts).
+Figure 4: Seismic installation. FIGURE 2 
+STRUT
+#12 SCREWS
+6”O.C.
+ SB-250 CABLE BRACE
+SHIM
+1/2’ ROD
+BRACKET (6) #12 SCREWS
+STRUT
+PAGE 6
+6
+Single-Duct and Retrofit Terminal Units IOM
+STEP 3 - INSTALL SENSORS AND MAKE FIELD WIRING CONNECTIONS 
+A. Refer to specific unit dimensional submittals and control application diagrams for control specifications. All field wiring 
+must comply with National Electrical Code (NEC) and local requirements. Refer to the wiring diagram on the unit for 
+specific wiring connections. A field-supplied transformer is required if the unit was not equipped with a factory installed 
+transformer. See Figure 4 for illustration.
+NOTE: Refer to wiring diagram attached to each unit for 
+specific information on that particular unit.
+Single duct terminal units with electric heat are supplied 
+with a single point wiring connection in the heater control 
+box. All unit power is supplied through this connection. 
+Models with electric heat are factory equipped with a control 
+transformer. Figure 5 illustrates an example high voltage 
+wiring diagram that includes a unit with electric heat.
+Figure 4: Wiring of Optional Factory Mounted Transformer
+120VAC
+208VAC
+240VAC
+277VAC
+L1
+CLASS II 
+TRANSFORMER
+GROUND
+24VAC
+LEGEND
+Factory Wiring
+Field Wiring
+ANALOG OR DDC 
+CONTROLLER
+YELLOW
+BLUE
+NOTE: Refer to wiring diagram attached to each unit for 
+specific information on that particular unit. Units with 480-
+3-60 electric heater REQUIRE 4-wire, wye connected power. 
+Units with 208/230v, 3-phase heater can be connected with 
+3-wire power. Unit airflow should not be set outside of 
+the range noted in Figure 6. The minimum recommended 
+airflow for units with electric heat must be at least 75 cfm 
+per kW and not drop below the minimum values listed in 
+Table 6.A. The maximum unit discharge temperature should 
+not exceed 120°F. To prevent air stratification, the ASHREA 
+Handbook of Fundamentals recommends a discharge 
+temperature not to exceed 90°F.
+Brown#12
+Step 1
+Heat Contactor
+Step 2
+Heat Contactor Step 3
+Heat Contactor
+Brown#12
+Brown#12
+Brown#18
+Black#18
+Brown#12
+Red#12
+Red#12
+Red#18
+Red#18
+Red#12
+Red#12
+Yellow#12
+Yellow#18
+Yellow#18
+Yellow#12
+Yellow#12
+Blue#18 Blue#18
+Black#18
+Black#18
+Black#18
+Black#18
+Black#18
+N.O.
+Yellow#12
+White#12
+White#12
+White#12
+White#18
+White#18
+480VPower Suply
+Transformer
+24VAC
+To
+Controller
+AFS
+Line Fuse
+(Optional)
+Manual
+Reset
+Thermal Hi-Limit
+Auto-Reset(Typ)
+COM
+Terminal Block or
+Optional Disconnect Switch
+L1
+L2
+L3
+N
+G
+Figure 5: Typical Power Connections for LMHS units with 3-Stage Electric Heat. 
+Wiring and unit ampacities are referenced in Table 7.
+LEGEND
+AFS: Airflow Switch
+DDC: Direct Digital 
+Controls
+Note: Drawing is 
+typical of 480V 
+3-Phase, 4 wire heater 
+and controller. Refer 
+to actual unit wiring 
+diagram located on 
+inside cover of control 
+enclosure.
+STEP 2 – MAKE DUCT CONNECTIONS 
+A. Install supply ductwork on each of the unit inlet collars. It is recommended that a length of straight duct equal to 3 times 
+the diameter of the duct is supplied to the inlet of the unit. An elbow put at the inlet of the unit will create turbulence at 
+the inlet making it difficult for the flow sensor to accurately measure the airflow. Check that air-supply duct connections 
+are airtight and follow all accepted medium-pressure duct installation procedures. Refer to Table 6.A – LMHS, 6.B – 
+LMHS-LC, 6.C – RVE, and 6.D - SVE for pressure and flow data.
+B. Install the discharge ducts. Fully open all balancing dampers.
+PAGE 7
+7
+Single-Duct and Retrofit Terminal Units IOM
+GENERAL 
+The LMHS / LMHS-LC single duct VAV terminal is designed 
+to supply a varying quantity of cold primary air to a space 
+in response to a thermostat demand. Some units have 
+reheat options to provide heating demand requirements 
+as well. Most VAV terminals are equipped with pressure 
+compensating controls to regulate the response to the 
+thermostat independent of the pressure in the supply 
+ductwork. To balance the unit it is necessary to set both the 
+maximum and minimum set points of the controller. The 
+many types of control options available each have specific 
+procedures required for balancing the unit.
+SET POINTS 
+Maximum and minimum airflow set points are normally 
+specified for the job and specific for each unit on the job. 
+Where maximum and minimum airflow levels are not 
+specified on the order, default values are noted on unit ID 
+label.
+FIELD ADJUSTMENT OF MINIMUM 
+AND MAXIMUM AIRFLOW SET POINTS
+Each unit is equipped with an amplifying inlet airflow sensor 
+that measures a differential pressure proportional to the 
+airflow. The relationship between the inlet airflow pressures 
+and cfm is shown in the Figure 6 – Krueger Inlet Airflow 
+Sensor Chart. This chart is attached to each unit. 
+SYSTEM CALIBRATION OF AIRFLOW SENSOR 
+To achieve accurate pressure independent operation, the inlet airflow sensor must be calibrated to the controller. This will 
+ensure that airflow measurements will be accurate for all terminals at system start-up. System calibration is accomplished 
+by calculating a flow coefficient that adjusts the pressure fpm characteristics. The flow coefficient is determined by dividing 
+the flow for a given unit (design air volume in cfm), at a pressure of 1.0 in. w.g differential pressure, by the standard Pitot 
+tube coefficient of 4005.This ratio is the same for all sizes, no matter which probe type is installed. Determine the design 
+air velocity by dividing the design air volume (the flow at 1.0 in. w.g) by the nominal inlet area (sq. ft). This factor is the CFM 
+K factor, list in the Table 1 above.
+CONTROLS SETUP
+TABLE 1: INLET AIRFLOW SENSOR AREA AND K FACTOR
+LMHS, RVE 04 05 06 07 08 09 10 12 14 16 22
+Inlet Diameter, in. 4 5 6 7 8 9 10 12 14 16 22
+Velocity Magnification 1.52 1.52 1.52 1.52 1.52 1.52 1.52 1.52 1.52 1.52 1.52
+Velocity Factor 2625 2625 2625 2625 2625 2625 2625 2625 2625 2625 2625
+CFM K Factor 229 358 515 702 916 1160 1432 2062 2806 3665 7000
+Inlet Area, Sq. ft. 0.087 0.136 0.196 0.267 0.349 0.442 0.545 0.785 1.069 1.396 2.667
+Recommended Min CFM 
+(@ 0.03 WG) 40 62 89 122 159 201 248 357 486 635 1212
+The controls on most new projects are Direct Digital (DDC) 
+Controls. These controls require that flow parameters be 
+loaded during start-up to translate the sensed pressure into 
+a measured flow rate. There are several conventions (and 
+no universally accepted method) in use for representing this 
+flow factor: 
+1. Magnification Factor - The magnification factor may be 
+expressed as the ratio of either velocity or pressure, of 
+the output of the sensor to that of a pitot tube.
+b. For example, a velocity magnification may be used. 
+All Krueger probes develop an average signal of 1 
+w.g. @2625 fpm. This gives a velocity magnification of 
+4005/2625, or 1.52.
+c. The magnification factor may be a pressure factor. In 
+this case, the ratio of pressures at a given air velocity 
+is presented. For a velocity constant of 2626, at 1000 
+fpm, this is 0.1451 / 0.0623 = 2.33.
+4. K-Factor: The ‘K-factor’ may be represented in two ways
+a. It may be a velocity K-factor, which is the velocity 
+factor independent of the inlet area, (which for all 
+Krueger inlet airflow sensors, both Linear and the 
+new LineaCross, is 2625 fpm/in w.g.).
+b. Alternatively, it may be the airflow K-Factor, which is 
+the velocity factor times the inlet area. For an 8 inch 
+Krueger unit, therefore, this would be 2625 * 0.349, or 
+916. A separate factor is required for each size. Below 
+is a K-Factor table for all Krueger VAV terminal inlets.
+c. CFM=K√ΔP 
+i. CFM=ft 3/minute
+ii. ΔP= Pressure Differential (WG)
+iii. K=Sensor Constant
+PAGE 8
+8
+Single-Duct and Retrofit Terminal Units IOM
+INLET SNSOR ΔP INCHES 
+W.G. (PASKALS)  
+ANALOG CONTROLS A01 &  A02 
+THERMOSTAT SETTING
+CFM ()L/s
+1.0 (248.8) 6.2
+.8 (199.0) 5.2
+.6 (149.3) 4.4
+.4 (99.5) 3.6
+.3 (74.6) 3.2
+.2 (49.8) 2.8
+.1 (24.9) 2.4
+.07 (17.4) 2.3
+.05 (12.4) 2.2
+.04 (10.0)
+.03 (7.5) 2.1
+40 
+(19)
+50 
+(24)
+70 
+(33)
+100 
+(47)
+200 
+(94)
+300 
+(142)
+(108) 
+229
+(169) 
+358
+(243) 
+515
+(331) 
+702
+(432) 
+916
+(547) 
+1160
+(676) 
+1432
+(973) 
+2062
+(1324) 
+2806
+(1730) 
+3665
+(3303) 
+7000
+500 
+(236)
+700 
+(330)
+1000 
+(472)
+2000 
+(944)
+3000 
+(1437)
+5000 
+(2360)
+7000 
+(3303)
+4 5 6 7 8 9 10 12 14 16 22
+Figure 6 - Krueger Inlet Airflow Sensor Chart
+PAGE 9
+9
+Single-Duct and Retrofit Terminal Units IOM
+PNEUMATIC CONTROLS
+Volume controllers for LMHS units are shown below. Identification for each controller is shown in the following table.
+PNEUMATIC VOLUME CONTROLLERS
+KMC - CSC 2003
+(Normally Open)
+KMC - CSC 2004  (Normally Closed)
+*LO and HI are reversed* KMC - CSC 3011  (Multi Function Controller)
+Figure 7: Pneumatic Volume Controllers
+TABLE 2: PNEUMATIC CONTROL SEQUENCE CONTROLLERS
+CONTROL SEQUENCE FUNCTION ARRANGEMENT KMC PART NUMBER
+1102 DA-NO CSC-2003
+1103 RA-NC CSC-2004
+1104 DA-NO CSC-3011
+1105 DA-NC CSC-3011
+1106 RA-NO CSC-3011
+1107 RA-NC CSC-3011
+1108 DA-NO, DUAL MAXIMUM CSC-3011
+1109 DA-NO, HEATING/COOLING MAXIMUM CSC-3011 (2X)
+1110 DA-NO, DUAL MINIMUM CSC-3011
+1111 RA-NO, DUAL MINIMUM CSC-3011
+1112 RA-NO, HEATING/COOLING MAXIMUM CSC-3011 (2X)
+LEGEND: DA - DIRECT ACTING, NC - NORMALLY CLOSED, NO - NORMALLY OPEN, RA - REVERSE ACTING
+PREPARATION FOR BALANCING 
+(CONTROL SEQUENCES 1102 AND 1103)      
+1. Inspect all pneumatic connections to assure tight fit and 
+proper location.
+2. Verify that the thermostat being used is compatible with 
+the control sequence provided (direct acting or reverse 
+acting).
+3. Check main air pressure at the controller(s). The main air 
+pressure must be between 15 psi and 25 psi. (If dual or 
+switched-main air pressure is used, check the pressure 
+at both high and low settings.) The difference between 
+high pressure main and low pressure main should be at 
+least 4 psi, unless otherwise noted, and the low setting 
+difference should exceed 15 psi.
+4. Check that the unit damper will fail to the proper position 
+when main air pressure is lost. Disconnect the pneumatic 
+actuator line from the velocity controller and observe the 
+VAV damper position. The damper should fail to either a 
+normally open position (indicator mark on shaft end is 
+horizontal) or a normally closed position (indicator mark 
+on shaft end is vertical).
+5. Check that there is primary airflow in the inlet duct.
+6. Connect a Magnehelic gage, inclined manometer or other 
+differential pressure measuring device to the balancing 
+taps provided in the velocity probe sensor lines. The 
+manometer should have a full scale reading of 0.0 to 
+1.0 in. wg. The high-pressure signal is delivered from 
+PAGE 10
+10
+Single-Duct and Retrofit Terminal Units IOM
+the front sensor tap (away from the valve), and the low 
+pressure signal is delivered from the back line (near the 
+valve). The pressure differential between high and low 
+represents the amplified velocity pressure in the inlet 
+duct. 
+7. Read the differential pressure and enter the Krueger Inlet 
+Airflow Sensor Chart (Figure 6) to determine the airflow 
+in the terminal unit. For example, a differential pressure 
+of 0.10 in. wg for a size 8 unit yields an airflow of 290 cfm.
+BALANCING PROCEDURE 
+(CONTROL SEQUENCES 1102 AND 1103)      
+Direct Acting Thermostat:
+Normally Open Damper (Control Sequence 1102)
+1. Minimum Volume Setting: 
+b. Disconnect the thermostat line from the volume 
+controller.
+c. Adjust the minimum volume control knob (marked 
+LO and located in the center of the controller) to 
+achieve the required minimum flow. To determine the 
+required pressure differential, refer to Table 1, Table 
+2, and the Krueger Inlet Airflow Sensor Chart that is 
+provided on the side of the VAV unit and in Figure 6. 
+d. Reconnect the thermostat line.
+2. Maximum Volume Setting: 
+c. Disconnect the thermostat line from the volume 
+controller.
+d. Apply 15 + psi to the thermostat port on the volume 
+controller (marked “T”) by tapping into the main air 
+pressure line. 
+e. Adjust the maximum volume control knob (marked 
+HI and located at the side of the controller) until the 
+desired pressure differential is registered on the 
+manometer. To determine the required pressure 
+differential, refer to Table 1, Table 2, and the Krueger 
+Inlet Airflow Sensor Chart that is provided on the side 
+of the VAV unit and in Figure 6.
+f. Reconnect the thermostat line.
+Reverse Acting Thermostat:
+Normally Closed Damper (Control Sequence 1103)
+1. Maximum Volume Setting: 
+b. Disconnect the thermostat line from the velocity 
+controller.
+c. Adjust the maximum volume control knob (marked 
+HI and located in the center of the controller) to 
+achieve the required minimum flow. To determine the 
+required pressure differential, refer to Table 1, Table 
+2, and the Krueger Inlet Airflow Sensor Chart that is 
+provided on the side of the VAV unit and in Figure 6. 
+d. Reconnect the thermostat line.
+2. Minimum Volume Setting: 
+c. Disconnect the thermostat line from the velocity 
+controller.
+d. Apply 15 + psi to the thermostat port on the volume 
+controller (marked “T”) by tapping into the main air 
+pressure line. 
+e. Adjust the minimum volume control knob (marked 
+LO and located at the side of the controller) until 
+the desired pressure differential is registered on 
+the manometer. To determine the required pressure 
+differential, refer to Table 1, Table 2, and the Krueger 
+Inlet Airflow Sensor Chart that is provided on the side 
+of the VAV unit and in Figure 6.
+f. Reconnect the thermostat line.
+BALANCING PROCEDURE 
+(CONTROL SEQUENCES 1104-1110)      
+1. Damper action is factory set at N.O. (normally open), or 
+N.C. (normally closed). To change perform the following 
+steps:
+b. Loosen the damper selection screw.
+c. Turn the selection dial clockwise until the NC or NO 
+arrow aligns with the DAMPER arrow. 
+NOTE: Accuracy in the alignment of the arrows is very 
+important. Make this adjustment as exact as possible. 
+(See Figure 8)
+4. Pipe the controller: Connect port “B” to the damper 
+actuator. Connect port “M” to the clean, dry main air. 
+Connect port “T” to the thermostat output. Connect 
+port “H” to the total pressure tap on the airflow sensor. 
+Connect port “L” to the static pressure tap on the airflow 
+sensor. The controller can be set up for cooling or heating 
+applications using either a Direct Acting (DA) or Reverse 
+Acting (RA) thermostat signal. The two flow adjustments 
+are labeled LO STAT ΔP and HI STAT ΔP.
+TO THERMOSTAT BRANCH SIGNAL 
+(RESET SIGNAL)
+RESET START POINT ADJUSTMENT
+(FACTORY SET @ 8PSI)
+TO STATIC PRESSURE
+PUSH ON NIPPLES
+FOR 3/16” (5) I.D.
+FR TUBING (5) H L
+T
+B
+M
+G
+WO
+NC
+TO DAMPER
+ACTUATOR
+DAMPER
+HI STAT
+LO STAT
+RESET START
+RESET SPAN
+TO MAIN AIR
+SUPPLY
+LOOSEN SCREW TO
+CHANGE DAMPER ACTION
+(SUPPLIED IN N.O. POSITION)
+GAUGE TAP. LEAVE CAP ON UNLESS
+CONNECTING GAUGE FOR RESET
+START OR RESET SPAN ADJUSTMENT
+DAMPER ACTION SELECTION
+(FACTORY SET @ NORMALLY OPEN)
+NOTE: SCREW MUST BE TIGHT AND ARROWA
+IN PERFECT ALIGNMENT FOR DEVICE TO FUNCTION PROPERLY.
+DIFFERENTIAL PRESURE (FLOW)
+LIMIT ADJUSTMENT WHEN T’STAT
+PRESSURE IS HIGH (HI STAT)
+(FACTORY SET @ 0.65” W.C.)
+- FILED ADJUSTMENT REQUIRED
+DIFFERENTIAL PRESURE (FLOW)
+LIMIT ADJUSTMENT WHEN T’STAT
+PRESSURE IS LOW (LO STAT)
+(FACTORY SET @ 0” W.C.)
+ALL ADJUSTMENT CCW TO INCREASE
+(1/8”-5/32” FLATBLADE SCREWDRIVER)
+RESET SPAN ADJUSTMENT
+(FACTORY SET @ 5 PSI)
+TO TOTAL PRESSURE
+(DIFFERENCE IS DIFFERENTIAL
+PRESSURE, OR DEVICE
+VELOCITY PRESSURE)
+Figure 8 – CSC 3011
+PAGE 11
+11
+Single-Duct and Retrofit Terminal Units IOM
+Adjusting Minimums and Maximums
+• When adjusting the minimum and maximum airflow 
+settings, the output responds slowly to changes in the 
+set point. Wait for the flow rate to stabilize after making 
+an adjustment (usually 20 to 30 seconds) before making 
+further adjustments. Also, if the damper position is all 
+the way closed or open when starting this step, turn the 
+adjustment one full turn, and then wait 20 to 30 seconds 
+for a change in the flow reading of the Magnehelic gauge. 
+If no change occurs after this time, repeat until the flow 
+rate changes. 
+LO STAT ΔP Setting
+is the desired airflow limit when the thermostat pressure is 
+less than, or equal to, the reset start point.
+• For DA Cooling or RA Heating: Adjust LO STAT ΔP to the 
+desired minimum airflow with 0 psig (or a pressure less 
+than the reset start point) at port “T”. The LO STAT ΔP 
+must be set first. The LO STAT ΔP will affect the HI STAT 
+ΔP setting. (Turn Clockwise)
+• For RA Cooling or DA Heating: Adjust LO STAT ΔP to the 
+desired maximum airflow with 0 psig (or a pressure less 
+than the reset start point) at port “T”. The LO STAT ΔP 
+must be set first. The LO STAT ΔP will affect the HI STAT 
+ΔP setting. (Turn Counter Clockwise)
+HI STAT ΔP Setting
+is the desired airflow limit when the thermostat pressure 
+is greater than, or equal to, the reset stop-point. The reset 
+stop-point is the reset span pressure added to the reset 
+start point pressure.
+• For DA Cooling or RA Heating (See Figure 7): Adjust HI 
+STAT ΔP to the desired maximum airflow with 20 psig (or 
+a pressure greater than the reset stop point) at port “T”. 
+The HI STAT ΔP must be set last. The HI STAT ΔP setting 
+will be affected by the LO STAT ΔP setting. (Turn Counter 
+Clockwise)
+• For RA Cooling or DA Heating (See Figure 7): Adjust HI 
+STAT ΔP to the desired minimum airflow with 20 psig (or 
+a pressure greater than the reset stop point) at port “T”. 
+The HI STAT ΔP must be set last. The HI STAT ΔP setting will 
+be affected by the LO STAT ΔP setting. (Turn Clockwise)
+NOTES:
+• If the LO STAT ΔP Limit must be set at 0 (zero minimum), 
+do not turn the LO STAT ΔP knob fully clockwise. The knob 
+will adjust one and one-half turns after a zero minimum is 
+reached. Turning the LO STAT ΔP knob fully clockwise will 
+result in a negative reset condition. This means that when 
+the controller begins to reset at the reset start point, it 
+must first overcome the negative adjustment and will 
+not begin to reset from 0 until a higher thermostat reset 
+pressure is reached. This negative reset will also reduce 
+the effective range of the controller by reducing the low 
+end reset, narrowing the reset span. If a zero minimum is 
+required, adjust the LO STAT ΔP knob until the controller 
+just begins to crack the damper open, and then back-off 
+one-quarter turn and verify zero airflow. (This is typically 
+2-1/2 knob rotations counter clockwise from the fully 
+clockwise position.)
+• After the LO STAT ΔP and HI STAT ΔP initial adjustments 
+are made, cycle the thermostat pressure a few times to 
+settle the internal reset mechanisms and verify settings. 
+Fine-tune the settings if necessary. The thermostat 
+pressure may be left at a high pressure and the “G” port 
+cap may be removed and replaced to cycle the reset 
+mechanism.
+RESET START Setting
+is factory set at 8.0 psig. This is the lowest thermostat 
+pressure that the LO STAT ΔP airflow will begin to reset 
+towards the HI STAT ΔP airflow. To change the RESET START 
+setting; regulate thermostat pressure to the “T” port to 
+the desired reset start point pressure, adjust RESET START 
+adjustment until pressure at the “G” port is slightly higher 
+than 0 psig, i.e., 0.1 psig.
+NOTE:
+• For Dual Duct Units the Reset Start Must To Be Adjusted 
+To 3.0 Psig. ON THE HEATING SIDE ONLY.
+• The “G” port taps into the controller’s internal reset 
+chamber, which always starts at 0 psig. The RESET START 
+adjustment is a positive bias adjustment that sets the 
+desired thermostat start point to the controller’s internal 
+reset start point of 0 psig. 
+RESET SPAN Setting
+is factory set at 5.0 psig. This is the required change in 
+thermostat pressure that the controller will reset between 
+the LO STAT ΔP setting and the HI STAT ΔP setting. To change 
+the RESET SPAN setting; adjust RESET SPAN adjustment 
+until pressure at the “G” port equals the desired reset span 
+pressure. (Do Not Adjust)
+NOTE:
+• The “G” port taps into the controller’s internal reset 
+chamber, which will always be at a pressure between 0 
+psig and the RESET SPAN pressure.
+Figure 9 – Reset Cycle for CSC 3011 Control
+MAX
+LO STAT Δ P
+HI STAT Δ P
+DA HEATING
+ROOM TEMPRATURE
+Reset
+Span
+Reset
+Span
+Reset
+Span
+Reset
+Span
+Δ
+Reset Sart*
+0 3 8 13 psig
+MIN
+F
+L
+O
+W
+MAX
+LO STAT Δ P
+HI STAT Δ P
+DA COOLING
+RA HEATING RA COOLING
+ROOM TEMPRATURE
+Δ
+Reset Sart*
+0 3 8 13 psig
+MIN
+F
+L
+O
+W
+MAX
+LO STAT Δ P
+HI STAT Δ P
+ROOM TEMPRATURE
+*May require changing the RESET START from 8.0 to 3.0 psig if 
+sequencing is involved.
+Δ
+Reset Sart*
+0 psig3813 0 psig3813
+MIN
+F
+L
+O
+W
+MAX
+LO STAT Δ P
+HI STAT Δ P
+ROOM TEMPRATURE
+Δ
+Reset Sart*
+MIN
+F
+L
+O
+W
+PAGE 12
+12
+Single-Duct and Retrofit Terminal Units IOM
+PREVENTATIVE MAINTENANCE      
+1. Inspect pneumatic tubing for loose connections or leaks.
+2. Clean out pneumatic line filters regularly according to manufacturer’s recommendations.
+TABLE 3: PNEUMATIC CONTROL TROUBLESHOOTING
+PROBLEM PROBABLE CAUSE
+Controller does not reset to maximum or minimum set point during balance procedure Balancer is using the thermostat for control signal. An artificial signal must be provided in place of the thermostat.
+Controller does not reset to maximum or minimum set point during operation. Thermostat is not demanding maximum or minimum air volume. Main air pressure at the controller is less than 15 psi.
+Pneumatic actuator does not stroke fully. Leak in pneumatic line between the controller and the actuator.Main air pressure at the controller is less than 15 psi. Leak in the diaphragm.
+Air valve stays in wide open position. Inlet airflow sensor is blocked by an obstruction (sandwich bag, etc.). Insufficient supply air in the inlet duct.
+NOTE: Always check:
+• Main air pressure (15 psi to 25 psi) at the controller. • Proper thermostat signal and logic (Direct/Reverse Acting).
+• Disconnected or kinked pneumatic lines to the controller • Blocked inlet airflow sensor or insufficient primary supply air.
+• Quality of compressed air (oil or water in lines). • Leaks in the actuator diaphragm.
+• Mechanical linkage of the actuator/air valve.
+Figure 10 – Analog Controller CSP 4702
+INSTALLATION AND BALANCING PROCEDURES      
+The Analog Electronic Control System is a pressure 
+independent volume reset control that uses a KMC CSP-4702 
+controller-actuator (see Figure 10).
+ANALOG CONTROLS
+Adjustments for the minimum and maximum airflow 
+settings are made at the thermostat. The thermostat (CTE-
+5202) operates on a 16 VDC power supply from the CSP 4702 
+controller and outputs a 0 to 10 VDC signal on the AO1 and 
+AO2 terminals. AO1 is used as the cooling output and AO2 is 
+used as the heating output .
+PAGE 13
+13
+Single-Duct and Retrofit Terminal Units IOM
+THERMOSTAT INSTALLATION      
+For proper operation, mount the thermostat on an interior 
+wall. Do not mount the thermostat in a location that will 
+cause it to be affected by direct sunlight or other heat or cold 
+sources. The thermostat should be clear of all obstructions 
+so it can properly sense the room temperature. Complete 
+rough-in wiring at each location prior to thermostat 
+installation. Cable insulation must meet local building codes.    
+1. Remove thermostat cover. If the thermostat is locked on 
+the back plate, turn the two hex screws in on the bottom 
+of the cover (in the two outermost holes) in the back plate 
+CLOCKWISE until they clear the cover. Do not remove 
+these screws completely. Swing the thermostat up and 
+away from the back plate to remove it. 
+2. Route the wires through the opening in the back plate.
+3. Install the back plate directly to the junction box using 
+the screws supplied with the thermostat. Verify the hex 
+screws used for securing the cover are located at the 
+bottom before installing.
+4. Connect the wires to the terminal block. Refer to the 
+wiring diagram located on the inside cover of the control 
+enclosure of each unit showing the wiring terminations. 
+The wiring schematic can also be found on the control 
+sequence submittal found on the Krueger website.
+5. Replace the thermostat cover. Turn the two hex screws 
+COUNTER CLOCKWISE until they are flush with the 
+bottom cover and secure it to the back plate.
+PROGRAMMING THERMOSTAT    
+1. The thermostat has three sequences that are selectable 
+from the display screen. To access the configuration 
+menu on the thermostat, press and hold the Up and 
+Down arrows for 10 seconds until the display starts 
+flashing LIMITS. Use the Up and Down arrows to scroll 
+between the different menu options or set a specific 
+value. Use the Setpoint button to select a menu or set 
+a value.
+2. To set the minimum and maximum airflow limits, Use 
+AO1 Min and AO1 Max or AO2 Min and AO2 Max. Use the 
+Table 4 below to determine thermostat setting for the 
+CFM per inlet size.
+3. For details on how to program the thermostat for each 
+control sequence see the specific control sequence 
+submittal. The control sequence submittals can be at the 
+Krueger Website: www.krueger-hvac.com.
+NOTE: Default Settings are as follows:
+• AO1 – MIN=0, MAX=12, AUX=0
+• AO2 – MIN=0, MAX=12
+• DEAD BD (deadband) = 2° F
+• SETBACK (standby/unoccupied setback) = 2° F
+• PROP BD (loop proportional band) = 2° F
+• Rm OFST (room temperature offset) = 0
+• CNG OVR (changeover temperature) = 77° F
+• ITIME (loop integral time) = 30 minutes
+PAGE 14
+14
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 4: SETTING MIN AND MAX VALUES ON THERMOSTAT
+AO1 & 
+AO2 
+SETTING
+SENSOR 
+SIGNAL 
+W.G.
+CFM PER INLET SIZE
+4 5 6 7 8 9 10 12 14 16 20 22
+0-2 0.00 0 0 0 0 0 0 0 0 0 0 0 0
+2.1 0.03 36 57 81 111 145 183 226 326 444 580 315 1107
+2.2 0.05 51 80 115 157 205 259 320 461 627 820 445 1565
+2.3 0.08 63 98 141 192 251 318 392 565 768 1004 545 1917
+2.4 0.10 72 113 163 222 290 367 453 652 887 1159 630 2214
+2.5 0.13 81 127 182 248 324 410 506 729 992 1296 704 2475
+2.6 0.15 89 139 200 272 355 449 555 798 1087 1420 771 2711
+2.7 0.18 96 150 216 293 383 485 599 862 1174 1533 833 2928
+2.8 0.20 102 160 231 314 410 519 640 922 1255 1639 891 3130
+2.9 0.23 109 170 244 333 435 550 679 978 1331 1739 945 3320
+3.0 0.25 115 179 258 351 458 580 716 1031 1403 1833 996 3500
+3.1 0.28 120 188 270 368 481 608 751 1081 1472 1922 1045 3671
+3.2 0.30 125 196 282 384 502 635 784 1129 1537 2008 1091 3834
+3.3 0.33 131 204 294 400 522 661 816 1175 1600 2089 1136 3991
+3.4 0.35 136 212 305 415 542 686 847 1220 1660 2168 1178 4141
+3.5 0.38 140 219 316 430 561 710 877 1263 1718 2244 1220 4287
+3.6 0.40 145 226 326 444 580 733 905 1304 1775 2318 1260 4427
+3.7 0.43 149 233 336 457 597 756 933 1344 1829 2389 1299 4563
+3.8 0.45 154 240 346 471 615 778 960 1383 1882 2459 1336 4696
+3.9 0.48 158 247 355 484 632 799 987 1421 1934 2526 1373 4824
+4.0 0.50 162 253 364 496 648 820 1012 1458 1984 2592 1408 4950
+4.1 0.53 166 259 373 508 664 840 1037 1494 2033 2656 1443 5072
+4.2 0.55 170 265 382 520 680 860 1062 1529 2081 2718 1477 5191
+4.3 0.58 174 271 391 532 695 879 1086 1563 2128 2779 1510 5308
+4.4 0.60 177 277 399 543 710 898 1109 1597 2174 2839 1543 5422
+4.5 0.63 181 283 407 555 724 917 1132 1630 2218 2898 1575 5534
+4.6 0.65 185 289 416 566 739 935 1154 1662 2262 2955 1606 5644
+4.7 0.68 188 294 423 576 753 953 1176 1694 2305 3011 1636 5751
+4.8 0.70 192 299 431 587 767 970 1198 1725 2348 3067 1666 5857
+4.9 0.73 195 305 439 597 780 987 1219 1755 2389 3121 1696 5960
+5.0 0.75 198 310 446 608 794 1004 1240 1785 2430 3174 1725 6062
+5.1 0.78 202 315 454 618 807 1021 1260 1815 2470 3227 1753 6162
+5.2 0.80 205 320 461 627 820 1037 1281 1844 2510 3278 1782 6261
+5.3 0.83 208 325 468 637 832 1053 1300 1873 2549 3329 1809 6358
+5.4 0.85 211 330 475 647 845 1069 1320 1901 2587 3379 1836 6454
+5.5 0.88 214 335 482 656 857 1085 1339 1929 2625 3428 1863 6548
+5.6 0.90 217 340 489 666 869 1100 1358 1956 2662 3477 1890 6641
+5.7 0.93 220 344 496 675 881 1115 1377 1983 2699 3525 1916 6732
+5.8 0.95 223 349 502 684 893 1130 1395 2009 2735 3572 1941 6823
+5.9 0.98 226 353 509 693 905 1145 1414 2036 2771 3619 1967 6912
+6.0 1.00 229 358 515 702 916 1160 1432 2062 2806 3665 1992 7000
+PAGE 15
+15
+Single-Duct and Retrofit Terminal Units IOM
+ANALOG CONTROL TROUBLESHOOTING     
+The following troubleshooting guide is directed towards 
+single duct cooling applications, the same concepts can be 
+applied to other configurations.    
+NOTE: For about 15 seconds after power is applied, no 
+rotation occurs and one or both of the controller/actuator 
+LEDs will flash.
+Controller
+1. Check that the shaft moves freely. (Press and hold the 
+actuator release clutch and manually rotate the shaft.)
+2. Check wiring. (See Wiring Issues section below.)
+3. Check for a tripped circuit breaker to the transformer, for 
+proper supply voltage from the transformer (or power 
+supply), and for enough capacity (VA) for all connected 
+devices.
+4. Check that the direction jumper is in the proper position 
+per individual controls submittal.
+5. Check the polarity and level of the input signal from the 
+thermostat.
+Wrong Rotation Direction or Stroke Range
+1. Check the position of the direction jumper.
+2. Check the Min and Max flow limits on the thermostat 
+(AO1 / AO2).
+3. Check the adjustable mechanical stop position.
+No Pressure Output Signal from Inlet Sensor
+1. Check the tubing. Tubing should be free of kinks and 
+restrictions.
+2. Check air flow and sensor. Sensor must be oriented in the 
+correct airflow direction and free of large debris.
+Wiring Issues
+1. Check for correct wiring at unit and thermostat per 
+individual controls submittal.
+2. At the Controller, verify 24 VAC at terminals “~” (phase) 
+and “-” (ground). Tolerance can be –15% to +20% (20.4 to 
+28.8 VAC).
+3. Verify 16 VDC at terminals “16 VDC” and “COM”.
+a. Tolerance is 15.0 to 17.0 VDC power supply to   
+ thermostat. 
+b. If not correct, disconnect thermostat and recheck. 
+c. If still incorrect, replace CSP controller.
+4. Check “Requested Flow” DC voltage on terminal “2-10 IN” 
+and “COM“.
+a. Use Table 4 to correlate into cubic feet per minute   
+ (CFM).
+b. If reading is not what is desired, then adjust    
+ thermostat to give correct CFM.
+NOTE: Never jumper terminal 16 VDC to “-” as this would 
+cause a short, and possibly damage the power supply.
+NOTE: When using the same transformer for more than one 
+control, the phase and ground must be consistent with each 
+device.
+PAGE 16
+16
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 5.A: LMHS UNIT WEIGHTS
+LMHS UNIT WEIGHTS (lbs.) HOT WATER COIL (DRY, lbs.)
+SIZE BARE BOX WITH PNEUMATIC WITH DDC OR ANALOG WITH ATTENUATOR 1 ROW 2 ROW
+4,5,6 14 +4 +9 +10 +5 +6
+7,8 16 +4 +9 +12 +5 +7
+9,10 21 +4 +9 +16 +7 +9
+12 26 +4 +9 +21 +9 +12
+14 34 +4 +9 +24 +10 +15
+16 38 +4 +9 +27 +12 +17
+22 65 +4 +9 +30 +17 +25
+TABLE 5.B: LMHS-LC UNIT WEIGHTS
+LMHS UNIT WEIGHTS (lbs.) HOT WATER COIL (DRY, lbs.) HOT WATER COIL (WITH WATER, lbs.)
+SIZE BARE BOX W/PNEUMATIC W/ DDC OR ANALOG W/ ATTENUATOR 1 ROW 2 ROW 1 ROW 2 ROW
+4,5,6 16 +4 +9 +12 +5 +7 +5.8 +9.9
+7,8 21 +4 +9 +16 +7 +9 +8.5 +12.6
+9,10 26 +4 +9 +21 +9 +12 +11.0 +16.5
+12 34 +4 +9 +24 +10 +15 +12.7 +21.8
+14 38 +4 +9 +27 +12 +17 +15.1 +26.6
+WARNING: Disconnect power before wiring or electrical shock and personal injury could result.
+Water valves are field supplied. Most control manufacturers offer three different hot water valve applications; on/off and 
+floating point, and proportional control. The controls contractor should provide water valve specs used on controls supplied 
+by others. To connect the field-supplied water valves to the controller, refer to the wiring labels for the control package.
+WATER VALVE INSTALLATION
+APPENDIX A
+PAGE 17
+17
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 6.A: LMHS BASIC PRESSURE AND AIRFLOW DATA
+INLET SIZE
+(AREA SQFT)
+MAX 
+AIRFLOW 
+(CFM)
+MIN AIRFLOW (CFM)
+ELECTRIC HEAT*
+MAX Kw PER CFM 
+@55F EAT
+MIN INLET STATIC PRESSURE (UNIT & HEAT PRESSURE DROP)
+COOLING 
+ONLY 
+OR WITH 
+HOT WATER
+ELECTRIC 
+HEAT
+VELOCITY 
+PRESS
+BASIC
+UNIT
+BASIC WITH
+1R - COIL
+BASIC WITH
+2R - COIL
+BASIC WITH 
+3R - COIL
+BASIC WITH
+4R - COIL
+BASIC WITH
+ELEC HEATER**
+CFM Kw Δ Vps Δ Ps Δ Ps Δ Ps Δ Ps Δ Ps Δ Ps
+4 
+(0.09) 230 40 55
+ 55 
+110 
+150 
+230
+1 
+2 
+2.5 
+3!
+0.02 
+0.1 
+0.18 
+0.43
+0.01 
+0.05 
+0.1 
+0.24
+0.02 
+0.06 
+0.12 
+0.28
+0.02 
+0.07 
+0.13 
+0.31
+0.02 
+0.08 
+0.15 
+0.35
+0.02 
+0.09 
+0.16 
+0.39
+0.01 
+0.05 
+0.1 
+0.24
+5 
+(0.14) 360 62 85
+85 
+140 
+250 
+360
+1.5 
+2.5 
+4.5 
+5!
+0.02 
+0.06 
+0.21 
+0.43
+0.01 
+0.03 
+0.1 
+0.21
+0.02 
+0.05 
+0.15 
+0.31
+0.02 
+0.06 
+0.19 
+0.4
+0.03 
+0.07 
+0.24 
+0.49
+0.03 
+0.09 
+0.28 
+0.58
+0.01 
+0.03 
+0.1 
+0.21
+6 
+(0.20) 515 90 110
+110 
+250 
+400 
+520
+2 
+4.5 
+7.5! 
+7.5!
+0.02 
+0.1 
+0.25 
+0.42
+0.01 
+0.04 
+0.1 
+0.17
+0.01 
+0.09 
+0.22 
+0.38
+0.02 
+0.13 
+0.34 
+0.57
+0.03 
+0.17 
+0.45 
+0.75
+0.03 
+0.22 
+0.56 
+0.94
+0.01 
+0.04 
+0.1 
+0.17
+7 
+(0.27) 700 121 140
+140 
+330 
+550 
+700
+2.5 
+6 
+9.5! 
+9.5!
+0.02 
+0.09 
+0.25 
+0.4
+0.01 
+0.04 
+0.1 
+0.16
+0.01 
+0.08 
+0.22 
+0.36
+0.02 
+0.12 
+0.33 
+0.53
+0.03 
+0.16 
+0.44 
+0.71
+0.04 
+0.2 
+0.54 
+0.88
+0.01 
+0.04 
+0.1 
+0.16
+8 
+(0.35) 920 160 190
+190 
+440 
+700 
+920
+3.5 
+8 
+13! 
+13!
+0.02 
+0.09 
+0.23 
+0.39
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.12 
+0.29 
+0.51
+0.03 
+0.19 
+0.47 
+0.81
+0.05 
+0.25 
+0.64 
+1.11
+0.06 
+0.32 
+0.82 
+1.42
+0.01 
+0.04 
+0.1 
+0.17
+9 
+(0.44) 1160 201 240
+240 
+550 
+900 
+1160
+4.5 
+10 
+16! 
+16!
+0.02 
+0.08 
+0.23 
+0.38
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.09 
+0.25 
+0.42
+0.03 
+0.14 
+0.38 
+0.64
+0.04 
+0.19 
+0.52 
+0.86
+0.05 
+0.24 
+0.66 
+1.09
+0.01 
+0.04 
+0.1 
+0.17
+10 
+(0.55) 1430 248 300
+300 
+700 
+1100 
+1450
+5.5 
+13 
+20.5 
+21!
+0.01 
+0.08 
+0.21 
+0.36
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.13 
+0.32 
+0.56
+0.03 
+0.21 
+0.53 
+0.91
+0.04 
+0.29 
+0.73 
+1.26
+0.05 
+0.38 
+0.93 
+1.62
+0.01 
+0.04 
+0.1 
+0.17
+12 
+(0.78) 2060 357 425
+425 
+1000 
+1600 
+2060
+8 
+18.5 
+30! 
+30!
+0.01 
+0.08 
+0.2 
+0.33
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.14 
+0.35 
+0.58
+0.04 
+0.22 
+0.57 
+0.95
+0.06 
+0.31 
+0.8 
+1.32
+0.07 
+0.4 
+1.02 
+1.69
+0.01 
+0.04 
+0.1 
+0.17
+14 
+(1.07) 2800 486 580
+580 
+1375 
+2100 
+2800
+11 
+26 
+36! 
+36!
+0.01 
+0.07 
+0.16 
+0.29
+0.01 
+0.04 
+0.1 
+0.18
+0.02 
+0.13 
+0.3 
+0.53
+0.04 
+0.21 
+0.48 
+0.85
+0.05 
+0.28 
+0.66 
+1.17
+0.06 
+0.36 
+0.84 
+1.49
+0.01 
+0.04 
+0.1 
+0.18
+16 
+(1.40) 3660 634 750
+750 
+1775 
+2800 
+3660
+14 
+33.5 
+36! 
+36!
+0.01 
+0.06 
+0.14 
+0.24
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.14 
+0.34 
+0.58
+0.04 
+0.22 
+0.56 
+0.95
+0.06 
+0.31 
+0.77 
+1.32
+0.07 
+0.4 
+0.99 
+1.69
+0.01 
+0.04 
+0.1 
+0.17
+22 
+(2.63) 7000 1212 1800
+1800 
+3300 
+5300 
+7000
+34 
+36! 
+36! 
+36!
+0.02 
+0.07 
+0.17 
+0.3
+0.01 
+0.04 
+0.1 
+0.17
+0.05 
+0.18 
+0.45 
+0.79
+0.09 
+0.3 
+0.77 
+1.35
+0.13 
+0.42 
+1.09 
+1.91
+0.16 
+0.55 
+1.41 
+2.46
+0.01 
+0.04 
+0.1 
+0.17
+NOTES: 
+1. Δ PS is the difference in Static Pressure across the assembly with the damper fully  open.
+2. To obtain Total Pressure, add the Velocity Pressure for a given CFM to the Static Pressure. Example: Pt for a Size 8 Basic Unit @925 CFM = 0.39 + 0.17 = 0.56
+3. Max and Min Kw shown assumes 55°F entering air and is limited by unit’s selected voltage, phase and max capacity. Minimum cfm for electric heat is 
+based on UL/ETL listings. NOTE: Diffuser performance will likely be poor at this low flow rate.
+4. Maximum discharge temperatures with Electric Heat are set at 120°F by the National Electric Code. 
+*  The ASHRAE Handbook of Fundamentals does not recommend a discharge temperature exceeding 90°F.
+**  A minimum 0.10” discharge static pressure is required to ensure steady operation for the airflow switch in the electric heater.
+***  Minimums for DDC by others are the responsibility of the controls’ provider. 
+!  Max Kw is limited by design.
+PAGE 18
+18
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 6.B: LMHS-LC BASIC PRESSURE AND AIRFLOW DATA
+INLET SIZE
+(AREA SQFT)
+MAX AIRFLOW 
+(CFM)
+MIN AIRFLOW (CFM) MIN INLET STATIC PRESSURE (UNIT & HEAT PRESSURE DROP)
+COOLING ONLY 
+OR WITH HOT WATER  CFM
+BASIC UNIT BASIC WITH 1R - COIL BASIC WITH 2R - COIL BASIC WITH 3R - COIL BASIC WITH 4R - COIL
+Δ Ps Δ Ps Δ Ps Δ Ps Δ Ps
+4 
+(0.09) 230 40
+ 55 
+110 
+150 
+225
+0.01 
+0.01
+0.1 
+0.23
+0.01 
+0.06 
+0.11 
+0.25
+0.02 
+0.07 
+0.12 
+0.28
+0.02 
+0.07 
+0.14 
+0.3
+0.02 
+0.08 
+0.15 
+0.32
+5 
+(0.14) 358 62
+85 
+140 
+250 
+355
+0.01 
+0.03 
+0.1 
+0.2
+0.02 
+0.04 
+0.13 
+0.25
+0.02 
+0.05 
+0.16 
+0.3
+0.02 
+0.06 
+0.18 
+0.35
+0.03 
+0.07 
+0.21 
+0.4
+6 
+(0.20) 515 90
+110 
+250 
+400 
+515
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.07 
+0.16 
+0.26
+0.03 
+0.1 
+0.22 
+0..35
+0.03 
+0.12 
+0.28 
+0.45
+0.04 
+0.15 
+0.35 
+0.55
+7 
+(0.27) 700 121
+140 
+330 
+550 
+700
+0.01 
+0.04 
+0.1 
+0.16
+0.02 
+0.06 
+0.16 
+0.24
+0.02 
+0.09 
+0.21 
+0.32
+0.03 
+0.11 
+0.27 
+0.41
+0.03 
+0.13 
+0.32 
+0.49
+8 
+(0.35) 915 160
+190 
+440 
+700 
+915
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.8 
+0.18 
+0.3
+0.03 
+0.12 
+0.26 
+0.42
+0.04 
+0.15 
+0.35 
+0.56
+0.05 
+0.19 
+0.43 
+0.69
+9 
+(0.44) 1160 201
+240 
+550 
+900 
+1155
+0.01 
+0.04 
+0.12 
+0.16
+0.02 
+0.07 
+0.21 
+0.27
+0.03 
+0.11 
+0.29 
+0.38
+0.03 
+0.14 
+0.38 
+0.5
+0.04 
+0.17 
+0.47 
+0.62
+10 
+(0.55) 1430 248
+300 
+700 
+1100 
+1430
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.09 
+0.2 
+0.32
+0.03 
+0.14 
+0.3 
+0.48
+0.05 
+0.19 
+0.41 
+0.66
+0.06 
+0.24 
+0.52 
+0.82
+12 
+(0.78) 2060 357
+425 
+1000 
+1600 
+2060
+0.01 
+0.04 
+0.1 
+0.17
+0.02 
+0.09 
+0.2 
+0.32
+0.03 
+0.13 
+0.3 
+0.47
+0.04 
+0.18 
+0.41 
+0.65
+0.05 
+0.23 
+0.52 
+0.8
+14 
+(1.07) 2800 486
+580 
+1375 
+2100 
+2800
+0.01 
+0.04 
+0.1 
+0.18
+0.03 
+0.1 
+0.22 
+0.36
+0.04 
+0.16 
+0.33 
+0.55
+0.05 
+0.22 
+0.46 
+0.77
+0.07 
+0.28 
+0.58 
+0.96
+NOTES:  
+1. Δ PS is the difference in static pressure across the assembly, with the damper fully open.
+*  The ASHRAE Handbook of Fundamentals does not recommend a discharge temperature exceeding 90°F. 
+**  Minimums for DDC by others are the responsibility of the controls’ provider.
+PAGE 19
+19
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 6.C: RVE BASIC PRESSURE AND AIRFLOW DATA
+INLET SIZE
+(AREA SQFT)
+MAX AIRFLOW
+(CFM)
+MIN AIRFLOW
+(CFM)
+FLOW RATE
+(CFM)
+MIN ΔPs
+(IN WG)
+4 
+(0.09) 230 40
+40
+103
+167
+230
+0.007
+0.048
+0.126
+0.239
+5 
+(0.14) 360 62
+62
+161
+261
+360
+0.008
+0.052
+0.137
+0.261
+6 
+(0.20) 515 90
+90
+233
+377
+520
+0.007
+0.05
+0.131
+0.249
+7 
+(0.27) 700 121
+120
+330
+525
+700
+0.007
+0.056
+0.142
+0.252
+8 
+(0.35) 920 160
+160
+440
+675
+920
+0.008
+0.059
+0.138
+0.256
+9 
+(0.44) 1160 201
+200
+550
+875
+1160
+0.008
+0.058
+0.146
+0.257
+10 
+(0.55) 1430 248
+250
+675
+1075
+1430
+0.008
+0.056
+0.142
+0.252
+12 
+(0.78) 2060 357
+360
+1000
+1550
+2060
+0.008
+0.06
+0.143
+0.253
+14 
+(1.07) 2800 486
+480
+1375
+2125
+2800
+0.008
+0.063
+0.149
+0.259
+16 
+(1.40) 3660 634
+630
+1775
+2725
+3660
+0.008
+0.06
+0.141
+0.255
+NOTES:  
+1. Δ Ps is the difference in static pressure across the assembly, with the damper fully open.
+2. Minimum CFM value is based on a signal of 0.03 in w.g. differential pressure of the inlet.
+PAGE 20
+20
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 6.D: SVE BASIC PRESSURE AND AIRFLOW DATA
+INLET SIZE MAX AIRFLOW (CFM) MIN AIRFLOW (CFM) FLOW RATE (CFM) MIN ΔPs (IN WG)
+A 456 79
+75
+155
+235
+315
+0.057
+0.242
+0.556
+1
+B 656 114
+114
+225
+350
+473
+0.058
+0.226
+0.548
+1
+C 875 152
+152
+350
+575
+786
+0.037
+0.198
+0.535
+1
+D 1458 253
+253
+475
+675
+902
+0.079
+0.278
+0.561
+1.001
+E 2042 354
+354
+675
+1000
+1328
+0.071
+0.258
+0.567
+1
+F 1969 351
+341
+650
+950
+1270
+0.072
+0.262
+0.56
+1.001
+G 2188 379
+379
+725
+1075
+1435
+0.07
+0.255
+0.561
+1
+H 3281 568
+568
+1175
+1775
+2414
+0.055
+0.237
+0.541
+1
+TABLE 6.D: SVE BASIC PRESSURE AND AIRFLOW DATA
+INLET SIZE MAX AIRFLOW (CFM) MIN AIRFLOW (CFM) FLOW RATE (CFM) MIN ΔPs (IN WG)
+J 3938 682
+682
+1475
+2300
+3121
+0.048
+0.223
+0.543
+1
+K 5104 884
+884
+2225
+3550
+4923
+0.032
+0.204
+0.52
+1
+L 6563 1137
+1137
+2925
+4725
+6563
+0.013
+0.085
+0.222
+0.429
+M 6417 1111
+1111
+2850
+4625
+6417
+0.017
+0.11
+0.29
+0.559
+N 7875 1364
+1364
+3525
+5650
+7875
+0.013
+0.086
+0.221
+0.43
+P 10938 1894
+1894
+4875
+7875
+10938
+0.013
+0.086
+0.223
+0.43
+R 14583 2526
+2526
+6500
+10475
+14583
+0.013
+0.085
+0.221
+0.429
+NOTES:  
+1. Minimum CFM value is based on a signal of 0.03 in w.g. differential pressure of the inlet.
+PAGE 21
+21
+Single-Duct and Retrofit Terminal Units IOM
+TABLE 7: LMHS ELECTRIC HEATER POWER WIRING
+HEATER 
+SIZE 
+(kW)
+BTUH
+120V HEATER 208V HEATER 240V HEATER 277V HEATER 208V 3Ф HEATER 480V 3Ф HEATER
+FLA AWG* FLA AWG* FLA AWG* FLA AWG* FLA AWG* FLA AWG*
+0.5 1,701 4.2 14 2.4 14 2.1 14 1.8 14 1.4 14 0.6 14
+1.0 3,413 8.3 14 4.8 14 4.2 14 3.6 14 2.8 14 1.2 14
+2.0 6,826 16.7 10 9.6 14 8.3 14 7.2 14 5.6 14 2.4 14
+3.0 10,239 25.0 8 14.4 12 12.5 12 10.8 14 8.3 14 3.6 14
+4.0 13,652 33.3 8 19.2 10 16.7 10 14.4 12 11.1 14 4.8 14
+5.0 17,065 41.7 5 24.0 10 20.8 10 18.1 10 13.9 12 6.0 14
+6.0 20,478 28.8 8 25.0 8 21.7 10 16.7 10 7.2 14
+7.0 23,891 33.7 8 29.2 8 25.3 8 19.4 10 8.4 14
+8.0 27,304 38.5 6 33.3 8 28.9 8 22.2 10 9.6 14
+9.0 30,717 43.3 6 37.5 6 32.5 8 25.0 8 10.8 12
+10.0 34,130 36.1 6 27.8 8 12.0 12
+11.0 37,543 39.7 6 30.5 8 13.2 12
+12.0 40,956 43.3 6 33.3 8 14.4 12
+14.0 47,782 38.9 6 16.8 10
+16.0 54,608 44.4 6 19.2 10
+18.0 61,434 21.7 10
+20.0 68,260 24.1 10
+22.0 75,086 26.5 8
+24.0 81,912 28.9 8
+26.0 88,738 31. 8
+28.0 95,564 33.7 8
+30.0 102,390 36.1 6
+32.0 109,216 38.5 6
+34.0 116,042 40.9 6
+36.0 122,868 43.3 6
+PAGE 22
+22
+Single-Duct and Retrofit Terminal Units IOM
+PRIMARY DAMPER ASSEMBLY PART NUMBER
+4, 5, 6" Round (Includes Damper Blade And Shaft) 30182001
+7" Round (Includes Damper Blade And Shaft) 30182002
+8" Round (Includes Damper Blade And Shaft) 30182003
+9" Round (Includes Damper Blade And Shaft) 30182004
+10" Round (Includes Damper Blade And Shaft) 30182005
+12" Round (Includes Damper Blade And Shaft) 30182006
+14" Round (Includes Damper Blade And Shaft) 30182007
+16" Round (Includes Damper Blade And Shaft) 30182008
+Size 20 - 13 1/2" x 7 7/8" Rectangle (Includes Damper Blade And Shaft) 3512701200
+Size 22 - 23 7/8" x 15 7/8" (Includes Opposed Blade Damper And Shaft) 10336604
+Pneumatic Tubing, Tees and Caps
+PNEUMATIC TUBING, TEES AND CAPS PART NUMBER
+Tee, 1/4", Connects Pneumatic Tubing Each 42150011
+Cap, 1/4", for Pneumatic Tubing Each 42160081
+Tubing, 1/4", Red, for Pneumatic Controls (1 Foot Length) 61510035
+Tubing, 1/4", Green, for Pneumatic Controls (1 Foot Length) 61510234
+Tubing, 1/4", Yellow, for Pneumatic Controls (1 Foot Length) 61510260
+Tubing, 1/4", Gray, for Pneumatic Controls (1 Foot Length) 10221501
+Inline Filter for 1/4" Pneumatic Tubing 10154701
+FOUR QUADRANT, K4 LINEACROSS INLET AIRFLOW SENSOR PART NUMBER
+4” Inlet 15010904
+5” Inlet 15010904
+6” Inlet 15010906
+7” Inlet 15010907
+8” Inlet 15010908
+9” Inlet 15010909
+10” Inlet 15010910
+12” Inlet 15010912
+14” Inlet 15010914
+16” Inlet 15010916
+22" Inlet (Requires [2] Sensors Per Unit) 15010914
+REPLACEMENT PARTS
+PAGE 23
+23
+Single-Duct and Retrofit Terminal Units IOM
+TRANSFORMERS PART NUMBER
+120 volts to 24 volts, 50 VA 10029301
+120 volts to 24 volts, 75 VA 10336801
+277 volts to 24 volts, 50 VA 10006601
+277 volts to 24 volts, 75 VA 10313401
+208/240 volts to 24 volts, 50 VA 10057501
+208/240 volts to 24 volts, 75 VA 10336901
+480 volts to 24 volts, 50 VA 10100301
+24 volts to 24 volts, 50 VA 10166601
+ELECTRIC HEAT AND LINEAHEAT PART NUMBER
+Thermal Cutout, Automatic Reset (115-130° Limit) 10052101
+Thermal Cutout, Manual Reset (160°  Limit) 10118801
+Disconnect Switch 30A Assembly (Does not include Snap-In Neutral Block) 31453101
+Disconnect Switch 60A Assembly (Does not include Snap-In Neutral Block) 31453102
+Disconnect Neutral Block - 30A (Snap-In) 10341201
+Disconnect Neutral Block - 60A (Snap-In) 10341202
+Magnetic Contactor, 30A, 24V Coil,  1 Pole (DIGITAL/ ANALOG) 10323601
+Magnetic Contactor, 30A, 24V Coil,  2 Pole (DIGITAL/ ANALOG) 10054401
+Magnetic Contactor, 60A, 24V Coil,  2 Pole (DIGITAL/ ANALOG) 10162501
+Solid State Relay - 1 Pole, 50A (AC Volt) 15018001
+EHM Board (including Mounting Bracket) 35134901
+Solid State Relay - 1 Pole, 50A (DC Volt) [Crydom CWD 4850] 15012101
+Heat Sink 15012001
+Discharge Temperature Sensor HH79NZ074
+LMHS WATER COILS - 1 ROW PART NUMBER
+Unit Size 4-6 00-20018-02
+Unit Size 7-8 00-20019-02
+Unit Size 9-10 00-20022-02
+Unit Size 12 00-20034-02
+Unit Size 14 00-20038-02
+Unit Size 16 00-20039-02
+Unit Size 20 00-20360-02
+Unit Size 22 00-20051-02
+PAGE 24
+24
+Single-Duct and Retrofit Terminal Units IOM
+LMHS WATER COILS - 2 ROW PART NUMBER
+Unit Size 4-6 00-20020-02
+Unit Size 7-8 00-20021-02
+Unit Size 9-10 00-20023-02
+Unit Size 12 00-20024-02
+Unit Size 14 00-20025-02
+Unit Size 16 00-20030-02
+Unit Size 20 00-20359-02
+Unit Size 22 00-20029-02
+NOTE: 1 & 2 Row Coils can be used for both left and right-hand orientation.
+LMHS WATER COILS  - 3 ROW PART NUMBER
+Unit Size 4-6 00-20042-02 (RH) 00-20065-02 (LH)
+Unit Size 7-8 00-20031-02 (RH) 00-20066-02 (LH)
+Unit Size 9-10 00-20032-02 (RH) 00-20067-02 (LH)
+Unit Size 12 00-20033-02 (RH) 00-20068-02 (LH)
+Unit Size 14 00-20043-02 (RH) 00-20069-02 (LH)
+Unit Size 16 00-20044-02 (RH) 00-20070-02 (LH)
+Unit Size 22 00-20050-02 (RH) 00-20071-02 (LH)
+LMHS WATER COILS  - 4 ROW PART NUMBER
+Unit Size 4-6 00-20056-02 (RH) 00-20058-02 (LH)
+Unit Size 7-8 00-20047-02 (RH) 00-20059-02 (LH)
+Unit Size 9-10 00-20048-02 (RH) 00-20060-02 (LH)
+Unit Size 12 00-20049-02 (RH) 00-20061-02 (LH)
+Unit Size 14 00-20054-02 (RH) 00-20062-02 (LH)
+Unit Size 16 00-20055-02 (RH) 00-20063-02 (LH)
+Unit Size 22 00-20057-02 (RH) 00-20064-02 (LH)
+PAGE 25
+
+PAGE 26
+1401 N. Plano Rd.
+Richardson, TX 75081
+tel: 972.680.9136
+www.krueger-hvac.com
+kruegerinfo@krueger-hvac.com
+Single Duct & Retrofit Terminal Unit IOM | Rev. 3/2/2026
+©Air Distribution Technologies, Inc. All Rights Reserved.
+YOUR RESOURCE FOR AIR DISTRIBUTION AND EQUIPMENT SOLUTIONS
+Let us know how we can assist you in your next building application. For more information, contact 
+your local Krueger representative or visit us on the web at www.krueger-hvac.com.
+CRITICAL ROOM SOLUTIONS
+CHILLED BEAMS
+DISPLACEMENT VENTILATION
+UNDERFLOOR
+Underfloor Diffusers
+Underfloor Terminal Units
+TERMINAL UNITS
+Single Duct
+Fan Powered
+Dual Duct
+Bypass & Retrofit
+FAN COILS & BLOWER COILS
+Horizontal 
+Vertical / Stack 
+DIFFUSERS
+Plaque & Architectural
+Louvered
+Perforated
+Modular Core
+Linear Slot
+Plenum Slot
+Round
+Air Nozzles
+GRILLES & REGISTERS
+Supply
+Return
+Linear Bar
+Security
+Industrial
+Duct Mounted
+Transfer
+Stainless Steel
+CONNECT WITH US!

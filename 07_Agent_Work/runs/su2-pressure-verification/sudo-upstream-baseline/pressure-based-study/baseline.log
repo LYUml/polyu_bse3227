@@ -1,0 +1,848 @@
+
+-------------------------------------------------------------------------
+|    ___ _   _ ___                                                      |
+|   / __| | | |_  )   Release 8.6.0 "Harrier"                           |
+|   \__ \ |_| |/ /                                                      |
+|   |___/\___//___|   Suite (Computational Fluid Dynamics Code)         |
+|                                                                       |
+-------------------------------------------------------------------------
+| SU2 Project Website: https://su2code.github.io                        |
+|                                                                       |
+| The SU2 Project is maintained by the SU2 Foundation                   |
+| (http://su2foundation.org)                                            |
+-------------------------------------------------------------------------
+| Copyright 2012-2026, SU2 Contributors                                 |
+|                                                                       |
+| SU2 is free software; you can redistribute it and/or                  |
+| modify it under the terms of the GNU Lesser General Public            |
+| License as published by the Free Software Foundation; either          |
+| version 2.1 of the License, or (at your option) any later version.    |
+|                                                                       |
+| SU2 is distributed in the hope that it will be useful,                |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of        |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+| Lesser General Public License for more details.                       |
+|                                                                       |
+| You should have received a copy of the GNU Lesser General Public      |
+| License along with SU2. If not, see <http://www.gnu.org/licenses/>.   |
+-------------------------------------------------------------------------
+
+Parsing config file for zone 0
+
+----------------- Physical Case Definition ( Zone 0 ) -------------------
+Incompressible RANS equations.
+Turbulence model: Menter's k-omega SST-2003m with no production modification
+using default hard coded lower limit clipping.
+Hybrid RANS/LES: No Hybrid RANS/LES
+Reading and writing ASCII SU2 native restart files.
+Read flow solution from: ../pressure-based-diagnostic/restart.
+Dimensional simulation.
+The reference area is 1 m^2.
+The semi-span will be computed using the max y(3D) value.
+The reference length is 1 m.
+Reference origin for moment evaluation is (0, 0, 0).
+Surface(s) where the force coefficients are evaluated: inlet, outlet.
+
+Surface(s) plotted in the output file: wall_bend.
+Surface(s) to be analyzed in detail: inlet, outlet.
+Input mesh file name: ../sudo_coarse.su2
+
+--------------- Space Numerical Integration ( Zone 0 ) ------------------
+Second order integration in space, with slope limiter.
+No slope-limiting method. 
+Average of gradients with correction (viscous flow terms).
+Average of gradients with correction (viscous turbulence terms).
+Gradient for upwind reconstruction: inverse-distance weighted Least-Squares.
+Gradient for viscous and source terms: inverse-distance weighted Least-Squares.
+
+--------------- Time Numerical Integration  ( Zone 0 ) ------------------
+Local time stepping (steady state simulation).
+Euler implicit method for the flow equations.
+FGMRES is used for solving the linear system.
+Using ILU(0) preconditioning.
+Convergence criteria of the linear solver: 1e-06.
+Max number of linear iterations: 30.
+No CFL adaptation.
+Courant-Friedrichs-Lewy number:      0.5
+Euler implicit time integration for the turbulence model.
+
+------------------ Convergence Criteria  ( Zone 0 ) ---------------------
+Maximum number of solver subiterations: 400.
+Begin convergence monitoring at iteration 10.
+Residual minimum value: 1e-14.
+Cauchy series min. value: 1e-06.
+Number of Cauchy elements: 100.
+Begin windowed time average at iteration 0.
+
+-------------------- Output Information ( Zone 0 ) ----------------------
+File writing frequency: 
++------------------------------------+
+|                     File| Frequency|
++------------------------------------+
+|            RESTART_ASCII|        50|
++------------------------------------+
+Writing the convergence history file every 1 inner iterations.
+Writing the screen convergence history every 1 inner iterations.
+The tabular file format is CSV (.csv).
+Convergence history file name: history.
+Forces breakdown file name: forces_breakdown.dat.
+Surface file name: surface.
+Volume file name: flow.
+Restart file name: restart.
+
+------------- Config File Boundary Information ( Zone 0 ) ---------------
++-----------------------------------------------------------------------+
+|                        Marker Type|                        Marker Name|
++-----------------------------------------------------------------------+
+|                     Symmetry plane|                         symmetry_1|
+|                                   |                      symmetry_bend|
+|                                   |                         symmetry_2|
++-----------------------------------------------------------------------+
+|                     Inlet boundary|                              inlet|
++-----------------------------------------------------------------------+
+|                    Outlet boundary|                             outlet|
++-----------------------------------------------------------------------+
+|                     Heat flux wall|                             wall_1|
+|                                   |                             wall_2|
+|                                   |                          wall_bend|
++-----------------------------------------------------------------------+
+
+-------------------- Output Preprocessing ( Zone 0 ) --------------------
+Screen output fields: INNER_ITER, RMS_PRESSURE, RMS_VELOCITY-X, RMS_VELOCITY-Y, RMS_VELOCITY-Z
+History output group(s): ITER, RMS_RES, LINSOL, SURFACE_MASSFLOW, SURFACE_TOTAL_PRESSURE
+Convergence field(s): RMS_PRESSURE
+Warning: No (valid) fields chosen for time convergence monitoring. Time convergence monitoring inactive.
+Volume output fields: SOLUTION, PRIMITIVE, RESIDUAL, COORDINATES
+
+------------------- Geometry Preprocessing ( Zone 0 ) -------------------
+Three dimensional problem.
+75396 grid points.
+69938 volume elements.
+8 surface markers.
+578 boundary elements in index 0 (Marker = inlet).
+578 boundary elements in index 1 (Marker = outlet).
+1998 boundary elements in index 2 (Marker = wall_2).
+1110 boundary elements in index 3 (Marker = wall_bend).
+1369 boundary elements in index 4 (Marker = wall_1).
+1517 boundary elements in index 5 (Marker = symmetry_1).
+1230 boundary elements in index 6 (Marker = symmetry_bend).
+2214 boundary elements in index 7 (Marker = symmetry_2).
+69938 hexahedra.
+Setting point connectivity.
+Renumbering points (Reverse Cuthill McKee Ordering).
+Recomputing point connectivity.
+Setting element connectivity.
+Checking the numerical grid orientation.
+All volume elements are correctly oriented.
+There has been a re-orientation of 10594 QUADRILATERAL surface elements.
+Identifying edges and vertices.
+Setting the control volume structure.
+Volume of the computational grid: 0.00800348.
+Searching for the closest normal neighbors to the surfaces.
+Storing a mapping from global to local point index.
+Compute the surface curvature.
+Max K: 0. Mean K: 0. Standard deviation K: 0.
+Computing mesh quality statistics for the dual control volumes.
++--------------------------------------------------------------+
+|           Mesh Quality Metric|        Minimum|        Maximum|
++--------------------------------------------------------------+
+|    Orthogonality Angle (deg.)|        62.9151|        89.9243|
+|     CV Face Area Aspect Ratio|          2.409|        94.5856|
+|           CV Sub-Volume Ratio|        1.00475|        5.76354|
+|                     CV Volume|    7.53086e-09|    3.09905e-07|
++--------------------------------------------------------------+
+Finding max control volume width.
+Semi-span length = -1e+10 m.
+Wetted area = 0 m^2.
+Area projection in the x-plane = 0 m^2, y-plane = 0 m^2, z-plane = 0 m^2.
+Max. coordinate in the x-direction = -1e+10 m, y-direction = -1e+10 m, z-direction = -1e+10 m.
+Min. coordinate in the x-direction = 1e+10 m, y-direction = 1e+10 m, z-direction = 1e+10 m.
+Computing wall distances.
+
+-------------------- Solver Preprocessing ( Zone 0 ) --------------------
+ Warning: There is no restart file (flow.meta).
+ Computation will continue without updating metadata parameters.
+Incompressible flow: rho_ref, vel_ref, temp_ref, p_ref
+are set to 1.0 in order to perform a dimensional calculation.
+Force coefficients computed using initial values.
+The reference area for force coeffs. is 1 m^2.
+The reference length for force coeffs. is 1 m.
+The pressure is decomposed into thermodynamic and dynamic components.
+The initial value of the dynamic pressure is 0.
+Mach number: 0.0231103, computed using the Bulk modulus.
+For external flows, the initial state is imposed at the far-field.
+Angle of attack (deg): 90, computed using the initial velocity.
+Side slip angle (deg): 0, computed using the initial velocity.
+Reynolds number per meter: 531092, computed using initial values.
+Reynolds number is a byproduct of inputs only (not used internally).
+SI units only. The grid should be dimensional (meters).
+No energy equation.
+
+-- Models:
++------------------------------------------------------------------------------+
+|          Viscosity Model|        Conductivity Model|              Fluid Model|
++------------------------------------------------------------------------------+
+|       CONSTANT_VISCOSITY|          CONSTANT_PRANDTL|         CONSTANT_DENSITY|
++------------------------------------------------------------------------------+
+-- Fluid properties:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|             Viscosity|     1.785e-05|             1|   N.s/m^2|     1.785e-05|
++------------------------------------------------------------------------------+
+|        Prandtl (Lam.)|             -|             -|         -|          0.72|
+|       Prandtl (Turb.)|             -|             -|         -|           0.9|
++------------------------------------------------------------------------------+
+|          Bulk Modulus|        142000|             1|        Pa|        142000|
++------------------------------------------------------------------------------+
+-- Initial and free-stream conditions:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|      Dynamic Pressure|             0|             1|        Pa|             0|
+|        Total Pressure|         37.92|             1|        Pa|         37.92|
+|               Density|         1.185|             1|    kg/m^3|         1.185|
+|            Velocity-X|             0|             1|       m/s|             0|
+|            Velocity-Y|             0|             1|       m/s|             0|
+|            Velocity-Z|             8|             1|       m/s|             8|
+|    Velocity Magnitude|             8|             1|       m/s|             8|
++------------------------------------------------------------------------------+
+|             Viscosity|     1.785e-05|             1|   N.s/m^2|     1.785e-05|
+|          Conductivity|             -|             1|   W/m^2.K|             -|
+|     Turb. Kin. Energy|          0.24|             1|   m^2/s^2|          0.24|
+|     Spec. Dissipation|       1593.28|             1|       1/s|       1593.28|
++------------------------------------------------------------------------------+
+|           Mach Number|             -|             -|         -|     0.0231103|
+|       Reynolds Number|             -|             -|         -|        531092|
++------------------------------------------------------------------------------+
+All ranks use edge coloring.
+Among the ranks that use edge coloring,
+      the minimum efficiency is 1,
+      the maximum number of colors is 1,
+      the minimum edge color group size is 512.
+Initialize Jacobian structure (Navier-Stokes). MG level: 0.
+Initialize Jacobian structure (SST model).
+y+ < 1 in 4712 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 4712 points. No problem, but you can increase your near-wall mesh size.
+Initialize Jacobian structure (poisson equation) MG level: 0.
+
+Reading inlet profile from file: ../provided-inlet.dat
+No Inlet Interpolation being used
+No Inlet Interpolation being used
+
+------------------- Numerics Preprocessing ( Zone 0 ) -------------------
+
+----------------- Integration Preprocessing ( Zone 0 ) ------------------
+
+------------------- Iteration Preprocessing ( Zone 0 ) ------------------
+Pressure based Euler/Navier-Stokes/RANS fluid iteration.
+
+------------------------------ Begin Solver -----------------------------
+
+Simulation Run using the Single-zone Driver
+y+ < 1 in 3 points. No problem, but you can increase your near-wall mesh size.
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|           0|   -2.877575|   -1.251696|   -1.208983|   -1.352344|
+|           1|   -2.897994|   -1.443583|   -1.413817|   -1.574379|
+|           2|   -3.245221|   -2.303075|   -2.256802|   -2.289911|
+|           3|   -3.148897|   -2.149450|   -2.115967|   -2.242815|
+|           4|   -2.986841|   -2.311608|   -2.279079|   -2.345514|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|           5|   -3.396059|   -2.907373|   -2.882298|   -2.880198|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|           6|   -3.601984|   -2.431289|   -2.395372|   -2.371248|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|           7|   -3.363068|   -2.454603|   -2.430276|   -2.456151|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|           8|   -3.502624|   -2.841440|   -2.805324|   -2.868742|
+|           9|   -3.461888|   -3.482633|   -3.393601|   -3.290319|
+|          10|   -3.294399|   -3.535312|   -3.397667|   -3.289970|
+|          11|   -3.469984|   -3.467589|   -3.358786|   -3.482226|
+|          12|   -3.527864|   -3.260125|   -3.243172|   -2.729359|
+|          13|   -3.571577|   -3.313961|   -3.297505|   -2.870681|
+|          14|   -3.625178|   -3.495840|   -3.430994|   -3.329105|
+|          15|   -3.641570|   -3.609926|   -3.534390|   -3.508653|
+|          16|   -3.611312|   -3.661301|   -3.591744|   -3.524763|
+|          17|   -3.726246|   -3.692657|   -3.621078|   -3.678594|
+|          18|   -3.762092|   -3.675814|   -3.672926|   -3.292470|
+|          19|   -3.784438|   -3.743642|   -3.724897|   -3.391440|
+|          20|   -3.833705|   -3.866107|   -3.794002|   -3.728620|
+|          21|   -3.859831|   -3.918884|   -3.866363|   -3.737898|
+|          22|   -3.873792|   -3.976484|   -3.924965|   -3.764031|
+|          23|   -3.943038|   -4.018166|   -3.949940|   -3.931190|
+|          24|   -3.980360|   -4.044157|   -4.000546|   -3.802762|
+|          25|   -4.011942|   -4.090207|   -4.044772|   -3.868563|
+|          26|   -4.056597|   -4.183318|   -4.110133|   -4.088469|
+|          27|   -4.095663|   -4.258742|   -4.178961|   -4.205705|
+|          28|   -4.134743|   -4.307647|   -4.232256|   -4.230954|
+|          29|   -4.188346|   -4.347058|   -4.274891|   -4.283697|
+|          30|   -4.232172|   -4.407483|   -4.336777|   -4.324577|
+|          31|   -4.275421|   -4.467438|   -4.397997|   -4.382464|
+|          32|   -4.320709|   -4.526954|   -4.458109|   -4.450415|
+|          33|   -4.369411|   -4.586323|   -4.520056|   -4.507292|
+|          34|   -4.419274|   -4.646726|   -4.585075|   -4.557618|
+|          35|   -4.469659|   -4.707735|   -4.652504|   -4.608107|
+|          36|   -4.520697|   -4.767323|   -4.721105|   -4.661027|
+|          37|   -4.572849|   -4.822260|   -4.788785|   -4.715231|
+|          38|   -4.626155|   -4.872134|   -4.855871|   -4.769261|
+|          39|   -4.680422|   -4.916637|   -4.922179|   -4.822494|
+|          40|   -4.734836|   -4.954269|   -4.985272|   -4.874810|
+|          41|   -4.788092|   -4.983889|   -5.041505|   -4.925137|
+|          42|   -4.839216|   -5.006746|   -5.090439|   -4.973940|
+|          43|   -4.886711|   -5.022649|   -5.128607|   -5.018731|
+|          44|   -4.929100|   -5.033235|   -5.156915|   -5.059280|
+|          45|   -4.965688|   -5.039637|   -5.176825|   -5.095411|
+|          46|   -4.995583|   -5.042698|   -5.189151|   -5.127155|
+|          47|   -5.019141|   -5.043738|   -5.196551|   -5.154789|
+|          48|   -5.036975|   -5.043585|   -5.200867|   -5.178677|
+|          49|   -5.050496|   -5.042991|   -5.204167|   -5.199515|
+|          50|   -5.060751|   -5.042425|   -5.207645|   -5.217847|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1360.95 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|          51|   -5.068789|   -5.042065|   -5.211876|   -5.234169|
+|          52|   -5.074945|   -5.041667|   -5.216071|   -5.248612|
+|          53|   -5.080137|   -5.041529|   -5.220772|   -5.261523|
+|          54|   -5.085254|   -5.041962|   -5.226766|   -5.273279|
+|          55|   -5.090815|   -5.042981|   -5.234294|   -5.284253|
+|          56|   -5.096663|   -5.044211|   -5.242683|   -5.294780|
+|          57|   -5.103190|   -5.045747|   -5.252447|   -5.305284|
+|          58|   -5.110964|   -5.047808|   -5.264093|   -5.315864|
+|          59|   -5.119395|   -5.050047|   -5.276344|   -5.326012|
+|          60|   -5.128007|   -5.052267|   -5.288294|   -5.335381|
+|          61|   -5.136011|   -5.054155|   -5.298776|   -5.343676|
+|          62|   -5.144342|   -5.056049|   -5.309529|   -5.351836|
+|          63|   -5.153382|   -5.058060|   -5.321218|   -5.360203|
+|          64|   -5.163495|   -5.060299|   -5.334185|   -5.368638|
+|          65|   -5.175309|   -5.062900|   -5.349074|   -5.377314|
+|          66|   -5.187890|   -5.065488|   -5.363964|   -5.385452|
+|          67|   -5.201094|   -5.067955|   -5.378555|   -5.393200|
+|          68|   -5.215691|   -5.070505|   -5.393863|   -5.400812|
+|          69|   -5.231954|   -5.073113|   -5.410109|   -5.408343|
+|          70|   -5.249629|   -5.075651|   -5.426641|   -5.415649|
+|          71|   -5.269252|   -5.078187|   -5.443792|   -5.422793|
+|          72|   -5.290442|   -5.080589|   -5.460643|   -5.429579|
+|          73|   -5.313585|   -5.082876|   -5.477309|   -5.436040|
+|          74|   -5.338369|   -5.084975|   -5.493149|   -5.442055|
+|          75|   -5.364054|   -5.086829|   -5.507334|   -5.447456|
+|          76|   -5.391526|   -5.088555|   -5.520453|   -5.452407|
+|          77|   -5.420449|   -5.090121|   -5.532032|   -5.456891|
+|          78|   -5.450309|   -5.091517|   -5.541726|   -5.460855|
+|          79|   -5.482546|   -5.092841|   -5.550312|   -5.464433|
+|          80|   -5.517122|   -5.094079|   -5.557567|   -5.467638|
+|          81|   -5.554619|   -5.095210|   -5.563237|   -5.470441|
+|          82|   -5.592678|   -5.096216|   -5.566851|   -5.472735|
+|          83|   -5.631220|   -5.097135|   -5.568824|   -5.474590|
+|          84|   -5.669532|   -5.097992|   -5.569475|   -5.476056|
+|          85|   -5.707861|   -5.098783|   -5.568707|   -5.477108|
+|          86|   -5.744187|   -5.099501|   -5.566452|   -5.477739|
+|          87|   -5.774103|   -5.100192|   -5.563435|   -5.478137|
+|          88|   -5.794931|   -5.100879|   -5.559885|   -5.478307|
+|          89|   -5.804523|   -5.101575|   -5.555735|   -5.478141|
+|          90|   -5.802528|   -5.102244|   -5.550865|   -5.477746|
+|          91|   -5.789447|   -5.102890|   -5.545456|   -5.477200|
+|          92|   -5.767980|   -5.103569|   -5.540030|   -5.476556|
+|          93|   -5.741034|   -5.104273|   -5.534570|   -5.475827|
+|          94|   -5.711739|   -5.105034|   -5.529321|   -5.475025|
+|          95|   -5.680437|   -5.105763|   -5.523467|   -5.473993|
+|          96|   -5.647472|   -5.106403|   -5.516603|   -5.472670|
+|          97|   -5.614576|   -5.107028|   -5.509321|   -5.471086|
+|          98|   -5.582477|   -5.107639|   -5.501703|   -5.469277|
+|          99|   -5.551474|   -5.108221|   -5.493790|   -5.467289|
+|         100|   -5.522586|   -5.108865|   -5.486255|   -5.465267|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1035.36 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         101|   -5.496160|   -5.109620|   -5.479273|   -5.463213|
+|         102|   -5.471769|   -5.110430|   -5.472669|   -5.461240|
+|         103|   -5.449140|   -5.111273|   -5.466549|   -5.459558|
+|         104|   -5.427545|   -5.112093|   -5.460170|   -5.457771|
+|         105|   -5.407069|   -5.112920|   -5.453636|   -5.455788|
+|         106|   -5.389044|   -5.113989|   -5.448367|   -5.453965|
+|         107|   -5.373661|   -5.115338|   -5.444750|   -5.452565|
+|         108|   -5.358762|   -5.116614|   -5.440448|   -5.450833|
+|         109|   -5.344227|   -5.117792|   -5.435821|   -5.449379|
+|         110|   -5.329977|   -5.118907|   -5.430678|   -5.447719|
+|         111|   -5.316113|   -5.119979|   -5.425080|   -5.445736|
+|         112|   -5.302944|   -5.121077|   -5.419742|   -5.443901|
+|         113|   -5.290933|   -5.122335|   -5.415268|   -5.442349|
+|         114|   -5.279930|   -5.123713|   -5.411407|   -5.440993|
+|         115|   -5.269592|   -5.125113|   -5.407770|   -5.439841|
+|         116|   -5.259509|   -5.126446|   -5.403845|   -5.438727|
+|         117|   -5.249692|   -5.127747|   -5.399701|   -5.437593|
+|         118|   -5.240494|   -5.129116|   -5.395996|   -5.436765|
+|         119|   -5.231955|   -5.130553|   -5.392792|   -5.436299|
+|         120|   -5.223677|   -5.131935|   -5.389490|   -5.435906|
+|         121|   -5.215973|   -5.133393|   -5.386528|   -5.435679|
+|         122|   -5.209171|   -5.135044|   -5.384459|   -5.435875|
+|         123|   -5.202660|   -5.136678|   -5.382490|   -5.436283|
+|         124|   -5.196422|   -5.138307|   -5.380454|   -5.436712|
+|         125|   -5.190816|   -5.140072|   -5.378929|   -5.437383|
+|         126|   -5.185842|   -5.141982|   -5.377942|   -5.438274|
+|         127|   -5.181302|   -5.143964|   -5.377303|   -5.439378|
+|         128|   -5.177270|   -5.146045|   -5.377098|   -5.440704|
+|         129|   -5.173892|   -5.148317|   -5.377453|   -5.442129|
+|         130|   -5.170951|   -5.150674|   -5.378083|   -5.443642|
+|         131|   -5.168938|   -5.153295|   -5.380109|   -5.446168|
+|         132|   -5.166840|   -5.155814|   -5.381301|   -5.447951|
+|         133|   -5.164747|   -5.158299|   -5.381882|   -5.449134|
+|         134|   -5.164074|   -5.161313|   -5.384850|   -5.451771|
+|         135|   -5.163856|   -5.164416|   -5.388261|   -5.454597|
+|         136|   -5.164109|   -5.167612|   -5.392034|   -5.457602|
+|         137|   -5.164638|   -5.170832|   -5.395665|   -5.460383|
+|         138|   -5.165477|   -5.174111|   -5.399474|   -5.463266|
+|         139|   -5.166966|   -5.177605|   -5.404115|   -5.466525|
+|         140|   -5.169147|   -5.181311|   -5.409616|   -5.470124|
+|         141|   -5.171795|   -5.185114|   -5.415425|   -5.473736|
+|         142|   -5.175263|   -5.189180|   -5.422247|   -5.477722|
+|         143|   -5.178850|   -5.193167|   -5.428698|   -5.481433|
+|         144|   -5.182957|   -5.197264|   -5.435594|   -5.485267|
+|         145|   -5.187689|   -5.201514|   -5.443106|   -5.489226|
+|         146|   -5.192559|   -5.205710|   -5.450512|   -5.493157|
+|         147|   -5.197560|   -5.209856|   -5.457779|   -5.497056|
+|         148|   -5.203039|   -5.214097|   -5.465465|   -5.501034|
+|         149|   -5.209039|   -5.218441|   -5.473570|   -5.504971|
+|         150|   -5.215311|   -5.222778|   -5.481767|   -5.508874|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (2976.89 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         151|   -5.221842|   -5.227097|   -5.490058|   -5.512792|
+|         152|   -5.228872|   -5.231481|   -5.498779|   -5.516778|
+|         153|   -5.236404|   -5.235912|   -5.507919|   -5.520837|
+|         154|   -5.243962|   -5.240216|   -5.516687|   -5.524762|
+|         155|   -5.251410|   -5.244373|   -5.524854|   -5.528444|
+|         156|   -5.259378|   -5.248635|   -5.533523|   -5.532124|
+|         157|   -5.267932|   -5.252992|   -5.542774|   -5.535823|
+|         158|   -5.276985|   -5.257384|   -5.552546|   -5.539670|
+|         159|   -5.286460|   -5.261782|   -5.562606|   -5.543511|
+|         160|   -5.296268|   -5.266150|   -5.572715|   -5.547255|
+|         161|   -5.306224|   -5.270433|   -5.582598|   -5.550870|
+|         162|   -5.316526|   -5.274695|   -5.592599|   -5.554444|
+|         163|   -5.327433|   -5.279009|   -5.603030|   -5.557977|
+|         164|   -5.338780|   -5.283304|   -5.613637|   -5.561473|
+|         165|   -5.350226|   -5.287481|   -5.623893|   -5.564840|
+|         166|   -5.361818|   -5.291577|   -5.633880|   -5.568079|
+|         167|   -5.373797|   -5.295655|   -5.643969|   -5.571232|
+|         168|   -5.386245|   -5.299726|   -5.654312|   -5.574355|
+|         169|   -5.399142|   -5.303773|   -5.664834|   -5.577472|
+|         170|   -5.412465|   -5.307784|   -5.675343|   -5.580506|
+|         171|   -5.425665|   -5.311652|   -5.685015|   -5.583295|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         172|   -5.438401|   -5.315330|   -5.693632|   -5.585886|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         173|   -5.450120|   -5.318743|   -5.700851|   -5.588370|
+|         174|   -5.460859|   -5.321942|   -5.706861|   -5.590729|
+|         175|   -5.471200|   -5.325062|   -5.712500|   -5.593026|
+|         176|   -5.481661|   -5.328207|   -5.718390|   -5.595289|
+|         177|   -5.492126|   -5.331353|   -5.724329|   -5.597486|
+|         178|   -5.502811|   -5.334528|   -5.730428|   -5.599610|
+|         179|   -5.513561|   -5.337684|   -5.736517|   -5.601725|
+|         180|   -5.524015|   -5.340768|   -5.742288|   -5.603836|
+|         181|   -5.534170|   -5.343796|   -5.747771|   -5.605911|
+|         182|   -5.544591|   -5.346855|   -5.753534|   -5.607966|
+|         183|   -5.555746|   -5.349993|   -5.759919|   -5.609996|
+|         184|   -5.566934|   -5.353092|   -5.766129|   -5.611975|
+|         185|   -5.578267|   -5.356173|   -5.772308|   -5.613944|
+|         186|   -5.590639|   -5.359331|   -5.779217|   -5.615951|
+|         187|   -5.603328|   -5.362466|   -5.786117|   -5.617949|
+|         188|   -5.615753|   -5.365515|   -5.792615|   -5.619956|
+|         189|   -5.628238|   -5.368528|   -5.798962|   -5.621938|
+|         190|   -5.641306|   -5.371559|   -5.805419|   -5.623841|
+|         191|   -5.655525|   -5.374646|   -5.812450|   -5.625744|
+|         192|   -5.670758|   -5.377740|   -5.819816|   -5.627672|
+|         193|   -5.686131|   -5.380750|   -5.826795|   -5.629604|
+|         194|   -5.701451|   -5.383681|   -5.833306|   -5.631509|
+|         195|   -5.716448|   -5.386528|   -5.839243|   -5.633362|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         196|   -5.731999|   -5.389373|   -5.845134|   -5.635117|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         197|   -5.748157|   -5.392203|   -5.851014|   -5.636825|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         198|   -5.764989|   -5.395011|   -5.856939|   -5.638535|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         199|   -5.782627|   -5.397799|   -5.862929|   -5.640250|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         200|   -5.801715|   -5.400586|   -5.869113|   -5.641958|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1488.64 MB/s)|
++-----------------------------------------------------------------------+
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         201|   -5.821805|   -5.403345|   -5.875209|   -5.643626|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         202|   -5.841911|   -5.406024|   -5.880722|   -5.645235|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         203|   -5.861555|   -5.408614|   -5.885517|   -5.646786|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         204|   -5.881178|   -5.411144|   -5.889925|   -5.648308|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         205|   -5.901964|   -5.413656|   -5.894366|   -5.649814|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         206|   -5.923949|   -5.416150|   -5.898759|   -5.651278|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         207|   -5.946258|   -5.418594|   -5.902853|   -5.652706|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         208|   -5.969528|   -5.421009|   -5.906783|   -5.654096|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         209|   -5.992498|   -5.423363|   -5.910283|   -5.655454|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         210|   -6.015727|   -5.425678|   -5.913545|   -5.656778|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         211|   -6.039580|   -5.427961|   -5.916598|   -5.658068|
+|         212|   -6.064657|   -5.430217|   -5.919497|   -5.659335|
+|         213|   -6.090603|   -5.432437|   -5.922154|   -5.660573|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         214|   -6.116197|   -5.434611|   -5.924496|   -5.661769|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         215|   -6.140824|   -5.436748|   -5.926583|   -5.662941|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         216|   -6.165249|   -5.438854|   -5.928468|   -5.664092|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         217|   -6.190006|   -5.440932|   -5.930154|   -5.665220|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         218|   -6.214371|   -5.442979|   -5.931644|   -5.666328|
+|         219|   -6.237361|   -5.444997|   -5.932932|   -5.667399|
+|         220|   -6.257900|   -5.446985|   -5.934040|   -5.668456|
+|         221|   -6.276658|   -5.448950|   -5.935005|   -5.669485|
+|         222|   -6.292495|   -5.450891|   -5.935878|   -5.670496|
+|         223|   -6.305978|   -5.452799|   -5.936515|   -5.671492|
+|         224|   -6.315961|   -5.454662|   -5.936813|   -5.672463|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         225|   -6.321479|   -5.456489|   -5.936859|   -5.673415|
+|         226|   -6.322732|   -5.458291|   -5.936802|   -5.674352|
+|         227|   -6.320528|   -5.460077|   -5.936732|   -5.675277|
+|         228|   -6.314959|   -5.461839|   -5.936547|   -5.676192|
+|         229|   -6.306079|   -5.463567|   -5.936164|   -5.677093|
+|         230|   -6.293863|   -5.465250|   -5.935566|   -5.677987|
+|         231|   -6.279845|   -5.466907|   -5.934935|   -5.678889|
+|         232|   -6.263631|   -5.468519|   -5.934117|   -5.679787|
+|         233|   -6.247084|   -5.470117|   -5.933337|   -5.680685|
+|         234|   -6.232329|   -5.471730|   -5.932874|   -5.681578|
+|         235|   -6.219610|   -5.473354|   -5.932690|   -5.682462|
+|         236|   -6.207239|   -5.474950|   -5.932456|   -5.683341|
+|         237|   -6.193568|   -5.476486|   -5.931889|   -5.684217|
+|         238|   -6.177857|   -5.477950|   -5.930917|   -5.685092|
+|         239|   -6.161806|   -5.479376|   -5.929874|   -5.685980|
+|         240|   -6.146654|   -5.480790|   -5.929012|   -5.686889|
+|         241|   -6.133502|   -5.482221|   -5.928501|   -5.687806|
+|         242|   -6.121655|   -5.483646|   -5.928153|   -5.688723|
+|         243|   -6.110235|   -5.485042|   -5.927765|   -5.689638|
+|         244|   -6.098322|   -5.486382|   -5.927147|   -5.690562|
+|         245|   -6.087799|   -5.487733|   -5.926827|   -5.691500|
+|         246|   -6.078813|   -5.489099|   -5.926791|   -5.692435|
+|         247|   -6.071237|   -5.490476|   -5.926997|   -5.693373|
+|         248|   -6.064329|   -5.491837|   -5.927244|   -5.694319|
+|         249|   -6.057949|   -5.493180|   -5.927533|   -5.695273|
+|         250|   -6.051771|   -5.494498|   -5.927786|   -5.696235|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (1905.51 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         251|   -6.045796|   -5.495795|   -5.928056|   -5.697225|
+|         252|   -6.040893|   -5.497108|   -5.928632|   -5.698254|
+|         253|   -6.037608|   -5.498456|   -5.929612|   -5.699306|
+|         254|   -6.035939|   -5.499834|   -5.930903|   -5.700363|
+|         255|   -6.036051|   -5.501249|   -5.932505|   -5.701405|
+|         256|   -6.038581|   -5.502717|   -5.934672|   -5.702480|
+|         257|   -6.041812|   -5.504168|   -5.936754|   -5.703530|
+|         258|   -6.044070|   -5.505548|   -5.938398|   -5.704586|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         259|   -6.045002|   -5.506863|   -5.939623|   -5.705652|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         260|   -6.046535|   -5.508193|   -5.941027|   -5.706726|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         261|   -6.049409|   -5.509560|   -5.942752|   -5.707813|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         262|   -6.054024|   -5.510969|   -5.944830|   -5.708906|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         263|   -6.061080|   -5.512432|   -5.947353|   -5.710008|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         264|   -6.069633|   -5.513908|   -5.949969|   -5.711105|
+|         265|   -6.078348|   -5.515356|   -5.952328|   -5.712188|
+|         266|   -6.087720|   -5.516798|   -5.954603|   -5.713254|
+|         267|   -6.098418|   -5.518252|   -5.956945|   -5.714307|
+|         268|   -6.110103|   -5.519707|   -5.959266|   -5.715340|
+|         269|   -6.122188|   -5.521146|   -5.961473|   -5.716361|
+|         270|   -6.135747|   -5.522597|   -5.963720|   -5.717366|
+|         271|   -6.150536|   -5.524047|   -5.965927|   -5.718359|
+|         272|   -6.166705|   -5.525499|   -5.968102|   -5.719344|
+|         273|   -6.183352|   -5.526938|   -5.970086|   -5.720315|
+|         274|   -6.200190|   -5.528362|   -5.971883|   -5.721279|
+|         275|   -6.217477|   -5.529779|   -5.973542|   -5.722230|
+|         276|   -6.235390|   -5.531189|   -5.975052|   -5.723160|
+|         277|   -6.253734|   -5.532591|   -5.976391|   -5.724057|
+|         278|   -6.273302|   -5.533992|   -5.977625|   -5.724918|
+|         279|   -6.293480|   -5.535379|   -5.978695|   -5.725753|
+|         280|   -6.312759|   -5.536746|   -5.979535|   -5.726551|
+|         281|   -6.330484|   -5.538097|   -5.980160|   -5.727316|
+|         282|   -6.345899|   -5.539434|   -5.980607|   -5.728055|
+|         283|   -6.358776|   -5.540761|   -5.980903|   -5.728769|
+|         284|   -6.368958|   -5.542078|   -5.981057|   -5.729457|
+|         285|   -6.376590|   -5.543385|   -5.981089|   -5.730135|
+|         286|   -6.380159|   -5.544694|   -5.980938|   -5.730748|
+|         287|   -6.381297|   -5.545978|   -5.980658|   -5.731386|
+|         288|   -6.378618|   -5.547236|   -5.980160|   -5.732001|
+|         289|   -6.371956|   -5.548480|   -5.979495|   -5.732578|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         290|   -6.362177|   -5.549719|   -5.978762|   -5.733114|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         291|   -6.349309|   -5.550935|   -5.977838|   -5.733616|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         292|   -6.333715|   -5.552122|   -5.976726|   -5.734084|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         293|   -6.316693|   -5.553305|   -5.975576|   -5.734523|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         294|   -6.300132|   -5.554509|   -5.974585|   -5.734943|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         295|   -6.283854|   -5.555717|   -5.973619|   -5.735339|
+|         296|   -6.267297|   -5.556906|   -5.972555|   -5.735722|
+|         297|   -6.250354|   -5.558077|   -5.971372|   -5.736085|
+|         298|   -6.233062|   -5.559225|   -5.970058|   -5.736435|
+|         299|   -6.216307|   -5.560372|   -5.968772|   -5.736778|
+|         300|   -6.200245|   -5.561519|   -5.967503|   -5.737103|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (2071.35 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         301|   -6.184359|   -5.562647|   -5.966132|   -5.737403|
+|         302|   -6.168370|   -5.563748|   -5.964617|   -5.737682|
+|         303|   -6.152246|   -5.564819|   -5.962964|   -5.737945|
+|         304|   -6.137338|   -5.565908|   -5.961490|   -5.738196|
+|         305|   -6.124199|   -5.567036|   -5.960315|   -5.738437|
+|         306|   -6.112119|   -5.568172|   -5.959234|   -5.738664|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         307|   -6.100641|   -5.569302|   -5.958139|   -5.738876|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         308|   -6.088814|   -5.570381|   -5.956788|   -5.739075|
+y+ < 1 in 2 points. No problem, but you can increase your near-wall mesh size.
+|         309|   -6.077225|   -5.571444|   -5.955400|   -5.739267|
+|         310|   -6.067107|   -5.572554|   -5.954348|   -5.739453|
+|         311|   -6.057424|   -5.573655|   -5.953294|   -5.739634|
+|         312|   -6.048209|   -5.574754|   -5.952279|   -5.739817|
+|         313|   -6.039659|   -5.575861|   -5.951347|   -5.739993|
+|         314|   -6.030956|   -5.576929|   -5.950223|   -5.740152|
+|         315|   -6.022684|   -5.577998|   -5.949158|   -5.740302|
+|         316|   -6.015658|   -5.579118|   -5.948453|   -5.740448|
+|         317|   -6.009211|   -5.580242|   -5.947844|   -5.740588|
+|         318|   -6.002790|   -5.581334|   -5.947127|   -5.740717|
+|         319|   -5.997222|   -5.582458|   -5.946621|   -5.740834|
+|         320|   -5.993273|   -5.583660|   -5.946598|   -5.740944|
+|         321|   -5.990257|   -5.584882|   -5.946745|   -5.741046|
+|         322|   -5.988152|   -5.586122|   -5.947052|   -5.741135|
+|         323|   -5.986656|   -5.587365|   -5.947422|   -5.741220|
+|         324|   -5.985932|   -5.588623|   -5.947925|   -5.741301|
+|         325|   -5.986732|   -5.589948|   -5.948819|   -5.741372|
+|         326|   -5.988233|   -5.591270|   -5.949740|   -5.741422|
+|         327|   -5.989361|   -5.592525|   -5.950353|   -5.741447|
+|         328|   -5.990115|   -5.593720|   -5.950727|   -5.741450|
+|         329|   -5.991434|   -5.594927|   -5.951245|   -5.741439|
+|         330|   -5.994025|   -5.596190|   -5.952130|   -5.741410|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         331|   -5.997419|   -5.597457|   -5.953123|   -5.741364|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         332|   -6.001346|   -5.598710|   -5.954108|   -5.741304|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         333|   -6.005446|   -5.599927|   -5.954978|   -5.741226|
+|         334|   -6.009758|   -5.601111|   -5.955765|   -5.741133|
+|         335|   -6.014689|   -5.602291|   -5.956611|   -5.741028|
+|         336|   -6.020947|   -5.603511|   -5.957720|   -5.740907|
+|         337|   -6.027369|   -5.604688|   -5.958678|   -5.740760|
+|         338|   -6.033580|   -5.605807|   -5.959413|   -5.740594|
+|         339|   -6.040617|   -5.606938|   -5.960265|   -5.740400|
+|         340|   -6.047571|   -5.608017|   -5.960920|   -5.740175|
+|         341|   -6.054517|   -5.609055|   -5.961437|   -5.739926|
+|         342|   -6.062919|   -5.610125|   -5.962194|   -5.739658|
+|         343|   -6.073146|   -5.611225|   -5.963169|   -5.739375|
+|         344|   -6.084585|   -5.612311|   -5.964116|   -5.739075|
+|         345|   -6.096780|   -5.613363|   -5.964935|   -5.738752|
+|         346|   -6.108984|   -5.614355|   -5.965514|   -5.738409|
+|         347|   -6.120630|   -5.615280|   -5.965814|   -5.738046|
+|         348|   -6.131930|   -5.616156|   -5.965925|   -5.737663|
+|         349|   -6.143092|   -5.616998|   -5.965899|   -5.737252|
+|         350|   -6.154225|   -5.617809|   -5.965763|   -5.736815|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (2268.86 MB/s)|
++-----------------------------------------------------------------------+
++----------------------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|      rms[W]|
++----------------------------------------------------------------+
+|         351|   -6.166034|   -5.618611|   -5.965619|   -5.736355|
+|         352|   -6.178873|   -5.619412|   -5.965487|   -5.735872|
+|         353|   -6.192897|   -5.620205|   -5.965354|   -5.735374|
+|         354|   -6.208212|   -5.620987|   -5.965194|   -5.734861|
+|         355|   -6.223887|   -5.621734|   -5.964891|   -5.734332|
+|         356|   -6.239604|   -5.622447|   -5.964446|   -5.733787|
+|         357|   -6.254811|   -5.623125|   -5.963832|   -5.733221|
+|         358|   -6.269748|   -5.623779|   -5.963102|   -5.732633|
+|         359|   -6.285977|   -5.624434|   -5.962377|   -5.732029|
+|         360|   -6.303290|   -5.625080|   -5.961615|   -5.731408|
+|         361|   -6.320759|   -5.625706|   -5.960746|   -5.730768|
+|         362|   -6.338209|   -5.626309|   -5.959775|   -5.730115|
+|         363|   -6.356153|   -5.626903|   -5.958736|   -5.729451|
+|         364|   -6.374805|   -5.627490|   -5.957642|   -5.728778|
+|         365|   -6.394001|   -5.628064|   -5.956474|   -5.728095|
+|         366|   -6.411578|   -5.628609|   -5.955177|   -5.727400|
+|         367|   -6.428235|   -5.629145|   -5.953799|   -5.726693|
+|         368|   -6.444242|   -5.629675|   -5.952364|   -5.725970|
+|         369|   -6.459251|   -5.630194|   -5.950866|   -5.725236|
+|         370|   -6.472720|   -5.630702|   -5.949277|   -5.724484|
+|         371|   -6.484121|   -5.631207|   -5.947717|   -5.723758|
+|         372|   -6.493200|   -5.631697|   -5.945994|   -5.722995|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         373|   -6.499036|   -5.632179|   -5.944212|   -5.722226|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         374|   -6.501569|   -5.632656|   -5.942400|   -5.721456|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         375|   -6.500943|   -5.633123|   -5.940538|   -5.720680|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         376|   -6.497243|   -5.633593|   -5.938655|   -5.719899|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         377|   -6.490920|   -5.634057|   -5.936720|   -5.719112|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         378|   -6.481722|   -5.634504|   -5.934692|   -5.718319|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         379|   -6.469827|   -5.634942|   -5.932607|   -5.717527|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         380|   -6.455912|   -5.635381|   -5.930500|   -5.716736|
+y+ < 1 in 1 points. No problem, but you can increase your near-wall mesh size.
+|         381|   -6.440660|   -5.635820|   -5.928381|   -5.715946|
+|         382|   -6.423977|   -5.636244|   -5.926197|   -5.715150|
+|         383|   -6.406291|   -5.636659|   -5.923951|   -5.714346|
+|         384|   -6.388618|   -5.637080|   -5.921710|   -5.713546|
+|         385|   -6.371596|   -5.637513|   -5.919525|   -5.712757|
+|         386|   -6.354496|   -5.637940|   -5.917322|   -5.711976|
+|         387|   -6.336654|   -5.638343|   -5.915031|   -5.711199|
+|         388|   -6.319348|   -5.638754|   -5.912767|   -5.710428|
+|         389|   -6.302318|   -5.639162|   -5.910473|   -5.709656|
+|         390|   -6.285666|   -5.639568|   -5.908166|   -5.708886|
+|         391|   -6.269865|   -5.639992|   -5.905910|   -5.708123|
+|         392|   -6.254498|   -5.640413|   -5.903647|   -5.707366|
+|         393|   -6.239482|   -5.640825|   -5.901364|   -5.706615|
+|         394|   -6.224972|   -5.641237|   -5.899081|   -5.705870|
+|         395|   -6.210041|   -5.641611|   -5.896687|   -5.705134|
+|         396|   -6.194268|   -5.641930|   -5.894136|   -5.704405|
+|         397|   -6.179349|   -5.642269|   -5.891671|   -5.703691|
+|         398|   -6.164723|   -5.642592|   -5.889192|   -5.702989|
+|         399|   -6.150248|   -5.642891|   -5.886663|   -5.702297|
+
+----------------------------- Solver Exit -------------------------------
+
+Maximum number of iterations reached (ITER = 400) before convergence.
++-----------------------------------------------------------------------+
+|      Convergence Field     |     Value    |   Criterion  |  Converged |
++-----------------------------------------------------------------------+
+|                      rms[P]|      -6.15025|         < -14|          No|
++-----------------------------------------------------------------------+
+-------------------------------------------------------------------------
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |restart.csv                        |
+|                                   |                     (2382.25 MB/s)|
++-----------------------------------------------------------------------+
+
+--------------------------- Finalizing Solver ---------------------------
+Deleted CNumerics container.
+Deleted CIntegration container.
+Deleted CSolver container.
+Deleted CIteration container.
+Deleted CInterface container.
+Deleted CGeometry container.
+Deleted CFreeFormDefBox class.
+Deleted CSurfaceMovement class.
+Deleted CVolumetricMovement class.
+Deleted CConfig container.
+Deleted nInst container.
+Deleted COutput class.
+-------------------------------------------------------------------------
+
+
+-------------------------- Performance Summary --------------------------
+Simulation totals:
+   Wall-clock time (hrs):      1.4529 |            Core-hrs:      1.4529
+                   Cores:           1 |          DOFs/point:           8
+             Points/core:       75396 |   Ghost points/core:           0
+ Ghost/Owned Point Ratio:           0 | 
+
+Preprocessing phase:
+       Preproc. Time (s):       8.667 |   Preproc. Time (%):    0.165703
+
+Compute phase:
+        Compute Time (s):     5220.68 |    Compute Time (%):     99.8136
+         Iteration count:         400 |         Avg. s/iter:     13.0517
+     Core-s/iter/Mpoints:     173.109 |           Mpoints/s:  0.00577672
+
+Output phase:
+         Output Time (s):       1.082 |     Output Time (%):   0.0206866
+            Output count:           1 |       Avg. s/output:       1.082
+-------------------------------------------------------------------------
+
+
+------------------------- Exit Success (SU2_CFD) ------------------------
+

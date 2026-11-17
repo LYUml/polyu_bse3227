@@ -1,0 +1,82 @@
+{
+  "source_sha256": "9e89507fb97093577af15a4dfa0c7a1a01f14e0cdc83e34137a4a6715925ce93",
+  "source_locator": "page1,round-duct illustrative sizing table;visually inspected",
+  "case_count": 8,
+  "conditions": {
+    "density_kg_m3": 1.2,
+    "roughness_m": 9e-05,
+    "viscosity_Pa_s": 1.81e-05
+  },
+  "viscosity_classification": "declared comparison assumption;not supplied in this example",
+  "rows": [
+    {
+      "section": "A",
+      "source_flow_m3_s": 0.7968,
+      "source_diameter_m": 0.45,
+      "source_gradient_Pa_m": 0.595,
+      "calculated_gradient_Pa_m": 0.5965070932140196,
+      "relative_difference": 0.002532929771461597
+    },
+    {
+      "section": "C",
+      "source_flow_m3_s": 0.2158,
+      "source_diameter_m": 0.27,
+      "source_gradient_Pa_m": 0.665,
+      "calculated_gradient_Pa_m": 0.6595867016243337,
+      "relative_difference": -0.008140298309272612
+    },
+    {
+      "section": "D",
+      "source_flow_m3_s": 0.581,
+      "source_diameter_m": 0.39,
+      "source_gradient_Pa_m": 0.668,
+      "calculated_gradient_Pa_m": 0.672047640647726,
+      "relative_difference": 0.006059342287014974
+    },
+    {
+      "section": "F",
+      "source_flow_m3_s": 0.2407,
+      "source_diameter_m": 0.29,
+      "source_gradient_Pa_m": 0.572,
+      "calculated_gradient_Pa_m": 0.5679864431321089,
+      "relative_difference": -0.007016707810998368
+    },
+    {
+      "section": "G",
+      "source_flow_m3_s": 0.3403,
+      "source_diameter_m": 0.33,
+      "source_gradient_Pa_m": 0.571,
+      "calculated_gradient_Pa_m": 0.5694104555519933,
+      "relative_difference": -0.0027837906269818392
+    },
+    {
+      "section": "I",
+      "source_flow_m3_s": 0.1826,
+      "source_diameter_m": 0.26,
+      "source_gradient_Pa_m": 0.591,
+      "calculated_gradient_Pa_m": 0.5844869968082366,
+      "relative_difference": -0.01102030996914281
+    },
+    {
+      "section": "J",
+      "source_flow_m3_s": 0.1577,
+      "source_diameter_m": 0.24,
+      "source_gradient_Pa_m": 0.669,
+      "calculated_gradient_Pa_m": 0.6611710617664686,
+      "relative_difference": -0.011702448779568728
+    },
+    {
+      "section": "L",
+      "source_flow_m3_s": 0.1577,
+      "source_diameter_m": 0.24,
+      "source_gradient_Pa_m": 0.669,
+      "calculated_gradient_Pa_m": 0.6611710617664686,
+      "relative_difference": -0.011702448779568728
+    }
+  ],
+  "maximum_absolute_relative_difference": 0.011702448779568728,
+  "engineering_acceptance_tolerance": null,
+  "scope": "Independent classroom reference-example corroboration with existing pinned fluids Colebrook solver;not project chart readings or physical applicability",
+  "scanned_chart_readings_verified": false,
+  "design_accepted": false
+}

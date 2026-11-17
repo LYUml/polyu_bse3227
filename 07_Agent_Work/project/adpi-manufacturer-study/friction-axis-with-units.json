@@ -1,0 +1,96 @@
+{
+  "source": {
+    "path": "../sources/D002/Space air diffusion design and air duct sizing.pdf",
+    "sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "locator": "Original classroom PDF p9; Figure10 ASHRAE2013 round-duct friction chart; axis calibration only"
+  },
+  "image": {
+    "path": "duct-source-09.png",
+    "sha256": "04302249a133239105da8af93eb898ca5730ccb1f2f6dd761a67961a37411c8b"
+  },
+  "calibration": {
+    "x_scale": "log10",
+    "y_scale": "log10",
+    "x1": {
+      "pixel": [
+        155,
+        1032
+      ],
+      "value": 20
+    },
+    "x2": {
+      "pixel": [
+        1425,
+        1032
+      ],
+      "value": 200000
+    },
+    "y1": {
+      "pixel": [
+        155,
+        1032
+      ],
+      "value": 0.1
+    },
+    "y2": {
+      "pixel": [
+        155,
+        128
+      ],
+      "value": 100
+    }
+  },
+  "pixel_uncertainty": 3,
+  "checks": [
+    {
+      "pixel": [
+        791,
+        731
+      ],
+      "expected": [
+        2000,
+        1
+      ]
+    },
+    {
+      "pixel": [
+        1013,
+        430
+      ],
+      "expected": [
+        10000,
+        10
+      ]
+    }
+  ],
+  "points": [
+    {
+      "id": "grid-2000-1",
+      "pixel": [
+        791,
+        731
+      ],
+      "series": "axis grid reference",
+      "interpretation": "Visually identified grid reference only; not duct diameter or friction curve extraction"
+    },
+    {
+      "id": "grid-10000-10",
+      "pixel": [
+        1013,
+        430
+      ],
+      "series": "axis grid reference",
+      "interpretation": "Visually identified grid reference only; not a selected duct performance point"
+    }
+  ],
+  "axes": {
+    "x": {
+      "quantity": "Air quantity",
+      "unit": "L/s"
+    },
+    "y": {
+      "quantity": "Friction loss gradient",
+      "unit": "Pa/m"
+    }
+  }
+}

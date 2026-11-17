@@ -1,0 +1,38 @@
+ 
+16 
+L  = length of the duct, 100 ft 
+hD  = hydraulic diameter of the duct, ft 
+airρ  = constant, density of air, lb/ft3 
+waterρ  = constant, density of water, lb/ft3 
+V  = velocity of the air, ft/s 
+cg  = conversion factor, 32.174 lbm ∙ ft/lbf ∙ s2 
+ 
+For each case, the team multiplied the head loss by the lengths of the inlet and outlet ducts to 
+obtain the normal, fully developed losses associated with them, as shown in Equation 5. Because 
+the simulation results were reported in Pascals, the team converted the loss in IWC to Pascals by 
+multiplying by 248.84. 
+ 
+100
+84.248⋅⋅=∆ LHP w duct , (5) 
+where 
+ductP∆  = inlet or outlet duct pressure drop, Pa 
+wH  = head loss rate, IWC/100 ft 
+L  = length of the duct, ft 
+ 
+2.4.4 Balancing Losses 
+The flow splits have direct implications on the amount of balancing required. The natural flow 
+split is equal to the ratio of the outlet’s area to the total area of all the outlets. The target flow 
+split is the flow split determined by the designer. Balancing is needed when a design does not 
+achieve an ideal natural split due to limitations in standard duct sizes and the layout of the 
+fittings. In junction boxes, this design failure must be made up with additional balancing. The 
+intent of a high performance system designer is to minimize the amount of balancing necessary 
+to maximize efficiency.  
+In any given case, at least one outlet will not need additional resistance. In cases where the 
+layout is symmetrical, more than one outlet may not need additional resistance. Balanced 
+conditions are compared to ACCA Manual D values because given EL values assume balanced 
+flow values. Natural flows that were within 10% of the target were deemed to be acceptable and 
+were not further balanced because ACCA Manual D is a conservative approximation. In pre-
+balanced conditions, each outlet will have a different EL.  
+2.5 Comparison to ACCA Manual D 
+ACCA Manual D provides EL values for duct fittings, which are used to determine the amount 
+of pressure the blower must overcome in an HVAC system. These values are supplied with 

@@ -1,0 +1,2 @@
+FoamFile {format ascii;class dictionary;object extrudeMeshDict;}
+constructFrom mesh;sourceCase "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-outlet-extension-trial";sourcePatches (air_outlet_0 air_outlet_1 air_outlet_2 air_outlet_3);zoneNames (patchNames);flipNormals false;extrudeModel linearNormal;nLayers 25;expansionRatio 1;linearNormalCoeffs {thickness 0.25;}mergeFaces false;mergeTol 0;

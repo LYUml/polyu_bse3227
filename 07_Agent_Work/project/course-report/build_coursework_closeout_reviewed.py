@@ -1,0 +1,83 @@
+from pathlib import Path
+import csv,json,hashlib,math,shutil
+from collections import defaultdict
+from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer,Table,TableStyle,PageBreak
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import A4
+from pypdf import PdfReader,PdfWriter
+B=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227');R=B/'07_Agent_Work/runs/coursework-closeout-reviewed';R.mkdir(exist_ok=False)
+paths={'online':B/'05_Calculations/Connection_Layout/Online Ductulator Check.csv','ratios':B/'05_Calculations/Connection_Layout/Diffuser Course Ratio Check.csv','ducts':B/'05_Calculations/Connection Layout Duct Sizing.csv','vav':B/'05_Calculations/Connection_Layout/VAV Connection Schedule.csv','plan':B/'03_Design_Drawings/Connection_Layout/Supply Air Distribution.pdf','allocation':B/'07_Agent_Work/runs/vav-recenter-design-reviewed/delivery/allocation/allocation.json'}
+paths['flex_budget']=B/'07_Agent_Work/runs/current-flex-length-budget/review.json'
+paths['hk_flex_design']=B/'05_Calculations/Connection_Layout/Flexible Connection Design Budget.json'
+paths['course_basis']=B/'07_Agent_Work/project/coursework-proportionate-design-decision.json'
+paths['native_check']=B/'05_Calculations/Connection_Layout/Final Native Drawing Check.json'
+paths['original_dwg']=B/'03_Design_Drawings/Connection_Layout/Supply Air Distribution.dwg'
+paths['kselect_check']=B/'07_Agent_Work/runs/current-course-kselect-review/review.json'
+paths['kselect_ratios']=B/'07_Agent_Work/runs/current-course-kselect-review/Native K-Select Ratio Check.csv'
+kselect=json.loads(paths['kselect_check'].read_text());assert kselect['native_conditions']==49 and kselect['directional_operating_checks']==640 and kselect['all640_reported_native_ratios_within_classroom_interval']
+previous=B/'04_Final_Report/Connection_Layout/BSE3227 HVAC Mini-Design.pdf'
+shutil.copy2(previous,R/'Previous Coursework Report.pdf')
+native_check=json.loads(paths['native_check'].read_text());assert hashlib.sha256(paths['original_dwg'].read_bytes()).hexdigest()==native_check['original_dwg_sha256'];assert native_check['native_geometry']['generated_native_correspondence'] and native_check['fresh_flex_check']['routes']==80 and native_check['visual_review']['actual_A1_plot_inspected']
+hashes={k:hashlib.sha256(p.read_bytes()).hexdigest() for k,p in paths.items()}
+def read(k):return list(csv.DictReader(paths[k].open()))
+a=read('ratios');duct=read('ducts');vav=read('vav');online={r['Section']:r for r in read('online')};allocation=json.loads(paths['allocation'].read_text());terms={t['id']:t for t in allocation['terminals']};assert len(a)==640 and len(duct)==47 and len(vav)==20 and len(terms)==80
+by=defaultdict(list)
+for row in a:by[row['terminal']].append(row)
+assert set(by)==set(terms)
+for v in vav:
+ ids=v['Diffuser outlets'].split(', ');assert len(ids)==int(v['Outlets'])==4;assert abs(sum(terms[i]['maximum_flow_L_s'] for i in ids)-float(v['Qmax L/s']))<=.050001
+q=sum(t['maximum_flow_L_s'] for t in terms.values());assert abs(q-12000.372763419484)<1e-8
+styles=getSampleStyleSheet();styles['Normal'].fontSize=9;styles['Normal'].leading=12;styles['Title'].fontSize=20;story=[]
+def p(t,style='Normal'):story.extend([Paragraph(t,styles[style]),Spacer(1,7)])
+def page(title):
+ if story:story.append(PageBreak())
+ p('BSE3227 HVAC Mini-Design','Heading3');p(title,'Title')
+def table(head,rows,widths):
+ t=Table([head]+rows,colWidths=widths,repeatRows=1,hAlign='LEFT');t.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#153d50')),('TEXTCOLOR',(0,0),(-1,0),colors.white),('FONTNAME',(0,0),(-1,0),'Helvetica-Bold'),('FONTSIZE',(0,0),(-1,-1),8),('LEADING',(0,0),(-1,-1),10),('TOPPADDING',(0,0),(-1,-1),3),('BOTTOMPADDING',(0,0),(-1,-1),3),('GRID',(0,0),(-1,-1),.3,colors.HexColor('#c6cfd4')),('VALIGN',(0,0),(-1,-1),'MIDDLE')]));story.append(t)
+page('Design basis and scope')
+p('Open-plan office supply-air layout with 20 VAV groups and 80 Krueger 1400/51400 four-cone diffusers. This report uses the adopted connection layout throughout: 47 rigid duct sections, unchanged diffuser positions and flow allocation, and the matching VAV connection schedule.')
+table(['Parameter','Adopted basis'],[['Load area','1022 m2, supplied plan annotation'],['Total cooling allowance','189 W/m2, classroom written guide p.1'],['Sensible heat factor','Approximately 0.90, classroom guide p.1'],['Room / supply temperature','24 / 12 deg C, design assumptions'],['Density / specific heat','1.20 kg/m3 / 1006 J/(kg K), adopted properties'],['Minimum airflow','40% of maximum, assignment task 2'],['Diffuser','1400/51400; 600 x 600 mm; 8-inch neck; no damper'],['Classroom ratio criterion','T0.25/L = 1.0-3.4, guide p.5'],['Main / branch speed limits','10 / 8 m/s, guide p.7'],['Friction / aspect limits','1.23 Pa/m upper limit; rectangular ratio <=4']],[160,350])
+p('For this preliminary coursework, the classroom louvered-diffuser method and T0.25/L interval of 1.0-3.4 are adopted as the design check. The estimated sensible allowance is 170.1 W/m2, 6.3% above the printed table upper value of 160 W/m2. Applying the classroom interval at this allowance is an explicit design approximation, not a teacher-issued exemption or an independently predicted ADPI percentage. The allowance, heat balance and required 1400/51400 product family are unchanged.')
+p('The written classroom guide is used consistently: 189 W/m2 is the total cooling allowance and 0.90 is the approximate sensible heat factor. The resulting preliminary sensible allowance is 170.1 W/m2.')
+page('Cooling load and airflow')
+p('Total cooling = 1022 x 189 = <b>193.158 kW thermal</b>. Preliminary sensible cooling = 193.158 x 0.90 = <b>173.8422 kW thermal</b>. These are not electrical input ratings.')
+p('Q = sensible cooling / [density x specific heat x (room temperature - supply temperature)]. Adopted values give <b>12000.373 L/s maximum</b> and <b>4800.149 L/s minimum</b>. The supplied load area and the interpreted geometric floor area are distinct: allocation proportions distribute the supplied total and do not establish a surveyed net area.')
+p('Each VAV flow is the sum of its four assigned diffuser flows. All 80 identities and exact maximum/minimum flows reconcile to the same allocation used by the connection layout. Displayed schedule flows are rounded; unrounded values control calculations.')
+
+p('The layout uses twenty VAV groups, each serving four diffusers. Rigid supply sections are sized in the accompanying schedule; D06, D13 and D20 use 550 x 350 mm. Connection geometry and flow allocation are consistent with the appended single-line drawing.')
+p('All 80 straight XY flexible connections were reconstructed from the saved/reopened drawing. The longest is 2.873 m. Adopting an additional 0.50 m per connection for preliminary routing gives a maximum design budget of 3.373 m. The design limit is 4.00 m under the ordinary connection-length provision of FSD Circular 2/2023, paragraph 7.2, stricter than the assignment 5 m limit. The minimum conditional margin is 0.627 m. The allowance is not a measured vertical offset or installed slack; final routing must remain within 4 m and avoid fire-resisting barriers.')
+p('The following schedules and appended plan use this same scenario. Earlier 49-section reports and later detailed CFD/IFC research describe other scopes and are not substituted for these values.')
+page('Diffuser selection and classroom checks')
+p('The catalogue B1-12 metric table provides horizontal isothermal throws at 0.75, 0.50 and 0.25 m/s. T0.25 is the third throw. Piecewise linear interpolation is used only between adjacent published flow rows. The selected 8-inch table covers both operating flows for every diffuser.')
+p('L is measured in each principal plan direction to a boundary or to the midplane between opposing outlets. All 320 directional lengths reconcile with the adopted source polygon and terminal centers: 40 terminate at the polygon boundary and 280 at opposing-outlet midplanes. Wall/door interpretation, original scale and ceiling/jet conditions remain assumptions under review.')
+p('The original catalogue calculation gives 640 ratios of <b>1.1098 to 3.2245</b>. A separate native Krueger GRD check now covers all 160 terminal operating cases through 49 distinct whole-CFM inputs. Model 1400, 24 x 24 panel, 8-inch neck, F23 T-Bar, horizontal 50 fpm throw were verified in every native report. Native reported throws give 640 ratios of <b>1.2066 to 3.2797</b>, also inside the classroom interval.')
+p('Native inputs are rounded to whole CFM; the greatest change from the prescribed flow is 0.2331 L/s. Native throw differs from the original metric-table interpolation by up to 0.2451 m at equal effective flow. Both result sets are retained as separate sources. Display precision is finite; the remaining numerical differences have not been assigned a verified cause. The native report labels selected throw as metres, but its imperial table establishes feet; conversion is checked independently.')
+p('All tabulated maximum/minimum cases meet the adopted classroom ratio interval. The load-range approximation stated above remains part of the design basis. The manufacturer identifies the 1400 as a Type 3 circular ceiling pattern; the classroom category is retained only for this assignment method, not silently equated with a manufacturer ADPI curve. Native pressure is treated as reported total pressure following the publisher report convention; it is not a complete fan-pressure calculation. A low-flow NC dash remains a qualified unknown.')
+table(['Critical course case','Effective input','Native throw','Native T/L'],[['SD-69 south, maximum','331 CFM','15 ft / 4.5720 m','3.2797'],['SD-60 south, minimum','107 CFM','8 ft / 2.4384 m','1.2066']],[170,110,140,90])
+
+p('Schedule ratios below are directional extremes; all four L values are reported separately. A satisfied classroom ratio is not a claim of independently certified ADPI >=80%.')
+page('Diffuser schedule')
+for start in range(0,80,40):
+ if start:page('Diffuser schedule (continued)')
+ data=[]
+ for ident in sorted(by,key=lambda x:int(x.split('-')[1]))[start:start+40]:
+  rs=by[ident];ma=[r for r in rs if r['case']=='maximum'];mi=[r for r in rs if r['case']=='minimum'];data.append([ident,f"{float(ma[0]['flow_L_s']):.2f}",f"{float(mi[0]['flow_L_s']):.2f}",f"{float(ma[0]['T025_m']):.3f}",f"{float(mi[0]['T025_m']):.3f}",f"{min(float(r['ratio']) for r in ma):.3f}-{max(float(r['ratio']) for r in ma):.3f}",f"{min(float(r['ratio']) for r in mi):.3f}-{max(float(r['ratio']) for r in mi):.3f}"])
+ table(['Outlet','Qmax L/s','Qmin L/s','Tmax m','Tmin m','Max T/L','Min T/L'],data,[49,65,65,55,55,110,111])
+for start in range(0,80,40):
+ page('Characteristic lengths' if start==0 else 'Characteristic lengths (continued)');p('Metres, from diffuser center. Directions follow the appended plan. These are interpreted plan-design values, not surveyed installed jet paths.');data=[]
+ for ident in sorted(by,key=lambda x:int(x.split('-')[1]))[start:start+40]:
+  rs={r['direction']:r for r in by[ident] if r['case']=='maximum'};data.append([ident]+[f"{float(rs[k]['L_m']):.4f}" for k in ['west','east','south','north']])
+ table(['Outlet','West L m','East L m','South L m','North L m'],data,[78,108,108,108,108])
+page('VAV grouping and connections');p('All twenty groups serve four diffusers. Lengths are minimum/maximum straight XY connections for the group, not installed flexible-duct lengths.');table(['VAV','Diffuser outlets','Qmax','Qmin','Plan range m'],[[v['VAV'],v['Diffuser outlets'],v['Qmax L/s'],v['Qmin L/s'],v['Min plan m']+'-'+v['Max plan m']] for v in vav],[58,230,62,62,98])
+for start in range(0,len(duct),25):
+ page('Supply duct sizing' if start==0 else 'Supply duct sizing (continued)');p('Rectangular area controls velocity. Online Pa/m is the actual result from the assignment-linked ductulator.com/metric/ (V1.0.8); Calc Pa/m retains the independent equivalent-round calculation. Adopted upper friction limit is 1.23 Pa/m, within the classroom 0.65-1.23 recommendation. Three lengthened sections have stricter inherited compensation caps. Section friction is not complete fitting/flex/equipment pressure or fan duty.');table(['Section','Flow L/s','W x H mm','Speed m/s','Online Pa/m','Calc Pa/m','Aspect'],[[r['Section'],f"{float(r['Flow L/s']):.2f}",f"{float(r['Width mm']):.0f} x {float(r['Height mm']):.0f}",f"{float(r['Velocity m/s']):.3f}",online[r['Section']]['Online friction display Pa/m'],f"{float(r['Friction Pa/m']):.4f}",f"{float(r['Aspect ratio']):.2f}"] for r in duct[start:start+25]],[54,76,104,68,78,78,52])
+page('References and remaining checks')
+for t in ['Assignment brief: tasks 1-4; supplied architectural plan and 1022 m2 annotation.','Classroom guide, Space air diffusion design and air duct sizing: pp. 1, 4, 5, 7-9. Current Canvas file 320901 matches the preserved local original.','Classroom recording, 21 October 2026: diffuser category, ratio/interpolation method and assignment duct-sizing scope. The written guide controls the adopted load calculation.','Krueger 1400/51400 Performance Data, 2012, B1-12: 600 x 600 mm panel, no damper, 8-inch neck, metric horizontal isothermal throw.','Krueger GRD 10.0.2 native performance reports, 17 November 2026: 49 distinct inputs for all current maximum/minimum demands. Independent PDF-coordinate checks reconcile 2,401 values. Companion Native K-Select Ratio Check.csv retains effective CFM, both throw sources, directional ratios and native-report hashes.','Online Ductulator (Metric), https://ductulator.com/metric/, V1.0.8. Original brief p.2 hyperlink. Fixed Q, width and height inputs observed through the native browser for all 47 sections; exact duplicates reuse the same output. Website air properties are not exposed in its help.','A copy of the adopted single-line DWG was saved and reopened in AutoCAD. Its generated geometry was preserved, and all 80 flexible-route XY lengths match the calculation sources. The A1 plot was reviewed: at 1:100, the 100 mm reference measures 99.991 mm. The appended plan matches the reviewed plot. This whole-sheet check does not independently verify every fine annotation or installed geometry.'] :p(t)
+p('<b>Design scope:</b> This is a preliminary coursework design using the stated empirical-load and classroom-ratio approximation. Wall/door interpretation, ceiling/routing allowance, actual installed flexible lengths and product installation remain to be checked before construction. FSD Circular 2/2023, paragraph 7.2, supplies the adopted ordinary 4 m flexible-connection limit; paragraphs 7.3-7.4 restrict main-distribution use, fire-resisting penetrations and direct damper attachment. The design does not claim complete statutory approval. All 47 sections meet the selected duct-sizing limits. Full fan/system pressure and supplementary manufacturer/CFD studies are outside this assignment closeout.')
+def footer(c,doc):c.setFont('Helvetica',8);c.setFillColor(colors.grey);c.drawString(42,24,'BSE3227 HVAC Mini-Design');c.drawRightString(A4[0]-42,24,str(doc.page))
+body=R/'Report Body.pdf';SimpleDocTemplate(str(body),pagesize=A4,leftMargin=42,rightMargin=42,topMargin=36,bottomMargin=40).build(story,onFirstPage=footer,onLaterPages=footer)
+w=PdfWriter();w.append(body);w.append(paths['plan']);out=R/'BSE3227 HVAC Mini-Design.pdf'
+with out.open('wb') as f:w.write(f)
+assert hashes=={k:hashlib.sha256(p.read_bytes()).hexdigest() for k,p in paths.items()}
+r={'scope':'Source-consistent coursework report bound to executed native recheck; ADPI and complete engineering acceptance pending','input_sha256':hashes,'body_pages':len(PdfReader(body).pages),'pages_including_plan':len(PdfReader(out).pages),'output_sha256':hashlib.sha256(out.read_bytes()).hexdigest(),'source_files_unchanged':True,'engineering_accepted':False,'executed_native_recheck_bound':True,'adpi_acceptance':False,'course_method_approximation_explicit':True,'hk_flex_design_limit_m':4,'all_current_native_kselect_conditions_bound':True};(R/'build-review.json').write_text(json.dumps(r,indent=2)+'\n');print(json.dumps(r))

@@ -1,0 +1,176 @@
+{
+  "schema": "bsa.drawing-ifc-sections/1",
+  "source": "Separate current-layout reduced-branch cross candidate; no product or pressure acceptance",
+  "ifc": "../../runs/recentered-cross-network/Supply Network.ifc",
+  "ifc_sha256": "d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+  "layout": {
+    "source": "Saved118body native candidate d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+    "units": "mm",
+    "layers": {
+      "MATERIAL": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "ANNOTATION": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "NOTES": {
+        "color": 7,
+        "lineweight": 18
+      }
+    },
+    "blocks": {},
+    "sheet": {
+      "paper": "A4",
+      "window": [
+        0,
+        0,
+        5800,
+        4000
+      ],
+      "scale": 20,
+      "title": "REDUCED BRANCH CROSS CONSTRUCTION",
+      "number": "BSE3227-CS-06",
+      "reference_length": 1000
+    },
+    "content_window": [
+      160,
+      520,
+      5640,
+      3640
+    ],
+    "gap_mm": 4
+  },
+  "views": [
+    {
+      "id": "cross-plan",
+      "guids": [
+        "1pO1kxbLLHgeS$_8xwTnCF",
+        "2qLFw7bETM59i3mPyoprok",
+        "2z0OsSxEPMxe7bw868aznG",
+        "2itLDYgonR0OKoH78TWU_m",
+        "0jYRsv3EbJ$hyweSBF1ZlT",
+        "2dn9VHyVbTPeHkLMTVDJUw",
+        "3YrSwlhyvPVRNUSDnDuRY$"
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0,
+          86.5
+        ],
+        [
+          0.0,
+          -1.0,
+          -0.0,
+          28.75058400000001
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "layer": "MATERIAL",
+      "annotations": [
+        {
+          "id": "cross-note-0",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved118body native candidate d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+          "classification": "secondary_transcription",
+          "insert": [
+            -2200,
+            1000
+          ],
+          "text": "Main850x850; two650x850 branches; expansions restore850x850 mm",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "cross-note-1",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved118body native candidate d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+          "classification": "secondary_transcription",
+          "insert": [
+            -2200,
+            930
+          ],
+          "text": "Actual native horizontal material cut; dimensions are port separations in mm",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "cross-note-2",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved118body native candidate d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+          "classification": "assumed",
+          "insert": [
+            -2200,
+            -1450
+          ],
+          "text": "15deg expansions / 50mm collars / 0.8mm offset assumed",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "cross-note-3",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved118body native candidate d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+          "classification": "assumed",
+          "insert": [
+            -2200,
+            -1520
+          ],
+          "text": "Local branch speed increases; products, noise and full pressure unverified",
+          "height": 40,
+          "rotation": 0
+        }
+      ],
+      "port_dimensions": [
+        {
+          "id": "expansion-1",
+          "ports": [
+            "3FL4fytHLPpvTyR6Z9Wbzb",
+            "1fcDJObUvUyh3gMd7Vg0_2"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -1000,
+          "text_height": 40
+        },
+        {
+          "id": "expansion-2",
+          "ports": [
+            "3IgYCafE1IrPEbmr7GO8at",
+            "1hVEBxZiDS$PuechORmMat"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -1000,
+          "text_height": 40
+        },
+        {
+          "id": "cross-port-span",
+          "ports": [
+            "0zXiOuMfbVnAg_KHbIFAy3",
+            "2sY$pT2HLT_vGIq2bU2aaj"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -1250,
+          "text_height": 40
+        }
+      ]
+    }
+  ]
+}

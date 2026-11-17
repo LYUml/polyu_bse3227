@@ -1,0 +1,163 @@
+{
+  "source_sha256": {
+    "bse3227-agent-intake-v1/sources/brief.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+  },
+  "tasks": [
+    {
+      "id": "submission",
+      "description": "Confirm course, group of at most five members, office scope and required submission identity",
+      "blocker": "Group identities and final submission particulars are not supplied",
+      "acceptance": "Correct course/project identity and group size; no internal version labels in submitted artifacts",
+      "requires_pass": []
+    },
+    {
+      "id": "load-airflow",
+      "description": "Calculate office rule-of-thumb cooling load and total supply flow with separate sensible fraction and temperature assumptions",
+      "blocker": "Workshop original unavailable; 189 W/m2 and SHF 0.9 are secondary transcription; 24/12 C remains a trial assumption",
+      "acceptance": "Source-linked area/load/SHF and temperatures, dimensional checks and thermal load distinguished from electrical power",
+      "requires_pass": []
+    },
+    {
+      "id": "diffuser-layout",
+      "description": "Verify office boundary, diffuser distribution, apportioned flows and device-specific characteristic lengths",
+      "blocker": "Source drawing scale needs independent dimension evidence; interpreted net area differs from given area; cell half-lengths are not yet verified jet characteristic lengths",
+      "acceptance": "80 current trial diffuser locations and flow sum reconciled; every characteristic length uses applicable wall/opposing-jet definition",
+      "requires_pass": []
+    },
+    {
+      "id": "terminal-selection",
+      "description": "Select specified Krueger 1400/51400 diffuser and verify maximum and 40 percent minimum conditions",
+      "blocker": "Catalogue lookup executes but product configuration, source transcription and characteristic-length applicability require final review",
+      "acceptance": "Source-reviewed type/size and catalogue conditions; every max/min T0.25 and ratio traceable without extrapolation",
+      "requires_pass": []
+    },
+    {
+      "id": "adpi",
+      "description": "Evaluate ASHRAE ADPI applicability and maximum/minimum acceptance",
+      "blocker": "Course louvered classification and manufacturer circular-pattern classification differ; actual room sensible load and applicable criterion remain unresolved",
+      "acceptance": "Cited applicable diffuser category, thermal-load range, characteristic length and criterion; retain failures rather than infer ADPI from interpolation",
+      "requires_pass": []
+    },
+    {
+      "id": "routing",
+      "description": "Review single-line main/branch routing, VAV four-to-five outlet groups and flexible lengths",
+      "blocker": "20 four-outlet groups and 47 rigid sections exist; flex lengths are straight plan distances, not installed length; proposed AHU connection and penetrations require review",
+      "acceptance": "All diffusers connected, branch distribution and bend choices justified; brief 5 m and separately applicable HK flex constraints distinguished",
+      "requires_pass": []
+    },
+    {
+      "id": "duct-sizing",
+      "description": "Verify every main and branch size against selected velocity/friction limits and preferred aspect ratio",
+      "blocker": "Equivalent-round trial table exists; original course limit evidence and final 47-section replay remain pending",
+      "acceptance": "Every section reconciles flow, dimensions, velocity, pressure gradient and aspect ratio using sourced method and explicit criteria",
+      "requires_pass": []
+    },
+    {
+      "id": "delivery",
+      "description": "Reconcile native drawing, sizing schedule, report and complete original assignment requirements",
+      "blocker": "Native reopening and scale checks pass on latest drawing, but full sheet/title-block and report review remain incomplete",
+      "acceptance": "Editable DWG independently reopened; actual plot and report visually inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no internal version labels",
+      "requires_pass": []
+    }
+  ],
+  "passages": {
+    "P001": {
+      "text_sha256": "967d551709385c5e967118ee4cd75c2c880ddb2a816f84dff6a7f4412aa7534c",
+      "tasks": [
+        "submission"
+      ]
+    },
+    "P002": {
+      "text_sha256": "6af1cacc448686c4cfb92ef26119affdac86cc78f92b0394000503f64d133d32",
+      "tasks": [
+        "submission"
+      ]
+    },
+    "P003": {
+      "text_sha256": "36ea4669b5b707b7667709f8b9f71daf162a727c6e3bd59e31942009b5413ffd",
+      "tasks": [
+        "submission"
+      ]
+    },
+    "P004": {
+      "text_sha256": "671fc3a5013a7d376b34d3c2912c1d193bb3be5a084569317cfb484e58474d54",
+      "tasks": [
+        "submission",
+        "diffuser-layout",
+        "routing"
+      ]
+    },
+    "P005": {
+      "text_sha256": "d6324c6704d7f7db85a5a6baf27323ec7f261c090915eb3c485614532394f0df",
+      "tasks": [
+        "delivery"
+      ]
+    },
+    "P006": {
+      "text_sha256": "1ac594b24c6e443d57a84936408e1f604a0fe7965835ee1eaae4af974ea41de6",
+      "tasks": [
+        "load-airflow",
+        "diffuser-layout",
+        "terminal-selection",
+        "adpi"
+      ]
+    },
+    "P007": {
+      "text_sha256": "1fe82f2b2e6d744caf5d18fcbafae10f800e4ace0ef879b14791fd9ba187ea31",
+      "tasks": [
+        "load-airflow",
+        "diffuser-layout",
+        "terminal-selection",
+        "adpi"
+      ]
+    },
+    "P008": {
+      "text_sha256": "3f3f461dee1227026cfaebe60c6db98692cfcb9f9549a8f20870b813e16fcf52",
+      "tasks": [
+        "terminal-selection",
+        "adpi"
+      ]
+    },
+    "P009": {
+      "text_sha256": "b2d3c914bce515e9bfebc13ead7c6993048b8c81a340dcd1c3d3a8476bdaeed1",
+      "tasks": [
+        "terminal-selection",
+        "adpi"
+      ]
+    },
+    "P010": {
+      "text_sha256": "a4dc8c1f05b7e6d53a152dc99a8a9485911f3e53ac728d9b66b5bcc53dd53902",
+      "tasks": [
+        "routing",
+        "delivery"
+      ]
+    },
+    "P011": {
+      "text_sha256": "56c9b4bc4d15cdd08434072ca82b2a8566452577b129889bdefa6491252b93a8",
+      "tasks": [
+        "routing",
+        "delivery"
+      ]
+    },
+    "P012": {
+      "text_sha256": "deafca95c09552b8137102d756277c41285f9c008b22ead20c6e21fada219851",
+      "tasks": [
+        "duct-sizing"
+      ]
+    },
+    "P013": {
+      "text_sha256": "35370b4296683fbf230c0ff0e7bdd39c9328d94c9745ccb1013699f995a3dafc",
+      "tasks": [
+        "duct-sizing",
+        "delivery"
+      ]
+    },
+    "P014": {
+      "text_sha256": "56ffd686c962b94b8d636b21212bd41959225b62cc1294553725cb959db71386",
+      "tasks": [
+        "duct-sizing",
+        "delivery"
+      ]
+    }
+  }
+}

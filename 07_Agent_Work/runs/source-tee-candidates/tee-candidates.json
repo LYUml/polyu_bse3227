@@ -1,0 +1,4706 @@
+{
+  "source": {
+    "selection": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\elbow-radius-selected",
+    "policy": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-tee-study\\policy.json"
+  },
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\elbow-radius-selected\\selection.json": "3ef687e77f49aaf1b31f4fdfbca07ff3515d1b84787cd02114185497287ffbfb",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\elbow-radius-selected\\junction.json": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\elbow-radius-study\\basis.json": "f7fe19865de6205c8ace72739d148248498359bdd94218e384735d42f24122f8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-tee-study\\policy.json": "8937fe6c4d7441e761c36cae444a90894361ae94d6fe19f29c1792b94e41fdf3",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_tee_candidates.py": "369eaedfe215c5c2ae02cc576fa743bcf2d078fa755d477257aa458346e29a0c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_tee.py": "2a1b4d02564a737c56ada58c0f4b7fdea402a341a282622232c414c4856cc0fa",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_transition.py": "257b7d5e1a018edb178e32599c48b065cdc0f32219e5f187d23e559d153e7ed6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_tee_transitions.py": "953a5df4f0e8349a02130bd324298911bcb196349e2b0a08f7aa0fb9985cd963",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_fitting_fit.py": "9f12887e35d334687a7ff650bb1a59bd8493ee1bfa1cfc7f58c9fdac6a56035a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\elbow_radius_selection.py": "dcc4de46c7dcc4eaee63aae5758e58b396ed7921d64fa711c0f86faddf7e794a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_tee_assembly.py": "9ee1d07893441b8bd2ceaa003e36b3223cacfafb1a82a6c73f0316c2cd36d69c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\tee_geometry.py": "1a97cb86e682cdc6eb6c970d88e19c637fafd7cf2da9641972025b14879552ef",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\.venv\\Lib\\site-packages\\ifcopenshell\\util\\shape_builder.py": "7d474a7df93e9fd46681b0814e80345e905d147c661d0fec50d9dc3b662dc6f4"
+  },
+  "nodes": {
+    "J0": {
+      "directory": "node-001",
+      "fit": {
+        "node": "J0",
+        "binding_source": "Source node J0; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-16",
+            "source_line_handle": "8DAB",
+            "width_m": 0.6,
+            "height_m": 0.4,
+            "outward_reach_m": 0.8982050807568811,
+            "source_centreline_length_m": 3.3740680000000083,
+            "remaining_centreline_m": 2.475862919243127,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              85.60179491924312,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-19",
+            "source_line_handle": "8DB1",
+            "width_m": 0.6,
+            "height_m": 0.4,
+            "outward_reach_m": 0.8982050807568811,
+            "source_centreline_length_m": 4.065931999999989,
+            "remaining_centreline_m": 3.1677269192431083,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              87.39820508075688,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-15",
+            "source_line_handle": "8DA9",
+            "width_m": 0.65,
+            "height_m": 0.6,
+            "outward_reach_m": 0.4250000000000007,
+            "source_centreline_length_m": 6.8300000000000125,
+            "remaining_centreline_m": 6.405000000000012,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              86.5,
+              22.345584
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-a": {
+          "declared_taper_m": 0.3732050807568877,
+          "upstream_inner_outer_tapers_m": [
+            0.09330127018922202,
+            0.09330127018922202
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": false,
+          "supported": true
+        },
+        "main-b": {
+          "declared_taper_m": 0.3732050807568877,
+          "upstream_inner_outer_tapers_m": [
+            0.09330127018922202,
+            0.09330127018922202
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": false,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0015888299520008574,
+          "independent_material_volume_m3": 0.0015888299520000482,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-a": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0008529805503691571,
+            "independent_material_volume_m3": 0.0008529805503691423,
+            "material_centroid_m": [
+              1.0771863310792388e-15,
+              2.055566448798363e-16,
+              0.2261981000734201
+            ],
+            "relative_volume_error": 1.728661871530557e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.32580000000000003,
+                -0.3008,
+                0.0
+              ],
+              [
+                0.32580000000000003,
+                0.3008,
+                0.47320508075688766
+              ]
+            ]
+          },
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0008529805503691571,
+            "independent_material_volume_m3": 0.0008529805503691423,
+            "material_centroid_m": [
+              1.0771863310792388e-15,
+              2.055566448798363e-16,
+              0.2261981000734201
+            ],
+            "relative_volume_error": 1.728661871530557e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.32580000000000003,
+                -0.3008,
+                0.0
+              ],
+              [
+                0.32580000000000003,
+                0.3008,
+                0.47320508075688766
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.003294791052738382,
+        "independent_material_volume_m3": 0.003294791052738333,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              85.60179491924312
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              87.39820508075688
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              86.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              22.345584
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "ROOT": {
+      "directory": "node-002",
+      "fit": {
+        "node": "ROOT",
+        "binding_source": "Source node ROOT; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "A-03",
+            "source_line_handle": "903F",
+            "width_m": 1.35,
+            "height_m": 0.9,
+            "outward_reach_m": 0.7749999999999986,
+            "source_centreline_length_m": 1.2999999999999972,
+            "remaining_centreline_m": 0.5249999999999986,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              86.5,
+              36.975
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-01",
+            "source_line_handle": "8D8D",
+            "width_m": 1.25,
+            "height_m": 0.85,
+            "outward_reach_m": 1.0616025403784448,
+            "source_centreline_length_m": 0.619415999999994,
+            "remaining_centreline_m": -0.44218654037845084,
+            "extent_within_source_segment": false,
+            "external_end_xy_m": [
+              86.5,
+              35.13839745962156
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-22",
+            "source_line_handle": "8DB7",
+            "width_m": 0.5,
+            "height_m": 0.4,
+            "outward_reach_m": 2.461121593216774,
+            "source_centreline_length_m": 12.198432499999996,
+            "remaining_centreline_m": 9.737310906783222,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              88.96112159321677,
+              36.2
+            ]
+          }
+        ],
+        "plan_extent_check_pass": false,
+        "status": "fail",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844404,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844404,
+            0.18660254037844404
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 1.5861215932167732,
+          "upstream_inner_outer_tapers_m": [
+            1.586121593216773,
+            1.586121593216773
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "blocked",
+      "blocking_reasons": [
+        "Known both-end fitting reach exceeds source budget on A-03",
+        "Known both-end fitting reach exceeds source budget on D-01"
+      ],
+      "design_accepted": false
+    },
+    "TAP-VAV-02": {
+      "directory": "node-003",
+      "fit": {
+        "node": "TAP-VAV-02",
+        "binding_source": "Source node TAP-VAV-02; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-17",
+            "source_line_handle": "8DAD",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 7.089999999999989,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              76.035932,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-18",
+            "source_line_handle": "8DAF",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.729903810567663,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.710096189432349,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              74.95602818943235,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-26",
+            "source_line_handle": "8DBF",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.7299038105676665,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.670096189432332,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              75.68593200000001,
+              21.19068018943233
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.27990381056766583,
+          "upstream_inner_outer_tapers_m": [
+            0.2799038105676659,
+            0.279903810567666
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.27990381056766583,
+          "upstream_inner_outer_tapers_m": [
+            0.2799038105676659,
+            0.279903810567666
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009489579520003879,
+          "independent_material_volume_m3": 0.0009489579520000069,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004568571264362542,
+            "independent_material_volume_m3": 0.0004568571264362553,
+            "material_centroid_m": [
+              -1.0255177643932522e-16,
+              -1.2190335459228265e-16,
+              0.17960192780626125
+            ],
+            "relative_volume_error": 2.491834350905372e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.3799038105676658
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004568571264362542,
+            "independent_material_volume_m3": 0.0004568571264362553,
+            "material_centroid_m": [
+              -1.0255177643932522e-16,
+              -1.2190335459228265e-16,
+              0.17960192780626125
+            ],
+            "relative_volume_error": 2.491834350905372e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.3799038105676658
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0018626722048725112,
+        "independent_material_volume_m3": 0.0018626722048725175,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              76.035932
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              74.95602818943235
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              75.68593200000001
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              21.19068018943233
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-03": {
+      "directory": "node-004",
+      "fit": {
+        "node": "TAP-VAV-03",
+        "binding_source": "Source node TAP-VAV-03; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-16",
+            "source_line_handle": "8DAB",
+            "width_m": 0.6,
+            "height_m": 0.4,
+            "outward_reach_m": 0.4000000000000057,
+            "source_centreline_length_m": 3.3740680000000083,
+            "remaining_centreline_m": 2.9740680000000026,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.525932,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-17",
+            "source_line_handle": "8DAD",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.6866025403784448,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 6.753397459621539,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              82.43932945962155,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-27",
+            "source_line_handle": "8DC1",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.9665063509461085,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.43349364905389,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.12593199999999,
+              20.95407764905389
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844384
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.4665063509461097,
+          "upstream_inner_outer_tapers_m": [
+            0.46650635094610965,
+            0.46650635094610976
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0012490219519991097,
+          "independent_material_volume_m3": 0.0012490219520000234,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.00042490546226346747,
+            "independent_material_volume_m3": 0.0004249054622634807,
+            "material_centroid_m": [
+              1.1215716300993335e-15,
+              -2.142971788236896e-17,
+              0.1383212791283571
+            ],
+            "relative_volume_error": 3.112990460009908e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0007492386395072837,
+            "independent_material_volume_m3": 0.0007492386395073075,
+            "material_centroid_m": [
+              -1.4894665720142563e-16,
+              -2.3147497580259506e-16,
+              0.2600468570605978
+            ],
+            "relative_volume_error": 3.1835581531628226e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.5665063509461098
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          3.3881317890172014e-21,
+          0.0,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0024231660537707652,
+        "independent_material_volume_m3": 0.0024231660537708116,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              83.525932
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              82.43932945962155
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              83.12593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              20.95407764905389
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-04": {
+      "directory": "node-005",
+      "fit": {
+        "node": "TAP-VAV-04",
+        "binding_source": "Source node TAP-VAV-04; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-19",
+            "source_line_handle": "8DB1",
+            "width_m": 0.6,
+            "height_m": 0.4,
+            "outward_reach_m": 0.4000000000000057,
+            "source_centreline_length_m": 4.065931999999989,
+            "remaining_centreline_m": 3.6659319999999838,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.16593199999998,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-20",
+            "source_line_handle": "8DB3",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.6866025403784448,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 6.753397459621553,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              91.25253454037843,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-28",
+            "source_line_handle": "8DC3",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.9665063509461085,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.43349364905389,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.56593199999999,
+              20.95407764905389
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844384
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.4665063509461097,
+          "upstream_inner_outer_tapers_m": [
+            0.46650635094610965,
+            0.46650635094610976
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0012490219519991097,
+          "independent_material_volume_m3": 0.0012490219520000234,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.00042490546226346747,
+            "independent_material_volume_m3": 0.0004249054622634807,
+            "material_centroid_m": [
+              1.1215716300993335e-15,
+              -2.142971788236896e-17,
+              0.1383212791283571
+            ],
+            "relative_volume_error": 3.112990460009908e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0007492386395072837,
+            "independent_material_volume_m3": 0.0007492386395073075,
+            "material_centroid_m": [
+              -1.4894665720142563e-16,
+              -2.3147497580259506e-16,
+              0.2600468570605978
+            ],
+            "relative_volume_error": 3.1835581531628226e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.5665063509461098
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          3.3881317890172014e-21,
+          0.0,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0024231660537707652,
+        "independent_material_volume_m3": 0.0024231660537708116,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              90.16593199999998
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              91.25253454037843
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.56593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              20.95407764905389
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-05": {
+      "directory": "node-006",
+      "fit": {
+        "node": "TAP-VAV-05",
+        "binding_source": "Source node TAP-VAV-05; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-20",
+            "source_line_handle": "8DB3",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 7.090000000000003,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              97.65593199999999,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-21",
+            "source_line_handle": "8DB5",
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "outward_reach_m": 0.6366025403784334,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.8033974596215785,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.64253454037842,
+              21.920583999999998
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-29",
+            "source_line_handle": "8DC5",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.7299038105676665,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.670096189432332,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.00593199999999,
+              21.19068018943233
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.27990381056766583,
+          "upstream_inner_outer_tapers_m": [
+            0.2799038105676659,
+            0.279903810567666
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009489579520003879,
+          "independent_material_volume_m3": 0.0009489579520000069,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509575016,
+            "independent_material_volume_m3": 0.00034465675095750326,
+            "material_centroid_m": [
+              -9.58469110242117e-17,
+              -6.878244672538781e-16,
+              0.13511524975814715
+            ],
+            "relative_volume_error": 4.875904396718874e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004568571264362542,
+            "independent_material_volume_m3": 0.0004568571264362553,
+            "material_centroid_m": [
+              -1.0255177643932522e-16,
+              -1.2190335459228265e-16,
+              0.17960192780626125
+            ],
+            "relative_volume_error": 2.491834350905372e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.3799038105676658
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0017504718293937568,
+        "independent_material_volume_m3": 0.0017504718293937654,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              97.65593199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              98.64253454037842
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              21.920583999999998
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              98.00593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              21.19068018943233
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-08": {
+      "directory": "node-007",
+      "fit": {
+        "node": "TAP-VAV-08",
+        "binding_source": "Source node TAP-VAV-08; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-10",
+            "source_line_handle": "8D9F",
+            "width_m": 0.45,
+            "height_m": 0.4,
+            "outward_reach_m": 0.32500000000000284,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 7.114999999999981,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              76.01093200000001,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-11",
+            "source_line_handle": "8DA1",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.611602540378442,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.82839745962157,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              75.07432945962157,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-32",
+            "source_line_handle": "8DCB",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.611602540378442,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.7883974596215566,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              75.68593200000001,
+              28.13898145962157
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844393,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844393,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0008768299520003507,
+          "independent_material_volume_m3": 0.0008768299520000022,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509574972,
+            "independent_material_volume_m3": 0.0003446567509574963,
+            "material_centroid_m": [
+              2.38081269371042e-16,
+              -8.534061500809739e-16,
+              0.13511524975814673
+            ],
+            "relative_volume_error": 2.5165958176614048e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2258,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.2258,
+                0.2008,
+                0.2866025403784439
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509574972,
+            "independent_material_volume_m3": 0.0003446567509574963,
+            "material_centroid_m": [
+              2.38081269371042e-16,
+              -8.534061500809739e-16,
+              0.13511524975814673
+            ],
+            "relative_volume_error": 2.5165958176614048e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2258,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.2258,
+                0.2008,
+                0.2866025403784439
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          -8.470329472543003e-22,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0015661434539149905,
+        "independent_material_volume_m3": 0.0015661434539149949,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              76.01093200000001
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              75.07432945962157
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              75.68593200000001
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              28.13898145962157
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-09": {
+      "directory": "node-008",
+      "fit": {
+        "node": "TAP-VAV-09",
+        "binding_source": "Source node TAP-VAV-09; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-09",
+            "source_line_handle": "8D9D",
+            "width_m": 0.55,
+            "height_m": 0.45,
+            "outward_reach_m": 0.375,
+            "source_centreline_length_m": 3.3740680000000083,
+            "remaining_centreline_m": 2.9990680000000083,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.50093199999999,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-10",
+            "source_line_handle": "8D9F",
+            "width_m": 0.45,
+            "height_m": 0.4,
+            "outward_reach_m": 0.6616025403784391,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 6.778397459621544,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              82.46432945962155,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-33",
+            "source_line_handle": "8DCD",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.8482050807568875,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.551794919243111,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.12593199999999,
+              27.902378919243123
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844393,
+            0.18660254037844404
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.37320508075688785,
+          "upstream_inner_outer_tapers_m": [
+            0.37320508075688785,
+            0.37320508075688796
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0011628939520005395,
+          "independent_material_volume_m3": 0.0011628939520000325,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.00042490546226346893,
+            "independent_material_volume_m3": 0.0004249054622634668,
+            "material_centroid_m": [
+              8.661592948734297e-16,
+              -1.22099555376289e-16,
+              0.13832127912835737
+            ],
+            "relative_volume_error": 4.975681472966819e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.27580000000000005,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.27580000000000005,
+                0.2258,
+                0.2866025403784439
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0006258421116058318,
+            "independent_material_volume_m3": 0.0006258421116058233,
+            "material_centroid_m": [
+              2.6797896857087765e-16,
+              -6.689323495765468e-16,
+              0.21674977068730594
+            ],
+            "relative_volume_error": 1.3685875404993743e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.27580000000000005,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.27580000000000005,
+                0.2258,
+                0.47320508075688783
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          2.541098841762901e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0022136415258693035,
+        "independent_material_volume_m3": 0.0022136415258693226,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              83.50093199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              82.46432945962155
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              83.12593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              27.902378919243123
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-10": {
+      "directory": "node-009",
+      "fit": {
+        "node": "TAP-VAV-10",
+        "binding_source": "Source node TAP-VAV-10; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-12",
+            "source_line_handle": "8DA3",
+            "width_m": 0.55,
+            "height_m": 0.45,
+            "outward_reach_m": 0.375,
+            "source_centreline_length_m": 4.065931999999989,
+            "remaining_centreline_m": 3.6909319999999894,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.19093199999999,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-13",
+            "source_line_handle": "8DA5",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.6616025403784391,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 6.778397459621559,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              91.22753454037843,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-34",
+            "source_line_handle": "8DCF",
+            "width_m": 0.45,
+            "height_m": 0.25,
+            "outward_reach_m": 0.8482050807568875,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.551794919243111,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.56593199999999,
+              27.902378919243123
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844393,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.37320508075688774,
+          "upstream_inner_outer_tapers_m": [
+            0.3732050807568878,
+            0.3732050807568878
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0011628939520005395,
+          "independent_material_volume_m3": 0.0011628939520000325,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004249054622634675,
+            "independent_material_volume_m3": 0.0004249054622634668,
+            "material_centroid_m": [
+              -7.086757867146272e-16,
+              -8.771233365806919e-17,
+              0.13832127912835737
+            ],
+            "relative_volume_error": 1.6585604909889397e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.27580000000000005,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.27580000000000005,
+                0.2258,
+                0.2866025403784439
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0006447703148361102,
+            "independent_material_volume_m3": 0.0006447703148361045,
+            "material_centroid_m": [
+              3.747321218808011e-16,
+              3.895112152065119e-16,
+              0.2200854303066178
+            ],
+            "relative_volume_error": 8.912121699699886e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.27580000000000005,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.27580000000000005,
+                0.2258,
+                0.4732050807568877
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          2.541098841762901e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0022325697290995813,
+        "independent_material_volume_m3": 0.002232569729099604,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              90.19093199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              91.22753454037843
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.56593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              27.902378919243123
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-11": {
+      "directory": "node-010",
+      "fit": {
+        "node": "TAP-VAV-11",
+        "binding_source": "Source node TAP-VAV-11; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-13",
+            "source_line_handle": "8DA5",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 7.090000000000003,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              97.65593199999999,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-14",
+            "source_line_handle": "8DA7",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.729903810567663,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.710096189432349,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.73583581056765,
+              28.75058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-35",
+            "source_line_handle": "8DD1",
+            "width_m": 0.45,
+            "height_m": 0.25,
+            "outward_reach_m": 0.6366025403784441,
+            "source_centreline_length_m": 2.3999999999999986,
+            "remaining_centreline_m": 1.7633974596215545,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.00593199999999,
+              28.113981459621566
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.27990381056766583,
+          "upstream_inner_outer_tapers_m": [
+            0.2799038105676659,
+            0.279903810567666
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844384
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009489579520003879,
+          "independent_material_volume_m3": 0.0009489579520000069,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004568571264362542,
+            "independent_material_volume_m3": 0.0004568571264362553,
+            "material_centroid_m": [
+              -1.0255177643932522e-16,
+              -1.2190335459228265e-16,
+              0.17960192780626125
+            ],
+            "relative_volume_error": 2.491834350905372e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.3799038105676658
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003561208525726405,
+            "independent_material_volume_m3": 0.0003561208525726389,
+            "material_centroid_m": [
+              7.284151945124221e-17,
+              -4.956196445927378e-16,
+              0.13735939571459282
+            ],
+            "relative_volume_error": 4.414493391069587e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.28660254037844385
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0017619359310089,
+        "independent_material_volume_m3": 0.0017619359310089011,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              97.65593199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              98.73583581056765
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              98.00593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              28.113981459621566
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-14": {
+      "directory": "node-011",
+      "fit": {
+        "node": "TAP-VAV-14",
+        "binding_source": "Source node TAP-VAV-14; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-03",
+            "source_line_handle": "8D91",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 7.089999999999989,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              76.035932,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-04",
+            "source_line_handle": "8D93",
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "outward_reach_m": 0.6366025403784334,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.8033974596215785,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              75.04932945962157,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-38",
+            "source_line_handle": "8DD7",
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "outward_reach_m": 0.6366025403784477,
+            "source_centreline_length_m": 2.4000000000000057,
+            "remaining_centreline_m": 1.763397459621558,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              75.68593200000001,
+              34.94398145962156
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009489579519992601,
+          "independent_material_volume_m3": 0.0009489579520000069,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509575016,
+            "independent_material_volume_m3": 0.00034465675095750326,
+            "material_centroid_m": [
+              -9.58469110242117e-17,
+              -6.878244672538781e-16,
+              0.13511524975814715
+            ],
+            "relative_volume_error": 4.875904396718874e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509575016,
+            "independent_material_volume_m3": 0.00034465675095750326,
+            "material_centroid_m": [
+              -9.58469110242117e-17,
+              -6.878244672538781e-16,
+              0.13511524975814715
+            ],
+            "relative_volume_error": 4.875904396718874e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.28660254037844385
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0016382714539150082,
+        "independent_material_volume_m3": 0.0016382714539150134,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              76.035932
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              75.04932945962157
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              75.68593200000001
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              34.94398145962156
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-15": {
+      "directory": "node-012",
+      "fit": {
+        "node": "TAP-VAV-15",
+        "binding_source": "Source node TAP-VAV-15; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-02",
+            "source_line_handle": "8D8F",
+            "width_m": 0.5,
+            "height_m": 0.45,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 3.3740680000000083,
+            "remaining_centreline_m": 3.024068000000014,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.47593199999999,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-03",
+            "source_line_handle": "8D91",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.6366025403784334,
+            "source_centreline_length_m": 7.4399999999999835,
+            "remaining_centreline_m": 6.80339745962155,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              82.48932945962156,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-39",
+            "source_line_handle": "8DD9",
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "outward_reach_m": 0.8232050807568925,
+            "source_centreline_length_m": 2.4000000000000057,
+            "remaining_centreline_m": 1.5767949192431132,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              83.12593199999999,
+              34.757378919243116
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.25000000000000006,
+            0.2508000000000001
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": false,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.37320508075688774,
+          "upstream_inner_outer_tapers_m": [
+            0.3732050807568878,
+            0.3732050807568878
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0010368299519990464,
+          "independent_material_volume_m3": 0.0010368299519999957,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004134413606483271,
+            "independent_material_volume_m3": 0.00041344136064833115,
+            "material_centroid_m": [
+              -8.194951234932555e-16,
+              6.555960987946043e-17,
+              0.13988921775133586
+            ],
+            "relative_volume_error": 9.833941481918962e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.2508,
+                0.2258,
+                0.2866025403784439
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0006069139083755608,
+            "independent_material_volume_m3": 0.0006069139083755559,
+            "material_centroid_m": [
+              -1.0554522767085427e-16,
+              1.1894336566279082e-15,
+              0.21905517144485265
+            ],
+            "relative_volume_error": 8.038882795161978e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.2258,
+                0.0
+              ],
+              [
+                0.2508,
+                0.2258,
+                0.4732050807568877
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.002057185221023886,
+        "independent_material_volume_m3": 0.002057185221023883,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              83.47593199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              82.48932945962156
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              83.12593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              34.757378919243116
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-16": {
+      "directory": "node-013",
+      "fit": {
+        "node": "TAP-VAV-16",
+        "binding_source": "Source node TAP-VAV-16; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-05",
+            "source_line_handle": "8D95",
+            "width_m": 0.6,
+            "height_m": 0.4,
+            "outward_reach_m": 0.4000000000000057,
+            "source_centreline_length_m": 4.065931999999989,
+            "remaining_centreline_m": 3.6659319999999838,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.16593199999998,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-06",
+            "source_line_handle": "8D97",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.6866025403784448,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 6.753397459621553,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              91.25253454037843,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-40",
+            "source_line_handle": "8DDB",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.9665063509461049,
+            "source_centreline_length_m": 2.4000000000000057,
+            "remaining_centreline_m": 1.4334936490539008,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              90.56593199999999,
+              34.614077649053904
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844384
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.4665063509461097,
+          "upstream_inner_outer_tapers_m": [
+            0.46650635094610965,
+            0.46650635094610976
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0012490219520019654,
+          "independent_material_volume_m3": 0.0012490219520000234,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.00042490546226346747,
+            "independent_material_volume_m3": 0.0004249054622634807,
+            "material_centroid_m": [
+              1.1215716300993335e-15,
+              -2.142971788236896e-17,
+              0.1383212791283571
+            ],
+            "relative_volume_error": 3.112990460009908e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0007492386395072837,
+            "independent_material_volume_m3": 0.0007492386395073075,
+            "material_centroid_m": [
+              -1.4894665720142563e-16,
+              -2.3147497580259506e-16,
+              0.2600468570605978
+            ],
+            "relative_volume_error": 3.1835581531628226e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.3008,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.3008,
+                0.2008,
+                0.5665063509461098
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          3.3881317890172014e-21,
+          0.0,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0024231660537707652,
+        "independent_material_volume_m3": 0.0024231660537708116,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              90.16593199999998
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              91.25253454037843
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              90.56593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              34.614077649053904
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-17": {
+      "directory": "node-014",
+      "fit": {
+        "node": "TAP-VAV-17",
+        "binding_source": "Source node TAP-VAV-17; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-06",
+            "source_line_handle": "8D97",
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "outward_reach_m": 0.3499999999999943,
+            "source_centreline_length_m": 7.439999999999998,
+            "remaining_centreline_m": 7.090000000000003,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              97.65593199999999,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-07",
+            "source_line_handle": "8D99",
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "outward_reach_m": 0.6366025403784334,
+            "source_centreline_length_m": 7.440000000000012,
+            "remaining_centreline_m": 6.8033974596215785,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.64253454037842,
+              35.58058400000001
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-41",
+            "source_line_handle": "8DDD",
+            "width_m": 0.35,
+            "height_m": 0.3,
+            "outward_reach_m": 0.7299038105676701,
+            "source_centreline_length_m": 2.4000000000000057,
+            "remaining_centreline_m": 1.6700961894323356,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.00593199999999,
+              34.85068018943234
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844384,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.27990381056766583,
+          "upstream_inner_outer_tapers_m": [
+            0.2799038105676659,
+            0.279903810567666
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009489579519992601,
+          "independent_material_volume_m3": 0.0009489579520000069,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003446567509575016,
+            "independent_material_volume_m3": 0.00034465675095750326,
+            "material_centroid_m": [
+              -9.58469110242117e-17,
+              -6.878244672538781e-16,
+              0.13511524975814715
+            ],
+            "relative_volume_error": 4.875904396718874e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.28660254037844385
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0004568571264362542,
+            "independent_material_volume_m3": 0.0004568571264362553,
+            "material_centroid_m": [
+              -1.0255177643932522e-16,
+              -1.2190335459228265e-16,
+              0.17960192780626125
+            ],
+            "relative_volume_error": 2.491834350905372e-15,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.17579999999999998,
+                0.0
+              ],
+              [
+                0.2508,
+                0.17579999999999998,
+                0.3799038105676658
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          3.3881317890172014e-21,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.0017504718293937568,
+        "independent_material_volume_m3": 0.0017504718293937654,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              97.65593199999999
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              98.64253454037842
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              35.58058400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              -1.0,
+              0.0,
+              0.0,
+              98.00593199999999
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              34.85068018943234
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    },
+    "TAP-VAV-19": {
+      "directory": "node-015",
+      "fit": {
+        "node": "TAP-VAV-19",
+        "binding_source": "Source node TAP-VAV-19; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "arms": [
+          {
+            "arm": "main-a",
+            "section": "D-23",
+            "source_line_handle": "8DB9",
+            "width_m": 0.5,
+            "height_m": 0.4,
+            "outward_reach_m": 0.3500000000000014,
+            "source_centreline_length_m": 2.2605840000000015,
+            "remaining_centreline_m": 1.910584,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.6984325,
+              38.110584
+            ]
+          },
+          {
+            "arm": "main-b",
+            "section": "D-43",
+            "source_line_handle": "8DE1",
+            "width_m": 0.4,
+            "height_m": 0.3,
+            "outward_reach_m": 0.6366025403784477,
+            "source_centreline_length_m": 2.6999999999999957,
+            "remaining_centreline_m": 2.063397459621548,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              98.6984325,
+              39.09718654037845
+            ]
+          },
+          {
+            "arm": "branch",
+            "section": "D-24",
+            "source_line_handle": "8DBB",
+            "width_m": 0.4,
+            "height_m": 0.3,
+            "outward_reach_m": 0.6366025403784334,
+            "source_centreline_length_m": 6.978333000000006,
+            "remaining_centreline_m": 6.341730459621573,
+            "extent_within_source_segment": true,
+            "external_end_xy_m": [
+              99.33503504037843,
+              38.460584000000004
+            ]
+          }
+        ],
+        "plan_extent_check_pass": true,
+        "status": "review_required",
+        "installation_elevation_verified": false,
+        "section_roll_verified": false,
+        "neighbouring_end_fitting_trim_verified": false,
+        "design_accepted": false,
+        "pending": [
+          "Opposite-end fitting consumption on each source segment",
+          "Actual installation elevation and section roll",
+          "Outer-envelope/obstacle and product-joint clearances",
+          "Sheet-normal construction/product selection",
+          "Fitting loss and full network/requirement acceptance"
+        ],
+        "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space"
+      },
+      "transition_screening": {
+        "main-b": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch": {
+          "declared_taper_m": 0.18660254037844393,
+          "upstream_inner_outer_tapers_m": [
+            0.18660254037844384,
+            0.18660254037844393
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "design_accepted": false,
+      "native_checks": {
+        "tee": {
+          "schema_express_issue_count": 0,
+          "ports": 3,
+          "one_connected_material": true,
+          "euler_characteristic": -2,
+          "native_material_volume_m3": 0.0009928939519991747,
+          "independent_material_volume_m3": 0.0009928939520000013,
+          "bore_probe_overlap_m3": [
+            0.0,
+            0.0
+          ],
+          "saved_source_geometry_and_port_frames": true
+        },
+        "transitions": {
+          "main-b": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003675849541877785,
+            "independent_material_volume_m3": 0.00036758495418778847,
+            "material_centroid_m": [
+              -6.658041342798426e-16,
+              -4.1679367609904056e-16,
+              0.13562585482495537
+            ],
+            "relative_volume_error": 2.713565904487722e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.2508,
+                0.2008,
+                0.2866025403784439
+              ]
+            ]
+          },
+          "branch": {
+            "schema_express_issue_count": 0,
+            "ports": 2,
+            "material_volume_m3": 0.0003675849541877785,
+            "independent_material_volume_m3": 0.00036758495418778847,
+            "material_centroid_m": [
+              -6.658041342798426e-16,
+              -4.1679367609904056e-16,
+              0.13562585482495537
+            ],
+            "relative_volume_error": 2.713565904487722e-14,
+            "euler_characteristic": 0,
+            "one_connected_closed_material": true,
+            "independent_maximum_included_angle_degrees": 29.999999999999996,
+            "centre_bore_overlap_m3": 0.0,
+            "bounds_m": [
+              [
+                -0.2508,
+                -0.2008,
+                0.0
+              ],
+              [
+                0.2508,
+                0.2008,
+                0.2866025403784439
+              ]
+            ]
+          }
+        },
+        "components": 3,
+        "ports": 7,
+        "connections": 2,
+        "coincident_opposed_interfaces": 2,
+        "material_overlap_m3": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "one_connected_material": true,
+        "euler_characteristic": -2,
+        "material_volume_m3": 0.001728063860375556,
+        "independent_material_volume_m3": 0.0017280638603755782,
+        "bore_probe_overlap_m3": [
+          0.0,
+          0.0
+        ],
+        "external_end_frames": {
+          "main-a": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              98.6984325
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              38.110584
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              98.6984325
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              39.09718654037845
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              99.33503504037843
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              38.460584000000004
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "known_fitting_budgets": [
+    {
+      "section": "A-01",
+      "source_centreline_m": 2.5,
+      "declared_elbow_trims_m": {
+        "CORRIDOR-A": 1.35
+      },
+      "remaining_after_declared_elbows_m": 1.15,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.15,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "A-02",
+      "source_centreline_m": 3.0,
+      "declared_elbow_trims_m": {
+        "CORRIDOR-A": 1.35,
+        "CORRIDOR-B": 1.0125000000000002
+      },
+      "remaining_after_declared_elbows_m": 0.6374999999999997,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 0.6374999999999997,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "A-03",
+      "source_centreline_m": 1.2999999999999972,
+      "declared_elbow_trims_m": {
+        "CORRIDOR-B": 1.0125000000000002
+      },
+      "remaining_after_declared_elbows_m": 0.287499999999997,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "ROOT": 0.7749999999999986
+      },
+      "remaining_after_known_fittings_m": -0.4875000000000016,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-01",
+      "source_centreline_m": 0.619415999999994,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 0.619415999999994,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "ROOT": 1.0616025403784448
+      },
+      "remaining_after_known_fittings_m": -0.44218654037845084,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-02",
+      "source_centreline_m": 3.3740680000000083,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 3.3740680000000083,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-15": 0.3499999999999943
+      },
+      "remaining_after_known_fittings_m": 3.024068000000014,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-03",
+      "source_centreline_m": 7.4399999999999835,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.4399999999999835,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-14": 0.3499999999999943,
+        "TAP-VAV-15": 0.6366025403784334
+      },
+      "remaining_after_known_fittings_m": 6.453397459621556,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-04",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-13": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 6.840000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-14": 0.6366025403784334
+      },
+      "remaining_after_known_fittings_m": 6.203397459621579,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-05",
+      "source_centreline_m": 4.065931999999989,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 4.065931999999989,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-16": 0.4000000000000057
+      },
+      "remaining_after_known_fittings_m": 3.6659319999999838,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-06",
+      "source_centreline_m": 7.439999999999998,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.439999999999998,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-16": 0.6866025403784448,
+        "TAP-VAV-17": 0.3499999999999943
+      },
+      "remaining_after_known_fittings_m": 6.403397459621559,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-07",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-18": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 6.840000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-17": 0.6366025403784334
+      },
+      "remaining_after_known_fittings_m": 6.203397459621579,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-08",
+      "source_centreline_m": 6.829999999999998,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 6.829999999999998,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 6.829999999999998,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-09",
+      "source_centreline_m": 3.3740680000000083,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 3.3740680000000083,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-09": 0.375
+      },
+      "remaining_after_known_fittings_m": 2.9990680000000083,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-10",
+      "source_centreline_m": 7.4399999999999835,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.4399999999999835,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-08": 0.32500000000000284,
+        "TAP-VAV-09": 0.6616025403784391
+      },
+      "remaining_after_known_fittings_m": 6.4533974596215415,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-11",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-07": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 6.915000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-08": 0.611602540378442
+      },
+      "remaining_after_known_fittings_m": 6.30339745962157,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-12",
+      "source_centreline_m": 4.065931999999989,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 4.065931999999989,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-10": 0.375
+      },
+      "remaining_after_known_fittings_m": 3.6909319999999894,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-13",
+      "source_centreline_m": 7.439999999999998,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.439999999999998,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-10": 0.6616025403784391,
+        "TAP-VAV-11": 0.3499999999999943
+      },
+      "remaining_after_known_fittings_m": 6.428397459621564,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-14",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-12": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 6.915000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-11": 0.729903810567663
+      },
+      "remaining_after_known_fittings_m": 6.185096189432349,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-15",
+      "source_centreline_m": 6.8300000000000125,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 6.8300000000000125,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "J0": 0.4250000000000007
+      },
+      "remaining_after_known_fittings_m": 6.405000000000012,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-16",
+      "source_centreline_m": 3.3740680000000083,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 3.3740680000000083,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "J0": 0.8982050807568811,
+        "TAP-VAV-03": 0.4000000000000057
+      },
+      "remaining_after_known_fittings_m": 2.0758629192431215,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-17",
+      "source_centreline_m": 7.4399999999999835,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.4399999999999835,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-02": 0.3499999999999943,
+        "TAP-VAV-03": 0.6866025403784448
+      },
+      "remaining_after_known_fittings_m": 6.403397459621544,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-18",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-01": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 6.915000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-02": 0.729903810567663
+      },
+      "remaining_after_known_fittings_m": 6.185096189432349,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-19",
+      "source_centreline_m": 4.065931999999989,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 4.065931999999989,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "J0": 0.8982050807568811,
+        "TAP-VAV-04": 0.4000000000000057
+      },
+      "remaining_after_known_fittings_m": 2.7677269192431027,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-20",
+      "source_centreline_m": 7.439999999999998,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 7.439999999999998,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-04": 0.6866025403784448,
+        "TAP-VAV-05": 0.3499999999999943
+      },
+      "remaining_after_known_fittings_m": 6.403397459621559,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-21",
+      "source_centreline_m": 7.440000000000012,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-06": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 6.840000000000012,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-05": 0.6366025403784334
+      },
+      "remaining_after_known_fittings_m": 6.203397459621579,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-22",
+      "source_centreline_m": 12.198432499999996,
+      "declared_elbow_trims_m": {
+        "UP-TURN": 0.75
+      },
+      "remaining_after_declared_elbows_m": 11.448432499999996,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "ROOT": 2.461121593216774
+      },
+      "remaining_after_known_fittings_m": 8.987310906783222,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-23",
+      "source_centreline_m": 2.2605840000000015,
+      "declared_elbow_trims_m": {
+        "UP-TURN": 0.75
+      },
+      "remaining_after_declared_elbows_m": 1.5105840000000015,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-19": 0.3500000000000014
+      },
+      "remaining_after_known_fittings_m": 1.160584,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-24",
+      "source_centreline_m": 6.978333000000006,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-20": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 6.378333000000007,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-19": 0.6366025403784334
+      },
+      "remaining_after_known_fittings_m": 5.741730459621573,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-25",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-01": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 1.8749999999999987,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.8749999999999987,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-26",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-02": 0.7299038105676665
+      },
+      "remaining_after_known_fittings_m": 1.670096189432332,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-27",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-03": 0.9665063509461085
+      },
+      "remaining_after_known_fittings_m": 1.43349364905389,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-28",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-04": 0.9665063509461085
+      },
+      "remaining_after_known_fittings_m": 1.43349364905389,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-29",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-05": 0.7299038105676665
+      },
+      "remaining_after_known_fittings_m": 1.670096189432332,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-30",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-06": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 1.7999999999999985,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.7999999999999985,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-31",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-07": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 1.8749999999999987,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.8749999999999987,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-32",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-08": 0.611602540378442
+      },
+      "remaining_after_known_fittings_m": 1.7883974596215566,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-33",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-09": 0.8482050807568875
+      },
+      "remaining_after_known_fittings_m": 1.551794919243111,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-34",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-10": 0.8482050807568875
+      },
+      "remaining_after_known_fittings_m": 1.551794919243111,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-35",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.3999999999999986,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-11": 0.6366025403784441
+      },
+      "remaining_after_known_fittings_m": 1.7633974596215545,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-36",
+      "source_centreline_m": 2.3999999999999986,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-12": 0.5249999999999999
+      },
+      "remaining_after_declared_elbows_m": 1.8749999999999987,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.8749999999999987,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-37",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-13": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 1.8000000000000056,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.8000000000000056,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-38",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.4000000000000057,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-14": 0.6366025403784477
+      },
+      "remaining_after_known_fittings_m": 1.763397459621558,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-39",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.4000000000000057,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-15": 0.8232050807568925
+      },
+      "remaining_after_known_fittings_m": 1.5767949192431132,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-40",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.4000000000000057,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-16": 0.9665063509461049
+      },
+      "remaining_after_known_fittings_m": 1.4334936490539008,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-41",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.4000000000000057,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-17": 0.7299038105676701
+      },
+      "remaining_after_known_fittings_m": 1.6700961894323356,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-42",
+      "source_centreline_m": 2.4000000000000057,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-18": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 1.8000000000000056,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 1.8000000000000056,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-43",
+      "source_centreline_m": 2.6999999999999957,
+      "declared_elbow_trims_m": {},
+      "remaining_after_declared_elbows_m": 2.6999999999999957,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {
+        "TAP-VAV-19": 0.6366025403784477
+      },
+      "remaining_after_known_fittings_m": 2.063397459621548,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    },
+    {
+      "section": "D-44",
+      "source_centreline_m": 2.6999999999999957,
+      "declared_elbow_trims_m": {
+        "TAP-VAV-20": 0.6000000000000001
+      },
+      "remaining_after_declared_elbows_m": 2.0999999999999956,
+      "other_fitting_trims_known": false,
+      "declared_tee_trims_m": {},
+      "remaining_after_known_fittings_m": 2.0999999999999956,
+      "inherited_minimum_remainder_m": 0.05,
+      "all_fitting_trims_known": false
+    }
+  ],
+  "not_authored_source_nodes": [
+    {
+      "node": "J1",
+      "requirement": "multi_branch_connection_required"
+    },
+    {
+      "node": "J2",
+      "requirement": "multi_branch_connection_required"
+    }
+  ],
+  "original_requirement_ids": [
+    "R001-identity",
+    "R002-identity",
+    "R003-identity",
+    "R004-identity",
+    "R004-layout",
+    "R004-routing",
+    "R005-delivery",
+    "R006-load",
+    "R006-layout",
+    "R006-terminal",
+    "R006-adpi",
+    "R007-load",
+    "R007-layout",
+    "R007-terminal",
+    "R007-adpi",
+    "R008-minimum",
+    "R009-minimum",
+    "R009-terminal",
+    "R009-adpi",
+    "R010-routing",
+    "R011-routing",
+    "R011-delivery",
+    "R012-sizing",
+    "R013-sizing",
+    "R014-schedule",
+    "R014-delivery",
+    "producer-air-allocation-P007",
+    "producer-terminal-lookup-P007",
+    "producer-terminal-lookup-P009",
+    "producer-duct-schedule-P013",
+    "producer-duct-sheet-P011",
+    "producer-native-sheet-P011",
+    "hk-flex-check"
+  ],
+  "original_backbone_modified": false,
+  "complete_network": false,
+  "design_accepted": false,
+  "scope": "Source-matched isolated tee/centred-transition candidates and known both-end budgets only; no insertion into original backbone, physical joints, full clearance or pressure approval",
+  "artifacts": {
+    "inputs/node-001/binding.json": "d6af56c206a0f4786aac579d071fc05163d443fc1b25e646596987a5fe91cfd3",
+    "inputs/node-001/project.json": "05b70427048d3d6952623b0d765cf0e95f3bddb01468021f09d04eccd05f5ff8",
+    "inputs/node-001/tee.json": "1391aac01d7d9bd3e9447a169227b4d84082a9412ef60f186c4f7a0e3ba517f4",
+    "inputs/node-002/binding.json": "a52c0c65a9d11971a1ee34e0aa37df2e56c10f94642065c2d4122df88c689423",
+    "inputs/node-002/project.json": "7c724c35909f74bfbe7c8ff0596f987fc0e9f6bc712b33444d05adc7980b76c9",
+    "inputs/node-002/tee.json": "1b7e915b2fba6859856c63f3539ca1ede60f3bcd36b14bb1cc136467d632f128",
+    "inputs/node-003/binding.json": "9e86c059c5653f6edd9ba62b86dbe596c30157ef86b4c99e8a1ede06957cc9f7",
+    "inputs/node-003/project.json": "256c34b14bac46a9355218edfdc79934b60c425339348f995a80c32c4e272811",
+    "inputs/node-003/tee.json": "75fb6e20f29d2aa979620fc9466558350cb759851182be5c5eaa5d8482c19135",
+    "inputs/node-004/binding.json": "e0a0bfb054f65f4e89b543aa2f1bf260edb1bae2e4478e3d26ba0fb47e5b32ee",
+    "inputs/node-004/project.json": "df9cb7a521ab27e8ffec9b88fb7d895b8770ab2b16807f0c3a1ad26e4dec466c",
+    "inputs/node-004/tee.json": "e1d6ac6839dd1c27e7a2275edad6172d600fad8bdddfd8fb75344dcea81adeb7",
+    "inputs/node-005/binding.json": "597639e139b2c88927d041c9ed81d6b471feb0697e252a53706b2917c237ee88",
+    "inputs/node-005/project.json": "19906c90149c4b774e2ca7cada73227affdcb153c2f059138355896133859452",
+    "inputs/node-005/tee.json": "94689d532793ecfb5b900ef3da5dd40745a6785cdd9ef4f32789620538931590",
+    "inputs/node-006/binding.json": "752fa81c55b6c70a0d835215ef8f9957e4247c4bd871cb19d2300a535c3e9aaf",
+    "inputs/node-006/project.json": "76f1a1df14203ed8fe47d80dc5fb4fe4bdc3c0bbb6de46bd232b1a10eb5843b3",
+    "inputs/node-006/tee.json": "c2c95006c9eca46ba31072acba82b7ca96e477d3d749e0151139783c21b26c11",
+    "inputs/node-007/binding.json": "d435fbbc482f199581a689bac35b6ad53e784097ce16ca5945624f47efc1c9be",
+    "inputs/node-007/project.json": "1f85cc0082776f0554b430a191e40f3e955ebbf6cc0156e04cdadf27acb41e6c",
+    "inputs/node-007/tee.json": "c59fab684f70e9632c5b9cca985d54ca2fc2fd874e4524e928b4c340a07be580",
+    "inputs/node-008/binding.json": "c09cbaabf8228cde5303d90a9c59ac2f8e79bbbb31e7352995fe82c2f5e3ba40",
+    "inputs/node-008/project.json": "64f6874c5d09c6567cdc23a233393da55917e9b37b1603ec1c7ad14e8991bb1e",
+    "inputs/node-008/tee.json": "74a1dabdbd74673977091e8b98abdfbc043e7f4c856f164fc980a00f425b01ae",
+    "inputs/node-009/binding.json": "b30bdd5a982b683286bc0670a62147ab98133d27bdb1b096a4bf9c269469c4d5",
+    "inputs/node-009/project.json": "60aee818500c08d0a4fda2d3bbb65984ee5ffb4d74e5ebf1198da08d61cd4a4f",
+    "inputs/node-009/tee.json": "e87f3d78f17b78f7cde99196be4c6213870854109dc4cc3a625caf28b3eb5a80",
+    "inputs/node-010/binding.json": "4e3384f846ce613c2c3e3c2afa9c5c2a2bd1119199d9a883e43f1f8a044b26b8",
+    "inputs/node-010/project.json": "4f118e3229e8aaa46539eec84641b79632ffa13d3bd7c250306b72f1dc0d8ecd",
+    "inputs/node-010/tee.json": "c572d6cc7b84d7e3e0a9f9ffb38ea46d9ae749daefbe75bc450c33d592f6d4d0",
+    "inputs/node-011/binding.json": "2272a32965823c7d95ec06bf54f019742379b7fccf4c73549ace9802b7d36695",
+    "inputs/node-011/project.json": "d5ffa26019053861797171db8ee983359b07f6f21eb6341c78c1ad665e051088",
+    "inputs/node-011/tee.json": "38fc0082a58749a7ecaa1d9f5f7bae3663873731de77e77270ae305c2944e97b",
+    "inputs/node-012/binding.json": "637873eb6b6df65e1aa689029ed5a5a08550fb3fd5816ba6f6f3dcc10fdcfe77",
+    "inputs/node-012/project.json": "7439d059029a6a25a7bc2dd8a1344c3a349365ebc8f593e80c6fd0ae6650328c",
+    "inputs/node-012/tee.json": "90259a69aadf8003bb2bb5e8f36e9de400ffdb336173815053b2d426ce419ed1",
+    "inputs/node-013/binding.json": "e456888a551228f8fe11f1b2d9ec7297df31300a5b20ba3f911be663b028ce0d",
+    "inputs/node-013/project.json": "58be7b5644c366b5591df897a26ee7c4f4f2e40825188936135b527787c659dc",
+    "inputs/node-013/tee.json": "9f616805674bac49b015121fa616e6f81a14705d383e4d2a4ebaed81daaf9d9a",
+    "inputs/node-014/binding.json": "c8c2791414059c1a12765142f5d1db046c7ad68ad6b0f0cd925c2f138f006e38",
+    "inputs/node-014/project.json": "9ed8a9b145611f46f23b29c14e048bf347a76173f17f75805da8d0836b454dfe",
+    "inputs/node-014/tee.json": "44cc89a784f5480d85ed4fb4e9d10df826cf3191034ce95b808965fd41a1deaa",
+    "inputs/node-015/binding.json": "fa9c83f53e7da4fab2ea07bc6a238db0bd6e471a8571d6f5f4cb351a6e0a46d1",
+    "inputs/node-015/project.json": "82b67f61120540a2884473e2757b0b5534eeedc83929949f861a1cc96e65c200",
+    "inputs/node-015/tee.json": "889972f249cf43a4002af378c10c4a2c05d46463081cabcc30044dfce5f3dc48",
+    "models/node-001/assembly.ifc": "8aa09df5a660d5f67def3b299e4cf82cf077c4c4b784ad9edb4715dd8a0694e1",
+    "models/node-001/assembly.json": "d96ade21f6b46d136cc78bdc8585f575fea8591e24f2a9c770de82c78c0b93bd",
+    "models/node-001/main-a-transition.json": "183b3af09377280d7245b1470e39d1c4a0669306013747a5a02a460f21050a04",
+    "models/node-001/main-b-transition.json": "e6435d86fa86fab9e391a5eee90108639b09d2879479cda3b18e89dc6616f927",
+    "models/node-003/assembly.ifc": "731751c9533e0b1af65938bea49e6417b6fc6502b5a4b6b12806b6cd2ba1f590",
+    "models/node-003/assembly.json": "e8f53c37a47372f1a7ce4a6d467111be8906d1fed1341793c5dabed201fa5ff9",
+    "models/node-003/branch-transition.json": "281ffb74d6a1f0b3d44688858545179b725a25aa01c844fa60d5520dd8c8d290",
+    "models/node-003/main-b-transition.json": "2ccbcc3c7ec7f0b5d850a5508435110a8b854795c10b0b59c0e120fed0e1b9dc",
+    "models/node-004/assembly.ifc": "665528b6f331cccf659b888e806e26728acad66cca3f46cab449fa195846f042",
+    "models/node-004/assembly.json": "e72f39f28be731216761555d9c0600b6bfb9bdce429789783eed4958d37735e5",
+    "models/node-004/branch-transition.json": "bfaf317c49a0807d94081ff18475264bfec46509aeb74db425e7c4bc998a29ef",
+    "models/node-004/main-b-transition.json": "adce1a886778cf45986035965b3e0f650c2470af2fbebfea09e84e6e5990e429",
+    "models/node-005/assembly.ifc": "c74ef0dab2fc346bd8663c8a729d3f42ab0e0e873687ae419aa52f3ca9e7f6e1",
+    "models/node-005/assembly.json": "e862871c1a94f967ba91a8be49444d95d9743a2e843d4279db20d57af8bb71a3",
+    "models/node-005/branch-transition.json": "fbc8a6b3d94269f51060a5e1f39044a6410b2fdb5f06071becf25772bd7de6e6",
+    "models/node-005/main-b-transition.json": "4975c85544ee6f982ae9d3734e85649768e0cc676a6bc64cb937823e863d8e4e",
+    "models/node-006/assembly.ifc": "a4e00949711465f8fb2d9876f76de2059080fba018479496d94a3ee0305e1c3c",
+    "models/node-006/assembly.json": "97856462815d66c05ff76563d1278d82cfdf9dd424897cd61c5f43b279189cca",
+    "models/node-006/branch-transition.json": "728e3308119be91b91a43a749e07299348a61b53434f51e324721dccde955bb3",
+    "models/node-006/main-b-transition.json": "4ff5e1cfb858819e100e235af437c2466e3fa8d04a362b5cc99ca102b251f1b4",
+    "models/node-007/assembly.ifc": "d3090765e68b888e010dc20fe6d2237ba89fb69a3aee82ddc7ac917fb66de8c6",
+    "models/node-007/assembly.json": "3ea91e5e3cdb22413c37b46f4934c82b1f745f78e2f10f790cc594cad30df053",
+    "models/node-007/branch-transition.json": "5a28a03eec9be13d366e157cff3c810afde5a81ea4e907d0bb9d1b7cc1e8a016",
+    "models/node-007/main-b-transition.json": "fd73d05bf2fb26148ff7ba5fa4712413a9fb88dde681204552c33c7d6ef99929",
+    "models/node-008/assembly.ifc": "d9b52a97a12688abb51022846259a60e9d059d0ecbcb3a68083c3bcee847166c",
+    "models/node-008/assembly.json": "fbd592349db159d77af7ee4781dda4467f05b644d468ac18155652217da951a7",
+    "models/node-008/branch-transition.json": "de6e7500c9b1deaefcd9e224330f5d240aaf3ac099e4471b1f21229b166896ba",
+    "models/node-008/main-b-transition.json": "d2ff15719c59fc8b71e8c6400a817cdd828f33000e40c1b3ce93c8ae0e0ca936",
+    "models/node-009/assembly.ifc": "cf2f2b08bfd6a5e9f1aa6ab50c7e2919011ae19eb0742242db7937f161c72ad3",
+    "models/node-009/assembly.json": "967563d6ed65dbd950c01dfa9cd43d7e87ade566736f6e2350f033294d0b729b",
+    "models/node-009/branch-transition.json": "2e8ec4f26fe66103bfe43c32e4cc97bde97bcbc2f4faf00588aef20ffca9f648",
+    "models/node-009/main-b-transition.json": "ed9753e86fc1670224ad7f7c7f538066cfa39914f083a08d0feee0ccd25905e3",
+    "models/node-010/assembly.ifc": "e772024f50eb4d0df00497a400306dab8f7d3e3a48f6d2cbd40aaec53da664e1",
+    "models/node-010/assembly.json": "367947582a65d3c6a2f298010b22563f3864f027c9045f1af20896f7d58c6b57",
+    "models/node-010/branch-transition.json": "fc9010f7b6434e0d2b6477abf531285be3e8e8946d4a1fddd704223063f89c3a",
+    "models/node-010/main-b-transition.json": "dc9d3df1ace8f4eea53631acdf92023313383c00b8bc361157c743665505a9fc",
+    "models/node-011/assembly.ifc": "3d1f93f1dc4204a0dc3ff9d164e88a69b379f26d7491ffe9959be2a773d77c2a",
+    "models/node-011/assembly.json": "3ce463d61bc44596cc4ce15ff6ef749a4a8afe2af545e0c1b267238ba5eea3af",
+    "models/node-011/branch-transition.json": "81beecb44538965877be19efe096cac6acd13229a56f676ff684c2c1b6d474e4",
+    "models/node-011/main-b-transition.json": "51efe77d502c5f431af6dff788b2609099802dcdf088a29d3a712ddcd65b1fc3",
+    "models/node-012/assembly.ifc": "c96e14f53b856ac7818e691c8e5a6231156644ea7a818b64e3042b06b6eeff22",
+    "models/node-012/assembly.json": "4a4a388804547349a6f1fd62529d79e7284b28296e6dd293f1db8a3482a2c3eb",
+    "models/node-012/branch-transition.json": "3e69bf83b57f3fdb85e0e4074b707e6f3ecdb36f738b82eac63a162d78e63f65",
+    "models/node-012/main-b-transition.json": "a426bd5f2b89e45413f231910e519bef354c298f9b85f982e29c11636382d163",
+    "models/node-013/assembly.ifc": "1bd51ba06d6972b2672dbf26dde89004018f2d3ea8f1f8906e447f485e2de60c",
+    "models/node-013/assembly.json": "c33567e3178f50dcc0d308e3db6b6063376e9b55f22323f02370ab217f126820",
+    "models/node-013/branch-transition.json": "bfe58ddb5b433a921333f551f9d55d0d0e76dc6b1b167060716552de5343c53a",
+    "models/node-013/main-b-transition.json": "98a8043e57a58f69f428cb786a0a629afce3cb5b64884a5832401294141dba9c",
+    "models/node-014/assembly.ifc": "adee98a8292caebabeee7be80d4c13718c47df77cf8fe7e8e679ca9e8aaab352",
+    "models/node-014/assembly.json": "9cb1fd749e5969fc2d7af5374c65d79d044eaf100c6ddfbcf7aac3d8f2d282dd",
+    "models/node-014/branch-transition.json": "843c6261bb590779dbe3c3de272e2e40cfba6402128901c7cf80c7c81c9d8746",
+    "models/node-014/main-b-transition.json": "5adcd0271f1b1824fd5dcb72d0676eeb7dedbf711fab612b3d0dc5ca203af272",
+    "models/node-015/assembly.ifc": "db63aff2284d50f63335ba6a67e57fd1f89e188362b719bb90526b9e2b134277",
+    "models/node-015/assembly.json": "e2595edb2c799f06c44d694a293662dbcb6890214c034f7f37b48c6ce342cf8a",
+    "models/node-015/branch-transition.json": "febed1ef7fdd40cab10ab9854f534bd64196c0fbf00590bfa3fb6dd1e9050ac2",
+    "models/node-015/main-b-transition.json": "c07a29f56424df2a50e7b4aea07f25d82e5525ada4c96f8cd9ed61a101ab3c32",
+    "models/node-001/main-a/transition.ifc": "bfa683eb97e411db36ddfd88181e2c769dd0cc77e4b6f37c4439e20fb0e27d44",
+    "models/node-001/main-a/transition.json": "1830e0f058f72f0f685aaac5519b4d0afdb9126ac9c456de6af53ebf111f3a7a",
+    "models/node-001/main-a/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-001/main-b/transition.ifc": "aed6099ebb6bffdce1925c8baa570ea557013e26c0a4701474d6ed5ac0864c6f",
+    "models/node-001/main-b/transition.json": "703619e2f92bce50254bf35de2f6a089bf77fdbb1e11702c2e5b3e85a5a08fe8",
+    "models/node-001/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-001/tee/rectangular-tee.ifc": "d42c40b27a8ea45c74345f004f6142887a6e30600712a9ebc40865e1f2f4ff93",
+    "models/node-001/tee/rectangular-tee.json": "1d9744fb0a9438653adcfc1fb9ae2f2b8b509747c8f3069236fd4b50ae88fdf7",
+    "models/node-003/branch/transition.ifc": "d53326926d6310ff6a124ae489da43d4f078845068bb45561a8743185960b6ce",
+    "models/node-003/branch/transition.json": "0a410cd7f666b87c06bf71d8e907f0c62dc3ea29b303c3de09f79ba0fe0d5ac3",
+    "models/node-003/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-003/main-b/transition.ifc": "f58a37396080739cbcac6c864a7da9991b5df72c155ec7cd16bba91053213c7b",
+    "models/node-003/main-b/transition.json": "d19f419d551ae8ab0b4d62549c233831e2d7774cb001a13955b974fdc96c32ec",
+    "models/node-003/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-003/tee/rectangular-tee.ifc": "79175f8e938047da6928797b431b526650b9be34b00ab8ed950bd1c1444b246c",
+    "models/node-003/tee/rectangular-tee.json": "a369588216ee95b03793c25a206a3ce52c8b31821943989a00e7a62ae5a6fbd9",
+    "models/node-004/branch/transition.ifc": "df3d7d52326ac42fe9f66316370c01d46cd9f884867bd60609cc5322f84894e2",
+    "models/node-004/branch/transition.json": "b89ea59d17ff42d44f2c21b745a7f79650a9690079ea65f98acfb93f5f5c6e27",
+    "models/node-004/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-004/main-b/transition.ifc": "9ec186f2a3083e01b081931717b1f492937a4343ee960e4f6837b96576fa0c9d",
+    "models/node-004/main-b/transition.json": "13cdc91e4e5b5d14310c31836f18284a4d3d279197c3d231bd7cbefebeac77a4",
+    "models/node-004/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-004/tee/rectangular-tee.ifc": "877f7e4e0430f8aa991f6f75a9416e414caf399e41a4cc14b01ba2130fb24518",
+    "models/node-004/tee/rectangular-tee.json": "bdcd5f977f8d28ede33d21856e571c3cc598222c3cad3c8376c2e977c9fbd362",
+    "models/node-005/branch/transition.ifc": "1a6de5cfb6c9e5354f8c144339f445fe96036c4194618d062f1a57b27e932fc4",
+    "models/node-005/branch/transition.json": "b14dc5b3a8c6883c6b571029cddde729010d0538f04289a27d15a9e617e36727",
+    "models/node-005/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-005/main-b/transition.ifc": "ab8c3e906165fe0594345238bf3d2011dddb3231a52d957ef4d436778f3894fb",
+    "models/node-005/main-b/transition.json": "22b2fa8550d2654f94d10bce0f65c1a077e35ded76bd7cbf3d94b7e9d651eb11",
+    "models/node-005/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-005/tee/rectangular-tee.ifc": "c6bea234e05544587ed2705d1f33f7dd75927005526a49392a06396a192b8663",
+    "models/node-005/tee/rectangular-tee.json": "d74727c81499aea50b21aa5067fd3650975fe33f4e96194ddc54b07110decbda",
+    "models/node-006/branch/transition.ifc": "626728abb2ca4eff7f8aba200c4e8fcffc3c3d7c9984ac89d22a02a4b704f9f4",
+    "models/node-006/branch/transition.json": "19727e1ef721089706a06d4090d88b5eaafaedc0ca77620a4a158ad3d364f2db",
+    "models/node-006/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-006/main-b/transition.ifc": "036a5e5bc148b3b333cdfd6f2c487464d3b6d4a3d4a61e0d0133d2dab879d638",
+    "models/node-006/main-b/transition.json": "6171144c5ba89a22acf6d5e3d2f0d6585d6ec442cdda713d47908ce3d1e28492",
+    "models/node-006/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-006/tee/rectangular-tee.ifc": "9bb2916ce24ee68ae3953afe06431b8fb10d49b90cf89c1da6c06089bcc144c7",
+    "models/node-006/tee/rectangular-tee.json": "aa7961d36289aeb3a99758dd2faf83c0fd9cde2d7399d604d7c8c462c6d59344",
+    "models/node-007/branch/transition.ifc": "d1fcbe088c321f46cbf46ad9800f019dee1f2d6be472aac70bb97fb6c05bde7a",
+    "models/node-007/branch/transition.json": "0fd4b07f6f8e83f024e979e4a08a5a1a904d2f79ae6fffd04b08b7315066d40d",
+    "models/node-007/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-007/main-b/transition.ifc": "ff4b7ecf8b3e4f9a3a430eab2acf7aa573b98de03047ffef8e9da40460381202",
+    "models/node-007/main-b/transition.json": "9ecf7ddd38fb6ee74985e66b90c2234eabcef615ac27fe3af68bedfd248b4e0a",
+    "models/node-007/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-007/tee/rectangular-tee.ifc": "72cdea866131afcb738ef78af08bc8ca38649573362e77141677d1d4784ec435",
+    "models/node-007/tee/rectangular-tee.json": "f27ecbbc54f28037f6aeeea8308737d5a18b9d8cb55473982319fd36b4c13c62",
+    "models/node-008/branch/transition.ifc": "015c5e160aa81dd32ce396cbe424221e2e05eff9efc101acc6b57abbf6d21082",
+    "models/node-008/branch/transition.json": "0bf71d7de9e1dcf79c8f23b2745e3ad30748f4cf522808135cc7df0edbab9f23",
+    "models/node-008/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-008/main-b/transition.ifc": "cdd93d754888038e5e194aec23d50fe7447935891c97594598c082132ae4a815",
+    "models/node-008/main-b/transition.json": "27a93b41b8c5235dfc3ce58a77568d03343058233683eba44ca00ad4fe42985f",
+    "models/node-008/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-008/tee/rectangular-tee.ifc": "6a71c6d5c2941dd364875766beebfc009b909ebc516884b3213a6c5d9440b8d9",
+    "models/node-008/tee/rectangular-tee.json": "11aa029de9a831722ca22c18f2b7b3f7600a9d4258ed8e4752e4076425a07e0e",
+    "models/node-009/branch/transition.ifc": "d23906835c4eb10f4acdbfdcfd5e2b0a9c3c15bcdfd29e083cc78cf7f319729b",
+    "models/node-009/branch/transition.json": "3bf288ed3cbd8f943796fcc397ca50b7140bcacd94d7b0cb2e0789a8fb1d3710",
+    "models/node-009/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-009/main-b/transition.ifc": "899904e06f193c6bdd6834e82fd6fbc0401c073978140620acb3480d7a830445",
+    "models/node-009/main-b/transition.json": "b6ad19b65bbfabe68092d26d957b41ed6ec683ac7a9aec10e2be89fcc74895e9",
+    "models/node-009/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-009/tee/rectangular-tee.ifc": "20180a4291cda4871896a65683195b6a80ee7111cc1dd020d18e1c2d8d206e62",
+    "models/node-009/tee/rectangular-tee.json": "b30a26bc04ea8509f469891440240fce224371f4aafa824aefecb4b40da060ca",
+    "models/node-010/branch/transition.ifc": "72250047a0594372588274f0779e0884cc8d1d0cfabe5281f22f8a906d974f77",
+    "models/node-010/branch/transition.json": "d34afa89376fb193b34a04f78a48f834a80bd426d7201072253b9818f1030bba",
+    "models/node-010/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-010/main-b/transition.ifc": "5f1ef46b310e399099f6a67b5883b3a559ccbfaf532b9ba790deb023b5669e81",
+    "models/node-010/main-b/transition.json": "ea0c4ac77dc1ea3d4978731c5368426907fe2f3b7ec6e29bf6b8c01f8d6f2fab",
+    "models/node-010/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-010/tee/rectangular-tee.ifc": "1f44088ce4a6190cbb67b07163f96cafd972569bdb0b5e4db7613f4d8d7c3f3f",
+    "models/node-010/tee/rectangular-tee.json": "d609ddd0dfa2f90807c77029bedd42784475c93e199af9b49440dc7637c880bf",
+    "models/node-011/branch/transition.ifc": "2abfefb926f01b9f079057c8712d35d57e11613165e7ca679e85a8b91c13053c",
+    "models/node-011/branch/transition.json": "29d3fd9e64b78e0d0512fbd3a33ad220c6c62ac046541a3ce09a6ccbac97f299",
+    "models/node-011/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-011/main-b/transition.ifc": "1b89b21094df3d4432fb2a6fd9a7878ef6cda6e7551fb662b271b8e34100e6cf",
+    "models/node-011/main-b/transition.json": "21bc0cdebc4c71cbbbfd06b28b180ea276f85fb86ea04b6280ee2ffe31c2b760",
+    "models/node-011/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-011/tee/rectangular-tee.ifc": "5b8709ff8cf75e77ca82c4b2b6d9b73f9adde95ea0e61803bea2d66bf6c10368",
+    "models/node-011/tee/rectangular-tee.json": "3defd84b0b3071d0e2445631952497ca6d8b5aa171a6eead0304391edc35f426",
+    "models/node-012/branch/transition.ifc": "49a5040de4d074a32b2d82bcf1b9351bd24dc1360283014ce9cee7f5c5cc3537",
+    "models/node-012/branch/transition.json": "ac2131ea8086bfa70de0ebe4c60d4eae5f029e9b9d681039582954b39f2b28d4",
+    "models/node-012/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-012/main-b/transition.ifc": "421c23dfa5e37af45ffb4c9f2378d12eb84e565a4258a8d1d6aac8b3e3fad18b",
+    "models/node-012/main-b/transition.json": "3ccc9dab39ec3df3b31f6e8e04f5dfb234f37a91a53eb4170bb2567012dd2a64",
+    "models/node-012/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-012/tee/rectangular-tee.ifc": "0cf179975f4d5b082e46f5cb5095c1613b1613b045cf566b2cb741c6d9e871c6",
+    "models/node-012/tee/rectangular-tee.json": "662f1dd8c218531387281ebc8b0472bf75aaafe4313baaf034b8149e04d8de07",
+    "models/node-013/branch/transition.ifc": "c41a2fa695ed171d3d553c4c7bcc895b489de0e77e3a2ac392050ec004839467",
+    "models/node-013/branch/transition.json": "6074277cbae597eba0f3bc3a8bf7ab5412f9533699807c14fa01256ab5534a0e",
+    "models/node-013/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-013/main-b/transition.ifc": "c4d6b4365aa8f1921e5bd0d625d12fccfa8da4d72711d55675c01f86abfa2364",
+    "models/node-013/main-b/transition.json": "e6ae9cb6ea53de54485e1d34479d294eac282d6566aa534d9e753a0aa319ae7e",
+    "models/node-013/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-013/tee/rectangular-tee.ifc": "924e0ecc0f8c8600f0474a9fba3311811083d2fbc0be4c09a015b1d127c14615",
+    "models/node-013/tee/rectangular-tee.json": "1cc384ae3f320e0d954eafbd6370863fa232cd1c4bc8d5ac6856249a14ab5662",
+    "models/node-014/branch/transition.ifc": "266ce7d8a146dcfd44a5c3d7030b826a4cddb155485449c401f7cbf2d6e0b7a6",
+    "models/node-014/branch/transition.json": "57ae6a64654f0b1d6ac04fc49adcaee7fe35eb5d767f2527975389e1c31de1a8",
+    "models/node-014/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-014/main-b/transition.ifc": "353dbacbfaf4879ba69f4eacf582e08ba5377208e9db7ef9821d4c681116b56f",
+    "models/node-014/main-b/transition.json": "f4fc6d13d80f19a52fc27847069880b8b1701c0250d44f22d321d6f1421a582e",
+    "models/node-014/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-014/tee/rectangular-tee.ifc": "5d7a12938fbdbe11e7e8ef043f6f0229c72294bbbff2dcad621faa28f4f4074a",
+    "models/node-014/tee/rectangular-tee.json": "decc053f0aee3b853b180213b391eec0ba87419d5e33209d0ebe673cee0c215c",
+    "models/node-015/branch/transition.ifc": "1e967836bf5cd0aa4657d82fda7d0730aaed5cd5c64ef54342009d0b541d94e9",
+    "models/node-015/branch/transition.json": "eab3eaf8c2712b9a83cb76c117552fea3d627a93142fce382652fe072024dfa1",
+    "models/node-015/branch/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-015/main-b/transition.ifc": "17527290a0d58a05db2dcd087527175747fb3446eb1642a6c307d38828608ed9",
+    "models/node-015/main-b/transition.json": "b56f55f7995b8a7a387a952c0bf227ac9eabef82c7212632cbc999dafc03115e",
+    "models/node-015/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-015/tee/rectangular-tee.ifc": "6ffbf150f0d5ea1c85242ed07ebd871d82a3f8b356ab0116f6e28396a0289418",
+    "models/node-015/tee/rectangular-tee.json": "40047c6a131bdad98c59bd51169d34c9942504420063b2e034235d452e7ff0cf"
+  }
+}

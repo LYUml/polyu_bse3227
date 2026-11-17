@@ -1,0 +1,623 @@
+{
+  "scope": "all represented non-feature non-virtual IfcElements",
+  "sources": {
+    "numerical": "Untrimmed straight-wall diagnostic. All distance tolerances are20micrometres,twice the existing mesh linear deflection,as required by the existing clash engine. These and1e-10m3 overlap threshold are software detection controls,not installation clearances. No contact/junction waivers;full physical policy review remains pending.",
+    "native_cap_study": "Explicit numerical interface study. Region radius equals 1.1 times the actual native outer-cap half-diagonal plus 0.0001m, with 64-segment conservative masks. This is a software separation experiment, not a product joint allowance or installation clearance. Original raw no-waiver results remain. Empty outside-body proofs remain pending.; numerical masks only, not product joints or installation clearances"
+  },
+  "source": "numerical",
+  "minimum_clearance_m": 2e-05,
+  "intersection_tolerance_m": 2e-05,
+  "contact_tolerance_m": 2e-05,
+  "overlap_volume_tolerance_m3": 1e-10,
+  "maximum_boolean_pairs": 10000,
+  "allowed_contacts": [
+    {
+      "from_port_guid": "3Z$IVZpT9Qsv$NJERunZYq",
+      "to_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+      "region_radius_m": 0.893694314440279,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3AHfHBmovMox314OcElvL$",
+      "to_port_guid": "2cO1LFWE5GoeQ3L2z_4o$q",
+      "region_radius_m": 0.8936943144402857,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "10mYAu9$nPXx394eyg20Nz",
+      "to_port_guid": "0QMAjz$MDG99BRVSWGakej",
+      "region_radius_m": 0.8936943144402857,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1v_Ja4ZjHTgflfseZrCMVo",
+      "to_port_guid": "0j1OuFfI1UYuWN5GaStw1Z",
+      "region_radius_m": 0.25487833267372056,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1oHMyDUUDOGw0kmQR75W9w",
+      "to_port_guid": "2Mcz75$mbGDf7NmerFwH1Q",
+      "region_radius_m": 0.25487833267372645,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3jeX4s4Z5IYeuE$7WMm0Qx",
+      "to_port_guid": "1wmPghLTzMc9crpVwFcXDv",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1QyjMIWCjSHQTRaBRhP8p2",
+      "to_port_guid": "2Sw6qrqbjPcP_mfpEJuyNt",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2Aesy4qBjQfPyKBz_EtKK9",
+      "to_port_guid": "38yy7kNGzGxxIfsZILjcOU",
+      "region_radius_m": 0.25487833267372056,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3qCmCCPGzIA8Av$hAWq5H_",
+      "to_port_guid": "2QPuMlxgfNPxVEGZEUOXtQ",
+      "region_radius_m": 0.25487833267372645,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1wZcj5l45Gt9AbNhHo_A2P",
+      "to_port_guid": "0tezDgJE9RvP8RzXgaa5tB",
+      "region_radius_m": 0.25487833267372056,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3xUCeixorQyByUoyI1gNC3",
+      "to_port_guid": "39AG_b47bHrwMOVosoYUT5",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2K4tWhXKnQ4vC0y6Yjy9QX",
+      "to_port_guid": "3MDpUslpfUHeT50dWeoVww",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0wYPAheBrJI9Q5$QQtsU47",
+      "to_port_guid": "1kl2VoWSjIvAViRjR4TPIE",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3S5I7mBSnO9fJRtqwH97CJ",
+      "to_port_guid": "1wLl5BuijGh8Fl74e_vajg",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "39NU49EXfUafAGD0acjryX",
+      "to_port_guid": "3lEaNmbGLPHfJHTzQcYc6x",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2iylxtA39V$R98O9dQ71w8",
+      "to_port_guid": "3U04xaSwHI3BeIodELIqRd",
+      "region_radius_m": 0.2763320560688069,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3Ii_jGjozMsBXMUkcBY5I8",
+      "to_port_guid": "3L3OoG5BPSPQRiGNL8iyi8",
+      "region_radius_m": 0.2763320560688069,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "32VFhOgTjMlRJM2S1ngjOf",
+      "to_port_guid": "0BcuWcI55HuhPJ79uWa9vR",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "188Z9OroPL5OmEPyfb3xoZ",
+      "to_port_guid": "2g$VDkD5jRYuxq4vYNe72A",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0$3siXB_jSIvotCZZMg48B",
+      "to_port_guid": "0VStysC3jTlBJVqcmZYZ1E",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+      "to_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+      "region_radius_m": 0.487868181414082,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "051NCvL2bI7B9BhgLTja3E",
+      "to_port_guid": "0G6DhiXbfRHvy7otAfVi6E",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+      "to_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+      "region_radius_m": 0.6624893483443066,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+      "to_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+      "region_radius_m": 0.487868181414082,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0EvGYEXPfHA8XCZDkoFbUT",
+      "to_port_guid": "2zUCN1hfXRNhCBURkEVZXf",
+      "region_radius_m": 0.25487833267371757,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0ExIwBlv5NavFWBhKTbaN_",
+      "to_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0UmgjQTyDLw8DyPQHYOLYH",
+      "to_port_guid": "3dLQHND_XMXuHqsIIsictR",
+      "region_radius_m": 0.3979310556002342,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0VkTZ2pMbK4xpjp9ffynIe",
+      "to_port_guid": "2aGVDvF3rSUxtXb5pwjpJD",
+      "region_radius_m": 0.3713174548697823,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0Yw$p0fGLN8vcJOlVIsQGn",
+      "to_port_guid": "2lCUI3zqnGPPgpNGCQSXs5",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0fPuD_47zM3R6K2axNhGxl",
+      "to_port_guid": "3Coz8G33DQ99OhGHJ0RlI1",
+      "region_radius_m": 0.2844266586164647,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5",
+      "to_port_guid": "1O95hY4IHG7P4ujOgw4o6I",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0lj9zTt0HRHeiXhV7kTYxb",
+      "to_port_guid": "1xPf9_NwnUsPPGD2kkbW_O",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0p9MUXr_HGLPv9CJE2cNDO",
+      "to_port_guid": "0vSb1JZD5TzAnhYpQZsRFE",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0s2rFFocjUO97pw1w_LPsN",
+      "to_port_guid": "3sOMkKWwLJSANSoe$H_BdC",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0y2UyKXe9G$8OfcxWvJsB6",
+      "to_port_guid": "0ygT3j5qrHHgAlcCJTfrXw",
+      "region_radius_m": 0.3324862193292612,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0zR2sFd7PI0QQ$97eg2mOh",
+      "to_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+      "to_port_guid": "2pVHr334XIg8naxCs33_Pt",
+      "region_radius_m": 0.6624893483443095,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "0zmZvpaoXU8vIZTfjN3qKw",
+      "to_port_guid": "0wy1Bi2SfLwQ9xDpcuDFvo",
+      "region_radius_m": 0.2844266586164647,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "18l_BQy7bMuxYSDHZFCBop",
+      "to_port_guid": "1oqFi$Z8XOKfTGhetCDnlA",
+      "region_radius_m": 0.39793105560024067,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "18v6pdZarO0RNoVJv8ud19",
+      "to_port_guid": "1UbGPGhzvOo8CGZRTtpoq6",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "19gnO84sLS0OzkuF6EStT5",
+      "to_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1JWwvHqZ5Pk8QXvkqnkPUt",
+      "to_port_guid": "0NmDVlADfVUffDKlSR1fOI",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1JXx68DOjGoB7rRh$1wW9w",
+      "to_port_guid": "2sX0$TTO9VLPBcJ6WmhwDf",
+      "region_radius_m": 0.39793105560024067,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1Kmkyb5kbK2hnCzoEJNKPU",
+      "to_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "region_radius_m": 0.6624893483443066,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1L1OqNwV5Po99U1MQrEyJK",
+      "to_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1Lo4fCHwHKpBgehtk1ZQtH",
+      "to_port_guid": "2QES6g6NjPkfT0FZEiouaj",
+      "region_radius_m": 0.3921867873315837,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1R2J3rTFXJY8ftlMqOvi8j",
+      "to_port_guid": "3GHOKFKgvRLuSRvuXUYu5I",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1Rkc5yZ21KGPvafajWvd9r",
+      "to_port_guid": "2sS1YGhVvOnvy2rdoEwH2E",
+      "region_radius_m": 0.3979310556002342,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1S_N5GN_LIvgSglN69NqHL",
+      "to_port_guid": "097bEnBmLIIf$aB0e0aGVe",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+      "to_port_guid": "3YFNW55$POZBf84AWYuRUT",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1ZJwaT4cHJ4R9nu1sX9aUK",
+      "to_port_guid": "1kfE3Ou1jT899k6Xyn0qIj",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1ZL_8UkvTGrPV04vRTWkiC",
+      "to_port_guid": "0PTBJNoGHKAPiy_410RXWO",
+      "region_radius_m": 0.3713174548697823,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1ZOyco7kTG3RG07Uim3ZW8",
+      "to_port_guid": "3sLDGk2DzT08jNltux$XO3",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1bEO4yEs9I1RzXgutXD9QZ",
+      "to_port_guid": "17$K9H775GmA4wrzCHx_lN",
+      "region_radius_m": 0.3921867873315837,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1epqkUk2bROhKeOzefYom1",
+      "to_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "region_radius_m": 0.3713174548697823,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1gNMdIL3nRCfHcGS3hfTKn",
+      "to_port_guid": "1wli8L8C5Rkwvrdxckf_Sr",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1hyjTwMR5Nae9qEEtNmnoX",
+      "to_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1nZG_eMK1Gye1MngM01C4c",
+      "to_port_guid": "245x2h9xjVCOUeWFE$DKAr",
+      "region_radius_m": 0.3713174548697823,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+      "to_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+      "region_radius_m": 0.893694314440279,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+      "to_port_guid": "1oGr7$WYDJ8hyfAyQtKjh1",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1x2hi6q2jJQPf0Pjv1hQ1y",
+      "to_port_guid": "16z_IT8SXSuw6YVju7qqxd",
+      "region_radius_m": 0.2763320560688069,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+      "to_port_guid": "3pj1s13iHGXxItqamkCra$",
+      "region_radius_m": 0.6624893483443066,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "1zpj_pI8DU$enV_vvprOJv",
+      "to_port_guid": "25iSNidCvNbRMagRDWEJTD",
+      "region_radius_m": 0.25487833267371757,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "25dUuZGd9RlPwVhYTZdJAj",
+      "to_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+      "to_port_guid": "1FmTpqj6jGbxJd8cQacamm",
+      "region_radius_m": 0.487868181414082,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+      "to_port_guid": "2es9LeJgfS1B9eKuf2F4$q",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2Bszff$LTO_9a0dglP6_tY",
+      "to_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "region_radius_m": 0.39793105560024067,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2Dv5XrU_zQduRTd58zZ62d",
+      "to_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2EjiMHLC9LBBzUh2cH8p5c",
+      "to_port_guid": "2K$upTuUHGQvxWnUUJB4AO",
+      "region_radius_m": 0.25487833267371757,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2FBapol$nNiReFqqPcNNGF",
+      "to_port_guid": "0dR44ah91JrwoF3lu_418z",
+      "region_radius_m": 0.487868181414082,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2Fese000fPyOpofbM3XvoW",
+      "to_port_guid": "1BEgzJUFbM_Rq_Q3edpySP",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2HLqNrtUDQd9MK97gKpnzs",
+      "to_port_guid": "3Aabk8yE9NMQpZ4FUytcbP",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2KJBFJeYXV_eblaFt$mMtm",
+      "to_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2Mw4_k0ETQdhCWoR$m26S6",
+      "to_port_guid": "0qAVw_HpLI6hYe5UzzALmj",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2P_zK_1S1L6Pd_3Ph2n5cO",
+      "to_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+      "region_radius_m": 0.3921867873315807,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2S$icV1EzJ2OIDW97YizPi",
+      "to_port_guid": "0rhbB3hp9PCPRGEHceWB63",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2XVFgFS9HLqga3vlsxPQcS",
+      "to_port_guid": "2ztp7Y0mfPTwv3dOWeYYlO",
+      "region_radius_m": 0.3324862193292612,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2ZgPCBlYTInRH24B_VNV18",
+      "to_port_guid": "3uGDIrLV9RlBdYlMNVQ8tm",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2bZl_wHavLpOqEjYw4Sfum",
+      "to_port_guid": "0DBFIu2JDVHQPpe5f5ihoy",
+      "region_radius_m": 0.2763320560688069,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2c24JEoCzSTwoiOcuRQdra",
+      "to_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2db8$o0CzOkhgonABzevp_",
+      "to_port_guid": "34MP8mJ$5TquQUAfNLwIu2",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2f9Gv$aWbRRhuLabYDW7Hh",
+      "to_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+      "to_port_guid": "2F0LXllz9KKPlESk4Fozjl",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+      "to_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+      "region_radius_m": 0.6624893483443095,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2tNGgXY0XKReKAWgYkwGtg",
+      "to_port_guid": "15zFWxHNfNbPw3ZRK36Vdk",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2uc1FgP4XODeMXIvXXAKCz",
+      "to_port_guid": "1koRi1_bzG2gtB6AbpFNtY",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2wvLG4IUjJBe0ET48DuaEG",
+      "to_port_guid": "0QpK1ZltvKExiCvJIe5Aka",
+      "region_radius_m": 0.26074726892871997,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "2z22jWXSrP_vk2MXukh_67",
+      "to_port_guid": "0Bfuy6ljXM9PHyB5CQ7Sl5",
+      "region_radius_m": 0.3979310556002342,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "382kKKzb1POROR8L3525QG",
+      "to_port_guid": "3FzfIirMXVwvRHKc3Josrr",
+      "region_radius_m": 0.3324862193292671,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3BWTz4mqjOzxKrjEi4gI7H",
+      "to_port_guid": "39TvK_HIvHLREOnz5qrsDY",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3CpLmocJPUOReUAQBRYuXq",
+      "to_port_guid": "1aTCnctAzNnPvODOWALaHX",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3DK3TsZvbQ49Dr2KI6PnbB",
+      "to_port_guid": "1YRfnAngvJRxZhNbr9WgoE",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3Eml8WTKPU2hjYyow37wiq",
+      "to_port_guid": "3feqvu8S5SWRQiRbBPK2Kq",
+      "region_radius_m": 0.33700591980551636,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3G_3oiciXM2fbKSfoonkkB",
+      "to_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "region_radius_m": 0.3324862193292612,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3H1uLYBYHL0B9wgISWRIce",
+      "to_port_guid": "2aGph530jTqBfncQCLQ0Q9",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3RNb2Epq1UHu8ZiPMBD4Wp",
+      "to_port_guid": "14sV276gjReA5UtfkUd9SF",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3W7N38onzQ5fWBxRBucUYC",
+      "to_port_guid": "1Vq_tj5WzNaej$nLx02mVb",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3WnMSoGPPHLRDlpuAf$STb",
+      "to_port_guid": "340uDoGwDHg9qXrw0AI2Qp",
+      "region_radius_m": 0.2548783326737146,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3cuQS10H5QHxLhP3oQCW_D",
+      "to_port_guid": "1p6TIdnIbSjBYvAs4khC5G",
+      "region_radius_m": 0.3370059198055132,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3e27f9dJDQVRpPQ0nZq1Dz",
+      "to_port_guid": "0rn3VgsATOYO_4EsETpjkR",
+      "region_radius_m": 0.3979310556002374,
+      "source": "native_cap_study"
+    },
+    {
+      "from_port_guid": "3ekUOlKIvPDOL6tapAxwgR",
+      "to_port_guid": "0vjBWs19XJPwpebHyv7oZw",
+      "region_radius_m": 0.3535087559752855,
+      "source": "native_cap_study"
+    }
+  ],
+  "contact_clearance_mode": "outside_regions",
+  "contact_region_segments": 64
+}

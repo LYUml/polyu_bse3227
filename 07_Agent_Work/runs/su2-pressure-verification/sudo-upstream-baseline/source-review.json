@@ -1,0 +1,15 @@
+{
+  "upstream_commit": "ce41729be812da70f06bea0fd1a97a6ce4da14aa",
+  "mesh_sha256": "07226955475639b36986db1798d3c0d6753d5799d0110f6853d75aff190ec4ed",
+  "original_config_sha256": "c5fee1d239678eb5f1cc724aa6530e059067aa3fefbeaa783a2fa26f1b8c572b",
+  "changes": {
+    "RESTART_SOL": "NO",
+    "ITER": "1000",
+    "OUTPUT_FILES": "(RESTART_ASCII)",
+    "SCREEN_OUTPUT": "(INNER_ITER,RMS_PRESSURE,RMS_VELOCITY-X,RMS_VELOCITY-Y,RMS_VELOCITY-Z)",
+    "HISTORY_OUTPUT": "(ITER,RMS_RES,LINSOL,SURFACE_MASSFLOW,SURFACE_TOTAL_PRESSURE)",
+    "OUTPUT_WRT_FREQ": "100"
+  },
+  "scope": "Official density-based smooth wall-function SST bend baseline; no project validation claim. Inlet profile and experimental matching remain pending.",
+  "engineering_accepted": false
+}

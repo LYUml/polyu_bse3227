@@ -1,0 +1,110 @@
+{
+  "schema": "bsa.drawing-ifc-graph/1",
+  "source": "Native saved118body IFC directed topology; no geometry or pressure acceptance",
+  "ifc": "../../runs/recentered-cross-network/Supply Network.ifc",
+  "ifc_sha256": "d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+  "products": "all_distribution",
+  "marked_products": [
+    "3tK$ugPAvIAAusb9mKjQEp"
+  ],
+  "graph": {
+    "source": "Native saved118body IFC directed topology; no geometry or pressure acceptance",
+    "layers": {
+      "TOPOLOGY": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "GAPS": {
+        "color": 1,
+        "lineweight": 50
+      },
+      "NOTES": {
+        "color": 7,
+        "lineweight": 18
+      }
+    },
+    "sheet": {
+      "paper": "A1",
+      "window": [
+        0,
+        0,
+        827,
+        574
+      ],
+      "scale": 1,
+      "title": "SUPPLY NETWORK SYSTEM SCHEMATIC",
+      "number": "BSE3227-CS-08",
+      "reference_length": 50
+    },
+    "notes": [
+      {
+        "id": "note-0",
+        "kind": "text",
+        "source": "Pinned native118body source and current pressure ledger",
+        "layer": "NOTES",
+        "classification": "secondary_transcription",
+        "insert": [
+          15,
+          545
+        ],
+        "text": "118 source bodies / 117 directed interfaces / 1 inlet / 20 rigid outlets",
+        "height": 3,
+        "rotation": 0
+      },
+      {
+        "id": "note-1",
+        "kind": "text",
+        "source": "Pinned native118body source and current pressure ledger",
+        "layer": "NOTES",
+        "classification": "secondary_transcription",
+        "insert": [
+          15,
+          539
+        ],
+        "text": "! marks the compound junction: 4 unresolved fitting paths; other fitting values conditional",
+        "height": 3,
+        "rotation": 0
+      },
+      {
+        "id": "note-2",
+        "kind": "text",
+        "source": "Pinned native118body source and current pressure ledger",
+        "layer": "NOTES",
+        "classification": "secondary_transcription",
+        "insert": [
+          15,
+          533
+        ],
+        "text": "Topology only: line lengths are schematic; full pressure, installation and ADPI unverified",
+        "height": 3,
+        "rotation": 0
+      }
+    ],
+    "layout": {
+      "origin": [
+        25,
+        170
+      ],
+      "factor": 1.35,
+      "node_width_mm": 13.97,
+      "node_height_mm": 6.35,
+      "text_height_mm": 2,
+      "ranksep_mm": 4.064,
+      "nodesep_mm": 4.571999999999999,
+      "rankdir": "LR"
+    },
+    "source_files": [
+      {
+        "path": "../../runs/recentered-cross-network/pressure/maximum/analysis.json",
+        "sha256": "cca9ee3c8c7ffe76fef451c092989064a68ae9c5a613583e91c0687bd44cc17e"
+      },
+      {
+        "path": "../../runs/recentered-cross-network/pressure/maximum/pressure-ledger.json",
+        "sha256": "442330127569fe33d00388698fee1472515085d4d126b688bdd2c2037c99aa86"
+      }
+    ],
+    "node_layer": "TOPOLOGY",
+    "marked_layer": "GAPS",
+    "edge_layer": "TOPOLOGY"
+  }
+}

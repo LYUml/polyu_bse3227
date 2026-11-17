@@ -1,0 +1,46 @@
+{
+  "scope": "Exact source cap-plane correction on independent current uniform native mesh; not pressure acceptance",
+  "source_points_sha256": "838d532c0c917d069bd653a8782d5fc2803906d398a610695f4738d6a375d508",
+  "output_points_sha256": "f05270a8fb97e7cdb95a77ed1e173b8e3d4d065c5c195ba5311804245dafc3db",
+  "native_vertex_count": 151465,
+  "moved_cap_vertices": 390,
+  "unrelated_vertex_coordinates_unchanged": true,
+  "face_cell_patch_connectivity_unchanged": true,
+  "coordinate_collapse": false,
+  "maximum_point_displacement_m": 0.00013397542014459418,
+  "ports": [
+    {
+      "port": "inlet",
+      "vertices": 1443,
+      "maximum_source_plane_correction_m": 0.0,
+      "plane_after_max_error_m": 0.0
+    },
+    {
+      "port": "outlet_0",
+      "vertices": 508,
+      "maximum_source_plane_correction_m": 8.294251719392909e-05,
+      "plane_after_max_error_m": 0.0
+    },
+    {
+      "port": "outlet_1",
+      "vertices": 508,
+      "maximum_source_plane_correction_m": 8.2933037903965e-05,
+      "plane_after_max_error_m": 0.0
+    },
+    {
+      "port": "outlet_2",
+      "vertices": 508,
+      "maximum_source_plane_correction_m": 0.00013397542014459418,
+      "plane_after_max_error_m": 0.0
+    },
+    {
+      "port": "outlet_3",
+      "vertices": 508,
+      "maximum_source_plane_correction_m": 0.00013021178355210328,
+      "plane_after_max_error_m": 0.0
+    }
+  ],
+  "source_surface_unchanged": true,
+  "wall_layers_present": false,
+  "engineering_accepted": false
+}

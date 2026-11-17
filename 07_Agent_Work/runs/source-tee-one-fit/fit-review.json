@@ -1,0 +1,257 @@
+{
+  "node": "J0",
+  "binding_source": "Source node J0; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+  "arms": [
+    {
+      "arm": "main-a",
+      "section": "D-16",
+      "source_line_handle": "8DAB",
+      "width_m": 0.6,
+      "height_m": 0.4,
+      "outward_reach_m": 0.8982050807568811,
+      "source_centreline_length_m": 3.3740680000000083,
+      "remaining_centreline_m": 2.475862919243127,
+      "extent_within_source_segment": true,
+      "external_end_xy_m": [
+        85.60179491924312,
+        21.920583999999998
+      ]
+    },
+    {
+      "arm": "main-b",
+      "section": "D-19",
+      "source_line_handle": "8DB1",
+      "width_m": 0.6,
+      "height_m": 0.4,
+      "outward_reach_m": 0.8982050807568811,
+      "source_centreline_length_m": 4.065931999999989,
+      "remaining_centreline_m": 3.1677269192431083,
+      "extent_within_source_segment": true,
+      "external_end_xy_m": [
+        87.39820508075688,
+        21.920583999999998
+      ]
+    },
+    {
+      "arm": "branch",
+      "section": "D-15",
+      "source_line_handle": "8DA9",
+      "width_m": 0.65,
+      "height_m": 0.6,
+      "outward_reach_m": 0.4250000000000007,
+      "source_centreline_length_m": 6.8300000000000125,
+      "remaining_centreline_m": 6.405000000000012,
+      "extent_within_source_segment": true,
+      "external_end_xy_m": [
+        86.5,
+        22.345584
+      ]
+    }
+  ],
+  "plan_extent_check_pass": true,
+  "status": "review_required",
+  "installation_elevation_verified": false,
+  "section_roll_verified": false,
+  "neighbouring_end_fitting_trim_verified": false,
+  "design_accepted": false,
+  "pending": [
+    "Opposite-end fitting consumption on each source segment",
+    "Actual installation elevation and section roll",
+    "Outer-envelope/obstacle and product-joint clearances",
+    "Sheet-normal construction/product selection",
+    "Fitting loss and full network/requirement acceptance"
+  ],
+  "scope": "Necessary XY source-ray/end-size/extent checks for one local fitting composition; remaining centreline is not installed straight length or proof of available space",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-001\\project.json": "05b70427048d3d6952623b0d765cf0e95f3bddb01468021f09d04eccd05f5ff8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-001\\tee.json": "1391aac01d7d9bd3e9447a169227b4d84082a9412ef60f186c4f7a0e3ba517f4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\inputs\\node-001\\binding.json": "d6af56c206a0f4786aac579d071fc05163d443fc1b25e646596987a5fe91cfd3",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\assembly.json": "d96ade21f6b46d136cc78bdc8585f575fea8591e24f2a9c770de82c78c0b93bd",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\assembly.ifc": "8aa09df5a660d5f67def3b299e4cf82cf077c4c4b784ad9edb4715dd8a0694e1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-a-transition.json": "183b3af09377280d7245b1470e39d1c4a0669306013747a5a02a460f21050a04",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-b-transition.json": "e6435d86fa86fab9e391a5eee90108639b09d2879479cda3b18e89dc6616f927",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-a\\transition.ifc": "bfa683eb97e411db36ddfd88181e2c769dd0cc77e4b6f37c4439e20fb0e27d44",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-a\\transition.json": "1830e0f058f72f0f685aaac5519b4d0afdb9126ac9c456de6af53ebf111f3a7a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-a\\upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-b\\transition.ifc": "aed6099ebb6bffdce1925c8baa570ea557013e26c0a4701474d6ed5ac0864c6f",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-b\\transition.json": "703619e2f92bce50254bf35de2f6a089bf77fdbb1e11702c2e5b3e85a5a08fe8",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\main-b\\upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\tee\\rectangular-tee.ifc": "d42c40b27a8ea45c74345f004f6142887a6e30600712a9ebc40865e1f2f4ff93",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-candidates\\models\\node-001\\tee\\rectangular-tee.json": "1d9744fb0a9438653adcfc1fb9ae2f2b8b509747c8f3069236fd4b50ae88fdf7",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_fitting_fit.py": "9f12887e35d334687a7ff650bb1a59bd8493ee1bfa1cfc7f58c9fdac6a56035a"
+  },
+  "junction_review_sha256": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+  "assembly_checks": {
+    "tee": {
+      "schema_express_issue_count": 0,
+      "ports": 3,
+      "one_connected_material": true,
+      "euler_characteristic": -2,
+      "native_material_volume_m3": 0.0015888299520008574,
+      "independent_material_volume_m3": 0.0015888299520000482,
+      "bore_probe_overlap_m3": [
+        0.0,
+        0.0
+      ],
+      "saved_source_geometry_and_port_frames": true
+    },
+    "transitions": {
+      "main-a": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.0008529805503691571,
+        "independent_material_volume_m3": 0.0008529805503691423,
+        "material_centroid_m": [
+          1.0771863310792388e-15,
+          2.055566448798363e-16,
+          0.2261981000734201
+        ],
+        "relative_volume_error": 1.728661871530557e-14,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999996,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.32580000000000003,
+            -0.3008,
+            0.0
+          ],
+          [
+            0.32580000000000003,
+            0.3008,
+            0.47320508075688766
+          ]
+        ]
+      },
+      "main-b": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.0008529805503691571,
+        "independent_material_volume_m3": 0.0008529805503691423,
+        "material_centroid_m": [
+          1.0771863310792388e-15,
+          2.055566448798363e-16,
+          0.2261981000734201
+        ],
+        "relative_volume_error": 1.728661871530557e-14,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999996,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.32580000000000003,
+            -0.3008,
+            0.0
+          ],
+          [
+            0.32580000000000003,
+            0.3008,
+            0.47320508075688766
+          ]
+        ]
+      }
+    },
+    "components": 3,
+    "ports": 7,
+    "connections": 2,
+    "coincident_opposed_interfaces": 2,
+    "material_overlap_m3": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "one_connected_material": true,
+    "euler_characteristic": -2,
+    "material_volume_m3": 0.003294791052738382,
+    "independent_material_volume_m3": 0.003294791052738333,
+    "bore_probe_overlap_m3": [
+      0.0,
+      0.0
+    ],
+    "external_end_frames": {
+      "main-a": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          85.60179491924312
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          21.920583999999998
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "main-b": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          87.39820508075688
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          21.920583999999998
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "branch": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          86.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          22.345584
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "source_workflow_integrity_pass": true,
+  "saved_model_reinspected": true
+}

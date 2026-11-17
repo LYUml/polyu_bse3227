@@ -1,0 +1,49 @@
+{
+  "project_uuid": "f2ff0ae7-5e9d-50b6-8131-6a689c9065e9",
+  "source": "Opt-in45degreeone-plane/equal-anglepyramidal native construction;sourceenddimensions and upstreamframepreserved;50mmcollars/gaugeassumed,physicalassemblyinteractionunverified",
+  "classification": "assumed",
+  "placement": {
+    "source": "Saved upstream native contraction frame",
+    "origin_m": [
+      99.0734325,
+      35.58058400000001,
+      0.0
+    ],
+    "rotation": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ]
+  },
+  "wall_model": "section_plane_offset",
+  "start_section_m": [
+    0.55,
+    0.35
+  ],
+  "end_section_m": [
+    0.5,
+    0.35
+  ],
+  "section_offset_m": 0.0008,
+  "start_length_m": 0.05,
+  "end_length_m": 0.05,
+  "upstream_angle_degrees": 45.0,
+  "transition_length_m": 0.06035533905932743,
+  "port_directions": {
+    "start": "SINK",
+    "end": "SOURCE"
+  },
+  "geometry_method": "explicit_station_brep"
+}

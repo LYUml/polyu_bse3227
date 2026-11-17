@@ -1,0 +1,50 @@
+{
+  "schema": "bsa.openfoam-history.v1",
+  "units": {
+    "phi": "m3/s",
+    "Pt": "Pa"
+  },
+  "time_basis": "steady_deltaT_1",
+  "density_kg_m3": 1.2,
+  "inlet": "inlet",
+  "outward_volume_targets_m3_s": {
+    "inlet": -0.5756751425686069,
+    "outlet_0": 0.14782239876590955,
+    "outlet_1": 0.14782239876590955,
+    "outlet_2": 0.13220794627087828,
+    "outlet_3": 0.1478223987659094
+  },
+  "basis_files": {
+    "source_design_flows": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-design-flow-cold-upwind/startup-inputs.json",
+    "mixed_schemes": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/system/fvSchemes",
+    "phase_control": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/system/controlDict",
+    "model": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/constant/momentumTransport",
+    "startup": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/limited-gradient-inputs.json"
+  },
+  "patches": {
+    "inlet": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/flux_inlet/20/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/pressure_inlet/20/surfaceFieldValue.dat"
+    },
+    "outlet_0": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/flux_outlet_0/20/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/pressure_outlet_0/20/surfaceFieldValue.dat"
+    },
+    "outlet_1": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/flux_outlet_1/20/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/pressure_outlet_1/20/surfaceFieldValue.dat"
+    },
+    "outlet_2": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/flux_outlet_2/20/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/pressure_outlet_2/20/surfaceFieldValue.dat"
+    },
+    "outlet_3": {
+      "flux": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/flux_outlet_3/20/surfaceFieldValue.dat",
+      "total_pressure": "07_Agent_Work/runs/openfoam-pressure-verification/actual-family-1-resolution-limited-gradient/postProcessing/pressure_outlet_3/20/surfaceFieldValue.dat"
+    }
+  },
+  "expected_window": [
+    21,
+    220
+  ]
+}

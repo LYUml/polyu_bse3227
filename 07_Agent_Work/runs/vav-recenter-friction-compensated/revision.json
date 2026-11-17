@@ -1,0 +1,531 @@
+{
+  "schema": "bsa.vav-recenter/1",
+  "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+  "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow",
+  "native_task": "native-sheet",
+  "policy": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\vav-recenter-policy.json",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\workflow.json": "a792feca5b751e9105a4ca1538c4a89fd4f661ae3d7013ea927405f812e68bec",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\vav-recenter-policy.json": "9e2c349f29c40350cb0461624ff2280822e95f1bf2e4ec934f63bef80fa145fa",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-layout-cad\\Supply Air Distribution.dxf": "c09a050380aa3d92fb65f4c3e6153869d39070d260a74eeff330baf8680cbd30",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\sheet-binding.json": "1333708275c655c3537e0adfe4aa9649429b9f281309623ee5df9338249f8978",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-inputs\\ducts.json": "ff27a8fcd1e11376671baf80103a5a3339dddc5c686b74f4c1ada3b9abd4e229",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\allocation.json": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-flow-direction-inputs\\native.json": "1319a0dd710e627e61ef1af47b33e870f01654c18e542e47b9d12886ff368b2e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\duct-schedule\\results.json": "a6d328eb19cf52ef93b3b47628c4300cc75d6efce4be31e71d4344331cdfc5a9",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\vav_recenter.py": "364b52b84331fe9d98c3985a7fa554e4e89699c47522ba7ada85ce4859566b40",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_terminal_drawing.py": "f82284ee8764db02283e03ac37517fa98a0b7ff9a01e0c5443f13488bb5cd8df",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_plan_clearance.py": "fa512a3d6efeac0234f24c31c3a579dfe40d12492db7a6502259063057723cbd",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\view_tags.py": "33452707bf2b7f98e04cc3534c9a8cf86dca7982998a7fc058fe079ea01332a7",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_junction_review.py": "26ccbc444f33467f3b47f0a17ed25b7cf6bbb5c69898e6eb4db3372dce72a443",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_system_paths.py": "d90416163442a388c7680222ddffa042b6be583229510988d16fc810a27a0278"
+  },
+  "versions": {
+    "ezdxf": "1.4.5",
+    "shapely": "2.2.0",
+    "fluids": "1.3.1"
+  },
+  "geometry": {
+    "changes": [
+      {
+        "id": "VAV-05",
+        "from_m": [
+          98.005932,
+          19.520584,
+          0
+        ],
+        "to_m": [
+          98.69843250000001,
+          19.520584,
+          0
+        ],
+        "tap": "TAP-VAV-05",
+        "baseline_max_plan_m": 2.9757240219002283,
+        "revised_max_plan_m": 2.441132312305222
+      },
+      {
+        "id": "VAV-06",
+        "from_m": [
+          105.445932,
+          19.520584,
+          0
+        ],
+        "to_m": [
+          105.67676549999999,
+          19.520584,
+          0
+        ],
+        "tap": "TAP-VAV-06",
+        "baseline_max_plan_m": 2.611097008190341,
+        "revised_max_plan_m": 2.441132312305212
+      },
+      {
+        "id": "VAV-11",
+        "from_m": [
+          98.005932,
+          26.350584,
+          0
+        ],
+        "to_m": [
+          98.69843250000001,
+          26.350584000000005,
+          0
+        ],
+        "tap": "TAP-VAV-11",
+        "baseline_max_plan_m": 2.975724021900226,
+        "revised_max_plan_m": 2.441132312305222
+      },
+      {
+        "id": "VAV-12",
+        "from_m": [
+          105.445932,
+          26.350584,
+          0
+        ],
+        "to_m": [
+          105.6767655,
+          26.350584,
+          0
+        ],
+        "tap": "TAP-VAV-12",
+        "baseline_max_plan_m": 2.6110970081903386,
+        "revised_max_plan_m": 2.4411323123051996
+      },
+      {
+        "id": "VAV-13",
+        "from_m": [
+          68.245932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          68.245932,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-13",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-14",
+        "from_m": [
+          75.685932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          75.685932,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-14",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-15",
+        "from_m": [
+          83.12593199999999,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          83.12593199999999,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-15",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-16",
+        "from_m": [
+          90.565932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          90.56593200000002,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-16",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471526
+      },
+      {
+        "id": "VAV-17",
+        "from_m": [
+          98.005932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          98.6984325,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-17",
+        "baseline_max_plan_m": 2.9757240219002283,
+        "revised_max_plan_m": 2.233142139216534
+      },
+      {
+        "id": "VAV-18",
+        "from_m": [
+          105.445932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          105.67676549999999,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-18",
+        "baseline_max_plan_m": 2.611097008190341,
+        "revised_max_plan_m": 2.233142139216534
+      }
+    ],
+    "label_adjustments": [
+      {
+        "id": "VAV-15",
+        "handle": "8EDA",
+        "shift_drawing_units": [
+          0,
+          -250.0,
+          0
+        ]
+      }
+    ],
+    "changed_entity_handles": [
+      "8D97",
+      "8D98",
+      "8D99",
+      "8D9A",
+      "8DA5",
+      "8DA6",
+      "8DA7",
+      "8DA8",
+      "8DB3",
+      "8DB4",
+      "8DB5",
+      "8DB6",
+      "8DC5",
+      "8DC6",
+      "8DC7",
+      "8DC8",
+      "8DD1",
+      "8DD2",
+      "8DD3",
+      "8DD4",
+      "8DD5",
+      "8DD6",
+      "8DD7",
+      "8DD8",
+      "8DD9",
+      "8DDA",
+      "8DDB",
+      "8DDC",
+      "8DDD",
+      "8DDE",
+      "8DDF",
+      "8DE0",
+      "8E9D",
+      "8E9E",
+      "8E9F",
+      "8EA0",
+      "8EA1",
+      "8EA2",
+      "8EA3",
+      "8EA4",
+      "8EA5",
+      "8EA6",
+      "8EA7",
+      "8EA8",
+      "8EC1",
+      "8EC2",
+      "8EC3",
+      "8EC4",
+      "8EC5",
+      "8EC6",
+      "8EC7",
+      "8EC8",
+      "8EC9",
+      "8ECA",
+      "8ECB",
+      "8ECC",
+      "8ECD",
+      "8ECE",
+      "8ECF",
+      "8ED0",
+      "8ED1",
+      "8ED2",
+      "8ED3",
+      "8ED4",
+      "8ED5",
+      "8ED6",
+      "8ED7",
+      "8ED8",
+      "8ED9",
+      "8EDA",
+      "8EDB",
+      "8EDC",
+      "8EDD",
+      "8EDE",
+      "8EDF",
+      "8EE0",
+      "8EE1",
+      "8EE2",
+      "8EE3",
+      "8EE4",
+      "8EE5",
+      "8EE6",
+      "8EE7",
+      "8EE8",
+      "8EE9",
+      "8EEA",
+      "8EEB",
+      "8EEC",
+      "8EED",
+      "8EEE",
+      "8EEF",
+      "8EF0"
+    ],
+    "baseline_total_flex_plan_m": 198.84520332707805,
+    "revised_total_flex_plan_m": 197.89404192039655,
+    "baseline_max_flex_plan_m": 2.9757240219002283,
+    "revised_max_flex_plan_m": 2.8728691174817858,
+    "baseline_total_rigid_centreline_m": 202.71676550000007,
+    "revised_total_rigid_centreline_m": 201.52851800000008,
+    "rigid_obstacle_pairs": 376,
+    "flex_obstacle_pairs": 640,
+    "all_tested_projections_clear": true,
+    "terminal_count": 80,
+    "unchanged_terminals_flows_groups": true,
+    "added_bends": 0,
+    "scope": "Declared planar VAV/tap relocation with unchanged terminals, topology and flows; inherited finite-size friction compensation, not installed flex length, full pressure, hardware, ADPI or full engineering acceptance",
+    "design_accepted": false
+  },
+  "friction_compensation": {
+    "derived_design_caps": [
+      {
+        "section": "D-06",
+        "original_limit_Pa_m": 1.23,
+        "derived_limit_Pa_m": 0.9759760109277881,
+        "baseline_length_m": 7.439999999999998,
+        "revised_length_m": 8.132500499999978,
+        "basis": "Design choice: revised untrimmed centreline straight friction must not exceed this section baseline; no new code threshold"
+      },
+      {
+        "section": "D-13",
+        "original_limit_Pa_m": 1.23,
+        "derived_limit_Pa_m": 1.1062745393827922,
+        "baseline_length_m": 7.439999999999998,
+        "revised_length_m": 8.132500500000006,
+        "basis": "Design choice: revised untrimmed centreline straight friction must not exceed this section baseline; no new code threshold"
+      },
+      {
+        "section": "D-20",
+        "original_limit_Pa_m": 1.23,
+        "derived_limit_Pa_m": 0.9823861927336903,
+        "baseline_length_m": 7.439999999999998,
+        "revised_length_m": 8.132500500000006,
+        "basis": "Design choice: revised untrimmed centreline straight friction must not exceed this section baseline; no new code threshold"
+      }
+    ],
+    "changed_sizes": [
+      {
+        "section": "D-06",
+        "baseline": {
+          "flow_m3_s": 1.1251953110765627,
+          "width_m": 0.5,
+          "height_m": 0.35
+        },
+        "revised": {
+          "flow_m3_s": 1.1251953110765627,
+          "width_m": 0.55,
+          "height_m": 0.35
+        }
+      },
+      {
+        "section": "D-13",
+        "baseline": {
+          "flow_m3_s": 1.2032750423711975,
+          "width_m": 0.5,
+          "height_m": 0.35
+        },
+        "revised": {
+          "flow_m3_s": 1.2032750423711975,
+          "width_m": 0.55,
+          "height_m": 0.35
+        }
+      },
+      {
+        "section": "D-20",
+        "baseline": {
+          "flow_m3_s": 1.1291492800965124,
+          "width_m": 0.5,
+          "height_m": 0.35
+        },
+        "revised": {
+          "flow_m3_s": 1.1291492800965124,
+          "width_m": 0.55,
+          "height_m": 0.35
+        }
+      }
+    ],
+    "paths": [
+      {
+        "outlet": "VAV-13",
+        "baseline_Pa": 28.53962198895781,
+        "revised_Pa": 28.18112781781524
+      },
+      {
+        "outlet": "VAV-14",
+        "baseline_Pa": 20.06978742531177,
+        "revised_Pa": 19.7061852413987
+      },
+      {
+        "outlet": "VAV-15",
+        "baseline_Pa": 12.374868463353529,
+        "revised_Pa": 12.009356837875082
+      },
+      {
+        "outlet": "VAV-18",
+        "baseline_Pa": 28.754366918203395,
+        "revised_Pa": 26.902439941263246
+      },
+      {
+        "outlet": "VAV-17",
+        "baseline_Pa": 20.57086237983533,
+        "revised_Pa": 19.227095836901732
+      },
+      {
+        "outlet": "VAV-16",
+        "baseline_Pa": 12.648633405704757,
+        "revised_Pa": 12.30280563244486
+      },
+      {
+        "outlet": "VAV-07",
+        "baseline_Pa": 37.0554471733915,
+        "revised_Pa": 37.055447173391485
+      },
+      {
+        "outlet": "VAV-08",
+        "baseline_Pa": 28.00794693900822,
+        "revised_Pa": 28.00794693900821
+      },
+      {
+        "outlet": "VAV-09",
+        "baseline_Pa": 19.3266101543462,
+        "revised_Pa": 19.326610154346188
+      },
+      {
+        "outlet": "VAV-12",
+        "baseline_Pa": 36.81556210224577,
+        "revised_Pa": 35.18152334053487
+      },
+      {
+        "outlet": "VAV-11",
+        "baseline_Pa": 28.814307672757543,
+        "revised_Pa": 27.678704744066614
+      },
+      {
+        "outlet": "VAV-10",
+        "baseline_Pa": 20.047033845168176,
+        "revised_Pa": 20.04703384516815
+      },
+      {
+        "outlet": "VAV-01",
+        "baseline_Pa": 43.42572274759238,
+        "revised_Pa": 43.42572274759238
+      },
+      {
+        "outlet": "VAV-02",
+        "baseline_Pa": 35.577968837298194,
+        "revised_Pa": 35.577968837298194
+      },
+      {
+        "outlet": "VAV-03",
+        "baseline_Pa": 27.185758361041117,
+        "revised_Pa": 27.18575836104112
+      },
+      {
+        "outlet": "VAV-06",
+        "baseline_Pa": 44.08311570050823,
+        "revised_Pa": 42.57105994540979
+      },
+      {
+        "outlet": "VAV-05",
+        "baseline_Pa": 35.984453100307526,
+        "revised_Pa": 34.97789866602777
+      },
+      {
+        "outlet": "VAV-04",
+        "baseline_Pa": 28.22329408075893,
+        "revised_Pa": 28.22329408075892
+      },
+      {
+        "outlet": "VAV-20",
+        "baseline_Pa": 32.88043863103445,
+        "revised_Pa": 32.88043863103444
+      },
+      {
+        "outlet": "VAV-19",
+        "baseline_Pa": 25.195692152131148,
+        "revised_Pa": 25.195692152131148
+      }
+    ],
+    "all_untrimmed_straight_path_friction_nonincreasing": true,
+    "scope": "Existing equivalent-round engine on untrimmed centreline lengths only; flexible duct, fittings, transitions, equipment and fan duty remain unknown"
+  },
+  "coverage": {
+    "complete": false,
+    "unresolved": [
+      "Ninth interpreted column has an open source outline",
+      "Walls and other obstacles not inventoried",
+      "Wall/insulation/fitting outer envelopes and elevations unknown"
+    ]
+  },
+  "native_reopen_pass": true,
+  "plot_visual_review": "pending",
+  "design_accepted": false,
+  "artifacts": {
+    "reopened-connections.json": "37b4114438f18f1b0af7dd42404898278dc66f353e19b556a9371dc275f985a0",
+    "delivery/schedule-drawing.json": "8d1da8ec7f58033bd0f2e5ce4619ae6f5bba7f426d5bf9985f3caf1a0aa8a028",
+    "delivery/Supply Air Distribution.dxf": "660b24710f8e85e1d7484c20e600cf76dc43002af27abefef119f0e5c4a8bd7c",
+    "delivery/writer-request.json": "714ef4536fdd30c7ff0338815d059f392b130d3888ca7f133adcef94a5845a7f",
+    "delivery/writer.json": "7d4473a610dd2317c46a61fe66e76e576621dc699553eaff612da0f71a904a57",
+    "delivery/writer.log": "5ea5ffc01190c6753fd25b4c7c9f7239595ecffca3798a791aed24557197d42f",
+    "inputs/binding.json": "b762e883830c9e26fa4e3043a32ac9cd9f62870ebabd639dd3d80ea6b84d2843",
+    "inputs/ducts.json": "853405820fce112caf987b52a1f6ac3e0a765dac441664a9ba482b3cdf2417ee",
+    "inputs/Supply Air Distribution.dxf": "2130b9b6d026ca634a10a7816ee7259653ba5a96d6cd0e77928655a8a43c804f",
+    "delivery/allocation/allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "delivery/native/native-sheet.json": "b905bdccf08c6007d3e449eb2188218b3ff0c2c7e5af654e093ce41198f7ef0a",
+    "delivery/native/plot.log": "b617394f4090cb1bf860b3c8e33e975cda9a3b680b9de841b06f0ffc365a3ebe",
+    "delivery/native/save.log": "ee7d3b37ad32c8684302ce79a749c8524ab44ce2ecfff281c31605b6f5922b5b",
+    "delivery/native/save.scr": "02cb62997d43e660149c01056b152ec4c078bfa243729b59043d692d44da837c",
+    "delivery/native/Supply Air Distribution.dwg": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
+    "delivery/native/Supply Air Distribution.dxf": "660b24710f8e85e1d7484c20e600cf76dc43002af27abefef119f0e5c4a8bd7c",
+    "delivery/native/Supply Air Distribution.json": "b5aa2bda18235191ed3703ba77d99f6f7a2be3726b78fc2a5fc7933ec55e34e5",
+    "delivery/native/Supply Air Distribution.log": "eadd83f9a84d7021416cbee589ac3b92891a281ac5b43bab3503604a13083f68",
+    "delivery/native/Supply Air Distribution.pdf": "12103d9a2bd978cdd725be89f8ae56c7b85dc354f1af2ea485fcb41285c5b2e5",
+    "delivery/native/Supply Air Distribution.scr": "bf883106907e10a9d66e3178d3a2cb68ed857d9a850818a11aa06f35654883bf",
+    "delivery/reference/drawing-update.json": "aa8005bfd002c362b0783bca4b1c011d9529bf173bf4d2e19b83e39dc7b74f7f",
+    "delivery/reference/Supply Air Distribution.dxf": "1439c104732ea998cbf253204a43b143cc047d03afc1849a9fc018d58ed7cdee",
+    "delivery/schedule/results.json": "30d4781e2301540caa75c9a790076d08aec12f39ef0a42730891f2f142d3cffc",
+    "delivery/schedule/schedule.csv": "7db3280370d77b274717fefa3be223636682c3d27c31c56d93f9e156e465dc21",
+    "delivery/native/reopened/export.log": "53695a63919ce84cb835d4ef3e0dc89dc48f160e52bec62e56d760ebbd2845aa",
+    "delivery/native/reopened/export.scr": "417c8ddce6cedc03c489324e20e13d917cc47f99920f346b952704c1d18ba4b8",
+    "delivery/native/reopened/source-copy.dwg": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
+    "delivery/native/reopened/source-export.dxf": "d31b6ab87659927003bb96227a3ea8b818f44c0eb1826c4e6fa15c5e033b27bc",
+    "delivery/native/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log": "ec04e845f3010ca2e3f61bf9df9b42b2c23c4eb3765087d66ae55719421d814f",
+    "delivery/native/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log": "df9714906aab1ae32af934ba8960d4f65686403e8b252ee6d534cff557b3b0bf",
+    "delivery/temp/gen_py/3.12/dicts.dat": "83cda9fecc9c008b22c0c8e58cbcbfa577a3ef8ee9b2f983ed4a8659596d5c11",
+    "delivery/temp/gen_py/3.12/__init__.py": "52c72cf96b12ae74d84f6c049775da045fae47c007dc834ca4dac607b6f518ea"
+  }
+}

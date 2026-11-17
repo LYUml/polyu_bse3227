@@ -1,0 +1,50 @@
+{
+  "search_state": "Prior search reached finalization; recovered same saved best after numpy scalar conversion error. No optimizer rerun.",
+  "best": {
+    "score": 8.346576289389283,
+    "parameters": [
+      3.866265705397722,
+      2.8578747362515884,
+      2.730283626425354,
+      2.686530521949944,
+      3.0228440790664144,
+      3.4698824954825076,
+      3.934437794761868,
+      2.5483904257697816
+    ],
+    "calls": 1289,
+    "elapsed_seconds": 20.39100000000326,
+    "necessary_envelope_failing_terminals": 57,
+    "maximum_terminal_penalty": 0.7387590631502019
+  },
+  "versions": {
+    "scipy": "1.18.1",
+    "numpy": "2.5.4",
+    "shapely": "2.2.0",
+    "fluids": "1.3.1"
+  },
+  "source_boundary_sha256": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+  "scope": "Separate80terminal two-zone row/column candidate; actual source boundary and full fresh nearest-centre area allocation each evaluation. Hypothetical downward travel only on aligned opposing jets. Necessary ratio envelope objective; exact source screen required after search. No actual building height claimed.",
+  "design_accepted": false,
+  "independent_geometry_and_balance": {
+    "all80_inside_original_boundary": true,
+    "source_boundary_covered_without_overlap": true,
+    "symmetric_difference_m2": 0.0,
+    "maximum_flow_L_s": 12000.372763419484,
+    "minimum_flow_L_s": 4800.149105367794,
+    "all80_turndown_ratios_preserved": true
+  },
+  "exact_source_review": {
+    "curve_failures": 183,
+    "distinct_direction_operating_failures": 134,
+    "terminals_with_failure": 57,
+    "whole_pass": false,
+    "candidate_adopted": false
+  },
+  "limits": [
+    "Bounded eight-parameter family, not global spatial infeasibility",
+    "Hypothetical downward distance is unverified; not valid coursework L",
+    "Geometry/search acceptance does not clear source interpretation, physical installation or ADPI",
+    "No failed candidate drawn or substituted into coursework baseline"
+  ]
+}

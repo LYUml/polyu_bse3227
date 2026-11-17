@@ -1,0 +1,1757 @@
+{
+  "scope": "First actual source-bound two-way linear-slot layout diagnostic; center rays only, not whole-slot/installation acceptance",
+  "layout": {
+    "main": [
+      4,
+      16
+    ],
+    "bay": [
+      4,
+      4
+    ]
+  },
+  "product": "1900 1.5inch two-slot two-way, direct4ft baseline data",
+  "slot_length_m": 1.2192,
+  "source_rows": [
+    {
+      "flow_L_s_m": 31.0,
+      "static_Pa": 3.3,
+      "T075_m": 1.6,
+      "T050_m": 2.5,
+      "T025_m": 4.7,
+      "NC": null
+    },
+    {
+      "flow_L_s_m": 93.0,
+      "static_Pa": 29.8,
+      "T075_m": 4.7,
+      "T050_m": 5.8,
+      "T025_m": 8.2,
+      "NC": 21.0
+    },
+    {
+      "flow_L_s_m": 124.0,
+      "static_Pa": 53.0,
+      "T075_m": 5.5,
+      "T050_m": 6.7,
+      "T025_m": 9.4,
+      "NC": 28.0
+    },
+    {
+      "flow_L_s_m": 155.0,
+      "static_Pa": 82.9,
+      "T075_m": 6.1,
+      "T050_m": 7.5,
+      "T025_m": 10.6,
+      "NC": 34.0
+    },
+    {
+      "flow_L_s_m": 217.0,
+      "static_Pa": 162.4,
+      "T075_m": 7.2,
+      "T050_m": 8.8,
+      "T025_m": 12.5,
+      "NC": 43.0
+    }
+  ],
+  "terminal_count": 80,
+  "segments_inside_source_boundary": 78,
+  "operating_flow_cases_in_source_domain": 144,
+  "terminals_failing_center_ray_diagnostic": 34,
+  "results": [
+    {
+      "id": "main-1-1",
+      "center_m": [
+        70.57843212591251,
+        16.7458965
+      ],
+      "flow_max_L_s": 173.18092108096963,
+      "flow_min_L_s": 69.27236843238785,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.47217279991221656
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.47217279991221656
+        }
+      ]
+    },
+    {
+      "id": "main-1-2",
+      "center_m": [
+        70.105932,
+        18.09620882762946
+      ],
+      "flow_max_L_s": 158.58082683189096,
+      "flow_min_L_s": 63.432330732756384,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.4095958312152601
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 0.4095958312152601
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.21620210436071383
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.21620210436071383
+        }
+      ]
+    },
+    {
+      "id": "main-1-3",
+      "center_m": [
+        70.105932,
+        19.3071465
+      ],
+      "flow_max_L_s": 158.731773480504,
+      "flow_min_L_s": 63.4927093922016,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-4",
+      "center_m": [
+        70.105932,
+        20.587771500000002
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-5",
+      "center_m": [
+        70.105932,
+        21.868396500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-6",
+      "center_m": [
+        70.105932,
+        23.149021500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-7",
+      "center_m": [
+        70.105932,
+        24.4296465
+      ],
+      "flow_max_L_s": 166.30019861164774,
+      "flow_min_L_s": 66.5200794446591,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-8",
+      "center_m": [
+        70.105932,
+        25.7102715
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-9",
+      "center_m": [
+        70.105932,
+        26.9908965
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-10",
+      "center_m": [
+        70.105932,
+        28.271521500000002
+      ],
+      "flow_max_L_s": 163.90567355540824,
+      "flow_min_L_s": 65.5622694221633,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-11",
+      "center_m": [
+        70.105932,
+        29.5521465
+      ],
+      "flow_max_L_s": 148.42199913445518,
+      "flow_min_L_s": 59.36879965378208,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-12",
+      "center_m": [
+        70.57843212591251,
+        30.918083827629722
+      ],
+      "flow_max_L_s": 216.87712472094742,
+      "flow_min_L_s": 86.75084988837898,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 1.562377361578928
+        }
+      ]
+    },
+    {
+      "id": "main-1-13",
+      "center_m": [
+        70.105932,
+        32.12089632762972
+      ],
+      "flow_max_L_s": 138.63109600138503,
+      "flow_min_L_s": 55.452438400554016,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.29308694942875413
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.29308694942875413
+        }
+      ]
+    },
+    {
+      "id": "main-1-14",
+      "center_m": [
+        70.105932,
+        33.3940215
+      ],
+      "flow_max_L_s": 160.47679185108112,
+      "flow_min_L_s": 64.19071674043245,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-15",
+      "center_m": [
+        70.105932,
+        34.6746465
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-1-16",
+      "center_m": [
+        70.105932,
+        35.9552715
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-1",
+      "center_m": [
+        83.37718212591253,
+        16.57808382762972
+      ],
+      "flow_max_L_s": 189.8832364385311,
+      "flow_min_L_s": 75.95329457541244,
+      "segment_inside": false,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.1206802961487297
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.1206802961487297
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.166660289926246
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.166660289926246
+        }
+      ]
+    },
+    {
+      "id": "main-2-2",
+      "center_m": [
+        81.26593199999999,
+        18.0265215
+      ],
+      "flow_max_L_s": 180.06494185371395,
+      "flow_min_L_s": 72.02597674148558,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.4367611843091237
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 0.4367611843091237
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.2386135206631513
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.2386135206631513
+        }
+      ]
+    },
+    {
+      "id": "main-2-3",
+      "center_m": [
+        81.26593199999999,
+        19.3071465
+      ],
+      "flow_max_L_s": 124.99766868221242,
+      "flow_min_L_s": 49.999067472884974,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-4",
+      "center_m": [
+        81.26593199999999,
+        20.587771500000002
+      ],
+      "flow_max_L_s": 154.85548872318927,
+      "flow_min_L_s": 61.94219548927571,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-5",
+      "center_m": [
+        81.26593199999999,
+        21.868396500000003
+      ],
+      "flow_max_L_s": 166.30019861164843,
+      "flow_min_L_s": 66.52007944465937,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-6",
+      "center_m": [
+        81.26593199999999,
+        23.149021500000003
+      ],
+      "flow_max_L_s": 166.30019861164843,
+      "flow_min_L_s": 66.52007944465937,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-7",
+      "center_m": [
+        81.26593199999999,
+        24.4296465
+      ],
+      "flow_max_L_s": 166.30019861164794,
+      "flow_min_L_s": 66.52007944465917,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-8",
+      "center_m": [
+        81.26593199999999,
+        25.7102715
+      ],
+      "flow_max_L_s": 166.30019861164843,
+      "flow_min_L_s": 66.52007944465937,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-9",
+      "center_m": [
+        81.26593199999999,
+        26.9908965
+      ],
+      "flow_max_L_s": 152.98970771980285,
+      "flow_min_L_s": 61.195883087921146,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-10",
+      "center_m": [
+        81.26593199999999,
+        28.271521500000002
+      ],
+      "flow_max_L_s": 123.49314404496322,
+      "flow_min_L_s": 49.39725761798529,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-11",
+      "center_m": [
+        81.26593199999999,
+        29.5521465
+      ],
+      "flow_max_L_s": 143.3846119667129,
+      "flow_min_L_s": 57.35384478668516,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-12",
+      "center_m": [
+        83.377182,
+        30.918084
+      ],
+      "flow_max_L_s": 320.5072100530535,
+      "flow_min_L_s": 128.2028840212214,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 262.88321034535227
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 1.77379092797979
+        }
+      ]
+    },
+    {
+      "id": "main-2-13",
+      "center_m": [
+        81.26593199999999,
+        32.1208965
+      ],
+      "flow_max_L_s": 138.74249948245574,
+      "flow_min_L_s": 55.4969997929823,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.2295273253243989
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 0.2295273253243989
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.38254554220733167
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 0.38254554220733167
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.11730450691053292
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.11730450691053292
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.19550751151755497
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.19550751151755497
+        }
+      ]
+    },
+    {
+      "id": "main-2-14",
+      "center_m": [
+        81.26593199999999,
+        33.3940215
+      ],
+      "flow_max_L_s": 119.95836184000596,
+      "flow_min_L_s": 47.98334473600239,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-15",
+      "center_m": [
+        81.26593199999999,
+        34.6746465
+      ],
+      "flow_max_L_s": 148.68168361286837,
+      "flow_min_L_s": 59.47267344514735,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-2-16",
+      "center_m": [
+        81.26593199999999,
+        35.9552715
+      ],
+      "flow_max_L_s": 166.29568498664966,
+      "flow_min_L_s": 66.51827399465986,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-1",
+      "center_m": [
+        90.46509879257914,
+        16.57808382762972
+      ],
+      "flow_max_L_s": 180.66744699928418,
+      "flow_min_L_s": 72.26697879971367,
+      "segment_inside": false,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.023707581380249
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.023707581380249
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.066653890237269
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.066653890237269
+        }
+      ]
+    },
+    {
+      "id": "main-3-2",
+      "center_m": [
+        92.425932,
+        18.0265215
+      ],
+      "flow_max_L_s": 177.9551193119101,
+      "flow_min_L_s": 71.18204772476405,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.43409344238653225
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 0.43409344238653225
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.23641263357701336
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.23641263357701336
+        }
+      ]
+    },
+    {
+      "id": "main-3-3",
+      "center_m": [
+        92.425932,
+        19.3071465
+      ],
+      "flow_max_L_s": 125.89319264129126,
+      "flow_min_L_s": 50.35727705651651,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-4",
+      "center_m": [
+        92.425932,
+        20.587771500000002
+      ],
+      "flow_max_L_s": 156.9285420493785,
+      "flow_min_L_s": 62.77141681975141,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-5",
+      "center_m": [
+        92.425932,
+        21.868396500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-6",
+      "center_m": [
+        92.425932,
+        23.149021500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-7",
+      "center_m": [
+        92.425932,
+        24.4296465
+      ],
+      "flow_max_L_s": 166.30019861164774,
+      "flow_min_L_s": 66.5200794446591,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-8",
+      "center_m": [
+        92.425932,
+        25.7102715
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-9",
+      "center_m": [
+        92.425932,
+        26.9908965
+      ],
+      "flow_max_L_s": 155.20279171295405,
+      "flow_min_L_s": 62.08111668518163,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-10",
+      "center_m": [
+        92.425932,
+        28.271521500000002
+      ],
+      "flow_max_L_s": 124.26860377966027,
+      "flow_min_L_s": 49.70744151186411,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-11",
+      "center_m": [
+        92.425932,
+        29.5521465
+      ],
+      "flow_max_L_s": 142.10143623802108,
+      "flow_min_L_s": 56.840574495208436,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-12",
+      "center_m": [
+        90.46509879257914,
+        30.918083827629722
+      ],
+      "flow_max_L_s": 302.06311335405127,
+      "flow_min_L_s": 120.82524534162052,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 247.75517827596067
+        }
+      ]
+    },
+    {
+      "id": "main-3-13",
+      "center_m": [
+        92.425932,
+        32.12089632762972
+      ],
+      "flow_max_L_s": 136.14290500648295,
+      "flow_min_L_s": 54.45716200259318,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.28919356930790097
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.28919356930790097
+        }
+      ]
+    },
+    {
+      "id": "main-3-14",
+      "center_m": [
+        92.425932,
+        33.3940215
+      ],
+      "flow_max_L_s": 102.38166892144173,
+      "flow_min_L_s": 40.95266756857669,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 20,
+          "ratio_T050_L": 0.47273180452107805
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 0.47273180452107805
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.47273180452107744
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.47273180452107744
+        }
+      ]
+    },
+    {
+      "id": "main-3-15",
+      "center_m": [
+        92.425932,
+        34.6746465
+      ],
+      "flow_max_L_s": 117.18219321968184,
+      "flow_min_L_s": 46.87287728787274,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-3-16",
+      "center_m": [
+        92.425932,
+        35.9552715
+      ],
+      "flow_max_L_s": 122.10810169609145,
+      "flow_min_L_s": 48.84324067843659,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-1",
+      "center_m": [
+        103.1134321259125,
+        16.7458965
+      ],
+      "flow_max_L_s": 173.18091322796636,
+      "flow_min_L_s": 69.27236529118655,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.4901437394598721
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.4901437394598721
+        }
+      ]
+    },
+    {
+      "id": "main-4-2",
+      "center_m": [
+        103.585932,
+        18.09620882762946
+      ],
+      "flow_max_L_s": 158.58083054861973,
+      "flow_min_L_s": 63.43233221944789,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.4095958359148369
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 0.4095958359148369
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 20,
+          "ratio_T050_L": 0.21620210823786473
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.21620210823786473
+        }
+      ]
+    },
+    {
+      "id": "main-4-3",
+      "center_m": [
+        103.585932,
+        19.3071465
+      ],
+      "flow_max_L_s": 158.73178169839423,
+      "flow_min_L_s": 63.492712679357695,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-4",
+      "center_m": [
+        103.585932,
+        20.587771500000002
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-5",
+      "center_m": [
+        103.585932,
+        21.868396500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-6",
+      "center_m": [
+        103.585932,
+        23.149021500000003
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-7",
+      "center_m": [
+        103.585932,
+        24.4296465
+      ],
+      "flow_max_L_s": 166.30019861164774,
+      "flow_min_L_s": 66.5200794446591,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-8",
+      "center_m": [
+        103.585932,
+        25.7102715
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-9",
+      "center_m": [
+        103.585932,
+        26.9908965
+      ],
+      "flow_max_L_s": 166.3001986116482,
+      "flow_min_L_s": 66.52007944465929,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-10",
+      "center_m": [
+        103.585932,
+        28.271521500000002
+      ],
+      "flow_max_L_s": 163.90568086525738,
+      "flow_min_L_s": 65.56227234610296,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-11",
+      "center_m": [
+        103.585932,
+        29.5521465
+      ],
+      "flow_max_L_s": 148.4220115435857,
+      "flow_min_L_s": 59.368804617434286,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-12",
+      "center_m": [
+        103.1134321259125,
+        30.918083827629722
+      ],
+      "flow_max_L_s": 213.7485207869963,
+      "flow_min_L_s": 85.49940831479853,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 1.5518426636896427
+        }
+      ]
+    },
+    {
+      "id": "main-4-13",
+      "center_m": [
+        103.585932,
+        32.12089632762972
+      ],
+      "flow_max_L_s": 137.7047192579074,
+      "flow_min_L_s": 55.08188770316297,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-14",
+      "center_m": [
+        103.585932,
+        33.3940215
+      ],
+      "flow_max_L_s": 129.09480603346233,
+      "flow_min_L_s": 51.637922413384935,
+      "segment_inside": true,
+      "failures": []
+    },
+    {
+      "id": "main-4-15",
+      "center_m": [
+        103.585932,
+        34.6746465
+      ],
+      "flow_max_L_s": 92.43898221263252,
+      "flow_min_L_s": 36.97559288505301,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.327750069761326
+        }
+      ]
+    },
+    {
+      "id": "main-4-16",
+      "center_m": [
+        103.585932,
+        35.9552715
+      ],
+      "flow_max_L_s": 75.54623608105227,
+      "flow_min_L_s": 30.21849443242091,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 24.78551052527962
+        }
+      ]
+    },
+    {
+      "id": "bay-1-1",
+      "center_m": [
+        96.95384924999999,
+        37.736834
+      ],
+      "flow_max_L_s": 221.3180001330459,
+      "flow_min_L_s": 88.52720005321837,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 4.617845629065677
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 4.617845629065677
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 4.617845629065714
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 4.617845629065714
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.702521250774312
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.7025212507743337
+        }
+      ]
+    },
+    {
+      "id": "bay-1-2",
+      "center_m": [
+        96.95384924999999,
+        40.019334
+      ],
+      "flow_max_L_s": 92.66998182703094,
+      "flow_min_L_s": 37.06799273081238,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826425
+        }
+      ]
+    },
+    {
+      "id": "bay-1-3",
+      "center_m": [
+        96.95384924999999,
+        42.301834
+      ],
+      "flow_max_L_s": 92.66998182703094,
+      "flow_min_L_s": 37.06799273081238,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826425
+        }
+      ]
+    },
+    {
+      "id": "bay-1-4",
+      "center_m": [
+        96.95384924999999,
+        44.584334
+      ],
+      "flow_max_L_s": 92.66998182703094,
+      "flow_min_L_s": 37.06799273081238,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826425
+        }
+      ]
+    },
+    {
+      "id": "bay-2-1",
+      "center_m": [
+        100.44301575,
+        37.736834
+      ],
+      "flow_max_L_s": 166.79206065094434,
+      "flow_min_L_s": 66.71682426037773,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 4.029867311475672
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 4.029867311475672
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 4.029867311475672
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 4.029867311475672
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.156739831327323
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.156739831327323
+        }
+      ]
+    },
+    {
+      "id": "bay-2-2",
+      "center_m": [
+        100.44301575,
+        40.019334
+      ],
+      "flow_max_L_s": 92.66998182703131,
+      "flow_min_L_s": 37.06799273081253,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826546
+        }
+      ]
+    },
+    {
+      "id": "bay-2-3",
+      "center_m": [
+        100.44301575,
+        42.301834
+      ],
+      "flow_max_L_s": 92.66998182703131,
+      "flow_min_L_s": 37.06799273081253,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826546
+        }
+      ]
+    },
+    {
+      "id": "bay-2-4",
+      "center_m": [
+        100.44301575,
+        44.584334
+      ],
+      "flow_max_L_s": 92.66998182703131,
+      "flow_min_L_s": 37.06799273081253,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252184
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826546
+        }
+      ]
+    },
+    {
+      "id": "bay-3-1",
+      "center_m": [
+        103.93218225000001,
+        37.736834
+      ],
+      "flow_max_L_s": 83.86698176635001,
+      "flow_min_L_s": 33.54679270654,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.5859042527134957
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.5859042527134957
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.5859042527134743
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.5859042527134743
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 27.515413965337927
+        }
+      ]
+    },
+    {
+      "id": "bay-3-2",
+      "center_m": [
+        103.93218225000001,
+        40.019334
+      ],
+      "flow_max_L_s": 92.66998182703094,
+      "flow_min_L_s": 37.06799273081238,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826425
+        }
+      ]
+    },
+    {
+      "id": "bay-3-3",
+      "center_m": [
+        103.93218225000001,
+        42.301834
+      ],
+      "flow_max_L_s": 92.66113766608632,
+      "flow_min_L_s": 37.064455066434526,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.805968635619349
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.805968635619349
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.8059686356193265
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.8059686356193265
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.400635717219917
+        }
+      ]
+    },
+    {
+      "id": "bay-3-4",
+      "center_m": [
+        103.93218225000001,
+        44.584334
+      ],
+      "flow_max_L_s": 87.25243331022824,
+      "flow_min_L_s": 34.9009733240913,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.670621571050253
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.670621571050253
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 28.626126414116875
+        }
+      ]
+    },
+    {
+      "id": "bay-4-1",
+      "center_m": [
+        107.42134874999999,
+        37.736834
+      ],
+      "flow_max_L_s": 196.23605619398424,
+      "flow_min_L_s": 78.4944224775937,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 4.370589991125742
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 4.370589991125742
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 4.370589991125778
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 4.370589991125778
+        },
+        {
+          "case": "minimum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.451461679942993
+        },
+        {
+          "case": "minimum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.451461679943013
+        }
+      ]
+    },
+    {
+      "id": "bay-4-2",
+      "center_m": [
+        107.42134874999999,
+        40.019334
+      ],
+      "flow_max_L_s": 92.66998182703094,
+      "flow_min_L_s": 37.06799273081238,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 2.8061899513252095
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 2.806189951325232
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 30.403537344826425
+        }
+      ]
+    },
+    {
+      "id": "bay-4-3",
+      "center_m": [
+        107.42134874999999,
+        42.301834
+      ],
+      "flow_max_L_s": 103.29132768828488,
+      "flow_min_L_s": 41.316531075313954,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 3.07197781649787
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 3.07197781649787
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 3.071977816497895
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 3.071977816497895
+        }
+      ]
+    },
+    {
+      "id": "bay-4-4",
+      "center_m": [
+        106.94884887591249,
+        45.02558382762999
+      ],
+      "flow_max_L_s": 72.08049869112872,
+      "flow_min_L_s": 28.832199476451493,
+      "segment_inside": true,
+      "failures": [
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 40,
+          "ratio_T050_L": 3.1419092806387168
+        },
+        {
+          "case": "maximum",
+          "direction": "east",
+          "load": 60,
+          "ratio_T050_L": 3.1419092806387168
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 40,
+          "ratio_T050_L": 0.34045251920546266
+        },
+        {
+          "case": "maximum",
+          "direction": "west",
+          "load": 60,
+          "ratio_T050_L": 0.34045251920546266
+        },
+        {
+          "case": "minimum",
+          "reason": "outside_published_flow_per_length",
+          "q_L_s_m": 23.648457575829635
+        }
+      ]
+    }
+  ],
+  "ADPI_verified": false,
+  "design_adopted": false,
+  "fresh_allocation_check": {
+    "source_geometric_area_m2": 1031.307412034002,
+    "allocated_load_area_m2": 1022.0000000000002,
+    "sum_minus_union_area_m2": 4.547473508864641e-13,
+    "maximum_total_L_s": 12000.372763419484,
+    "minimum_total_L_s": 4800.149105367794,
+    "geometry_and_individual_flows_are_new_candidate_not_original_CAD": true
+  }
+}

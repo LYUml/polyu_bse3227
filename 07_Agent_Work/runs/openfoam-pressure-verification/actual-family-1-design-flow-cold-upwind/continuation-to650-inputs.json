@@ -1,0 +1,18 @@
+{
+  "source_saved_time": 250,
+  "source_native_index": 260,
+  "end_time": 650,
+  "new_steps_budget": 400,
+  "expected_written_fields": [
+    430,
+    650
+  ],
+  "numerical_relaxation_change": "Equation U/k/omega0.5to0.7 only; source physics, grid, flow, linear tolerances and convergence targets unchanged",
+  "reason": "Native250peak6.697m/s/no negativek; last50 pressure ranges0.394..1.449%, substantially below first200range39..60%, supports bounded further settling with moderate equation relaxation.",
+  "assessment_window": [
+    451,
+    650
+  ],
+  "first_200_new_steps": "Settling after relaxation change; not mixed into final200window",
+  "engineering_accepted": false
+}

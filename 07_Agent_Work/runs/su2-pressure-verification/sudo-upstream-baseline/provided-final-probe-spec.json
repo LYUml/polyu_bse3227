@@ -1,0 +1,20 @@
+{
+  "mesh": "07_Agent_Work/runs/su2-pressure-verification/sudo-upstream-baseline/sudo_coarse.su2",
+  "field": "07_Agent_Work/runs/su2-pressure-verification/sudo-upstream-baseline/provided-profile-study/restart.csv",
+  "start_m": [
+    0.208,
+    0,
+    0.156
+  ],
+  "end_m": [
+    0.208,
+    0,
+    0.26
+  ],
+  "fields": [
+    "Velocity_x",
+    "Velocity_y",
+    "Velocity_z"
+  ],
+  "tolerance_m": 1e-09
+}

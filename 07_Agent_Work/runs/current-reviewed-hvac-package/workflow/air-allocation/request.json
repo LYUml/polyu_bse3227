@@ -1,0 +1,18 @@
+{
+  "schema": "bsa.module-request/1",
+  "project_id": "workflow-allocation",
+  "scenario_id": "declared-planar-design",
+  "capability": "analysis.air.classified-allocation",
+  "coordinate_frame": {
+    "id": "declared-allocation-planar-metres",
+    "kind": "source-world-si",
+    "length_unit": "m",
+    "georeferenced": false
+  },
+  "sources": {
+    "project": {
+      "path": "..\\..\\..\\..\\project\\bse3227-aligned-design-inputs\\allocation.json",
+      "sha256": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "scope": "Separate current-source native terminal total-pressure comparison; not replacement/adoption of original pressure budget",
+  "pressure_quantity_source": {
+    "url": "https://www.krueger-hvac.com/public/software/k-select",
+    "retrieved_UTC": "2026-11-16T21:08:27.828809+00:00",
+    "sha256": "78ac25cb8b3bfda7e9afe85c991b59a7faf5f7880e05475dcf13fd073f6a8bcb",
+    "section": "Reports and Printouts",
+    "quote": "Neck velocity and total pressure at a given CFM.",
+    "classification": "Manufacturer description of reported pressure quantity; actual installation/test-plane correspondence not proved"
+  },
+  "guide_source": {
+    "sha256": "f98aa9ded59150e157c83d5c5114faaa1a24c185928709ffe5d60c9b2f607988",
+    "page": 8,
+    "printed_page": "a1-8",
+    "actual_page_rendered_and_viewed": true,
+    "finding": "Manufacturer describes inlet total/static pressure measurement at least1.5duct diameters upstream, with traverse/static-regain qualifications; actual IFC station correspondence not verified"
+  },
+  "native_catalogue_equal_effective_flow_check": {
+    "native_conditions": 49,
+    "native_minus_catalogue_Pt_range_Pa": [
+      -1.1531925537689145,
+      1.205187651606547
+    ],
+    "assumed_native_display_half_step_in_wc": 0.005,
+    "outside_assumed_native_display_bands": [],
+    "scope": "Display-rounding compatibility diagnostic only; not manufacturer accuracy or software interpolation proof"
+  },
+  "native_conditions": 49,
+  "terminal_rows": 160,
+  "native_IFC_endpoint_and_drawing_index_matches": 160,
+  "course_flow_and_report_hash_matches": 160,
+  "independent_Decimal_interpolation_checks": 160,
+  "source_ifc_sha256": "a26626e4359ca82ca90de33423d46819b66bd78e54f22a0f52e221ff18ce2937",
+  "source_budget_sha256": "31c97db53d08d34e6d79138be8fda2504c49c5edc78be873d33e9f85034d8c8d",
+  "source_budget_and_IFC_unchanged": true,
+  "drawing_index_sha256": "7d16a08fab30e2806d3367082e7c27a49acfa3c9428832f602a215f2526deff4",
+  "comparison_csv_sha256": "cadb691e115ab93092e31ceeb37f1a9ace756dfa26aa809d30c61054cfa7cedf",
+  "cases": {
+    "maximum": {
+      "terminals": 80,
+      "reported_native_terminal_Pt_range_Pa": [
+        19.9271128,
+        44.8360038
+      ],
+      "comparison_native_table_Pt_at_design_flow_range_Pa": [
+        19.85804380767544,
+        44.7738195224721
+      ],
+      "comparison_minus_catalogue_Pt_range_Pa": [
+        -1.0431161108805256,
+        1.0817797829140154
+      ],
+      "remaining_unique_numeric_component_gaps": 84
+    },
+    "minimum": {
+      "terminals": 80,
+      "reported_native_terminal_Pt_range_Pa": [
+        2.4908891,
+        7.4726672999999995
+      ],
+      "comparison_native_table_Pt_at_design_flow_range_Pa": [
+        2.4959692737568213,
+        7.482652485399615
+      ],
+      "comparison_minus_catalogue_Pt_range_Pa": [
+        -1.1477854413038462,
+        1.1791020237423053
+      ],
+      "remaining_unique_numeric_component_gaps": 84
+    }
+  },
+  "interpolation_basis": "Bounded piecewise linear pressure versus squared CFM using actual nine-column native report tables; comparison assumption, not verified manufacturer algorithm",
+  "pressure_added_once": true,
+  "static_and_velocity_pressure_added_again": false,
+  "limits": [
+    "Native pressure has0.01in.wc display resolution; assumed half-step compatibility is not accuracy",
+    "Interpolated displayed table values are conditional comparisons, not higher-precision native results",
+    "Room static common0Pa and installation/test-plane correspondence remain assumptions",
+    "Fully-open VAV comparison does not establish controlled VAV operating loss",
+    "Each path retains2numeric component gaps;84unique gaps overall",
+    "No complete pressure, critical path, fan duty or ADPI acceptance"
+  ],
+  "complete_pressure_Pa": null,
+  "hydraulic_critical_path": null,
+  "fan_duty_Pa": null,
+  "ADPI_verified": false,
+  "design_accepted": false
+}

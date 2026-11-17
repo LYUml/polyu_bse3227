@@ -1,0 +1,2267 @@
+{
+  "ifcopenshell_version": "0.8.5",
+  "input_sha256": "f7195cb5ee62b669ab15b733240d8827adcce750741b444325a796f79a7f34f3",
+  "ifc_sha256": "88fceda1c78176cfcfacbfba32f895405b8c29e48a08e26ced41b0a550d1b1c8",
+  "checks": {
+    "schema_valid": true,
+    "device_count_match": true,
+    "connection_count_match": true,
+    "connection_endpoints_match": true,
+    "metre_units": true,
+    "space_count_match": true,
+    "source_unchanged": true
+  },
+  "devices": [
+    {
+      "id": "A-01",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3Tf1SEAG9NLxz6miD8JeEM",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          82.8242,
+          38.85,
+          -0.45080000000000003
+        ],
+        [
+          84.1758,
+          40.0,
+          0.45080000000000003
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 1.35,
+        "saved_internal_height_m": 0.9,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.1499999999999986,
+        "analytic_wall_volume_m3": 0.004142944000000032,
+        "mesh_wall_volume_m3": 0.004142943999996145,
+        "relative_volume_error": 9.381367327016745e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "A-02",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2ww9pYvAfSyx5JhKUO62Me",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          84.85,
+          36.8242,
+          -0.45080000000000003
+        ],
+        [
+          85.4875,
+          38.1758,
+          0.45080000000000003
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 1.35,
+        "saved_internal_height_m": 0.9,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 0.6375000000000028,
+        "analytic_wall_volume_m3": 0.002296632000000031,
+        "mesh_wall_volume_m3": 0.0022966320000060224,
+        "relative_volume_error": 2.6087336609238296e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "A-03",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1D4nWpOCDNNx5eABHpMLwr",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          85.8242,
+          36.2,
+          -0.45080000000000003
+        ],
+        [
+          87.1758,
+          36.4875,
+          0.45080000000000003
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 1.35,
+        "saved_internal_height_m": 0.9,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 0.2874999999999943,
+        "analytic_wall_volume_m3": 0.001035735999999989,
+        "mesh_wall_volume_m3": 0.0010357359999990524,
+        "relative_volume_error": 9.042206089128782e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-01",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0asdbf5ALUPfoYtN$HY17L",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          85.8742,
+          35.58058400000001,
+          -0.4258
+        ],
+        [
+          87.1258,
+          36.2,
+          0.4258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 1.25,
+        "saved_internal_height_m": 0.85,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 0.619415999999994,
+        "analytic_wall_volume_m3": 0.0020828234649599886,
+        "mesh_wall_volume_m3": 0.0020828234649580757,
+        "relative_volume_error": 9.184486084950904e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-02",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3cmKKWOIXG2wIWIQw2L$Ga",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          83.47593199999999,
+          35.32978400000001,
+          -0.2258
+        ],
+        [
+          86.5,
+          35.83138400000001,
+          0.2258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.45,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 3.024068000000014,
+        "analytic_wall_volume_m3": 0.00460432497408004,
+        "mesh_wall_volume_m3": 0.004604324974074888,
+        "relative_volume_error": 1.1187875293147327e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-03",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2fieqZej5SJAaqHsMO0oF8",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          76.035932,
+          35.32978400000001,
+          -0.17579999999999998
+        ],
+        [
+          82.48932945962156,
+          35.83138400000001,
+          0.17579999999999998
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.35,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.453397459621556,
+        "analytic_wall_volume_m3": 0.008793141242582028,
+        "mesh_wall_volume_m3": 0.008793141242573499,
+        "relative_volume_error": 9.700327898830963e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-04",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "38dK30VmnKehhKPOSvl9WN",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.84593199999999,
+          35.37978400000001,
+          -0.1258
+        ],
+        [
+          75.04932945962157,
+          35.78138400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.203397459621584,
+        "analytic_wall_volume_m3": 0.006467414055503066,
+        "mesh_wall_volume_m3": 0.00646741405549735,
+        "relative_volume_error": 8.838020581780995e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-05",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "16XnXAKsDR7fGY5Y8JvRrZ",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          86.5,
+          35.27978400000001,
+          -0.2008
+        ],
+        [
+          90.16593199999998,
+          35.88138400000001,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.6,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 3.6659319999999838,
+        "analytic_wall_volume_m3": 0.005874875985920086,
+        "mesh_wall_volume_m3": 0.005874875985935414,
+        "relative_volume_error": 2.609079182346432e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-06",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0qNVk8Gl5MtunvH8kUxih0",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          91.25253454037843,
+          35.32978400000001,
+          -0.17579999999999998
+        ],
+        [
+          97.65593199999999,
+          35.83138400000001,
+          0.17579999999999998
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.35,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.403397459621559,
+        "analytic_wall_volume_m3": 0.008725013242582031,
+        "mesh_wall_volume_m3": 0.00872501324257354,
+        "relative_volume_error": 9.732330689728044e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-07",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "00GeeqwXDGqujg1GB$eSes",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          98.64253454037842,
+          35.37978400000001,
+          -0.1258
+        ],
+        [
+          104.845932,
+          35.78138400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.203397459621584,
+        "analytic_wall_volume_m3": 0.006467414055503066,
+        "mesh_wall_volume_m3": 0.00646741405549735,
+        "relative_volume_error": 8.838020581780995e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-08",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1Ufk3tsn5INAsuK0h2HT1y",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          86.0742,
+          28.75058400000001,
+          -0.4258
+        ],
+        [
+          86.9258,
+          35.58058400000001,
+          0.4258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.85,
+        "saved_internal_height_m": 0.85,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.829999999999998,
+        "analytic_wall_volume_m3": 0.018595084800001032,
+        "mesh_wall_volume_m3": 0.018595084799978283,
+        "relative_volume_error": 1.2233966076862734e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-09",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3_3cf04PnN2xcqwNqA9Dlz",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          83.50093199999999,
+          28.47478400000001,
+          -0.2258
+        ],
+        [
+          86.5,
+          29.02638400000001,
+          0.2258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.55,
+        "saved_internal_height_m": 0.45,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 2.9990680000000083,
+        "analytic_wall_volume_m3": 0.004806186414080022,
+        "mesh_wall_volume_m3": 0.004806186414084498,
+        "relative_volume_error": 9.313941541351998e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-10",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0RZ5PgHVXJLvQNvy$btRzb",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          76.01093200000001,
+          28.52478400000001,
+          -0.2008
+        ],
+        [
+          82.46432945962155,
+          28.97638400000001,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.45,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.4533974596215415,
+        "analytic_wall_volume_m3": 0.00879314124258183,
+        "mesh_wall_volume_m3": 0.008793141242572213,
+        "relative_volume_error": 1.0937282463111667e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-11",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "01iiRNwCPHCg2TQaDQTBPh",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.770932,
+          28.57478400000001,
+          -0.1508
+        ],
+        [
+          75.07432945962157,
+          28.92638400000001,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.303397459621564,
+        "analytic_wall_volume_m3": 0.006571670055502957,
+        "mesh_wall_volume_m3": 0.0065716700554958925,
+        "relative_volume_error": 1.075017658563027e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-12",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0g9bpYq$DOCvGnKRTNdtFF",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          86.5,
+          28.47478400000001,
+          -0.2258
+        ],
+        [
+          90.19093199999999,
+          29.02638400000001,
+          0.2258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.55,
+        "saved_internal_height_m": 0.45,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 3.6909319999999894,
+        "analytic_wall_volume_m3": 0.005914939985919993,
+        "mesh_wall_volume_m3": 0.00591493998592558,
+        "relative_volume_error": 9.445027282917346e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-13",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2Ak1om3Z1N5xCmvkzr$r14",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          91.22753454037843,
+          28.49978400000001,
+          -0.17579999999999998
+        ],
+        [
+          97.65593199999999,
+          29.001384000000012,
+          0.17579999999999998
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.35,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.428397459621564,
+        "analytic_wall_volume_m3": 0.00875907724258204,
+        "mesh_wall_volume_m3": 0.008759077242589609,
+        "relative_volume_error": 8.640862862690892e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-14",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2Acysx8AbINgOLlSWUMu3$",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          98.73583581056765,
+          28.57478400000001,
+          -0.1508
+        ],
+        [
+          104.920932,
+          28.92638400000001,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.185096189432343,
+        "analytic_wall_volume_m3": 0.006448333883254485,
+        "mesh_wall_volume_m3": 0.006448333883247694,
+        "relative_volume_error": 1.0530743552757844e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-15",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0GlYPBdTrOk9iSc8VSdy5M",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          86.1742,
+          22.345584,
+          -0.3008
+        ],
+        [
+          86.8258,
+          28.75058400000001,
+          0.3008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.65,
+        "saved_internal_height_m": 0.6,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.405000000000012,
+        "analytic_wall_volume_m3": 0.012826396800000294,
+        "mesh_wall_volume_m3": 0.012826396799985883,
+        "relative_volume_error": 1.1234915104871078e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-16",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "223pk9Z9fHyP3zWtKUZIvr",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          83.525932,
+          21.619784,
+          -0.2008
+        ],
+        [
+          85.60179491924312,
+          22.221383999999997,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.6,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 2.0758629192431215,
+        "analytic_wall_volume_m3": 0.0033266948798623204,
+        "mesh_wall_volume_m3": 0.0033266948798591923,
+        "relative_volume_error": 9.40314703037821e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-17",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1TIfjG5dDG7vbAe6RHp7j4",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          76.035932,
+          21.669783999999996,
+          -0.17579999999999998
+        ],
+        [
+          82.43932945962155,
+          22.171384,
+          0.17579999999999998
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.35,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.403397459621544,
+        "analytic_wall_volume_m3": 0.008725013242582012,
+        "mesh_wall_volume_m3": 0.00872501324258948,
+        "relative_volume_error": 8.559281638259311e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-18",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "10hC2HAf5QjBh8eHXVJY72",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.770932,
+          21.744784,
+          -0.1508
+        ],
+        [
+          74.95602818943235,
+          22.096383999999997,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.185096189432343,
+        "analytic_wall_volume_m3": 0.006448333883254485,
+        "mesh_wall_volume_m3": 0.006448333883247694,
+        "relative_volume_error": 1.0530743552757844e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-19",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2JsVFcCh5MBxs36NfRYoo1",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          87.39820508075688,
+          21.619784,
+          -0.2008
+        ],
+        [
+          90.16593199999998,
+          22.221383999999997,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.6,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 2.7677269192431027,
+        "analytic_wall_volume_m3": 0.004435448451702312,
+        "mesh_wall_volume_m3": 0.0044354484516980885,
+        "relative_volume_error": 9.521437005190968e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-20",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2s98LbeQnOCR5h4UlU$jeq",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          91.25253454037843,
+          21.669783999999996,
+          -0.17579999999999998
+        ],
+        [
+          97.65593199999999,
+          22.171384,
+          0.17579999999999998
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.35,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.403397459621559,
+        "analytic_wall_volume_m3": 0.008725013242582031,
+        "mesh_wall_volume_m3": 0.008725013242589527,
+        "relative_volume_error": 8.59109313796014e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-21",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0KANCt4H1OwBz_XiEYPohN",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          98.64253454037842,
+          21.719783999999997,
+          -0.1258
+        ],
+        [
+          104.845932,
+          22.121384,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 6.203397459621584,
+        "analytic_wall_volume_m3": 0.006467414055503066,
+        "mesh_wall_volume_m3": 0.006467414055508356,
+        "relative_volume_error": 8.17952769776666e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-22",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1LnLmgXgrLMPCjBotJJT1X",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          86.5,
+          35.949200000000005,
+          -0.2008
+        ],
+        [
+          97.9484325,
+          36.4508,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 11.448432499999996,
+        "analytic_wall_volume_m3": 0.0165150507872001,
+        "mesh_wall_volume_m3": 0.016515050787182513,
+        "relative_volume_error": 1.0648848027208787e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-23",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3TG4i8QwvGw8JWXR1SDbXG",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          98.4476325,
+          36.95,
+          -0.2008
+        ],
+        [
+          98.9492325,
+          38.110584,
+          0.2008
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.160584,
+        "analytic_wall_volume_m3": 0.001674212055040011,
+        "mesh_wall_volume_m3": 0.001674212055038253,
+        "relative_volume_error": 1.0500016393837192e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-24",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3bnJDrEfPJpOdFEQN7QpDb",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          99.33503504037843,
+          38.259784,
+          -0.1508
+        ],
+        [
+          105.07676550000001,
+          38.661384000000005,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 5.741730459621579,
+        "analytic_wall_volume_m3": 0.006445436944752769,
+        "mesh_wall_volume_m3": 0.006445436944746397,
+        "relative_volume_error": 9.88550408898184e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-25",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3yhBBouBPRw8LwOEWLhhps",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.070132,
+          19.520584,
+          -0.1508
+        ],
+        [
+          68.42173199999999,
+          21.395584,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.875,
+        "analytic_wall_volume_m3": 0.00195479999999997,
+        "mesh_wall_volume_m3": 0.0019547999999978746,
+        "relative_volume_error": 1.0720001836402777e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-26",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2dwkXYndrQe8akRs1ziEM_",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          75.51013200000001,
+          19.520584,
+          -0.1508
+        ],
+        [
+          75.861732,
+          21.19068018943233,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.670096189432332,
+        "analytic_wall_volume_m3": 0.0017411754832545455,
+        "mesh_wall_volume_m3": 0.001741175483252654,
+        "relative_volume_error": 1.08633456438445e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-27",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3Y2iFalPLIjPgobiCbmlpM",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          82.950132,
+          19.520584,
+          -0.1508
+        ],
+        [
+          83.30173199999999,
+          20.95407764905389,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.43349364905389,
+        "analytic_wall_volume_m3": 0.0014945031387576008,
+        "mesh_wall_volume_m3": 0.0014945031387559897,
+        "relative_volume_error": 1.0780334858666188e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-28",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3ZeIIu8ZjLivD3$rEAqFH_",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          90.390132,
+          19.520584,
+          -0.1508
+        ],
+        [
+          90.74173199999998,
+          20.95407764905389,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.43349364905389,
+        "analytic_wall_volume_m3": 0.0014945031387576008,
+        "mesh_wall_volume_m3": 0.0014945031387559897,
+        "relative_volume_error": 1.0780334858666188e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-29",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0JgqECwtPHrA0cyUHrcIbw",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          97.83013199999999,
+          19.520584,
+          -0.1508
+        ],
+        [
+          98.18173199999998,
+          21.19068018943233,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.670096189432332,
+        "analytic_wall_volume_m3": 0.0017411754832545455,
+        "mesh_wall_volume_m3": 0.001741175483252654,
+        "relative_volume_error": 1.08633456438445e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-30",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3UfxkNar9T3uv889TvBuZo",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          105.245132,
+          19.520584,
+          -0.1258
+        ],
+        [
+          105.646732,
+          21.320583999999997,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.7999999999999972,
+        "analytic_wall_volume_m3": 0.0018766079999999934,
+        "mesh_wall_volume_m3": 0.0018766079999983393,
+        "relative_volume_error": 8.814088154499456e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-31",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "3YEo7IX2vLHOZoUdtxYhkW",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.070132,
+          26.350584000000012,
+          -0.1508
+        ],
+        [
+          68.42173199999999,
+          28.225584000000012,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.875,
+        "analytic_wall_volume_m3": 0.00195479999999997,
+        "mesh_wall_volume_m3": 0.0019547999999978746,
+        "relative_volume_error": 1.0720001836402777e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-32",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1h76SSiWvQkv6hW9gZiAWw",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          75.51013200000001,
+          26.350584000000012,
+          -0.1508
+        ],
+        [
+          75.861732,
+          28.13898145962157,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.7883974596215566,
+        "analytic_wall_volume_m3": 0.0018645116555030216,
+        "mesh_wall_volume_m3": 0.00186451165550103,
+        "relative_volume_error": 1.0680880135791391e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-33",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1I5d0BkIHT3A1NnC$0VWpB",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          82.950132,
+          26.350584000000012,
+          -0.1508
+        ],
+        [
+          83.30173199999999,
+          27.902378919243123,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.551794919243111,
+        "analytic_wall_volume_m3": 0.0016178393110060731,
+        "mesh_wall_volume_m3": 0.001617839311004341,
+        "relative_volume_error": 1.0706387086648926e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-34",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0WvdfA3zDKfO0CW$V5Jsne",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          90.34013199999998,
+          26.350584000000012,
+          -0.1258
+        ],
+        [
+          90.791732,
+          27.902378919243123,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.45,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.551794919243111,
+        "analytic_wall_volume_m3": 0.0017419829045455385,
+        "mesh_wall_volume_m3": 0.0017419829045551784,
+        "relative_volume_error": 5.533842112255421e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-35",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1eFzE74j9IX9FCS_bpSZi8",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          97.78013199999998,
+          26.350584000000012,
+          -0.1258
+        ],
+        [
+          98.231732,
+          28.113981459621566,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.45,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.7633974596215545,
+        "analytic_wall_volume_m3": 0.001979519452272763,
+        "mesh_wall_volume_m3": 0.0019795194522836835,
+        "relative_volume_error": 5.516752032724268e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-36",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0FMDd$bG1NneS7N2OdRFsP",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          105.270132,
+          26.350584000000012,
+          -0.1508
+        ],
+        [
+          105.621732,
+          28.225584000000012,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.875,
+        "analytic_wall_volume_m3": 0.00195479999999997,
+        "mesh_wall_volume_m3": 0.0019547999999978746,
+        "relative_volume_error": 1.0720001836402777e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-37",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2TYIpAGo5Jn84Ds4cFSqzD",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.045132,
+          33.180584,
+          -0.1258
+        ],
+        [
+          68.446732,
+          34.98058400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.8000000000000043,
+        "analytic_wall_volume_m3": 0.0018766080000000007,
+        "mesh_wall_volume_m3": 0.0018766079999983324,
+        "relative_volume_error": 8.89035058478219e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-38",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "0hfguPDXzM4uq$XxvCCMMo",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          75.48513200000001,
+          33.180584,
+          -0.1258
+        ],
+        [
+          75.88673200000001,
+          34.94398145962156,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.763397459621558,
+        "analytic_wall_volume_m3": 0.0018384476555030479,
+        "mesh_wall_volume_m3": 0.0018384476555013919,
+        "relative_volume_error": 9.007655960709043e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-39",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "10cDTQJo5IcPLAUKm5b$EG",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          82.92513199999999,
+          33.180584,
+          -0.1258
+        ],
+        [
+          83.32673199999999,
+          34.757378919243116,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.5767949192431132,
+        "analytic_wall_volume_m3": 0.001643903311006097,
+        "mesh_wall_volume_m3": 0.001643903311004624,
+        "relative_volume_error": 8.960363189714041e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-40",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2xxjOz63jHgeE8yuHmmyJ7",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          90.390132,
+          33.180584,
+          -0.1508
+        ],
+        [
+          90.74173199999998,
+          34.614077649053904,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.4334936490539008,
+        "analytic_wall_volume_m3": 0.0014945031387576118,
+        "mesh_wall_volume_m3": 0.0014945031387560007,
+        "relative_volume_error": 1.078033485866611e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-41",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1ljYkCFLnPd9wUABuPtBnw",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          97.83013199999999,
+          33.180584,
+          -0.1508
+        ],
+        [
+          98.18173199999998,
+          34.85068018943234,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.6700961894323356,
+        "analytic_wall_volume_m3": 0.0017411754832545492,
+        "mesh_wall_volume_m3": 0.0017411754832526956,
+        "relative_volume_error": 1.0645406232211693e-12,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-42",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "1JDTIpFW5QSREtJ610AQ34",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          105.245132,
+          33.180584,
+          -0.1258
+        ],
+        [
+          105.646732,
+          34.98058400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 1.8000000000000043,
+        "analytic_wall_volume_m3": 0.0018766080000000007,
+        "mesh_wall_volume_m3": 0.0018766079999983324,
+        "relative_volume_error": 8.89035058478219e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-43",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2A5hnkfKfVQA3ppPSDKTLp",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          98.4976325,
+          39.09718654037845,
+          -0.1508
+        ],
+        [
+          98.8992325,
+          41.160584,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 2.063397459621548,
+        "analytic_wall_volume_m3": 0.002316287452272754,
+        "mesh_wall_volume_m3": 0.0023162874522704474,
+        "relative_volume_error": 9.958818107470922e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "D-44",
+      "ifc_class": "IfcDuctSegment",
+      "global_id": "2NUeFlDmPKeAdID44c7Y3d",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          105.4759655,
+          39.060584000000006,
+          -0.1508
+        ],
+        [
+          105.8775655,
+          41.160584,
+          0.1508
+        ]
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "straight rectangular duct wall",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "saved_length_m": 2.0999999999999943,
+        "analytic_wall_volume_m3": 0.0023573759999999822,
+        "mesh_wall_volume_m3": 0.0023573759999976495,
+        "relative_volume_error": 9.89561866380174e-13,
+        "euler_characteristic": 0,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-CORRIDOR-A",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "1GS8rKBADM7RZvHhbL6Ep3",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          82.82419999999999,
+          36.824200000000005,
+          -0.45080000000000003
+        ],
+        [
+          84.85,
+          38.85,
+          0.45080000000000003
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 1.35,
+        "saved_internal_height_m": 0.9,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 1.3499999999999996,
+        "centreline_arc_length_m": 2.12057504117311,
+        "analytic_wall_volume_m3": 0.007639498820328669,
+        "mesh_wall_volume_m3": 0.007639503458041432,
+        "relative_volume_error": 6.070702897542515e-07,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          83.8614847233105,
+          37.86148472331051,
+          0.0
+        ],
+        "native_centroid_m": [
+          83.86148865983384,
+          37.86148865983388,
+          -1.0062163653883854e-14
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-CORRIDOR-B",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "3__drCT4XK$8OhZtbklpLq",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          85.4875,
+          36.4875,
+          -0.45080000000000003
+        ],
+        [
+          87.1758,
+          38.175799999999995,
+          0.45080000000000003
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 1.35,
+        "saved_internal_height_m": 0.9,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 1.0125000000000006,
+        "centreline_arc_length_m": 1.5904312808798338,
+        "analytic_wall_volume_m3": 0.0057296241152465024,
+        "mesh_wall_volume_m3": 0.005729598538474392,
+        "relative_volume_error": 4.463952887025585e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          86.30418229817985,
+          37.304182298179846,
+          0.0
+        ],
+        "native_centroid_m": [
+          86.30418091351096,
+          37.30418091351075,
+          7.818676686257559e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-01",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "1T1iJcPpbHQe9NXE03EuZB",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.070132,
+          21.395584,
+          -0.1508
+        ],
+        [
+          68.770932,
+          22.096384,
+          0.1508
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.5249999999999998,
+        "centreline_arc_length_m": 0.8246680715673204,
+        "analytic_wall_volume_m3": 0.0008597659446932125,
+        "mesh_wall_volume_m3": 0.0008597579218412407,
+        "relative_volume_error": 9.33143726077012e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          68.41278996156107,
+          21.753726038438923,
+          0.0
+        ],
+        "native_centroid_m": [
+          68.41279180640547,
+          21.753724193594472,
+          1.2068692058857698e-17
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-06",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "0ibn1oYr9NqAKrRPJhTTLc",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          104.845932,
+          21.320583999999997,
+          -0.1258
+        ],
+        [
+          105.646732,
+          22.121383999999995,
+          0.1258
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.6000000000000002,
+        "centreline_arc_length_m": 0.9424777960769383,
+        "analytic_wall_volume_m3": 0.0009825896510779705,
+        "mesh_wall_volume_m3": 0.0009825821385518305,
+        "relative_volume_error": 7.645639389523507e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          105.25304175163839,
+          21.72769375163838,
+          0.0
+        ],
+        "native_centroid_m": [
+          105.25303983933102,
+          21.727691839330966,
+          -1.0120443279603804e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-07",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "0WD0vb27TQyg59IaExUFo$",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.070132,
+          28.225584000000012,
+          -0.1508
+        ],
+        [
+          68.770932,
+          28.926384000000013,
+          0.1508
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.5249999999999998,
+        "centreline_arc_length_m": 0.8246680715673204,
+        "analytic_wall_volume_m3": 0.0008597659446932125,
+        "mesh_wall_volume_m3": 0.0008597579218412407,
+        "relative_volume_error": 9.33143726077012e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          68.41278996156107,
+          28.583726038438936,
+          0.0
+        ],
+        "native_centroid_m": [
+          68.41279180640547,
+          28.583724193594485,
+          1.2068692058857698e-17
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-12",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "0jrW4IiM9QGe5EURDoYzuc",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          104.920932,
+          28.225584000000012,
+          -0.1508
+        ],
+        [
+          105.621732,
+          28.926384000000013,
+          0.1508
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.35,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.5249999999999998,
+        "centreline_arc_length_m": 0.8246680715673204,
+        "analytic_wall_volume_m3": 0.0008597659446932125,
+        "mesh_wall_volume_m3": 0.0008597579218412119,
+        "relative_volume_error": 9.33143729418777e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          105.27907403843892,
+          28.583726038438936,
+          0.0
+        ],
+        "native_centroid_m": [
+          105.27907219359452,
+          28.583724193594495,
+          1.083719286917869e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-13",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "1hJrcsal9PEeDP4SMx$KOp",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          68.045132,
+          34.98058400000001,
+          -0.1258
+        ],
+        [
+          68.84593199999999,
+          35.78138400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.6000000000000002,
+        "centreline_arc_length_m": 0.9424777960769383,
+        "analytic_wall_volume_m3": 0.0009825896510779705,
+        "mesh_wall_volume_m3": 0.0009825821385518118,
+        "relative_volume_error": 7.64563940850221e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          68.4388222483616,
+          35.387693751638395,
+          0.0
+        ],
+        "native_centroid_m": [
+          68.438824160669,
+          35.387691839330955,
+          -3.121475733853906e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-18",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "1TWK5B6RfT_AFHX9Xe4Kgi",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          104.845932,
+          34.98058400000001,
+          -0.1258
+        ],
+        [
+          105.646732,
+          35.78138400000001,
+          0.1258
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.25,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.6000000000000002,
+        "centreline_arc_length_m": 0.9424777960769383,
+        "analytic_wall_volume_m3": 0.0009825896510779705,
+        "mesh_wall_volume_m3": 0.0009825821385517994,
+        "relative_volume_error": 7.645639421081119e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          105.25304175163839,
+          35.387693751638395,
+          0.0
+        ],
+        "native_centroid_m": [
+          105.253039839331,
+          35.387691839330955,
+          3.655945481158462e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-TAP-VAV-20",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "3GLkYHze9Uw8_FjhVKOzKc",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          105.07676550000001,
+          38.259784,
+          -0.1508
+        ],
+        [
+          105.8775655,
+          39.060584000000006,
+          0.1508
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.4,
+        "saved_internal_height_m": 0.3,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.6000000000000002,
+        "centreline_arc_length_m": 0.9424777960769383,
+        "analytic_wall_volume_m3": 0.0010579878747641227,
+        "mesh_wall_volume_m3": 0.0010579795327640843,
+        "relative_volume_error": 7.884778490775271e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          105.48512050688115,
+          38.65222899311887,
+          0.0
+        ],
+        "native_centroid_m": [
+          105.48511861023475,
+          38.6522308897653,
+          -6.956132452762637e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    },
+    {
+      "id": "BEND-UP-TURN",
+      "ifc_class": "IfcDuctFitting",
+      "global_id": "32SL8_FtLLxRDkUZc7lzNQ",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "systems": [
+        "SOURCE-SUPPLY"
+      ],
+      "bounds_m": [
+        [
+          97.9484325,
+          35.949200000000005,
+          -0.2008
+        ],
+        [
+          98.9492325,
+          36.95,
+          0.2008
+        ]
+      ],
+      "body_shape": "rectangular 90-degree elbow wall",
+      "circular_checks": null,
+      "rectangular_checks": {
+        "body_shape": "rectangular 90-degree elbow wall",
+        "body_representation": "IfcRevolvedAreaSolid hollow rectangle",
+        "saved_internal_width_m": 0.5,
+        "saved_internal_height_m": 0.4,
+        "saved_wall_thickness_m": 0.0008,
+        "centreline_radius_m": 0.7500000000000001,
+        "centreline_arc_length_m": 1.1780972450961726,
+        "analytic_wall_volume_m3": 0.0016994759618859454,
+        "mesh_wall_volume_m3": 0.0016994651018718654,
+        "relative_volume_error": 6.3902134090922996e-06,
+        "closed_mesh": true,
+        "one_connected_wall": true,
+        "euler_characteristic": 0,
+        "exact_arc_reference": true,
+        "analytic_centroid_m": [
+          98.45941078696703,
+          36.439021713032965,
+          0.0
+        ],
+        "native_centroid_m": [
+          98.4594088891883,
+          36.439023610811695,
+          -5.582707189306445e-15
+        ],
+        "outward_port_axes_pass": true
+      }
+    }
+  ],
+  "model_checks_pass": true,
+  "design_accepted": false,
+  "geometry_scope": "axis-aligned envelopes and rectangular straight and elbow walls",
+  "pending": [
+    "visual BIM review",
+    "manufacturer shape fidelity",
+    "physical route/clash checks",
+    "domain performance and code acceptance"
+  ],
+  "connection_scope": "logical topology only; no physical route is inferred between separated ports",
+  "identity_scope": "stable namespace/class/input-ID object and port GUIDs",
+  "project_uuid": "c1bba24e-8e5a-5d43-92a4-75ea4f4740e9"
+}

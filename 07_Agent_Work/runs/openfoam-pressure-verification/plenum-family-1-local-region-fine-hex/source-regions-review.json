@@ -1,0 +1,30 @@
+{
+  "scope": "Restore existing Gmsh wall-entity regions for native mesh alignment; no geometry/face edit",
+  "source_gmsh_mesh_sha256": "e6c4bc50f06da95ad8303b037464d58714281e25413f76ce0bcb7989003c92f9",
+  "source_surface_sha256": "5cd21b70529f1c26ae07deadf485013d07928dc24a6a0a49b718ac82c9e39479",
+  "regrouped_surface_sha256": "7705f94f19323797ebe5dedd453c9c3895c758f33c42f76d58fc601995a2276b",
+  "vertices_preserved_byte_exact": true,
+  "ordered_oriented_triangles_preserved_byte_exact": true,
+  "all25778wall_triangles_bound_to_source_entities": true,
+  "wall_regions": 9,
+  "port_regions_unchanged": 5,
+  "region_triangle_counts": {
+    "inlet": 1576,
+    "outlet_0": 7672,
+    "outlet_1": 7670,
+    "outlet_2": 7670,
+    "outlet_3": 7668,
+    "wall_1": 4932,
+    "wall_3": 2434,
+    "wall_5": 556,
+    "wall_6": 226,
+    "wall_7": 546,
+    "wall_8": 4882,
+    "wall_9": 2434,
+    "wall_11": 4876,
+    "wall_12": 4892
+  },
+  "feature_policy": "Same explicit150degree features plus source-region boundaries and multiRegionFeatureSnap; same fine mesh density and strict criteria",
+  "source_geometry_changed": false,
+  "engineering_accepted": false
+}

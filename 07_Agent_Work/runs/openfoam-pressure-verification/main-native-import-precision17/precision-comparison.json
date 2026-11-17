@@ -1,0 +1,42 @@
+{
+  "scope": "Actual existing main mesh import; no remeshing or pressure solve",
+  "source_mesh_sha256": "a34324d73e65a4d10abcc102451b06c0ed3388300d5e01e051bfbd811b550fd0",
+  "runtime": "blueCFD-Core 2024-1 / OpenFOAM 12 build 12-8e8552546d20",
+  "process_local_serial_dummy_library": true,
+  "system_mpi_installed": false,
+  "points": 126183,
+  "cells": 265741,
+  "patch_face_counts": {
+    "outlet_0": 342,
+    "inlet": 792,
+    "outlet_2": 618,
+    "outlet_3": 342,
+    "outlet_4": 340,
+    "wall": 10646
+  },
+  "default_precision": {
+    "max_coordinate_error_m": 5.000000000165983e-05,
+    "checkMesh_returncode": 3,
+    "negative_volume_cells": 14043,
+    "open_cells": 41
+  },
+  "writePrecision_17": {
+    "max_coordinate_error_m": 0.0,
+    "gmshToFoam_returncode": 0,
+    "checkMesh_returncode": 0,
+    "failed_mesh_checks": 3,
+    "minimum_face_area_m2": 3.2008586775755434e-07,
+    "minimum_cell_volume_m3": 6.786172264267356e-09,
+    "volume_m3": 16.46232529530215,
+    "maximum_nonorthogonality_deg": 74.45871191271489,
+    "maximum_skewness": 3.3895778603952897,
+    "high_aspect_ratio_cells": 76317,
+    "small_determinant_cells": 219268,
+    "small_interpolation_weight_faces": 9953,
+    "source_point_order_preserved": true
+  },
+  "mesh_quality_accepted": false,
+  "pressure_solve_executed": false,
+  "engineering_accepted": false,
+  "interpretation": "17-digit output removes precision-induced collapse; three native quality checks still fail despite exit code zero."
+}

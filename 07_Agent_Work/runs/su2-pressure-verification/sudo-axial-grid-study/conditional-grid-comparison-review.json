@@ -1,0 +1,24 @@
+{
+  "scope": "Two-level axial bend grid comparison only. Same cross-section discretization and unchanged developed inlet; not complete grid independence.",
+  "metrics": {
+    "30 bend layers": {
+      "conditional_normalized_RMSE": 0.1781796366275593,
+      "conditional_maximum_absolute_error": 0.408656296566835
+    },
+    "60 bend layers": {
+      "conditional_normalized_RMSE": 0.18797342786221227,
+      "conditional_maximum_absolute_error": 0.445485327649399
+    }
+  },
+  "coarse_complete_domain_pressure_Pa": 21.573568240700002,
+  "fine_complete_domain_pressure_Pa": 21.586714567650002,
+  "relative_pressure_change": 0.0006093719315842794,
+  "maximum_normalized_native_curve_change": 0.03761473542678667,
+  "experimental_csv_sha256": "c08bf6940c3f9cc5172d0b9e2fb647d44274ceecbc5ef35f9167669d8ed6922f",
+  "normalization_assumptions": {
+    "r": "(z-.208)/.104",
+    "Un": "global Ux/8.7"
+  },
+  "engineering_accepted": false,
+  "experimental_agreement_accepted": false
+}

@@ -1,0 +1,751 @@
+[
+  {
+    "record_sha256": "437dd26b5aeec5a4a95bfa3cc09009765edf458557d00be14b4c6b84aa77c824",
+    "request": {
+      "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+      "geometry_sha256": "7a832ac71bf1a6f09811a4d98d1c0b616a118647e045b736ef8d1f49ce7031a0",
+      "predefined_type": "BEND",
+      "saved_design_inputs": {
+        "Source": "Exact saved native XY centrelines,source node IDs and selected nominal section/flow;untrimmed at original nodes. No physical fitting reaches or actual installed lengths.",
+        "GeometryScope": "axis-aligned envelopes and rectangular straight and elbow walls",
+        "InputID": "BEND-CORRIDOR-A",
+        "BodyShape": "rectangular 90-degree elbow wall",
+        "InternalWidth_m": 1.35,
+        "InternalHeight_m": 0.9,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 1.35,
+        "SourceNode": "CORRIDOR-A",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 1.35, \"source\": \"Host-declared radius equal to nominal source width for geometric comparison only\"}",
+        "DesignFlow_m3_s": 12.000372763419485
+      },
+      "geometry_interpretation": "Saved model geometry with its original source/classification;not newly measured installation or verified manufacturer construction",
+      "transition_geometry": null,
+      "elbow_geometry": {
+        "quantities": {
+          "bend_radius_over_radial_width": 1.0,
+          "bend_height_over_radial_width": 0.6666666666666666,
+          "bend_angle_deg": 90.0,
+          "bend_centerline_radius_m": 1.35,
+          "bend_centerline_arc_length_m": 2.12057504117311,
+          "bend_radial_internal_width_m": 1.35,
+          "bend_normal_internal_height_m": 0.9,
+          "bend_hydraulic_diameter_m": 1.08,
+          "bend_hydraulic_reynolds": 707204.2880836528
+        },
+        "inlet_section_m": [
+          1.35,
+          0.9
+        ],
+        "outlet_section_m": [
+          1.35,
+          0.9
+        ],
+        "construction": "Native smooth quarter-revolved hollow rectangular profile; no vanes represented",
+        "reynolds_basis": "Source design flow and air properties; actual clear area velocity and hydraulic diameter 4A/P. Source-correlation applicability remains review-required.",
+        "scope": "Native dimensions/Axis/port correspondence after full producer inspection; not a loss correlation, fabricated product or measured installation acceptance"
+      },
+      "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+      "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+      "inlet": {
+        "source_section": "A-01",
+        "source_node": "CORRIDOR-A",
+        "flow_m3_s": 12.000372763419485,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 12.000372763419485,
+        "owner_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+        "direction": "SINK",
+        "width_m": 1.35,
+        "height_m": 0.9,
+        "actual_velocity_m_s": 9.876850011044843,
+        "actual_velocity_pressure_Pa": 58.5312996844059,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "outlet": {
+        "source_section": "A-02",
+        "source_node": "CORRIDOR-A",
+        "flow_m3_s": 12.000372763419485,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 12.000372763419485,
+        "owner_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+        "direction": "SOURCE",
+        "width_m": 1.35,
+        "height_m": 0.9,
+        "actual_velocity_m_s": 9.876850011044843,
+        "actual_velocity_pressure_Pa": 58.5312996844059,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "available_reference_ports": [
+        {
+          "port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "name": "in",
+          "source_section": "A-01",
+          "source_node": "CORRIDOR-A",
+          "flow_m3_s": 12.000372763419485,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 12.000372763419485,
+          "owner_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "direction": "SINK",
+          "width_m": 1.35,
+          "height_m": 0.9,
+          "actual_velocity_m_s": 9.876850011044843,
+          "actual_velocity_pressure_Pa": 58.5312996844059,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "3AHfHBmovMox314OcElvL$",
+          "name": "out",
+          "source_section": "A-02",
+          "source_node": "CORRIDOR-A",
+          "flow_m3_s": 12.000372763419485,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 12.000372763419485,
+          "owner_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "direction": "SOURCE",
+          "width_m": 1.35,
+          "height_m": 0.9,
+          "actual_velocity_m_s": 9.876850011044843,
+          "actual_velocity_pressure_Pa": 58.5312996844059,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        }
+      ],
+      "affected_outlet_port_guids": [
+        "2XRMh6eUHVzB04Kc3pzRDy",
+        "1dNjWj_u9Uc8oYPP9o3wDz",
+        "3_3wa4HVzHjhNFnnHuZDNN",
+        "1O43iLk7PUpvkFHwjFhjTx",
+        "3rSmbHh3bJQATE3aOIxdW5",
+        "3PgHjDnB5PGew0mTO82o1x",
+        "1VmCYr1GPLMRm0ZKW5sQgu",
+        "19nqB5YkrRV8WIlt84xkKt",
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "3zsA7B0DvGYueQOohcOP9Y",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV",
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "1EfJGCOkTTlxk9pcoEkc$3",
+        "3sUi7SOgfNUOF9b6e4mtj2",
+        "3WFgs1EVvJFwBy6YZ6ely2",
+        "1Z6wrb4j9R$gfAHp4yZjEz",
+        "3cpI78N6LIweUPri3FAg97",
+        "2gCF2LVSTVvxKPQvm8mNaz"
+      ],
+      "status": "physical_review_required",
+      "recorded_table_result": {
+        "status": "calculated",
+        "coefficient": 0.23666666666666666,
+        "support_indexes": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "native_condition_checks": [
+          {
+            "quantity": "bend_angle_deg",
+            "minimum": 90.0,
+            "maximum": 90.0,
+            "actual": 90.0,
+            "pass_check": true
+          },
+          {
+            "quantity": "bend_radius_over_radial_width",
+            "minimum": 0.75,
+            "maximum": 2.0,
+            "actual": 1.0,
+            "pass_check": true
+          },
+          {
+            "quantity": "bend_hydraulic_reynolds",
+            "minimum": 200000.0,
+            "maximum": 100000000.0,
+            "actual": 707204.2880836528,
+            "pass_check": true
+          }
+        ],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required",
+        "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+        "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+        "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+        "transition_flow_check": null,
+        "native_quantities": {
+          "outlet_to_inlet_flow_ratio": 1.0,
+          "outlet_to_inlet_area_ratio": 1.0,
+          "inlet_to_outlet_area_ratio": 1.0,
+          "outlet_to_inlet_width_ratio": 1.0,
+          "outlet_to_inlet_height_ratio": 1.0,
+          "outlet_to_inlet_velocity_ratio": 1.0,
+          "inlet_aspect_ratio": 1.5,
+          "outlet_aspect_ratio": 1.5,
+          "deflection_deg": 90.0,
+          "bend_radius_over_radial_width": 1.0,
+          "bend_height_over_radial_width": 0.6666666666666666,
+          "bend_angle_deg": 90.0,
+          "bend_centerline_radius_m": 1.35,
+          "bend_centerline_arc_length_m": 2.12057504117311,
+          "bend_radial_internal_width_m": 1.35,
+          "bend_normal_internal_height_m": 0.9,
+          "bend_hydraulic_diameter_m": 1.08,
+          "bend_hydraulic_reynolds": 707204.2880836528
+        },
+        "reference_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+        "reference_velocity_pressure_Pa": 58.5312996844059,
+        "signed_tabulated_contribution_Pa": 13.852407591976064,
+        "source_id": "ashrae2021",
+        "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction",
+        "classification": "published correlation",
+        "applicability_note": "Conditional source-table numerical study only. W is clear radial width and H clear normal height. Hydraulic-diameter Reynolds interpretation follows general ASHRAE fluid-flow convention; detailed source/test/product applicability remains unverified. Ktheta=1 only for actual native90degree bends. For high Re, source >=200000 plateau is used within a deliberately restricted 1e8 numerical study bound, not an asserted published maximum. For lower Re, native query is bounded to the published Re grid and r/W>=0.75 correction row. Source transcription, friction inclusion, adjacent fitting interaction and installation remain review-required.",
+        "friction_scope": "local_dynamic_only",
+        "physical_applicability_verified": false
+      },
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ],
+      "design_accepted": false
+    },
+    "transition_end_straight_study": [],
+    "verification": "Recorded bytes only; use inspect for current source/native replay",
+    "design_accepted": false
+  },
+  {
+    "record_sha256": "437dd26b5aeec5a4a95bfa3cc09009765edf458557d00be14b4c6b84aa77c824",
+    "request": {
+      "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+      "geometry_sha256": "27fd419bef5ad3eba454c9665471ac432e8a7766253f5e8f8fad71ac88c3661a",
+      "predefined_type": "JUNCTION",
+      "saved_design_inputs": {
+        "Source": "Source node J0; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "Classification": "assumed",
+        "Scope": "Ideal equal-section intersecting rectangular prism wall; no product, loss or fabrication acceptance"
+      },
+      "geometry_interpretation": "Saved model geometry with its original source/classification;not newly measured installation or verified manufacturer construction",
+      "transition_geometry": null,
+      "elbow_geometry": null,
+      "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+      "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+      "inlet": {
+        "source_section": "D-15",
+        "source_node": "J0",
+        "flow_m3_s": 3.491767473386609,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 3.491767473386609,
+        "owner_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+        "direction": "SINK",
+        "width_m": 0.65,
+        "height_m": 0.6,
+        "actual_velocity_m_s": 8.953249931760535,
+        "actual_velocity_pressure_Pa": 48.09641060434202,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "outlet": {
+        "source_section": "D-19",
+        "source_node": "J0",
+        "flow_m3_s": 1.7458837408542656,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 1.7458837408542656,
+        "owner_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+        "direction": "SOURCE",
+        "width_m": 0.65,
+        "height_m": 0.6,
+        "actual_velocity_m_s": 4.476624976549399,
+        "actual_velocity_pressure_Pa": 12.024102708399543,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "available_reference_ports": [
+        {
+          "port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+          "name": "main-b",
+          "source_section": "D-19",
+          "source_node": "J0",
+          "flow_m3_s": 1.7458837408542656,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 1.7458837408542656,
+          "owner_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "direction": "SOURCE",
+          "width_m": 0.65,
+          "height_m": 0.6,
+          "actual_velocity_m_s": 4.476624976549399,
+          "actual_velocity_pressure_Pa": 12.024102708399543,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+          "name": "main-a",
+          "source_section": "D-16",
+          "source_node": "J0",
+          "flow_m3_s": 1.7458837325323433,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 1.7458837325323433,
+          "owner_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "direction": "SOURCE",
+          "width_m": 0.65,
+          "height_m": 0.6,
+          "actual_velocity_m_s": 4.476624955211136,
+          "actual_velocity_pressure_Pa": 12.024102593771463,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "0dR44ah91JrwoF3lu_418z",
+          "name": "branch",
+          "source_section": "D-15",
+          "source_node": "J0",
+          "flow_m3_s": 3.491767473386609,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 3.491767473386609,
+          "owner_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "direction": "SINK",
+          "width_m": 0.65,
+          "height_m": 0.6,
+          "actual_velocity_m_s": 8.953249931760535,
+          "actual_velocity_pressure_Pa": 48.09641060434202,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        }
+      ],
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "3zsA7B0DvGYueQOohcOP9Y",
+        "1gBxgO8MHJlwYYjA9Jzixk"
+      ],
+      "status": "source_data_required",
+      "recorded_table_result": null,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ],
+      "design_accepted": false
+    },
+    "transition_end_straight_study": [],
+    "verification": "Recorded bytes only; use inspect for current source/native replay",
+    "design_accepted": false
+  },
+  {
+    "record_sha256": "437dd26b5aeec5a4a95bfa3cc09009765edf458557d00be14b4c6b84aa77c824",
+    "request": {
+      "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "predefined_type": "JUNCTION",
+      "saved_design_inputs": {
+        "Source": "Source node TAP-VAV-02; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "Classification": "assumed",
+        "Scope": "Ideal equal-section intersecting rectangular prism wall; no product, loss or fabrication acceptance"
+      },
+      "geometry_interpretation": "Saved model geometry with its original source/classification;not newly measured installation or verified manufacturer construction",
+      "transition_geometry": null,
+      "elbow_geometry": null,
+      "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+      "inlet": {
+        "source_section": "D-17",
+        "source_node": "TAP-VAV-02",
+        "flow_m3_s": 1.1601196749775096,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 1.1601196749775096,
+        "owner_guid": "3nUnywxFXUIfHj1ihinFuB",
+        "direction": "SINK",
+        "width_m": 0.5,
+        "height_m": 0.35,
+        "actual_velocity_m_s": 6.629255285585769,
+        "actual_velocity_pressure_Pa": 26.368215384880113,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "outlet": {
+        "source_section": "D-26",
+        "source_node": "TAP-VAV-02",
+        "flow_m3_s": 0.5844445324089027,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 0.5844445324089027,
+        "owner_guid": "3nUnywxFXUIfHj1ihinFuB",
+        "direction": "SOURCE",
+        "width_m": 0.5,
+        "height_m": 0.35,
+        "actual_velocity_m_s": 3.339683042336587,
+        "actual_velocity_pressure_Pa": 6.692089693962337,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "available_reference_ports": [
+        {
+          "port_guid": "3Eml8WTKPU2hjYyow37wiq",
+          "name": "main-b",
+          "source_section": "D-18",
+          "source_node": "TAP-VAV-02",
+          "flow_m3_s": 0.5756751425686069,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 0.5756751425686069,
+          "owner_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "direction": "SOURCE",
+          "width_m": 0.5,
+          "height_m": 0.35,
+          "actual_velocity_m_s": 3.2895722432491823,
+          "actual_velocity_pressure_Pa": 6.4927713261332745,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+          "name": "main-a",
+          "source_section": "D-17",
+          "source_node": "TAP-VAV-02",
+          "flow_m3_s": 1.1601196749775096,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 1.1601196749775096,
+          "owner_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "direction": "SINK",
+          "width_m": 0.5,
+          "height_m": 0.35,
+          "actual_velocity_m_s": 6.629255285585769,
+          "actual_velocity_pressure_Pa": 26.368215384880113,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "2iuBlXixfUgg54RbHw2A0c",
+          "name": "branch",
+          "source_section": "D-26",
+          "source_node": "TAP-VAV-02",
+          "flow_m3_s": 0.5844445324089027,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 0.5844445324089027,
+          "owner_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "direction": "SOURCE",
+          "width_m": 0.5,
+          "height_m": 0.35,
+          "actual_velocity_m_s": 3.339683042336587,
+          "actual_velocity_pressure_Pa": 6.692089693962337,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        }
+      ],
+      "affected_outlet_port_guids": [
+        "2y3RgC$2LLvx8FuOwcC3F5"
+      ],
+      "status": "table_support_missing",
+      "recorded_table_result": {
+        "status": "pending",
+        "reason": "query support contains unpublished or null cells",
+        "coefficient": null,
+        "native_condition_checks": [],
+        "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+        "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+        "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+        "transition_flow_check": null,
+        "native_quantities": {
+          "outlet_to_inlet_flow_ratio": 0.5037795194881364,
+          "outlet_to_inlet_area_ratio": 1.0,
+          "inlet_to_outlet_area_ratio": 1.0,
+          "outlet_to_inlet_width_ratio": 1.0,
+          "outlet_to_inlet_height_ratio": 1.0,
+          "outlet_to_inlet_velocity_ratio": 0.5037795194881364,
+          "inlet_aspect_ratio": 1.4285714285714286,
+          "outlet_aspect_ratio": 1.4285714285714286,
+          "deflection_deg": 90.0
+        },
+        "reference_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+        "reference_velocity_pressure_Pa": 26.368215384880113,
+        "signed_tabulated_contribution_Pa": null,
+        "source_id": "ashrae2021",
+        "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+        "classification": "published correlation",
+        "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+        "friction_scope": "local_dynamic_only",
+        "physical_applicability_verified": false
+      },
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ],
+      "design_accepted": false
+    },
+    "transition_end_straight_study": [],
+    "verification": "Recorded bytes only; use inspect for current source/native replay",
+    "design_accepted": false
+  },
+  {
+    "record_sha256": "437dd26b5aeec5a4a95bfa3cc09009765edf458557d00be14b4c6b84aa77c824",
+    "request": {
+      "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+      "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+      "predefined_type": "TRANSITION",
+      "saved_design_inputs": {
+        "Source": "Source node TAP-VAV-05; Host-declared geometric study: core covers maximum incident nominal width/height; core reaches add0.1m, transition straights0.05m and maximum included angle30degrees. These are design assumptions, not actual products, code or installed dimensions.; classified construction {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}; declared transition arm main-b",
+        "Classification": "assumed",
+        "WallModel": "section_plane_offset",
+        "SectionOffset_m": 0.0008,
+        "GeometryMethod": "explicit_station_brep"
+      },
+      "geometry_interpretation": "Saved model geometry with its original source/classification;not newly measured installation or verified manufacturer construction",
+      "transition_geometry": {
+        "quantities": {
+          "taper_length_m": 0.18660254037844387,
+          "inlet_straight_length_m": 0.05,
+          "outlet_straight_length_m": 0.04999999999999999,
+          "total_length_m": 0.28660254037844385,
+          "taper_width_angle_deg": 29.999999999999993,
+          "taper_height_angle_deg": 29.999999999999993,
+          "major_taper_angle_deg": 29.999999999999993,
+          "taper_angle_difference_deg": 0.0,
+          "outlet_hydraulic_diameter_m": 0.3076923076923077,
+          "taper_length_over_outlet_hydraulic_diameter": 0.6064582562299425,
+          "total_length_over_outlet_hydraulic_diameter": 0.9314582562299425
+        },
+        "flow_change": "contraction",
+        "inlet_section_m": [
+          0.5,
+          0.35
+        ],
+        "outlet_section_m": [
+          0.4,
+          0.25
+        ],
+        "outer_station_z_m": [
+          0.0,
+          0.05,
+          0.23660254037844386,
+          0.28660254037844385
+        ],
+        "inner_station_z_m": [
+          -0.0001,
+          0.05,
+          0.23660254037844386,
+          0.28670254037844384
+        ],
+        "scope": "Supported saved centred transition dimensions only;Boolean cap extension excluded from physical length. Hydraulic diameter is a declared geometric quantity,not proof of a loss-method substitution. Source construction assumptions and full native/source/physical review remain separate."
+      },
+      "elbow_geometry": null,
+      "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+      "outlet_port_guid": "2Fese000fPyOpofbM3XvoW",
+      "inlet": {
+        "source_section": "D-21",
+        "source_node": "TAP-VAV-05",
+        "flow_m3_s": 0.538984439400712,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 0.538984439400712,
+        "owner_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+        "direction": "SINK",
+        "width_m": 0.5,
+        "height_m": 0.35,
+        "actual_velocity_m_s": 3.0799110822897826,
+        "actual_velocity_pressure_Pa": 5.691511364886852,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "outlet": {
+        "source_section": "D-21",
+        "source_node": "TAP-VAV-05",
+        "flow_m3_s": 0.538984439400712,
+        "classification": "inherited preliminary design flow",
+        "graph_derived_flow_m3_s": 0.538984439400712,
+        "owner_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+        "direction": "SOURCE",
+        "width_m": 0.4,
+        "height_m": 0.25,
+        "actual_velocity_m_s": 5.3898443940071195,
+        "actual_velocity_pressure_Pa": 17.430253554965983,
+        "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+        "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+      },
+      "available_reference_ports": [
+        {
+          "port_guid": "2Fese000fPyOpofbM3XvoW",
+          "name": "end",
+          "source_section": "D-21",
+          "source_node": "TAP-VAV-05",
+          "flow_m3_s": 0.538984439400712,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 0.538984439400712,
+          "owner_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+          "direction": "SOURCE",
+          "width_m": 0.4,
+          "height_m": 0.25,
+          "actual_velocity_m_s": 5.3898443940071195,
+          "actual_velocity_pressure_Pa": 17.430253554965983,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        },
+        {
+          "port_guid": "1aTCnctAzNnPvODOWALaHX",
+          "name": "start",
+          "source_section": "D-21",
+          "source_node": "TAP-VAV-05",
+          "flow_m3_s": 0.538984439400712,
+          "classification": "inherited preliminary design flow",
+          "graph_derived_flow_m3_s": 0.538984439400712,
+          "owner_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+          "direction": "SINK",
+          "width_m": 0.5,
+          "height_m": 0.35,
+          "actual_velocity_m_s": 3.0799110822897826,
+          "actual_velocity_pressure_Pa": 5.691511364886852,
+          "flow_derivation": "Actual saved downstream boundary-demand accumulation, reconciled against every original source section",
+          "fitting_query_geometry_basis": "Exact saved local profile/ring dimensions checked against native mesh material caps; table bounds are not enlarged or snapped"
+        }
+      ],
+      "affected_outlet_port_guids": [
+        "1gBxgO8MHJlwYYjA9Jzixk"
+      ],
+      "status": "physical_review_required",
+      "recorded_table_result": {
+        "status": "calculated",
+        "coefficient": 0.14999999999999997,
+        "support_indexes": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required",
+        "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+        "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+        "outlet_port_guid": "2Fese000fPyOpofbM3XvoW",
+        "transition_flow_check": {
+          "expected": "contraction",
+          "actual": "contraction",
+          "required_for_source_class": true,
+          "pass_check": true,
+          "family_check": {
+            "family": "centred_equal_angle_pyramidal",
+            "pass_check": true,
+            "numerical_equal_angle_bound_deg": 1e-06,
+            "physical_applicability_verified": false
+          },
+          "physical_applicability_verified": false
+        },
+        "native_quantities": {
+          "outlet_to_inlet_flow_ratio": 1.0,
+          "outlet_to_inlet_area_ratio": 0.5714285714285715,
+          "inlet_to_outlet_area_ratio": 1.7499999999999998,
+          "outlet_to_inlet_width_ratio": 0.8,
+          "outlet_to_inlet_height_ratio": 0.7142857142857143,
+          "outlet_to_inlet_velocity_ratio": 1.75,
+          "inlet_aspect_ratio": 1.4285714285714286,
+          "outlet_aspect_ratio": 1.6,
+          "deflection_deg": 0.0,
+          "taper_length_m": 0.18660254037844387,
+          "inlet_straight_length_m": 0.05,
+          "outlet_straight_length_m": 0.04999999999999999,
+          "total_length_m": 0.28660254037844385,
+          "taper_width_angle_deg": 29.999999999999993,
+          "taper_height_angle_deg": 29.999999999999993,
+          "major_taper_angle_deg": 29.999999999999993,
+          "taper_angle_difference_deg": 0.0,
+          "outlet_hydraulic_diameter_m": 0.3076923076923077,
+          "taper_length_over_outlet_hydraulic_diameter": 0.6064582562299425,
+          "total_length_over_outlet_hydraulic_diameter": 0.9314582562299425
+        },
+        "reference_port_guid": "1aTCnctAzNnPvODOWALaHX",
+        "reference_velocity_pressure_Pa": 5.691511364886852,
+        "signed_tabulated_contribution_Pa": 0.8537267047330276,
+        "source_id": "ashrae2021",
+        "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a",
+        "classification": "published correlation",
+        "applicability_note": "Conditional source-table query only. Source explicitly labels A0/A1>1 tentative, adapted from round Fitting4-1. Actual centred native equal wall angles checked with numerical equality bound1e-6 degrees, not fabrication tolerance. Inlet A0 and V0 reference; no angle snapping. Physical construction, upstream/downstream development, friction/stations, adjacent fitting interaction and applicability remain unverified.",
+        "friction_scope": "local_dynamic_only",
+        "physical_applicability_verified": false
+      },
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ],
+      "design_accepted": false
+    },
+    "transition_end_straight_study": [
+      {
+        "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+        "geometry_sha256": "04f9a3ae6eb4d88e0e1b5991ced95776c55cfef5e03d0b41be9bba011c2e5380",
+        "ends": [
+          {
+            "end": "inlet",
+            "port_guid": "1aTCnctAzNnPvODOWALaHX",
+            "length_m": 0.05,
+            "width_m": 0.5,
+            "height_m": 0.35,
+            "flow_m3_s": 0.538984439400712,
+            "calculation": {
+              "equivalent_diameter_m": 0.4554989721482917,
+              "actual_velocity_m_s": 3.0799110822897826,
+              "equivalent_round_velocity_m_s": 3.3075890325713417,
+              "reynolds": 99885.30859393648,
+              "darcy_factor": 0.01899760571566719,
+              "friction_Pa_m": 0.27376996812199716,
+              "aspect_ratio": 1.4285714285714286,
+              "scope": "Straight friction only; fitting losses require actual duct velocity",
+              "design_accepted": false
+            },
+            "developed_flow_study_friction_Pa": 0.013688498406099859
+          },
+          {
+            "end": "outlet",
+            "port_guid": "2Fese000fPyOpofbM3XvoW",
+            "length_m": 0.04999999999999999,
+            "width_m": 0.4,
+            "height_m": 0.25,
+            "flow_m3_s": 0.538984439400712,
+            "calculation": {
+              "equivalent_diameter_m": 0.3433325769007561,
+              "actual_velocity_m_s": 5.3898443940071195,
+              "equivalent_round_velocity_m_s": 5.821787101108245,
+              "reynolds": 132517.73486791665,
+              "darcy_factor": 0.018486069698668107,
+              "friction_Pa_m": 1.0949479187784397,
+              "aspect_ratio": 1.6,
+              "scope": "Straight friction only; fitting losses require actual duct velocity",
+              "design_accepted": false
+            },
+            "developed_flow_study_friction_Pa": 0.05474739593892197
+          }
+        ],
+        "developed_flow_study_friction_Pa": 0.06843589434502183,
+        "added_to_pressure_paths": false,
+        "physical_applicability_verified": false,
+        "scope": "Separate equivalent-round developed-flow study of constant-section end lengths only. Short adjacent fittings may prevent developed flow. Taper friction, local losses, source table station/friction inclusion and interactions remain unresolved; do not add to table results or infer complete fitting pressure or fan duty."
+      }
+    ],
+    "verification": "Recorded bytes only; use inspect for current source/native replay",
+    "design_accepted": false
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "scope": "Live matched-prefix diagnostic only; not final convergence assessment.",
+  "config_differences": {
+    "OUTPUT_WRT_FREQ": [
+      "100",
+      "30"
+    ],
+    "POISSON_LINEAR_SOLVER_ITER": [
+      "100",
+      "500"
+    ],
+    "ITER": [
+      "100",
+      "30"
+    ]
+  },
+  "identical_initial_field": true,
+  "matched_rows": 3,
+  "reference_poisson_met_tolerance": 0,
+  "higher_cap_poisson_met_tolerance": 1,
+  "higher_cap_poisson_iterations": [
+    494.0,
+    500.0,
+    500.0
+  ],
+  "higher_cap_poisson_log_residuals": [
+    -8.033069137,
+    -7.321928784,
+    -7.601776922
+  ],
+  "engineering_accepted": false,
+  "branch_mass_targets_imposed": false
+}

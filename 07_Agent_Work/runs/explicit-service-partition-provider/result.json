@@ -1,0 +1,457 @@
+{
+  "schema": "bsa.module-result/1",
+  "request": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\explicit-service-partition\\request.json",
+    "sha256": "043d2a10bf5bf492863d3ea4937b43aec8a7b004632b53225fb06ece9182e1a9"
+  },
+  "project_id": "private-coursework",
+  "scenario_id": "explicit-manufacturer-candidate",
+  "capability": "analysis.air.classified-allocation",
+  "provider": {
+    "id": "bsa.classified-air-allocation",
+    "version": "1",
+    "license": "NOASSERTION"
+  },
+  "execution": {
+    "status": "completed",
+    "diagnostics": []
+  },
+  "acceptance": {
+    "status": "pending",
+    "scope": "Conditional thermal balance and declared service-area allocation only; room loads, ADPI, routing, native geometry and regulatory acceptance remain pending"
+  },
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\explicit-service-partition\\request.json": "043d2a10bf5bf492863d3ea4937b43aec8a7b004632b53225fb06ece9182e1a9",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\explicit-service-partition\\allocation.json": "3df175c4d2cd599ce4852d1115e7bf3acab2c80c417fd2b762386ff0256ce070",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\modules.py": "a7387adf83b1f86d8d49ef9e82c2dc5332d81393ef09a8cf2bc8a720110bba99",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\module_contract.py": "232e5d94f31ea40691889d0d3260b4057ca0524128bedda0420305394a4b24ce",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\air_allocation.py": "a6557419dceb0613d2f5fc9622a4f71c13443da90978c09177da76c0ec88cdba",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\__init__.py": "42c2ddea556e631da17a9d3e48ef873b4a25768711e22f7823ed0b9e41ae5452",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\request-v1.json": "5f0248cbd616c4ad7775ec8977f88eaccba570a6215eec73480147a70edfab2b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\result-v1.json": "4d6c03471305bb1da1a54a37f1322ce5255db9e6d99fc5a83b09cd1fd21cf1e6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\air-allocation-v1.json": "8c01bc709f23d1cf70a9c6e9c74f5cbcb56cfed9187e228be18cadf07034e48f",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_allocation.py": "ad83190a042ae78468e816acbfafbb242f2655fec4c9d1a73ae721fd03b8e60c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_load.py": "4969f2772ec2307a2eb586c4f0258d2035299b67c7a05776ed23887ed0a6b080",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\service_areas.py": "14b211941d0f34523b8e6a0375737974f096d0bf1292de6b4d1fb9160be631af",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\office-boundary.geojson": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\manufacturer-linear-slot-layout\\boot-first-row-four-strip-services\\allocation.json": "ba14cf9d26980583b0d26ee51970fe8d2f99a29b3a70730d08f1b8cc97a13902"
+  },
+  "artifacts": {
+    "analysis/allocation.json": "98466165455a350cf7d4118e4b6b4d7afb613c47c20d8937fee152d2e8e2f6af"
+  },
+  "payload_schema": "bsa.air-allocation/1",
+  "payload": {
+    "schema": "bsa.air-allocation/1",
+    "coordinate_frame": {
+      "id": "declared-planar-metres",
+      "kind": "source-world-si",
+      "length_unit": "m",
+      "georeferenced": false
+    },
+    "units": {
+      "power": "kW thermal",
+      "flow": "L/s",
+      "area": "m2",
+      "length": "m"
+    },
+    "terminals": [
+      {
+        "id": "main-1-2",
+        "maximum_flow_L_s": 236.11552717807933,
+        "minimum_flow_L_s": 94.44621087123174,
+        "allocated_load_area_m2": 20.108547753747967
+      },
+      {
+        "id": "main-1-3",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-1-4",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-1-5",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-1-6",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-1-7",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-1-8",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-1-9",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-1-10",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-1-12",
+        "maximum_flow_L_s": 165.09359557633357,
+        "minimum_flow_L_s": 66.03743823053343,
+        "allocated_load_area_m2": 14.060034467707226
+      },
+      {
+        "id": "main-1-13",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-1-14",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-2",
+        "maximum_flow_L_s": 236.11552717807933,
+        "minimum_flow_L_s": 94.44621087123174,
+        "allocated_load_area_m2": 20.108547753747967
+      },
+      {
+        "id": "main-2-3",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-2-4",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-5",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-6",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-2-7",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-8",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-9",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-2-10",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-2-12",
+        "maximum_flow_L_s": 165.09359557633357,
+        "minimum_flow_L_s": 66.03743823053343,
+        "allocated_load_area_m2": 14.060034467707226
+      },
+      {
+        "id": "main-2-13",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-2-14",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-3-2",
+        "maximum_flow_L_s": 236.11552717807965,
+        "minimum_flow_L_s": 94.44621087123187,
+        "allocated_load_area_m2": 20.10854775374799
+      },
+      {
+        "id": "main-3-3",
+        "maximum_flow_L_s": 165.09359557633425,
+        "minimum_flow_L_s": 66.03743823053371,
+        "allocated_load_area_m2": 14.060034467707283
+      },
+      {
+        "id": "main-3-4",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-3-5",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-3-6",
+        "maximum_flow_L_s": 165.09359557633425,
+        "minimum_flow_L_s": 66.03743823053371,
+        "allocated_load_area_m2": 14.060034467707283
+      },
+      {
+        "id": "main-3-7",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-3-8",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-3-9",
+        "maximum_flow_L_s": 165.09359557633425,
+        "minimum_flow_L_s": 66.03743823053371,
+        "allocated_load_area_m2": 14.060034467707283
+      },
+      {
+        "id": "main-3-10",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-3-12",
+        "maximum_flow_L_s": 165.0935955763338,
+        "minimum_flow_L_s": 66.03743823053352,
+        "allocated_load_area_m2": 14.060034467707244
+      },
+      {
+        "id": "main-3-13",
+        "maximum_flow_L_s": 165.09359557633425,
+        "minimum_flow_L_s": 66.03743823053371,
+        "allocated_load_area_m2": 14.060034467707283
+      },
+      {
+        "id": "main-3-14",
+        "maximum_flow_L_s": 165.09359557633334,
+        "minimum_flow_L_s": 66.03743823053334,
+        "allocated_load_area_m2": 14.060034467707204
+      },
+      {
+        "id": "main-4-2",
+        "maximum_flow_L_s": 236.11552717807933,
+        "minimum_flow_L_s": 94.44621087123174,
+        "allocated_load_area_m2": 20.108547753747967
+      },
+      {
+        "id": "main-4-3",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-4-4",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-4-5",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-4-6",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-4-7",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-4-8",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-4-9",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-4-10",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "main-4-12",
+        "maximum_flow_L_s": 165.09359557633357,
+        "minimum_flow_L_s": 66.03743823053343,
+        "allocated_load_area_m2": 14.060034467707226
+      },
+      {
+        "id": "main-4-13",
+        "maximum_flow_L_s": 165.09359557633405,
+        "minimum_flow_L_s": 66.03743823053362,
+        "allocated_load_area_m2": 14.060034467707265
+      },
+      {
+        "id": "main-4-14",
+        "maximum_flow_L_s": 165.09359557633312,
+        "minimum_flow_L_s": 66.03743823053325,
+        "allocated_load_area_m2": 14.060034467707187
+      },
+      {
+        "id": "bay-1-1",
+        "maximum_flow_L_s": 273.66572289380184,
+        "minimum_flow_L_s": 109.46628915752075,
+        "allocated_load_area_m2": 23.306473416394894
+      },
+      {
+        "id": "bay-1-2",
+        "maximum_flow_L_s": 251.4641741260399,
+        "minimum_flow_L_s": 100.58566965041597,
+        "allocated_load_area_m2": 21.415700247263167
+      },
+      {
+        "id": "bay-1-3",
+        "maximum_flow_L_s": 220.57418018369768,
+        "minimum_flow_L_s": 88.22967207347908,
+        "allocated_load_area_m2": 18.78498414940105
+      },
+      {
+        "id": "bay-1-4",
+        "maximum_flow_L_s": 265.6843184972504,
+        "minimum_flow_L_s": 106.27372739890016,
+        "allocated_load_area_m2": 22.626744923448374
+      },
+      {
+        "id": "bay-1-5",
+        "maximum_flow_L_s": 251.51188969762407,
+        "minimum_flow_L_s": 100.60475587904963,
+        "allocated_load_area_m2": 21.419763897211414
+      },
+      {
+        "id": "bay-1-6",
+        "maximum_flow_L_s": 204.4248938816869,
+        "minimum_flow_L_s": 81.76995755267477,
+        "allocated_load_area_m2": 17.409645988992768
+      },
+      {
+        "id": "edge-15-1",
+        "maximum_flow_L_s": 220.12479410177772,
+        "minimum_flow_L_s": 88.0499176407111,
+        "allocated_load_area_m2": 18.7467126236096
+      },
+      {
+        "id": "edge-15-2",
+        "maximum_flow_L_s": 220.1247941017775,
+        "minimum_flow_L_s": 88.049917640711,
+        "allocated_load_area_m2": 18.746712623609582
+      },
+      {
+        "id": "edge-15-3",
+        "maximum_flow_L_s": 220.1247941017775,
+        "minimum_flow_L_s": 88.049917640711,
+        "allocated_load_area_m2": 18.746712623609582
+      },
+      {
+        "id": "column-band-1",
+        "maximum_flow_L_s": 199.87064054271022,
+        "minimum_flow_L_s": 79.9482562170841,
+        "allocated_load_area_m2": 17.021787461245843
+      },
+      {
+        "id": "column-band-2",
+        "maximum_flow_L_s": 210.76033541993868,
+        "minimum_flow_L_s": 84.30413416797548,
+        "allocated_load_area_m2": 17.94919766623986
+      },
+      {
+        "id": "column-band-3",
+        "maximum_flow_L_s": 195.5483763318039,
+        "minimum_flow_L_s": 78.21935053272156,
+        "allocated_load_area_m2": 16.653686060511724
+      },
+      {
+        "id": "boot-first-1",
+        "maximum_flow_L_s": 262.8564556209248,
+        "minimum_flow_L_s": 105.14258224836993,
+        "allocated_load_area_m2": 22.38591274960003
+      },
+      {
+        "id": "boot-first-2",
+        "maximum_flow_L_s": 266.10030795241533,
+        "minimum_flow_L_s": 106.44012318096614,
+        "allocated_load_area_m2": 22.66217225821205
+      },
+      {
+        "id": "boot-first-3",
+        "maximum_flow_L_s": 266.1003079524156,
+        "minimum_flow_L_s": 106.44012318096625,
+        "allocated_load_area_m2": 22.662172258212074
+      },
+      {
+        "id": "boot-first-4",
+        "maximum_flow_L_s": 262.8564639428481,
+        "minimum_flow_L_s": 105.14258557713924,
+        "allocated_load_area_m2": 22.385913458328485
+      }
+    ],
+    "total_cooling_kW_thermal": 193.158,
+    "sensible_trial_kW_thermal": 173.84220000000002,
+    "supply_flow_L_s": 12000.372763419482,
+    "turndown": 0.4,
+    "report": {
+      "path": "analysis/allocation.json",
+      "sha256": "98466165455a350cf7d4118e4b6b4d7afb613c47c20d8937fee152d2e8e2f6af"
+    },
+    "geometry_bound": false,
+    "room_sensible_load_verified": false,
+    "design_accepted": false
+  },
+  "design_accepted": false
+}

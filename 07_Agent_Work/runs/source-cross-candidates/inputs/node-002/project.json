@@ -1,0 +1,84 @@
+{
+  "cross": {
+    "project_uuid": "5cd06126-7554-5689-a5b7-ecbe4e584fea",
+    "source": "Source node J2; Explicit isolated cross geometry study: maximum incident core section, core half-width plus 0.1m arm reach, 0.05m transition end straights and 30 degree included wall-plane angle. These are study assumptions, not manufacturer, code or installed dimensions; source route, selected sizes and existing minimum remainder remain unchanged.; construction basis {\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+    "classification": "assumed",
+    "internal_width_m": 1.25,
+    "internal_height_m": 0.85,
+    "wall_thickness_m": 0.0008,
+    "main_half_length_m": 0.725,
+    "branch_length_m": 0.725,
+    "port_directions": {
+      "main-a": "SINK",
+      "main-b": "SOURCE",
+      "branch-a": "SOURCE",
+      "branch-b": "SOURCE"
+    },
+    "placement": {
+      "source": "Original planar source rays plus explicit elevation",
+      "origin_m": [
+        86.5,
+        35.58058400000001,
+        0
+      ],
+      "rotation": [
+        [
+          1.0,
+          -0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "arms": {
+    "main-a": {
+      "kind": "bare"
+    },
+    "main-b": {
+      "kind": "transition",
+      "end_section_m": [
+        0.85,
+        0.85
+      ],
+      "geometry_method": "explicit_station_brep",
+      "transition_length_m": 0.7464101615137755,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "upstream_angle_degrees": 30
+    },
+    "branch-a": {
+      "kind": "transition",
+      "end_section_m": [
+        0.5,
+        0.45
+      ],
+      "geometry_method": "explicit_station_brep",
+      "transition_length_m": 1.399519052838329,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "upstream_angle_degrees": 30
+    },
+    "branch-b": {
+      "kind": "transition",
+      "end_section_m": [
+        0.6,
+        0.4
+      ],
+      "geometry_method": "explicit_station_brep",
+      "transition_length_m": 1.2129165124598853,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "upstream_angle_degrees": 30
+    }
+  }
+}

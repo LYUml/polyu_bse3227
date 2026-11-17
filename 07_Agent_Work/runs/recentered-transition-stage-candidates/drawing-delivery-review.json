@@ -1,0 +1,69 @@
+{
+  "scope": "Separate recentered two-stage contraction design candidate; current course submission unchanged",
+  "ifc_sha256": "a3ae38f81423ddfa1d66d0725fe6afa8505031cfd5f558ba2042d257a9eafc8b",
+  "bodies": 91,
+  "ports": 201,
+  "links": 90,
+  "material_cap_interfaces_verified": 90,
+  "schema_issues": 0,
+  "solid_intersections": 0,
+  "unverified_solid_pairs": 0,
+  "unwaived_clearance_findings": 90,
+  "all_clearance_findings_on_linked_body_pairs": true,
+  "maximum_and_minimum": {
+    "conditional_fitting_values": 35,
+    "numerical_gaps": 30,
+    "directed_fitting_paths": 65
+  },
+  "prior_maximum_and_minimum": {
+    "conditional_fitting_values": 31,
+    "numerical_gaps": 32,
+    "directed_fitting_paths": 63
+  },
+  "new_local_queries_independently_reconstructed": 8,
+  "Decimal_max_difference_Pa": 4.440892098500626e-16,
+  "additional_assembly_length_m": [
+    0.001162206610313521,
+    0.001162206610313521
+  ],
+  "dependencies": "Existing pinned IfcOpenShell0.8.5, Manifold3.5.4, NumPy2.5.4, fluids1.3.1; no new engine",
+  "source": "Previously held/source-reviewed PHVAC9 supplement2021 Fitting4-2/4-4, printed19/20; tentative contraction-data caveat retained",
+  "remaining": [
+    "30 numerical fitting gaps per case",
+    "90 unwaived contact-clearance findings",
+    "whole-fitting friction/station and short-fitting interactions",
+    "terminal/equipment/installed flex and boundary pressure",
+    "Full architecture/equipment coordination and final unified package acceptance"
+  ],
+  "design_adopted": false,
+  "pressure_budget_complete": false,
+  "fan_duty_Pa": null,
+  "design_accepted": false,
+  "native_drawings": {
+    "Supply Network Candidate": {
+      "represented_product_guids": 91,
+      "native_entities": 114,
+      "native_reopen_pass": true,
+      "scale_denominator": 200,
+      "reference_expected_mm": 50.0,
+      "reference_measured_mm": 49.99566666666666,
+      "actual_pdf_visually_reviewed": true,
+      "observed_clipping_or_overlap": false,
+      "dwg_sha256": "20d00f80d8d8de821df8c2a43a2ec87a72e8d2fda03cdfbc4ec4b6eff3e975c7",
+      "pdf_sha256": "aa9b51f433161a9092f729851aafafd7972047d8a29dba4553c0d0947d95c302"
+    },
+    "Transition Details": {
+      "represented_product_guids": 4,
+      "native_entities": 122,
+      "native_reopen_pass": true,
+      "scale_denominator": 25,
+      "reference_expected_mm": 20.0,
+      "reference_measured_mm": 19.981333333333332,
+      "actual_pdf_visually_reviewed": true,
+      "observed_clipping_or_overlap": false,
+      "dwg_sha256": "2a8488983e0745b0f3af1183117af8973caf1eaa61ceda0b8455f3602b4733dd",
+      "pdf_sha256": "56417345986781afbd2113d12a2bf460b09503cddb0767d893e31bef8eebe2d3"
+    }
+  },
+  "outlet_pressure_review_rows": 40
+}

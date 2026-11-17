@@ -1,0 +1,75 @@
+{
+  "schema": "bsa.drawing-revision/1",
+  "source": "Bounded text-only coursework presentation revision; geometry/calculations unchanged; ADPI qualification explicitly retained",
+  "drawing": "../../../03_Design_Drawings/Connection_Layout/Supply Air Distribution.dwg",
+  "drawing_sha256": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
+  "edits": [
+    {
+      "handle": "8EFD",
+      "expected": {
+        "text": "SUPPLY AIR DISTRIBUTION - DESIGN STUDY",
+        "layer": "BSA_NOTES",
+        "insert": [
+          64345,
+          12500
+        ]
+      },
+      "replacement": {
+        "text": "SUPPLY AIR DISTRIBUTION",
+        "insert": [
+          64345,
+          12500
+        ]
+      }
+    },
+    {
+      "handle": "8EFE",
+      "expected": {
+        "text": "VAV symbols are schematic; physical dimensions pending.",
+        "layer": "BSA_NOTES",
+        "insert": [
+          64345,
+          12000
+        ]
+      },
+      "replacement": {
+        "text": "VAV symbols are schematic; installed dimensions and flex lengths pending.",
+        "insert": [
+          64345,
+          12000
+        ]
+      }
+    },
+    {
+      "handle": "8EFF",
+      "expected": {
+        "text": "Proposed AHU connection; ports, penetrations and ADPI applicability pending.",
+        "layer": "BSA_NOTES",
+        "insert": [
+          64345,
+          11500
+        ]
+      },
+      "replacement": {
+        "text": "ADPI: classroom ratios pass; 170.1 W/m2 exceeds the printed 160 W/m2 band.",
+        "insert": [
+          64345,
+          11500
+        ]
+      }
+    }
+  ],
+  "sheet": {
+    "source": "Design study A1 layout; 10 m reference retained from reviewed drawing",
+    "paper": "A1",
+    "window_drawing_units": [
+      63000,
+      9000,
+      128000,
+      47000
+    ],
+    "scale_denominator": 100,
+    "reference_handle": "8FFD",
+    "pdf_tolerance_mm": 0.2
+  }
+}

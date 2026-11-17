@@ -1,0 +1,35 @@
+ 
+10 
+ 
+Figure 7. Typical mesh densities 
+ 
+The research team applied turbulent, fully developed velocity profiles calculated by CFX to the 
+inlet pipe entrances. They did not simulate cases where a bend occurred near the entrance to the 
+box. Outlet ducts were sufficiently long—in most cases, 200 in.—to allow the flow to fully 
+develop after exiting the box. 
+The mass fractions exiting each of the modeled outlets were tracked with monitor points. Some 
+models were stable, with mass and momentum residuals as defined by CFX achieving levels as 
+low as 1.E-6. Some cases were oscillatory in nature, and once a repeatable pattern of monitor 
+point oscillation was achieved, the calculations were halted at the local extremes. The team used 
+symmetry conditions in many cases; however, because it is known that, in some cases, symmetry 
+conditions suppress oscillations, full models also were employed.  
+In the outlets, surface roughnesses were applied to the duct boundaries to induce pressure losses 
+corresponding to the implied roughness values from a duct sizing slide rule. The slide rule 
+specifies loss rates (IWC/100 ft) for given volumetric flow rates within flex duct of specific 
+diameters. Simulation surface roughness values were tuned until pressure drops in straight ducts 
+precisely matched the loss rates for duct diameters specified by the slide rule.  
+Within the box, roughnesses were specified to match duct board material. Full calibration of the 
+surface characteristics was not performed because the focus was on relative differences due to 
+configurations. To precisely analyze the EL tables, surface roughnesses would need to be 
+calibrated to measured data as discussed in the Background section. 
+Automatic time stepping was used. Results where flow oscillations occurred were checked by 
+lowering the time step. The flow oscillations persisted, indicating they likely exist in real-world 
+duct systems. The team found that some of the situations modeled had fundamental instabilities, 
+replicating the results of Gilman’s study (Gilman et al. 1951). 
+In some studies, flow balancing was required to make outlet flows match the design flow. When 
+balancing was needed, small regions at the ends of the outlets were made into sub-domains with 
+applied momentum sources terms. The resistance regions were placed sufficiently far from the 
+box to allow the flow to fully develop in the outlets, thus isolating the effect of the added 
+resistance. How, specifically, a physical balancing damper would add resistance was not 
+simulated. Only the quantity of back pressure applied to achieve a balanced state was necessary 
+for this study. In some instances, these were “k-factors”; more often, a permeability-type loss 

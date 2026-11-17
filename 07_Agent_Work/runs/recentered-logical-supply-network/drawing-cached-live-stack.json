@@ -1,0 +1,644 @@
+[
+  {
+    "pid": 2600,
+    "thread_id": 28612,
+    "thread_name": "MainThread",
+    "os_thread_id": 28612,
+    "active": true,
+    "owns_gil": false,
+    "frames": [
+      {
+        "name": "union_all",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\.venv\\Lib\\site-packages\\shapely\\set_operations.py",
+        "module": null,
+        "short_filename": "shapely\\set_operations.py",
+        "line": 543,
+        "locals": [
+          {
+            "name": "geometries",
+            "addr": 2919773957616,
+            "arg": true,
+            "repr": "<numpy.ndarray at 0x2a7d016edf0>"
+          },
+          {
+            "name": "grid_size",
+            "addr": 140719933938072,
+            "arg": true,
+            "repr": "0"
+          },
+          {
+            "name": "axis",
+            "addr": 140719933133856,
+            "arg": true,
+            "repr": "None"
+          },
+          {
+            "name": "kwargs",
+            "addr": 2919792599808,
+            "arg": false,
+            "repr": "{}"
+          },
+          {
+            "name": "collections",
+            "addr": 2919941072832,
+            "arg": false,
+            "repr": "<GeometryCollection at 0x2a7da0ce7c0>"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "deprecate_positional.<locals>.decorator.<locals>.wrapper",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\.venv\\Lib\\site-packages\\shapely\\decorators.py",
+        "module": null,
+        "short_filename": "shapely\\decorators.py",
+        "line": 184,
+        "locals": [
+          {
+            "name": "args",
+            "addr": 2919765556048,
+            "arg": false,
+            "repr": "([<Polygon at 0x2a7cf86c740>, <Polygon at 0x2a7cf86ce40>, <Polygon at 0x2a7cf86d9c0>, <Polygon at 0x2a7cf86cdc0>, ...])"
+          },
+          {
+            "name": "kwargs",
+            "addr": 2919764521280,
+            "arg": false,
+            "repr": "{\"grid_size\": 0}"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "project",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_network_drawing.py",
+        "module": null,
+        "short_filename": "bsa\\source_network_drawing.py",
+        "line": 21,
+        "locals": [
+          {
+            "name": "vertices",
+            "addr": 2919936157200,
+            "arg": true,
+            "repr": "<numpy.ndarray at 0x2a7d9c1e610>"
+          },
+          {
+            "name": "faces",
+            "addr": 2919791174416,
+            "arg": true,
+            "repr": "<numpy.ndarray at 0x2a7d11da310>"
+          },
+          {
+            "name": "v",
+            "addr": 2919936157200,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d9c1e610>"
+          },
+          {
+            "name": "f",
+            "addr": 2919791174416,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11da310>"
+          },
+          {
+            "name": "pieces",
+            "addr": 2919764435072,
+            "arg": false,
+            "repr": "[<Polygon at 0x2a7cf86c740>, <Polygon at 0x2a7cf86ce40>, <Polygon at 0x2a7cf86d9c0>, <Polygon at 0x2a7cf86cdc0>, ...]"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "compose",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_ifc_sections.py",
+        "module": null,
+        "short_filename": "bsa\\drawing_ifc_sections.py",
+        "line": 90,
+        "locals": [
+          {
+            "name": "project",
+            "addr": 2919773970816,
+            "arg": true,
+            "repr": "<WindowsPath at 0x2a7d0172180>"
+          },
+          {
+            "name": "np",
+            "addr": 2920261261072,
+            "arg": false,
+            "repr": "<module at 0x2a7ed229710>"
+          },
+          {
+            "name": "ifcopenshell",
+            "addr": 2918938606816,
+            "arg": false,
+            "repr": "<module at 0x2a79e4c7ce0>"
+          },
+          {
+            "name": "trimesh",
+            "addr": 2918962275376,
+            "arg": false,
+            "repr": "<module at 0x2a79fb5a430>"
+          },
+          {
+            "name": "get_local_placement",
+            "addr": 2918961005088,
+            "arg": false,
+            "repr": "<function at 0x2a79fa24220>"
+          },
+          {
+            "name": "get_shape_matrix",
+            "addr": 2918961795840,
+            "arg": false,
+            "repr": "<function at 0x2a79fae5300>"
+          },
+          {
+            "name": "configure",
+            "addr": 2918962073568,
+            "arg": false,
+            "repr": "<function at 0x2a79fb28fe0>"
+          },
+          {
+            "name": "spec",
+            "addr": 2918961877952,
+            "arg": false,
+            "repr": "{\"schema\": \"bsa.drawing-ifc-sections/1\", ...}"
+          },
+          {
+            "name": "source",
+            "addr": 2919773972272,
+            "arg": false,
+            "repr": "<WindowsPath at 0x2a7d0172730>"
+          },
+          {
+            "name": "layout",
+            "addr": 2919774139840,
+            "arg": false,
+            "repr": "{\"source\": \"Current main with inherited downstream candidate; logical equipment envelopes, not verified airways\", ...}"
+          },
+          {
+            "name": "model",
+            "addr": 2919774024000,
+            "arg": false,
+            "repr": "<file at 0x2a7d017f140>"
+          },
+          {
+            "name": "settings",
+            "addr": 2919771749792,
+            "arg": false,
+            "repr": "<settings at 0x2a7cff53da0>"
+          },
+          {
+            "name": "native_mesh_cache",
+            "addr": 2919774028288,
+            "arg": false,
+            "repr": "{...}"
+          },
+          {
+            "name": "factor",
+            "addr": 2920250647152,
+            "arg": false,
+            "repr": "1000"
+          },
+          {
+            "name": "views",
+            "addr": 2919774138112,
+            "arg": false,
+            "repr": "[]"
+          },
+          {
+            "name": "coverage",
+            "addr": 2919764401792,
+            "arg": false,
+            "repr": "{}"
+          },
+          {
+            "name": "names",
+            "addr": 2919773925920,
+            "arg": false,
+            "repr": "<set at 0x2a7d0167220>"
+          },
+          {
+            "name": "kinds",
+            "addr": 2919764398848,
+            "arg": false,
+            "repr": "{\"network-plan\": \"projection\"}"
+          },
+          {
+            "name": "runtimes",
+            "addr": 2919764475072,
+            "arg": false,
+            "repr": "{\"ifcopenshell\": \"0.8.5\", \"trimesh\": \"5.2.0\", \"numpy\": \"2.5.4\", \"shapely\": \"2.2.0\"}"
+          },
+          {
+            "name": "view",
+            "addr": 2919773400896,
+            "arg": false,
+            "repr": "{\"id\": \"network-plan\", \"kind\": \"projection\", \"guids\": [\"0$htTyCevRqQK04zZicwwS\", \"00GeeqwXDGqujg1GB$eSes\", ...], ...}"
+          },
+          {
+            "name": "fields",
+            "addr": 2919773925696,
+            "arg": false,
+            "repr": "<set at 0x2a7d0167140>"
+          },
+          {
+            "name": "kind",
+            "addr": 2919773282096,
+            "arg": false,
+            "repr": "\"projection\""
+          },
+          {
+            "name": "name",
+            "addr": 2919773283184,
+            "arg": false,
+            "repr": "\"network-plan\""
+          },
+          {
+            "name": "project_mesh",
+            "addr": 2919774082912,
+            "arg": false,
+            "repr": "<function at 0x2a7d018d760>"
+          },
+          {
+            "name": "frame",
+            "addr": 2919791168752,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11d8cf0>"
+          },
+          {
+            "name": "origin",
+            "addr": 2919791168848,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11d8d50>"
+          },
+          {
+            "name": "axes",
+            "addr": 2919791167312,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11d8750>"
+          },
+          {
+            "name": "normal",
+            "addr": 2919791168944,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11d8db0>"
+          },
+          {
+            "name": "entities",
+            "addr": 2919774004352,
+            "arg": false,
+            "repr": "[{\"id\": \"note-0\", \"kind\": \"text\", \"layer\": \"NOTES\", \"source\": \"Host review scope; existing candidate limitations\", ...}, ...]"
+          },
+          {
+            "name": "counts",
+            "addr": 2919764544128,
+            "arg": false,
+            "repr": "{\"0$htTyCevRqQK04zZicwwS\": 9, \"00GeeqwXDGqujg1GB$eSes\": 1, \"00gy112qXMNh7Q6rxiI7hu\": 1, \"01iiRNwCPHCg2TQaDQTBPh\": 1, ...}"
+          },
+          {
+            "name": "guid",
+            "addr": 2919764579312,
+            "arg": false,
+            "repr": "\"05RPgGDIjRHhrCBWan5jFT\""
+          },
+          {
+            "name": "obj",
+            "addr": 2919768651296,
+            "arg": false,
+            "repr": "<entity_instance at 0x2a7cfc5f620>"
+          },
+          {
+            "name": "contexts",
+            "addr": 2918962106816,
+            "arg": false,
+            "repr": "(...)"
+          },
+          {
+            "name": "cache_key",
+            "addr": 2919764427584,
+            "arg": false,
+            "repr": "(\"c0b899fa792fa7803187f0ec97286f6accb464926c3a73112cc43aa28aef55dd\", (...))"
+          },
+          {
+            "name": "shape",
+            "addr": 2919767130288,
+            "arg": false,
+            "repr": "<TriangulationElement at 0x2a7cfaec0b0>"
+          },
+          {
+            "name": "mesh",
+            "addr": 2919769229168,
+            "arg": false,
+            "repr": "<Triangulation at 0x2a7cfcec770>"
+          },
+          {
+            "name": "local_vertices",
+            "addr": 2919791173264,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11d9e90>"
+          },
+          {
+            "name": "faces",
+            "addr": 2919791174416,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d11da310>"
+          },
+          {
+            "name": "world",
+            "addr": 2919936155856,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d9c1e0d0>"
+          },
+          {
+            "name": "vertices",
+            "addr": 2919936156624,
+            "arg": false,
+            "repr": "<numpy.ndarray at 0x2a7d9c1e3d0>"
+          },
+          {
+            "name": "binding",
+            "addr": 2918959042816,
+            "arg": false,
+            "repr": "{\"layer\": \"MATERIAL\", ...}"
+          },
+          {
+            "name": "polygons",
+            "addr": 2919909609280,
+            "arg": false,
+            "repr": "[<Polygon at 0x2a7cf88b8c0>]"
+          },
+          {
+            "name": "polygon",
+            "addr": 2919764637888,
+            "arg": false,
+            "repr": "<Polygon at 0x2a7cf88b8c0>"
+          },
+          {
+            "name": "ring",
+            "addr": 2919909650688,
+            "arg": false,
+            "repr": "<LinearRing at 0x2a7d82d7100>"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "run",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_ifc_sections.py",
+        "module": null,
+        "short_filename": "bsa\\drawing_ifc_sections.py",
+        "line": 139,
+        "locals": [
+          {
+            "name": "project",
+            "addr": 2918961985376,
+            "arg": true,
+            "repr": "<WindowsPath at 0x2a79fb13760>"
+          },
+          {
+            "name": "out",
+            "addr": 2918961985488,
+            "arg": true,
+            "repr": "<WindowsPath at 0x2a79fb137d0>"
+          },
+          {
+            "name": "autocad",
+            "addr": 2920245594240,
+            "arg": false,
+            "repr": "\"C:/Program Files/Autodesk/AutoCAD 2027/accoreconsole.exe\""
+          },
+          {
+            "name": "before",
+            "addr": 2920250771136,
+            "arg": false,
+            "repr": "\"77a251e69a9fbceccc0245d6c742252921541eedf966ed8b39d45d34063b29b8\""
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "run",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_access.py",
+        "module": null,
+        "short_filename": "bsa\\drawing_access.py",
+        "line": 40,
+        "locals": [
+          {
+            "name": "project",
+            "addr": 2920245987728,
+            "arg": true,
+            "repr": "\"C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/project/general-drawing/native-current-logical-plan.json\""
+          },
+          {
+            "name": "out",
+            "addr": 2920245659952,
+            "arg": true,
+            "repr": "\"C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/general-drawing-current-logical-plan-cached\""
+          },
+          {
+            "name": "autocad",
+            "addr": 2920245594240,
+            "arg": false,
+            "repr": "\"C:/Program Files/Autodesk/AutoCAD 2027/accoreconsole.exe\""
+          },
+          {
+            "name": "graphviz",
+            "addr": 140719933133856,
+            "arg": false,
+            "repr": "None"
+          },
+          {
+            "name": "selected",
+            "addr": 2920250901024,
+            "arg": false,
+            "repr": "<module at 0x2a7ec848220>"
+          },
+          {
+            "name": "options",
+            "addr": 2920250815616,
+            "arg": false,
+            "repr": "{\"autocad\": \"C:/Program Files/Autodesk/AutoCAD 2027/accoreconsole.exe\"}"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "main",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_access.py",
+        "module": null,
+        "short_filename": "bsa\\drawing_access.py",
+        "line": 60,
+        "locals": [
+          {
+            "name": "argv",
+            "addr": 140719933133856,
+            "arg": true,
+            "repr": "None"
+          },
+          {
+            "name": "parser",
+            "addr": 2920249094800,
+            "arg": false,
+            "repr": "<ArgumentParser at 0x2a7ec68f290>"
+          },
+          {
+            "name": "sub",
+            "addr": 2920250661040,
+            "arg": false,
+            "repr": "<_SubParsersAction at 0x2a7ec80d8b0>"
+          },
+          {
+            "name": "action",
+            "addr": 2920245912048,
+            "arg": false,
+            "repr": "\"inspect\""
+          },
+          {
+            "name": "command",
+            "addr": 2920250761264,
+            "arg": false,
+            "repr": "<ArgumentParser at 0x2a7ec826030>"
+          },
+          {
+            "name": "args",
+            "addr": 2920250762032,
+            "arg": false,
+            "repr": "<Namespace at 0x2a7ec826330>"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "<module>",
+        "filename": "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_access.py",
+        "module": null,
+        "short_filename": "bsa\\drawing_access.py",
+        "line": 67,
+        "locals": [],
+        "is_entry": false,
+        "is_shim_entry": true
+      },
+      {
+        "name": "_run_code",
+        "filename": "<frozen runpy>",
+        "module": null,
+        "short_filename": "<frozen runpy>",
+        "line": 88,
+        "locals": [
+          {
+            "name": "code",
+            "addr": 2920245710832,
+            "arg": true,
+            "repr": "<code at 0x2a7ec354ff0>"
+          },
+          {
+            "name": "run_globals",
+            "addr": 2920246294848,
+            "arg": true,
+            "repr": "{\"__name__\": \"__main__\", \"__doc__\": \"Shared CLI and MCP boundary for general drawing authoring and inspection.\", ...}"
+          },
+          {
+            "name": "init_globals",
+            "addr": 140719933133856,
+            "arg": true,
+            "repr": "None"
+          },
+          {
+            "name": "mod_name",
+            "addr": 140719933965248,
+            "arg": true,
+            "repr": "\"__main__\""
+          },
+          {
+            "name": "mod_spec",
+            "addr": 2920249093408,
+            "arg": true,
+            "repr": "<ModuleSpec at 0x2a7ec68ed20>"
+          },
+          {
+            "name": "pkg_name",
+            "addr": 2920245919152,
+            "arg": true,
+            "repr": "\"bsa\""
+          },
+          {
+            "name": "script_name",
+            "addr": 140719933133856,
+            "arg": true,
+            "repr": "None"
+          },
+          {
+            "name": "loader",
+            "addr": 2920249093456,
+            "arg": false,
+            "repr": "<SourceFileLoader at 0x2a7ec68ed50>"
+          },
+          {
+            "name": "fname",
+            "addr": 2920249006384,
+            "arg": false,
+            "repr": "\"C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\drawing_access.py\""
+          },
+          {
+            "name": "cached",
+            "addr": 2920245664992,
+            "arg": false,
+            "repr": "\"C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\__pycache__\\drawing_access.cpython-312.pyc\""
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": false
+      },
+      {
+        "name": "_run_module_as_main",
+        "filename": "<frozen runpy>",
+        "module": null,
+        "short_filename": "<frozen runpy>",
+        "line": 198,
+        "locals": [
+          {
+            "name": "mod_name",
+            "addr": 2920248947952,
+            "arg": true,
+            "repr": "\"bsa.drawing_access\""
+          },
+          {
+            "name": "alter_argv",
+            "addr": 140719933133792,
+            "arg": true,
+            "repr": "True"
+          },
+          {
+            "name": "mod_spec",
+            "addr": 2920249093408,
+            "arg": false,
+            "repr": "<ModuleSpec at 0x2a7ec68ed20>"
+          },
+          {
+            "name": "code",
+            "addr": 2920245710832,
+            "arg": false,
+            "repr": "<code at 0x2a7ec354ff0>"
+          },
+          {
+            "name": "main_globals",
+            "addr": 2920246294848,
+            "arg": false,
+            "repr": "{\"__name__\": \"__main__\", \"__doc__\": \"Shared CLI and MCP boundary for general drawing authoring and inspection.\", ...}"
+          }
+        ],
+        "is_entry": false,
+        "is_shim_entry": true
+      }
+    ],
+    "process_info": null
+  }
+]

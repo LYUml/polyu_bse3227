@@ -1,0 +1,93 @@
+{
+  "schema": "bsa.drawing-revision/1",
+  "source": "Original80diffuser/20VAV/47section coursework,4text-only revisions; sourceFSD2/2023paragraph7.2 and same report assumptions",
+  "drawing": "../../../03_Design_Drawings/Connection_Layout/Supply Air Distribution.dwg",
+  "drawing_sha256": "c76a643d224889bae56ff96c91d5df160e4b75e154faf9d0829ec75749283115",
+  "edits": [
+    {
+      "handle": "8EFD",
+      "expected": {
+        "layer": "BSA_NOTES",
+        "text": "SUPPLY AIR DISTRIBUTION - DESIGN STUDY",
+        "insert": [
+          64345.0,
+          12500.0
+        ]
+      },
+      "replacement": {
+        "text": "BSE3227 - SUPPLY AIR DISTRIBUTION",
+        "insert": [
+          64345.0,
+          12500.0
+        ]
+      }
+    },
+    {
+      "handle": "8EFE",
+      "expected": {
+        "layer": "BSA_NOTES",
+        "text": "VAV symbols are schematic; physical dimensions pending.",
+        "insert": [
+          64345.0,
+          12000.0
+        ]
+      },
+      "replacement": {
+        "text": "Schematic AHU/VAV; equipment sizes, ports and penetrations to be confirmed.",
+        "insert": [
+          64345.0,
+          12000.0
+        ]
+      }
+    },
+    {
+      "handle": "8EFF",
+      "expected": {
+        "layer": "BSA_NOTES",
+        "text": "Proposed AHU connection; ports, penetrations and ADPI applicability pending.",
+        "insert": [
+          64345.0,
+          11500.0
+        ]
+      },
+      "replacement": {
+        "text": "Flex design cap 4 m; XY + assumed 0.50 m <=3.373 m. ADPI: report assumptions.",
+        "insert": [
+          64345.0,
+          11500.0
+        ]
+      }
+    },
+    {
+      "handle": "9132",
+      "expected": {
+        "layer": "BSA_SCHEDULE",
+        "text": "Trial design basis; verification pending",
+        "insert": [
+          112000.0,
+          16400.0
+        ]
+      },
+      "replacement": {
+        "text": "47-section sizing; classroom design assumptions",
+        "insert": [
+          112000.0,
+          16400.0
+        ]
+      }
+    }
+  ],
+  "sheet": {
+    "source": "BSE3227 coursework single-line plan; adopted4m flexible design cap with declared routing allowance; not installed verification",
+    "paper": "A1",
+    "window_drawing_units": [
+      63000,
+      9000,
+      128000,
+      47000
+    ],
+    "scale_denominator": 100,
+    "reference_handle": "8FFD",
+    "pdf_tolerance_mm": 0.2
+  }
+}

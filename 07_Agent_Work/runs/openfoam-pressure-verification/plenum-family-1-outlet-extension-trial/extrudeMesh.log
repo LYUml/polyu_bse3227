@@ -1,0 +1,55 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/extrudeMesh.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-outlet-extension-trial -noFunctionObjects
+Date   : Nov 17 2026
+Time   : 07:18:45
+Host   : "LYUML-WIN"
+PID    : 28288
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-outlet-extension-trial
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "extrudeMeshDict"
+
+Selecting extrudeModel linearNormal
+Extruding from mesh using model linearNormal
+Not collapsing any edges after extrusion
+
+Extruding patches 
+4
+(
+air_outlet_0
+air_outlet_1
+air_outlet_2
+air_outlet_3
+)
+ on mesh "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-outlet-extension-trial"
+
+Create mesh for time = 0
+
+Adding overall 0 processor patches.
+Mesh bounding box : (-0.53892500000000609 -0.45045638840035057 -0.17699999999999999) (0.53892500000000609 0.45045000000000002 0.17699999999999999)
+        with span : (1.0778500000000122 0.90090638840035053 0.35399999999999998)
+Merge distance    : 0
+
+Writing mesh to "constant/region0"
+
+Writing added cells to cellSet addedCells
+
+End
+

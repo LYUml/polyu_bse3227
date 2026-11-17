@@ -1,0 +1,36 @@
+{
+  "scope": "Same physical end time0.005s, same source mesh/initial fields/model/schemes/BCs and observers; half deltaT only",
+  "source_case": "plenum-family-1-transient-kepsilon-pilot",
+  "source_input_sha256": {
+    "0\\epsilon": "0549c5b1779f5a84a1cd773fe69c7205a4d10c41174dae6ca2529a5947746075",
+    "0\\k": "1e3f6bbb42744f9c0510166e07a5d1229d6dac26b80636d42a6c518e25ee967f",
+    "0\\nut": "11777d727db36b7ee64e6e336ba7d97806485aa9b8bbabbde36d03829c9d9a76",
+    "0\\p": "155b972c3eca55740d109d048550ecffccb50396a302489f8cc7645e68ec2523",
+    "0\\U": "3a01b2db7305723f07459e6cf00f42e7140222b70e3b9376ac3cec9453f26a8b",
+    "constant\\momentumTransport": "a1a6403646fb6df9267799fdabdab26dbb834657a91d51babfa824b7dc15361c",
+    "constant\\physicalProperties": "f2c715ef8bf9b20ff74df088d904c2460b8beb1b97cd6e17636d66d4aa7cd642",
+    "constant\\polyMesh\\boundary": "7af6c3a72899f1eb4539512b8e1ef115d5eb94888d16887c8cc4524b8affed97",
+    "constant\\polyMesh\\cellLevel": "8ef20e238205a9c43d30a2488417a4443e39591b523d61c9df1577e201cc838a",
+    "constant\\polyMesh\\faces": "c1fd7d90121e53d1a26634737fc257e75a66d2a3028d5c277a3abcd82e169da4",
+    "constant\\polyMesh\\level0Edge": "baf02ca170597045942399cdae94803a83ea27287ce04614a347127293855f06",
+    "constant\\polyMesh\\neighbour": "bd6597db8bd35d0a6124dcf4fb32ac24de337049ca29ff24c6cdfe6083603671",
+    "constant\\polyMesh\\owner": "e2003d703e1d218ef450322b9f652bfcfd8a5b2f1a15a02ef9fd6f62ec4ad481",
+    "constant\\polyMesh\\pointLevel": "51a47f754174c764e2ab0ade95b7f668f2ec0772f3d6e1141acc95191aa658df",
+    "constant\\polyMesh\\points": "b4c6897a08fd091cfc1737e13854895acc8e80b387bdbb834a4d64ef2de25ef9",
+    "constant\\polyMesh\\surfaceIndex": "7c6bf592bac5581a417e226ed7dff6b634c7e4438fbb996045a5ddf23b784a13",
+    "system\\controlDict": "79e04429a514d411e07cf74f8949bd0bc3f217e846ff508394a5d7065fb6fd2f",
+    "system\\functions": "8f07da81943fc0184294b0f06509bb0d16c460b1765d9528416eb3c7798f5e6d",
+    "system\\fvSchemes": "4293e7973614f1031de14b7daffd1c0e8857c5a414828bd6f9241be37fc975bc",
+    "system\\fvSolution": "6c5c665bbc8f822a412905c4da9f70cec7fa6c3581a5fe4c3515470b56d83c8d"
+  },
+  "changed_inputs": [
+    "system\\controlDict"
+  ],
+  "deltaT_s": 0.000125,
+  "physical_end_time_s": 0.005,
+  "steps": 40,
+  "runtime_budget_s": 180,
+  "full_temporal_independence_claimed": false,
+  "pressure_adopted": false,
+  "design_accepted": false
+}

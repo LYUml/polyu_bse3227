@@ -1,0 +1,1546 @@
+{
+  "sources": {
+    "ashrae2021": {
+      "document": "ashrae2021.pdf",
+      "sha256": "746121b31696fd23cc11a39fd83d7be9ba3fec9bf0d81caa3b5e1ce6235abfbb",
+      "citation": "ASHRAE Principles of HVAC,Ninth Edition online fitting-loss supplement,official publisher",
+      "edition": "2021"
+    }
+  },
+  "tables": [
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "outlet_port_guid": "3Eml8WTKPU2hjYyow37wiq",
+      "reference_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+      "reference_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "34mxrHmz5STv2lghv93cpE",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "outlet_port_guid": "2z22jWXSrP_vk2MXukh_67",
+      "reference_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "34mxrHmz5STv2lghv93cpE",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "outlet_port_guid": "2KJBFJeYXV_eblaFt$mMtm",
+      "reference_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0WTAykFzDO6g74PUW_qYSH",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "3sLDGk2DzT08jNltux$XO3",
+      "outlet_port_guid": "3e27f9dJDQVRpPQ0nZq1Dz",
+      "reference_port_guid": "3sLDGk2DzT08jNltux$XO3",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0WTAykFzDO6g74PUW_qYSH",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "3sLDGk2DzT08jNltux$XO3",
+      "outlet_port_guid": "1Rkc5yZ21KGPvafajWvd9r",
+      "reference_port_guid": "3sLDGk2DzT08jNltux$XO3",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "outlet_port_guid": "1gNMdIL3nRCfHcGS3hfTKn",
+      "reference_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "outlet_port_guid": "3CpLmocJPUOReUAQBRYuXq",
+      "reference_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2XEZn9xizSj8RijhAxhINj",
+      "geometry_sha256": "b4298c4d4e9a1d51f6bcad000ab277c591e168d8dbe8d24dd08e416d05fbe43b",
+      "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "outlet_port_guid": "2XVFgFS9HLqga3vlsxPQcS",
+      "reference_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2XEZn9xizSj8RijhAxhINj",
+      "geometry_sha256": "b4298c4d4e9a1d51f6bcad000ab277c591e168d8dbe8d24dd08e416d05fbe43b",
+      "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "outlet_port_guid": "382kKKzb1POROR8L3525QG",
+      "reference_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+      "geometry_sha256": "12c49e01e9b29121aea0a069b7db5970a77bb7777b5dad97c13c3743a45dc600",
+      "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "outlet_port_guid": "1Lo4fCHwHKpBgehtk1ZQtH",
+      "reference_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+      "geometry_sha256": "12c49e01e9b29121aea0a069b7db5970a77bb7777b5dad97c13c3743a45dc600",
+      "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "outlet_port_guid": "2P_zK_1S1L6Pd_3Ph2n5cO",
+      "reference_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+      "geometry_sha256": "12c49e01e9b29121aea0a069b7db5970a77bb7777b5dad97c13c3743a45dc600",
+      "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "outlet_port_guid": "0s2rFFocjUO97pw1w_LPsN",
+      "reference_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+      "geometry_sha256": "12c49e01e9b29121aea0a069b7db5970a77bb7777b5dad97c13c3743a45dc600",
+      "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "outlet_port_guid": "1bEO4yEs9I1RzXgutXD9QZ",
+      "reference_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0AKG640HHRCvsX97I0rPis",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "outlet_port_guid": "0$3siXB_jSIvotCZZMg48B",
+      "reference_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0AKG640HHRCvsX97I0rPis",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "outlet_port_guid": "2Mw4_k0ETQdhCWoR$m26S6",
+      "reference_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "outlet_port_guid": "1S_N5GN_LIvgSglN69NqHL",
+      "reference_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "outlet_port_guid": "2tNGgXY0XKReKAWgYkwGtg",
+      "reference_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+      "geometry_sha256": "f1da0bd92b17d2a197a93955d7a93db51bbe5b480ce62c71c5ee9ee2af097158",
+      "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "outlet_port_guid": "1ZL_8UkvTGrPV04vRTWkiC",
+      "reference_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+      "geometry_sha256": "f1da0bd92b17d2a197a93955d7a93db51bbe5b480ce62c71c5ee9ee2af097158",
+      "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "outlet_port_guid": "0VkTZ2pMbK4xpjp9ffynIe",
+      "reference_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "outlet_port_guid": "0UmgjQTyDLw8DyPQHYOLYH",
+      "reference_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+      "geometry_sha256": "a8028007c04dbb602ce2a4a47bcabe63f0970d00ea7bedd23fd825429326466f",
+      "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "outlet_port_guid": "18l_BQy7bMuxYSDHZFCBop",
+      "reference_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "outlet_port_guid": "3W7N38onzQ5fWBxRBucUYC",
+      "reference_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "geometry_sha256": "6716c70308f946ad8da67686249ed214ff0d91fbfc6c1e0e2f0017d05bb107b8",
+      "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "outlet_port_guid": "3cuQS10H5QHxLhP3oQCW_D",
+      "reference_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28,branch Cc,b",
+      "classification": "published correlation",
+      "applicability_note": "Sharp rectangular90degree local tee;Ac=As. Equal branch area lies outside populated table support; do not extrapolate. Selected cells visually transcribed from original. Physical application,developed-flow conditions and friction stations remain unverified.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+      "geometry_sha256": "b437a6556d42193229411ec10b48df09afa121b30ae4ea09fb0b6eb41e7e8294",
+      "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "outlet_port_guid": "3ekUOlKIvPDOL6tapAxwgR",
+      "reference_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2
+          ]
+        },
+        {
+          "quantity": "outlet_to_inlet_flow_ratio",
+          "values": [
+            0.3,
+            0.4,
+            0.5,
+            0.6
+          ]
+        }
+      ],
+      "coefficients": [
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          1.05,
+          null,
+          null,
+          null
+        ],
+        [
+          1.17,
+          1.12,
+          null,
+          null
+        ],
+        [
+          1.3,
+          1.36,
+          1.27,
+          null
+        ],
+        [
+          1.68,
+          1.91,
+          1.47,
+          1.66
+        ]
+      ]
+    },
+    {
+      "source_id": "ashrae2021",
+      "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s",
+      "classification": "published correlation",
+      "applicability_note": "Original page42 explicitly routes sharp rectangular tee main coefficient to5-23. Same native main areas/heights and straight path checked. Included friction/stations,adjacent-transition interaction,developed inlet and actual installed construction remain unverified. Selected main cells visually transcribed from page38; numerical point check retained separately.; Full-network source-bound conditional query only. Native core/profile/flow geometry checked; source transcription, fitting-body friction, close transition interaction, physical construction and full engineering applicability remain review-required.",
+      "friction_scope": "local_dynamic_only",
+      "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+      "geometry_sha256": "b437a6556d42193229411ec10b48df09afa121b30ae4ea09fb0b6eb41e7e8294",
+      "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "outlet_port_guid": "0lj9zTt0HRHeiXhV7kTYxb",
+      "reference_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "axes": [
+        {
+          "quantity": "outlet_to_inlet_velocity_ratio",
+          "values": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ]
+        }
+      ],
+      "coefficients": [
+        0.14,
+        0.1,
+        0.06,
+        0.02
+      ],
+      "conditions": [
+        {
+          "quantity": "outlet_to_inlet_area_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "outlet_to_inlet_height_ratio",
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "quantity": "deflection_deg",
+          "minimum": 0.0,
+          "maximum": 1e-06
+        }
+      ]
+    }
+  ]
+}

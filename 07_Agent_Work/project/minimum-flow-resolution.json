@@ -1,0 +1,35 @@
+{
+  "original_plan_sha256": "e98f6f809d5c26cd12ff64b62e4dcf6d7b3481b5fc4c566a1f9ea571a61c581e",
+  "original_issue": {
+    "id": "gap-minimum",
+    "kind": "missing",
+    "description": "Rebind current maximum terminal flows and verify exact40percent factor.",
+    "blocks_tasks": [
+      "work-minimum"
+    ],
+    "sources": [
+      {
+        "passage": "P008",
+        "quote": "2. Space air diffusion design for minimum load condition "
+      },
+      {
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+      }
+    ]
+  },
+  "source_proof": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\05_Calculations\\agent_checks\\airflow_turndown_check.json",
+  "source_proof_sha256": "096d02ad52136455d47b68a7e1265a6e8a457c54757b6f4fb97f788533090118",
+  "resolution": "Only minimum-flow arithmetic conditional on the current maximum-flow allocation is resolved;all80IDs independently checked at0.4. Geometry/layout,actual loads,product throw,ADPI and installation stay separate unresolved obligations.",
+  "dependency_change": {
+    "task": "work-minimum",
+    "previous": [
+      "work-layout"
+    ],
+    "current": [
+      "air-allocation"
+    ],
+    "basis": "Arithmetic can be reviewed conditional on the actual passing allocation without accepting physical layout."
+  },
+  "design_accepted": false
+}

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 412, in calculate
+    result = verify_report(pdf, request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\core.py", line 131, in verify_report
+    report = parse_report(path)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\core.py", line 96, in parse_report
+    values = match(r"^\s*" + label + r"\s+([\d.\s\-]+)$").group(1).split()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\core.py", line 85, in match
+    raise KSelectError("unsupported_report", f"Missing report field: {pattern}")
+cli_anything.kselect.core.KSelectError: Missing report field: ^\s*Velocity FPM:\s+([\d.\s\-]+)$

@@ -1,0 +1,14 @@
+{
+  "source_field_sha256": "b8306b3b644030860a68fbb6647f208986a716082ce6f2fd3746449d3415c35c",
+  "source_initial_state_all_six_residuals_converged": false,
+  "source_mass_flow_kg_s": 0.04433076393,
+  "target_mass_flow_kg_s": 0.043736328010294444,
+  "pressure_drop_pa": 4.396106566543176,
+  "pressure_basis": "Secant predictor from two terminal near-steady mass flows; numerical operating-point control, not measured pressure or experiment fit.",
+  "changes": [
+    "Fixed pressure drop only; same mesh, SST, wall functions, CFL30, 10000 budget, all-six residual criterion.",
+    "Immutable source final checkpoint copied to local input.csv."
+  ],
+  "velocity_or_turbulence_rescaled": false,
+  "engineering_accepted": false
+}

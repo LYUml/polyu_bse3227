@@ -1,0 +1,30 @@
+{
+  "source_sha256": "eac2bf6550e8c0a05913d63ad8fb4b56c9d768eab85b8b9e971f79c1cea9194f",
+  "output_sha256": "a1e10cbd7b3661862d0a42c8e2c25fbe54c748f6ba33d7a865815f2168df4488",
+  "method_sha256": "6ef66bb79ffc3bebfcbc469ef097501f453b5550f7245d246e4cc142a112dbb1",
+  "gmsh_version": "4.15.2",
+  "volume_cells": 720440,
+  "used_nodes": 287736,
+  "node_and_element_numbering_preserved": false,
+  "one_to_one_node_coordinate_correspondence": true,
+  "maximum_coordinate_difference_m": 0.0,
+  "canonical_source_volume_connectivity_sha256": "291160e42ac4eeb11e923afe5376f3d0d8b68f8a50b343938bf69a4392e65204",
+  "volume_connectivity_preserved_under_explicit_node_mapping": true,
+  "removed_internal_wall_faces": {
+    "wall": 1224
+  },
+  "physical_surface_face_counts": {
+    "inlet": 892,
+    "outlet_0": 5368,
+    "outlet_1": 5366,
+    "outlet_2": 5366,
+    "outlet_3": 5364,
+    "wall": 25778
+  },
+  "all_exterior_faces_exactly_once": true,
+  "all_physical_names_preserved": true,
+  "all_surface_orientations_preserved": true,
+  "target_solver_import_executed": false,
+  "engineering_accepted": false,
+  "scope": "Gmsh4.1 to2.2 exchange with full coordinate/connectivity/boundary correspondence. Native writer renumbers identifiers; byte or identifier identity is not claimed. No target solver import or pressure acceptance."
+}

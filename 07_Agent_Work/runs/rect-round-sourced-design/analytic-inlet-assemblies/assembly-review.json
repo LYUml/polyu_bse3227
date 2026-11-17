@@ -1,0 +1,571 @@
+{
+  "ifc_sha256": "f8498d196ae020878555d3d940a1766ad9a2dd42d534fe74b6044b1c1a8a251e",
+  "air_input_sha256": "853405820fce112caf987b52a1f6ac3e0a765dac441664a9ba482b3cdf2417ee",
+  "air": {
+    "density_kg_m3": 1.2,
+    "viscosity_Pa_s": 1.81e-05,
+    "roughness_m": 9e-05
+  },
+  "native_transition_cases": 20,
+  "native_round_leads": 20,
+  "owned_ports": 80,
+  "actual_local_links": 20,
+  "native_all40geometries_valid": true,
+  "raw_intersection_pairs": 0,
+  "raw_clearance_pairs": 20,
+  "contact_waivers": 0,
+  "common_worker_direct_geometry_source_verified": true,
+  "common_worker_STEP_units_reimport_pass": true,
+  "rows": [
+    {
+      "id": "VAV-01",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5756751425686069,
+          "velocity_m_s": 7.8896487826383614,
+          "Re": 159431.9303170059,
+          "Darcy_factor": 0.018196452675781394,
+          "straight_friction_Pa": 2.038799781542217,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.23027005702744274,
+          "velocity_m_s": 3.155859513055345,
+          "Re": 63772.77212680236,
+          "Darcy_factor": 0.020957176535375918,
+          "straight_friction_Pa": 0.37569948563818134,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-02",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5844445324089027,
+          "velocity_m_s": 5.884775698476208,
+          "Re": 138737.65116319156,
+          "Darcy_factor": 0.018316194638614856,
+          "straight_friction_Pa": 1.1417409642611263,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2337778129635611,
+          "velocity_m_s": 2.3539102793904836,
+          "Re": 55495.060465276634,
+          "Darcy_factor": 0.021342762782366024,
+          "straight_friction_Pa": 0.21286436000422732,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-03",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5857640575548339,
+          "velocity_m_s": 5.8980620055279624,
+          "Re": 139050.88502756308,
+          "Darcy_factor": 0.018310237378209932,
+          "straight_friction_Pa": 1.1465292730813323,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.23430562302193356,
+          "velocity_m_s": 2.3592248022111852,
+          "Re": 55620.35401102524,
+          "Darcy_factor": 0.02133370420236782,
+          "straight_friction_Pa": 0.21373587565068872,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-04",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6167344607577532,
+          "velocity_m_s": 6.209903191532996,
+          "Re": 146402.75634756684,
+          "Darcy_factor": 0.018175971323389356,
+          "straight_friction_Pa": 1.2616526192412503,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2466937843031013,
+          "velocity_m_s": 2.483961276613199,
+          "Re": 58561.102539026746,
+          "Darcy_factor": 0.021129091991434132,
+          "straight_friction_Pa": 0.23466211541721332,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-05",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5901648406958004,
+          "velocity_m_s": 5.942373518847254,
+          "Re": 140095.55955593922,
+          "Darcy_factor": 0.01829051410367021,
+          "straight_friction_Pa": 1.1625678566700572,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.23606593627832018,
+          "velocity_m_s": 2.3769494075389015,
+          "Re": 56038.223822375694,
+          "Darcy_factor": 0.021303701284150135,
+          "straight_friction_Pa": 0.21665436587008807,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-06",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.538984439400712,
+          "velocity_m_s": 7.386801360234277,
+          "Re": 149270.5229568668,
+          "Darcy_factor": 0.01835520084947925,
+          "straight_friction_Pa": 1.8027872883859435,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2155937757602848,
+          "velocity_m_s": 2.9547205440937114,
+          "Re": 59708.20918274673,
+          "Darcy_factor": 0.021205349633200064,
+          "straight_friction_Pa": 0.3332351202517923,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-07",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6184264111528702,
+          "velocity_m_s": 6.226939450777604,
+          "Re": 146804.3979246309,
+          "Darcy_factor": 0.018168929533351662,
+          "straight_friction_Pa": 1.268093075866878,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2473705644611481,
+          "velocity_m_s": 2.490775780311042,
+          "Re": 58721.75916985237,
+          "Darcy_factor": 0.02111833648792062,
+          "straight_friction_Pa": 0.23583131829533896,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-08",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6184264111528702,
+          "velocity_m_s": 6.226939450777604,
+          "Re": 146804.3979246309,
+          "Darcy_factor": 0.018168929533351662,
+          "straight_friction_Pa": 1.268093075866878,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2473705644611481,
+          "velocity_m_s": 2.490775780311042,
+          "Re": 58721.75916985237,
+          "Darcy_factor": 0.02111833648792062,
+          "straight_friction_Pa": 0.23583131829533896,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-09",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6184264111528714,
+          "velocity_m_s": 6.226939450777617,
+          "Re": 146804.3979246312,
+          "Darcy_factor": 0.018168929533351662,
+          "straight_friction_Pa": 1.2680930758668831,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.24737056446114858,
+          "velocity_m_s": 2.4907757803110466,
+          "Re": 58721.75916985247,
+          "Darcy_factor": 0.021118336487920608,
+          "straight_friction_Pa": 0.23583131829533963,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-10",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6520041910874131,
+          "velocity_m_s": 6.565034329607496,
+          "Re": 154775.218183984,
+          "Darcy_factor": 0.018034945065955568,
+          "straight_friction_Pa": 1.3991405120862455,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.26080167643496527,
+          "velocity_m_s": 2.626013731842998,
+          "Re": 61910.08727359359,
+          "Darcy_factor": 0.02091320631680502,
+          "straight_friction_Pa": 0.25958949440390355,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-11",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.6232232368578052,
+          "velocity_m_s": 6.2752387191818775,
+          "Re": 147943.08653310995,
+          "Darcy_factor": 0.018149122598470565,
+          "straight_friction_Pa": 1.2864373559533442,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.24928929474312211,
+          "velocity_m_s": 2.5100954876727513,
+          "Re": 59177.23461324399,
+          "Darcy_factor": 0.02108807036832046,
+          "straight_friction_Pa": 0.23916070952381024,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-12",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5800518055133923,
+          "velocity_m_s": 7.949631107600794,
+          "Re": 160644.03723293182,
+          "Darcy_factor": 0.018178557191202944,
+          "straight_friction_Pa": 2.0678825502696725,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.23202072220535694,
+          "velocity_m_s": 3.179852443040318,
+          "Re": 64257.61489317274,
+          "Darcy_factor": 0.020929098731957016,
+          "straight_friction_Pa": 0.3809227991460515,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-13",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5517821710014711,
+          "velocity_m_s": 7.562194737641447,
+          "Re": 152814.82581435004,
+          "Darcy_factor": 0.018297984771930113,
+          "straight_friction_Pa": 1.8835253979341333,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.22071286840058846,
+          "velocity_m_s": 3.024877895056579,
+          "Re": 61125.93032574002,
+          "Darcy_factor": 0.02111608561923075,
+          "straight_friction_Pa": 0.34777760777054145,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-14",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5560038885923347,
+          "velocity_m_s": 7.620053530888597,
+          "Re": 153984.02096452005,
+          "Darcy_factor": 0.018279556315051952,
+          "straight_friction_Pa": 1.9105314883388793,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2224015554369339,
+          "velocity_m_s": 3.048021412355439,
+          "Re": 61593.60838580802,
+          "Darcy_factor": 0.02108729182716858,
+          "straight_friction_Pa": 0.3526381874502925,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-15",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5575747590274335,
+          "velocity_m_s": 7.6415823673790175,
+          "Re": 154419.06998301373,
+          "Darcy_factor": 0.018272754159826786,
+          "straight_friction_Pa": 1.9206273709633828,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2230299036109734,
+          "velocity_m_s": 3.0566329469516074,
+          "Re": 61767.62799320552,
+          "Darcy_factor": 0.021076658313861026,
+          "straight_friction_Pa": 0.354454782169986,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-16",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5868557568983575,
+          "velocity_m_s": 5.909054333132313,
+          "Re": 139310.03674222212,
+          "Darcy_factor": 0.018305323908017705,
+          "straight_friction_Pa": 1.150498057382744,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.234742302759343,
+          "velocity_m_s": 2.3636217332529252,
+          "Re": 55724.01469688886,
+          "Darcy_factor": 0.0213262315626547,
+          "straight_friction_Pa": 0.21445815966911927,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-17",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5850748294418717,
+          "velocity_m_s": 5.891122163293237,
+          "Re": 138887.2734541707,
+          "Darcy_factor": 0.018313346517704446,
+          "straight_friction_Pa": 1.144027003403617,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2340299317767487,
+          "velocity_m_s": 2.3564488653172946,
+          "Re": 55554.90938166828,
+          "Darcy_factor": 0.02133843214972296,
+          "straight_friction_Pa": 0.21328045153061567,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-18",
+      "saved_diameter_m": 0.30479999999999996,
+      "saved_round_length_m": 0.9143999999999999,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.5401204816346908,
+          "velocity_m_s": 7.402370860401239,
+          "Re": 149585.14728731252,
+          "Darcy_factor": 0.018350037630062477,
+          "straight_friction_Pa": 1.8098856780400039,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.21604819265387634,
+          "velocity_m_s": 2.960948344160496,
+          "Re": 59834.058914925015,
+          "Darcy_factor": 0.021197302602665394,
+          "straight_friction_Pa": 0.3345143605006424,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-19",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.7180147332359453,
+          "velocity_m_s": 7.2296948965869126,
+          "Re": 170445.0500702523,
+          "Darcy_factor": 0.017799816685504077,
+          "straight_friction_Pa": 1.6746651182305718,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2872058932943781,
+          "velocity_m_s": 2.891877958634765,
+          "Re": 68178.02002810093,
+          "Darcy_factor": 0.020550840319724283,
+          "straight_friction_Pa": 0.3093584707469163,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    },
+    {
+      "id": "VAV-20",
+      "saved_diameter_m": 0.35559999999999997,
+      "saved_round_length_m": 1.0668,
+      "native_wall_valid": true,
+      "joint_frames_coincident_opposed": true,
+      "source_boundary_matches_proposed_point": true,
+      "material_interface_basis": "Exact matching analytic nominal inner radius and0.8mm outer section offset; product collar/seal remains unverified",
+      "calculations": {
+        "maximum": {
+          "flow_m3_s": 0.7026202032835482,
+          "velocity_m_s": 7.074687276993087,
+          "Re": 166790.63838886685,
+          "Darcy_factor": 0.017851629247558475,
+          "straight_friction_Pa": 1.6082918405925886,
+          "complete_local_pressure_Pa": null
+        },
+        "minimum": {
+          "flow_m3_s": 0.2810480813134193,
+          "velocity_m_s": 2.8298749107972347,
+          "Re": 66716.25535554673,
+          "Darcy_factor": 0.020630967128881815,
+          "straight_friction_Pa": 0.2973901430443616,
+          "complete_local_pressure_Pa": null
+        }
+      }
+    }
+  ],
+  "network_merged": false,
+  "full_pressure_verified": false,
+  "design_accepted": false,
+  "pending": [
+    "Existing rectangular source duct replacements",
+    "Equipment collar/seal interfaces",
+    "Actual equipment positions and architecture",
+    "Transition and joint losses; static/total pressure stations",
+    "Controls, acoustics and discharge distribution"
+  ]
+}

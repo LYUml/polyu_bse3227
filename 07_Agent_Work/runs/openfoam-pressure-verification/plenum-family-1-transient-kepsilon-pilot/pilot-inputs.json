@@ -1,0 +1,50 @@
+{
+  "scope": "New source-informed physical-time k-epsilon startup on preserved quality-passed hex mesh; not a continuation/acceptance of failed steady SST studies",
+  "native_mesh_sha256": {
+    "points": "b4c6897a08fd091cfc1737e13854895acc8e80b387bdbb834a4d64ef2de25ef9",
+    "faces": "c1fd7d90121e53d1a26634737fc257e75a66d2a3028d5c277a3abcd82e169da4",
+    "owner": "e2003d703e1d218ef450322b9f652bfcfd8a5b2f1a15a02ef9fd6f62ec4ad481",
+    "neighbour": "bd6597db8bd35d0a6124dcf4fb32ac24de337049ca29ff24c6cdfe6083603671",
+    "boundary": "7af6c3a72899f1eb4539512b8e1ef115d5eb94888d16887c8cc4524b8affed97"
+  },
+  "source_geometry_and_mesh_unchanged": true,
+  "physical_time_seconds": {
+    "deltaT": 0.00025,
+    "endTime": 0.005,
+    "steps": 20
+  },
+  "nominal_residence_time_s": 0.24375340232499723,
+  "flow_m3_s": {
+    "inlet": 0.5756751425686069,
+    "outlet_0": 0.14782239876590955,
+    "outlet_1": 0.14782239876590955,
+    "outlet_2": 0.13220794627087828,
+    "outlet_3": 0.1478223987659094
+  },
+  "inlet_area_m2": 0.1343076000000014,
+  "initial_turbulence_assumptions": {
+    "intensity": 0.05,
+    "length_scale_fraction_Dh": 0.07,
+    "hydraulic_diameter_m": 0.3662601581674393,
+    "k_m2_s2": 0.06889457810401924,
+    "epsilon_m2_s3": 0.115896876310234
+  },
+  "wall_treatment": "New standard k-epsilon wall-function scenario; no claim of old low-Re yPlus<=1 acceptance or generated layers",
+  "scheme": "Euler physical time and upwind convection for startup only; not final high-order design pressure",
+  "source_research": {
+    "sha256": "07b071a56db66d494116aca34422059270eb9828df2593691de2ff4d6641be34",
+    "pages_actually_rendered_viewed": [
+      20,
+      21
+    ],
+    "scope": "DOE2013 report uses standard k-epsilon and documents sustained oscillations; does not validate this mesh or boundary model"
+  },
+  "boundary_assumptions": [
+    "Uniform flow-rate inlet, prescribed four outlet flows",
+    "Actual developed VAV discharge profile and installation reference planes unverified",
+    "Smooth wall-function numerical treatment, not calibrated lined-wall roughness"
+  ],
+  "pressure_acceptance_attempted": false,
+  "runtime_budget_seconds": 180,
+  "design_accepted": false
+}

@@ -1,0 +1,45 @@
+{
+  "window": [
+    1,
+    10
+  ],
+  "samples": 10,
+  "max_relative_flux_errors": {
+    "inlet": 3.0856931419243115e-15,
+    "outlet_0": 4.318548775347612e-15,
+    "outlet_1": 6.9472306386026794e-15,
+    "outlet_2": 6.718041121978809e-15,
+    "outlet_3": 1.2204594365112827e-14
+  },
+  "max_relative_global_imbalance": 6.171386283848623e-15,
+  "relative_tolerance": 1e-10,
+  "signed_flux_window_passed": true,
+  "pressure_accepted": false,
+  "engineering_accepted": false,
+  "source_inputs": {
+    "scope": "Actual source design-flow startup diagnostic; not accepted pressure",
+    "source_family_review_sha256": "2389557b1a5d60a9aabfeaf1dee619e0735fcf5b7836cd60a801c3825dca3d68",
+    "source_member": "VAV-01",
+    "flow_case": "maximum",
+    "targets_outward_m3_s": {
+      "inlet": -0.5756751425686069,
+      "outlet_0": 0.14782239876590955,
+      "outlet_1": 0.14782239876590955,
+      "outlet_2": 0.13220794627087828,
+      "outlet_3": 0.1478223987659094
+    },
+    "source_inlet_turbulence_intensity_assumption": 0.05,
+    "source_turbulent_viscosity_ratio_assumption": 10,
+    "source_mesh_failed_checks": 3,
+    "initializer": "Saved unconverged field10 from preceding startup, copied to time0; no geometry regeneration",
+    "inlet_k_m2_s2": 0.06889457810401924,
+    "inlet_omega_s_1": 456.75963383880156,
+    "changed_numerics": "Bounded Gauss upwind replaces higher-order convection for startup diagnosis only",
+    "steps_budget": 10,
+    "engineering_accepted": false
+  },
+  "negative_k_bounding_events": 0,
+  "foamRun_returncode": 0,
+  "complete_pressure_verified": false,
+  "scope": "Ten-step first-order diagnostic, not a complete200step window or pressure acceptance"
+}

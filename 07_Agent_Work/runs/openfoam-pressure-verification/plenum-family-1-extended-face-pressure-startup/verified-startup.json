@@ -1,0 +1,169 @@
+{
+  "scope": "Extended-domain20step mapped startup and original-station monitor execution; not developed comparison or pressure acceptance",
+  "native_run": {
+    "returncode": 0,
+    "elapsed_s": 36.71899999999732,
+    "final_U_exists": true,
+    "pressure_adopted": false
+  },
+  "original_core_mapping": {
+    "native_mapFields_returncode": 0,
+    "method": "mapNearest",
+    "consistent_flag_used": false,
+    "fields": {
+      "U": {
+        "source_cells": 142480,
+        "target_cells": 190880,
+        "all_original_cell_values_exact": true,
+        "added_cell_min_component": 0.0,
+        "added_cell_max_component": 0.0,
+        "target_sha256": "a54f5dca9b355bc58e52cb945b11c384f1bcfc683f6090a078c41f6fd74945ce"
+      },
+      "p": {
+        "source_cells": 142480,
+        "target_cells": 190880,
+        "all_original_cell_values_exact": true,
+        "added_cell_min_component": 0.0,
+        "added_cell_max_component": 0.0,
+        "target_sha256": "5bbb4e382191c3afbbbe81d05cfe1ec7deb2ede3ca2f0b5d403ffafa7fab59f1"
+      },
+      "k": {
+        "source_cells": 142480,
+        "target_cells": 190880,
+        "all_original_cell_values_exact": true,
+        "added_cell_min_component": 0.06889457810401924,
+        "added_cell_max_component": 0.06889457810401924,
+        "target_sha256": "c9ef3801926540de04e97c824801e082fe9417c3bec363165081ebc0a1f2068b"
+      },
+      "epsilon": {
+        "source_cells": 142480,
+        "target_cells": 190880,
+        "all_original_cell_values_exact": true,
+        "added_cell_min_component": 0.115896876310234,
+        "added_cell_max_component": 0.115896876310234,
+        "target_sha256": "12ad076391a103642082c44a5fad1b62727998036dd5a466b8e4b91bee7a7a63"
+      },
+      "nut": {
+        "source_cells": 142480,
+        "target_cells": 190880,
+        "all_original_cell_values_exact": true,
+        "added_cell_min_component": 0.0,
+        "added_cell_max_component": 0.0,
+        "target_sha256": "4691780eefa375f6441650dd2c724e24fa8ae7747828cd4660aa8611d61c8c28"
+      }
+    },
+    "source_fields_preserved": true,
+    "faceZone_header_correction": {
+      "previous_sha256": "d9bc32d4eeed3bfa0926f79be1709595a42f3c46c5b66193e5d62f54bd448b45",
+      "new_sha256": "0bdfdd68b399d3680bcf897208fda2119c8a810ec64294f40231f0914a53f48b",
+      "change": "class regIOobject -> faceZoneList; labels/orientations unchanged"
+    },
+    "new_extension_cells_are_initial_seed_not_solved_values": true,
+    "pressure_adopted": false
+  },
+  "final_fields": {
+    "U": {
+      "cells": 190880,
+      "min_component": -6.455191543884272,
+      "max_component": 4.671810074202112
+    },
+    "p": {
+      "cells": 190880,
+      "min_component": -41.90035062789773,
+      "max_component": 0.8709222271745556
+    },
+    "k": {
+      "cells": 190880,
+      "min_component": 0.005270214069101847,
+      "max_component": 1.2047775239081722
+    },
+    "epsilon": {
+      "cells": 190880,
+      "min_component": 0.00830485706205559,
+      "max_component": 98.65903849699066
+    },
+    "nut": {
+      "cells": 190880,
+      "min_component": 7.122981713687995e-05,
+      "max_component": 0.019078947981942443
+    }
+  },
+  "internal_surface_field_faces": 557752,
+  "original_station_checks": {
+    "0": {
+      "independent_observers": {
+        "original_flux_0": {
+          "samples": 21,
+          "reconstructed": 0.14782239884022955,
+          "native": 0.14782239884022963
+        },
+        "original_pressure_0": {
+          "samples": 21,
+          "reconstructed": -7.685340565207285,
+          "native": -7.68534056520728
+        }
+      },
+      "internal_station_reverse_flux_faces": 0,
+      "reverse_to_forward_volume_flux_ratio": -0.0
+    },
+    "1": {
+      "independent_observers": {
+        "original_flux_1": {
+          "samples": 21,
+          "reconstructed": 0.14782239882808096,
+          "native": 0.147822398828081
+        },
+        "original_pressure_1": {
+          "samples": 21,
+          "reconstructed": -7.7122835304014,
+          "native": -7.712283530401402
+        }
+      },
+      "internal_station_reverse_flux_faces": 0,
+      "reverse_to_forward_volume_flux_ratio": -0.0
+    },
+    "2": {
+      "independent_observers": {
+        "original_flux_2": {
+          "samples": 21,
+          "reconstructed": 0.1322079461698121,
+          "native": 0.13220794616981218
+        },
+        "original_pressure_2": {
+          "samples": 21,
+          "reconstructed": -3.402889924860183,
+          "native": -3.4028899248601783
+        }
+      },
+      "internal_station_reverse_flux_faces": 0,
+      "reverse_to_forward_volume_flux_ratio": -0.0
+    },
+    "3": {
+      "independent_observers": {
+        "original_flux_3": {
+          "samples": 21,
+          "reconstructed": 0.14782239870700864,
+          "native": 0.1478223987070085
+        },
+        "original_pressure_3": {
+          "samples": 21,
+          "reconstructed": -4.019105364410599,
+          "native": -4.019105364410602
+        }
+      },
+      "internal_station_reverse_flux_faces": 0,
+      "reverse_to_forward_volume_flux_ratio": -0.0
+    }
+  },
+  "field_hashes": {
+    "U": "4054f2b192356702d6902424bd0ddba18faf76c66d29410873e39dba156e57e6",
+    "p": "0eab415a97da961febf1dea32c684ca34034c632eff0c67b85dc65241de6d5ed",
+    "phi": "348c5ef6afa3fcb3f803593b4fd2cc331200ae62eb844a1c0b982bd4fadfe2e1",
+    "Ptf": "b8a1efcc402cea1eecfbe558e30559d9d1cd1807a3059e4298b6e933b3245336"
+  },
+  "no_faceZone_header_warning": true,
+  "maximum_Courant": 0.3378572807269483,
+  "new_extension_flow_developed": false,
+  "domain_independence_accepted": false,
+  "pressure_adopted": false
+}

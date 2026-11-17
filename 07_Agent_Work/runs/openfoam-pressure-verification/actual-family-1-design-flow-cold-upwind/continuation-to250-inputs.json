@@ -1,0 +1,22 @@
+{
+  "source_saved_time": 50,
+  "source_native_time_index": 60,
+  "end_time": 250,
+  "new_steps_budget": 200,
+  "write_interval_native_indices": 130,
+  "expected_full_field_times": [
+    120,
+    250
+  ],
+  "earlier_unsaved_terminal_time": 60,
+  "overlap": {
+    "native_times": [
+      51,
+      60
+    ],
+    "handling": "Retain prior postProcessing20 and distinct new postProcessing50; never concatenate overlaps as extra samples."
+  },
+  "reason": "Saved50 peak7.03m/s and positive60path differences warrant first complete bounded200sample study; no acceptance implied.",
+  "numerical_parameters_unchanged_since_step20": true,
+  "engineering_accepted": false
+}

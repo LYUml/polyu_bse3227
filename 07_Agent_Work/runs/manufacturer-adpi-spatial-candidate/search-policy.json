@@ -1,0 +1,53 @@
+{
+  "parameter_names": [
+    "main_left_setback_m",
+    "main_join_gap_m",
+    "bay_left_setback_m",
+    "right_setback_m",
+    "bottom_setback_m",
+    "main_top_setback_m",
+    "bay_top_setback_m",
+    "hypothetical_downward_distance_m"
+  ],
+  "bounds": [
+    [
+      0.6,
+      6
+    ],
+    [
+      0.6,
+      3
+    ],
+    [
+      0.6,
+      4
+    ],
+    [
+      0.6,
+      4
+    ],
+    [
+      0.6,
+      6
+    ],
+    [
+      0.6,
+      6
+    ],
+    [
+      0.6,
+      4
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "finite_budget": {
+    "maxiter": 35,
+    "popsize": 5,
+    "seed": 3227,
+    "polish": false
+  },
+  "scope": "Separate80terminal two-zone row/column candidate; actual source boundary and full fresh nearest-centre area allocation each evaluation. Hypothetical downward travel only on aligned opposing jets. Necessary ratio envelope objective; exact source screen required after search. No actual building height claimed."
+}

@@ -1,0 +1,50 @@
+{
+  "scope": "Independent saved-field reconstruction of five native total-pressure observers at specified saved time only; not pressure/design acceptance",
+  "time_s": 0.1,
+  "assumed_density_kg_m3": 1.2,
+  "formula": "sum(phi*rho*(p_kinematic+0.5*mag(U)^2))/sum(phi)",
+  "all5_observers_match": true,
+  "fields_sha256": {
+    "p": "18b8129ae931fc1e0b017484eed2186f486355c41d0f98f436677d9e79f40880",
+    "U": "99b0060df22607f927f32dffe730cb1d5ae2513cc34b79c5e294e17be3b0b9a3",
+    "phi": "4129854dc0ae3ee058c3c48818be95c5bf83811ec0bbeec7dd97f67d1ee90854"
+  },
+  "results": {
+    "inlet": {
+      "faces": 1368,
+      "reconstructed_Pa": 0.3552652474324078,
+      "native_Pa": 0.35526524743240795,
+      "absolute_difference_Pa": 1.6653345369377348e-16,
+      "signed_flux_sum_m3_s": -0.575675142568607
+    },
+    "outlet_0": {
+      "faces": 484,
+      "reconstructed_Pa": -7.039283323935744,
+      "native_Pa": -7.03928332393574,
+      "absolute_difference_Pa": 4.440892098500626e-15,
+      "signed_flux_sum_m3_s": 0.14782239876590944
+    },
+    "outlet_1": {
+      "faces": 484,
+      "reconstructed_Pa": -7.058286926207073,
+      "native_Pa": -7.058286926207068,
+      "absolute_difference_Pa": 4.440892098500626e-15,
+      "signed_flux_sum_m3_s": 0.1478223987659094
+    },
+    "outlet_2": {
+      "faces": 484,
+      "reconstructed_Pa": -3.0971276975659885,
+      "native_Pa": -3.097127697565988,
+      "absolute_difference_Pa": 4.440892098500626e-16,
+      "signed_flux_sum_m3_s": 0.13220794627087842
+    },
+    "outlet_3": {
+      "faces": 484,
+      "reconstructed_Pa": -3.638003237174775,
+      "native_Pa": -3.6380032371747757,
+      "absolute_difference_Pa": 8.881784197001252e-16,
+      "signed_flux_sum_m3_s": 0.14782239876590952
+    }
+  },
+  "pressure_adopted": false
+}

@@ -1,0 +1,113 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-manufacturer-study\\friction-diameter-1000-points.json": "d25b7c534f2a44169818bc44f92ee5d0fcc6e47c9ee144eca954094faf76f0f7",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\raster_chart_points.py": "31ce0c31441835e66f42fa27f5144c6d8bb399bc036e6d1bd2e4e5b175e5733b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\third_party\\scientific-plot-digitizer\\digitize_plot.py": "04c988d25acf72c127d9b575a44df22c8823a1d8d4f02b5c3c4f96405050834c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-manufacturer-study\\duct-source-09.png": "04302249a133239105da8af93eb898ca5730ccb1f2f6dd761a67961a37411c8b",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-manufacturer-study\\round-duct-comparison-basis.json": "d8f0b2c152bf6151c2981168c79966d56e689a2eac0b6cbc120c23d332697d91",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\friction-diameter-manual-points\\points.json": "e5847feb2aa578b8ea59f710597c1aa2834f3b809210679bca5c1632f7cd56d5",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\round_duct_chart_check.py": "f01e1aaa1f09243720e56111836f92525daac89eb88afc15dc0625df577187cb",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_equivalent.py": "6c626b7090b16fc50e0ea921281a17028e5aebb48f16cc292cacca481257acd6"
+  },
+  "air": {
+    "density_kg_m3": 1.2,
+    "viscosity_Pa_s": 1.81e-05,
+    "roughness_m": 9e-05
+  },
+  "air_basis": {
+    "density_kg_m3": {
+      "classification": "given",
+      "basis": "Classroom PDF p9 chart heading rho1.20kg/m3; original source and image are pinned by parent"
+    },
+    "roughness_m": {
+      "classification": "given",
+      "basis": "Classroom PDF p9 chart heading epsilon0.09mm; original source and image are pinned by parent"
+    },
+    "viscosity_Pa_s": {
+      "classification": "assumed",
+      "basis": "Declared1.81e-5Pa s for numerical comparison; chart viscosity/temperature not independently established"
+    }
+  },
+  "points": [
+    {
+      "point_id": "D1000-Q10000",
+      "diameter_m": 1,
+      "source_label": "1000 mm diameter rising curve; classroom chart p9",
+      "identity_observation": "Host AI visually traced the rising 1000-labelled curve above its label gap in original p9; point is an approximate manual curve reading, not automatic identification",
+      "manual_point": {
+        "pixel": [
+          1013,
+          698
+        ],
+        "x": 10078.414141570034,
+        "y": 1.2835331201679216,
+        "x_range": [
+          9861.5091380575,
+          10300.089995049895
+        ],
+        "y_range": [
+          1.2544441410054052,
+          1.313296636108169
+        ],
+        "id": "D1000-Q10000",
+        "series": "1000 mm circular duct diameter curve",
+        "interpretation": "Host AI visually traced the rising 1000-labelled curve above its label gap in original p9; point is an approximate manual curve reading, not automatic identification"
+      },
+      "equation_gradient_Pa_m": 1.33368850784281,
+      "flow_endpoint_equation_gradients_Pa_m": [
+        1.2796405788125957,
+        1.3900507956866
+      ],
+      "equation_endpoint_range_Pa_m": [
+        1.2796405788125957,
+        1.3900507956866
+      ],
+      "center_relative_difference": 0.03907603698479292,
+      "endpoint_ranges_overlap": true
+    },
+    {
+      "point_id": "D1000-Q12000",
+      "diameter_m": 1,
+      "source_label": "1000 mm diameter rising curve; classroom chart p9",
+      "identity_observation": "Host AI visually followed the same rising1000mm curve toward the next upper-right crossing; manual approximate reading",
+      "manual_point": {
+        "pixel": [
+          1040,
+          650
+        ],
+        "x": 12258.337391851483,
+        "y": 1.8522479169496224,
+        "x_range": [
+          11994.516648062961,
+          12527.960902595523
+        ],
+        "y_range": [
+          1.8102700355741008,
+          1.895199212506536
+        ],
+        "id": "D1000-Q12000",
+        "series": "1000 mm circular duct diameter curve",
+        "interpretation": "Host AI visually followed the same rising1000mm curve toward the next upper-right crossing; manual approximate reading"
+      },
+      "equation_gradient_Pa_m": 1.9372867774832379,
+      "flow_endpoint_equation_gradients_Pa_m": [
+        1.8584006112072187,
+        2.0195666313414655
+      ],
+      "equation_endpoint_range_Pa_m": [
+        1.8584006112072187,
+        2.0195666313414655
+      ],
+      "center_relative_difference": 0.045911165430630806,
+      "endpoint_ranges_overlap": true
+    }
+  ],
+  "fluids_version": "1.3.1",
+  "source_image_derivation_verified": false,
+  "curve_identity_verified": false,
+  "scanned_chart_readings_accepted": false,
+  "design_accepted": false,
+  "scope": "Existing equivalent-round engine evaluated at declared diameter and flow endpoints; interval overlap is descriptive, not curve identity, full uncertainty coverage, source-method equivalence or sizing acceptance. Computational square is not physical design."
+}

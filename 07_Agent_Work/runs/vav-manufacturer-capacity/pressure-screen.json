@@ -1,0 +1,2327 @@
+{
+  "source_sha256": "ba747af8d424da4e59b0d4d93c888bd9b5df299d303c0824fa89f9305870d766",
+  "capacity_sha256": "8dbbec46a9976e3961c18a5b963b52fe247d3c1e5ee28aef11854a3cbc6e7f8a",
+  "script_sha256": "87730008a53b9e404a5fedb406c97c649cdd1a99037288e979baba9916099a80",
+  "source_locator": "PDF24/A2-26; duplicate pressure columns checked on PDF25/A2-27",
+  "source_pressure_page_visually_reviewed": true,
+  "independent_Decimal_matches": true,
+  "interpolation": "Piecewise linear explicit design approximation; no extrapolation",
+  "pressure_type": "Minimum inlet-to-discharge static pressure difference, not total-pressure loss",
+  "inwg_to_Pa": "249.08891",
+  "records": [
+    {
+      "id": "VAV-01",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1219.7865479793468,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-01",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 487.9146191917388,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-01",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1219.7865479793468,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 31.217391141411504,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.1253262987156333,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-01",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 487.9146191917388,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.854702907474968,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.023504470381579684,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-01",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1219.7865479793468,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.28035064299855,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.06134496571123359,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-01",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 487.9146191917388,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.6989540767144415,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.010835304055545633,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-01",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1219.7865479793468,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.06931018688922,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.03640993164605048,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-01",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 487.9146191917388,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.3291483119735656,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.0053360396975263395,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1238.367832752998,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 495.3471331011993,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1238.367832752998,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 32.19596544378139,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.12925491321063387,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-02",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 495.3471331011993,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.998697324340206,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.024082554796759945,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-02",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1238.367832752998,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.750903826683167,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.0632340629965548,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 495.3471331011993,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.800778700069146,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011244092320565962,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1238.367832752998,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.265822918604748,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.03719885770347925,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-02",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 495.3471331011993,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.4077534046597775,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.005651610120497847,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1241.163748198549,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 496.46549927941965,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1241.163748198549,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 32.34321096743296,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.12984604961912177,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-03",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 496.46549927941965,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.020364083075722,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.024169538832843753,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-03",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1241.163748198549,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.821707698979589,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.06351831440018582,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 496.46549927941965,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.8161001937464034,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011305602460368082,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1241.163748198549,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.295392078571016,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.03731756696261995,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-03",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 496.46549927941965,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.419581068646284,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.00569909382415413,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1306.786316239022,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 522.7145264956089,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1306.786316239022,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 35.799191515720295,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.1437205354333932,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-04",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 522.7145264956089,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.5289017613522375,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.02621112983854736,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-04",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1306.786316239022,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 17.483536183347486,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07018994215096724,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 522.7145264956089,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.175708980527654,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.012749298957258489,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1306.786316239022,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.989405989068095,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.04010377655539981,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-04",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 522.7145264956089,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.6971866328451162,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.006813577661266075,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1250.488479594756,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 500.1953918379024,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1250.488479594756,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 32.834293399675175,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.13181756425717697,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-05",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 500.1953918379024,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.092625461994245,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.02445964158739241,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-05",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1250.488479594756,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 16.057847562231192,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.06446632875880019,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 500.1953918379024,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.8671993116959302,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011510746551084632,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1250.488479594756,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.394008964405554,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.0377134773459226,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-05",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 500.1953918379024,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.4590278229800986,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.005857457977475185,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1142.0433507302705,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 40.21335542617674,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        900,
+        1160
+      ],
+      "minimum_static_difference_inwg": 0.16144177364691484,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-06",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 456.8173402921081,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 7.094162388853512,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        200,
+        550
+      ],
+      "minimum_static_difference_inwg": 0.028480442540992742,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-06",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1142.0433507302705,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 27.12308356587188,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.10888916558297149,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 456.8173402921081,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.252237228191356,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.021085793133830633,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1142.0433507302705,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 13.311578869625329,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.05344107399091084,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 456.8173402921081,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.2729247749353156,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.009124953716065946,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1142.0433507302705,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-06",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 456.8173402921081,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 35.987995891817036,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.14447851528924766,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-07",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.55668378666377,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.026322664411931342,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-07",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 17.57432387320481,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07055442120327562,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.195354841283666,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.01282816983415145,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 10.027320804138103,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.04025599053823032,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-07",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.7123525588731194,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.006874463254398274,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 35.987995891817036,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.14447851528924766,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-08",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.55668378666377,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.026322664411931342,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-08",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 17.57432387320481,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07055442120327562,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.195354841283666,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.01282816983415145,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1310.371356097793,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 10.027320804138103,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.04025599053823032,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-08",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391173,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.7123525588731194,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.006874463254398274,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1310.3713560977956,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391183,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1310.3713560977956,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 35.98799589181717,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.1444785152892482,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-09",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391183,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.556683786663789,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.026322664411931422,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-09",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1310.3713560977956,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 17.57432387320488,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07055442120327589,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391183,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.1953548412836796,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.012828169834151505,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1310.3713560977956,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 10.02732080413813,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.040255990538230424,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-09",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 524.1485424391183,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.7123525588731299,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.0068744632543983174,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1381.5186425559452,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 552.6074570223782,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1381.5186425559452,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 39.73493304171874,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.15952108442611412,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-10",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 552.6074570223782,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 7.108034898811469,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.028536135546184973,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-10",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1381.5186425559452,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 19.3760605432589,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07778772865985444,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 552.6074570223782,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.5852388420166816,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.0143934101362308,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1381.5186425559452,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 10.838481239558043,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1375,
+        2100
+      ],
+      "minimum_static_difference_inwg": 0.043512500173363965,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-10",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 552.6074570223782,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.0133295426792057,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.00808277471156466,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1320.5352541632442,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 528.2141016652978,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1320.5352541632442,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 36.52327262751733,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.14662745373737163,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-11",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 528.2141016652978,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.635448231256306,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.02663887457396761,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-11",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1320.5352541632442,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 17.831714826069707,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.07158775083992983,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 528.2141016652978,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 3.251052555674102,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.013051775591591378,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1320.5352541632442,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 10.134812584068857,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.040687530344361206,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-11",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 528.2141016652978,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.7553492708454215,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.007047079176850633,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1229.06017157419,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 491.62406862967606,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1229.06017157419,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 31.705782006215056,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.12728700770425733,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-12",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 491.62406862967606,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.9265682299235385,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.023792983115641472,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-12",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1229.06017157419,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.515196250285843,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.062287784110042654,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 491.62406862967606,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.7497731261602163,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011039323774632183,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1229.06017157419,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.167386564692137,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.03680367208918348,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-12",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 491.62406862967606,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.3683788630947327,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.005493535874779542,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1169.1602083065825,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 467.6640833226331,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1169.1602083065825,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 28.551179647948597,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.11462244404196316,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-13",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 467.6640833226331,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.462377492520966,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.021929428702871463,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-13",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1169.1602083065825,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 13.998287233416724,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.056197954511169226,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 467.6640833226331,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.421523961854112,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.00972152458274482,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1169.1602083065825,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-13",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 467.6640833226331,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1178.1055212893984,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 471.2422085157594,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1178.1055212893984,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 29.022280194453987,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.11651373878690138,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-14",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 471.2422085157594,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.531698593958695,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.02220772732900351,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-14",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1178.1055212893984,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 14.224818689900735,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.057107394664422176,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 471.2422085157594,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.4705438835850773,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.009918321468366766,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1178.1055212893984,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-14",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 471.2422085157594,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1181.4340072420875,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 472.57360289683504,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1181.4340072420875,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 29.197573284182607,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.11721747581689851,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-15",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 472.57360289683504,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.557492472026871,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.022311280225309395,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-15",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1181.4340072420875,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 14.309109398587808,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.0574457907362789,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 472.57360289683504,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.4887838402190017,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.009991548159325927,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1181.4340072420875,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-15",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 472.57360289683504,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1243.476928107145,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 497.39077124285814,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1243.476928107145,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 32.465033459412645,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.13033512194265354,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-16",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 497.39077124285814,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.038289915228891,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.024241504430000078,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-16",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1243.476928107145,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.880286757622972,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.06375348769089309,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 497.39077124285814,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.8287763179118586,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011356492418357199,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1243.476928107145,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.319855903776055,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.0374157801877894,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-16",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 497.39077124285814,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.429366598728301,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.00573837911422191,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1239.703356532289,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 495.8813426129156,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1239.703356532289,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 32.266300152416356,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.12953728109539825,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-17",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 495.8813426129156,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 6.009046876061266,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.024124104425448992,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-17",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1239.703356532289,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 15.784724683200206,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.06336984124744939,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 495.8813426129156,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.808097311643323,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.011273473843710358,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1239.703356532289,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 9.27994720706685,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.03725556150639886,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-17",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 495.8813426129156,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 1.4134031200446173,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.005674291641665691,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1144.4504879027402,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 40.365559339706444,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        900,
+        1160
+      ],
+      "minimum_static_difference_inwg": 0.16205281615992637,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-18",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 457.7801951610962,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 7.116090294664204,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        200,
+        550
+      ],
+      "minimum_static_difference_inwg": 0.028568474986157368,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-18",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1144.4504879027402,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 27.24985427133991,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1100,
+        1450
+      ],
+      "minimum_static_difference_inwg": 0.10939810315657936,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 457.7801951610962,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 5.270891175842812,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        250,
+        700
+      ],
+      "minimum_static_difference_inwg": 0.021160681845863036,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1144.4504879027402,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 13.372537305700611,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.05368579960344525,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 457.7801951610962,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.28611578077456,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.00917791073386029,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1144.4504879027402,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-18",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 457.7801951610962,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1521.3870603207567,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 608.5548241283027,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1521.3870603207567,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 608.5548241283027,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1521.3870603207567,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 22.918093835245823,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.09200768446594361,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-19",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 608.5548241283027,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 4.351711619954834,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.017470515327056648,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-19",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1521.3870603207567,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 13.577600257895018,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1375,
+        2100
+      ],
+      "minimum_static_difference_inwg": 0.05450905163901122,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-19",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 608.5548241283027,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.6050200568823505,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.010458193650140227,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 9,
+      "condition": "maximum",
+      "flow_CFM": 1488.767898644584,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 9,
+      "condition": "minimum",
+      "flow_CFM": 595.5071594578337,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 10,
+      "condition": "maximum",
+      "flow_CFM": 1488.767898644584,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 10,
+      "condition": "minimum",
+      "flow_CFM": 595.5071594578337,
+      "capacity_candidate": false,
+      "minimum_static_difference_Pa": null,
+      "total_pressure_loss_Pa": null,
+      "status": "capacity_rejected",
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 12,
+      "condition": "maximum",
+      "flow_CFM": 1488.767898644584,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 22.09204490683094,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1000,
+        1600
+      ],
+      "minimum_static_difference_inwg": 0.08869140302886605,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-20",
+      "size": 12,
+      "condition": "minimum",
+      "flow_CFM": 595.5071594578337,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 4.17296004856014,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        400,
+        1000
+      ],
+      "minimum_static_difference_inwg": 0.016752893770180854,
+      "smallest_capacity_candidate": true
+    },
+    {
+      "id": "VAV-20",
+      "size": 14,
+      "condition": "maximum",
+      "flow_CFM": 1488.767898644584,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 12.938801538804254,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        1375,
+        2100
+      ],
+      "minimum_static_difference_inwg": 0.05194451065205694,
+      "smallest_capacity_candidate": false
+    },
+    {
+      "id": "VAV-20",
+      "size": 14,
+      "condition": "minimum",
+      "flow_CFM": 595.5071594578337,
+      "capacity_candidate": true,
+      "minimum_static_difference_Pa": 2.467030017004272,
+      "total_pressure_loss_Pa": null,
+      "status": "conditional_linear_static_estimate",
+      "bracket_CFM": [
+        480,
+        1375
+      ],
+      "minimum_static_difference_inwg": 0.00990421459150579,
+      "smallest_capacity_candidate": false
+    }
+  ],
+  "design_accepted": false,
+  "full_pressure_verified": false,
+  "source_conditions": "Base standard unit; published sound tables specify 1/2 inch dual-density liner; controls and installation unverified",
+  "geometry_note": "Actual inlet collars are undersized: size9 D=8 7/8in; size10 D=9 7/8in; size12 D=11 7/8in. Casing W/H are not established clear outlet areas; no velocity correction inferred."
+}

@@ -1,0 +1,52 @@
+{
+  "original_plan_sha256": "e59622e57f0d406920f9636da0e26f32c8b5925898446ea1545ce719fa653243",
+  "original_issue": {
+    "id": "gap-terminal",
+    "kind": "missing",
+    "description": "Selected configuration,graphical table transcription and source product-family discrepancy require scoped review.",
+    "blocks_tasks": [
+      "work-terminal"
+    ],
+    "sources": [
+      {
+        "passage": "P006",
+        "quote": "1. Space air diffusion design for maximum load condition "
+      },
+      {
+        "passage": "P007",
+        "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+      },
+      {
+        "passage": "P009",
+        "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. "
+      }
+    ]
+  },
+  "selected_configuration": {
+    "model": "1400",
+    "panel_mm": [
+      600,
+      600
+    ],
+    "neck_nominal": "8 inch",
+    "damper": false,
+    "classification": "explicit design choice for the prescribed family;not installed product verification"
+  },
+  "source_document": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\Krueger_1400_51400_Performance.pdf",
+  "source_sha256": "073c639219b28068a0c8190a926d493e42a12c0918db464ee8439c55a3994aef",
+  "source_locator": "PDF page2,B1-12,8inch metric rows;T0.25 third throw column",
+  "all9rows_visually_checked": true,
+  "dash_preserved_as_less_than_10": true,
+  "reference_typography": "Primary brief and manufacturer identify1400/51400;reference lecture D002:P020 writes54100. Preserve original reference text as context;do not infer an alternate required product.",
+  "dependency_change": {
+    "previous": [
+      "work-layout",
+      "work-minimum"
+    ],
+    "current": [
+      "terminal-lookup"
+    ],
+    "basis": "Source/configuration and conditional lookup review only;physical L,ADPI and installation remain independent unresolved requirements."
+  },
+  "design_accepted": false
+}

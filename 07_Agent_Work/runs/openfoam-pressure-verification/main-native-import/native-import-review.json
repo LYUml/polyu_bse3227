@@ -1,0 +1,19 @@
+{
+  "runtime_startup_verified": true,
+  "system_mpi_installed": false,
+  "main_mesh_import_completed": true,
+  "points": 126183,
+  "cells": 265741,
+  "patches": 6,
+  "checkMesh_returncode": 3,
+  "mesh_accepted": false,
+  "pressure_accepted": false,
+  "observations": {
+    "open_cells": 41,
+    "negative_volume_cells": 14043,
+    "zero_face_area_detected": true,
+    "incorrectly_oriented_face_pyramids": 14422,
+    "floating_point_exception_in_skewness_check": true
+  },
+  "next_step": "Diagnose native import/connectivity and geometry against preserved source before any pressure solve; do not disable checks to claim acceptance."
+}

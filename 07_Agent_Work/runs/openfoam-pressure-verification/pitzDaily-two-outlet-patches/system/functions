@@ -1,0 +1,4 @@
+FoamFile {format ascii; class dictionary; object functions;}
+flux_inlet {type surfaceFieldValue; libs ("libfieldFunctionObjects.dll"); regionType patch; name inlet; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; }
+flux_outlet_a {type surfaceFieldValue; libs ("libfieldFunctionObjects.dll"); regionType patch; name outlet_a; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; }
+flux_outlet_b {type surfaceFieldValue; libs ("libfieldFunctionObjects.dll"); regionType patch; name outlet_b; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; }

@@ -1,0 +1,366 @@
+VAV-PRC011M-EN
+15
+Model Number Descriptions
+DD92= UC210 DDC-Basic plus- Local 
+(Electric heat- Staged) Remote  
+(Staged EH) 
+DD93= UC210 Ventilation Flow 
+(Water heat- N.O. 2-position)
+DD95= UC210 Basic  
+(Electric HeatModulating SCR) 
+DD96= UC210 Basic plus-Local  
+(Electric heat-Modulating SCR) 
+Remote (Staged EH)
+DD97= UC210 Ventilation Flow 
+(Electric heat-Modulating SCR) 
+ENCL= Shaft Only in Enclosure 
+ENON= Shaft Out Side for Electric Units 
+FM00= Other Actuator and Control 
+FM01= Trane Supplied Actuator, Other  
+Ctrl 
+PC00= N.C. Actuator and Linkage Only 
+PC04= N.C. with DA Stat, 3000 Series 
+PC05= N.C. with RA STAT, 3000 Series 
+PCSS= Normally Closed Special 
+PN00= N.O. Actuator and Linkage Only 
+PN04= N.O. 3000 Series, DA STAT 
+PN05= N.O. 3000 Series, RA STAT 
+PN11= Auto Dual Min. 
+PN32= N.O. PNEU Constant Vol. 
+PN34= N.O. 3000 Series Constant 
+Vol.,RA STAT 
+PNON= Shaft Out Side for Pneumatic  
+Units 
+PNSS= Normally Open Special
+N.C .= Normally-closed 
+N.O. = Normally-opened 
+DA Stat = Direct-acting pneumatic t-stat 
+(by others) 
+RA Stat = Reverse-acting pneumatic  
+t-stat (by others) 
+PN = Pneumatic 
+FM = Factory installation of customer- 
+supplied controller 
+PVR = Pneumatic Volume Regulator
+Digit 16—Insulation
+A
+= 
+1/2" Matte-faced 
+B
+= 
+1" Matte-faced 
+D
+= 
+1" Foil-faced 
+F
+= 
+1" Double-wall 
+G
+= 
+3/8" Closed-cell
+Digit 17 & 18—Not Used
+00 = 
+N/A
+Digit 19—Outlet Plenum 
+(Connection is Slip & Drive)
+0
+= 
+None 
+A
+= 
+1 Outlet RH 
+B
+= 
+1 Outlet END 
+C
+= 
+1 Outlet LH 
+D
+= 
+2 Outlets, 1 RH, 1 END 
+E
+= 
+2 Outlets, 1 LH, 1 END 
+F
+= 
+2 Outlets, 1 RH, 1 LH 
+H
+= 
+3 Outlets, 1 LH, 1 RH, 1 END 
+J
+= 
+4 Outlets, 1 LH, 1 RH, 2 END
+Note:
+See unit drawings for outlet sizes/
+damper information.
+Digit 20—Not Used
+0
+= 
+N/A
+Digit 21—Water Coil
+0
+= 
+None 
+1
+= 
+1-Row 
+2
+= 
+2-Row 
+3
+= 
+3-Row 
+4
+= 
+4-Row 
+A
+= 
+1-Row Premium 
+B
+= 
+2-Row Premium 
+C
+= 
+3-Row Premium 
+D
+= 
+4-Row Premium
+Digit 22—Electrical Connections
+F
+= 
+Flippable (can be flipped in the 
+field for LH or RH connections 
+- VCEF only) 
+L
+= 
+Left (Airflow hitting you in the 
+face) 
+R
+= 
+Right (Airflow hitting you in the 
+face) 
+0
+= 
+Opposite side connection – coil  
+and control (VCWF only)
+Note:
+VCCF, VCWF can be flipped in field 
+for opposite-hand connection
+Digit 23—Transformer
+0
+= 
+None 
+1
+= 
+120/24 volt (50 VA) 
+2
+= 
+208/24 volt (50 VA) 
+3
+= 
+240/24 volt (50 VA) 
+4
+= 
+277/24 volt (50 VA) 
+5
+= 
+480/24 volt (50 VA) 
+6
+= 
+347/24 Volt (50 VA) 
+7
+= 
+380/24 Volt (50 VA) 
+8
+= 
+575/24 Volt (50 VA)
+Note:
+For VCEF units with transformers 
+the VA depends on the staging, 
+control, and contactor type 
+(ranges are 50 VA to 75 VA, for 1 
+and 3 phase)
+Digit 24—Disconnect Switch
+0
+= 
+None 
+W
+= 
+With
+Note:
+VCCF, VCWF – Toggle Disconnect; 
+VCEF – Door Interlocking Power 
+Disconnect
+Digit 25—Power Fuse
+0
+= 
+None 
+W
+= 
+With
+Digit 26—Electric Heat Voltage
+0
+= 
+None 
+A
+= 
+208/60/1 
+B
+= 
+208/60/3 
+C
+= 
+240/60/1 
+D
+= 
+277/60/1 
+E
+= 
+480/60/1 
+F
+= 
+480/60/3 
+G
+= 
+347/60/1 
+H
+= 
+575/60/3 
+J
+= 
+380/50/3 
+K
+= 
+120/60/1
+Digit 27 - 29—Electric Heat kW
+000= 
+None 
+010 = 
+1.0 kW 
+015 = 
+1.5 kW 
+460 = 
+46.0 kW
+Note:
+0.5 to 8.0 kW – ½ kW increments 
+8.0 to 18.0 kW – 1 kW increments 
+18.0 to 46.0 kW – 2 kW increments
+Digit 30—Electric Heat Stages
+0
+= 
+None 
+1
+= 
+1 Stage 
+2
+= 
+2 Stages Equal 
+3
+= 
+3 Stages Equal
+Digit 31—Electrical Heat 
+Contactors
+0
+= 
+None 
+1
+= 
+24-volt magnetic 
+2
+= 
+24-volt mercury 
+3
+= 
+PE with magnetic 
+4
+= 
+PE with mercury 
+5
+= 
+SCR heat UC400/UC210 
+6
+= 
+SCR heat FMTD/ENCL/DD00 
+A
+= 
+24-volt mercury (left hand) 
+B
+= 
+24-volt mercury (right hand) 
+C
+= 
+PE with mercury (left hand) 
+D
+= 
+PE with mercury (right hand)
+Digit 32 & 33—Not Used
+00 = 
+N/A
+Digit 34—Actuator
+0
+= 
+Standard 
+A
+= 
+Spring Return (Normally Open) 
+B
+= 
+Spring Return (Normally Closed) 
+C
+= 
+Belimo Actuator
+Digit 35—Sensor Options
+0
+= 
+Standard (Wired) 
+1
+= 
+Factory Mounted Wireless 
+Receiver (Sensor Accessory) 
+2
+= 
+Wireless Communications 
+Interface 
+3
+= 
+Trane Air-Fi Wireless 
+ Communications Interface
+Digit 36—Pre-Wired Factory 
+Solutions
+0
+= 
+None 
+1
+= 
+Factory Mounted DTS 
+2
+= 
+HW Valve Harness 
+3
+= 
+Both DTS & HW Valve Harness 
+4
+= 
+Averaging DTS factory installed 
+in unit (Required for 
+UC210/UC400 with SCR heat)
+Digit 37—Bottom Access with Cam 
+Locks 
+0
+= 
+None
+1
+= 
+Access Left Side Terminal Unit
+2
+= 
+Access Right Side Terminal Unit
+3
+= 
+Access Left Side Terminal Unit 
+with Water Connection on Right
+4
+= 
+Access Right Side Terminal Unit 
+with Water Coil Connection on
+Left

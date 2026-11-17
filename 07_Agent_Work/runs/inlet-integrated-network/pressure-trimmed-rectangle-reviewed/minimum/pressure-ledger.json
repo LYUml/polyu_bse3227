@@ -1,0 +1,3649 @@
+{
+  "outlet_paths": [
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "04kcTKEQ1VFwiZw2uUs86j",
+      "known_straight_friction_Pa": 2.9562638784465816,
+      "conditional_signed_table_subtotal_Pa": 12.68059826435425,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO"
+        },
+        {
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2JsVFcCh5MBxs36NfRYoo1",
+          "signed_Pa": 0.5665758458446846
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0WTAykFzDO6g74PUW_qYSH",
+          "inlet_port_guid": "3sLDGk2DzT08jNltux$XO3",
+          "outlet_port_guid": "1Rkc5yZ21KGPvafajWvd9r",
+          "signed_Pa": 5.844142461215643,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3ZeIIu8ZjLivD3$rEAqFH_",
+          "signed_Pa": 0.01799623623850905
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "0Q5PSEnpvMyRDoeWR9hCaN",
+      "known_straight_friction_Pa": 2.8130286613282425,
+      "conditional_signed_table_subtotal_Pa": 6.836455803138607,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5"
+        },
+        {
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK"
+        },
+        {
+          "product_guid": "34mxrHmz5STv2lghv93cpE",
+          "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+          "outlet_port_guid": "2z22jWXSrP_vk2MXukh_67"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "223pk9Z9fHyP3zWtKUZIvr",
+          "signed_Pa": 0.42494574551068426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "34mxrHmz5STv2lghv93cpE",
+          "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+          "outlet_port_guid": "2z22jWXSrP_vk2MXukh_67",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3Y2iFalPLIjPgobiCbmlpM",
+          "signed_Pa": 0.01639111945417029
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "19nqB5YkrRV8WIlt84xkKt",
+      "known_straight_friction_Pa": 0.7151078301588535,
+      "conditional_signed_table_subtotal_Pa": 6.836455803138607,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c"
+        },
+        {
+          "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+          "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+          "outlet_port_guid": "1ZL_8UkvTGrPV04vRTWkiC"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 7,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3cmKKWOIXG2wIWIQw2L$Ga",
+          "signed_Pa": 0.45608541612658665
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+          "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+          "outlet_port_guid": "1ZL_8UkvTGrPV04vRTWkiC",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "10cDTQJo5IcPLAUKm5b$EG",
+          "signed_Pa": 0.01738126741916791
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1EfJGCOkTTlxk9pcoEkc$3",
+      "known_straight_friction_Pa": 1.5715830259501098,
+      "conditional_signed_table_subtotal_Pa": 6.836455803138607,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3"
+        },
+        {
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19"
+        },
+        {
+          "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+          "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+          "outlet_port_guid": "1Lo4fCHwHKpBgehtk1ZQtH"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 10,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3_3cf04PnN2xcqwNqA9Dlz",
+          "signed_Pa": 0.33906206722376214
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+          "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+          "outlet_port_guid": "1Lo4fCHwHKpBgehtk1ZQtH",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1I5d0BkIHT3A1NnC$0VWpB",
+          "signed_Pa": 0.019215140511546276
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1O43iLk7PUpvkFHwjFhjTx",
+      "known_straight_friction_Pa": 1.9364956205882895,
+      "conditional_signed_table_subtotal_Pa": 7.177796023951804,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w"
+        },
+        {
+          "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+          "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+          "outlet_port_guid": "3W7N38onzQ5fWBxRBucUYC"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 10,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "16XnXAKsDR7fGY5Y8JvRrZ",
+          "signed_Pa": 0.546293872320489
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+          "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+          "outlet_port_guid": "18l_BQy7bMuxYSDHZFCBop",
+          "signed_Pa": 0.23720504646988533,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3_1R9TjS5TtxR81DWGT3Tt",
+          "inlet_port_guid": "1oqFi$Z8XOKfTGhetCDnlA",
+          "outlet_port_guid": "3RNb2Epq1UHu8ZiPMBD4Wp",
+          "signed_Pa": 0.1041351743433116,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0qNVk8Gl5MtunvH8kUxih0",
+          "signed_Pa": 1.1322044144790608
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+          "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+          "outlet_port_guid": "3W7N38onzQ5fWBxRBucUYC",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1ljYkCFLnPd9wUABuPtBnw",
+          "signed_Pa": 0.016356187175640732
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1VmCYr1GPLMRm0ZKW5sQgu",
+      "known_straight_friction_Pa": 3.2924514603619692,
+      "conditional_signed_table_subtotal_Pa": 8.622006677025098,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3cmKKWOIXG2wIWIQw2L$Ga",
+          "signed_Pa": 0.45608541612658665
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+          "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+          "outlet_port_guid": "0VkTZ2pMbK4xpjp9ffynIe",
+          "signed_Pa": 0.24698140122703166,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3EOykJlO1HYxMOUeXGrm9C",
+          "inlet_port_guid": "2aGVDvF3rSUxtXb5pwjpJD",
+          "outlet_port_guid": "2ZgPCBlYTInRH24B_VNV18",
+          "signed_Pa": 0.13297804367431748,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page19,Fitting4-2; selected contraction rows A0/A1=1,2; literal repeated30 and45 degree columns; footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2fieqZej5SJAaqHsMO0oF8",
+          "signed_Pa": 1.2355027130184468
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+          "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+          "outlet_port_guid": "2tNGgXY0XKReKAWgYkwGtg",
+          "signed_Pa": 0.3876185256081574,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2JMPWE5frHZh$wlOnAqtDb",
+          "inlet_port_guid": "15zFWxHNfNbPw3ZRK36Vdk",
+          "outlet_port_guid": "051NCvL2bI7B9BhgLTja3E",
+          "signed_Pa": 0.14316001061176795,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "38dK30VmnKehhKPOSvl9WN",
+          "signed_Pa": 1.3225226665812562
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1hJrcsal9PEeDP4SMx$KOp",
+          "inlet_port_guid": "3MDpUslpfUHeT50dWeoVww",
+          "outlet_port_guid": "0wYPAheBrJI9Q5$QQtsU47",
+          "signed_Pa": 0.874812892765217,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2TYIpAGo5Jn84Ds4cFSqzD",
+          "signed_Pa": 0.0366995180225806
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1Z6wrb4j9R$gfAHp4yZjEz",
+      "known_straight_friction_Pa": 3.0188566654497264,
+      "conditional_signed_table_subtotal_Pa": 7.2373802042517665,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj"
+        },
+        {
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ"
+        },
+        {
+          "product_guid": "0AKG640HHRCvsX97I0rPis",
+          "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+          "outlet_port_guid": "0$3siXB_jSIvotCZZMg48B"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0g9bpYq$DOCvGnKRTNdtFF",
+          "signed_Pa": 0.48318623910491426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+          "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+          "outlet_port_guid": "0s2rFFocjUO97pw1w_LPsN",
+          "signed_Pa": 0.2712624371046197,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0xQD0bae1JS9QSYLjgwgUq",
+          "inlet_port_guid": "3sOMkKWwLJSANSoe$H_BdC",
+          "outlet_port_guid": "1R2J3rTFXJY8ftlMqOvi8j",
+          "signed_Pa": 0.12966196400853988,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page19,Fitting4-2; selected contraction rows A0/A1=1,2; literal repeated30 and45 degree columns; footnote a; reviewed15degree contraction column"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2Ak1om3Z1N5xCmvkzr$r14",
+          "signed_Pa": 1.2671072855507337
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0AKG640HHRCvsX97I0rPis",
+          "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+          "outlet_port_guid": "0$3siXB_jSIvotCZZMg48B",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1eFzE74j9IX9FCS_bpSZi8",
+          "signed_Pa": 0.05525732257927712
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1dNjWj_u9Uc8oYPP9o3wDz",
+      "known_straight_friction_Pa": 4.087084279338517,
+      "conditional_signed_table_subtotal_Pa": 9.00044018784837,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "0p9MUXr_HGLPv9CJE2cNDO"
+        },
+        {
+          "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+          "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+          "outlet_port_guid": "3ekUOlKIvPDOL6tapAxwgR"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 11,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "0p9MUXr_HGLPv9CJE2cNDO",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1LnLmgXgrLMPCjBotJJT1X",
+          "signed_Pa": 2.2702762104450747
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "32SL8_FtLLxRDkUZc7lzNQ",
+          "inlet_port_guid": "0BcuWcI55HuhPJ79uWa9vR",
+          "outlet_port_guid": "188Z9OroPL5OmEPyfb3xoZ",
+          "signed_Pa": 1.2298698581558005,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3TG4i8QwvGw8JWXR1SDbXG",
+          "signed_Pa": 0.24978557197225174
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+          "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+          "outlet_port_guid": "3ekUOlKIvPDOL6tapAxwgR",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3bnJDrEfPJpOdFEQN7QpDb",
+          "signed_Pa": 1.1937357619631332
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3GLkYHze9Uw8_FjhVKOzKc",
+          "inlet_port_guid": "3U04xaSwHI3BeIodELIqRd",
+          "outlet_port_guid": "3Ii_jGjozMsBXMUkcBY5I8",
+          "signed_Pa": 0.9341145265539629,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2NUeFlDmPKeAdID44c7Y3d",
+          "signed_Pa": 0.13164558834495854
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "1gBxgO8MHJlwYYjA9Jzixk",
+      "known_straight_friction_Pa": 5.325929257490653,
+      "conditional_signed_table_subtotal_Pa": 8.396425084447483,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO"
+        },
+        {
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7"
+        },
+        {
+          "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+          "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+          "outlet_port_guid": "2Fese000fPyOpofbM3XvoW"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 19,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2JsVFcCh5MBxs36NfRYoo1",
+          "signed_Pa": 0.5665758458446846
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0WTAykFzDO6g74PUW_qYSH",
+          "inlet_port_guid": "3sLDGk2DzT08jNltux$XO3",
+          "outlet_port_guid": "3e27f9dJDQVRpPQ0nZq1Dz",
+          "signed_Pa": 0.25731188793451876,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0rXojppeTH0BTVX2pgkVrd",
+          "inlet_port_guid": "0rn3VgsATOYO_4EsETpjkR",
+          "outlet_port_guid": "1JWwvHqZ5Pk8QXvkqnkPUt",
+          "signed_Pa": 0.10486832830349338,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2s98LbeQnOCR5h4UlU$jeq",
+          "signed_Pa": 1.1394531325700576
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+          "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+          "outlet_port_guid": "3CpLmocJPUOReUAQBRYuXq",
+          "signed_Pa": 0.3602459434954647,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+          "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+          "outlet_port_guid": "2Fese000fPyOpofbM3XvoW",
+          "signed_Pa": null,
+          "status": "native_condition_failed",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0KANCt4H1OwBz_XiEYPohN",
+          "signed_Pa": 1.1489897655628842
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0ibn1oYr9NqAKrRPJhTTLc",
+          "inlet_port_guid": "1wmPghLTzMc9crpVwFcXDv",
+          "outlet_port_guid": "1QyjMIWCjSHQTRaBRhP8p2",
+          "signed_Pa": 0.8375431215753991,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3UfxkNar9T3uv889TvBuZo",
+          "signed_Pa": 0.09921871714963908
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "2XRMh6eUHVzB04Kc3pzRDy",
+      "known_straight_friction_Pa": 2.8907177829336677,
+      "conditional_signed_table_subtotal_Pa": 8.705171377667588,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "0p9MUXr_HGLPv9CJE2cNDO"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 10,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "0p9MUXr_HGLPv9CJE2cNDO",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1LnLmgXgrLMPCjBotJJT1X",
+          "signed_Pa": 2.2702762104450747
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "32SL8_FtLLxRDkUZc7lzNQ",
+          "inlet_port_guid": "0BcuWcI55HuhPJ79uWa9vR",
+          "outlet_port_guid": "188Z9OroPL5OmEPyfb3xoZ",
+          "signed_Pa": 1.2298698581558005,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3TG4i8QwvGw8JWXR1SDbXG",
+          "signed_Pa": 0.24978557197225174
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+          "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+          "outlet_port_guid": "0lj9zTt0HRHeiXhV7kTYxb",
+          "signed_Pa": 0.47387126608713653,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1PiEAHH0TK3gfwO81Khyfo",
+          "inlet_port_guid": "1xPf9_NwnUsPPGD2kkbW_O",
+          "outlet_port_guid": "1x2hi6q2jJQPf0Pjv1hQ1y",
+          "signed_Pa": 0.1649744502860434,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2A5hnkfKfVQA3ppPSDKTLp",
+          "signed_Pa": 0.12901485390324222
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "2gCF2LVSTVvxKPQvm8mNaz",
+      "known_straight_friction_Pa": 1.7152603856930497,
+      "conditional_signed_table_subtotal_Pa": 6.836455803138607,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj"
+        },
+        {
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ"
+        },
+        {
+          "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+          "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+          "outlet_port_guid": "1bEO4yEs9I1RzXgutXD9QZ"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 10,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0g9bpYq$DOCvGnKRTNdtFF",
+          "signed_Pa": 0.48318623910491426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+          "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+          "outlet_port_guid": "1bEO4yEs9I1RzXgutXD9QZ",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0WvdfA3zDKfO0CW$V5Jsne",
+          "signed_Pa": 0.01876832837333403
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "2y3RgC$2LLvx8FuOwcC3F5",
+      "known_straight_friction_Pa": 4.171664922488566,
+      "conditional_signed_table_subtotal_Pa": 7.075744115950279,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5"
+        },
+        {
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK"
+        },
+        {
+          "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+          "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+          "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5"
+        },
+        {
+          "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+          "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 16,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "223pk9Z9fHyP3zWtKUZIvr",
+          "signed_Pa": 0.42494574551068426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "34mxrHmz5STv2lghv93cpE",
+          "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+          "outlet_port_guid": "2KJBFJeYXV_eblaFt$mMtm",
+          "signed_Pa": 0.2392883128116724,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+          "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+          "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1TIfjG5dDG7vbAe6RHp7j4",
+          "signed_Pa": 1.3335441023885914
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+          "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2dwkXYndrQe8akRs1ziEM_",
+          "signed_Pa": 0.041483278225902226
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3NCmcUs4DOtwdhQfxEZBQV",
+      "known_straight_friction_Pa": 5.469473592471998,
+      "conditional_signed_table_subtotal_Pa": 8.302486780524728,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5"
+        },
+        {
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK"
+        },
+        {
+          "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+          "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+          "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5"
+        },
+        {
+          "product_guid": "0jkIpE339UJuVju7ICXFwa",
+          "inlet_port_guid": "3feqvu8S5SWRQiRbBPK2Kq",
+          "outlet_port_guid": "2EjiMHLC9LBBzUh2cH8p5c"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 19,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+          "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+          "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "223pk9Z9fHyP3zWtKUZIvr",
+          "signed_Pa": 0.42494574551068426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "34mxrHmz5STv2lghv93cpE",
+          "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+          "outlet_port_guid": "2KJBFJeYXV_eblaFt$mMtm",
+          "signed_Pa": 0.2392883128116724,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+          "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+          "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1TIfjG5dDG7vbAe6RHp7j4",
+          "signed_Pa": 1.3335441023885914
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+          "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+          "outlet_port_guid": "3Eml8WTKPU2hjYyow37wiq",
+          "signed_Pa": 0.4282696339286119,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0jkIpE339UJuVju7ICXFwa",
+          "inlet_port_guid": "3feqvu8S5SWRQiRbBPK2Kq",
+          "outlet_port_guid": "2EjiMHLC9LBBzUh2cH8p5c",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "10hC2HAf5QjBh8eHXVJY72",
+          "signed_Pa": 1.2279903056387154
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1T1iJcPpbHQe9NXE03EuZB",
+          "inlet_port_guid": "0j1OuFfI1UYuWN5GaStw1Z",
+          "outlet_port_guid": "1oHMyDUUDOGw0kmQR75W9w",
+          "signed_Pa": 0.7984730306458371,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3yhBBouBPRw8LwOEWLhhps",
+          "signed_Pa": 0.11130164257061936
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3PgHjDnB5PGew0mTO82o1x",
+      "known_straight_friction_Pa": 1.962527201389046,
+      "conditional_signed_table_subtotal_Pa": 7.216415248039956,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c"
+        },
+        {
+          "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+          "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+          "outlet_port_guid": "1S_N5GN_LIvgSglN69NqHL"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 10,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3cmKKWOIXG2wIWIQw2L$Ga",
+          "signed_Pa": 0.45608541612658665
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+          "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+          "outlet_port_guid": "0VkTZ2pMbK4xpjp9ffynIe",
+          "signed_Pa": 0.24698140122703166,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3EOykJlO1HYxMOUeXGrm9C",
+          "inlet_port_guid": "2aGVDvF3rSUxtXb5pwjpJD",
+          "outlet_port_guid": "2ZgPCBlYTInRH24B_VNV18",
+          "signed_Pa": 0.13297804367431748,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page19,Fitting4-2; selected contraction rows A0/A1=1,2; literal repeated30 and45 degree columns; footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2fieqZej5SJAaqHsMO0oF8",
+          "signed_Pa": 1.2355027130184468
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+          "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+          "outlet_port_guid": "1S_N5GN_LIvgSglN69NqHL",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0hfguPDXzM4uq$XxvCCMMo",
+          "signed_Pa": 0.02929792563091357
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3WFgs1EVvJFwBy6YZ6ely2",
+      "known_straight_friction_Pa": 3.0115035217996393,
+      "conditional_signed_table_subtotal_Pa": 7.088192294235931,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3"
+        },
+        {
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19"
+        },
+        {
+          "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+          "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+          "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6"
+        },
+        {
+          "product_guid": "2XEZn9xizSj8RijhAxhINj",
+          "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+          "outlet_port_guid": "382kKKzb1POROR8L3525QG"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3_3cf04PnN2xcqwNqA9Dlz",
+          "signed_Pa": 0.33906206722376214
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+          "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+          "outlet_port_guid": "2P_zK_1S1L6Pd_3Ph2n5cO",
+          "signed_Pa": 0.251736491097324,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+          "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+          "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0RZ5PgHVXJLvQNvy$btRzb",
+          "signed_Pa": 1.3864308155339735
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2XEZn9xizSj8RijhAxhINj",
+          "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+          "outlet_port_guid": "382kKKzb1POROR8L3525QG",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1h76SSiWvQkv6hW9gZiAWw",
+          "signed_Pa": 0.0727048208271022
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3_3wa4HVzHjhNFnnHuZDNN",
+      "known_straight_friction_Pa": 0.8043815395848847,
+      "conditional_signed_table_subtotal_Pa": 6.836455803138607,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w"
+        },
+        {
+          "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+          "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+          "outlet_port_guid": "0UmgjQTyDLw8DyPQHYOLYH"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 7,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "16XnXAKsDR7fGY5Y8JvRrZ",
+          "signed_Pa": 0.546293872320489
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+          "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+          "outlet_port_guid": "0UmgjQTyDLw8DyPQHYOLYH",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2xxjOz63jHgeE8yuHmmyJ7",
+          "signed_Pa": 0.016446520651296807
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3cpI78N6LIweUPri3FAg97",
+      "known_straight_friction_Pa": 4.20465583209524,
+      "conditional_signed_table_subtotal_Pa": 8.449100255650446,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj"
+        },
+        {
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ"
+        },
+        {
+          "product_guid": "3h3LVEhmLMw8Yn5iIujoaS",
+          "inlet_port_guid": "0qAVw_HpLI6hYe5UzzALmj",
+          "outlet_port_guid": "0EvGYEXPfHA8XCZDkoFbUT"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 16,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+          "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+          "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0g9bpYq$DOCvGnKRTNdtFF",
+          "signed_Pa": 0.48318623910491426
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+          "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+          "outlet_port_guid": "0s2rFFocjUO97pw1w_LPsN",
+          "signed_Pa": 0.2712624371046197,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0xQD0bae1JS9QSYLjgwgUq",
+          "inlet_port_guid": "3sOMkKWwLJSANSoe$H_BdC",
+          "outlet_port_guid": "1R2J3rTFXJY8ftlMqOvi8j",
+          "signed_Pa": 0.12966196400853988,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page19,Fitting4-2; selected contraction rows A0/A1=1,2; literal repeated30 and45 degree columns; footnote a; reviewed15degree contraction column"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2Ak1om3Z1N5xCmvkzr$r14",
+          "signed_Pa": 1.2671072855507337
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0AKG640HHRCvsX97I0rPis",
+          "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+          "outlet_port_guid": "2Mw4_k0ETQdhCWoR$m26S6",
+          "signed_Pa": 0.4020089560545399,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3h3LVEhmLMw8Yn5iIujoaS",
+          "inlet_port_guid": "0qAVw_HpLI6hYe5UzzALmj",
+          "outlet_port_guid": "0EvGYEXPfHA8XCZDkoFbUT",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2Acysx8AbINgOLlSWUMu3$",
+          "signed_Pa": 1.1282172142888867
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0jrW4IiM9QGe5EURDoYzuc",
+          "inlet_port_guid": "0tezDgJE9RvP8RzXgaa5tB",
+          "outlet_port_guid": "3xUCeixorQyByUoyI1gNC3",
+          "signed_Pa": 0.8097110953441402,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0FMDd$bG1NneS7N2OdRFsP",
+          "signed_Pa": 0.1128392749359033
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3rSmbHh3bJQATE3aOIxdW5",
+      "known_straight_friction_Pa": 3.1088248240175447,
+      "conditional_signed_table_subtotal_Pa": 8.372822500130685,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w"
+        },
+        {
+          "product_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+          "inlet_port_guid": "1p6TIdnIbSjBYvAs4khC5G",
+          "outlet_port_guid": "2HLqNrtUDQd9MK97gKpnzs"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 13,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "16XnXAKsDR7fGY5Y8JvRrZ",
+          "signed_Pa": 0.546293872320489
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+          "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+          "outlet_port_guid": "18l_BQy7bMuxYSDHZFCBop",
+          "signed_Pa": 0.23720504646988533,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3_1R9TjS5TtxR81DWGT3Tt",
+          "inlet_port_guid": "1oqFi$Z8XOKfTGhetCDnlA",
+          "outlet_port_guid": "3RNb2Epq1UHu8ZiPMBD4Wp",
+          "signed_Pa": 0.1041351743433116,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0qNVk8Gl5MtunvH8kUxih0",
+          "signed_Pa": 1.1322044144790608
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+          "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+          "outlet_port_guid": "3cuQS10H5QHxLhP3oQCW_D",
+          "signed_Pa": 0.3542021002036133,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+          "inlet_port_guid": "1p6TIdnIbSjBYvAs4khC5G",
+          "outlet_port_guid": "2HLqNrtUDQd9MK97gKpnzs",
+          "signed_Pa": null,
+          "status": "native_condition_failed",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "00GeeqwXDGqujg1GB$eSes",
+          "signed_Pa": 1.1533786583051355
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1TWK5B6RfT_AFHX9Xe4Kgi",
+          "inlet_port_guid": "1wLl5BuijGh8Fl74e_vajg",
+          "outlet_port_guid": "39NU49EXfUafAGD0acjryX",
+          "signed_Pa": 0.8408243759752672,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1JDTIpFW5QSREtJ610AQ34",
+          "signed_Pa": 0.035306732299760564
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3sUi7SOgfNUOF9b6e4mtj2",
+      "known_straight_friction_Pa": 4.4561163170371065,
+      "conditional_signed_table_subtotal_Pa": 8.61428391416567,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3"
+        },
+        {
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19"
+        },
+        {
+          "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+          "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+          "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 16,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2z0OsSxEPMxe7bw868aznG",
+          "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+          "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3_3cf04PnN2xcqwNqA9Dlz",
+          "signed_Pa": 0.33906206722376214
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+          "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+          "outlet_port_guid": "2P_zK_1S1L6Pd_3Ph2n5cO",
+          "signed_Pa": 0.251736491097324,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+          "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+          "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0RZ5PgHVXJLvQNvy$btRzb",
+          "signed_Pa": 1.3864308155339735
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2XEZn9xizSj8RijhAxhINj",
+          "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+          "outlet_port_guid": "2XVFgFS9HLqga3vlsxPQcS",
+          "signed_Pa": 0.4532755271246447,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2FvdFUVL5HUxtti7erekMp",
+          "inlet_port_guid": "2ztp7Y0mfPTwv3dOWeYYlO",
+          "outlet_port_guid": "1zpj_pI8DU$enV_vvprOJv",
+          "signed_Pa": 0.16188411683023032,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "01iiRNwCPHCg2TQaDQTBPh",
+          "signed_Pa": 1.4250342134016647
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0WD0vb27TQyg59IaExUFo$",
+          "inlet_port_guid": "38yy7kNGzGxxIfsZILjcOU",
+          "outlet_port_guid": "3qCmCCPGzIA8Av$hAWq5H_",
+          "signed_Pa": 0.9109319759748639,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "3YEo7IX2vLHOZoUdtxYhkW",
+          "signed_Pa": 0.09228340266290495
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    },
+    {
+      "inlet_port_guid": "3AOjmbQnjTpeyEM$lei29G",
+      "outlet_port_guid": "3zsA7B0DvGYueQOohcOP9Y",
+      "known_straight_friction_Pa": 4.0953731316057596,
+      "conditional_signed_table_subtotal_Pa": 7.198636019376619,
+      "numerically_unresolved_fitting_paths": [
+        {
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze"
+        },
+        {
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7"
+        },
+        {
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv"
+        },
+        {
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO"
+        },
+        {
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7"
+        },
+        {
+          "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+          "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+          "outlet_port_guid": "1gNMdIL3nRCfHcGS3hfTKn"
+        }
+      ],
+      "conditional_arithmetic_only_Pa": null,
+      "shared_interfaces_requiring_joint_review": 16,
+      "contributions": [
+        {
+          "kind": "straight",
+          "product_guid": "3Tf1SEAG9NLxz6miD8JeEM",
+          "signed_Pa": 0.15546143698185352
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1GS8rKBADM7RZvHhbL6Ep3",
+          "inlet_port_guid": "2tD0ljWczL0eLHvQXj1YmQ",
+          "outlet_port_guid": "3AHfHBmovMox314OcElvL$",
+          "signed_Pa": 2.2163852147161696,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2ww9pYvAfSyx5JhKUO62Me",
+          "signed_Pa": 0.08617970963124538
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3__drCT4XK$8OhZtbklpLq",
+          "inlet_port_guid": "0QMAjz$MDG99BRVSWGakej",
+          "outlet_port_guid": "1w77cfnQrNmwPXHKl1eHli",
+          "signed_Pa": 4.620070588422437,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page12,Fitting3-5 smooth rectangular without vanes; source C0=Ktheta*KRe*C0-prime,90 degree angle factor and Reynolds correction"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+          "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+          "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "1Ufk3tsn5INAsuK0h2HT1y",
+          "signed_Pa": 0.9716646716017026
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+          "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+          "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+          "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+          "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0GlYPBdTrOk9iSc8VSdy5M",
+          "signed_Pa": 1.1583859781485866
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+          "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+          "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+          "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+          "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+          "signed_Pa": null,
+          "status": "source_data_required",
+          "source_id": null,
+          "citation_location": null
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2JsVFcCh5MBxs36NfRYoo1",
+          "signed_Pa": 0.5665758458446846
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0WTAykFzDO6g74PUW_qYSH",
+          "inlet_port_guid": "3sLDGk2DzT08jNltux$XO3",
+          "outlet_port_guid": "3e27f9dJDQVRpPQ0nZq1Dz",
+          "signed_Pa": 0.25731188793451876,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28 main reference to printed page38,Fitting5-23 Main Cc,s"
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "0rXojppeTH0BTVX2pgkVrd",
+          "inlet_port_guid": "0rn3VgsATOYO_4EsETpjkR",
+          "outlet_port_guid": "1JWwvHqZ5Pk8QXvkqnkPUt",
+          "signed_Pa": 0.10486832830349338,
+          "status": "physical_review_required",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page20,Fitting4-4,area ratio1..2 and angle20/30/45 degrees; contraction footnote a"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "2s98LbeQnOCR5h4UlU$jeq",
+          "signed_Pa": 1.1394531325700576
+        },
+        {
+          "kind": "fitting",
+          "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+          "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+          "outlet_port_guid": "1gNMdIL3nRCfHcGS3hfTKn",
+          "signed_Pa": null,
+          "status": "table_support_missing",
+          "source_id": "ashrae2021",
+          "citation_location": "Printed page42,Fitting5-28,branch Cc,b"
+        },
+        {
+          "kind": "straight",
+          "product_guid": "0JgqECwtPHrA0cyUHrcIbw",
+          "signed_Pa": 0.01765235682762934
+        }
+      ],
+      "unresolved_scope": [
+        "fitting physical applicability and source transcription",
+        "whole-fitting friction and pressure stations",
+        "adjacent fitting and joint interaction",
+        "terminal and equipment losses",
+        "boundary pressure requirements and physical source assumptions"
+      ],
+      "complete_total_pressure_drop_Pa": null
+    }
+  ],
+  "outlet_count": 20,
+  "unique_fitting_path_count": 63,
+  "conditional_numerical_path_count": 31,
+  "numerically_unresolved_fitting_path_count": 32,
+  "missing_evidence_by_outlet_coverage": [
+    {
+      "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+      "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+      "outlet_port_guid": "1x9U27nGzJ4Q1jY7FHDFze",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "1EfJGCOkTTlxk9pcoEkc$3",
+        "1Z6wrb4j9R$gfAHp4yZjEz",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "2gCF2LVSTVvxKPQvm8mNaz",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV",
+        "3WFgs1EVvJFwBy6YZ6ely2",
+        "3cpI78N6LIweUPri3FAg97",
+        "3sUi7SOgfNUOF9b6e4mtj2",
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 12,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "outlet_port_guid": "08fu5hXC5UHwzWpe13ncd7",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV",
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 6,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2Hhpdn9zvHWgPTh84ov2v6",
+      "inlet_port_guid": "2wFgskqxTR99DbMrLsYlzl",
+      "outlet_port_guid": "28BBe1LdPLF8FaN_NcfClv",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV",
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 6,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "1YJt4TrT9S8BByBTRqevjy",
+      "inlet_port_guid": "1rS_9IcmfSqfvyOANBe7zg",
+      "outlet_port_guid": "1TTm_5Ue5H3h1ESptg8FlK",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "outlet_port_guid": "0zXiOuMfbVnAg_KHbIFAy3",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1EfJGCOkTTlxk9pcoEkc$3",
+        "3WFgs1EVvJFwBy6YZ6ely2",
+        "3sUi7SOgfNUOF9b6e4mtj2"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "1pO1kxbLLHgeS$_8xwTnCF",
+      "inlet_port_guid": "1mDKJuBeTQnf_0HHwfZ5TI",
+      "outlet_port_guid": "2sY$pT2HLT_vGIq2bU2aaj",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1Z6wrb4j9R$gfAHp4yZjEz",
+        "2gCF2LVSTVvxKPQvm8mNaz",
+        "3cpI78N6LIweUPri3FAg97"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+      "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+      "outlet_port_guid": "0$eywnGm1P_vjAxP4lFxWO",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2GbZoz5nfRsPMRMT$Zb04z",
+      "inlet_port_guid": "0dR44ah91JrwoF3lu_418z",
+      "outlet_port_guid": "0B$TVH4_vT_xlrygN9n2g5",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "0Q5PSEnpvMyRDoeWR9hCaN",
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2dn9VHyVbTPeHkLMTVDJUw",
+      "inlet_port_guid": "34aZ0QXkHL1hfjJaQvI$Pl",
+      "outlet_port_guid": "29mH$Ion1ULwX4L96Nz8rZ",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1Z6wrb4j9R$gfAHp4yZjEz",
+        "2gCF2LVSTVvxKPQvm8mNaz",
+        "3cpI78N6LIweUPri3FAg97"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "2v8d4ojL5QafzZ9D0Bm0K7",
+      "inlet_port_guid": "0hyS6ic$fUGw2K_wd42UCL",
+      "outlet_port_guid": "1wX6A_LhXMwAT5sxQtr6W7",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "04kcTKEQ1VFwiZw2uUs86j",
+        "1gBxgO8MHJlwYYjA9Jzixk",
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "2z0OsSxEPMxe7bw868aznG",
+      "inlet_port_guid": "2pVHr334XIg8naxCs33_Pt",
+      "outlet_port_guid": "18v6pdZarO0RNoVJv8ud19",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1EfJGCOkTTlxk9pcoEkc$3",
+        "3WFgs1EVvJFwBy6YZ6ely2",
+        "3sUi7SOgfNUOF9b6e4mtj2"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+      "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+      "outlet_port_guid": "1JXx68DOjGoB7rRh$1wW9w",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1O43iLk7PUpvkFHwjFhjTx",
+        "3_3wa4HVzHjhNFnnHuZDNN",
+        "3rSmbHh3bJQATE3aOIxdW5"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+      "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+      "outlet_port_guid": "1nZG_eMK1Gye1MngM01C4c",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "19nqB5YkrRV8WIlt84xkKt",
+        "1VmCYr1GPLMRm0ZKW5sQgu",
+        "3PgHjDnB5PGew0mTO82o1x"
+      ],
+      "affected_outlet_count": 3,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "07b4f9lQPRehcpJNvrJdoA",
+      "inlet_port_guid": "38l7dDSVbTPvdCZLLVqB1V",
+      "outlet_port_guid": "0y2UyKXe9G$8OfcxWvJsB6",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "3WFgs1EVvJFwBy6YZ6ely2",
+        "3sUi7SOgfNUOF9b6e4mtj2"
+      ],
+      "affected_outlet_count": 2,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+      "inlet_port_guid": "1eaqInnnrTIwoGGSUzFSzP",
+      "outlet_port_guid": "0p9MUXr_HGLPv9CJE2cNDO",
+      "predefined_type": "JUNCTION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "1dNjWj_u9Uc8oYPP9o3wDz",
+        "2XRMh6eUHVzB04Kc3pzRDy"
+      ],
+      "affected_outlet_count": 2,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3ysY1EiSPKuwnw9GCI$6QR",
+      "inlet_port_guid": "0k4loRkPHQiw$mcn9jjSrb",
+      "outlet_port_guid": "0jfQ4MGwTUzO$zFUeXlyp5",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "2y3RgC$2LLvx8FuOwcC3F5",
+        "3NCmcUs4DOtwdhQfxEZBQV"
+      ],
+      "affected_outlet_count": 2,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "0AKG640HHRCvsX97I0rPis",
+      "inlet_port_guid": "1vHPf3YCPJePl4FpDGGXZg",
+      "outlet_port_guid": "0$3siXB_jSIvotCZZMg48B",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "1Z6wrb4j9R$gfAHp4yZjEz"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "0UHvCBIGrKUh162tPWAMb6",
+      "inlet_port_guid": "2HxAY926DRIOGl0bjGsiSB",
+      "outlet_port_guid": "1ZL_8UkvTGrPV04vRTWkiC",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "19nqB5YkrRV8WIlt84xkKt"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "inlet_port_guid": "1p6TIdnIbSjBYvAs4khC5G",
+      "outlet_port_guid": "2HLqNrtUDQd9MK97gKpnzs",
+      "predefined_type": "TRANSITION",
+      "status": "native_condition_failed",
+      "affected_outlet_port_guids": [
+        "3rSmbHh3bJQATE3aOIxdW5"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "0jkIpE339UJuVju7ICXFwa",
+      "inlet_port_guid": "3feqvu8S5SWRQiRbBPK2Kq",
+      "outlet_port_guid": "2EjiMHLC9LBBzUh2cH8p5c",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "3NCmcUs4DOtwdhQfxEZBQV"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "2Dsp0tDUbIPeYXMKPfWKVu",
+      "inlet_port_guid": "26IKQzvmLVcgbajEDuD3Xx",
+      "outlet_port_guid": "3W7N38onzQ5fWBxRBucUYC",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "1O43iLk7PUpvkFHwjFhjTx"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2K8VLv$mHMsBKiV6ZO9m6P",
+      "inlet_port_guid": "3H866S3rfOHvzLKNGUAT1n",
+      "outlet_port_guid": "1S_N5GN_LIvgSglN69NqHL",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "3PgHjDnB5PGew0mTO82o1x"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+      "inlet_port_guid": "1aTCnctAzNnPvODOWALaHX",
+      "outlet_port_guid": "2Fese000fPyOpofbM3XvoW",
+      "predefined_type": "TRANSITION",
+      "status": "native_condition_failed",
+      "affected_outlet_port_guids": [
+        "1gBxgO8MHJlwYYjA9Jzixk"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "2XEZn9xizSj8RijhAxhINj",
+      "inlet_port_guid": "1hlzxYpazLqPqLMGuB8JwP",
+      "outlet_port_guid": "382kKKzb1POROR8L3525QG",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "3WFgs1EVvJFwBy6YZ6ely2"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2d3C3bkV5TKOINf_o71Axc",
+      "inlet_port_guid": "0$7xLgTjbUHRLIu6TQcqLM",
+      "outlet_port_guid": "1gNMdIL3nRCfHcGS3hfTKn",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "3zsA7B0DvGYueQOohcOP9Y"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "2qcqvYPk5G8vc$41LcIAkK",
+      "inlet_port_guid": "1oMbOVJKbPbhrv1da6Qnrg",
+      "outlet_port_guid": "1Lo4fCHwHKpBgehtk1ZQtH",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "1EfJGCOkTTlxk9pcoEkc$3"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "34mxrHmz5STv2lghv93cpE",
+      "inlet_port_guid": "3F1GuPkT1LqAkuzNso3YGc",
+      "outlet_port_guid": "2z22jWXSrP_vk2MXukh_67",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "0Q5PSEnpvMyRDoeWR9hCaN"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3BAXRbMxzN3eioe3GnwiQn",
+      "inlet_port_guid": "2xpbJX7jnQgO2grYaphpZx",
+      "outlet_port_guid": "0UmgjQTyDLw8DyPQHYOLYH",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "3_3wa4HVzHjhNFnnHuZDNN"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3DcSerARnJc8mAlL$xnPwO",
+      "inlet_port_guid": "1l83sKCWfNBhPBByroHfdh",
+      "outlet_port_guid": "1bEO4yEs9I1RzXgutXD9QZ",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "2gCF2LVSTVvxKPQvm8mNaz"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3MshfZ5Q5K_eON58DjXDyB",
+      "inlet_port_guid": "1Xg7RqPGrRxOQWFtXuTK9i",
+      "outlet_port_guid": "3ekUOlKIvPDOL6tapAxwgR",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "1dNjWj_u9Uc8oYPP9o3wDz"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    },
+    {
+      "product_guid": "3h3LVEhmLMw8Yn5iIujoaS",
+      "inlet_port_guid": "0qAVw_HpLI6hYe5UzzALmj",
+      "outlet_port_guid": "0EvGYEXPfHA8XCZDkoFbUT",
+      "predefined_type": "TRANSITION",
+      "status": "source_data_required",
+      "affected_outlet_port_guids": [
+        "3cpI78N6LIweUPri3FAg97"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis",
+        "Explicit source transition_flow_change declaration for published/manufacturer transition tables"
+      ]
+    },
+    {
+      "product_guid": "3nUnywxFXUIfHj1ihinFuB",
+      "inlet_port_guid": "2eDy1o6TfJVe8S7L6Ku49B",
+      "outlet_port_guid": "2iuBlXixfUgg54RbHw2A0c",
+      "predefined_type": "JUNCTION",
+      "status": "table_support_missing",
+      "affected_outlet_port_guids": [
+        "2y3RgC$2LLvx8FuOwcC3F5"
+      ],
+      "affected_outlet_count": 1,
+      "required_evidence": [
+        "Applicable fitting geometry,direction,flow ratio and fluid/regime source",
+        "Hash-pinned document,publication edition and exact table/page or test location",
+        "Explicit actual owned-port reference velocity and signed total-pressure convention",
+        "Published support cell or directly applicable source test point; no extrapolation",
+        "Independent transcription and physical applicability review",
+        "Whole fitting friction/stations and adjacent fitting/joint interaction basis"
+      ]
+    }
+  ],
+  "original_requirement_ids": [
+    "R001-identity",
+    "R002-identity",
+    "R003-identity",
+    "R004-identity",
+    "R004-layout",
+    "R004-routing",
+    "R005-delivery",
+    "R006-load",
+    "R006-layout",
+    "R006-terminal",
+    "R006-adpi",
+    "R007-load",
+    "R007-layout",
+    "R007-terminal",
+    "R007-adpi",
+    "R008-minimum",
+    "R009-minimum",
+    "R009-terminal",
+    "R009-adpi",
+    "R010-routing",
+    "R011-routing",
+    "R011-delivery",
+    "R012-sizing",
+    "R013-sizing",
+    "R014-schedule",
+    "R014-delivery",
+    "producer-air-allocation-P007",
+    "producer-terminal-lookup-P007",
+    "producer-terminal-lookup-P009",
+    "producer-duct-schedule-P013",
+    "producer-duct-sheet-P011",
+    "producer-native-sheet-P011",
+    "hk-flex-check"
+  ],
+  "excluded_transition_end_straight_study_count": 0,
+  "pressure_budget_complete": false,
+  "critical_path": null,
+  "fan_duty_Pa": null,
+  "design_accepted": false,
+  "scope": "Evidence accounting only. Coverage order is research priority, not hydraulic criticality. Signed partial subtotals are not lower bounds or fan duties. Separate end-straight studies are excluded; parallel outlet paths are never summed."
+}

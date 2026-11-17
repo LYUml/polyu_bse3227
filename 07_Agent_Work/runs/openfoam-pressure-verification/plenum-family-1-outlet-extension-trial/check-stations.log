@@ -1,0 +1,98 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/checkMesh.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\plenum-family-1-outlet-extension-trial -constant -allTopology -noFunctionObjects
+Date   : Nov 17 2026
+Time   : 07:19:51
+Host   : "LYUML-WIN"
+PID    : 30044
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-outlet-extension-trial
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = constant
+
+--> FOAM Warning : 
+    From function Foam::Istream& Foam::regIOobject::readStream(const Foam::word&, bool)
+    in file db/regIOobject/regIOobjectRead.C at line 169
+    Reading "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/plenum-family-1-outlet-extension-trial/constant/polyMesh/faceZones" at line 1
+    Unexpected class name regIOobject, expected faceZoneList
+    while reading object faceZones
+Enabling all (cell, face, edge, point) topology checks.
+
+Time = constant
+
+Mesh stats
+    points:           201873
+    faces:            583328
+    internal faces:   557752
+    cells:            190880
+    faces per cell:   5.9779966471081307
+    boundary patches: 6
+    point zones:      0
+    face zones:       4
+    cell zones:       4
+
+Overall number of cells of each type:
+    hexahedra:     186680
+    prisms:        4080
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     120
+    Breakdown of polyhedra by number of faces:
+        faces   number of cells
+            5   120
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Topological cell zip-up check OK.
+    Face-face connectivity OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+                   Patch    Faces   Points                  Surface topology
+               air_inlet     1368     1443  ok (non-closed singly connected)
+            air_outlet_0      484      504  ok (non-closed singly connected)
+            air_outlet_1      484      504  ok (non-closed singly connected)
+            air_outlet_2      484      504  ok (non-closed singly connected)
+            air_outlet_3      484      504  ok (non-closed singly connected)
+                air_wall    22272    22539  ok (non-closed singly connected)
+
+Checking geometry...
+    Overall domain bounding box (-0.53892500000000609 -0.45045638840035057 -0.17699999999999999) (0.53892500000000609 0.45045000000000002 0.17699999999999999)
+    Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
+    Mesh has 3 solution (non-empty) directions (1 1 1)
+    Max cell openness = 2.7324195954897851e-16 OK.
+    Max aspect ratio = 3.6035848932689007 OK.
+    Minimum face area = 3.1751261045194902e-05. Maximum face area = 0.00015396181122031267.  Face area magnitudes OK.
+    Min volume = 2.7945127947506479e-07. Max volume = 1.4351592665309472e-06.  Total volume = 0.18901213615609538.  Cell volumes OK.
+    Mesh non-orthogonality Max: 31.323707503860184 average: 1.8384488461612383
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.60411265901689837 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+End
+

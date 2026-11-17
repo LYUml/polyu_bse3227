@@ -1,0 +1,59 @@
+{
+  "window_iterations": [
+    1,
+    20
+  ],
+  "maximum_relative_flow_errors": {
+    "inlet": 9.803504252988697e-15,
+    "outlet_0": 6.4152354996105825e-15,
+    "outlet_1": 5.94582802402932e-15,
+    "outlet_2": 7.522806464715855e-15,
+    "outlet_3": 1.1109310255423214e-14
+  },
+  "maximum_relative_mass_imbalance": 1.4303473418294987e-14,
+  "pressures": {
+    "outlet_0": {
+      "mean_Pa": 5.082281605393755,
+      "range_Pa": 0.3842434263091512,
+      "relative_range": 0.07560451311894228,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_1": {
+      "mean_Pa": 5.236023042497671,
+      "range_Pa": 0.3901346296098147,
+      "relative_range": 0.07450972359046647,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_2": {
+      "mean_Pa": 3.302239118560557,
+      "range_Pa": 0.7159750861692586,
+      "relative_range": 0.21681503381903838,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_3": {
+      "mean_Pa": 3.709419025617611,
+      "range_Pa": 0.7441996045482071,
+      "relative_range": 0.2006243024604909,
+      "positive": true,
+      "stable": false
+    }
+  },
+  "numerical_targets": {
+    "flow": 0.001,
+    "mass": 0.001,
+    "pressure_range": 0.005
+  },
+  "flow_pass": true,
+  "mass_pass": true,
+  "pressure_stability_pass": false,
+  "numerical_window_pass": false,
+  "engineering_accepted": false,
+  "scope": "New-grid twenty-step higher-order screen only",
+  "complete_200_step_window": false,
+  "negative_k_events": 19,
+  "minimum_prebounding_k": -0.2611559520389377,
+  "startup_accepted": false
+}

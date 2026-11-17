@@ -1,0 +1,18 @@
+{
+  "schema": "bsa.module-request/1",
+  "project_id": "current-agent-refresh",
+  "scenario_id": "tool-change-replay",
+  "capability": "requirements.source-inventory",
+  "coordinate_frame": {
+    "id": "requirements-no-geometry-claim",
+    "kind": "source-world-si",
+    "length_unit": "m",
+    "georeferenced": false
+  },
+  "sources": {
+    "plan": {
+      "path": "..\\..\\project\\engineering-supporting-evidence-plan.json",
+      "sha256": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769"
+    }
+  }
+}

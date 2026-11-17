@@ -1,0 +1,33 @@
+"""Constant-height tee cores and in-envelope height contractions; endpoints fixed."""
+import json,math,uuid,hashlib
+from pathlib import Path
+import numpy as np,ifcopenshell,ifcopenshell.api as api
+from ifcopenshell.util import placement,system
+from bsa.rectangular_transition import run
+from bsa.rectangular_tee_transitions import relative_placement
+from bsa.rectangular_tee_profiles import sections
+B=Path('C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs');S=B/'recentered-supported-transition-network';O=B/'recentered-constant-height-network';O.mkdir(exist_ok=False);m=ifcopenshell.open(str(S/'Supply Network.ifc'));screen=json.loads((B/'recentered-constant-height-screen/review.json').read_text());cases=[]
+for row in screen['rows']:
+ if not row['feasible']:continue
+ obj=m.by_guid(row['guid']);branch=next(p for p in system.get_ports(obj) if p.Name=='branch');wall=obj.Representation.Representations[0].Items[0];main=wall.SecondOperand.FirstOperand;old=wall.SecondOperand.SecondOperand;w,h=old.SweptArea.XDim,old.SweptArea.YDim;H=main.SweptArea.YDim;oldframe=placement.get_local_placement(branch.ObjectPlacement);frame=oldframe.copy();frame[:3,3]-=frame[:3,2]*row['required_m'];name='case'+str(len(cases)+1)
+ spec=dict(project_uuid=str(uuid.uuid5(uuid.NAMESPACE_URL,branch.GlobalId+'/constant-height-transition')),source='Native in-envelope candidate:constant-height tee branch followed by centred height-only contraction;original external endpoint preserved;source5-23 and4-2 physical applicability conditional',classification='assumed',placement=dict(source='Saved branch cap frame translated inward by actual new transition reach',origin_m=frame[:3,3].tolist(),rotation=frame[:3,:3].tolist()),wall_model='section_plane_offset',start_section_m=[w,H],end_section_m=[w,h],section_offset_m=.0008,start_length_m=.05,end_length_m=.05,upstream_angle_degrees=30.,transition_length_m=row['required_m']-.1,port_directions=dict(start='SINK',end='SOURCE'),geometry_method='explicit_station_brep');path=O/(name+'.json');path.write_text(json.dumps(spec,indent=2));run(path,O/name);native=ifcopenshell.open(str(O/name/'transition.ifc'));fit=native.by_type('IfcDuctFitting')[0];ports={p.Name:p.GlobalId for p in system.get_ports(fit)};cases.append(dict(tee_guid=obj.GlobalId,branch_port_guid=branch.GlobalId,transition_guid=fit.GlobalId,transition_inlet_guid=ports['start'],transition_outlet_guid=ports['end'],folder=name,new_section_m=[w,H],old_section_m=[w,h],old_branch_reach_m=old.Depth,new_branch_reach_m=row['new_reach_m'],transition_reach_m=row['required_m'],old_external_endpoint_m=oldframe[:3,3].tolist(),new_tee_endpoint_m=frame[:3,3].tolist()))
+def revise(source,target):
+ model=ifcopenshell.open(str(source));storey=model.by_type('IfcBuildingStorey')[0];system_obj=model.by_type('IfcDistributionSystem')[0]
+ for r in cases:
+  tee=model.by_guid(r['tee_guid']);wall=tee.Representation.Representations[0].Items[0]
+  for union,g in [(wall.FirstOperand,.0008),(wall.SecondOperand,0.)]:
+   s=union.SecondOperand;s.SweptArea=model.create_entity('IfcRectangleProfileDef',ProfileType='AREA',XDim=r['new_section_m'][0]+2*g,YDim=r['new_section_m'][1]+2*g);s.Depth=r['new_branch_reach_m']
+  p=model.by_guid(r['branch_port_guid']);frame=placement.get_local_placement(p.ObjectPlacement);frame[:3,3]=r['new_tee_endpoint_m'];p.ObjectPlacement=relative_placement(model,np.linalg.inv(placement.get_local_placement(tee.ObjectPlacement))@frame,tee.ObjectPlacement);sections(tee)
+  ps=next(rel.RelatingPropertyDefinition for rel in tee.IsDefinedBy if rel.RelatingPropertyDefinition.Name=='BSA_DesignInputs');api.run('pset.edit_pset',model,pset=ps,properties=dict(BranchSection_m=json.dumps(r['new_section_m']),ConstantHeightCandidate=True,BranchReach_m=r['new_branch_reach_m'],CandidateScope='Original external branch endpoint restored by separate height contraction;no manufacturer or interaction acceptance'))
+  link=(*p.ConnectedTo,*p.ConnectedFrom)[0];assert link.RelatingPort==p;peer=link.RelatedPort;oldpeerframe=placement.get_local_placement(peer.ObjectPlacement);assert np.allclose(oldpeerframe[:3,3],r['old_external_endpoint_m'],atol=1e-9,rtol=0)
+  local=ifcopenshell.open(str(O/r['folder']/'transition.ifc'));other=local.by_type('IfcDuctFitting')[0];fit=api.run('root.create_entity',model,ifc_class='IfcDuctFitting',predefined_type='TRANSITION',name='CONSTANT-HEIGHT-BRANCH-CONTRACTION');fit.GlobalId=other.GlobalId;rep=model.create_entity('IfcShapeRepresentation',ContextOfItems=tee.Representation.Representations[0].ContextOfItems,RepresentationIdentifier='Body',RepresentationType='CSG',Items=[model.add(other.Representation.Representations[0].Items[0])]);api.run('geometry.assign_representation',model,product=fit,representation=rep);fit.ObjectPlacement=relative_placement(model,placement.get_local_placement(other.ObjectPlacement),None);model.create_entity('IfcRelContainedInSpatialStructure',GlobalId=ifcopenshell.guid.new(),RelatedElements=[fit],RelatingStructure=storey);api.run('system.assign_system',model,products=[fit],system=system_obj);ports={}
+  for op in system.get_ports(other):
+   q=api.run('system.add_port',model,element=fit);q.GlobalId=op.GlobalId;q.Name=op.Name;q.FlowDirection=op.FlowDirection;q.PredefinedType='DUCT';q.SystemType='VENTILATION';q.ObjectPlacement=relative_placement(model,np.linalg.inv(placement.get_local_placement(fit.ObjectPlacement))@placement.get_local_placement(op.ObjectPlacement),fit.ObjectPlacement);ports[q.Name]=q
+  link.RelatedPort=ports['start'];api.run('system.connect_port',model,port1=ports['end'],port2=peer,direction='SOURCE')
+  assert np.allclose(placement.get_local_placement(ports['end'].ObjectPlacement)[:3,3],oldpeerframe[:3,3],atol=1e-9,rtol=0)
+ model.write(str(target))
+revise(S/'Supply Network.ifc',O/'Supply Network.ifc')
+import ifcopenshell.validate
+model=ifcopenshell.open(str(O/'Supply Network.ifc'));logger=ifcopenshell.validate.json_logger();ifcopenshell.validate.validate(model,logger,express_rules=True)
+result=dict(cases=cases,body_count=len(model.by_type('IfcDistributionElement')),ports=len(model.by_type('IfcDistributionPort')),links=len(model.by_type('IfcRelConnectsPorts')),schema_issues=logger.statements,ifc_sha256=hashlib.sha256((O/'Supply Network.ifc').read_bytes()).hexdigest(),source_sha256=hashlib.sha256((S/'Supply Network.ifc').read_bytes()).hexdigest(),design_accepted=False)
+(O/'integration.json').write_text(json.dumps(result,indent=2,default=str));print(json.dumps({k:v for k,v in result.items() if k not in ['cases','schema_issues']}));assert not logger.statements

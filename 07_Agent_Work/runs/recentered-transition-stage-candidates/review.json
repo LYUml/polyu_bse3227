@@ -1,0 +1,322 @@
+{
+  "source_sha256": "9001cfe4f75ea6ac54ca578480bdede88148a9d4ec850b275748239e4675b82b",
+  "cases": [
+    {
+      "original_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+      "inlet_guid": "1aTCnctAzNnPvODOWALaHX",
+      "outlet_guid": "2Fese000fPyOpofbM3XvoW",
+      "stage_folders": [
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-transition-stage-candidates\\case1-stage1",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-transition-stage-candidates\\case1-stage2"
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          99.0734325
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          21.920583999999998
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "old_end_m": [
+        99.45333631056766,
+        21.920583999999998,
+        0.0
+      ],
+      "new_end_m": [
+        99.45449851717798,
+        21.920583999999998,
+        0.0
+      ],
+      "additional_length_m": 0.001162206610313521,
+      "start_section_m": [
+        0.55,
+        0.35
+      ],
+      "intermediate_section_m": [
+        0.5,
+        0.35
+      ],
+      "end_section_m": [
+        0.4,
+        0.25
+      ]
+    },
+    {
+      "original_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "inlet_guid": "1p6TIdnIbSjBYvAs4khC5G",
+      "outlet_guid": "2HLqNrtUDQd9MK97gKpnzs",
+      "stage_folders": [
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-transition-stage-candidates\\case2-stage1",
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\recentered-transition-stage-candidates\\case2-stage2"
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          99.0734325
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          35.58058400000001
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "old_end_m": [
+        99.45333631056766,
+        35.58058400000001,
+        0.0
+      ],
+      "new_end_m": [
+        99.45449851717798,
+        35.58058400000001,
+        0.0
+      ],
+      "additional_length_m": 0.001162206610313521,
+      "start_section_m": [
+        0.55,
+        0.35
+      ],
+      "intermediate_section_m": [
+        0.5,
+        0.35
+      ],
+      "end_section_m": [
+        0.4,
+        0.25
+      ]
+    }
+  ],
+  "native_stage_checks": [
+    {
+      "original_guid": "2S6vsh9WvK7QxoNkNqHEuL",
+      "stages": [
+        {
+          "family": "centred_one_plane",
+          "geometry": {
+            "quantities": {
+              "taper_length_m": 0.060355339059327426,
+              "inlet_straight_length_m": 0.05,
+              "outlet_straight_length_m": 0.04999999999999999,
+              "total_length_m": 0.16035533905932742,
+              "taper_width_angle_deg": 45.00000000000001,
+              "taper_height_angle_deg": 0.0,
+              "major_taper_angle_deg": 45.00000000000001,
+              "taper_angle_difference_deg": 45.00000000000001,
+              "outlet_hydraulic_diameter_m": 0.4117647058823529,
+              "taper_length_over_outlet_hydraulic_diameter": 0.14657725200122376,
+              "total_length_over_outlet_hydraulic_diameter": 0.3894343948583666
+            },
+            "flow_change": "contraction",
+            "inlet_section_m": [
+              0.55,
+              0.35
+            ],
+            "outlet_section_m": [
+              0.5,
+              0.35
+            ],
+            "outer_station_z_m": [
+              0.0,
+              0.05,
+              0.11035533905932743,
+              0.16035533905932742
+            ],
+            "inner_station_z_m": [
+              -0.0001,
+              0.05,
+              0.11035533905932743,
+              0.1604553390593274
+            ],
+            "scope": "Supported saved centred transition dimensions only;Boolean cap extension excluded from physical length. Hydraulic diameter is a declared geometric quantity,not proof of a loss-method substitution. Source construction assumptions and full native/source/physical review remain separate."
+          },
+          "family_check": {
+            "family": "centred_one_plane",
+            "pass_check": true,
+            "numerical_equal_angle_bound_deg": null,
+            "physical_applicability_verified": false
+          }
+        },
+        {
+          "family": "centred_equal_angle_pyramidal",
+          "geometry": {
+            "quantities": {
+              "taper_length_m": 0.12071067811865473,
+              "inlet_straight_length_m": 0.05,
+              "outlet_straight_length_m": 0.05000000000000002,
+              "total_length_m": 0.22071067811865475,
+              "taper_width_angle_deg": 45.0,
+              "taper_height_angle_deg": 45.0,
+              "major_taper_angle_deg": 45.0,
+              "taper_angle_difference_deg": 0.0,
+              "outlet_hydraulic_diameter_m": 0.3076923076923077,
+              "taper_length_over_outlet_hydraulic_diameter": 0.39230970388562786,
+              "total_length_over_outlet_hydraulic_diameter": 0.7173097038856279
+            },
+            "flow_change": "contraction",
+            "inlet_section_m": [
+              0.5,
+              0.35
+            ],
+            "outlet_section_m": [
+              0.4,
+              0.25
+            ],
+            "outer_station_z_m": [
+              0.0,
+              0.05,
+              0.17071067811865473,
+              0.22071067811865475
+            ],
+            "inner_station_z_m": [
+              -0.0001,
+              0.05,
+              0.17071067811865473,
+              0.22081067811865474
+            ],
+            "scope": "Supported saved centred transition dimensions only;Boolean cap extension excluded from physical length. Hydraulic diameter is a declared geometric quantity,not proof of a loss-method substitution. Source construction assumptions and full native/source/physical review remain separate."
+          },
+          "family_check": {
+            "family": "centred_equal_angle_pyramidal",
+            "pass_check": true,
+            "numerical_equal_angle_bound_deg": 1e-06,
+            "physical_applicability_verified": false
+          }
+        }
+      ]
+    },
+    {
+      "original_guid": "0V2LoAkZ5G5gS9d5BbC$m4",
+      "stages": [
+        {
+          "family": "centred_one_plane",
+          "geometry": {
+            "quantities": {
+              "taper_length_m": 0.060355339059327426,
+              "inlet_straight_length_m": 0.05,
+              "outlet_straight_length_m": 0.04999999999999999,
+              "total_length_m": 0.16035533905932742,
+              "taper_width_angle_deg": 45.00000000000001,
+              "taper_height_angle_deg": 0.0,
+              "major_taper_angle_deg": 45.00000000000001,
+              "taper_angle_difference_deg": 45.00000000000001,
+              "outlet_hydraulic_diameter_m": 0.4117647058823529,
+              "taper_length_over_outlet_hydraulic_diameter": 0.14657725200122376,
+              "total_length_over_outlet_hydraulic_diameter": 0.3894343948583666
+            },
+            "flow_change": "contraction",
+            "inlet_section_m": [
+              0.55,
+              0.35
+            ],
+            "outlet_section_m": [
+              0.5,
+              0.35
+            ],
+            "outer_station_z_m": [
+              0.0,
+              0.05,
+              0.11035533905932743,
+              0.16035533905932742
+            ],
+            "inner_station_z_m": [
+              -0.0001,
+              0.05,
+              0.11035533905932743,
+              0.1604553390593274
+            ],
+            "scope": "Supported saved centred transition dimensions only;Boolean cap extension excluded from physical length. Hydraulic diameter is a declared geometric quantity,not proof of a loss-method substitution. Source construction assumptions and full native/source/physical review remain separate."
+          },
+          "family_check": {
+            "family": "centred_one_plane",
+            "pass_check": true,
+            "numerical_equal_angle_bound_deg": null,
+            "physical_applicability_verified": false
+          }
+        },
+        {
+          "family": "centred_equal_angle_pyramidal",
+          "geometry": {
+            "quantities": {
+              "taper_length_m": 0.12071067811865473,
+              "inlet_straight_length_m": 0.05,
+              "outlet_straight_length_m": 0.05000000000000002,
+              "total_length_m": 0.22071067811865475,
+              "taper_width_angle_deg": 45.0,
+              "taper_height_angle_deg": 45.0,
+              "major_taper_angle_deg": 45.0,
+              "taper_angle_difference_deg": 0.0,
+              "outlet_hydraulic_diameter_m": 0.3076923076923077,
+              "taper_length_over_outlet_hydraulic_diameter": 0.39230970388562786,
+              "total_length_over_outlet_hydraulic_diameter": 0.7173097038856279
+            },
+            "flow_change": "contraction",
+            "inlet_section_m": [
+              0.5,
+              0.35
+            ],
+            "outlet_section_m": [
+              0.4,
+              0.25
+            ],
+            "outer_station_z_m": [
+              0.0,
+              0.05,
+              0.17071067811865473,
+              0.22071067811865475
+            ],
+            "inner_station_z_m": [
+              -0.0001,
+              0.05,
+              0.17071067811865473,
+              0.22081067811865474
+            ],
+            "scope": "Supported saved centred transition dimensions only;Boolean cap extension excluded from physical length. Hydraulic diameter is a declared geometric quantity,not proof of a loss-method substitution. Source construction assumptions and full native/source/physical review remain separate."
+          },
+          "family_check": {
+            "family": "centred_equal_angle_pyramidal",
+            "pass_check": true,
+            "numerical_equal_angle_bound_deg": 1e-06,
+            "physical_applicability_verified": false
+          }
+        }
+      ]
+    }
+  ],
+  "authored_components": 4,
+  "source_family_geometry_pass": true,
+  "network_integrated": false,
+  "pressure_recalculated": false,
+  "design_accepted": false
+}

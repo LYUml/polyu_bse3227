@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/blockMesh.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\official-pitzDailySteady -dict C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-reference-additions\app\OpenFOAM-12\tutorials\resources\blockMesh\pitzDaily
+Date   : Nov 16 2026
+Time   : 17:59:17
+Host   : "LYUML-WIN"
+PID    : 18760
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/official-pitzDailySteady
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Reading "C:\Users\lyuml-win\Desktop\building-services-agent\tools\bluecfd-reference-additions\app\OpenFOAM-12\tutorials\resources\blockMesh\pitzDaily"
+
+
+
+--> FOAM FATAL ERROR: 
+Cannot find file "system/C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-reference-additions/app/OpenFOAM-12/tutorials/resources/blockMesh/pitzDaily"
+
+
+    From function int main(int, char**)
+    in file blockMesh.C at line 152.
+
+FOAM exiting
+

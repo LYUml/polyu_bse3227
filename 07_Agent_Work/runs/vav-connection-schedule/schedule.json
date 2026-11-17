@@ -1,0 +1,2388 @@
+{
+  "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+  "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow",
+  "native_task": "native-sheet",
+  "layers": {
+    "supply": "BSA_SUPPLY",
+    "vav": "BSA_VAV",
+    "terminal": "BSA_DIFFUSER",
+    "flex": "BSA_FLEX"
+  },
+  "plan_sha256": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+  "workflow_sha256": "a792feca5b751e9105a4ca1538c4a89fd4f661ae3d7013ea927405f812e68bec",
+  "generator_sha256": "852a2d1f455629dd1e2a0f31cf61e3aa37c9231051cc2de86ed04c6baba82955",
+  "rows": [
+    {
+      "id": "VAV-01",
+      "terminals": [
+        "SD-01",
+        "SD-02",
+        "SD-13",
+        "SD-14"
+      ],
+      "maximum_flow_L_s": 575.6751425686068,
+      "minimum_flow_L_s": 230.27005702744276,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-01",
+          "terminal_handle": "8DE5",
+          "flex_handle": "8E87",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-02",
+          "terminal_handle": "8DE7",
+          "flex_handle": "8E88",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-13",
+          "terminal_handle": "8DFD",
+          "flex_handle": "8E89",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-14",
+          "terminal_handle": "8DFF",
+          "flex_handle": "8E8A",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-02",
+      "terminals": [
+        "SD-03",
+        "SD-04",
+        "SD-15",
+        "SD-16"
+      ],
+      "maximum_flow_L_s": 584.4445324089027,
+      "minimum_flow_L_s": 233.7778129635611,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-03",
+          "terminal_handle": "8DE9",
+          "flex_handle": "8E8D",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-04",
+          "terminal_handle": "8DEB",
+          "flex_handle": "8E8E",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-15",
+          "terminal_handle": "8E01",
+          "flex_handle": "8E8F",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-16",
+          "terminal_handle": "8E03",
+          "flex_handle": "8E90",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-03",
+      "terminals": [
+        "SD-05",
+        "SD-06",
+        "SD-17",
+        "SD-18"
+      ],
+      "maximum_flow_L_s": 585.7640575548338,
+      "minimum_flow_L_s": 234.30562302193354,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-05",
+          "terminal_handle": "8DED",
+          "flex_handle": "8E93",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-06",
+          "terminal_handle": "8DEF",
+          "flex_handle": "8E94",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-17",
+          "terminal_handle": "8E05",
+          "flex_handle": "8E95",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-18",
+          "terminal_handle": "8E07",
+          "flex_handle": "8E96",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-04",
+      "terminals": [
+        "SD-07",
+        "SD-08",
+        "SD-19",
+        "SD-20"
+      ],
+      "maximum_flow_L_s": 616.7344607577531,
+      "minimum_flow_L_s": 246.69378430310127,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-07",
+          "terminal_handle": "8DF1",
+          "flex_handle": "8E99",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-08",
+          "terminal_handle": "8DF3",
+          "flex_handle": "8E9A",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-19",
+          "terminal_handle": "8E09",
+          "flex_handle": "8E9B",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-20",
+          "terminal_handle": "8E0B",
+          "flex_handle": "8E9C",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-05",
+      "terminals": [
+        "SD-09",
+        "SD-10",
+        "SD-21",
+        "SD-22"
+      ],
+      "maximum_flow_L_s": 590.1648406958004,
+      "minimum_flow_L_s": 236.06593627832018,
+      "minimum_plan_length_m": 2.005600748615632,
+      "maximum_plan_length_m": 2.9757240219002283,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-09",
+          "terminal_handle": "8DF5",
+          "flex_handle": "8E9F",
+          "plan_length_m": 2.005600748615632
+        },
+        {
+          "terminal": "SD-10",
+          "terminal_handle": "8DF7",
+          "flex_handle": "8EA0",
+          "plan_length_m": 2.975724021900226
+        },
+        {
+          "terminal": "SD-21",
+          "terminal_handle": "8E0D",
+          "flex_handle": "8EA1",
+          "plan_length_m": 2.005600748615635
+        },
+        {
+          "terminal": "SD-22",
+          "terminal_handle": "8E0F",
+          "flex_handle": "8EA2",
+          "plan_length_m": 2.9757240219002283
+        }
+      ]
+    },
+    {
+      "id": "VAV-06",
+      "terminals": [
+        "SD-11",
+        "SD-12",
+        "SD-23",
+        "SD-24"
+      ],
+      "maximum_flow_L_s": 538.984439400712,
+      "minimum_flow_L_s": 215.59377576028476,
+      "minimum_plan_length_m": 2.2818839925870518,
+      "maximum_plan_length_m": 2.611097008190341,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-11",
+          "terminal_handle": "8DF9",
+          "flex_handle": "8EA5",
+          "plan_length_m": 2.2818839925870518
+        },
+        {
+          "terminal": "SD-12",
+          "terminal_handle": "8DFB",
+          "flex_handle": "8EA6",
+          "plan_length_m": 2.6110970081903386
+        },
+        {
+          "terminal": "SD-23",
+          "terminal_handle": "8E11",
+          "flex_handle": "8EA7",
+          "plan_length_m": 2.2818839925870544
+        },
+        {
+          "terminal": "SD-24",
+          "terminal_handle": "8E13",
+          "flex_handle": "8EA8",
+          "plan_length_m": 2.611097008190341
+        }
+      ]
+    },
+    {
+      "id": "VAV-07",
+      "terminals": [
+        "SD-25",
+        "SD-26",
+        "SD-37",
+        "SD-38"
+      ],
+      "maximum_flow_L_s": 618.4264111528702,
+      "minimum_flow_L_s": 247.3705644611481,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511643,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-25",
+          "terminal_handle": "8E15",
+          "flex_handle": "8EAB",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-26",
+          "terminal_handle": "8E17",
+          "flex_handle": "8EAC",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-37",
+          "terminal_handle": "8E2D",
+          "flex_handle": "8EAD",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-38",
+          "terminal_handle": "8E2F",
+          "flex_handle": "8EAE",
+          "plan_length_m": 2.524907176511643
+        }
+      ]
+    },
+    {
+      "id": "VAV-08",
+      "terminals": [
+        "SD-27",
+        "SD-28",
+        "SD-39",
+        "SD-40"
+      ],
+      "maximum_flow_L_s": 618.4264111528702,
+      "minimum_flow_L_s": 247.3705644611481,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511643,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-27",
+          "terminal_handle": "8E19",
+          "flex_handle": "8EB1",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-28",
+          "terminal_handle": "8E1B",
+          "flex_handle": "8EB2",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-39",
+          "terminal_handle": "8E31",
+          "flex_handle": "8EB3",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-40",
+          "terminal_handle": "8E33",
+          "flex_handle": "8EB4",
+          "plan_length_m": 2.524907176511643
+        }
+      ]
+    },
+    {
+      "id": "VAV-09",
+      "terminals": [
+        "SD-29",
+        "SD-30",
+        "SD-41",
+        "SD-42"
+      ],
+      "maximum_flow_L_s": 618.4264111528714,
+      "minimum_flow_L_s": 247.37056446114855,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511643,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-29",
+          "terminal_handle": "8E1D",
+          "flex_handle": "8EB7",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-30",
+          "terminal_handle": "8E1F",
+          "flex_handle": "8EB8",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-41",
+          "terminal_handle": "8E35",
+          "flex_handle": "8EB9",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-42",
+          "terminal_handle": "8E37",
+          "flex_handle": "8EBA",
+          "plan_length_m": 2.524907176511643
+        }
+      ]
+    },
+    {
+      "id": "VAV-10",
+      "terminals": [
+        "SD-31",
+        "SD-32",
+        "SD-43",
+        "SD-44"
+      ],
+      "maximum_flow_L_s": 652.0041910874131,
+      "minimum_flow_L_s": 260.80167643496526,
+      "minimum_plan_length_m": 2.524907176511643,
+      "maximum_plan_length_m": 2.524907176511643,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-31",
+          "terminal_handle": "8E21",
+          "flex_handle": "8EBD",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-32",
+          "terminal_handle": "8E23",
+          "flex_handle": "8EBE",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-43",
+          "terminal_handle": "8E39",
+          "flex_handle": "8EBF",
+          "plan_length_m": 2.524907176511643
+        },
+        {
+          "terminal": "SD-44",
+          "terminal_handle": "8E3B",
+          "flex_handle": "8EC0",
+          "plan_length_m": 2.524907176511643
+        }
+      ]
+    },
+    {
+      "id": "VAV-11",
+      "terminals": [
+        "SD-33",
+        "SD-34",
+        "SD-45",
+        "SD-46"
+      ],
+      "maximum_flow_L_s": 623.2232368578052,
+      "minimum_flow_L_s": 249.28929474312213,
+      "minimum_plan_length_m": 2.005600748615632,
+      "maximum_plan_length_m": 2.975724021900226,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-33",
+          "terminal_handle": "8E25",
+          "flex_handle": "8EC3",
+          "plan_length_m": 2.005600748615632
+        },
+        {
+          "terminal": "SD-34",
+          "terminal_handle": "8E27",
+          "flex_handle": "8EC4",
+          "plan_length_m": 2.975724021900226
+        },
+        {
+          "terminal": "SD-45",
+          "terminal_handle": "8E3D",
+          "flex_handle": "8EC5",
+          "plan_length_m": 2.005600748615632
+        },
+        {
+          "terminal": "SD-46",
+          "terminal_handle": "8E3F",
+          "flex_handle": "8EC6",
+          "plan_length_m": 2.975724021900226
+        }
+      ]
+    },
+    {
+      "id": "VAV-12",
+      "terminals": [
+        "SD-35",
+        "SD-36",
+        "SD-47",
+        "SD-48"
+      ],
+      "maximum_flow_L_s": 580.0518055133923,
+      "minimum_flow_L_s": 232.02072220535695,
+      "minimum_plan_length_m": 2.2818839925870518,
+      "maximum_plan_length_m": 2.6110970081903386,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-35",
+          "terminal_handle": "8E29",
+          "flex_handle": "8EC9",
+          "plan_length_m": 2.2818839925870518
+        },
+        {
+          "terminal": "SD-36",
+          "terminal_handle": "8E2B",
+          "flex_handle": "8ECA",
+          "plan_length_m": 2.6110970081903386
+        },
+        {
+          "terminal": "SD-47",
+          "terminal_handle": "8E41",
+          "flex_handle": "8ECB",
+          "plan_length_m": 2.2818839925870518
+        },
+        {
+          "terminal": "SD-48",
+          "terminal_handle": "8E43",
+          "flex_handle": "8ECC",
+          "plan_length_m": 2.6110970081903386
+        }
+      ]
+    },
+    {
+      "id": "VAV-13",
+      "terminals": [
+        "SD-49",
+        "SD-50",
+        "SD-61",
+        "SD-62"
+      ],
+      "maximum_flow_L_s": 551.782171001471,
+      "minimum_flow_L_s": 220.71286840058843,
+      "minimum_plan_length_m": 2.1511071059005875,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-49",
+          "terminal_handle": "8E45",
+          "flex_handle": "8ECF",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-50",
+          "terminal_handle": "8E47",
+          "flex_handle": "8ED0",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-61",
+          "terminal_handle": "8E5D",
+          "flex_handle": "8ED1",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-62",
+          "terminal_handle": "8E5F",
+          "flex_handle": "8ED2",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-14",
+      "terminals": [
+        "SD-51",
+        "SD-52",
+        "SD-63",
+        "SD-64"
+      ],
+      "maximum_flow_L_s": 556.0038885923348,
+      "minimum_flow_L_s": 222.4015554369339,
+      "minimum_plan_length_m": 2.1511071059005875,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-51",
+          "terminal_handle": "8E49",
+          "flex_handle": "8ED5",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-52",
+          "terminal_handle": "8E4B",
+          "flex_handle": "8ED6",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-63",
+          "terminal_handle": "8E61",
+          "flex_handle": "8ED7",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-64",
+          "terminal_handle": "8E63",
+          "flex_handle": "8ED8",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-15",
+      "terminals": [
+        "SD-53",
+        "SD-54",
+        "SD-65",
+        "SD-66"
+      ],
+      "maximum_flow_L_s": 557.5747590274335,
+      "minimum_flow_L_s": 223.0299036109734,
+      "minimum_plan_length_m": 2.1511071059005875,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-53",
+          "terminal_handle": "8E4D",
+          "flex_handle": "8EDB",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-54",
+          "terminal_handle": "8E4F",
+          "flex_handle": "8EDC",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-65",
+          "terminal_handle": "8E65",
+          "flex_handle": "8EDD",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-66",
+          "terminal_handle": "8E67",
+          "flex_handle": "8EDE",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-16",
+      "terminals": [
+        "SD-55",
+        "SD-56",
+        "SD-67",
+        "SD-68"
+      ],
+      "maximum_flow_L_s": 586.8557568983574,
+      "minimum_flow_L_s": 234.74230275934298,
+      "minimum_plan_length_m": 2.1511071059005875,
+      "maximum_plan_length_m": 2.524907176511645,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-55",
+          "terminal_handle": "8E51",
+          "flex_handle": "8EE1",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-56",
+          "terminal_handle": "8E53",
+          "flex_handle": "8EE2",
+          "plan_length_m": 2.1511071059005875
+        },
+        {
+          "terminal": "SD-67",
+          "terminal_handle": "8E69",
+          "flex_handle": "8EE3",
+          "plan_length_m": 2.524907176511645
+        },
+        {
+          "terminal": "SD-68",
+          "terminal_handle": "8E6B",
+          "flex_handle": "8EE4",
+          "plan_length_m": 2.524907176511645
+        }
+      ]
+    },
+    {
+      "id": "VAV-17",
+      "terminals": [
+        "SD-57",
+        "SD-58",
+        "SD-69",
+        "SD-70"
+      ],
+      "maximum_flow_L_s": 585.0748294418718,
+      "minimum_flow_L_s": 234.02993177674873,
+      "minimum_plan_length_m": 1.508157781501521,
+      "maximum_plan_length_m": 2.9757240219002283,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-57",
+          "terminal_handle": "8E55",
+          "flex_handle": "8EE7",
+          "plan_length_m": 1.508157781501521
+        },
+        {
+          "terminal": "SD-58",
+          "terminal_handle": "8E57",
+          "flex_handle": "8EE8",
+          "plan_length_m": 2.6659030337898755
+        },
+        {
+          "terminal": "SD-69",
+          "terminal_handle": "8E6D",
+          "flex_handle": "8EE9",
+          "plan_length_m": 2.005600748615635
+        },
+        {
+          "terminal": "SD-70",
+          "terminal_handle": "8E6F",
+          "flex_handle": "8EEA",
+          "plan_length_m": 2.9757240219002283
+        }
+      ]
+    },
+    {
+      "id": "VAV-18",
+      "terminals": [
+        "SD-59",
+        "SD-60",
+        "SD-71",
+        "SD-72"
+      ],
+      "maximum_flow_L_s": 540.1204816346908,
+      "minimum_flow_L_s": 216.04819265387636,
+      "minimum_plan_length_m": 1.859865609844171,
+      "maximum_plan_length_m": 2.611097008190341,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-59",
+          "terminal_handle": "8E59",
+          "flex_handle": "8EED",
+          "plan_length_m": 1.859865609844171
+        },
+        {
+          "terminal": "SD-60",
+          "terminal_handle": "8E5B",
+          "flex_handle": "8EEE",
+          "plan_length_m": 2.2516511979515257
+        },
+        {
+          "terminal": "SD-71",
+          "terminal_handle": "8E71",
+          "flex_handle": "8EEF",
+          "plan_length_m": 2.2818839925870544
+        },
+        {
+          "terminal": "SD-72",
+          "terminal_handle": "8E73",
+          "flex_handle": "8EF0",
+          "plan_length_m": 2.611097008190341
+        }
+      ]
+    },
+    {
+      "id": "VAV-19",
+      "terminals": [
+        "SD-73",
+        "SD-74",
+        "SD-77",
+        "SD-78"
+      ],
+      "maximum_flow_L_s": 718.0147332359453,
+      "minimum_flow_L_s": 287.20589329437814,
+      "minimum_plan_length_m": 2.8728691174817858,
+      "maximum_plan_length_m": 2.8728691174817858,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-73",
+          "terminal_handle": "8E75",
+          "flex_handle": "8EF3",
+          "plan_length_m": 2.8728691174817858
+        },
+        {
+          "terminal": "SD-74",
+          "terminal_handle": "8E77",
+          "flex_handle": "8EF4",
+          "plan_length_m": 2.8728691174817858
+        },
+        {
+          "terminal": "SD-77",
+          "terminal_handle": "8E7D",
+          "flex_handle": "8EF5",
+          "plan_length_m": 2.8728691174817858
+        },
+        {
+          "terminal": "SD-78",
+          "terminal_handle": "8E7F",
+          "flex_handle": "8EF6",
+          "plan_length_m": 2.8728691174817858
+        }
+      ]
+    },
+    {
+      "id": "VAV-20",
+      "terminals": [
+        "SD-75",
+        "SD-76",
+        "SD-79",
+        "SD-80"
+      ],
+      "maximum_flow_L_s": 702.6202032835482,
+      "minimum_flow_L_s": 281.0480813134193,
+      "minimum_plan_length_m": 2.8728691174817773,
+      "maximum_plan_length_m": 2.8728691174817773,
+      "outlet_count": 4,
+      "routes": [
+        {
+          "terminal": "SD-75",
+          "terminal_handle": "8E79",
+          "flex_handle": "8EF9",
+          "plan_length_m": 2.8728691174817773
+        },
+        {
+          "terminal": "SD-76",
+          "terminal_handle": "8E7B",
+          "flex_handle": "8EFA",
+          "plan_length_m": 2.8728691174817773
+        },
+        {
+          "terminal": "SD-79",
+          "terminal_handle": "8E81",
+          "flex_handle": "8EFB",
+          "plan_length_m": 2.8728691174817773
+        },
+        {
+          "terminal": "SD-80",
+          "terminal_handle": "8E83",
+          "flex_handle": "8EFC",
+          "plan_length_m": 2.8728691174817773
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "handle": "30",
+      "text": "VAV CONNECTION SCHEDULE",
+      "insert": [
+        8,
+        184,
+        0
+      ],
+      "height": 5
+    },
+    {
+      "handle": "31",
+      "text": "Conditional design flows and saved native-plan connections",
+      "insert": [
+        8,
+        175,
+        0
+      ],
+      "height": 3
+    },
+    {
+      "handle": "32",
+      "text": "Flows: L/s | Lengths: m, straight XY centre-to-centre | Drawing units: mm | A4 landscape 1:1",
+      "insert": [
+        8,
+        167,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "51",
+      "text": "VAV",
+      "insert": [
+        9.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "52",
+      "text": "Diffuser outlets",
+      "insert": [
+        33.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "53",
+      "text": "Qmax L/s",
+      "insert": [
+        121.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "54",
+      "text": "Qmin L/s",
+      "insert": [
+        155.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "55",
+      "text": "Min plan m",
+      "insert": [
+        189.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "56",
+      "text": "Max plan m",
+      "insert": [
+        221.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "57",
+      "text": "Outlets",
+      "insert": [
+        253.5,
+        153.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "58",
+      "text": "VAV-01",
+      "insert": [
+        9.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "59",
+      "text": "SD-01, SD-02, SD-13, SD-14",
+      "insert": [
+        33.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5A",
+      "text": "575.7",
+      "insert": [
+        121.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5B",
+      "text": "230.3",
+      "insert": [
+        155.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5C",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5D",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5E",
+      "text": "4",
+      "insert": [
+        253.5,
+        147.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "5F",
+      "text": "VAV-02",
+      "insert": [
+        9.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "60",
+      "text": "SD-03, SD-04, SD-15, SD-16",
+      "insert": [
+        33.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "61",
+      "text": "584.4",
+      "insert": [
+        121.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "62",
+      "text": "233.8",
+      "insert": [
+        155.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "63",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "64",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "65",
+      "text": "4",
+      "insert": [
+        253.5,
+        141.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "66",
+      "text": "VAV-03",
+      "insert": [
+        9.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "67",
+      "text": "SD-05, SD-06, SD-17, SD-18",
+      "insert": [
+        33.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "68",
+      "text": "585.8",
+      "insert": [
+        121.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "69",
+      "text": "234.3",
+      "insert": [
+        155.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6A",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6B",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6C",
+      "text": "4",
+      "insert": [
+        253.5,
+        135.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6D",
+      "text": "VAV-04",
+      "insert": [
+        9.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6E",
+      "text": "SD-07, SD-08, SD-19, SD-20",
+      "insert": [
+        33.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "6F",
+      "text": "616.7",
+      "insert": [
+        121.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "70",
+      "text": "246.7",
+      "insert": [
+        155.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "71",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "72",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "73",
+      "text": "4",
+      "insert": [
+        253.5,
+        129.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "74",
+      "text": "VAV-05",
+      "insert": [
+        9.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "75",
+      "text": "SD-09, SD-10, SD-21, SD-22",
+      "insert": [
+        33.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "76",
+      "text": "590.2",
+      "insert": [
+        121.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "77",
+      "text": "236.1",
+      "insert": [
+        155.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "78",
+      "text": "2.006",
+      "insert": [
+        189.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "79",
+      "text": "2.976",
+      "insert": [
+        221.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7A",
+      "text": "4",
+      "insert": [
+        253.5,
+        123.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7B",
+      "text": "VAV-06",
+      "insert": [
+        9.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7C",
+      "text": "SD-11, SD-12, SD-23, SD-24",
+      "insert": [
+        33.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7D",
+      "text": "539.0",
+      "insert": [
+        121.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7E",
+      "text": "215.6",
+      "insert": [
+        155.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "7F",
+      "text": "2.282",
+      "insert": [
+        189.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "80",
+      "text": "2.611",
+      "insert": [
+        221.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "81",
+      "text": "4",
+      "insert": [
+        253.5,
+        117.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "82",
+      "text": "VAV-07",
+      "insert": [
+        9.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "83",
+      "text": "SD-25, SD-26, SD-37, SD-38",
+      "insert": [
+        33.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "84",
+      "text": "618.4",
+      "insert": [
+        121.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "85",
+      "text": "247.4",
+      "insert": [
+        155.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "86",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "87",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "88",
+      "text": "4",
+      "insert": [
+        253.5,
+        111.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "89",
+      "text": "VAV-08",
+      "insert": [
+        9.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8A",
+      "text": "SD-27, SD-28, SD-39, SD-40",
+      "insert": [
+        33.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8B",
+      "text": "618.4",
+      "insert": [
+        121.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8C",
+      "text": "247.4",
+      "insert": [
+        155.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8D",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8E",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "8F",
+      "text": "4",
+      "insert": [
+        253.5,
+        105.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "90",
+      "text": "VAV-09",
+      "insert": [
+        9.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "91",
+      "text": "SD-29, SD-30, SD-41, SD-42",
+      "insert": [
+        33.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "92",
+      "text": "618.4",
+      "insert": [
+        121.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "93",
+      "text": "247.4",
+      "insert": [
+        155.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "94",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "95",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "96",
+      "text": "4",
+      "insert": [
+        253.5,
+        99.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "97",
+      "text": "VAV-10",
+      "insert": [
+        9.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "98",
+      "text": "SD-31, SD-32, SD-43, SD-44",
+      "insert": [
+        33.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "99",
+      "text": "652.0",
+      "insert": [
+        121.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9A",
+      "text": "260.8",
+      "insert": [
+        155.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9B",
+      "text": "2.525",
+      "insert": [
+        189.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9C",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9D",
+      "text": "4",
+      "insert": [
+        253.5,
+        93.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9E",
+      "text": "VAV-11",
+      "insert": [
+        9.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "9F",
+      "text": "SD-33, SD-34, SD-45, SD-46",
+      "insert": [
+        33.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A0",
+      "text": "623.2",
+      "insert": [
+        121.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A1",
+      "text": "249.3",
+      "insert": [
+        155.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A2",
+      "text": "2.006",
+      "insert": [
+        189.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A3",
+      "text": "2.976",
+      "insert": [
+        221.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A4",
+      "text": "4",
+      "insert": [
+        253.5,
+        87.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A5",
+      "text": "VAV-12",
+      "insert": [
+        9.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A6",
+      "text": "SD-35, SD-36, SD-47, SD-48",
+      "insert": [
+        33.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A7",
+      "text": "580.1",
+      "insert": [
+        121.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A8",
+      "text": "232.0",
+      "insert": [
+        155.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "A9",
+      "text": "2.282",
+      "insert": [
+        189.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AA",
+      "text": "2.611",
+      "insert": [
+        221.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AB",
+      "text": "4",
+      "insert": [
+        253.5,
+        81.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AC",
+      "text": "VAV-13",
+      "insert": [
+        9.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AD",
+      "text": "SD-49, SD-50, SD-61, SD-62",
+      "insert": [
+        33.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AE",
+      "text": "551.8",
+      "insert": [
+        121.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "AF",
+      "text": "220.7",
+      "insert": [
+        155.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B0",
+      "text": "2.151",
+      "insert": [
+        189.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B1",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B2",
+      "text": "4",
+      "insert": [
+        253.5,
+        75.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B3",
+      "text": "VAV-14",
+      "insert": [
+        9.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B4",
+      "text": "SD-51, SD-52, SD-63, SD-64",
+      "insert": [
+        33.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B5",
+      "text": "556.0",
+      "insert": [
+        121.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B6",
+      "text": "222.4",
+      "insert": [
+        155.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B7",
+      "text": "2.151",
+      "insert": [
+        189.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B8",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "B9",
+      "text": "4",
+      "insert": [
+        253.5,
+        69.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BA",
+      "text": "VAV-15",
+      "insert": [
+        9.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BB",
+      "text": "SD-53, SD-54, SD-65, SD-66",
+      "insert": [
+        33.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BC",
+      "text": "557.6",
+      "insert": [
+        121.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BD",
+      "text": "223.0",
+      "insert": [
+        155.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BE",
+      "text": "2.151",
+      "insert": [
+        189.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "BF",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C0",
+      "text": "4",
+      "insert": [
+        253.5,
+        63.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C1",
+      "text": "VAV-16",
+      "insert": [
+        9.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C2",
+      "text": "SD-55, SD-56, SD-67, SD-68",
+      "insert": [
+        33.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C3",
+      "text": "586.9",
+      "insert": [
+        121.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C4",
+      "text": "234.7",
+      "insert": [
+        155.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C5",
+      "text": "2.151",
+      "insert": [
+        189.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C6",
+      "text": "2.525",
+      "insert": [
+        221.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C7",
+      "text": "4",
+      "insert": [
+        253.5,
+        57.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C8",
+      "text": "VAV-17",
+      "insert": [
+        9.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "C9",
+      "text": "SD-57, SD-58, SD-69, SD-70",
+      "insert": [
+        33.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CA",
+      "text": "585.1",
+      "insert": [
+        121.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CB",
+      "text": "234.0",
+      "insert": [
+        155.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CC",
+      "text": "1.508",
+      "insert": [
+        189.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CD",
+      "text": "2.976",
+      "insert": [
+        221.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CE",
+      "text": "4",
+      "insert": [
+        253.5,
+        51.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "CF",
+      "text": "VAV-18",
+      "insert": [
+        9.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D0",
+      "text": "SD-59, SD-60, SD-71, SD-72",
+      "insert": [
+        33.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D1",
+      "text": "540.1",
+      "insert": [
+        121.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D2",
+      "text": "216.0",
+      "insert": [
+        155.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D3",
+      "text": "1.860",
+      "insert": [
+        189.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D4",
+      "text": "2.611",
+      "insert": [
+        221.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D5",
+      "text": "4",
+      "insert": [
+        253.5,
+        45.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D6",
+      "text": "VAV-19",
+      "insert": [
+        9.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D7",
+      "text": "SD-73, SD-74, SD-77, SD-78",
+      "insert": [
+        33.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D8",
+      "text": "718.0",
+      "insert": [
+        121.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "D9",
+      "text": "287.2",
+      "insert": [
+        155.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DA",
+      "text": "2.873",
+      "insert": [
+        189.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DB",
+      "text": "2.873",
+      "insert": [
+        221.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DC",
+      "text": "4",
+      "insert": [
+        253.5,
+        39.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DD",
+      "text": "VAV-20",
+      "insert": [
+        9.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DE",
+      "text": "SD-75, SD-76, SD-79, SD-80",
+      "insert": [
+        33.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "DF",
+      "text": "702.6",
+      "insert": [
+        121.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E0",
+      "text": "281.0",
+      "insert": [
+        155.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E1",
+      "text": "2.873",
+      "insert": [
+        189.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E2",
+      "text": "2.873",
+      "insert": [
+        221.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E3",
+      "text": "4",
+      "insert": [
+        253.5,
+        33.9,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E4",
+      "text": "Plan lengths are lower bounds, not installed flex lengths; elevation, bends and slack remain unknown.",
+      "insert": [
+        8,
+        23,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E5",
+      "text": "VAV symbols and group labels do not establish selected hardware or physical outlet-port geometry.",
+      "insert": [
+        8,
+        18,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E6",
+      "text": "Source allocation, room load, ADPI, installation and Hong Kong applicability remain under review.",
+      "insert": [
+        8,
+        13,
+        0
+      ],
+      "height": 2.3
+    },
+    {
+      "handle": "E8",
+      "text": "100 mm print reference",
+      "insert": [
+        112,
+        5,
+        0
+      ],
+      "height": 2.3
+    }
+  ],
+  "group_count": 20,
+  "terminal_count": 80,
+  "maximum_flow_L_s": 12000.372763419484,
+  "minimum_flow_L_s": 4800.149105367794,
+  "artifacts": {
+    "connections.json": "bd81ce1899038cdba0a3b357b12b9a2563ae33525918f5325edd2a05c8b2aeed",
+    "native-settings.json": "c8a2f253b021c634343b63245142fb17ad8358d1f45de5cedb403ecbbc010eef",
+    "VAV Connection Schedule.csv": "309f7dabfab4ad4ddb59ef513b77b3ec067f8fac032b4095baf179520f868f21",
+    "VAV Connection Schedule.dxf": "6eb8c3c18ea240c7c91ba82c0c6255cec90df87d79427744f5add4137813d69d",
+    "native\\native-sheet.json": "df75886f8c34877736843a8a5a89efced9b0b293b8ea10ce004d767d390b0a5c",
+    "native\\plot.log": "a9c747937aadfc5c9888c89433065cdf1106f82369d2c8fc78fdba0ecaf697ac",
+    "native\\save.log": "737143d4aa3c14c635bbd7726b7c5189d4c395407de4bec9bdee8a612addfbb5",
+    "native\\save.scr": "5951973ad4628671aff0147f90174339f27467d87041d17f3bc3508823b1442b",
+    "native\\Supply Air Distribution.dwg": "2e25714a6308ff091114dd110e0da00fda17e2b4fb365b0c806eb00fa73d0942",
+    "native\\Supply Air Distribution.dxf": "6eb8c3c18ea240c7c91ba82c0c6255cec90df87d79427744f5add4137813d69d",
+    "native\\Supply Air Distribution.json": "583644ef57abce394baf19266155ac1da61df3c177374a29ecf4b2fda620d27d",
+    "native\\Supply Air Distribution.log": "6895f96b8c7f007827f49bf7fe652681aa761a524b3cd7b116bf9353b42531aa",
+    "native\\Supply Air Distribution.pdf": "dc1ddd1d3dc97508eff1152e119057542a707c4dab028c7cfcfc19c7a8d5f2f9",
+    "native\\Supply Air Distribution.scr": "3e018a4e13d61d9b05c1bd3a2cdbe59beda176716aa24a9a21c902b5de142ed1",
+    "native\\reopened\\export.log": "8eac3a9360273937a4024d7ed1a9cc674e52afbbdcbecb9f7d9fa2f29089e03f",
+    "native\\reopened\\export.scr": "5a322d0ac4a8ce9caf39269a445da25489d99b406c1e37d04110be3e7b373232",
+    "native\\reopened\\source-copy.dwg": "2e25714a6308ff091114dd110e0da00fda17e2b4fb365b0c806eb00fa73d0942",
+    "native\\reopened\\source-export.dxf": "330ce9ef8dcbdbe06086ff598b564af8eeb1bc10e3a196fb884c8d091dfe0307",
+    "native\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "6b7bd3a5087357a36576b56e06ff47f5590d88d95a619ad971512312bb6653e9",
+    "native\\reopened\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "af5346dc653ab0b0b3227c50d1b9818c8b8e53c5b7c1c01caf98944bfa05fade"
+  },
+  "native_reopen_pass": true,
+  "visual_review": "pending",
+  "scope": "Conditional inherited allocation; straight XY centre-to-centre lengths only. Installed flex lengths, hardware, ADPI and regulatory/design acceptance remain pending.",
+  "design_accepted": false
+}

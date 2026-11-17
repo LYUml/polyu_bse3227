@@ -1,0 +1,57 @@
+{
+  "criterion": {
+    "source": "Canvas BSE3227 original lecture p5; ASHRAE Fundamentals2005 table reproduced in class",
+    "room_load_range_W_m2": [
+      35,
+      160
+    ],
+    "ratio_range": [
+      1,
+      3.4
+    ]
+  },
+  "room_load_W_m2": 170.1,
+  "facts": {
+    "room_load_verified": null,
+    "product_category_verified": true,
+    "lengths_verified": null,
+    "installation_verified": null,
+    "edition_selected": true
+  },
+  "source": "..\\sources\\D002\\Space air diffusion design and air duct sizing.pdf",
+  "source_sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+  "fact_evidence": {
+    "product_category_verified": [
+      {
+        "source": "..\\sources\\D002\\Space air diffusion design and air duct sizing.pdf",
+        "sha256": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+        "locator": "p5 classroom example and2005 selection table",
+        "note": "Explicit course-specific1400-family mapping;retains classroom edition and stated bounds"
+      },
+      {
+        "source": "krueger-introduction.pdf",
+        "sha256": "5a3459034c1ab2fe89e2a28c2c498a39e80d88ee0e09bc0163a043ad4e494e49",
+        "locator": "B1-4 introduction and family heading",
+        "note": "Square-face,four-cone,round-neck louvered family;not a measured ADPI or later handbook category mapping"
+      },
+      {
+        "source": "category-review.json",
+        "sha256": "85f8edf680b74906c2f10a270f805edf76d84cdabb515dc7ae91c8efb2f0ebd5",
+        "locator": "findings and retained_unknowns",
+        "note": "Recorded interpretation and retained limits;reviewer assertion,not independent authentication"
+      },
+      {
+        "source": "classroom-table.png",
+        "sha256": "1984ce119f6283272c0a21c999818a532c7e2112f2f70d79e40ed7d0ff753231",
+        "locator": "Original lecture p5 inspected table render",
+        "note": "Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns"
+      },
+      {
+        "source": "krueger-introduction.png",
+        "sha256": "f55c8d71d3b4d43b2d25386690eff0b17fd926c1f6f48be7fbb078db3b8e3447",
+        "locator": "Manufacturer introduction inspected render",
+        "note": "Copied hash-identical historical visual evidence;does not clear room load,L or installation unknowns"
+      }
+    ]
+  }
+}

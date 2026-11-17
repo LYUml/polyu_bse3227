@@ -1,0 +1,50 @@
+{
+  "scope": "Actual terminal numerical comparison of two upstream inlet conditions. Boundary flow and inlet profile both differ; not a controlled constant-flow shape-only sensitivity or experimental/project acceptance.",
+  "same_native_probe_nodes": 40,
+  "uniform_whole_domain_pressure_difference_Pa": 20.44392208335,
+  "provided_profile_whole_domain_pressure_difference_Pa": 21.661512539,
+  "relative_pressure_change": 0.05955757660814176,
+  "uniform_target_mass_kg_s": 0.043018395568824745,
+  "provided_profile_target_mass_kg_s": 0.04379363357840777,
+  "maximum_streamwise_velocity_difference_m_s": 2.454884830927493,
+  "rms_streamwise_velocity_difference_m_s": 0.7997452900981823,
+  "provided_final_window": {
+    "window_iterations": [
+      472,
+      671
+    ],
+    "maximum_relative_flow_errors": {
+      "inlet": 1.014002199611197e-05,
+      "outlet": 6.3635183805322665e-06
+    },
+    "maximum_relative_mass_imbalance": 1.629346417941798e-05,
+    "pressures": {
+      "outlet": {
+        "mean_Pa": 21.661512539,
+        "range_Pa": 0.0006212299999930337,
+        "relative_range": 2.867897608140492e-05,
+        "positive": true,
+        "stable": true
+      }
+    },
+    "numerical_targets": {
+      "flow": 0.001,
+      "mass": 0.001,
+      "pressure_range": 0.005
+    },
+    "flow_pass": true,
+    "mass_pass": true,
+    "pressure_stability_pass": true,
+    "numerical_window_pass": true,
+    "engineering_accepted": false,
+    "scope": "Complete supplied domain; numerical window only. Requires separate model, turbulence, mesh and source applicability verification.",
+    "provenance": {
+      "history_sha256": "e9102e9fedf80817bb058ce5683c5abd64838698cbaca238d20310417a634387",
+      "targets_sha256": "a03a0331c4d43aace07420a70c131f52c7eecb207c682b738baf288e65e30631",
+      "method_sha256": "256877f3486b8c681fd255293b6834761fec91bb130c1690cd62332a60283092"
+    }
+  },
+  "provided_field_sha256": "daf31f25e2fe8ed983edd2b3af338702510c700b6674150bb4aa03ce15673743",
+  "experimental_agreement_accepted": false,
+  "engineering_accepted": false
+}

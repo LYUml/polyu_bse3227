@@ -1,0 +1,14 @@
+{
+  "source_checkpoint_sha256": "bd85ee87d4aa736b5246dfcd1a40d01b54fe06dac0c1c74b0e23040376279afd",
+  "source_config_sha256": "032c290c330ddc2c85deb4e31beccc98e4cefe10d2fd5bfb96b8f71824f6b34f",
+  "initial_state_converged": false,
+  "changes": [
+    "CFL30 to60",
+    "Iteration budget10000 to5000",
+    "Immutable local input snapshot from ongoing nominal case"
+  ],
+  "physical_parameters_changed": false,
+  "source_case_continues": true,
+  "scope": "Controlled numerical acceleration study from frozen near-steady field. Earlier CFL200 failed; CFL60 stability unproven until executed. No engineering acceptance.",
+  "engineering_accepted": false
+}

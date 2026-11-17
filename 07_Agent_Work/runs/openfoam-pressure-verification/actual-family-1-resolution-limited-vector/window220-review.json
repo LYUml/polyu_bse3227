@@ -1,0 +1,84 @@
+{
+  "window_iterations": [
+    21,
+    220
+  ],
+  "maximum_relative_flow_errors": {
+    "inlet": 9.803504252988697e-15,
+    "outlet_0": 1.0796371938369029e-14,
+    "outlet_1": 1.3299878474802428e-14,
+    "outlet_2": 1.0147041277988827e-14,
+    "outlet_3": 1.1109310255423214e-14
+  },
+  "maximum_relative_mass_imbalance": 1.466507808336424e-14,
+  "pressures": {
+    "outlet_0": {
+      "mean_Pa": 5.0757268730670475,
+      "range_Pa": 0.37743528906414525,
+      "relative_range": 0.07436083510854417,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_1": {
+      "mean_Pa": 5.301996574522311,
+      "range_Pa": 0.2965011274417506,
+      "relative_range": 0.05592254224880637,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_2": {
+      "mean_Pa": 3.8610489525450618,
+      "range_Pa": 1.0781318983937176,
+      "relative_range": 0.27923290060413575,
+      "positive": true,
+      "stable": false
+    },
+    "outlet_3": {
+      "mean_Pa": 4.191022279407579,
+      "range_Pa": 1.158369682704727,
+      "relative_range": 0.2763931101956509,
+      "positive": true,
+      "stable": false
+    }
+  },
+  "numerical_targets": {
+    "flow": 0.001,
+    "mass": 0.001,
+    "pressure_range": 0.005
+  },
+  "flow_pass": true,
+  "mass_pass": true,
+  "pressure_stability_pass": false,
+  "numerical_window_pass": false,
+  "engineering_accepted": false,
+  "scope": "Selected native segment only; caller binds units, density, weighting and source applicability. Numerical stability is not engineering acceptance.",
+  "complete_200_step_window": true,
+  "declared_native_units": {
+    "phi": "m3/s",
+    "Pt": "Pa"
+  },
+  "provenance": {
+    "manifest_sha256": "0904e8597a1c6d6a164bbcd4d9a837dc9256ef42b2f139a04705c3bccb9d0f5a",
+    "native_input_sha256": {
+      "inlet/flux": "60f09dcc8bfd94a5b0a4743fbf2dc33d3c70660b18d9b39bbe523fae725d48fa",
+      "inlet/total_pressure": "8fd0a6c4a2c90184615faa3097686ddde7810cf57c8de721640cb5d51b5b442b",
+      "outlet_0/flux": "b104e2d017d7ea82e2cfb91695f1e7a54a48b997d5eb6c946dae309dcdc40d0d",
+      "outlet_0/total_pressure": "9dd61587bbebbbff7dcdea96884cbab8da97a9b4d98d832f488994b610f0b73e",
+      "outlet_1/flux": "e2b330b513d884960567e0112558415d1184f0ccea381b365cf9a0d67401ed7c",
+      "outlet_1/total_pressure": "b0d017f4052b26b6bf986207486bf30a798a20efc3e212a5986f0c5f0b1e63a7",
+      "outlet_2/flux": "b8e2704fb6df14ea5e4770b89208b8a4d6e24351cad5da6c83cd23236788fc8d",
+      "outlet_2/total_pressure": "3f654187a3802c6b5dcd1df748876846e9bb8590aeefd1fa86f4a37f6652fe2c",
+      "outlet_3/flux": "8046af512c4ac61414c7872c00a6f0539051989fa003589a7df590393b8e2c8f",
+      "outlet_3/total_pressure": "6d08537bb821b608a891a55c94930061f6c6d299b36647565f82dc148ef4e717"
+    },
+    "basis_file_sha256": {
+      "source_design_flows": "455fb85366fc5496510b3c954cf2d28fd2eecf68e01cc8f72ab1c0e06fbaf2dd",
+      "mixed_schemes": "a58ebd458b2873ca5f13abaf10c20e09ce5a79cae32419cc7652c22403e40f3c",
+      "phase_control": "4988398cc89aa0d0b8a2d36fd2877ba956f0ff4d7ef0d0ca1ceb7971f9ba4c7d",
+      "model": "4ff605229f387b3d8548a31a6b2d9bae77c20b5ccc190f233d64493dcf013cf2",
+      "startup": "82a78f7b79c4f8deb9a081129ae79305d3f6808cc096af9f6afa55a02e4efce7"
+    },
+    "adapter_sha256": "201a0e0069f19604f9000e1388015f7cac202916a99930ed90e494b0a469ae0e",
+    "assessor_sha256": "256877f3486b8c681fd255293b6834761fec91bb130c1690cd62332a60283092"
+  }
+}

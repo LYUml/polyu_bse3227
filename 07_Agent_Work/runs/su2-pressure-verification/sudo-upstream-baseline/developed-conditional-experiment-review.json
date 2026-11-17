@@ -1,0 +1,33 @@
+{
+  "scope": "Terminal numerical fields, same 40 native line nodes. Conditional postprocessing only.",
+  "assumptions": {
+    "CSV_r": "(z-0.208 m)/0.104 m",
+    "CSV_Un": "global Velocity_x / 8.7 m/s at phi90",
+    "sampling": "NumPy linear interpolation between40native diameter nodes; all27abscissae inside range",
+    "flow_conditions": "Three inlet profiles have different integrated flows. This is not a fixed-flow shape-only sensitivity."
+  },
+  "experimental_csv_sha256": "c08bf6940c3f9cc5172d0b9e2fb647d44274ceecbc5ef35f9167669d8ed6922f",
+  "metrics": {
+    "Uniform inlet": {
+      "conditional_normalized_RMSE": 0.22653722794623235,
+      "conditional_maximum_absolute_error": 0.41373593272982606,
+      "probe_sha256": "d8d1fbd6a6864f857bdd0446e86654004070d8f6da86fe0f69e7ae00d5f9dde5",
+      "field_sha256": "39360415a6fb0153d593db12b2fbeec57b3b9d8a3a315eb2a309ce5ff369e30f"
+    },
+    "Supplied inlet": {
+      "conditional_normalized_RMSE": 0.1777404752105863,
+      "conditional_maximum_absolute_error": 0.40870809326695223,
+      "probe_sha256": "7bdc92ae8fd6ff569150c57b30ff9a15f6e10212f7d1608297fabb9211c5d2b3",
+      "field_sha256": "daf31f25e2fe8ed983edd2b3af338702510c700b6674150bb4aa03ce15673743"
+    },
+    "Developed inlet": {
+      "conditional_normalized_RMSE": 0.1781796366275593,
+      "conditional_maximum_absolute_error": 0.408656296566835,
+      "probe_sha256": "6a3b69cbf4e5e50ebce146e241a6b6517bc13aee5b5576dfd277291bf88c1ed0",
+      "field_sha256": "a93d8110def654ed8777490dc775d97c45b21027b664bd668b3c3ef43b21398e"
+    }
+  },
+  "numpy_version": "2.5.4",
+  "experimental_agreement_accepted": false,
+  "engineering_accepted": false
+}

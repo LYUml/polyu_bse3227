@@ -1,0 +1,21 @@
+{
+  "state": "failed",
+  "request": {
+    "airflow": 91.0,
+    "airflow_unit": "cfm",
+    "model": "1400",
+    "neck_in": 6,
+    "module": "24x24",
+    "border": "F23 T-Bar",
+    "effective_cfm": 91
+  },
+  "output_directory": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\course-load150-critical-91",
+  "backend": "GRD 10.0.2 native GUI",
+  "started_at": 1794883959.8555934,
+  "failure_windows": [],
+  "failed_stage": "exporting",
+  "error": {
+    "code": "unsupported_report",
+    "message": "Missing report field: ^\\s*Velocity FPM:\\s+([\\d.\\s\\-]+)$"
+  }
+}

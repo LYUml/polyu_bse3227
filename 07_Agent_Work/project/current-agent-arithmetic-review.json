@@ -1,0 +1,28 @@
+{
+  "scope": "Host AI independent Decimal preliminary arithmetic and per-terminal turndown review; no physical layout, detailed room load, ADPI or whole assignment acceptance",
+  "source_sha256": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a",
+  "allocation_sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+  "total_cooling_kW_thermal": 193.158,
+  "sensible_trial_kW_thermal": 173.8422,
+  "supply_flow_m3_s": 12.000372763419483,
+  "minimum_supply_flow_m3_s": 4.800149105367793,
+  "terminal_count": 80,
+  "identities_preserved": true,
+  "all_terminal_turndown_checks_pass": true,
+  "thermal_and_flow_arithmetic_pass": true,
+  "assumptions": {
+    "specific_heat": {
+      "value": 1006,
+      "unit": "J/(kg K)",
+      "source": "Explicit trial air-property/temperature assumption",
+      "classification": "assumed"
+    },
+    "temperature_difference": {
+      "value": 12,
+      "unit": "K",
+      "source": "Explicit trial air-property/temperature assumption",
+      "classification": "assumed"
+    }
+  },
+  "design_accepted": false
+}

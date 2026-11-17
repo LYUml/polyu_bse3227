@@ -1,0 +1,33 @@
+{
+  "state": "failed",
+  "request": {
+    "airflow": 156.339964908475,
+    "airflow_unit": "l/s",
+    "model": "1400",
+    "neck_in": 8,
+    "module": "24x24",
+    "border": "F23 T-Bar",
+    "effective_cfm": 331
+  },
+  "output_directory": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\kselect-critical-maximum-ready-retry",
+  "backend": "GRD 10.0.2 native GUI",
+  "started_at": 1794833440.148767,
+  "failure_windows": [
+    {
+      "title": "Nothing to Display",
+      "class": "#32770",
+      "text": [
+        "OK",
+        "51450A has no selection capablity.\rSelect Product Info to view additional information."
+      ]
+    }
+  ],
+  "failed_stage": "selecting",
+  "error": {
+    "code": "blocked",
+    "message": "Close or resolve the existing GRD report/dialog before calculating",
+    "dialogs": [
+      "Nothing to Display"
+    ]
+  }
+}

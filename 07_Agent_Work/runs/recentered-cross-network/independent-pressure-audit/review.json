@@ -1,0 +1,27 @@
+{
+  "scope": "Independent current straight-friction Colebrook root and all outlet contribution sums; no new fitting coefficient or design adoption",
+  "cases": {
+    "maximum": {
+      "straight_count": 45,
+      "colebrook_max_error_Pa": 3.375077994860476e-14,
+      "outlet_paths": 20,
+      "all_complete_pressures_unknown": true,
+      "max_conditional_single_fitting_Pa": 55.396153434626434,
+      "all_paths_still_cross_compound": true,
+      "source_analysis_sha256": "cca9ee3c8c7ffe76fef451c092989064a68ae9c5a613583e91c0687bd44cc17e",
+      "source_ledger_sha256": "442330127569fe33d00388698fee1472515085d4d126b688bdd2c2037c99aa86"
+    },
+    "minimum": {
+      "straight_count": 45,
+      "colebrook_max_error_Pa": 3.552713678800501e-15,
+      "outlet_paths": 20,
+      "all_complete_pressures_unknown": true,
+      "max_conditional_single_fitting_Pa": 8.86338454954023,
+      "all_paths_still_cross_compound": true,
+      "source_analysis_sha256": "a39d572a1c2817a9b3a897088b546a2916f1dba8e44fb2724da5b41c75c71caf",
+      "source_ledger_sha256": "b5693e37dbaf46af2f6ae5aade8e927ad4083f1db120da340fa7aacb14d60989"
+    }
+  },
+  "design_accepted": false,
+  "next_action": "Reduce high local losses only with verified geometry and source applicability; compound pressure and interaction remain unknown"
+}

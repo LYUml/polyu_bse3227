@@ -1,0 +1,160 @@
+{
+  "original_transition_guid": "0rXojppeTH0BTVX2pgkVrd",
+  "source_ifc_sha256": "df434ed486a5025ca121737f40e4aba07039789587b5cb1e4a88325c23d38994",
+  "stages": [
+    {
+      "stage": 1,
+      "family": "centred_equal_angle_pyramidal",
+      "start_section_m": [
+        0.6,
+        0.4
+      ],
+      "end_section_m": [
+        0.5499999999999999,
+        0.35
+      ],
+      "total_length_m": 0.14330127018922204,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.00021818478193930333,
+        "independent_material_volume_m3": 0.00021818478193931165,
+        "material_centroid_m": [
+          -2.627751674872773e-16,
+          -1.0845844863048287e-15,
+          0.07003424875686498
+        ],
+        "relative_volume_error": 3.813855210186388e-14,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999993,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.3008,
+            -0.2008,
+            0.0
+          ],
+          [
+            0.3008,
+            0.2008,
+            0.14330127018922204
+          ]
+        ]
+      },
+      "source_query": {
+        "status": "calculated",
+        "coefficient": 0.049350649350649395,
+        "support_indexes": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "actual_included_angles_deg": [
+        29.999999999999996,
+        29.999999999999996
+      ],
+      "ifc_sha256": "01c1d1b0f60093d3e9348e5a6e2ad94d6bf6b1a3ffba30bd31ab2816c173aae7"
+    },
+    {
+      "stage": 2,
+      "family": "centred_one_plane",
+      "start_section_m": [
+        0.5499999999999999,
+        0.35
+      ],
+      "end_section_m": [
+        0.5,
+        0.35
+      ],
+      "total_length_m": 0.14330127018922184,
+      "native_checks": {
+        "schema_express_issue_count": 0,
+        "ports": 2,
+        "material_volume_m3": 0.00020098862951659663,
+        "independent_material_volume_m3": 0.00020098862951659427,
+        "material_centroid_m": [
+          -8.091518722425878e-16,
+          -6.742932268688231e-17,
+          0.07077329466625214
+        ],
+        "relative_volume_error": 1.1732702147517636e-14,
+        "euler_characteristic": 0,
+        "one_connected_closed_material": true,
+        "independent_maximum_included_angle_degrees": 29.999999999999993,
+        "centre_bore_overlap_m3": 0.0,
+        "bounds_m": [
+          [
+            -0.2758,
+            -0.17579999999999998,
+            0.0
+          ],
+          [
+            0.2758,
+            0.17579999999999998,
+            0.14330127018922184
+          ]
+        ]
+      },
+      "source_query": {
+        "status": "calculated",
+        "coefficient": 0.019999999999999976,
+        "support_indexes": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "native_condition_checks": [],
+        "reason": "Bounded interpolation only; engineering applicability and source transcription remain review-required"
+      },
+      "actual_included_angles_deg": [
+        29.999999999999993,
+        0.0
+      ],
+      "ifc_sha256": "88a7ef997b093f51b24c072689756d4f3b90d6d2ca1f6d0537dd860d6b88b2b0"
+    }
+  ],
+  "original_total_length_m": 0.28660254037844385,
+  "external_frames_preserved": true,
+  "new_internal_interface_count": 1,
+  "source_families_match": true,
+  "original_network_modified": false,
+  "network_integrated": false,
+  "interaction_and_joint_losses_unknown": true,
+  "combined_pressure_Pa": null,
+  "pressure_budget_complete": false,
+  "design_accepted": false,
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\reduced-branch-study\\staged_transition.py": "777c99bc18c0063e766db09102f71a5f2546aa8af74119bdc806f0da4f56ff96",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_transition.py": "257b7d5e1a018edb178e32599c48b065cdc0f32219e5f187d23e559d153e7ed6"
+  }
+}

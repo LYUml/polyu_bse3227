@@ -1,0 +1,77 @@
+{
+  "scope": "Saved420 first-order native fields and residual diagnostics only",
+  "field_time": 420,
+  "engineering_accepted": false,
+  "fields": {
+    "U": {
+      "native_cell_values": 684730,
+      "minimum": 0.00028828500032883976,
+      "maximum": 6.729583859093502,
+      "sha256": "4c211aefbbba1b614b1d6dcdb00b47221b179abe5e8e86dae5704f0cae0472e2"
+    },
+    "p": {
+      "native_cell_values": 684730,
+      "minimum": -26.331437091759163,
+      "maximum": 28.63293560950502,
+      "sha256": "0009e2a6c6804749e54016d39c08d63a0dbd72cb305d644918b372d89131b152"
+    },
+    "Pt": {
+      "native_cell_values": 684730,
+      "minimum": -31.536227958431084,
+      "maximum": 46.95837434610584,
+      "sha256": "819b79567748e4f88ff03c9014eeef25ab74c93f9e5e9734fad64d67eeea600d"
+    },
+    "k": {
+      "native_cell_values": 684730,
+      "minimum": 1.9055499097991268e-05,
+      "maximum": 1.4660909937826636,
+      "sha256": "ca676c4546960e3499b69d171fc9f703ee863f55144896407302cf2783609e30"
+    },
+    "omega": {
+      "native_cell_values": 684730,
+      "minimum": 49.93930303019186,
+      "maximum": 5072167.449758814,
+      "sha256": "9c9baa2eda0bc8daaad8536513d68723c8df4e0c7d76d9c64141528b6cca40b1"
+    },
+    "nut": {
+      "native_cell_values": 684730,
+      "minimum": 7.473734757623925e-10,
+      "maximum": 0.0029897653353249546,
+      "sha256": "3052c04a5159b51fc4b352c4804c3bd045127bb735efd07b5bfe325a0ade3642"
+    }
+  },
+  "initial_residual_ranges_last200": {
+    "Ux": {
+      "minimum": 1.596975037143298e-06,
+      "maximum": 3.126556498449552e-06,
+      "terminal": 1.596975037143298e-06
+    },
+    "Uy": {
+      "minimum": 1.2066666628732692e-06,
+      "maximum": 2.5226007338649856e-06,
+      "terminal": 1.2066666628732692e-06
+    },
+    "Uz": {
+      "minimum": 6.7324911315985385e-06,
+      "maximum": 1.5747513088012087e-05,
+      "terminal": 6.7324911315985385e-06
+    },
+    "p": {
+      "minimum": 3.9923411120831414e-07,
+      "maximum": 1.331288522525339e-05,
+      "terminal": 3.9923411120831414e-07
+    },
+    "omega": {
+      "minimum": 3.6632487744182445e-09,
+      "maximum": 1.1174258822566196e-08,
+      "terminal": 9.245086263181432e-09
+    },
+    "k": {
+      "minimum": 3.9445505321989714e-06,
+      "maximum": 6.96990213918088e-06,
+      "terminal": 4.210378358050027e-06
+    }
+  },
+  "negative_k_bounding_events": 0,
+  "residual_acceptance_target_not_defined_by_this_review": true
+}

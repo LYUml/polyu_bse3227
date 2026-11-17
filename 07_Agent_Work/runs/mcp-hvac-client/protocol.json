@@ -1,0 +1,836 @@
+[
+  {
+    "tool": "bsa_prepare_hvac_project",
+    "arguments": {
+      "plan": "07_Agent_Work/project/engineering-supporting-evidence-plan.json",
+      "out": "07_Agent_Work/project/mcp-hvac-project.json",
+      "terminal_review": "07_Agent_Work/project/terminal-review-settings.json",
+      "adpi_settings": "07_Agent_Work/project/adpi-source-review/adpi-settings.json",
+      "requirements_result": "07_Agent_Work/runs/supporting-common-requirements/inventory/result.json",
+      "junction_review_native_task": "native-sheet",
+      "system_paths_native_task": "native-sheet"
+    },
+    "is_error": false,
+    "value": {
+      "configuration": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\mcp-hvac-project.json",
+      "configuration_sha256": "a2948ae1bef2c404a31a0a945ad830f523a7d984331aa5a3bdf43cc6633f9215",
+      "files": {
+        "plan": "engineering-supporting-evidence-plan.json",
+        "terminal_review": "terminal-review-settings.json",
+        "adpi_settings": "adpi-source-review/adpi-settings.json",
+        "requirements_result": "../runs/supporting-common-requirements/inventory/result.json"
+      },
+      "selectors": {
+        "junction_review_native_task": "native-sheet",
+        "system_paths_native_task": "native-sheet"
+      },
+      "design_accepted": false
+    }
+  },
+  {
+    "tool": "bsa_run_hvac_project",
+    "arguments": {
+      "configuration": "07_Agent_Work/project/mcp-hvac-project.json",
+      "out": "07_Agent_Work/runs/mcp-hvac-package"
+    },
+    "is_error": false,
+    "value": {
+      "configuration_sha256": "a2948ae1bef2c404a31a0a945ad830f523a7d984331aa5a3bdf43cc6633f9215",
+      "package_sha256": "0452bc1276d1368a2775194f4895c95cb9feb5c9991dbca41ec48256b1f2f9e9",
+      "status": "review_required",
+      "stage_errors": {},
+      "stages": [
+        "system_paths",
+        "junction_review",
+        "adpi_review",
+        "terminal_review",
+        "report",
+        "report_pdf"
+      ],
+      "unresolved_tasks": [
+        {
+          "id": "hk-flex-length",
+          "kind": "regulations",
+          "status": "pending",
+          "scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending"
+        },
+        {
+          "id": "work-identity",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed"
+        },
+        {
+          "id": "work-load",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Compute preliminary cooling and total supply flow with source-linked classifications."
+        },
+        {
+          "id": "work-layout",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed"
+        },
+        {
+          "id": "work-minimum",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Calculate minimum per-terminal flow at40percent turndown."
+        },
+        {
+          "id": "work-terminal",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions."
+        },
+        {
+          "id": "work-adpi",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed"
+        },
+        {
+          "id": "work-routing",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed"
+        },
+        {
+          "id": "work-sizing",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed"
+        },
+        {
+          "id": "work-schedule",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Provide the required section/flow/size/velocity/gradient schedule."
+        },
+        {
+          "id": "work-delivery",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "adpi-review.json",
+          "sha256": "3a810c7c1f24a57ea2ed7b63926953ead6a2af6eee450f171af22f342315f595",
+          "bytes": 132207
+        },
+        {
+          "path": "delivery-review.json",
+          "sha256": "d9b0f1c51eaeb28b6063620e7464a6cf85c73dbaf20876b1da759da775f38009",
+          "bytes": 10568
+        },
+        {
+          "path": "diagnosis.json",
+          "sha256": "8ae4880728730b7df4d7b183e5a24ad5dafa911e63793cdd95995d175b45d22b",
+          "bytes": 53952
+        },
+        {
+          "path": "index.html",
+          "sha256": "67f97b91343cb4c891a214fc1f893c3ccd0bb5b9dd598d139812425e59afb81f",
+          "bytes": 5914
+        },
+        {
+          "path": "junction-review.json",
+          "sha256": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+          "bytes": 70813
+        },
+        {
+          "path": "terminal-review.json",
+          "sha256": "7b280c64ef554e520dbcf12a37b16cd4f18234c59c8a646ebb50b10e72276747",
+          "bytes": 19014
+        },
+        {
+          "path": "report/HVAC System Design.html",
+          "sha256": "0ff5b872c6aa0d1d0c11d35d337c5a9c5f336acd8fafa9eddc11f15052202466",
+          "bytes": 73188
+        },
+        {
+          "path": "report/report.json",
+          "sha256": "f8bdc7b8da1cfcf7aa598cdd2d56ab2000decface863de67b882baccbf53e2a9",
+          "bytes": 5532
+        },
+        {
+          "path": "report-pdf/HVAC System Design.pdf",
+          "sha256": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+          "bytes": 100738
+        },
+        {
+          "path": "report-pdf/render.json",
+          "sha256": "0ece6299e9268686fdb82cb4dc88cdb816d9a02bf7eaa2dbbef89beffa20a59b",
+          "bytes": 799
+        },
+        {
+          "path": "system-paths/index.html",
+          "sha256": "c8c1403d29c8351c9ce2b468bddd2653e17ae4194328058282e1f93f65e2c8fa",
+          "bytes": 3737
+        },
+        {
+          "path": "system-paths/junction-review.json",
+          "sha256": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+          "bytes": 70813
+        },
+        {
+          "path": "system-paths/system-paths.json",
+          "sha256": "3b649bd7c0a6a900da721948822124fedc6de5100759d14f65428ac4a868ed31",
+          "bytes": 138715
+        },
+        {
+          "path": "workflow/index.html",
+          "sha256": "be51993ebc7f6fc771715e39de370a8d762b1cc7274cc127a1f99af3fcbe2928",
+          "bytes": 80717
+        },
+        {
+          "path": "workflow/workflow.json",
+          "sha256": "a9c4bf5a473c046be35195b83aa52be9be469887825a2e3d1ae62ebff5f23c19",
+          "bytes": 73877
+        },
+        {
+          "path": "workflow/air-allocation/allocation.json",
+          "sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+          "bytes": 147800
+        },
+        {
+          "path": "workflow/duct-schedule/results.json",
+          "sha256": "de862e26e829491cb0f99a3c9b84e1faa843b2fd0ac6567a497df359024ba7af",
+          "bytes": 12264959
+        },
+        {
+          "path": "workflow/duct-schedule/schedule.csv",
+          "sha256": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+          "bytes": 4223
+        },
+        {
+          "path": "workflow/duct-sheet/schedule-drawing.json",
+          "sha256": "b0cfc16e86699a1000e9bf55d090ffd5f0f9d1abcb820a421e1f4ecd95ef7345",
+          "bytes": 35122
+        },
+        {
+          "path": "workflow/duct-sheet/Supply Air Distribution.dxf",
+          "sha256": "ee0e65daf939c47bb3f50652a5a818f070703d9eabf153fbeff40794dff12ba1",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/duct-sheet/workflow-binding.json",
+          "sha256": "bf80329270a0bffb625e4493197f52c36d7fd1f8e8d038af6b952917a45cffb9",
+          "bytes": 471
+        },
+        {
+          "path": "workflow/duct-sheet/writer-request.json",
+          "sha256": "0d935a015aee816ebe5124c635a355be5f81e16ba39ccb23b9822a2fe4ecdc27",
+          "bytes": 38706
+        },
+        {
+          "path": "workflow/duct-sheet/writer.json",
+          "sha256": "478b5c45d6adc882f20da72c6dd02c59311be198d13c649c50ac55ea96c8cf11",
+          "bytes": 698
+        },
+        {
+          "path": "workflow/duct-sheet/writer.log",
+          "sha256": "5ea5ffc01190c6753fd25b4c7c9f7239595ecffca3798a791aed24557197d42f",
+          "bytes": 109
+        },
+        {
+          "path": "workflow/hk-flex-length/regulation-checks.json",
+          "sha256": "898d11e6ba0d3cfc571ca6358c05acc70c2c1b19db4e04e5544debd9382091b6",
+          "bytes": 2503
+        },
+        {
+          "path": "workflow/native-sheet/native-sheet.json",
+          "sha256": "63ad5368b876ffe9811e8e40fd6325a4ed4e46b5da6aa8a5812baed2fe15637f",
+          "bytes": 1759
+        },
+        {
+          "path": "workflow/native-sheet/plot.log",
+          "sha256": "afd1739cb792322860ac2c8f26226ced1967ca0f8d4347f0ab40d4b9b6ab59e8",
+          "bytes": 225
+        },
+        {
+          "path": "workflow/native-sheet/save.log",
+          "sha256": "58a84845cf4312092e9e53e4e8ed897dd48b73883ab5f4bbe750c3539b8d788a",
+          "bytes": 3736
+        },
+        {
+          "path": "workflow/native-sheet/save.scr",
+          "sha256": "76fd2993ba3b73c28c2765145fb34f4a8cf7f55434c5c82c677e3899a7de8a6c",
+          "bytes": 461
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.dwg",
+          "sha256": "29ef3ccce27fa259dd09ae4ea4dd484a0f970c2597ea4028b76e1844b482b450",
+          "bytes": 228713
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.dxf",
+          "sha256": "ee0e65daf939c47bb3f50652a5a818f070703d9eabf153fbeff40794dff12ba1",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.json",
+          "sha256": "fb3a38f516f78d0d7d620f8e44829c72ed039ec61e51228dbab578a3b76ac863",
+          "bytes": 417
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.log",
+          "sha256": "dce1781a0af76fc780c6258d52abfe65bc0a314021103642a06af51f2e84af44",
+          "bytes": 6938
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.pdf",
+          "sha256": "4e0016c0e5849351bfea24194d3ab3bbce579628494754cf1af9816ecb63f0d8",
+          "bytes": 146941
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.scr",
+          "sha256": "29c4a2f3b019bf54d0745709ae146f2a666f87ea66261194a539064cb403e530",
+          "bytes": 710
+        },
+        {
+          "path": "workflow/terminal-lookup/terminal-results.json",
+          "sha256": "397023c5b143f27aee8d580e1e28e1a30b50845fe73e43090d0920352cccd5ab",
+          "bytes": 358644
+        },
+        {
+          "path": "workflow/duct-sheet/allocation/allocation.json",
+          "sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+          "bytes": 147800
+        },
+        {
+          "path": "workflow/duct-sheet/reference/drawing-update.json",
+          "sha256": "841db8f8681ab83ce35cbeb945f20f787ae75f99a9fa1c995b75aeed5e63fb72",
+          "bytes": 23013
+        },
+        {
+          "path": "workflow/duct-sheet/reference/Supply Air Distribution.dxf",
+          "sha256": "ece70e79117da8c629fad770c9c88a75c2ad7d6b32229bd9bd1833ba1e678cdc",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/duct-sheet/schedule/results.json",
+          "sha256": "6f2f2d41367a984e1c1541152fa769afe9893ca3fc7cf37ca8c7f39c08d43d45",
+          "bytes": 12264967
+        },
+        {
+          "path": "workflow/duct-sheet/schedule/schedule.csv",
+          "sha256": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+          "bytes": 4223
+        },
+        {
+          "path": "workflow/duct-sheet/temp/gen_py/3.12/dicts.dat",
+          "sha256": "83cda9fecc9c008b22c0c8e58cbcbfa577a3ef8ee9b2f983ed4a8659596d5c11",
+          "bytes": 10
+        },
+        {
+          "path": "workflow/duct-sheet/temp/gen_py/3.12/__init__.py",
+          "sha256": "52c72cf96b12ae74d84f6c049775da045fae47c007dc834ca4dac607b6f518ea",
+          "bytes": 176
+        },
+        {
+          "path": "workflow/native-sheet/reopened/export.log",
+          "sha256": "c428d808b411d7d5082bef4e5f01dc5e6ba955735fac3039bb61f8b2fec82319",
+          "bytes": 3762
+        },
+        {
+          "path": "workflow/native-sheet/reopened/export.scr",
+          "sha256": "7a19f9aee75ec4cd71efc98a6604161cabe6d0ffcad725bfb242730bacfefbb7",
+          "bytes": 484
+        },
+        {
+          "path": "workflow/native-sheet/reopened/source-copy.dwg",
+          "sha256": "29ef3ccce27fa259dd09ae4ea4dd484a0f970c2597ea4028b76e1844b482b450",
+          "bytes": 228713
+        },
+        {
+          "path": "workflow/native-sheet/reopened/source-export.dxf",
+          "sha256": "69ff2aae177d20508dde987b073358a10510bb08c8f3b6020041cd73ae0d9c5f",
+          "bytes": 1676457
+        },
+        {
+          "path": "workflow/native-sheet/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+          "sha256": "846b1ed48c31ab1895fde1838ab4f7a735dc1519fa0ceee9333559191f25b6ef",
+          "bytes": 14726
+        },
+        {
+          "path": "workflow/native-sheet/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+          "sha256": "bb6266973550a8a67c26db59a9928dc37020f31adcbc8d810577270cdeb2c211",
+          "bytes": 7363
+        }
+      ],
+      "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+      "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow",
+      "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package",
+      "integrity_pass": true,
+      "design_accepted": false,
+      "scope": "Current source/method and recorded artifact correspondence; actual visual and full engineering acceptance remain separate"
+    }
+  },
+  {
+    "tool": "bsa_inspect_hvac_project",
+    "arguments": {
+      "configuration": "07_Agent_Work/project/mcp-hvac-project.json",
+      "out": "07_Agent_Work/runs/mcp-hvac-package"
+    },
+    "is_error": false,
+    "value": {
+      "configuration_sha256": "a2948ae1bef2c404a31a0a945ad830f523a7d984331aa5a3bdf43cc6633f9215",
+      "package_sha256": "0452bc1276d1368a2775194f4895c95cb9feb5c9991dbca41ec48256b1f2f9e9",
+      "status": "review_required",
+      "stage_errors": {},
+      "stages": [
+        "system_paths",
+        "junction_review",
+        "adpi_review",
+        "terminal_review",
+        "report",
+        "report_pdf"
+      ],
+      "unresolved_tasks": [
+        {
+          "id": "hk-flex-length",
+          "kind": "regulations",
+          "status": "pending",
+          "scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending"
+        },
+        {
+          "id": "work-identity",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed"
+        },
+        {
+          "id": "work-load",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Compute preliminary cooling and total supply flow with source-linked classifications."
+        },
+        {
+          "id": "work-layout",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed"
+        },
+        {
+          "id": "work-minimum",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Calculate minimum per-terminal flow at40percent turndown."
+        },
+        {
+          "id": "work-terminal",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions."
+        },
+        {
+          "id": "work-adpi",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed"
+        },
+        {
+          "id": "work-routing",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed"
+        },
+        {
+          "id": "work-sizing",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed"
+        },
+        {
+          "id": "work-schedule",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "Provide the required section/flow/size/velocity/gradient schedule."
+        },
+        {
+          "id": "work-delivery",
+          "kind": "manual",
+          "status": "pending",
+          "scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed"
+        }
+      ],
+      "artifacts": [
+        {
+          "path": "adpi-review.json",
+          "sha256": "3a810c7c1f24a57ea2ed7b63926953ead6a2af6eee450f171af22f342315f595",
+          "bytes": 132207
+        },
+        {
+          "path": "delivery-review.json",
+          "sha256": "d9b0f1c51eaeb28b6063620e7464a6cf85c73dbaf20876b1da759da775f38009",
+          "bytes": 10568
+        },
+        {
+          "path": "diagnosis.json",
+          "sha256": "8ae4880728730b7df4d7b183e5a24ad5dafa911e63793cdd95995d175b45d22b",
+          "bytes": 53952
+        },
+        {
+          "path": "index.html",
+          "sha256": "67f97b91343cb4c891a214fc1f893c3ccd0bb5b9dd598d139812425e59afb81f",
+          "bytes": 5914
+        },
+        {
+          "path": "junction-review.json",
+          "sha256": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+          "bytes": 70813
+        },
+        {
+          "path": "terminal-review.json",
+          "sha256": "7b280c64ef554e520dbcf12a37b16cd4f18234c59c8a646ebb50b10e72276747",
+          "bytes": 19014
+        },
+        {
+          "path": "report/HVAC System Design.html",
+          "sha256": "0ff5b872c6aa0d1d0c11d35d337c5a9c5f336acd8fafa9eddc11f15052202466",
+          "bytes": 73188
+        },
+        {
+          "path": "report/report.json",
+          "sha256": "f8bdc7b8da1cfcf7aa598cdd2d56ab2000decface863de67b882baccbf53e2a9",
+          "bytes": 5532
+        },
+        {
+          "path": "report-pdf/HVAC System Design.pdf",
+          "sha256": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+          "bytes": 100738
+        },
+        {
+          "path": "report-pdf/render.json",
+          "sha256": "0ece6299e9268686fdb82cb4dc88cdb816d9a02bf7eaa2dbbef89beffa20a59b",
+          "bytes": 799
+        },
+        {
+          "path": "system-paths/index.html",
+          "sha256": "c8c1403d29c8351c9ce2b468bddd2653e17ae4194328058282e1f93f65e2c8fa",
+          "bytes": 3737
+        },
+        {
+          "path": "system-paths/junction-review.json",
+          "sha256": "c337a1631cf8f5b16a4cb1fca542fcacbfb67c838d3a250dd1ca33fe2257a304",
+          "bytes": 70813
+        },
+        {
+          "path": "system-paths/system-paths.json",
+          "sha256": "3b649bd7c0a6a900da721948822124fedc6de5100759d14f65428ac4a868ed31",
+          "bytes": 138715
+        },
+        {
+          "path": "workflow/index.html",
+          "sha256": "be51993ebc7f6fc771715e39de370a8d762b1cc7274cc127a1f99af3fcbe2928",
+          "bytes": 80717
+        },
+        {
+          "path": "workflow/workflow.json",
+          "sha256": "a9c4bf5a473c046be35195b83aa52be9be469887825a2e3d1ae62ebff5f23c19",
+          "bytes": 73877
+        },
+        {
+          "path": "workflow/air-allocation/allocation.json",
+          "sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+          "bytes": 147800
+        },
+        {
+          "path": "workflow/duct-schedule/results.json",
+          "sha256": "de862e26e829491cb0f99a3c9b84e1faa843b2fd0ac6567a497df359024ba7af",
+          "bytes": 12264959
+        },
+        {
+          "path": "workflow/duct-schedule/schedule.csv",
+          "sha256": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+          "bytes": 4223
+        },
+        {
+          "path": "workflow/duct-sheet/schedule-drawing.json",
+          "sha256": "b0cfc16e86699a1000e9bf55d090ffd5f0f9d1abcb820a421e1f4ecd95ef7345",
+          "bytes": 35122
+        },
+        {
+          "path": "workflow/duct-sheet/Supply Air Distribution.dxf",
+          "sha256": "ee0e65daf939c47bb3f50652a5a818f070703d9eabf153fbeff40794dff12ba1",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/duct-sheet/workflow-binding.json",
+          "sha256": "bf80329270a0bffb625e4493197f52c36d7fd1f8e8d038af6b952917a45cffb9",
+          "bytes": 471
+        },
+        {
+          "path": "workflow/duct-sheet/writer-request.json",
+          "sha256": "0d935a015aee816ebe5124c635a355be5f81e16ba39ccb23b9822a2fe4ecdc27",
+          "bytes": 38706
+        },
+        {
+          "path": "workflow/duct-sheet/writer.json",
+          "sha256": "478b5c45d6adc882f20da72c6dd02c59311be198d13c649c50ac55ea96c8cf11",
+          "bytes": 698
+        },
+        {
+          "path": "workflow/duct-sheet/writer.log",
+          "sha256": "5ea5ffc01190c6753fd25b4c7c9f7239595ecffca3798a791aed24557197d42f",
+          "bytes": 109
+        },
+        {
+          "path": "workflow/hk-flex-length/regulation-checks.json",
+          "sha256": "898d11e6ba0d3cfc571ca6358c05acc70c2c1b19db4e04e5544debd9382091b6",
+          "bytes": 2503
+        },
+        {
+          "path": "workflow/native-sheet/native-sheet.json",
+          "sha256": "63ad5368b876ffe9811e8e40fd6325a4ed4e46b5da6aa8a5812baed2fe15637f",
+          "bytes": 1759
+        },
+        {
+          "path": "workflow/native-sheet/plot.log",
+          "sha256": "afd1739cb792322860ac2c8f26226ced1967ca0f8d4347f0ab40d4b9b6ab59e8",
+          "bytes": 225
+        },
+        {
+          "path": "workflow/native-sheet/save.log",
+          "sha256": "58a84845cf4312092e9e53e4e8ed897dd48b73883ab5f4bbe750c3539b8d788a",
+          "bytes": 3736
+        },
+        {
+          "path": "workflow/native-sheet/save.scr",
+          "sha256": "76fd2993ba3b73c28c2765145fb34f4a8cf7f55434c5c82c677e3899a7de8a6c",
+          "bytes": 461
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.dwg",
+          "sha256": "29ef3ccce27fa259dd09ae4ea4dd484a0f970c2597ea4028b76e1844b482b450",
+          "bytes": 228713
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.dxf",
+          "sha256": "ee0e65daf939c47bb3f50652a5a818f070703d9eabf153fbeff40794dff12ba1",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.json",
+          "sha256": "fb3a38f516f78d0d7d620f8e44829c72ed039ec61e51228dbab578a3b76ac863",
+          "bytes": 417
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.log",
+          "sha256": "dce1781a0af76fc780c6258d52abfe65bc0a314021103642a06af51f2e84af44",
+          "bytes": 6938
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.pdf",
+          "sha256": "4e0016c0e5849351bfea24194d3ab3bbce579628494754cf1af9816ecb63f0d8",
+          "bytes": 146941
+        },
+        {
+          "path": "workflow/native-sheet/Supply Air Distribution.scr",
+          "sha256": "29c4a2f3b019bf54d0745709ae146f2a666f87ea66261194a539064cb403e530",
+          "bytes": 710
+        },
+        {
+          "path": "workflow/terminal-lookup/terminal-results.json",
+          "sha256": "397023c5b143f27aee8d580e1e28e1a30b50845fe73e43090d0920352cccd5ab",
+          "bytes": 358644
+        },
+        {
+          "path": "workflow/duct-sheet/allocation/allocation.json",
+          "sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+          "bytes": 147800
+        },
+        {
+          "path": "workflow/duct-sheet/reference/drawing-update.json",
+          "sha256": "841db8f8681ab83ce35cbeb945f20f787ae75f99a9fa1c995b75aeed5e63fb72",
+          "bytes": 23013
+        },
+        {
+          "path": "workflow/duct-sheet/reference/Supply Air Distribution.dxf",
+          "sha256": "ece70e79117da8c629fad770c9c88a75c2ad7d6b32229bd9bd1833ba1e678cdc",
+          "bytes": 1568113
+        },
+        {
+          "path": "workflow/duct-sheet/schedule/results.json",
+          "sha256": "6f2f2d41367a984e1c1541152fa769afe9893ca3fc7cf37ca8c7f39c08d43d45",
+          "bytes": 12264967
+        },
+        {
+          "path": "workflow/duct-sheet/schedule/schedule.csv",
+          "sha256": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+          "bytes": 4223
+        },
+        {
+          "path": "workflow/duct-sheet/temp/gen_py/3.12/dicts.dat",
+          "sha256": "83cda9fecc9c008b22c0c8e58cbcbfa577a3ef8ee9b2f983ed4a8659596d5c11",
+          "bytes": 10
+        },
+        {
+          "path": "workflow/duct-sheet/temp/gen_py/3.12/__init__.py",
+          "sha256": "52c72cf96b12ae74d84f6c049775da045fae47c007dc834ca4dac607b6f518ea",
+          "bytes": 176
+        },
+        {
+          "path": "workflow/native-sheet/reopened/export.log",
+          "sha256": "c428d808b411d7d5082bef4e5f01dc5e6ba955735fac3039bb61f8b2fec82319",
+          "bytes": 3762
+        },
+        {
+          "path": "workflow/native-sheet/reopened/export.scr",
+          "sha256": "7a19f9aee75ec4cd71efc98a6604161cabe6d0ffcad725bfb242730bacfefbb7",
+          "bytes": 484
+        },
+        {
+          "path": "workflow/native-sheet/reopened/source-copy.dwg",
+          "sha256": "29ef3ccce27fa259dd09ae4ea4dd484a0f970c2597ea4028b76e1844b482b450",
+          "bytes": 228713
+        },
+        {
+          "path": "workflow/native-sheet/reopened/source-export.dxf",
+          "sha256": "69ff2aae177d20508dde987b073358a10510bb08c8f3b6020041cd73ae0d9c5f",
+          "bytes": 1676457
+        },
+        {
+          "path": "workflow/native-sheet/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+          "sha256": "846b1ed48c31ab1895fde1838ab4f7a735dc1519fa0ceee9333559191f25b6ef",
+          "bytes": 14726
+        },
+        {
+          "path": "workflow/native-sheet/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+          "sha256": "bb6266973550a8a67c26db59a9928dc37020f31adcbc8d810577270cdeb2c211",
+          "bytes": 7363
+        }
+      ],
+      "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+      "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow",
+      "output": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package",
+      "integrity_pass": true,
+      "design_accepted": false,
+      "scope": "Current source/method and recorded artifact correspondence; actual visual and full engineering acceptance remain separate"
+    }
+  },
+  {
+    "tool": "bsa_render_source_page",
+    "arguments": {
+      "source": "07_Agent_Work/runs/mcp-hvac-package/report-pdf/HVAC System Design.pdf",
+      "page": 1,
+      "out": "07_Agent_Work/runs/mcp-hvac-client/report-first"
+    },
+    "is_error": false,
+    "value": {
+      "schema": "bsa.source-page/1",
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\report-pdf\\HVAC System Design.pdf",
+      "source_sha256": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+      "page": 1,
+      "page_count": 24,
+      "media_box_pdf_units": [
+        841.8898,
+        595.2756
+      ],
+      "pdf_user_unit": 1,
+      "page_rotation": 0,
+      "render_policy": "Full source MediaBox with native rotation; fit within maximum pixel side, not an engineering plot scale",
+      "max_side_px": 2048,
+      "image": "page.png",
+      "image_sha256": "5e9b7bd5671071c01fbc3d8dc1c89b374708761d83988b285731d76bb6536e59",
+      "image_size_px": [
+        2048,
+        1449
+      ],
+      "inputs": {
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\report-pdf\\HVAC System Design.pdf": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe": "5b6ff07d229b8a8baca960751d5c591dbc7504efec529a1f5c22f5fd9e3b7220",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_page.py": "d82b779b809283d3513073b8b6618318ce62c245615feb04d8489c305348f7ca",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\ocr.py": "c2ea311d715ee35fc0e2b80dbbbcf9f29bc4120e88e697178e1f92f3e21ccb09"
+      },
+      "source_unchanged": true,
+      "visual_review": "not_performed_by_renderer",
+      "extraction_review_cleared": false,
+      "design_accepted": false
+    }
+  },
+  {
+    "tool": "bsa_render_source_page",
+    "arguments": {
+      "source": "07_Agent_Work/runs/mcp-hvac-package/report-pdf/HVAC System Design.pdf",
+      "page": 24,
+      "out": "07_Agent_Work/runs/mcp-hvac-client/report-last"
+    },
+    "is_error": false,
+    "value": {
+      "schema": "bsa.source-page/1",
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\report-pdf\\HVAC System Design.pdf",
+      "source_sha256": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+      "page": 24,
+      "page_count": 24,
+      "media_box_pdf_units": [
+        841.8898,
+        595.2756
+      ],
+      "pdf_user_unit": 1,
+      "page_rotation": 0,
+      "render_policy": "Full source MediaBox with native rotation; fit within maximum pixel side, not an engineering plot scale",
+      "max_side_px": 2048,
+      "image": "page.png",
+      "image_sha256": "f11abdafd1e3e9666e01eeddd47dbe8e729dfbe2c65674b474e207c3d011b81f",
+      "image_size_px": [
+        2048,
+        1449
+      ],
+      "inputs": {
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\report-pdf\\HVAC System Design.pdf": "5dd2d4fb9a124c2760b86bc58fcc27db8beebd1f10aae60836d81fc2f666c954",
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe": "5b6ff07d229b8a8baca960751d5c591dbc7504efec529a1f5c22f5fd9e3b7220",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_page.py": "d82b779b809283d3513073b8b6618318ce62c245615feb04d8489c305348f7ca",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\ocr.py": "c2ea311d715ee35fc0e2b80dbbbcf9f29bc4120e88e697178e1f92f3e21ccb09"
+      },
+      "source_unchanged": true,
+      "visual_review": "not_performed_by_renderer",
+      "extraction_review_cleared": false,
+      "design_accepted": false
+    }
+  },
+  {
+    "tool": "bsa_render_source_page",
+    "arguments": {
+      "source": "07_Agent_Work/runs/mcp-hvac-package/workflow/native-sheet/Supply Air Distribution.pdf",
+      "page": 1,
+      "out": "07_Agent_Work/runs/mcp-hvac-client/drawing"
+    },
+    "is_error": false,
+    "value": {
+      "schema": "bsa.source-page/1",
+      "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\native-sheet\\Supply Air Distribution.pdf",
+      "source_sha256": "4e0016c0e5849351bfea24194d3ab3bbce579628494754cf1af9816ecb63f0d8",
+      "page": 1,
+      "page_count": 1,
+      "media_box_pdf_units": [
+        2384.0,
+        1684.0
+      ],
+      "pdf_user_unit": 1,
+      "page_rotation": 0,
+      "render_policy": "Full source MediaBox with native rotation; fit within maximum pixel side, not an engineering plot scale",
+      "max_side_px": 2048,
+      "image": "page.png",
+      "image_sha256": "7b3d0205e8ecce819421420d010ab5fc48f86e38e5191a46daafe7c9290d20a4",
+      "image_size_px": [
+        2048,
+        1447
+      ],
+      "inputs": {
+        "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\mcp-hvac-package\\workflow\\native-sheet\\Supply Air Distribution.pdf": "4e0016c0e5849351bfea24194d3ab3bbce579628494754cf1af9816ecb63f0d8",
+        "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-2876-0_26.1104.2876.0_x64__3k8sg7r9htsxt\\dependencies\\native\\poppler\\Library\\bin\\pdftoppm.exe": "5b6ff07d229b8a8baca960751d5c591dbc7504efec529a1f5c22f5fd9e3b7220",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_page.py": "d82b779b809283d3513073b8b6618318ce62c245615feb04d8489c305348f7ca",
+        "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\ocr.py": "c2ea311d715ee35fc0e2b80dbbbcf9f29bc4120e88e697178e1f92f3e21ccb09"
+      },
+      "source_unchanged": true,
+      "visual_review": "not_performed_by_renderer",
+      "extraction_review_cleared": false,
+      "design_accepted": false
+    }
+  }
+]

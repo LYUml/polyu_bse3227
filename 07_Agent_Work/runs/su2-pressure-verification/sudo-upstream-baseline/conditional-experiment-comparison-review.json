@@ -1,0 +1,24 @@
+{
+  "scope": "Conditional postprocessing of terminal numerical fields only. No extrapolation or experimental acceptance.",
+  "assumptions": {
+    "CSV_r": "(z-0.208 m)/0.104 m",
+    "CSV_Un": "global Velocity_x / 8.7 m/s at phi90",
+    "sampling": "NumPy linear interpolation between 40 native diameter nodes; all 27 data abscissae inside range"
+  },
+  "metrics": {
+    "Uniform inlet": {
+      "conditional_normalized_RMSE": 0.22653722794623235,
+      "conditional_maximum_absolute_error": 0.41373593272982606,
+      "field_sha256": "39360415a6fb0153d593db12b2fbeec57b3b9d8a3a315eb2a309ce5ff369e30f"
+    },
+    "Supplied inlet profile": {
+      "conditional_normalized_RMSE": 0.1777404752105863,
+      "conditional_maximum_absolute_error": 0.40870809326695223,
+      "field_sha256": "daf31f25e2fe8ed983edd2b3af338702510c700b6674150bb4aa03ce15673743"
+    }
+  },
+  "numpy_version": "2.5.4",
+  "matplotlib_version": "3.11.2",
+  "experimental_agreement_accepted": false,
+  "engineering_accepted": false
+}

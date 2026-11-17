@@ -1,0 +1,1344 @@
+
+-------------------------------------------------------------------------
+|    ___ _   _ ___                                                      |
+|   / __| | | |_  )   Release 8.6.0 "Harrier"                           |
+|   \__ \ |_| |/ /                                                      |
+|   |___/\___//___|   Suite (Computational Fluid Dynamics Code)         |
+|                                                                       |
+-------------------------------------------------------------------------
+| SU2 Project Website: https://su2code.github.io                        |
+|                                                                       |
+| The SU2 Project is maintained by the SU2 Foundation                   |
+| (http://su2foundation.org)                                            |
+-------------------------------------------------------------------------
+| Copyright 2012-2026, SU2 Contributors                                 |
+|                                                                       |
+| SU2 is free software; you can redistribute it and/or                  |
+| modify it under the terms of the GNU Lesser General Public            |
+| License as published by the Free Software Foundation; either          |
+| version 2.1 of the License, or (at your option) any later version.    |
+|                                                                       |
+| SU2 is distributed in the hope that it will be useful,                |
+| but WITHOUT ANY WARRANTY; without even the implied warranty of        |
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU      |
+| Lesser General Public License for more details.                       |
+|                                                                       |
+| You should have received a copy of the GNU Lesser General Public      |
+| License along with SU2. If not, see <http://www.gnu.org/licenses/>.   |
+-------------------------------------------------------------------------
+
+Parsing config file for zone 0
+
+----------------- Physical Case Definition ( Zone 0 ) -------------------
+Incompressible RANS equations.
+Turbulence model: Menter's k-omega SST-2003m with no production modification
+using default hard coded lower limit clipping.
+Hybrid RANS/LES: No Hybrid RANS/LES
+Reading and writing ASCII SU2 native restart files.
+Read flow solution from: input.
+Dimensional simulation.
+The reference area is 1 m^2.
+The semi-span will be computed using the max y(3D) value.
+The reference length is 1 m.
+Surface(s) to be analyzed in detail: inlet, outlet_0, outlet_1, outlet_2, outlet_3.
+Input mesh file name: ../family-1-layers/agent-final-air.su2
+
+--------------- Space Numerical Integration ( Zone 0 ) ------------------
+Flux difference splitting (FDS) upwind scheme for the flow inviscid terms.
+First order integration in space.
+Average of gradients with correction (viscous flow terms).
+Average of gradients with correction (viscous turbulence terms).
+Gradient for upwind reconstruction: inverse-distance weighted Least-Squares.
+Gradient for viscous and source terms: inverse-distance weighted Least-Squares.
+
+--------------- Time Numerical Integration  ( Zone 0 ) ------------------
+Local time stepping (steady state simulation).
+Euler implicit method for the flow equations.
+FGMRES is used for solving the linear system.
+Using ILU(0) preconditioning.
+Convergence criteria of the linear solver: 1e-06.
+Max number of linear iterations: 30.
+No CFL adaptation.
+Courant-Friedrichs-Lewy number:        1
+Euler implicit time integration for the turbulence model.
+
+------------------ Convergence Criteria  ( Zone 0 ) ---------------------
+Maximum number of solver subiterations: 600.
+Begin convergence monitoring at iteration 5.
+Residual minimum value: 1e-8.
+Cauchy series min. value: 1e-10.
+Number of Cauchy elements: 100.
+Begin windowed time average at iteration 0.
+
+-------------------- Output Information ( Zone 0 ) ----------------------
+File writing frequency: 
++------------------------------------+
+|                     File| Frequency|
++------------------------------------+
+|            RESTART_ASCII|       100|
++------------------------------------+
+Writing the convergence history file every 1 inner iterations.
+Writing the screen convergence history every 1 inner iterations.
+The tabular file format is CSV (.csv).
+Convergence history file name: flow-history.
+Forces breakdown file name: forces_breakdown.dat.
+Surface file name: surface.
+Volume file name: vol_solution.
+Restart file name: flow-restart.
+
+------------- Config File Boundary Information ( Zone 0 ) ---------------
++-----------------------------------------------------------------------+
+|                        Marker Type|                        Marker Name|
++-----------------------------------------------------------------------+
+|                     Inlet boundary|                              inlet|
++-----------------------------------------------------------------------+
+|                    Outlet boundary|                           outlet_0|
+|                                   |                           outlet_1|
+|                                   |                           outlet_2|
+|                                   |                           outlet_3|
++-----------------------------------------------------------------------+
+|                     Heat flux wall|                               wall|
++-----------------------------------------------------------------------+
+
+-------------------- Output Preprocessing ( Zone 0 ) --------------------
+Screen output fields: INNER_ITER, RMS_PRESSURE, RMS_VELOCITY-X, RMS_VELOCITY-Y
+History output group(s): ITER, RMS_RES, LINSOL, SURFACE_MASSFLOW, SURFACE_TOTAL_PRESSURE
+Convergence field(s): RMS_PRESSURE, RMS_VELOCITY-X, RMS_VELOCITY-Y, RMS_VELOCITY-Z, RMS_TKE, RMS_DISSIPATION
+Warning: No (valid) fields chosen for time convergence monitoring. Time convergence monitoring inactive.
+Volume output fields: COORDINATES, SOLUTION, PRIMITIVE
+
+------------------- Geometry Preprocessing ( Zone 0 ) -------------------
+Three dimensional problem.
+340380 grid points.
+823552 volume elements.
+6 surface markers.
+1044 boundary elements in index 0 (Marker = inlet).
+5880 boundary elements in index 1 (Marker = outlet_0).
+5878 boundary elements in index 2 (Marker = outlet_1).
+5878 boundary elements in index 3 (Marker = outlet_2).
+5876 boundary elements in index 4 (Marker = outlet_3).
+25778 boundary elements in index 5 (Marker = wall).
+256436 tetrahedra.
+567116 prisms.
+Setting point connectivity.
+Renumbering points (Reverse Cuthill McKee Ordering).
+Recomputing point connectivity.
+Setting element connectivity.
+Checking the numerical grid orientation.
+All volume elements are correctly oriented.
+There has been a re-orientation of 38234 TRIANGLE surface elements.
+There has been a re-orientation of 12100 QUADRILATERAL surface elements.
+Identifying edges and vertices.
+Setting the control volume structure.
+Volume of the computational grid: 0.140354.
+Searching for the closest normal neighbors to the surfaces.
+Storing a mapping from global to local point index.
+Compute the surface curvature.
+Max K: 2395.98. Mean K: 98.7161. Standard deviation K: 338.532.
+Computing mesh quality statistics for the dual control volumes.
++--------------------------------------------------------------+
+|           Mesh Quality Metric|        Minimum|        Maximum|
++--------------------------------------------------------------+
+|    Orthogonality Angle (deg.)|        56.1507|             90|
+|     CV Face Area Aspect Ratio|        1.25375|        20357.2|
+|           CV Sub-Volume Ratio|              1|        186.156|
+|                     CV Volume|    4.83048e-11|    0.000136213|
++--------------------------------------------------------------+
+Finding max control volume width.
+Semi-span length = -1e+10 m.
+Wetted area = 0 m^2.
+Area projection in the x-plane = 0 m^2, y-plane = 0 m^2, z-plane = 0 m^2.
+Max. coordinate in the x-direction = -1e+10 m, y-direction = -1e+10 m, z-direction = -1e+10 m.
+Min. coordinate in the x-direction = 1e+10 m, y-direction = 1e+10 m, z-direction = 1e+10 m.
+Computing wall distances.
+
+-------------------- Solver Preprocessing ( Zone 0 ) --------------------
+ Warning: There is no restart file (flow.meta).
+ Computation will continue without updating metadata parameters.
+Incompressible flow: rho_ref, vel_ref, temp_ref, p_ref
+are set to 1.0 in order to perform a dimensional calculation.
+Force coefficients computed using initial values.
+The reference area for force coeffs. is 1 m^2.
+The reference length for force coeffs. is 1 m.
+The pressure is decomposed into thermodynamic and dynamic components.
+The initial value of the dynamic pressure is 0.
+Mach number: 0.0124608, computed using the Bulk modulus.
+For external flows, the initial state is imposed at the far-field.
+Angle of attack (deg): 0, computed using the initial velocity.
+Side slip angle (deg): -90, computed using the initial velocity.
+Reynolds number per meter: 284186, computed using initial values.
+Reynolds number is a byproduct of inputs only (not used internally).
+SI units only. The grid should be dimensional (meters).
+No energy equation.
+
+-- Models:
++------------------------------------------------------------------------------+
+|          Viscosity Model|        Conductivity Model|              Fluid Model|
++------------------------------------------------------------------------------+
+|       CONSTANT_VISCOSITY|          CONSTANT_PRANDTL|         CONSTANT_DENSITY|
++------------------------------------------------------------------------------+
+-- Fluid properties:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|             Viscosity|      1.81e-05|             1|   N.s/m^2|      1.81e-05|
++------------------------------------------------------------------------------+
+|        Prandtl (Lam.)|             -|             -|         -|          0.72|
+|       Prandtl (Turb.)|             -|             -|         -|           0.9|
++------------------------------------------------------------------------------+
+|          Bulk Modulus|        142000|             1|        Pa|        142000|
++------------------------------------------------------------------------------+
+-- Initial and free-stream conditions:
++------------------------------------------------------------------------------+
+|                  Name|    Dim. value|    Ref. value|      Unit|Non-dim. value|
++------------------------------------------------------------------------------+
+|      Dynamic Pressure|             0|             1|        Pa|             0|
+|        Total Pressure|       11.0243|             1|        Pa|       11.0243|
+|               Density|           1.2|             1|    kg/m^3|           1.2|
+|            Velocity-X|            -0|             1|       m/s|            -0|
+|            Velocity-Y|      -4.28647|             1|       m/s|      -4.28647|
+|            Velocity-Z|            -0|             1|       m/s|            -0|
+|    Velocity Magnitude|       4.28647|             1|       m/s|       4.28647|
++------------------------------------------------------------------------------+
+|             Viscosity|      1.81e-05|             1|   N.s/m^2|      1.81e-05|
+|          Conductivity|             -|             1|   W/m^2.K|             -|
+|     Turb. Kin. Energy|     0.0689019|             1|   m^2/s^2|     0.0689019|
+|     Spec. Dissipation|       456.808|             1|       1/s|       456.808|
++------------------------------------------------------------------------------+
+|           Mach Number|             -|             -|         -|     0.0124608|
+|       Reynolds Number|             -|             -|         -|        284186|
++------------------------------------------------------------------------------+
+All ranks use edge coloring.
+Among the ranks that use edge coloring,
+      the minimum efficiency is 1,
+      the maximum number of colors is 1,
+      the minimum edge color group size is 512.
+Initialize Jacobian structure (Navier-Stokes). MG level: 0.
+Initialize Jacobian structure (SST model).
+
+------------------- Numerics Preprocessing ( Zone 0 ) -------------------
+
+----------------- Integration Preprocessing ( Zone 0 ) ------------------
+
+------------------- Iteration Preprocessing ( Zone 0 ) ------------------
+Euler/Navier-Stokes/RANS fluid iteration.
+
+------------------------------ Begin Solver -----------------------------
+
+Simulation Run using the Single-zone Driver
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|           0|   -5.035476|   -4.504849|   -4.254578|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.05334
+target mass flow (kg/s): 0.17739
+Target achieved:30.06793 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.05248
+target mass flow (kg/s): 0.17739
+Target achieved:29.58271 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.09401
+target mass flow (kg/s): 0.15865
+Target achieved:59.25668 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.21593
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|           1|   -5.036018|   -4.507602|   -4.253169|
+|           2|   -5.036556|   -4.510393|   -4.251630|
+|           3|   -5.037090|   -4.513209|   -4.249956|
+|           4|   -5.037621|   -4.516039|   -4.248166|
+|           5|   -5.038148|   -4.518882|   -4.246273|
+|           6|   -5.038671|   -4.521738|   -4.244286|
+|           7|   -5.039189|   -4.524605|   -4.242207|
+|           8|   -5.039704|   -4.527476|   -4.240053|
+|           9|   -5.040214|   -4.530348|   -4.237832|
+|          10|   -5.040720|   -4.533217|   -4.235550|
+|          11|   -5.041222|   -4.536091|   -4.233206|
+|          12|   -5.041719|   -4.538958|   -4.230808|
+|          13|   -5.042214|   -4.541811|   -4.228369|
+|          14|   -5.042704|   -4.544647|   -4.225897|
+|          15|   -5.043191|   -4.547463|   -4.223394|
+|          16|   -5.043674|   -4.550257|   -4.220868|
+|          17|   -5.044154|   -4.553025|   -4.218324|
+|          18|   -5.044631|   -4.555764|   -4.215768|
+|          19|   -5.045106|   -4.558468|   -4.213207|
+|          20|   -5.045578|   -4.561133|   -4.210649|
+|          21|   -5.046048|   -4.563759|   -4.208090|
+|          22|   -5.046516|   -4.566339|   -4.205533|
+|          23|   -5.046982|   -4.568871|   -4.202983|
+|          24|   -5.047448|   -4.571352|   -4.200443|
+|          25|   -5.047912|   -4.573776|   -4.197917|
+|          26|   -5.048376|   -4.576140|   -4.195407|
+|          27|   -5.048840|   -4.578443|   -4.192913|
+|          28|   -5.049304|   -4.580681|   -4.190439|
+|          29|   -5.049769|   -4.582850|   -4.187990|
+|          30|   -5.050236|   -4.584948|   -4.185566|
+|          31|   -5.050705|   -4.586973|   -4.183166|
+|          32|   -5.051175|   -4.588923|   -4.180789|
+|          33|   -5.051649|   -4.590794|   -4.178430|
+|          34|   -5.052126|   -4.592586|   -4.176094|
+|          35|   -5.052609|   -4.594297|   -4.173782|
+|          36|   -5.053097|   -4.595924|   -4.171495|
+|          37|   -5.053591|   -4.597465|   -4.169226|
+|          38|   -5.054093|   -4.598916|   -4.166977|
+|          39|   -5.054602|   -4.600277|   -4.164752|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06514
+target mass flow (kg/s): 0.17739
+Target achieved:36.72037 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06361
+target mass flow (kg/s): 0.17739
+Target achieved:35.86173 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.08120
+target mass flow (kg/s): 0.15865
+Target achieved:51.18276 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.20507
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|          40|   -5.055120|   -4.601545|   -4.162546|
+|          41|   -5.055648|   -4.602722|   -4.160356|
+|          42|   -5.056187|   -4.603805|   -4.158188|
+|          43|   -5.056738|   -4.604793|   -4.156037|
+|          44|   -5.057301|   -4.605687|   -4.153902|
+|          45|   -5.057878|   -4.606485|   -4.151785|
+|          46|   -5.058471|   -4.607187|   -4.149683|
+|          47|   -5.059079|   -4.607795|   -4.147596|
+|          48|   -5.059705|   -4.608307|   -4.145523|
+|          49|   -5.060349|   -4.608730|   -4.143462|
+|          50|   -5.061014|   -4.609061|   -4.141410|
+|          51|   -5.061700|   -4.609303|   -4.139367|
+|          52|   -5.062408|   -4.609453|   -4.137332|
+|          53|   -5.063139|   -4.609522|   -4.135302|
+|          54|   -5.063896|   -4.609507|   -4.133278|
+|          55|   -5.064679|   -4.609434|   -4.131257|
+|          56|   -5.065490|   -4.609285|   -4.129237|
+|          57|   -5.066329|   -4.609069|   -4.127215|
+|          58|   -5.067198|   -4.608826|   -4.125192|
+|          59|   -5.068098|   -4.608501|   -4.123164|
+|          60|   -5.069030|   -4.608091|   -4.121131|
+|          61|   -5.069996|   -4.607612|   -4.119089|
+|          62|   -5.070996|   -4.607061|   -4.117037|
+|          63|   -5.072031|   -4.606458|   -4.114975|
+|          64|   -5.073103|   -4.605774|   -4.112900|
+|          65|   -5.074213|   -4.605023|   -4.110813|
+|          66|   -5.075362|   -4.604230|   -4.108711|
+|          67|   -5.076550|   -4.603367|   -4.106593|
+|          68|   -5.077778|   -4.602447|   -4.104455|
+|          69|   -5.079047|   -4.601473|   -4.102295|
+|          70|   -5.080359|   -4.600434|   -4.100115|
+|          71|   -5.081715|   -4.599334|   -4.097916|
+|          72|   -5.083115|   -4.598194|   -4.095697|
+|          73|   -5.084561|   -4.597028|   -4.093456|
+|          74|   -5.086052|   -4.595814|   -4.091194|
+|          75|   -5.087590|   -4.594559|   -4.088911|
+|          76|   -5.089176|   -4.593268|   -4.086607|
+|          77|   -5.090809|   -4.591963|   -4.084282|
+|          78|   -5.092491|   -4.590658|   -4.081936|
+|          79|   -5.094222|   -4.589340|   -4.079569|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.08126
+target mass flow (kg/s): 0.17739
+Target achieved:45.81204 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.07886
+target mass flow (kg/s): 0.17739
+Target achieved:44.45727 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.07169
+target mass flow (kg/s): 0.15865
+Target achieved:45.18963 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.19798
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|          80|   -5.096003|   -4.588006|   -4.077182|
+|          81|   -5.097834|   -4.586662|   -4.074774|
+|          82|   -5.099715|   -4.585310|   -4.072347|
+|          83|   -5.101647|   -4.583959|   -4.069901|
+|          84|   -5.103631|   -4.582610|   -4.067437|
+|          85|   -5.105666|   -4.581270|   -4.064957|
+|          86|   -5.107753|   -4.579944|   -4.062460|
+|          87|   -5.109892|   -4.578638|   -4.059948|
+|          88|   -5.112084|   -4.577356|   -4.057421|
+|          89|   -5.114328|   -4.576103|   -4.054882|
+|          90|   -5.116624|   -4.574884|   -4.052330|
+|          91|   -5.118973|   -4.573705|   -4.049767|
+|          92|   -5.121375|   -4.572571|   -4.047195|
+|          93|   -5.123830|   -4.571479|   -4.044615|
+|          94|   -5.126338|   -4.570435|   -4.042029|
+|          95|   -5.128898|   -4.569441|   -4.039438|
+|          96|   -5.131511|   -4.568500|   -4.036843|
+|          97|   -5.134177|   -4.567617|   -4.034247|
+|          98|   -5.136895|   -4.566794|   -4.031651|
+|          99|   -5.139666|   -4.566032|   -4.029056|
+|         100|   -5.142489|   -4.565333|   -4.026465|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|         101|   -5.145364|   -4.564703|   -4.023879|
+|         102|   -5.148291|   -4.564143|   -4.021299|
+|         103|   -5.151269|   -4.563653|   -4.018728|
+|         104|   -5.154299|   -4.563239|   -4.016166|
+|         105|   -5.157380|   -4.562905|   -4.013614|
+|         106|   -5.160511|   -4.562647|   -4.011076|
+|         107|   -5.163693|   -4.562466|   -4.008552|
+|         108|   -5.166925|   -4.562371|   -4.006044|
+|         109|   -5.170206|   -4.562356|   -4.003555|
+|         110|   -5.173537|   -4.562423|   -4.001086|
+|         111|   -5.176916|   -4.562573|   -3.998638|
+|         112|   -5.180343|   -4.562808|   -3.996212|
+|         113|   -5.183819|   -4.563126|   -3.993811|
+|         114|   -5.187341|   -4.563523|   -3.991436|
+|         115|   -5.190911|   -4.563999|   -3.989088|
+|         116|   -5.194526|   -4.564552|   -3.986768|
+|         117|   -5.198187|   -4.565183|   -3.984479|
+|         118|   -5.201892|   -4.565895|   -3.982221|
+|         119|   -5.205642|   -4.566686|   -3.979996|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.09696
+target mass flow (kg/s): 0.17739
+Target achieved:54.66190 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.09402
+target mass flow (kg/s): 0.17739
+Target achieved:53.00480 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06705
+target mass flow (kg/s): 0.15865
+Target achieved:42.26091 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.19546
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         120|   -5.209435|   -4.567550|   -3.977805|
+|         121|   -5.213271|   -4.568485|   -3.975649|
+|         122|   -5.217148|   -4.569493|   -3.973530|
+|         123|   -5.221066|   -4.570576|   -3.971448|
+|         124|   -5.225024|   -4.571735|   -3.969404|
+|         125|   -5.229021|   -4.572962|   -3.967399|
+|         126|   -5.233055|   -4.574251|   -3.965435|
+|         127|   -5.237127|   -4.575603|   -3.963512|
+|         128|   -5.241233|   -4.577014|   -3.961631|
+|         129|   -5.245374|   -4.578485|   -3.959793|
+|         130|   -5.249548|   -4.580014|   -3.957999|
+|         131|   -5.253754|   -4.581599|   -3.956250|
+|         132|   -5.257989|   -4.583246|   -3.954547|
+|         133|   -5.262253|   -4.584943|   -3.952890|
+|         134|   -5.266543|   -4.586697|   -3.951283|
+|         135|   -5.270858|   -4.588505|   -3.949724|
+|         136|   -5.275196|   -4.590367|   -3.948214|
+|         137|   -5.279555|   -4.592272|   -3.946752|
+|         138|   -5.283933|   -4.594239|   -3.945338|
+|         139|   -5.288328|   -4.596236|   -3.943972|
+|         140|   -5.292737|   -4.598275|   -3.942655|
+|         141|   -5.297158|   -4.600347|   -3.941387|
+|         142|   -5.301589|   -4.602455|   -3.940170|
+|         143|   -5.306026|   -4.604588|   -3.939000|
+|         144|   -5.310469|   -4.606761|   -3.937879|
+|         145|   -5.314913|   -4.608945|   -3.936804|
+|         146|   -5.319356|   -4.611133|   -3.935777|
+|         147|   -5.323794|   -4.613328|   -3.934798|
+|         148|   -5.328226|   -4.615531|   -3.933866|
+|         149|   -5.332648|   -4.617748|   -3.932982|
+|         150|   -5.337057|   -4.619970|   -3.932144|
+|         151|   -5.341450|   -4.622187|   -3.931351|
+|         152|   -5.345823|   -4.624374|   -3.930603|
+|         153|   -5.350174|   -4.626533|   -3.929900|
+|         154|   -5.354498|   -4.628660|   -3.929242|
+|         155|   -5.358792|   -4.630750|   -3.928627|
+|         156|   -5.363054|   -4.632816|   -3.928056|
+|         157|   -5.367279|   -4.634853|   -3.927527|
+|         158|   -5.371463|   -4.636853|   -3.927039|
+|         159|   -5.375604|   -4.638800|   -3.926594|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10897
+target mass flow (kg/s): 0.17739
+Target achieved:61.43061 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10546
+target mass flow (kg/s): 0.17739
+Target achieved:59.45375 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06421
+target mass flow (kg/s): 0.15865
+Target achieved:40.47124 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.19791
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         160|   -5.379697|   -4.640696|   -3.926191|
+|         161|   -5.383740|   -4.642537|   -3.925828|
+|         162|   -5.387728|   -4.644329|   -3.925507|
+|         163|   -5.391658|   -4.646057|   -3.925225|
+|         164|   -5.395527|   -4.647722|   -3.924980|
+|         165|   -5.399330|   -4.649322|   -3.924772|
+|         166|   -5.403066|   -4.650850|   -3.924602|
+|         167|   -5.406729|   -4.652312|   -3.924467|
+|         168|   -5.410318|   -4.653698|   -3.924368|
+|         169|   -5.413829|   -4.655008|   -3.924304|
+|         170|   -5.417259|   -4.656243|   -3.924271|
+|         171|   -5.420606|   -4.657404|   -3.924270|
+|         172|   -5.423866|   -4.658487|   -3.924301|
+|         173|   -5.427037|   -4.659491|   -3.924362|
+|         174|   -5.430116|   -4.660414|   -3.924454|
+|         175|   -5.433101|   -4.661273|   -3.924577|
+|         176|   -5.435991|   -4.662057|   -3.924730|
+|         177|   -5.438782|   -4.662782|   -3.924913|
+|         178|   -5.441474|   -4.663431|   -3.925126|
+|         179|   -5.444063|   -4.664003|   -3.925370|
+|         180|   -5.446550|   -4.664500|   -3.925644|
+|         181|   -5.448933|   -4.664931|   -3.925947|
+|         182|   -5.451209|   -4.665292|   -3.926278|
+|         183|   -5.453378|   -4.665584|   -3.926636|
+|         184|   -5.455441|   -4.665816|   -3.927022|
+|         185|   -5.457397|   -4.665985|   -3.927434|
+|         186|   -5.459245|   -4.666089|   -3.927872|
+|         187|   -5.460986|   -4.666135|   -3.928335|
+|         188|   -5.462620|   -4.666137|   -3.928826|
+|         189|   -5.464146|   -4.666099|   -3.929342|
+|         190|   -5.465565|   -4.666018|   -3.929882|
+|         191|   -5.466878|   -4.665900|   -3.930445|
+|         192|   -5.468086|   -4.665753|   -3.931031|
+|         193|   -5.469188|   -4.665580|   -3.931638|
+|         194|   -5.470185|   -4.665381|   -3.932268|
+|         195|   -5.471080|   -4.665157|   -3.932917|
+|         196|   -5.471872|   -4.664913|   -3.933588|
+|         197|   -5.472563|   -4.664659|   -3.934278|
+|         198|   -5.473154|   -4.664393|   -3.934986|
+|         199|   -5.473645|   -4.664117|   -3.935711|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.11375
+target mass flow (kg/s): 0.17739
+Target achieved:64.12810 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10992
+target mass flow (kg/s): 0.17739
+Target achieved:61.96426 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06094
+target mass flow (kg/s): 0.15865
+Target achieved:38.41036 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.20729
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         200|   -5.474039|   -4.663838|   -3.936453|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|         201|   -5.474337|   -4.663554|   -3.937211|
+|         202|   -5.474539|   -4.663270|   -3.937986|
+|         203|   -5.474648|   -4.662991|   -3.938777|
+|         204|   -5.474664|   -4.662724|   -3.939583|
+|         205|   -5.474590|   -4.662466|   -3.940402|
+|         206|   -5.474425|   -4.662220|   -3.941234|
+|         207|   -5.474173|   -4.661992|   -3.942080|
+|         208|   -5.473834|   -4.661784|   -3.942941|
+|         209|   -5.473409|   -4.661598|   -3.943815|
+|         210|   -5.472900|   -4.661434|   -3.944701|
+|         211|   -5.472308|   -4.661298|   -3.945598|
+|         212|   -5.471634|   -4.661190|   -3.946507|
+|         213|   -5.470880|   -4.661111|   -3.947428|
+|         214|   -5.470046|   -4.661064|   -3.948362|
+|         215|   -5.469134|   -4.661049|   -3.949307|
+|         216|   -5.468145|   -4.661068|   -3.950265|
+|         217|   -5.467080|   -4.661144|   -3.951234|
+|         218|   -5.465941|   -4.661259|   -3.952214|
+|         219|   -5.464727|   -4.661409|   -3.953205|
+|         220|   -5.463442|   -4.661601|   -3.954207|
+|         221|   -5.462085|   -4.661844|   -3.955220|
+|         222|   -5.460658|   -4.662130|   -3.956244|
+|         223|   -5.459162|   -4.662460|   -3.957281|
+|         224|   -5.457598|   -4.662827|   -3.958330|
+|         225|   -5.455968|   -4.663270|   -3.959391|
+|         226|   -5.454273|   -4.663767|   -3.960463|
+|         227|   -5.452514|   -4.664315|   -3.961547|
+|         228|   -5.450692|   -4.664948|   -3.962644|
+|         229|   -5.448810|   -4.665630|   -3.963753|
+|         230|   -5.446867|   -4.666347|   -3.964877|
+|         231|   -5.444865|   -4.667101|   -3.966015|
+|         232|   -5.442806|   -4.667902|   -3.967166|
+|         233|   -5.440690|   -4.668738|   -3.968332|
+|         234|   -5.438519|   -4.669615|   -3.969512|
+|         235|   -5.436295|   -4.670520|   -3.970707|
+|         236|   -5.434019|   -4.671448|   -3.971917|
+|         237|   -5.431692|   -4.672404|   -3.973145|
+|         238|   -5.429316|   -4.673375|   -3.974393|
+|         239|   -5.426894|   -4.674361|   -3.975659|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.11256
+target mass flow (kg/s): 0.17739
+Target achieved:63.45355 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10889
+target mass flow (kg/s): 0.17739
+Target achieved:61.38637 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.05736
+target mass flow (kg/s): 0.15865
+Target achieved:36.15790 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.21975
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         240|   -5.424429|   -4.675383|   -3.976943|
+|         241|   -5.421922|   -4.676441|   -3.978245|
+|         242|   -5.419376|   -4.677514|   -3.979566|
+|         243|   -5.416790|   -4.678598|   -3.980908|
+|         244|   -5.414169|   -4.679675|   -3.982270|
+|         245|   -5.411513|   -4.680742|   -3.983653|
+|         246|   -5.408824|   -4.681806|   -3.985059|
+|         247|   -5.406104|   -4.682872|   -3.986486|
+|         248|   -5.403356|   -4.683925|   -3.987937|
+|         249|   -5.400582|   -4.685025|   -3.989412|
+|         250|   -5.397783|   -4.686107|   -3.990910|
+|         251|   -5.394961|   -4.687180|   -3.992434|
+|         252|   -5.392119|   -4.688261|   -3.993984|
+|         253|   -5.389257|   -4.689310|   -3.995561|
+|         254|   -5.386379|   -4.690328|   -3.997165|
+|         255|   -5.383487|   -4.691313|   -3.998797|
+|         256|   -5.380581|   -4.692265|   -4.000458|
+|         257|   -5.377666|   -4.693186|   -4.002149|
+|         258|   -5.374742|   -4.694077|   -4.003870|
+|         259|   -5.371812|   -4.694934|   -4.005623|
+|         260|   -5.368877|   -4.695759|   -4.007409|
+|         261|   -5.365940|   -4.696552|   -4.009228|
+|         262|   -5.363003|   -4.697316|   -4.011080|
+|         263|   -5.360067|   -4.698050|   -4.012967|
+|         264|   -5.357134|   -4.698751|   -4.014887|
+|         265|   -5.354206|   -4.699421|   -4.016844|
+|         266|   -5.351284|   -4.700061|   -4.018836|
+|         267|   -5.348371|   -4.700670|   -4.020864|
+|         268|   -5.345466|   -4.701247|   -4.022930|
+|         269|   -5.342573|   -4.701810|   -4.025035|
+|         270|   -5.339692|   -4.702349|   -4.027179|
+|         271|   -5.336824|   -4.702851|   -4.029363|
+|         272|   -5.333971|   -4.703319|   -4.031589|
+|         273|   -5.331133|   -4.703754|   -4.033856|
+|         274|   -5.328306|   -4.704181|   -4.036179|
+|         275|   -5.325499|   -4.704574|   -4.038546|
+|         276|   -5.322714|   -4.704932|   -4.040957|
+|         277|   -5.319952|   -4.705255|   -4.043415|
+|         278|   -5.317212|   -4.705548|   -4.045921|
+|         279|   -5.314496|   -4.705809|   -4.048475|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10946
+target mass flow (kg/s): 0.17739
+Target achieved:61.70658 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10613
+target mass flow (kg/s): 0.17739
+Target achieved:59.82884 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.05547
+target mass flow (kg/s): 0.15865
+Target achieved:34.96258 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.23114
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         280|   -5.311806|   -4.706036|   -4.051078|
+|         281|   -5.309143|   -4.706232|   -4.053729|
+|         282|   -5.306507|   -4.706395|   -4.056429|
+|         283|   -5.303898|   -4.706528|   -4.059181|
+|         284|   -5.301318|   -4.706630|   -4.061984|
+|         285|   -5.298767|   -4.706704|   -4.064840|
+|         286|   -5.296245|   -4.706749|   -4.067750|
+|         287|   -5.293754|   -4.706768|   -4.070715|
+|         288|   -5.291274|   -4.706843|   -4.073776|
+|         289|   -5.288824|   -4.706910|   -4.076909|
+|         290|   -5.286415|   -4.706946|   -4.080103|
+|         291|   -5.284044|   -4.706948|   -4.083360|
+|         292|   -5.281714|   -4.706919|   -4.086679|
+|         293|   -5.279423|   -4.706862|   -4.090064|
+|         294|   -5.277172|   -4.706776|   -4.093514|
+|         295|   -5.274960|   -4.706661|   -4.097031|
+|         296|   -5.272788|   -4.706519|   -4.100617|
+|         297|   -5.270656|   -4.706350|   -4.104273|
+|         298|   -5.268564|   -4.706158|   -4.107999|
+|         299|   -5.266511|   -4.705947|   -4.111798|
+|         300|   -5.264498|   -4.705715|   -4.115670|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|         301|   -5.262525|   -4.705464|   -4.119618|
+|         302|   -5.260592|   -4.705195|   -4.123641|
+|         303|   -5.258698|   -4.704910|   -4.127742|
+|         304|   -5.256844|   -4.704610|   -4.131922|
+|         305|   -5.255030|   -4.704296|   -4.136181|
+|         306|   -5.253255|   -4.703971|   -4.140522|
+|         307|   -5.251520|   -4.703636|   -4.144945|
+|         308|   -5.249825|   -4.703294|   -4.149451|
+|         309|   -5.248168|   -4.702946|   -4.154041|
+|         310|   -5.246551|   -4.702593|   -4.158718|
+|         311|   -5.244974|   -4.702239|   -4.163483|
+|         312|   -5.243435|   -4.701884|   -4.168336|
+|         313|   -5.241936|   -4.701529|   -4.173278|
+|         314|   -5.240476|   -4.701177|   -4.178311|
+|         315|   -5.239054|   -4.700828|   -4.183436|
+|         316|   -5.237672|   -4.700484|   -4.188654|
+|         317|   -5.236328|   -4.700149|   -4.193967|
+|         318|   -5.235022|   -4.699824|   -4.199377|
+|         319|   -5.233755|   -4.699509|   -4.204882|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10737
+target mass flow (kg/s): 0.17739
+Target achieved:60.52994 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10432
+target mass flow (kg/s): 0.17739
+Target achieved:58.81171 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.05756
+target mass flow (kg/s): 0.15865
+Target achieved:36.27990 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.24214
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         320|   -5.232526|   -4.699205|   -4.210486|
+|         321|   -5.231335|   -4.698914|   -4.216188|
+|         322|   -5.230182|   -4.698637|   -4.221992|
+|         323|   -5.229067|   -4.698375|   -4.227896|
+|         324|   -5.227990|   -4.698130|   -4.233903|
+|         325|   -5.226949|   -4.697904|   -4.240015|
+|         326|   -5.225947|   -4.697699|   -4.246231|
+|         327|   -5.224981|   -4.697514|   -4.252554|
+|         328|   -5.224053|   -4.697350|   -4.258984|
+|         329|   -5.223161|   -4.697208|   -4.265521|
+|         330|   -5.222306|   -4.697090|   -4.272168|
+|         331|   -5.221488|   -4.696998|   -4.278925|
+|         332|   -5.220707|   -4.696931|   -4.285792|
+|         333|   -5.219961|   -4.696892|   -4.292771|
+|         334|   -5.219253|   -4.696879|   -4.299861|
+|         335|   -5.218580|   -4.696894|   -4.307062|
+|         336|   -5.217944|   -4.696938|   -4.314376|
+|         337|   -5.217344|   -4.697012|   -4.321801|
+|         338|   -5.216779|   -4.697116|   -4.329336|
+|         339|   -5.216251|   -4.697251|   -4.336983|
+|         340|   -5.215758|   -4.697418|   -4.344739|
+|         341|   -5.215301|   -4.697617|   -4.352603|
+|         342|   -5.214880|   -4.697848|   -4.360574|
+|         343|   -5.214494|   -4.698113|   -4.368649|
+|         344|   -5.214143|   -4.698412|   -4.376825|
+|         345|   -5.213828|   -4.698745|   -4.385099|
+|         346|   -5.213548|   -4.699113|   -4.393467|
+|         347|   -5.213304|   -4.699515|   -4.401925|
+|         348|   -5.213095|   -4.699953|   -4.410466|
+|         349|   -5.212920|   -4.700426|   -4.419085|
+|         350|   -5.212781|   -4.700935|   -4.427773|
+|         351|   -5.212677|   -4.701481|   -4.436523|
+|         352|   -5.212607|   -4.702062|   -4.445324|
+|         353|   -5.212572|   -4.702679|   -4.454165|
+|         354|   -5.212572|   -4.703333|   -4.463034|
+|         355|   -5.212607|   -4.704023|   -4.471915|
+|         356|   -5.212676|   -4.704750|   -4.480794|
+|         357|   -5.212779|   -4.705511|   -4.489653|
+|         358|   -5.212917|   -4.706309|   -4.498470|
+|         359|   -5.213089|   -4.707141|   -4.507224|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10724
+target mass flow (kg/s): 0.17739
+Target achieved:60.45726 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10434
+target mass flow (kg/s): 0.17739
+Target achieved:58.81787 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.06477
+target mass flow (kg/s): 0.15865
+Target achieved:40.82831 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.25387
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         360|   -5.213295|   -4.708008|   -4.515892|
+|         361|   -5.213535|   -4.708910|   -4.524446|
+|         362|   -5.213805|   -4.709865|   -4.532878|
+|         363|   -5.214089|   -4.710956|   -4.541245|
+|         364|   -5.214409|   -4.712073|   -4.549415|
+|         365|   -5.214765|   -4.713214|   -4.557350|
+|         366|   -5.215157|   -4.714379|   -4.565013|
+|         367|   -5.215585|   -4.715567|   -4.572360|
+|         368|   -5.216048|   -4.716777|   -4.579351|
+|         369|   -5.216547|   -4.718009|   -4.585941|
+|         370|   -5.217081|   -4.719261|   -4.592085|
+|         371|   -5.217650|   -4.720532|   -4.597741|
+|         372|   -5.218255|   -4.721821|   -4.602866|
+|         373|   -5.218894|   -4.723129|   -4.607419|
+|         374|   -5.219568|   -4.724452|   -4.611364|
+|         375|   -5.220277|   -4.725789|   -4.614668|
+|         376|   -5.221021|   -4.727139|   -4.617302|
+|         377|   -5.221799|   -4.728501|   -4.619244|
+|         378|   -5.222611|   -4.729881|   -4.620487|
+|         379|   -5.223456|   -4.731270|   -4.621015|
+|         380|   -5.224336|   -4.732665|   -4.620826|
+|         381|   -5.225251|   -4.734065|   -4.619929|
+|         382|   -5.226200|   -4.735467|   -4.618337|
+|         383|   -5.227183|   -4.736871|   -4.616071|
+|         384|   -5.228200|   -4.738274|   -4.613159|
+|         385|   -5.229251|   -4.739675|   -4.609631|
+|         386|   -5.230336|   -4.741071|   -4.605525|
+|         387|   -5.231454|   -4.742460|   -4.600881|
+|         388|   -5.232605|   -4.743849|   -4.595744|
+|         389|   -5.233790|   -4.745229|   -4.590154|
+|         390|   -5.235008|   -4.746595|   -4.584156|
+|         391|   -5.236259|   -4.747946|   -4.577793|
+|         392|   -5.237544|   -4.749279|   -4.571108|
+|         393|   -5.238862|   -4.750594|   -4.564144|
+|         394|   -5.240213|   -4.751888|   -4.556939|
+|         395|   -5.241598|   -4.753157|   -4.549532|
+|         396|   -5.243015|   -4.754398|   -4.541955|
+|         397|   -5.244466|   -4.755611|   -4.534243|
+|         398|   -5.245950|   -4.756792|   -4.526424|
+|         399|   -5.247466|   -4.757940|   -4.518527|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10813
+target mass flow (kg/s): 0.17739
+Target achieved:60.95805 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10517
+target mass flow (kg/s): 0.17739
+Target achieved:59.29114 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.07648
+target mass flow (kg/s): 0.15865
+Target achieved:48.20672 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.26629
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         400|   -5.249015|   -4.759054|   -4.510576|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|         401|   -5.250597|   -4.760130|   -4.502594|
+|         402|   -5.252212|   -4.761168|   -4.494602|
+|         403|   -5.253860|   -4.762165|   -4.486617|
+|         404|   -5.255539|   -4.763120|   -4.478654|
+|         405|   -5.257252|   -4.764031|   -4.470728|
+|         406|   -5.258997|   -4.764896|   -4.462849|
+|         407|   -5.260774|   -4.765713|   -4.455030|
+|         408|   -5.262583|   -4.766487|   -4.447281|
+|         409|   -5.264424|   -4.767210|   -4.439608|
+|         410|   -5.266298|   -4.767885|   -4.432019|
+|         411|   -5.268205|   -4.768508|   -4.424518|
+|         412|   -5.270144|   -4.769076|   -4.417112|
+|         413|   -5.272115|   -4.769590|   -4.409803|
+|         414|   -5.274119|   -4.770048|   -4.402596|
+|         415|   -5.276156|   -4.770450|   -4.395493|
+|         416|   -5.278225|   -4.770796|   -4.388496|
+|         417|   -5.280327|   -4.771086|   -4.381606|
+|         418|   -5.282460|   -4.771331|   -4.374825|
+|         419|   -5.284625|   -4.771519|   -4.368153|
+|         420|   -5.286823|   -4.771648|   -4.361591|
+|         421|   -5.289054|   -4.771720|   -4.355138|
+|         422|   -5.291318|   -4.771734|   -4.348796|
+|         423|   -5.293615|   -4.771691|   -4.342562|
+|         424|   -5.295945|   -4.771592|   -4.336438|
+|         425|   -5.298308|   -4.771439|   -4.330421|
+|         426|   -5.300705|   -4.771230|   -4.324511|
+|         427|   -5.303135|   -4.770967|   -4.318708|
+|         428|   -5.305598|   -4.770655|   -4.313010|
+|         429|   -5.308095|   -4.770293|   -4.307417|
+|         430|   -5.310625|   -4.769884|   -4.301927|
+|         431|   -5.313188|   -4.769428|   -4.296539|
+|         432|   -5.315784|   -4.768923|   -4.291251|
+|         433|   -5.318414|   -4.768373|   -4.286063|
+|         434|   -5.321078|   -4.767779|   -4.280972|
+|         435|   -5.323774|   -4.767147|   -4.275977|
+|         436|   -5.326504|   -4.766474|   -4.271078|
+|         437|   -5.329267|   -4.765762|   -4.266271|
+|         438|   -5.332061|   -4.765022|   -4.261556|
+|         439|   -5.334886|   -4.764252|   -4.256932|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10858
+target mass flow (kg/s): 0.17739
+Target achieved:61.20988 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10548
+target mass flow (kg/s): 0.17739
+Target achieved:59.46135 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.09058
+target mass flow (kg/s): 0.15865
+Target achieved:57.09643 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.27906
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         440|   -5.337742|   -4.763457|   -4.252395|
+|         441|   -5.340632|   -4.762630|   -4.247945|
+|         442|   -5.343555|   -4.761773|   -4.243580|
+|         443|   -5.346511|   -4.760888|   -4.239300|
+|         444|   -5.349500|   -4.759978|   -4.235102|
+|         445|   -5.352521|   -4.759048|   -4.230985|
+|         446|   -5.355574|   -4.758099|   -4.226948|
+|         447|   -5.358661|   -4.757129|   -4.222988|
+|         448|   -5.361780|   -4.756138|   -4.219105|
+|         449|   -5.364933|   -4.755133|   -4.215298|
+|         450|   -5.368118|   -4.754113|   -4.211565|
+|         451|   -5.371335|   -4.753081|   -4.207906|
+|         452|   -5.374586|   -4.752037|   -4.204318|
+|         453|   -5.377868|   -4.750983|   -4.200801|
+|         454|   -5.381182|   -4.749921|   -4.197353|
+|         455|   -5.384528|   -4.748857|   -4.193974|
+|         456|   -5.387906|   -4.747792|   -4.190663|
+|         457|   -5.391316|   -4.746728|   -4.187419|
+|         458|   -5.394757|   -4.745666|   -4.184239|
+|         459|   -5.398228|   -4.744608|   -4.181124|
+|         460|   -5.401731|   -4.743561|   -4.178072|
+|         461|   -5.405264|   -4.742524|   -4.175083|
+|         462|   -5.408827|   -4.741493|   -4.172155|
+|         463|   -5.412420|   -4.740468|   -4.169286|
+|         464|   -5.416042|   -4.739449|   -4.166477|
+|         465|   -5.419694|   -4.738443|   -4.163727|
+|         466|   -5.423375|   -4.737453|   -4.161035|
+|         467|   -5.427084|   -4.736477|   -4.158399|
+|         468|   -5.430820|   -4.735520|   -4.155819|
+|         469|   -5.434585|   -4.734582|   -4.153294|
+|         470|   -5.438377|   -4.733659|   -4.150823|
+|         471|   -5.442195|   -4.732761|   -4.148407|
+|         472|   -5.446040|   -4.731883|   -4.146042|
+|         473|   -5.449910|   -4.731028|   -4.143730|
+|         474|   -5.453805|   -4.730198|   -4.141469|
+|         475|   -5.457725|   -4.729396|   -4.139258|
+|         476|   -5.461668|   -4.728615|   -4.137097|
+|         477|   -5.465635|   -4.727853|   -4.134985|
+|         478|   -5.469624|   -4.727114|   -4.132922|
+|         479|   -5.473636|   -4.726399|   -4.130907|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10811
+target mass flow (kg/s): 0.17739
+Target achieved:60.94344 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10489
+target mass flow (kg/s): 0.17739
+Target achieved:59.13135 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10496
+target mass flow (kg/s): 0.15865
+Target achieved:66.16049 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.29215
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         480|   -5.477668|   -4.725707|   -4.128940|
+|         481|   -5.481721|   -4.725045|   -4.127020|
+|         482|   -5.485794|   -4.724405|   -4.125147|
+|         483|   -5.489886|   -4.723789|   -4.123319|
+|         484|   -5.493995|   -4.723200|   -4.121537|
+|         485|   -5.498122|   -4.722639|   -4.119799|
+|         486|   -5.502265|   -4.722105|   -4.118104|
+|         487|   -5.506423|   -4.721601|   -4.116451|
+|         488|   -5.510596|   -4.721124|   -4.114843|
+|         489|   -5.514781|   -4.720676|   -4.113277|
+|         490|   -5.518978|   -4.720254|   -4.111754|
+|         491|   -5.523186|   -4.719859|   -4.110274|
+|         492|   -5.527403|   -4.719494|   -4.108834|
+|         493|   -5.531627|   -4.719162|   -4.107435|
+|         494|   -5.535859|   -4.718860|   -4.106074|
+|         495|   -5.540095|   -4.718590|   -4.104752|
+|         496|   -5.544334|   -4.718356|   -4.103472|
+|         497|   -5.548576|   -4.718155|   -4.102230|
+|         498|   -5.552818|   -4.717982|   -4.101025|
+|         499|   -5.557059|   -4.717838|   -4.099857|
+|         500|   -5.561297|   -4.717720|   -4.098725|
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
++---------------------------------------------------+
+|  Inner_Iter|      rms[P]|      rms[U]|      rms[V]|
++---------------------------------------------------+
+|         501|   -5.565531|   -4.717631|   -4.097631|
+|         502|   -5.569758|   -4.717573|   -4.096573|
+|         503|   -5.573977|   -4.717541|   -4.095552|
+|         504|   -5.578187|   -4.717541|   -4.094567|
+|         505|   -5.582384|   -4.717571|   -4.093618|
+|         506|   -5.586568|   -4.717629|   -4.092703|
+|         507|   -5.590736|   -4.717721|   -4.091821|
+|         508|   -5.594887|   -4.717854|   -4.090973|
+|         509|   -5.599017|   -4.718014|   -4.090158|
+|         510|   -5.603126|   -4.718204|   -4.089375|
+|         511|   -5.607210|   -4.718422|   -4.088624|
+|         512|   -5.611268|   -4.718667|   -4.087907|
+|         513|   -5.615297|   -4.718935|   -4.087222|
+|         514|   -5.619294|   -4.719230|   -4.086569|
+|         515|   -5.623259|   -4.719550|   -4.085947|
+|         516|   -5.627187|   -4.719894|   -4.085354|
+|         517|   -5.631077|   -4.720263|   -4.084792|
+|         518|   -5.634925|   -4.720660|   -4.084260|
+|         519|   -5.638731|   -4.721079|   -4.083757|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10729
+target mass flow (kg/s): 0.17739
+Target achieved:60.48516 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10403
+target mass flow (kg/s): 0.17739
+Target achieved:58.64811 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.11811
+target mass flow (kg/s): 0.15865
+Target achieved:74.44764 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.30567
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         520|   -5.642490|   -4.721520|   -4.083283|
+|         521|   -5.646201|   -4.721985|   -4.082841|
+|         522|   -5.649860|   -4.722483|   -4.082428|
+|         523|   -5.653467|   -4.723005|   -4.082044|
+|         524|   -5.657017|   -4.723549|   -4.081687|
+|         525|   -5.660508|   -4.724115|   -4.081358|
+|         526|   -5.663938|   -4.724705|   -4.081055|
+|         527|   -5.667304|   -4.725335|   -4.080779|
+|         528|   -5.670604|   -4.725978|   -4.080530|
+|         529|   -5.673835|   -4.726635|   -4.080307|
+|         530|   -5.676995|   -4.727303|   -4.080108|
+|         531|   -5.680082|   -4.727982|   -4.079935|
+|         532|   -5.683092|   -4.728668|   -4.079785|
+|         533|   -5.686025|   -4.729365|   -4.079662|
+|         534|   -5.688877|   -4.730072|   -4.079565|
+|         535|   -5.691646|   -4.730787|   -4.079495|
+|         536|   -5.694332|   -4.731518|   -4.079450|
+|         537|   -5.696932|   -4.732259|   -4.079430|
+|         538|   -5.699445|   -4.733006|   -4.079434|
+|         539|   -5.701868|   -4.733753|   -4.079461|
+|         540|   -5.704201|   -4.734505|   -4.079511|
+|         541|   -5.706441|   -4.735255|   -4.079586|
+|         542|   -5.708588|   -4.736004|   -4.079684|
+|         543|   -5.710640|   -4.736749|   -4.079804|
+|         544|   -5.712596|   -4.737490|   -4.079947|
+|         545|   -5.714455|   -4.738232|   -4.080112|
+|         546|   -5.716216|   -4.738968|   -4.080299|
+|         547|   -5.717879|   -4.739696|   -4.080508|
+|         548|   -5.719443|   -4.740418|   -4.080739|
+|         549|   -5.720906|   -4.741129|   -4.080992|
+|         550|   -5.722270|   -4.741825|   -4.081267|
+|         551|   -5.723534|   -4.742510|   -4.081561|
+|         552|   -5.724698|   -4.743184|   -4.081876|
+|         553|   -5.725762|   -4.743845|   -4.082212|
+|         554|   -5.726726|   -4.744492|   -4.082570|
+|         555|   -5.727591|   -4.745124|   -4.082949|
+|         556|   -5.728356|   -4.745742|   -4.083347|
+|         557|   -5.729023|   -4.746342|   -4.083767|
+|         558|   -5.729593|   -4.746922|   -4.084207|
+|         559|   -5.730065|   -4.747481|   -4.084668|
+
+---------------------------- Outlet properties --------------------------
+Outlet surface: outlet_0.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10688
+target mass flow (kg/s): 0.17739
+Target achieved:60.25373 % 
+Outlet surface: outlet_1.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.10365
+target mass flow (kg/s): 0.17739
+Target achieved:58.43080 % 
+Outlet surface: outlet_2.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.12891
+target mass flow (kg/s): 0.15865
+Target achieved:81.25571 % 
+Outlet surface: outlet_3.
+Area (m^2): 0.04876
+Outlet Avg. Density (kg/m^3): 1.20000
+Outlet mass flow (kg/s): 0.31855
+target mass flow (kg/s): 0.00000
+Target achieved:inf % 
+
+-------------------------------------------------------------------------
+
+|         560|   -5.730442|   -4.748020|   -4.085149|
+|         561|   -5.730724|   -4.748537|   -4.085650|
+|         562|   -5.730912|   -4.749034|   -4.086172|
+|         563|   -5.731008|   -4.749510|   -4.086715|
+|         564|   -5.731013|   -4.749965|   -4.087279|
+|         565|   -5.730927|   -4.750398|   -4.087864|
+|         566|   -5.730754|   -4.750805|   -4.088469|
+|         567|   -5.730496|   -4.751186|   -4.089094|
+|         568|   -5.730153|   -4.751541|   -4.089738|
+|         569|   -5.729727|   -4.751871|   -4.090403|
+|         570|   -5.729221|   -4.752173|   -4.091087|
+|         571|   -5.728636|   -4.752450|   -4.091791|
+|         572|   -5.727975|   -4.752701|   -4.092516|
+|         573|   -5.727238|   -4.752927|   -4.093260|
+|         574|   -5.726428|   -4.753127|   -4.094027|
+|         575|   -5.725547|   -4.753302|   -4.094815|
+|         576|   -5.724598|   -4.753450|   -4.095624|
+|         577|   -5.723582|   -4.753576|   -4.096453|
+|         578|   -5.722501|   -4.753676|   -4.097301|
+|         579|   -5.721357|   -4.753752|   -4.098169|
+|         580|   -5.720152|   -4.753802|   -4.099057|
+|         581|   -5.718889|   -4.753827|   -4.099966|
+|         582|   -5.717568|   -4.753828|   -4.100896|
+|         583|   -5.716193|   -4.753804|   -4.101846|
+|         584|   -5.714764|   -4.753755|   -4.102819|
+|         585|   -5.713285|   -4.753683|   -4.103812|
+|         586|   -5.711757|   -4.753589|   -4.104828|
+|         587|   -5.710181|   -4.753473|   -4.105864|
+|         588|   -5.708561|   -4.753336|   -4.106923|
+|         589|   -5.706897|   -4.753179|   -4.108003|
+|         590|   -5.705193|   -4.753001|   -4.109104|
+|         591|   -5.703449|   -4.752804|   -4.110227|
+|         592|   -5.701670|   -4.752592|   -4.111373|
+|         593|   -5.699857|   -4.752360|   -4.112542|
+|         594|   -5.698009|   -4.752111|   -4.113733|
+|         595|   -5.696130|   -4.751845|   -4.114947|
+|         596|   -5.694221|   -4.751561|   -4.116185|
+|         597|   -5.692284|   -4.751262|   -4.117447|
+|         598|   -5.690319|   -4.750950|   -4.118733|
+|         599|   -5.688330|   -4.750624|   -4.120043|
+
+----------------------------- Solver Exit -------------------------------
+
+Maximum number of iterations reached (ITER = 600) before convergence.
++-----------------------------------------------------------------------+
+|      Convergence Field     |     Value    |   Criterion  |  Converged |
++-----------------------------------------------------------------------+
+|                      rms[P]|      -5.68833|          < -8|          No|
+|                      rms[U]|      -4.75062|          < -8|          No|
+|                      rms[V]|      -4.12004|          < -8|          No|
+|                      rms[W]|      -4.82558|          < -8|          No|
+|                      rms[k]|      -5.99205|          < -8|          No|
+|                      rms[w]|      0.150085|          < -8|          No|
++-----------------------------------------------------------------------+
+-------------------------------------------------------------------------
++-----------------------------------------------------------------------+
+|        File Writing Summary       |              Filename             |
++-----------------------------------------------------------------------+
+|SU2 ASCII restart                  |flow-restart.csv                   |
++-----------------------------------------------------------------------+
+
+--------------------------- Finalizing Solver ---------------------------
+Deleted CNumerics container.
+Deleted CIntegration container.
+Deleted CSolver container.
+Deleted CIteration container.
+Deleted CInterface container.
+Deleted CGeometry container.
+Deleted CFreeFormDefBox class.
+Deleted CSurfaceMovement class.
+Deleted CVolumetricMovement class.
+Deleted CConfig container.
+Deleted nInst container.
+Deleted COutput class.
+-------------------------------------------------------------------------
+
+------------------------- Exit Success (SU2_CFD) ------------------------
+

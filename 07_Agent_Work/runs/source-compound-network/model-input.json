@@ -1,0 +1,3506 @@
+{
+  "name": "Source Network - Declared Compound Junction Revision",
+  "project_uuid": "c1bba24e-8e5a-5d43-92a4-75ea4f4740e9",
+  "geometry_scope": "axis-aligned envelopes and rectangular straight and elbow walls",
+  "sources": {
+    "native": "Exact saved native XY centrelines,source node IDs and selected nominal section/flow;untrimmed at original nodes. No physical fitting reaches or actual installed lengths.",
+    "construction": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+    "envelope": "Derived AABB of the straight-wall study only;coordination container,not an architectural room,thermal zone,occupancy or floor-area source."
+  },
+  "spaces": [
+    {
+      "id": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "origin_m": [
+        68.045132,
+        19.520584,
+        -0.45080000000000003
+      ],
+      "size_m": [
+        37.83243350000001,
+        21.64,
+        0.9016000000000001
+      ],
+      "source": "envelope"
+    }
+  ],
+  "systems": [
+    {
+      "id": "SOURCE-SUPPLY",
+      "predefined_type": "VENTILATION",
+      "source": "native"
+    }
+  ],
+  "devices": [
+    {
+      "id": "A-01",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        82.8242,
+        38.85,
+        -0.45080000000000003
+      ],
+      "size_m": [
+        1.3516000000000001,
+        1.1499999999999986,
+        0.9016000000000001
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.6757999999999953,
+            1.1499999999999986,
+            0.45080000000000003
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.6757999999999953,
+            0.0,
+            0.45080000000000003
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 1.35,
+        "InternalHeight_m": 0.9,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "A-01",
+        "SourceLineHandle": "903B",
+        "FromNode": "AHU-CONNECTION",
+        "ToNode": "CORRIDOR-A",
+        "DesignFlow_m3_s": 12.000372763419485,
+        "SourceCentrelineLength_m": 2.5,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 1.35,
+        "StudyStraightLength_m": 1.1499999999999986,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "A-02",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        84.85,
+        36.8242,
+        -0.45080000000000003
+      ],
+      "size_m": [
+        0.6375000000000028,
+        1.3516000000000001,
+        0.9016000000000001
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.6758000000000024,
+            0.45080000000000003
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.6375000000000028,
+            0.6758000000000024,
+            0.45080000000000003
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 1.35,
+        "InternalHeight_m": 0.9,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "A-02",
+        "SourceLineHandle": "903D",
+        "FromNode": "CORRIDOR-A",
+        "ToNode": "CORRIDOR-B",
+        "DesignFlow_m3_s": 12.000372763419485,
+        "SourceCentrelineLength_m": 3.0,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 1.35,
+        "AppliedStudyToTrim_m": 1.0125000000000002,
+        "StudyStraightLength_m": 0.6375000000000028,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-02",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        83.47593199999999,
+        35.32978400000001,
+        -0.2258
+      ],
+      "size_m": [
+        2.124068000000014,
+        0.5016,
+        0.4516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            2.1240680000000083,
+            0.25079999999999814,
+            0.2258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.25079999999999814,
+            0.2258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.45,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-02",
+        "SourceLineHandle": "8D8F",
+        "FromNode": "J2",
+        "ToNode": "TAP-VAV-15",
+        "DesignFlow_m3_s": 1.6653608186212396,
+        "SourceCentrelineLength_m": 3.3740680000000083,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.124068000000014,
+        "AllFittingTrimsKnown": true,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943,
+        "AppliedCompoundFromTrim_m": 0.9
+      }
+    },
+    {
+      "id": "D-03",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        76.035932,
+        35.32978400000001,
+        -0.17579999999999998
+      ],
+      "size_m": [
+        6.453397459621556,
+        0.5016,
+        0.35159999999999997
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.453397459621556,
+            0.25079999999999814,
+            0.17579999999999998
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.25079999999999814,
+            0.17579999999999998
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.35,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-03",
+        "SourceLineHandle": "8D91",
+        "FromNode": "TAP-VAV-15",
+        "ToNode": "TAP-VAV-14",
+        "DesignFlow_m3_s": 1.1077860595938058,
+        "SourceCentrelineLength_m": 7.4399999999999835,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.453397459621556,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784334,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943
+      }
+    },
+    {
+      "id": "D-04",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.84593199999999,
+        35.37978400000001,
+        -0.1258
+      ],
+      "size_m": [
+        6.203397459621584,
+        0.4016,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.203397459621584,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-04",
+        "SourceLineHandle": "8D93",
+        "FromNode": "TAP-VAV-14",
+        "ToNode": "TAP-VAV-13",
+        "DesignFlow_m3_s": 0.5517821710014711,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.6000000000000001,
+        "StudyStraightLength_m": 6.203397459621584,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784334,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-05",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        87.4,
+        35.27978400000001,
+        -0.2008
+      ],
+      "size_m": [
+        2.765931999999984,
+        0.6016,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.3008000000000024,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            2.765931999999978,
+            0.3008000000000024,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.6,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-05",
+        "SourceLineHandle": "8D95",
+        "FromNode": "J2",
+        "ToNode": "TAP-VAV-16",
+        "DesignFlow_m3_s": 1.71205106797492,
+        "SourceCentrelineLength_m": 4.065931999999989,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.765931999999984,
+        "AllFittingTrimsKnown": true,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.4000000000000057,
+        "AppliedCompoundFromTrim_m": 0.9
+      }
+    },
+    {
+      "id": "D-06",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        91.25253454037843,
+        35.32978400000001,
+        -0.17579999999999998
+      ],
+      "size_m": [
+        6.403397459621559,
+        0.5016,
+        0.35159999999999997
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.25079999999999814,
+            0.17579999999999998
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.403397459621559,
+            0.25079999999999814,
+            0.17579999999999998
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.35,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-06",
+        "SourceLineHandle": "8D97",
+        "FromNode": "TAP-VAV-16",
+        "ToNode": "TAP-VAV-17",
+        "DesignFlow_m3_s": 1.1251953110765627,
+        "SourceCentrelineLength_m": 7.439999999999998,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.403397459621559,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6866025403784448,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943
+      }
+    },
+    {
+      "id": "D-07",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        98.64253454037842,
+        35.37978400000001,
+        -0.1258
+      ],
+      "size_m": [
+        6.203397459621584,
+        0.4016,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.203397459621584,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-07",
+        "SourceLineHandle": "8D99",
+        "FromNode": "TAP-VAV-17",
+        "ToNode": "TAP-VAV-18",
+        "DesignFlow_m3_s": 0.5401204816346908,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.6000000000000001,
+        "StudyStraightLength_m": 6.203397459621584,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784334,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-08",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        86.0742,
+        29.27558400000001,
+        -0.4258
+      ],
+      "size_m": [
+        0.8516,
+        5.305,
+        0.8516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.4257999999999953,
+            5.305,
+            0.4258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.4257999999999953,
+            0.0,
+            0.4258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.85,
+        "InternalHeight_m": 0.85,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-08",
+        "SourceLineHandle": "8D9B",
+        "FromNode": "J2",
+        "ToNode": "J1",
+        "DesignFlow_m3_s": 7.202325940303831,
+        "SourceCentrelineLength_m": 6.829999999999998,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 5.305,
+        "AllFittingTrimsKnown": true,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.5249999999999986,
+        "AppliedTeeToTrim_m": 0.0,
+        "AppliedCompoundFromTrim_m": 1.0
+      }
+    },
+    {
+      "id": "D-09",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        83.50093199999999,
+        28.47478400000001,
+        -0.2258
+      ],
+      "size_m": [
+        1.627657838486229,
+        0.5516000000000001,
+        0.4516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            1.627657838486229,
+            0.27580000000000027,
+            0.2258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.27580000000000027,
+            0.2258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.55,
+        "InternalHeight_m": 0.45,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-09",
+        "SourceLineHandle": "8D9D",
+        "FromNode": "J1",
+        "ToNode": "TAP-VAV-09",
+        "DesignFlow_m3_s": 1.8552792334586117,
+        "SourceCentrelineLength_m": 3.3740680000000083,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.627657838486229,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 1.3714101615137793,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.375
+      }
+    },
+    {
+      "id": "D-10",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        76.01093200000001,
+        28.52478400000001,
+        -0.2008
+      ],
+      "size_m": [
+        6.4533974596215415,
+        0.4516,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.4533974596215415,
+            0.22579999999999956,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.22579999999999956,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.45,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-10",
+        "SourceLineHandle": "8D9F",
+        "FromNode": "TAP-VAV-09",
+        "ToNode": "TAP-VAV-08",
+        "DesignFlow_m3_s": 1.2368528223057405,
+        "SourceCentrelineLength_m": 7.4399999999999835,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.4533974596215415,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6616025403784391,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.32500000000000284
+      }
+    },
+    {
+      "id": "D-11",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.770932,
+        28.57478400000001,
+        -0.1508
+      ],
+      "size_m": [
+        6.303397459621564,
+        0.35159999999999997,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.303397459621564,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-11",
+        "SourceLineHandle": "8DA1",
+        "FromNode": "TAP-VAV-08",
+        "ToNode": "TAP-VAV-07",
+        "DesignFlow_m3_s": 0.6184264111528702,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.5249999999999999,
+        "StudyStraightLength_m": 6.303397459621564,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.611602540378442,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-12",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        87.87141016151378,
+        28.47478400000001,
+        -0.2258
+      ],
+      "size_m": [
+        2.31952183848621,
+        0.5516000000000001,
+        0.4516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.27580000000000027,
+            0.2258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            2.31952183848621,
+            0.27580000000000027,
+            0.2258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.55,
+        "InternalHeight_m": 0.45,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-12",
+        "SourceLineHandle": "8DA3",
+        "FromNode": "J1",
+        "ToNode": "TAP-VAV-10",
+        "DesignFlow_m3_s": 1.8552792334586106,
+        "SourceCentrelineLength_m": 4.065931999999989,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.31952183848621,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 1.3714101615137793,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.375
+      }
+    },
+    {
+      "id": "D-13",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        91.22753454037843,
+        28.49978400000001,
+        -0.17579999999999998
+      ],
+      "size_m": [
+        6.428397459621564,
+        0.5016,
+        0.35159999999999997
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.428397459621564,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.35,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-13",
+        "SourceLineHandle": "8DA5",
+        "FromNode": "TAP-VAV-10",
+        "ToNode": "TAP-VAV-11",
+        "DesignFlow_m3_s": 1.2032750423711975,
+        "SourceCentrelineLength_m": 7.439999999999998,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.428397459621564,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6616025403784391,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943
+      }
+    },
+    {
+      "id": "D-14",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        98.73583581056765,
+        28.57478400000001,
+        -0.1508
+      ],
+      "size_m": [
+        6.185096189432343,
+        0.35159999999999997,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.185096189432343,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-14",
+        "SourceLineHandle": "8DA7",
+        "FromNode": "TAP-VAV-11",
+        "ToNode": "TAP-VAV-12",
+        "DesignFlow_m3_s": 0.5800518055133923,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.5249999999999999,
+        "StudyStraightLength_m": 6.185096189432343,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.729903810567663,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-15",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        86.1742,
+        22.345584,
+        -0.3008
+      ],
+      "size_m": [
+        0.6516000000000001,
+        5.313493649053903,
+        0.6016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.325800000000001,
+            5.313493649053903,
+            0.3008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.325800000000001,
+            0.0,
+            0.3008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.65,
+        "InternalHeight_m": 0.6,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-15",
+        "SourceLineHandle": "8DA9",
+        "FromNode": "J1",
+        "ToNode": "J0",
+        "DesignFlow_m3_s": 3.491767473386609,
+        "SourceCentrelineLength_m": 6.8300000000000125,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 5.313493649053903,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 1.0915063509461085,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.4250000000000007
+      }
+    },
+    {
+      "id": "D-16",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        83.525932,
+        21.619784,
+        -0.2008
+      ],
+      "size_m": [
+        2.0758629192431215,
+        0.6016,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            2.0758629192431215,
+            0.30079999999999885,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.30079999999999885,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.6,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-16",
+        "SourceLineHandle": "8DAB",
+        "FromNode": "J0",
+        "ToNode": "TAP-VAV-03",
+        "DesignFlow_m3_s": 1.7458837325323433,
+        "SourceCentrelineLength_m": 3.3740680000000083,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.0758629192431215,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.8982050807568811,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.4000000000000057
+      }
+    },
+    {
+      "id": "D-17",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        76.035932,
+        21.669783999999996,
+        -0.17579999999999998
+      ],
+      "size_m": [
+        6.403397459621544,
+        0.5016,
+        0.35159999999999997
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.403397459621544,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.35,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-17",
+        "SourceLineHandle": "8DAD",
+        "FromNode": "TAP-VAV-03",
+        "ToNode": "TAP-VAV-02",
+        "DesignFlow_m3_s": 1.1601196749775096,
+        "SourceCentrelineLength_m": 7.4399999999999835,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.403397459621544,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6866025403784448,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943
+      }
+    },
+    {
+      "id": "D-18",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.770932,
+        21.744784,
+        -0.1508
+      ],
+      "size_m": [
+        6.185096189432343,
+        0.35159999999999997,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            6.185096189432343,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.0,
+            0.17579999999999885,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-18",
+        "SourceLineHandle": "8DAF",
+        "FromNode": "TAP-VAV-02",
+        "ToNode": "TAP-VAV-01",
+        "DesignFlow_m3_s": 0.5756751425686069,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.5249999999999999,
+        "StudyStraightLength_m": 6.185096189432343,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.729903810567663,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-19",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        87.39820508075688,
+        21.619784,
+        -0.2008
+      ],
+      "size_m": [
+        2.7677269192431027,
+        0.6016,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.30079999999999885,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            2.7677269192431027,
+            0.30079999999999885,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.6,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-19",
+        "SourceLineHandle": "8DB1",
+        "FromNode": "J0",
+        "ToNode": "TAP-VAV-04",
+        "DesignFlow_m3_s": 1.7458837408542656,
+        "SourceCentrelineLength_m": 4.065931999999989,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.7677269192431027,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.8982050807568811,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.4000000000000057
+      }
+    },
+    {
+      "id": "D-20",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        91.25253454037843,
+        21.669783999999996,
+        -0.17579999999999998
+      ],
+      "size_m": [
+        6.403397459621559,
+        0.5016,
+        0.35159999999999997
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.403397459621559,
+            0.2508000000000017,
+            0.17579999999999998
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.35,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-20",
+        "SourceLineHandle": "8DB3",
+        "FromNode": "TAP-VAV-04",
+        "ToNode": "TAP-VAV-05",
+        "DesignFlow_m3_s": 1.1291492800965124,
+        "SourceCentrelineLength_m": 7.439999999999998,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 6.403397459621559,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6866025403784448,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3499999999999943
+      }
+    },
+    {
+      "id": "D-21",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        98.64253454037842,
+        21.719783999999997,
+        -0.1258
+      ],
+      "size_m": [
+        6.203397459621584,
+        0.4016,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            6.203397459621584,
+            0.20080000000000098,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-21",
+        "SourceLineHandle": "8DB5",
+        "FromNode": "TAP-VAV-05",
+        "ToNode": "TAP-VAV-06",
+        "DesignFlow_m3_s": 0.538984439400712,
+        "SourceCentrelineLength_m": 7.440000000000012,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.6000000000000001,
+        "StudyStraightLength_m": 6.203397459621584,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784334,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-22",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        87.4,
+        35.949200000000005,
+        -0.2008
+      ],
+      "size_m": [
+        10.548432499999995,
+        0.5016,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.25079999999999814,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            10.54843249999999,
+            0.25079999999999814,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-22",
+        "SourceLineHandle": "8DB7",
+        "FromNode": "ROOT",
+        "ToNode": "UP-TURN",
+        "DesignFlow_m3_s": 1.4206349365194935,
+        "SourceCentrelineLength_m": 12.198432499999996,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.75,
+        "StudyStraightLength_m": 10.548432499999995,
+        "AllFittingTrimsKnown": true,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0,
+        "AppliedCompoundFromTrim_m": 0.9
+      }
+    },
+    {
+      "id": "D-23",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        98.4476325,
+        36.95,
+        -0.2008
+      ],
+      "size_m": [
+        0.5016,
+        1.160584,
+        0.4016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.25079999999999814,
+            0.0,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.25079999999999814,
+            1.160584,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-23",
+        "SourceLineHandle": "8DB9",
+        "FromNode": "UP-TURN",
+        "ToNode": "TAP-VAV-19",
+        "DesignFlow_m3_s": 1.4206349365194935,
+        "SourceCentrelineLength_m": 2.2605840000000015,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.75,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.160584,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.3500000000000014
+      }
+    },
+    {
+      "id": "D-24",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        99.33503504037843,
+        38.259784,
+        -0.1508
+      ],
+      "size_m": [
+        5.741730459621579,
+        0.4016,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.20080000000000098,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            5.741730459621579,
+            0.20080000000000098,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-24",
+        "SourceLineHandle": "8DBB",
+        "FromNode": "TAP-VAV-19",
+        "ToNode": "TAP-VAV-20",
+        "DesignFlow_m3_s": 0.7026202032835482,
+        "SourceCentrelineLength_m": 6.978333000000006,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.6000000000000001,
+        "StudyStraightLength_m": 5.741730459621579,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784334,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-25",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.070132,
+        19.520584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.875,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.875,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-25",
+        "SourceLineHandle": "8DBD",
+        "FromNode": "TAP-VAV-01",
+        "ToNode": "VAV-01",
+        "DesignFlow_m3_s": 0.5756751425686069,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.5249999999999999,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.875,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-26",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        75.51013200000001,
+        19.520584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.670096189432332,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.670096189432332,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-26",
+        "SourceLineHandle": "8DBF",
+        "FromNode": "TAP-VAV-02",
+        "ToNode": "VAV-02",
+        "DesignFlow_m3_s": 0.5844445324089027,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.670096189432332,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.7299038105676665,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-27",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        82.950132,
+        19.520584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.43349364905389,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.43349364905389,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-27",
+        "SourceLineHandle": "8DC1",
+        "FromNode": "TAP-VAV-03",
+        "ToNode": "VAV-03",
+        "DesignFlow_m3_s": 0.5857640575548339,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.43349364905389,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.9665063509461085,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-28",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        90.390132,
+        19.520584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.43349364905389,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.43349364905389,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-28",
+        "SourceLineHandle": "8DC3",
+        "FromNode": "TAP-VAV-04",
+        "ToNode": "VAV-04",
+        "DesignFlow_m3_s": 0.6167344607577532,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.43349364905389,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.9665063509461085,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-29",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        97.83013199999999,
+        19.520584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.670096189432332,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.670096189432332,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-29",
+        "SourceLineHandle": "8DC5",
+        "FromNode": "TAP-VAV-05",
+        "ToNode": "VAV-05",
+        "DesignFlow_m3_s": 0.5901648406958004,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.670096189432332,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.7299038105676665,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-30",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        105.245132,
+        19.520584,
+        -0.1258
+      ],
+      "size_m": [
+        0.4016,
+        1.7999999999999972,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            1.7999999999999972,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-30",
+        "SourceLineHandle": "8DC7",
+        "FromNode": "TAP-VAV-06",
+        "ToNode": "VAV-06",
+        "DesignFlow_m3_s": 0.538984439400712,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.6000000000000001,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.7999999999999972,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-31",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.070132,
+        26.350584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.875,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.875,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-31",
+        "SourceLineHandle": "8DC9",
+        "FromNode": "TAP-VAV-07",
+        "ToNode": "VAV-07",
+        "DesignFlow_m3_s": 0.6184264111528702,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.5249999999999999,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.875,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-32",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        75.51013200000001,
+        26.350584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.7883974596215566,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.7883974596215566,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-32",
+        "SourceLineHandle": "8DCB",
+        "FromNode": "TAP-VAV-08",
+        "ToNode": "VAV-08",
+        "DesignFlow_m3_s": 0.6184264111528702,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.7883974596215566,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.611602540378442,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-33",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        82.950132,
+        26.350584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.551794919243111,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.551794919243111,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-33",
+        "SourceLineHandle": "8DCD",
+        "FromNode": "TAP-VAV-09",
+        "ToNode": "VAV-09",
+        "DesignFlow_m3_s": 0.6184264111528714,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.551794919243111,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.8482050807568875,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-34",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        90.34013199999998,
+        26.350584000000012,
+        -0.1258
+      ],
+      "size_m": [
+        0.4516,
+        1.551794919243111,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.22580000000000666,
+            1.551794919243111,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.22580000000000666,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.45,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-34",
+        "SourceLineHandle": "8DCF",
+        "FromNode": "TAP-VAV-10",
+        "ToNode": "VAV-10",
+        "DesignFlow_m3_s": 0.6520041910874131,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.551794919243111,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.8482050807568875,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-35",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        97.78013199999998,
+        26.350584000000012,
+        -0.1258
+      ],
+      "size_m": [
+        0.4516,
+        1.7633974596215545,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.22580000000000666,
+            1.7633974596215545,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.22580000000000666,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.45,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-35",
+        "SourceLineHandle": "8DD1",
+        "FromNode": "TAP-VAV-11",
+        "ToNode": "VAV-11",
+        "DesignFlow_m3_s": 0.6232232368578052,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.7633974596215545,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784441,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-36",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        105.270132,
+        26.350584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.875,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.875,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-36",
+        "SourceLineHandle": "8DD3",
+        "FromNode": "TAP-VAV-12",
+        "ToNode": "VAV-12",
+        "DesignFlow_m3_s": 0.5800518055133923,
+        "SourceCentrelineLength_m": 2.3999999999999986,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.5249999999999999,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.875,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-37",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        68.045132,
+        33.180584,
+        -0.1258
+      ],
+      "size_m": [
+        0.4016,
+        1.8000000000000043,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            1.8000000000000043,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-37",
+        "SourceLineHandle": "8DD5",
+        "FromNode": "TAP-VAV-13",
+        "ToNode": "VAV-13",
+        "DesignFlow_m3_s": 0.5517821710014711,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.6000000000000001,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.8000000000000043,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-38",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        75.48513200000001,
+        33.180584,
+        -0.1258
+      ],
+      "size_m": [
+        0.4016,
+        1.763397459621558,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            1.763397459621558,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-38",
+        "SourceLineHandle": "8DD7",
+        "FromNode": "TAP-VAV-14",
+        "ToNode": "VAV-14",
+        "DesignFlow_m3_s": 0.5560038885923347,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.763397459621558,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784477,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-39",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        82.92513199999999,
+        33.180584,
+        -0.1258
+      ],
+      "size_m": [
+        0.4016,
+        1.5767949192431132,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            1.5767949192431132,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-39",
+        "SourceLineHandle": "8DD9",
+        "FromNode": "TAP-VAV-15",
+        "ToNode": "VAV-15",
+        "DesignFlow_m3_s": 0.5575747590274335,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.5767949192431132,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.8232050807568925,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-40",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        90.390132,
+        33.180584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.4334936490539008,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.4334936490539008,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-40",
+        "SourceLineHandle": "8DDB",
+        "FromNode": "TAP-VAV-16",
+        "ToNode": "VAV-16",
+        "DesignFlow_m3_s": 0.5868557568983575,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.4334936490539008,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.9665063509461049,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-41",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        97.83013199999999,
+        33.180584,
+        -0.1508
+      ],
+      "size_m": [
+        0.35159999999999997,
+        1.6700961894323356,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.1757999999999953,
+            1.6700961894323356,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-41",
+        "SourceLineHandle": "8DDD",
+        "FromNode": "TAP-VAV-17",
+        "ToNode": "VAV-17",
+        "DesignFlow_m3_s": 0.5850748294418717,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.6700961894323356,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.7299038105676701,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-42",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        105.245132,
+        33.180584,
+        -0.1258
+      ],
+      "size_m": [
+        0.4016,
+        1.8000000000000043,
+        0.2516
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            1.8000000000000043,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-42",
+        "SourceLineHandle": "8DDF",
+        "FromNode": "TAP-VAV-18",
+        "ToNode": "VAV-18",
+        "DesignFlow_m3_s": 0.5401204816346908,
+        "SourceCentrelineLength_m": 2.4000000000000057,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.6000000000000001,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 1.8000000000000043,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-43",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        98.4976325,
+        39.09718654037845,
+        -0.1508
+      ],
+      "size_m": [
+        0.4016,
+        2.063397459621548,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            2.063397459621548,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-43",
+        "SourceLineHandle": "8DE1",
+        "FromNode": "TAP-VAV-19",
+        "ToNode": "VAV-19",
+        "DesignFlow_m3_s": 0.7180147332359453,
+        "SourceCentrelineLength_m": 2.6999999999999957,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.0,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.063397459621548,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.6366025403784477,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "D-44",
+      "ifc_class": "IfcDuctSegment",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "origin_m": [
+        105.4759655,
+        39.060584000000006,
+        -0.1508
+      ],
+      "size_m": [
+        0.4016,
+        2.0999999999999943,
+        0.3016
+      ],
+      "body_shape": "straight rectangular duct wall",
+      "source": "native",
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            2.0999999999999943,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "SourceSectionID": "D-44",
+        "SourceLineHandle": "8DE3",
+        "FromNode": "TAP-VAV-20",
+        "ToNode": "VAV-20",
+        "DesignFlow_m3_s": 0.7026202032835482,
+        "SourceCentrelineLength_m": 2.6999999999999957,
+        "PhysicalTrimmedLengthKnown": false,
+        "FittingsAuthored": false,
+        "ConstructionBasis": "{\"elevation_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted coordination scenario:retain source native XY plane at reference z=0m. This is not an actual storey or installed duct elevation;site/ceiling/elevation evidence remains missing.\", \"value\": 0}, \"profile_interpretation\": {\"classification\": \"assumed\", \"source\": \"For this unaccepted geometric scenario only,interpret selected nominal schedule width/height as clear internal section dimensions. Actual nominal/internal convention and insulation/joint envelopes remain unverified.\", \"value\": \"scheduled_nominal_as_clear_internal\"}, \"project_uuid\": \"c1bba24e-8e5a-5d43-92a4-75ea4f4740e9\", \"wall_thickness_m\": {\"classification\": \"assumed\", \"source\": \"Unaccepted illustrative straight-wall geometry gauge0.8mm chosen for authoring evaluation only;no manufacturer,fabrication,stiffener,pressure-class or statutory compliance is asserted.\", \"value\": 0.0008}}",
+        "AppliedStudyFromTrim_m": 0.6000000000000001,
+        "AppliedStudyToTrim_m": 0.0,
+        "StudyStraightLength_m": 2.0999999999999943,
+        "AllFittingTrimsKnown": false,
+        "AppliedCrossFromTrim_m": 0.0,
+        "AppliedTeeFromTrim_m": 0.0,
+        "AppliedCrossToTrim_m": 0.0,
+        "AppliedTeeToTrim_m": 0.0
+      }
+    },
+    {
+      "id": "BEND-CORRIDOR-A",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        82.82419999999999,
+        36.824200000000005,
+        -0.45080000000000003
+      ],
+      "size_m": [
+        2.025800000000004,
+        2.0257999999999967,
+        0.9016000000000001
+      ],
+      "arc_center_m": [
+        84.85,
+        38.85,
+        0.0
+      ],
+      "bend_axes": [
+        "-X",
+        "-Y"
+      ],
+      "properties": {
+        "InternalWidth_m": 1.35,
+        "InternalHeight_m": 0.9,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 1.35,
+        "SourceNode": "CORRIDOR-A",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 1.35, \"source\": \"Host-declared radius equal to nominal source width for geometric comparison only\"}",
+        "DesignFlow_m3_s": 12.000372763419485
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.6758000000000095,
+            2.0257999999999967,
+            0.45080000000000003
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            2.025800000000004,
+            0.6757999999999953,
+            0.45080000000000003
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-CORRIDOR-B",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        85.4875,
+        36.4875,
+        -0.45080000000000003
+      ],
+      "size_m": [
+        1.6882999999999981,
+        1.6882999999999981,
+        0.9016000000000001
+      ],
+      "arc_center_m": [
+        85.4875,
+        36.4875,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 1.35,
+        "InternalHeight_m": 0.9,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 1.0125000000000002,
+        "SourceNode": "CORRIDOR-B",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 1.0125000000000002, \"source\": \"Host-declared 0.75 nominal-width radius geometric alternative; not product/code/installation evidence\"}",
+        "DesignFlow_m3_s": 12.000372763419485
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            1.0125000000000028,
+            0.45080000000000003
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            1.0125000000000028,
+            0.0,
+            0.45080000000000003
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-01",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        68.070132,
+        21.395584,
+        -0.1508
+      ],
+      "size_m": [
+        0.700800000000001,
+        0.700800000000001,
+        0.3016
+      ],
+      "arc_center_m": [
+        68.770932,
+        21.395584,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "-X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.5249999999999999,
+        "SourceNode": "TAP-VAV-01",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.5249999999999999, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.5756751425686069
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.700800000000001,
+            0.5249999999999986,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-06",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        104.845932,
+        21.320583999999997,
+        -0.1258
+      ],
+      "size_m": [
+        0.8007999999999953,
+        0.8007999999999988,
+        0.2516
+      ],
+      "arc_center_m": [
+        104.845932,
+        21.320583999999997,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.6000000000000001,
+        "SourceNode": "TAP-VAV-06",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.6000000000000001, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.538984439400712
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.6000000000000014,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.5999999999999943,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-07",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        68.070132,
+        28.225584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.700800000000001,
+        0.700800000000001,
+        0.3016
+      ],
+      "arc_center_m": [
+        68.770932,
+        28.225584000000012,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "-X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.5249999999999999,
+        "SourceNode": "TAP-VAV-07",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.5249999999999999, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.6184264111528702
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.700800000000001,
+            0.5249999999999986,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.1757999999999953,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-12",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        104.920932,
+        28.225584000000012,
+        -0.1508
+      ],
+      "size_m": [
+        0.700800000000001,
+        0.700800000000001,
+        0.3016
+      ],
+      "arc_center_m": [
+        104.920932,
+        28.225584000000012,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.35,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.5249999999999999,
+        "SourceNode": "TAP-VAV-12",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.5249999999999999, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.5800518055133923
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.5249999999999986,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.5250000000000057,
+            0.0,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-13",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        68.045132,
+        34.98058400000001,
+        -0.1258
+      ],
+      "size_m": [
+        0.8007999999999953,
+        0.8008000000000024,
+        0.2516
+      ],
+      "arc_center_m": [
+        68.84593199999999,
+        34.98058400000001,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "-X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.6000000000000001,
+        "SourceNode": "TAP-VAV-13",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.6000000000000001, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.5517821710014711
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.8007999999999953,
+            0.6000000000000014,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.20080000000000098,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-18",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        104.845932,
+        34.98058400000001,
+        -0.1258
+      ],
+      "size_m": [
+        0.8007999999999953,
+        0.8008000000000024,
+        0.2516
+      ],
+      "arc_center_m": [
+        104.845932,
+        34.98058400000001,
+        0.0
+      ],
+      "bend_axes": [
+        "+Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.25,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.6000000000000001,
+        "SourceNode": "TAP-VAV-18",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.6000000000000001, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.5401204816346908
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.6000000000000014,
+            0.1258
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.5999999999999943,
+            0.0,
+            0.1258
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-TAP-VAV-20",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        105.07676550000001,
+        38.259784,
+        -0.1508
+      ],
+      "size_m": [
+        0.8007999999999953,
+        0.8008000000000024,
+        0.3016
+      ],
+      "arc_center_m": [
+        105.07676550000001,
+        39.060584000000006,
+        0.0
+      ],
+      "bend_axes": [
+        "-Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.4,
+        "InternalHeight_m": 0.3,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.6000000000000001,
+        "SourceNode": "TAP-VAV-20",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.6000000000000001, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 0.7026202032835482
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.20080000000000098,
+            0.1508
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.5999999999999943,
+            0.8008000000000024,
+            0.1508
+          ],
+          "source": "native"
+        }
+      ]
+    },
+    {
+      "id": "BEND-UP-TURN",
+      "ifc_class": "IfcDuctFitting",
+      "space": "COORDINATION-ENVELOPE-NOT-ROOM",
+      "system": "SOURCE-SUPPLY",
+      "source": "native",
+      "body_shape": "rectangular 90-degree elbow wall",
+      "origin_m": [
+        97.9484325,
+        35.949200000000005,
+        -0.2008
+      ],
+      "size_m": [
+        1.0007999999999981,
+        1.0007999999999981,
+        0.4016
+      ],
+      "arc_center_m": [
+        97.9484325,
+        36.95,
+        0.0
+      ],
+      "bend_axes": [
+        "-Y",
+        "+X"
+      ],
+      "properties": {
+        "InternalWidth_m": 0.5,
+        "InternalHeight_m": 0.4,
+        "WallThickness_m": 0.0008,
+        "CenterlineRadius_m": 0.75,
+        "SourceNode": "UP-TURN",
+        "RadiusBasis": "{\"classification\": \"design_target\", \"radius_m\": 0.75, \"source\": \"Explicit unaccepted comparison scenario:choose centreline radius1.5 times the selected source internal-width assumption for each equal-section corner. This ratio is a design choice,not a code/manufacturer requirement. Retain all source extent failures;no automatic radius reduction.\"}",
+        "DesignFlow_m3_s": 1.4206349365194935
+      },
+      "ports": [
+        {
+          "id": "in",
+          "direction": "SINK",
+          "offset_m": [
+            0.0,
+            0.25079999999999814,
+            0.2008
+          ],
+          "source": "native"
+        },
+        {
+          "id": "out",
+          "direction": "SOURCE",
+          "offset_m": [
+            0.75,
+            1.0007999999999981,
+            0.2008
+          ],
+          "source": "native"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "A-01.out",
+      "to": "BEND-CORRIDOR-A.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-CORRIDOR-A.out",
+      "to": "A-02.in",
+      "source": "native"
+    },
+    {
+      "from": "A-02.out",
+      "to": "BEND-CORRIDOR-B.in",
+      "source": "native"
+    },
+    {
+      "from": "D-18.out",
+      "to": "BEND-TAP-VAV-01.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-01.out",
+      "to": "D-25.in",
+      "source": "native"
+    },
+    {
+      "from": "D-21.out",
+      "to": "BEND-TAP-VAV-06.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-06.out",
+      "to": "D-30.in",
+      "source": "native"
+    },
+    {
+      "from": "D-11.out",
+      "to": "BEND-TAP-VAV-07.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-07.out",
+      "to": "D-31.in",
+      "source": "native"
+    },
+    {
+      "from": "D-14.out",
+      "to": "BEND-TAP-VAV-12.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-12.out",
+      "to": "D-36.in",
+      "source": "native"
+    },
+    {
+      "from": "D-04.out",
+      "to": "BEND-TAP-VAV-13.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-13.out",
+      "to": "D-37.in",
+      "source": "native"
+    },
+    {
+      "from": "D-07.out",
+      "to": "BEND-TAP-VAV-18.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-18.out",
+      "to": "D-42.in",
+      "source": "native"
+    },
+    {
+      "from": "D-24.out",
+      "to": "BEND-TAP-VAV-20.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-TAP-VAV-20.out",
+      "to": "D-44.in",
+      "source": "native"
+    },
+    {
+      "from": "D-22.out",
+      "to": "BEND-UP-TURN.in",
+      "source": "native"
+    },
+    {
+      "from": "BEND-UP-TURN.out",
+      "to": "D-23.in",
+      "source": "native"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-manufacturer-study\\friction-diameter-1000-points.json": "d25b7c534f2a44169818bc44f92ee5d0fcc6e47c9ee144eca954094faf76f0f7",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\raster_chart_points.py": "31ce0c31441835e66f42fa27f5144c6d8bb399bc036e6d1bd2e4e5b175e5733b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\third_party\\scientific-plot-digitizer\\digitize_plot.py": "04c988d25acf72c127d9b575a44df22c8823a1d8d4f02b5c3c4f96405050834c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\adpi-manufacturer-study\\duct-source-09.png": "04302249a133239105da8af93eb898ca5730ccb1f2f6dd761a67961a37411c8b"
+  },
+  "axes": {
+    "x": {
+      "quantity": "Air quantity",
+      "unit": "L/s"
+    },
+    "y": {
+      "quantity": "Friction loss gradient",
+      "unit": "Pa/m"
+    }
+  },
+  "calibration": {
+    "x_scale": "log10",
+    "y_scale": "log10",
+    "x1": {
+      "pixel": [
+        155,
+        1032
+      ],
+      "value": 20
+    },
+    "x2": {
+      "pixel": [
+        1425,
+        1032
+      ],
+      "value": 200000
+    },
+    "y1": {
+      "pixel": [
+        155,
+        1032
+      ],
+      "value": 0.1
+    },
+    "y2": {
+      "pixel": [
+        155,
+        128
+      ],
+      "value": 100
+    }
+  },
+  "pixel_uncertainty": 3,
+  "checks": [
+    {
+      "pixel": [
+        791,
+        731
+      ],
+      "x": 2014.557195335669,
+      "y": 0.9974561337218929,
+      "x_range": [
+        1971.2004202128664,
+        2058.867607607576
+      ],
+      "y_range": [
+        0.974850577049102,
+        1.0205858847733071
+      ],
+      "expected": [
+        2000,
+        1
+      ]
+    },
+    {
+      "pixel": [
+        1013,
+        430
+      ],
+      "x": 10078.414141570034,
+      "y": 9.949187386994266,
+      "x_range": [
+        9861.5091380575,
+        10300.089995049895
+      ],
+      "y_range": [
+        9.723706875399532,
+        10.179896507571202
+      ],
+      "expected": [
+        10000,
+        10
+      ]
+    }
+  ],
+  "points": [
+    {
+      "pixel": [
+        1013,
+        698
+      ],
+      "x": 10078.414141570034,
+      "y": 1.2835331201679216,
+      "x_range": [
+        9861.5091380575,
+        10300.089995049895
+      ],
+      "y_range": [
+        1.2544441410054052,
+        1.313296636108169
+      ],
+      "id": "D1000-Q10000",
+      "series": "1000 mm circular duct diameter curve",
+      "interpretation": "Host AI visually traced the rising 1000-labelled curve above its label gap in original p9; point is an approximate manual curve reading, not automatic identification"
+    },
+    {
+      "pixel": [
+        1040,
+        650
+      ],
+      "x": 12258.337391851483,
+      "y": 1.8522479169496224,
+      "x_range": [
+        11994.516648062961,
+        12527.960902595523
+      ],
+      "y_range": [
+        1.8102700355741008,
+        1.895199212506536
+      ],
+      "id": "D1000-Q12000",
+      "series": "1000 mm circular duct diameter curve",
+      "interpretation": "Host AI visually followed the same rising1000mm curve toward the next upper-right crossing; manual approximate reading"
+    }
+  ],
+  "runtime_dependencies": {
+    "numpy": "2.5.4",
+    "Pillow": "13.0.0"
+  },
+  "source_locator": "Original classroom PDF p9; Figure10 ASHRAE2013 round-duct friction chart; axis calibration only",
+  "axis_tick_checks_pass": true,
+  "source_image_derivation_verified": false,
+  "curve_identity_verified": false,
+  "design_accepted": false,
+  "scope": "Declared manual pixels converted by pinned upstream axes; uncertainty covers declared pixel displacement only, not curve identification, scan distortion, source authenticity or engineering acceptance"
+}

@@ -1,0 +1,7 @@
+FoamFile {format ascii;class dictionary;object functions;}
+flux_inlet {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name air_inlet;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_0 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name air_outlet_0;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_1 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name air_outlet_1;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_2 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name air_outlet_2;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_3 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name air_outlet_3;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+wall_yPlus {type yPlus;libs ("libfieldFunctionObjects.dll");executeControl timeStep;writeControl timeStep;writeInterval 1;}

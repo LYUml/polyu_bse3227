@@ -1,0 +1,822 @@
+{
+  "source_plan": {
+    "path": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\explicit-service-partition-workflow.json",
+    "sha256": "a4dd2e3858726b4388d7baf118b3d9405eee1ab69372d05ea69b4b9239fef551"
+  },
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\manufacturer-linear-slot-layout\\boot-first-row-four-strip-services\\allocation.json": "ba14cf9d26980583b0d26ee51970fe8d2f99a29b3a70730d08f1b8cc97a13902",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-inspection.json": "cd29169113f3f8e499f3ee91c0250fa59b6ba4836b52e606197db1022eeb7f27",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-binding.json": "dfc0b9b52f7c2eb8f55ba46571c6ac39c66f788a004dc1c4bd3b243d859cf132",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\interpreted-work-review.json": "6b8f143f3a8776505adc6192f0897b677107b6e559de32e0d4211f1daafead50",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\module_contract.py": "232e5d94f31ea40691889d0d3260b4057ca0524128bedda0420305394a4b24ce",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D001\\BSE3227 Mini design assignment.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_allocation.py": "ad83190a042ae78468e816acbfafbb242f2655fec4c9d1a73ae721fd03b8e60c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\request-v1.json": "5f0248cbd616c4ad7775ec8977f88eaccba570a6215eec73480147a70edfab2b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\air_allocation.py": "a6557419dceb0613d2f5fc9622a4f71c13443da90978c09177da76c0ec88cdba",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_load.py": "4969f2772ec2307a2eb586c4f0258d2035299b67c7a05776ed23887ed0a6b080",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\explicit-service-partition\\allocation.json": "3df175c4d2cd599ce4852d1115e7bf3acab2c80c417fd2b762386ff0256ce070",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\terminal-source-resolution.json": "3039779d344a453460458da9a72a80862320187b99b4c2b4bd5734d4d7f32e3d",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\minimum-flow-resolution.json": "151040d6cf537d38b8b22f4b14f88fb2e7ab4837ed9acde8b24cd36f69181837",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\office-boundary.geojson": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-role-review.json": "4fd292d56743c6cddf8a058c70db60123ca2a0505963359ef816f2735f9f708c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\__init__.py": "42c2ddea556e631da17a9d3e48ef873b4a25768711e22f7823ed0b9e41ae5452",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\module_air_allocation.py": "1e9b2a8a8db9b37c94a750cff79ade57b1f2a48cc4f8b445746e7b956b4ce477",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\result-v1.json": "4d6c03471305bb1da1a54a37f1322ce5255db9e6d99fc5a83b09cd1fd21cf1e6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\air-allocation-v1.json": "8c01bc709f23d1cf70a9c6e9c74f5cbcb56cfed9187e228be18cadf07034e48f",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\explicit-service-partition-workflow.json": "a4dd2e3858726b4388d7baf118b3d9405eee1ab69372d05ea69b4b9239fef551",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\service_areas.py": "14b211941d0f34523b8e6a0375737974f096d0bf1292de6b4d1fb9160be631af",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\schedule-correspondence-resolution.json": "f5103c6bef0473afe47d146fb6d3fd95f11e07b76ecdf0b966e80b3aaee77d14",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\modules.py": "a7387adf83b1f86d8d49ef9e82c2dc5332d81393ef09a8cf2bc8a720110bba99"
+  },
+  "runtime_inputs": {},
+  "requirements_inventory": null,
+  "module_selection": {
+    "schema": "bsa.workflow-module-selection/1",
+    "providers": {
+      "candidate-allocation": "bsa.classified-air-allocation"
+    },
+    "disabled_providers": []
+  },
+  "inputs_unchanged": true,
+  "tasks": {
+    "candidate-allocation": {
+      "kind": "air_allocation",
+      "status": "pass",
+      "scope": "Conditional thermal balance and declared service-area allocation only; room loads, ADPI, routing, native geometry and regulatory acceptance remain pending"
+    },
+    "remaining-engineering": {
+      "kind": "manual",
+      "status": "pending",
+      "scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed"
+    }
+  },
+  "requirements": [
+    {
+      "id": "R001-identity",
+      "passage": "P001",
+      "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering ",
+      "task": "remaining-engineering",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 1,
+        "end_line": 2,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R002-identity",
+      "passage": "P002",
+      "quote": "BSE3227 HVACR 1 2026/27 Semester 1 ",
+      "task": "remaining-engineering",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 4,
+        "end_line": 4,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R003-identity",
+      "passage": "P003",
+      "quote": "Mini-design assignment ",
+      "task": "remaining-engineering",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 7,
+        "end_line": 7,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-identity",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "remaining-engineering",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-layout",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-routing",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "remaining-engineering",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R005-delivery",
+      "passage": "P005",
+      "quote": "Each group is required to complete the following tasks. ",
+      "task": "remaining-engineering",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 15,
+        "end_line": 15,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-load",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "remaining-engineering",
+      "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-layout",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-terminal",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-adpi",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "remaining-engineering",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-load",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-layout",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-terminal",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-adpi",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R008-minimum",
+      "passage": "P008",
+      "quote": "2. Space air diffusion design for minimum load condition ",
+      "task": "remaining-engineering",
+      "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 30,
+        "end_line": 30,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R009-minimum",
+      "passage": "P009",
+      "quote": "• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R009-terminal",
+      "passage": "P009",
+      "quote": "• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R009-adpi",
+      "passage": "P009",
+      "quote": "• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "remaining-engineering",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R010-routing",
+      "passage": "P010",
+      "quote": "3. Single-line diagram of AC layout plan ",
+      "task": "remaining-engineering",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 38,
+        "end_line": 38,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R011-routing",
+      "passage": "P011",
+      "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "remaining-engineering",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R011-delivery",
+      "passage": "P011",
+      "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "remaining-engineering",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R012-sizing",
+      "passage": "P012",
+      "quote": "4. Sizing of supply air ducts ",
+      "task": "remaining-engineering",
+      "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 1,
+        "end_line": 1,
+        "page": 2,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R013-sizing",
+      "passage": "P013",
+      "quote": "• Determine the size of the main air ducts and each section of the branch air ducts.  \n• The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n• Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n• The following table for air duct sizing is suggested for your use.  ",
+      "task": "remaining-engineering",
+      "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 3,
+        "end_line": 9,
+        "page": 2,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R014-schedule",
+      "passage": "P014",
+      "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+      "task": "remaining-engineering",
+      "acceptance": "Every section appears withL/s,mm by mm,m/s andPa/m,consistent with editable drawing and calculations.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 11,
+        "end_line": 11,
+        "page": 2,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R014-delivery",
+      "passage": "P014",
+      "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+      "task": "remaining-engineering",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 11,
+        "end_line": 11,
+        "page": 2,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-air-allocation-P007",
+      "task": "remaining-engineering",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute classified preliminary thermal/airflow balance and nearest-centre scenario allocation;actual room load and physical layout acceptance remain pending.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-terminal-lookup-P007",
+      "task": "remaining-engineering",
+      "passage": "P007",
+      "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute source-pinned bounded maximum-flow throw lookup;product,L and ADPI acceptance remain pending.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-terminal-lookup-P009",
+      "task": "remaining-engineering",
+      "passage": "P009",
+      "quote": "• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute the same original terminal inventory at40percent minimum flow without extrapolation;ADPI applicability remains pending.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-duct-schedule-P013",
+      "task": "remaining-engineering",
+      "passage": "P013",
+      "quote": "• Determine the size of the main air ducts and each section of the branch air ducts.  \n• The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n• Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n• The following table for air duct sizing is suggested for your use.  ",
+      "acceptance": "Execute conditional section numerical sizing under declared source criteria;chart-method,geometry and manufactured-size applicability remain pending.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 3,
+        "end_line": 9,
+        "page": 2,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-duct-sheet-P011",
+      "task": "remaining-engineering",
+      "passage": "P011",
+      "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "acceptance": "Bind source section labels/schedule to the preserved single-line design scenario;physical routing/installed lengths remain pending.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-native-sheet-P011",
+      "task": "remaining-engineering",
+      "passage": "P011",
+      "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "acceptance": "Save and independently reopen native DWG and plot at declared scale;actual visual and full engineering review remain separate.",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "hk-flex-check",
+      "passage": "P011",
+      "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "remaining-engineering",
+      "acceptance": "Additional Hong Kong project check selected by user; keep assignment 5m criterion distinct from ordinary FSD 4m path; installed evidence and applicability pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing., gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved., gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved., gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient., gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review., gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "CANDIDATE-ALLOCATION",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "candidate-allocation",
+      "acceptance": "Verify only source-clipped classified allocation for separate64terminal candidate; all original full requirements remain pending",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "project/sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Conditional thermal balance and declared service-area allocation only; room loads, ADPI, routing, native geometry and regulatory acceptance remain pending",
+      "evidence": [
+        "candidate-allocation/allocation.json",
+        "candidate-allocation/request.json",
+        "candidate-allocation/module/result.json",
+        "candidate-allocation/module/analysis/allocation.json"
+      ]
+    }
+  ],
+  "unresolved_inputs": [
+    {
+      "id": "gap-identity",
+      "kind": "missing",
+      "description": "Group member identities remain missing.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P001",
+          "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering "
+        },
+        {
+          "passage": "P002",
+          "quote": "BSE3227 HVACR 1 2026/27 Semester 1 "
+        },
+        {
+          "passage": "P003",
+          "quote": "Mini-design assignment "
+        },
+        {
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+        }
+      ]
+    },
+    {
+      "id": "gap-layout",
+      "kind": "missing",
+      "description": "Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+        },
+        {
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition "
+        },
+        {
+          "passage": "P007",
+          "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. "
+        }
+      ]
+    },
+    {
+      "id": "gap-adpi",
+      "kind": "missing",
+      "description": "Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P006",
+          "quote": "1. Space air diffusion design for maximum load condition "
+        },
+        {
+          "passage": "P007",
+          "quote": "• Calculate the cooling load of the open plan office using rule of thumb. \n• Determine the total supply air flow rate of the office. \n• Distribute supply air diffusers on the layout plan. \n• Calculate the supply air flow rate of each diffuser. \n• Find out the characteristic room length, L. \n• Refer to the performance data of KRUEGER “Louvered Face Diffusers 1400, 51400 \nSeries 4-cone”, and select a suitable type of diffuser. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. "
+        },
+        {
+          "passage": "P009",
+          "quote": "• Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n• From the diffuser performance data, find the corresponding T0.25. \n• Calculate T0.25 / L. \n• Check if it meets the ASHRAE ADPI requirement. "
+        }
+      ]
+    },
+    {
+      "id": "gap-routing",
+      "kind": "missing",
+      "description": "Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P004",
+          "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. "
+        },
+        {
+          "passage": "P010",
+          "quote": "3. Single-line diagram of AC layout plan "
+        },
+        {
+          "passage": "P011",
+          "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+        }
+      ]
+    },
+    {
+      "id": "gap-sizing",
+      "kind": "missing",
+      "description": "Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P012",
+          "quote": "4. Sizing of supply air ducts "
+        },
+        {
+          "passage": "P013",
+          "quote": "• Determine the size of the main air ducts and each section of the branch air ducts.  \n• The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n• Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n• The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n• Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n• The following table for air duct sizing is suggested for your use.  "
+        }
+      ]
+    },
+    {
+      "id": "gap-delivery",
+      "kind": "missing",
+      "description": "All primary obligations and actual native/visual/domain checks require separate evidence.",
+      "blocks_tasks": [
+        "remaining-engineering"
+      ],
+      "sources": [
+        {
+          "passage": "P005",
+          "quote": "Each group is required to complete the following tasks. "
+        },
+        {
+          "passage": "P011",
+          "quote": "• Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n• Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n• Use straight ductwork as far as possible. \n• Minimize bends and turns. \n• Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. "
+        },
+        {
+          "passage": "P014",
+          "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm×mm) Air velocity (m/s) Pressure drop (Pa/m) "
+        }
+      ]
+    }
+  ],
+  "three_phase_source_bindings": [],
+  "three_phase_model_bindings": [],
+  "regulatory_source_bindings": [],
+  "inventory_source_bindings": [],
+  "artifact_hashes": {
+    "candidate-allocation/allocation.json": "98466165455a350cf7d4118e4b6b4d7afb613c47c20d8937fee152d2e8e2f6af",
+    "candidate-allocation/request.json": "a02e8d9ed502606f8e95c73fb6ffb289b0d33415948e58324de98a5b17f18376",
+    "candidate-allocation/module/result.json": "008e16f9c69b86482a6eb1b307a8afcf45f51bc574b1d6d289b08f442184b3a8",
+    "candidate-allocation/module/analysis/allocation.json": "98466165455a350cf7d4118e4b6b4d7afb613c47c20d8937fee152d2e8e2f6af",
+    "index.html": "85dc247c2a3fce3869b49a60f75b9663602b512aea3cd3b1edcc799d8a058892"
+  },
+  "execution_pass": false,
+  "design_accepted": false,
+  "acceptance_note": "Host agent must compare each artifact to the complete acceptance text; execution is not engineering acceptance"
+}

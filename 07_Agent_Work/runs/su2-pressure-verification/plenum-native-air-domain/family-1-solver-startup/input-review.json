@@ -1,0 +1,46 @@
+{
+  "mesh_sha256": "07998c8e563341aa602a26cb607d2d4728f8d8ebc6b034d55a17d4fb43d5dc64",
+  "source_family_review_sha256": "2389557b1a5d60a9aabfeaf1dee619e0735fcf5b7836cd60a801c3825dca3d68",
+  "source_member": {
+    "id": "VAV-01",
+    "guid": "0HYVMlmZXU$vltJ0td80AQ",
+    "flows": {
+      "maximum": {
+        "inlet_m3_s": 0.5756751425686069,
+        "ordered_outlet_fractions": [
+          0.25678093048510015,
+          0.25678093048510015,
+          0.2296572085446997,
+          0.2567809304850999
+        ]
+      },
+      "minimum": {
+        "inlet_m3_s": 0.23027005702744274,
+        "ordered_outlet_fractions": [
+          0.2567809304851002,
+          0.2567809304851002,
+          0.22965720854469976,
+          0.2567809304850999
+        ]
+      }
+    }
+  },
+  "flowcase": "maximum",
+  "rho_kg_m3": 1.2,
+  "mu_pa_s": 1.81e-05,
+  "inlet_speed_m_s": 4.286470825870307,
+  "inlet_effective_area_m2": 0.1343004923990645,
+  "target_outlet_mass_flows_kg_s": [
+    0.17738687851909146,
+    0.17738687851909146,
+    0.15864953552505393,
+    0.17738687851909132
+  ],
+  "assumptions": [
+    "Smooth wall numerical diagnostic; actual lining roughness unknown.",
+    "Uniform inlet with zero shared wall nodes; inlet turbulence intensity .05 viscosity ratio10 inherited assumptions.",
+    "Density-based SST and massflow feedback are not validated by startup."
+  ],
+  "scope": "Three-step first actual mesh solver startup only. No pressure, convergence, grid or engineering acceptance.",
+  "engineering_accepted": false
+}

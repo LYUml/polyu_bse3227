@@ -1,0 +1,44 @@
+{
+  "schema": "bsa.drawing-result/1",
+  "source_sha256": "f3af7ef6cb683bbfe8ffd5e0a64be52ed8e1d3660764794c035899b4ffb8275e",
+  "dxf_sha256": "c4f8046f8b15f423a7cf8904f18b97bbe69d05a3bb45b1e28b09091c09f9c161",
+  "methods": {
+    "drawing_document.py": "424a8d8a40fa9a09ee7282f984807c9977529a6c48615c09367bdf1ff26b0881",
+    "cad_sheet.py": "2aa3880343af74c7dea09e329266651f5152badbf3e12befb8e5dc2f9a60c315",
+    "cad_intake.py": "ab8f7dd945134dc824de2a25cfb2d8423752c190baa150fedb81d87e93242bd0",
+    "cad_overlay.py": "91c4c9e2802a76f5516ca92c3438766cd472a0cbf797da0b1b3e8bfa688a9e49",
+    "native_cad.py": "d6a8b81b11bb2b422fdfbfa4ba3fc6b26557b5cfd0a8fc66a91c52cb74a180a0"
+  },
+  "native_reopen_pass": true,
+  "visual_review": "pending",
+  "design_accepted": false,
+  "native_export_sha256": "7b9f207c2d93d4bae0a11afe8d5e43ed55850cf4db20031505fe912911d8bfb0",
+  "native_audit": {
+    "model_entities": 179,
+    "entity_types": {
+      "TEXT": 11,
+      "LINE": 161,
+      "DIMENSION": 6,
+      "LWPOLYLINE": 1
+    },
+    "editable_entity_correspondence": true,
+    "dimension_rendering_visual_review": "pending"
+  },
+  "plot": {
+    "pdf_sha256": "f7a72419e4af4186d4c6ea61a960b8185985b27185ba03eeda3f17e72c98f180",
+    "dwg_unchanged": true,
+    "paper_mm": [
+      297.03888888888883,
+      209.90277777777777
+    ],
+    "scale_denominator": 10,
+    "reference_handle": "195",
+    "reference_expected_mm": 50.0,
+    "reference_measured_mm": 50.03799999999999,
+    "pdf_reference_pass": true,
+    "visual_review": "pending",
+    "design_accepted": false
+  },
+  "dwg_sha256": "159d776575d3f4f713239a90bbbe1625aed8d56d82473b86a70af6a76a8d5867",
+  "autocad_sha256": "44d10af0c32fb54c52b3a34751a8e9b7c860448d02089a0f09af68649f72b3e2"
+}

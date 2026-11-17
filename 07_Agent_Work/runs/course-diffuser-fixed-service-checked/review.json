@@ -1,0 +1,115 @@
+{
+  "scope": "150mm southward source-row relocation within unchanged explicit service cells. Same flows and same49 native K-Select conditions; geometric ratio comparison, not ADPI prediction.",
+  "source_sha256": "18ad8f8379c5f337450426a194c2224830ff22cf2a8f552edd53171f68a1b80e",
+  "baseline_sha256": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+  "native_source_sha256": "33a45e0842986ad30c01c996f81f646b2bb3aefdaaac4e57b56e909be673c05c",
+  "moved_terminals": 12,
+  "all_moved_centres_inside_original_service_cells": true,
+  "flows_unchanged": true,
+  "ratio_checks": 640,
+  "baseline_ratio_range": [
+    1.206556494494195,
+    3.2796716311273206
+  ],
+  "candidate_ratio_range": [
+    1.2116829211046238,
+    3.1122323255563793
+  ],
+  "critical_maximum": {
+    "terminal": "SD-56",
+    "direction": "north",
+    "case": "maximum",
+    "flow_L_s": "155.94659779401857",
+    "L_m": 1.4690420000000017,
+    "effective_cfm": "330",
+    "effective_flow_L_s": "155.7426562560000305054062805152295271120",
+    "native_reported_throw_ft": "15.0",
+    "native_T025_m": "4.57200",
+    "native_ratio": 3.1122323255563793,
+    "classroom_interval_met": true,
+    "original_catalogue_T025_m": "4.490261791442649333333333333333333333333",
+    "original_catalogue_ratio": "3.221037667044925",
+    "catalogue_T025_at_effective_flow_m": "4.4877897728000003697625003698815700256",
+    "native_minus_catalogue_T025_at_effective_flow_m": "0.0842102271999996302374996301184299744",
+    "native_pdf_sha256": "d839991e89b2ec623ec253a8e4660d9eed5fe0451cacc8b4cf85c06c7e824cf4",
+    "previous_L_m": "1.3940420000000024",
+    "previous_native_ratio": "3.279671631127320503103984883117433011657"
+  },
+  "critical_minimum": {
+    "terminal": "SD-08",
+    "direction": "east",
+    "case": "minimum",
+    "flow_L_s": "62.88603127329168",
+    "L_m": 2.2639586249999937,
+    "effective_cfm": "133",
+    "effective_flow_L_s": "62.76900994560001229460313729856220335119",
+    "native_reported_throw_ft": "9.0",
+    "native_T025_m": "2.74320",
+    "native_ratio": 1.2116829211046238,
+    "classroom_interval_met": true,
+    "original_catalogue_T025_m": "2.767892235836616727272727272727272727273",
+    "original_catalogue_ratio": "1.222589585017979",
+    "catalogue_T025_at_effective_flow_m": "2.762927694661818703407405824787487414899",
+    "native_minus_catalogue_T025_at_effective_flow_m": "-0.019727694661818703407405824787487414899",
+    "native_pdf_sha256": "10119b11573ae289a2333df0fa3f975faf453b7bac28e3897f7eccd30c4195ad",
+    "previous_L_m": "2.2639586249999937",
+    "previous_native_ratio": "1.211682921104623823945723813362574529409"
+  },
+  "changes": {
+    "SD-49": [
+      66.385932,
+      31.950000000000003
+    ],
+    "SD-50": [
+      70.105932,
+      31.950000000000003
+    ],
+    "SD-51": [
+      73.825932,
+      31.950000000000003
+    ],
+    "SD-52": [
+      77.545932,
+      31.950000000000003
+    ],
+    "SD-53": [
+      81.26593199999999,
+      31.950000000000003
+    ],
+    "SD-54": [
+      84.98593199999999,
+      31.950000000000003
+    ],
+    "SD-55": [
+      88.705932,
+      31.950000000000003
+    ],
+    "SD-56": [
+      92.425932,
+      31.950000000000003
+    ],
+    "SD-57": [
+      96.95384924999999,
+      31.950000000000003
+    ],
+    "SD-58": [
+      100.44301575,
+      31.950000000000003
+    ],
+    "SD-59": [
+      103.93218225000001,
+      31.950000000000003
+    ],
+    "SD-60": [
+      107.42134874999999,
+      31.950000000000003
+    ]
+  },
+  "selected": false,
+  "ADPI_verified": false,
+  "pending": [
+    "Exact flex and source obstruction checks",
+    "Guarded native drawing updates/reopen/plot",
+    "Report and schedules consistency"
+  ]
+}

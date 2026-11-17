@@ -1,0 +1,3 @@
+(if (= (strcase (vl-string-translate (chr 92) "/" (strcat (getvar "DWGPREFIX") (getvar "DWGNAME")))) (strcase "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/general-drawing-current-open-plenum-tags-a1-expanded/drawing/Drawing.dxf")) (progn (setvar "FILEDIA" 0) (setvar "CMDDIA" 0) (command "_.SAVEAS" "2018" "C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/general-drawing-current-open-plenum-tags-a1-expanded/drawing/Drawing.dwg")))
+_.QUIT
+_Y

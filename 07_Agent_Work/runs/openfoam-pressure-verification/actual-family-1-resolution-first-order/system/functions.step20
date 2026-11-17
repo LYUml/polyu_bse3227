@@ -1,0 +1,12 @@
+FoamFile {format ascii;class dictionary;object functions;}
+makePt {type pressure;libs ("libfieldFunctionObjects.dll");field p;U U;rho rhoInf;rhoInf 1.2;calcTotal yes;calcCoeff no;pRef 0;result Pt;executeControl timeStep;writeControl timeStep;writeInterval 1;}
+flux_inlet {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name inlet;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_0 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_0;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_1 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_1;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_2 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_2;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+flux_outlet_3 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_3;operation sum;fields (phi);writeFields false;writeControl timeStep;writeInterval 1;}
+pressure_inlet {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name inlet;operation average;weightField phi;fields (Pt);writeFields false;writeControl timeStep;writeInterval 1;}
+pressure_outlet_0 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_0;operation average;weightField phi;fields (Pt);writeFields false;writeControl timeStep;writeInterval 1;}
+pressure_outlet_1 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_1;operation average;weightField phi;fields (Pt);writeFields false;writeControl timeStep;writeInterval 1;}
+pressure_outlet_2 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_2;operation average;weightField phi;fields (Pt);writeFields false;writeControl timeStep;writeInterval 1;}
+pressure_outlet_3 {type surfaceFieldValue;libs ("libfieldFunctionObjects.dll");regionType patch;name outlet_3;operation average;weightField phi;fields (Pt);writeFields false;writeControl timeStep;writeInterval 1;}

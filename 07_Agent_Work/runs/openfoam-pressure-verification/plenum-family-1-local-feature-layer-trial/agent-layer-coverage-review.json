@@ -1,0 +1,28 @@
+{
+  "scope": "Declared native wall-face counts only; caller binds patch/field/source evidence",
+  "requested_layers": 18,
+  "patches": {
+    "air_wall": {
+      "face_count": 15438,
+      "faces_with_any_layers": 0,
+      "faces_with_requested_layers": 0,
+      "any_layer_face_fraction": 0.0,
+      "requested_layer_face_fraction": 0.0
+    }
+  },
+  "wall_faces": 15438,
+  "any_layer_face_fraction": 0.0,
+  "requested_layer_face_fraction": 0.0,
+  "all_wall_faces_have_requested_layers": false,
+  "wall_area_coverage_verified": false,
+  "actual_first_layer_height_verified": false,
+  "yPlus_verified": false,
+  "engineering_accepted": false,
+  "provenance": {
+    "native_foamDictionary_read_sha256": "9d5a4ad5704b4dfd84925a05a8fa3100a70f8ea550d148f9d060dc6c99fe9387",
+    "field_sha256": "d8d8ad3dabd90ebb86d9a150097c439e68e7dfb9ca0bc0a9edb8f6134b5f162e",
+    "boundary_sha256": "2e189883e4050cf3b7696f8f2b48547c006ffeb38b687264500348e5d4b04fe7",
+    "reviewer_module_sha256": "886a692f2444dab0b24e8647842193bf6e26a0fd6f81cd313bfba58363108db0"
+  },
+  "native_reader": "Pinned OpenFOAM12 foamDictionary, case cwd and relative field path; no new dictionary parser"
+}

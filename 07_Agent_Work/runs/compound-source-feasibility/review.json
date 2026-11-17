@@ -1,0 +1,109 @@
+{
+  "ifc_sha256": "ce4204747f1d0ccf9dc001e510a272da64004276d5deefffcfa093a3eb9190a5",
+  "product_guid": "3tK$ugPAvIAAusb9mKjQEp",
+  "native_inner_stations": [
+    {
+      "y_m": -1.0,
+      "width_m": 0.85,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0.0,
+      "width_m": 1.25,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0.619415999999994,
+      "width_m": 1.25,
+      "height_m": 0.85
+    },
+    {
+      "y_m": 0.9069159999999883,
+      "width_m": 1.35,
+      "height_m": 0.9
+    }
+  ],
+  "native_branch_dimensions_match": true,
+  "branches": [
+    {
+      "branch": "D-22",
+      "aperture_interval_m": [
+        0.36941599999999397,
+        0.869415999999994
+      ],
+      "taper_overlaps": [
+        {
+          "interval_m": [
+            0.619415999999994,
+            0.869415999999994
+          ],
+          "length_m": 0.25
+        }
+      ],
+      "independent_constant_section_junction_supported": false
+    },
+    {
+      "branch": "D-02",
+      "aperture_interval_m": [
+        -0.25,
+        0.25
+      ],
+      "taper_overlaps": [
+        {
+          "interval_m": [
+            -0.25,
+            0.0
+          ],
+          "length_m": 0.25
+        }
+      ],
+      "independent_constant_section_junction_supported": false
+    },
+    {
+      "branch": "D-05",
+      "aperture_interval_m": [
+        -0.3,
+        0.3
+      ],
+      "taper_overlaps": [
+        {
+          "interval_m": [
+            -0.3,
+            0.0
+          ],
+          "length_m": 0.3
+        }
+      ],
+      "independent_constant_section_junction_supported": false
+    }
+  ],
+  "clear_trunk_between_apertures_m": 0.06941599999999398,
+  "cases": {
+    "maximum": {
+      "external_flows_m3_s": {
+        "lower": 7.202325940303831,
+        "upper": 12.000372763419485,
+        "D-22": 1.4206349365194935,
+        "D-02": 1.6653608186212396,
+        "D-05": 1.71205106797492
+      },
+      "after_upper_takeoff_m3_s": 10.579737826899992,
+      "after_lower_takeoffs_m3_s": 7.202325940303831
+    },
+    "minimum": {
+      "external_flows_m3_s": {
+        "lower": 2.880930376121533,
+        "upper": 4.800149105367794,
+        "D-22": 0.5682539746077974,
+        "D-02": 0.6661443274484959,
+        "D-05": 0.684820427189968
+      },
+      "after_upper_takeoff_m3_s": 4.231895130759996,
+      "after_lower_takeoffs_m3_s": 2.880930376121533
+    }
+  },
+  "independent_fitting_decomposition_accepted": false,
+  "reason": "All three native branch apertures intersect varying-section trunk regions. Constant-section tee/cross plus isolated taper coefficients cannot be assigned to unchanged body.",
+  "full_pressure_accepted": false,
+  "next_design": "Separate constant-section source-family junction cores from transitions; preserve five external caps and solve finite available reach, height correspondence and close-coupling explicitly."
+}

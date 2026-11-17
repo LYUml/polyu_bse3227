@@ -1,0 +1,39 @@
+{
+  "source_surface_sha256": "5cd21b70529f1c26ae07deadf485013d07928dc24a6a0a49b718ac82c9e39479",
+  "inside_point_local_m": [
+    0.001,
+    0.002,
+    0.003
+  ],
+  "inside_point_signed_winding_number": 1.0,
+  "surface_refinement_level": 3,
+  "inside_refinement_level": 3,
+  "maximum_cells_design_target": 5000000,
+  "layers_enabled": false,
+  "scope": "Coarse topology/geometry feasibility only, not wall-resolved or pressure-ready",
+  "official_mesh_quality_template_sha256": "dc29d9e02def476d5b53f7c07ac0fd7452d17de1d1e3a4755432f10f3d8839b7",
+  "engineering_accepted": false,
+  "feature_policy": "Same official150degree source feature extraction and explicit snapping; background and all refinement levels changed as recorded",
+  "background_cells": [
+    20,
+    30,
+    13
+  ],
+  "background_cell_sizes_m": [
+    0.032,
+    0.032,
+    0.03076923076923077
+  ],
+  "feature_refinement_level": 3,
+  "finest_cartesian_cell_sizes_m": [
+    0.004,
+    0.004,
+    0.0038461538461538464
+  ],
+  "reason": "Source-derived ideal thin-layer determinant:30um at10mm gives0.0002387<0.001; required tangential<4.839mm.4mm numerical target gives margin without relaxing quality criteria",
+  "nominal_first_layer_height_m": 3e-05,
+  "nominal_layer_count": 18,
+  "source_geometry_changed": false,
+  "quality_criteria_relaxed": false,
+  "pressure_adopted": false
+}

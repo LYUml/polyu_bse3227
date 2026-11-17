@@ -1,0 +1,70 @@
+{
+  "scope": "Separate manufacturer1900comparison only; finite source-specification maximin refinement, same63positions/service areas/flows. Not a substitute for required1400coursework or actual-load ADPI certification.",
+  "terminals": 63,
+  "source_verified_frame_spec_options": 6,
+  "changed_specifications": 8,
+  "source_curve_lower_ADPI_before": 80.08167416430112,
+  "source_curve_lower_ADPI_after": 80.1042702254299,
+  "selected_specifications": {
+    "0.75inch-4slots": 7,
+    "1.0inch-2slots": 48,
+    "0.75inch-6slots": 5,
+    "1.5inch-2slots": 3
+  },
+  "critical": {
+    "plan_number": 56,
+    "id": "edge-1-2",
+    "center_m": [
+      86.845932,
+      18.161250666666664
+    ],
+    "service_load_area_m2": 33.173361139120125,
+    "slot_width_inch": 0.75,
+    "slots": 6,
+    "active_length_m": 1.2192,
+    "source_page": 4,
+    "frame": "B",
+    "plenum": null,
+    "physical_ADPI_accepted": false,
+    "selected": "0.75inch-6slots",
+    "source_curve_lower_ADPI": 80.1042702254299,
+    "critical": {
+      "sample_y_m": 17.551650666666664,
+      "direction": "east",
+      "condition": "maximum",
+      "load_Btuh_ft2": 60,
+      "L_m": 7.439999999999998,
+      "T050_m": 10.681014713013758,
+      "status": "paired_curve_threshold_met",
+      "ratio": 1.4356202571255055,
+      "represented_ADPI": 80.35673880920005,
+      "stroke_margin_lower_ADPI": 80.1042702254299
+    },
+    "cases": {
+      "maximum": {
+        "flow_L_s": 389.5231893199368,
+        "flow_L_s_per_m": 319.4908048883996,
+        "T050_m": 10.681014713013758,
+        "diffuser_section_static_Pa": 39.114171363336695
+      },
+      "minimum": {
+        "flow_L_s": 155.80927572797475,
+        "flow_L_s_per_m": 127.79632195535986,
+        "T050_m": 5.757010511626487,
+        "diffuser_section_static_Pa": 6.533932525864248
+      }
+    },
+    "outer_body_width_m": 0.2667,
+    "overall_length_m": 1.2382499999999999,
+    "before_selected": "0.75inch-6slots"
+  },
+  "all_paired_curve_checks_pass": true,
+  "all_footprints_inside": true,
+  "footprint_intersections": 0,
+  "flows_and_positions_preserved": true,
+  "no_downward_distance_added": true,
+  "ADPI_measured": false,
+  "actual_load_interpolation_verified": false,
+  "formal_coursework_1400_replaced": false,
+  "native_drawing_status": "pending specification update"
+}

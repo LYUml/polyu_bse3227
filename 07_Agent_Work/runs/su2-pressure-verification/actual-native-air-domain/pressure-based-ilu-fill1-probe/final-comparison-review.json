@@ -1,0 +1,20 @@
+{
+  "scope": "Completed paired three-step preconditioner diagnostic only. File elapsed times include startup/output and were observed under different host loads; not a controlled timing benchmark.",
+  "fill0_poisson_iterations": [
+    345.0,
+    357.0,
+    369.0
+  ],
+  "fill1_poisson_iterations": [
+    273.0,
+    277.0,
+    284.0
+  ],
+  "fill1_all_reported_pressure_tolerances_met": true,
+  "observed_elapsed_seconds": {
+    "pressure-based-level-ilu-probe": 89.02159452438354,
+    "pressure-based-ilu-fill1-probe": 153.12765169143677
+  },
+  "decision": "Do not adopt fill1: fewer iterations did not demonstrate a runtime improvement. Retain existing live configurations.",
+  "engineering_accepted": false
+}

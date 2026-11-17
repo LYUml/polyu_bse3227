@@ -1,0 +1,67 @@
+{
+  "scope": "User-requested review of actual BSE3227 coursework scope; not full goal completion or design acceptance",
+  "brief_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+  "pages_visually_reviewed": [
+    1,
+    2
+  ],
+  "required": [
+    {
+      "task": 1,
+      "page": 1,
+      "items": [
+        "Rule-of-thumb cooling load",
+        "Total and per-diffuser supply flow",
+        "Diffuser layout and characteristic room length L",
+        "Krueger1400/51400 fourcone selection",
+        "T0.25, T0.25/L and ADPI check at maximum"
+      ]
+    },
+    {
+      "task": 2,
+      "page": 1,
+      "items": [
+        "40percent minimum airflow",
+        "Minimum-flow T0.25, T0.25/L and ADPI check"
+      ]
+    },
+    {
+      "task": 3,
+      "page": 1,
+      "items": [
+        "Single-line supply distribution",
+        "Four to five outlets per VAV",
+        "Flexible ducts within5m",
+        "Straight ducts where possible, minimized bends, distributed branches"
+      ]
+    },
+    {
+      "task": 4,
+      "page": 2,
+      "items": [
+        "Size each main and branch section",
+        "Maximumvelocity and limiting pressure-drop criteria",
+        "ASHRAE frictionchart orOnlineDuctular",
+        "Preferred rectangular aspectratio4:1",
+        "Sectionlabels and table:flow,size,velocity,Pa/m"
+      ]
+    }
+  ],
+  "not_explicit_coursework_requirements": [
+    "Detailed hourly thermal simulation",
+    "Full network fitting loss and fan duty selection",
+    "Custom plenum CFD and turbulence validation",
+    "CFD mesh independence/yPlus targets",
+    "Finite-wall IFC fabrication details, custom sleeves and bonding design",
+    "General agent/MCP/regression capability acceptance"
+  ],
+  "real_coursework_open_items": [
+    "ADPI applicability:170.1W/m2 outside classroom35to160band; conditional courseexample use is not unconditionalpass",
+    "Current singleline/calculation/report scenario consistency",
+    "Source-backed characteristic lengths and catalogue throws atbothflows",
+    "Flexiblelength assumptions and drawing-scale/sectionlabel verification",
+    "Clean submission filenames/titles and currentnativeplot review"
+  ],
+  "finding": "Recent effort over-professionalizes coursework when optional CFD/fullfan gates are treated as required for course acceptance. Retain expanded agent research separately; do not delete results or claim fullgoalcomplete.",
+  "engineering_accepted": false
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 390, in calculate
+    self.select_1400(root)
+  File "C:\Users\lyuml-win\Desktop\k-select-agent-toolkit\cli_anything\kselect\worker.py", line 292, in select_1400
+    raise KSelectError("unexpected_ui", "Product browser did not reach the validated 1400 family", description=description)
+cli_anything.kselect.core.KSelectError: Product browser did not reach the validated 1400 family

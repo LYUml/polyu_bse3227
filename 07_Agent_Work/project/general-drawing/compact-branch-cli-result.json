@@ -1,0 +1,124 @@
+{
+  "integrity_pass": true,
+  "native_reopen_pass": true,
+  "editable_entities": {
+    "model_entities": 179,
+    "entity_types": {
+      "TEXT": 11,
+      "LINE": 161,
+      "DIMENSION": 6,
+      "LWPOLYLINE": 1
+    },
+    "editable_entity_correspondence": true,
+    "dimension_rendering_visual_review": "pending"
+  },
+  "artifacts": [
+    {
+      "path": "layout/drawing/Drawing.dxf",
+      "sha256": "4549dc43e4914fa00392717c2eb27343e1d6943217e0379ef60cc845d4c3a92f",
+      "bytes": 129501
+    },
+    {
+      "path": "layout/drawing/Drawing.dwg",
+      "sha256": "4c7a5b7a59b5582b24292c95b2e5c6bc50515c7d0ca4ad1ae9b70b237e480058",
+      "bytes": 31576
+    },
+    {
+      "path": "layout/drawing/Drawing.pdf",
+      "sha256": "e5f921d9d30a11516830733df6cf00a562a4afb786486f1f0bbfeade3cbfc898",
+      "bytes": 18260
+    }
+  ],
+  "visual_review": "pending",
+  "design_accepted": false,
+  "layout": {
+    "placements": {
+      "compact-branch-1": {
+        "translation": [
+          770.5126567077144,
+          711.742934051144
+        ],
+        "source_bounds": [
+          -670.5126567077144,
+          -431.742934051144,
+          499.2462987886945,
+          309.70390309555853
+        ],
+        "placed_bounds": [
+          100.0,
+          279.99999999999994,
+          1269.7589554964088,
+          1021.4468371467025
+        ],
+        "padded_region": [
+          80.0,
+          260.0,
+          1289.758956,
+          1041.4468379999998
+        ]
+      },
+      "compact-branch-2": {
+        "translation": [
+          704.6207944479214,
+          1443.1897720511438
+        ],
+        "source_bounds": [
+          -604.6207944479214,
+          -381.742934051144,
+          499.2462987886945,
+          259.70390309555853
+        ],
+        "placed_bounds": [
+          100.0,
+          1061.4468379999998,
+          1203.8670932366158,
+          1702.8936751467022
+        ],
+        "padded_region": [
+          80.0,
+          1041.4468379999998,
+          1223.867094,
+          1722.8936759999997
+        ]
+      }
+    },
+    "rotation": false,
+    "scaling": false,
+    "gap_mm": 4,
+    "rectpack_version": "0.2.2",
+    "rectpack_commit": "123d57e0ef22adb5ae5f09b435c69f0589f521d1",
+    "scope": "Inter-view approximate font/geometry bounding boxes; intra-view labels and actual native plots require separate review"
+  },
+  "scope": "Packed declared views and native drawing correspondence; visual/engineering acceptance separate",
+  "ifc_sections": {
+    "ifc_sha256": "9a553e3c9023e5e3e332e7e822054bac016acc6dc1480897bd1ccec48b5cd8da",
+    "coverage": {
+      "compact-branch-1": {
+        "3DcSerARnJc8mAlL$xnPwO": 24,
+        "0qwPADch1QdQ32y4qexfYV": 24,
+        "1ZxXtlVuXVUe8l3ahJGy2D": 32
+      },
+      "compact-branch-2": {
+        "0AKG640HHRCvsX97I0rPis": 24,
+        "3h4dRuzpTPWhqatM$v0mDU": 24,
+        "3TmcSYvanVjvXn8akvTRnk": 32
+      }
+    },
+    "view_kinds": {
+      "compact-branch-1": "section",
+      "compact-branch-2": "section"
+    },
+    "runtimes": {
+      "ifcopenshell": "0.8.5",
+      "trimesh": "5.2.0",
+      "numpy": "2.5.4"
+    },
+    "methods": {
+      "drawing_ifc_sections.py": "ab2659500de95a0f8603a33143adf789db3ce9659b1705a779a277843293c1e2",
+      "circular_geometry.py": "b907345bd2904bf313b017cc1c7e1a07e403ff726bbb8a85e476ae538ea25cb9",
+      "drawing_layout.py": "58a33b3bf9c0e13c0303556c9c616070f9b28087309d3c57b3151b9040a36ad8",
+      "source_network_drawing.py": "f83ec18da30ed8c9abd67c0fb5c78d6b6065e10bd3538730547231eb710fae58"
+    },
+    "design_accepted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "Executed configuration/source audit, not physical validation",
+  "equivalent_sand_grain_roughness_m": 9e-05,
+  "input_classification": "assumed, no installed-surface equivalence established",
+  "sst_rough_wall_model": "WILCOX1998 (pinned CConfig default)",
+  "no_wall_function_does_not_disable_roughness": "CTurbSSTSolver BC_HeatFlux_Wall enters explicit rough-wall branch when wall functions are disabled.",
+  "source_sha256": {
+    "config_template.cfg": "2c9b545c644bf59b7045869086ce3011d4a606081d1bd1da50ade3bc936321d2",
+    "CConfig.cpp": "17cbab1350fe9d5f24cb61e8084d9a21fd7f749b5c1cc6776f148a17bf4ad1bf",
+    "CTurbSSTSolver.cpp": "2eb254bc64b5937229b8802d560d3176896301f9263ddb0de5b81517d56591a1"
+  },
+  "engineering_accepted": false,
+  "acceptance_requirement": "Separate turbulent benchmark and surface-equivalence review required; do not treat Darcy roughness assumption as measured equivalent sand grain roughness."
+}

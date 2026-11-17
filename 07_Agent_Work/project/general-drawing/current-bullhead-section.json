@@ -1,0 +1,176 @@
+{
+  "schema": "bsa.drawing-ifc-sections/1",
+  "source": "Separate current-layout equal-area bullhead candidate; no product or pressure acceptance",
+  "ifc": "../../runs/recentered-bullhead-network/Supply Network.ifc",
+  "ifc_sha256": "a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+  "layout": {
+    "source": "Saved116body native candidate a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+    "units": "mm",
+    "layers": {
+      "MATERIAL": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "ANNOTATION": {
+        "color": 7,
+        "lineweight": 18
+      },
+      "NOTES": {
+        "color": 7,
+        "lineweight": 18
+      }
+    },
+    "blocks": {},
+    "sheet": {
+      "paper": "A4",
+      "window": [
+        0,
+        0,
+        5800,
+        4000
+      ],
+      "scale": 20,
+      "title": "BULLHEAD BRANCH CONSTRUCTION",
+      "number": "BSE3227-CS-05",
+      "reference_length": 1000
+    },
+    "content_window": [
+      160,
+      520,
+      5640,
+      3640
+    ],
+    "gap_mm": 4
+  },
+  "views": [
+    {
+      "id": "bullhead-plan",
+      "guids": [
+        "2GbZoz5nfRsPMRMT$Zb04z",
+        "3uzI7S5cvHNQB22z57Xy_y",
+        "2v8d4ojL5QafzZ9D0Bm0K7",
+        "2gx8F2$bXVygUIF5pMJ0LR",
+        "0RLFLPx$LMfeWyG_rCXnXn",
+        "1YJt4TrT9S8BByBTRqevjy",
+        "1NNygbUo1H2gfBYTyXz_Mi"
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          86.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          21.920583999999998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "layer": "MATERIAL",
+      "annotations": [
+        {
+          "id": "bullhead-note-0",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved116body native candidate a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+          "classification": "secondary_transcription",
+          "insert": [
+            -2200,
+            900
+          ],
+          "text": "Common650x600; two325x600 outlets; expansions restore650x600 mm",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "bullhead-note-1",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved116body native candidate a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+          "classification": "secondary_transcription",
+          "insert": [
+            -2200,
+            830
+          ],
+          "text": "Actual native horizontal material cut; dimensions are port separations in mm",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "bullhead-note-2",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved116body native candidate a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+          "classification": "assumed",
+          "insert": [
+            -2200,
+            -1300
+          ],
+          "text": "15deg expansions / 50mm collars / 0.8mm offset assumed",
+          "height": 40,
+          "rotation": 0
+        },
+        {
+          "id": "bullhead-note-3",
+          "kind": "text",
+          "layer": "NOTES",
+          "source": "Saved116body native candidate a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+          "classification": "assumed",
+          "insert": [
+            -2200,
+            -1370
+          ],
+          "text": "Local outlet velocity increases; products, noise and full pressure unverified",
+          "height": 40,
+          "rotation": 0
+        }
+      ],
+      "port_dimensions": [
+        {
+          "id": "expansion-1",
+          "ports": [
+            "2p2kAvu4HJsAOypfrjpYjd",
+            "00ykYCcUTUSB9FRGLpGqWu"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -800,
+          "text_height": 40
+        },
+        {
+          "id": "expansion-2",
+          "ports": [
+            "3E7CcI1szLVQKk_83JAmJB",
+            "0b9rGyW_HLqQqcqJTIPIwW"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -800,
+          "text_height": 40
+        },
+        {
+          "id": "core-length",
+          "ports": [
+            "0B$TVH4_vT_xlrygN9n2g5",
+            "0$eywnGm1P_vjAxP4lFxWO"
+          ],
+          "layer": "ANNOTATION",
+          "distance": -1100,
+          "text_height": 40
+        }
+      ]
+    }
+  ]
+}

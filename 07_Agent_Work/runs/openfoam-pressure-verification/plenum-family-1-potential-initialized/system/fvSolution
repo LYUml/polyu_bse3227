@@ -1,0 +1,12 @@
+FoamFile {format ascii;class dictionary;object fvSolution;}
+solvers
+{
+ Phi {solver GAMG;tolerance 1e-10;relTol 0;smoother DICGaussSeidel;}
+ p {solver GAMG;tolerance 1e-8;relTol 0.01;smoother DICGaussSeidel;}
+ pFinal {solver GAMG;tolerance 1e-8;relTol 0;smoother DICGaussSeidel;}
+ "(U|k|epsilon)" {solver smoothSolver;smoother symGaussSeidel;tolerance 1e-8;relTol 0.05;}
+ "(U|k|epsilon)Final" {solver smoothSolver;smoother symGaussSeidel;tolerance 1e-8;relTol 0;}
+}
+PIMPLE {nOuterCorrectors 2;nCorrectors 2;nNonOrthogonalCorrectors 1;pRefCell 0;pRefValue 0;momentumPredictor yes;}
+
+potentialFlow {nNonOrthogonalCorrectors 10;PhiRefCell 0;PhiRefValue 0;}

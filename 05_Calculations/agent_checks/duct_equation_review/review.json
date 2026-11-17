@@ -1,0 +1,1857 @@
+{
+  "status": "review_required",
+  "section_count": 47,
+  "candidate_count": 16779,
+  "independent_equation_checks_pass": true,
+  "source_candidate_ranking_pass": true,
+  "numerical_relative_tolerance": 1e-10,
+  "colebrook_absolute_residual_tolerance": 1e-10,
+  "software_tolerances_are_engineering_acceptance_bands": false,
+  "sections": [
+    {
+      "id": "A-01",
+      "inputs": {
+        "flow_m3_s": 12.000372763419485,
+        "width_m": 1.35,
+        "height_m": 0.9
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 1.1988308118916524,
+        "actual_velocity_m_s": 9.876850011044843,
+        "equivalent_round_velocity_m_s": 10.631365819752233,
+        "reynolds": 844986.2265554076,
+        "friction_Pa_m": 0.7519459507639218,
+        "aspect_ratio": 1.5,
+        "darcy_factor": 0.013292759477546308,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "A-02",
+      "inputs": {
+        "flow_m3_s": 12.000372763419485,
+        "width_m": 1.35,
+        "height_m": 0.9
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 1.1988308118916524,
+        "actual_velocity_m_s": 9.876850011044843,
+        "equivalent_round_velocity_m_s": 10.631365819752233,
+        "reynolds": 844986.2265554076,
+        "friction_Pa_m": 0.7519459507639218,
+        "aspect_ratio": 1.5,
+        "darcy_factor": 0.013292759477546308,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "A-03",
+      "inputs": {
+        "flow_m3_s": 12.000372763419485,
+        "width_m": 1.35,
+        "height_m": 0.9
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 1.1988308118916524,
+        "actual_velocity_m_s": 9.876850011044843,
+        "equivalent_round_velocity_m_s": 10.631365819752233,
+        "reynolds": 844986.2265554076,
+        "friction_Pa_m": 0.7519459507639218,
+        "aspect_ratio": 1.5,
+        "darcy_factor": 0.013292759477546308,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-01",
+      "inputs": {
+        "flow_m3_s": 10.579737826899992,
+        "width_m": 1.25,
+        "height_m": 0.85
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 1.1216157918154643,
+        "actual_velocity_m_s": 9.95740030767058,
+        "equivalent_round_velocity_m_s": 10.707714762258767,
+        "reynolds": 796239.2467362434,
+        "friction_Pa_m": 0.8250613449925839,
+        "aspect_ratio": 1.4705882352941178,
+        "darcy_factor": 0.013451958473366455,
+        "colebrook_residual": 1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-02",
+      "inputs": {
+        "flow_m3_s": 1.6653608186212396,
+        "width_m": 0.5,
+        "height_m": 0.45
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.518354084246747,
+        "actual_velocity_m_s": 7.401603638316621,
+        "equivalent_round_velocity_m_s": 7.891606315732653,
+        "reynolds": 271203.07392447145,
+        "friction_Pa_m": 1.1712952292140293,
+        "aspect_ratio": 1.1111111111111112,
+        "darcy_factor": 0.01624840836069252,
+        "colebrook_residual": -1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-03",
+      "inputs": {
+        "flow_m3_s": 1.1077860595938058,
+        "width_m": 0.5,
+        "height_m": 0.35
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4554989721482917,
+        "actual_velocity_m_s": 6.330206054821748,
+        "equivalent_round_velocity_m_s": 6.798157336827663,
+        "reynolds": 205296.37653662113,
+        "friction_Pa_m": 1.0362283138507038,
+        "aspect_ratio": 1.4285714285714286,
+        "darcy_factor": 0.017021944975305986,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-04",
+      "inputs": {
+        "flow_m3_s": 0.5517821710014711,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.517821710014711,
+        "equivalent_round_velocity_m_s": 5.9600205329297395,
+        "reynolds": 135664.25688080784,
+        "friction_Pa_m": 1.1436752966666923,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018423451328484653,
+        "colebrook_residual": -1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-05",
+      "inputs": {
+        "flow_m3_s": 1.71205106797492,
+        "width_m": 0.6,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.5328136941740677,
+        "actual_velocity_m_s": 7.133546116562167,
+        "equivalent_round_velocity_m_s": 7.678494486849305,
+        "reynolds": 271240.24397127447,
+        "friction_Pa_m": 1.0763841260389808,
+        "aspect_ratio": 1.4999999999999998,
+        "darcy_factor": 0.01621209943655517,
+        "colebrook_residual": -1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-06",
+      "inputs": {
+        "flow_m3_s": 1.1251953110765627,
+        "width_m": 0.5,
+        "height_m": 0.35
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4554989721482917,
+        "actual_velocity_m_s": 6.429687491866073,
+        "equivalent_round_velocity_m_s": 6.904992794514843,
+        "reynolds": 208522.68202825668,
+        "friction_Pa_m": 1.0668179296852451,
+        "aspect_ratio": 1.4285714285714286,
+        "darcy_factor": 0.01698634723215589,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-07",
+      "inputs": {
+        "flow_m3_s": 0.5401204816346908,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.401204816346908,
+        "equivalent_round_velocity_m_s": 5.834057948911283,
+        "reynolds": 132797.04857821332,
+        "friction_Pa_m": 1.0992325402161236,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018480421048977694,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-08",
+      "inputs": {
+        "flow_m3_s": 7.202325940303831,
+        "width_m": 0.85,
+        "height_m": 0.85
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.9291905388553545,
+        "actual_velocity_m_s": 9.968617218413609,
+        "equivalent_round_velocity_m_s": 10.62119376480762,
+        "reynolds": 654305.8181840038,
+        "friction_Pa_m": 1.0169263245292988,
+        "aspect_ratio": 1.0,
+        "darcy_factor": 0.013960351549390435,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-09",
+      "inputs": {
+        "flow_m3_s": 1.8552792334586117,
+        "width_m": 0.55,
+        "height_m": 0.45
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.5431600934293205,
+        "actual_velocity_m_s": 7.496077710943885,
+        "equivalent_round_velocity_m_s": 8.006886888784363,
+        "reynolds": 288332.9125253115,
+        "friction_Pa_m": 1.1375485709956634,
+        "aspect_ratio": 1.2222222222222223,
+        "darcy_factor": 0.016062722864888336,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-10",
+      "inputs": {
+        "flow_m3_s": 1.2368528223057405,
+        "width_m": 0.45,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4635898689676515,
+        "actual_velocity_m_s": 6.871404568365224,
+        "equivalent_round_velocity_m_s": 7.327574959885472,
+        "reynolds": 225214.77450854916,
+        "friction_Pa_m": 1.1668463420244697,
+        "aspect_ratio": 1.125,
+        "darcy_factor": 0.016790971151289257,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-11",
+      "inputs": {
+        "flow_m3_s": 0.6184264111528702,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.88977534431305,
+        "equivalent_round_velocity_m_s": 6.284655802016617,
+        "reynolds": 147483.18009579,
+        "friction_Pa_m": 1.2160618594601151,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.01816350875955383,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-12",
+      "inputs": {
+        "flow_m3_s": 1.8552792334586106,
+        "width_m": 0.55,
+        "height_m": 0.45
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.5431600934293205,
+        "actual_velocity_m_s": 7.49607771094388,
+        "equivalent_round_velocity_m_s": 8.00688688878436,
+        "reynolds": 288332.91252531146,
+        "friction_Pa_m": 1.1375485709956628,
+        "aspect_ratio": 1.2222222222222223,
+        "darcy_factor": 0.01606272286488834,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-13",
+      "inputs": {
+        "flow_m3_s": 1.2032750423711975,
+        "width_m": 0.5,
+        "height_m": 0.35
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4554989721482917,
+        "actual_velocity_m_s": 6.875857384978272,
+        "equivalent_round_velocity_m_s": 7.384145148492635,
+        "reynolds": 222992.5210164988,
+        "friction_Pa_m": 1.2092443877241714,
+        "aspect_ratio": 1.4285714285714286,
+        "darcy_factor": 0.01683642117915761,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-14",
+      "inputs": {
+        "flow_m3_s": 0.5800518055133923,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.524302909651356,
+        "equivalent_round_velocity_m_s": 5.894680238824461,
+        "reynolds": 138331.55142572496,
+        "friction_Pa_m": 1.0796436241273066,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018330191245454475,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-15",
+      "inputs": {
+        "flow_m3_s": 3.491767473386609,
+        "width_m": 0.65,
+        "height_m": 0.6
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.682544903937295,
+        "actual_velocity_m_s": 8.953249931760535,
+        "equivalent_round_velocity_m_s": 9.543176955233116,
+        "reynolds": 431843.9866187533,
+        "friction_Pa_m": 1.202014905063396,
+        "aspect_ratio": 1.0833333333333335,
+        "darcy_factor": 0.0150142581031281,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 10,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-16",
+      "inputs": {
+        "flow_m3_s": 1.7458837325323433,
+        "width_m": 0.6,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.5328136941740677,
+        "actual_velocity_m_s": 7.274515552218097,
+        "equivalent_round_velocity_m_s": 7.830232909340919,
+        "reynolds": 276600.352884152,
+        "friction_Pa_m": 1.116574176399746,
+        "aspect_ratio": 1.4999999999999998,
+        "darcy_factor": 0.016171948397574163,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-17",
+      "inputs": {
+        "flow_m3_s": 1.1601196749775096,
+        "width_m": 0.5,
+        "height_m": 0.35
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4554989721482917,
+        "actual_velocity_m_s": 6.629255285585769,
+        "equivalent_round_velocity_m_s": 7.119313347324757,
+        "reynolds": 214994.91129998062,
+        "friction_Pa_m": 1.1294668275869162,
+        "aspect_ratio": 1.4285714285714286,
+        "darcy_factor": 0.016917392076917805,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-18",
+      "inputs": {
+        "flow_m3_s": 0.5756751425686069,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.482620405415304,
+        "equivalent_round_velocity_m_s": 5.850203127767479,
+        "reynolds": 137287.79883420633,
+        "friction_Pa_m": 1.0645767368644594,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018350257168632242,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-19",
+      "inputs": {
+        "flow_m3_s": 1.7458837408542656,
+        "width_m": 0.6,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.5328136941740677,
+        "actual_velocity_m_s": 7.2745155868927736,
+        "equivalent_round_velocity_m_s": 7.830232946664475,
+        "reynolds": 276600.35420259414,
+        "friction_Pa_m": 1.1165741863724832,
+        "aspect_ratio": 1.4999999999999998,
+        "darcy_factor": 0.01617194838784443,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-20",
+      "inputs": {
+        "flow_m3_s": 1.1291492800965124,
+        "width_m": 0.5,
+        "height_m": 0.35
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4554989721482917,
+        "actual_velocity_m_s": 6.452281600551499,
+        "equivalent_round_velocity_m_s": 6.92925713984558,
+        "reynolds": 209255.43679232307,
+        "friction_Pa_m": 1.073824758548366,
+        "aspect_ratio": 1.4285714285714286,
+        "darcy_factor": 0.016978378376634327,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-21",
+      "inputs": {
+        "flow_m3_s": 0.538984439400712,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.3898443940071195,
+        "equivalent_round_velocity_m_s": 5.821787101108245,
+        "reynolds": 132517.73486791665,
+        "friction_Pa_m": 1.0949479187784397,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018486069698668107,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-22",
+      "inputs": {
+        "flow_m3_s": 1.4206349365194935,
+        "width_m": 0.5,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4881198534806186,
+        "actual_velocity_m_s": 7.103174682597467,
+        "equivalent_round_velocity_m_s": 7.591710961452345,
+        "reynolds": 245679.4370500326,
+        "friction_Pa_m": 1.1713625037864177,
+        "aspect_ratio": 1.25,
+        "darcy_factor": 0.016534353173423347,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-23",
+      "inputs": {
+        "flow_m3_s": 1.4206349365194935,
+        "width_m": 0.5,
+        "height_m": 0.4
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.4881198534806186,
+        "actual_velocity_m_s": 7.103174682597467,
+        "equivalent_round_velocity_m_s": 7.591710961452345,
+        "reynolds": 245679.4370500326,
+        "friction_Pa_m": 1.1713625037864177,
+        "aspect_ratio": 1.25,
+        "darcy_factor": 0.016534353173423347,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-24",
+      "inputs": {
+        "flow_m3_s": 0.7026202032835482,
+        "width_m": 0.4,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3777088154663358,
+        "actual_velocity_m_s": 5.8551683606962355,
+        "equivalent_round_velocity_m_s": 6.270707016448237,
+        "reynolds": 157027.71177806216,
+        "friction_Pa_m": 1.1190415122222648,
+        "aspect_ratio": 1.3333333333333335,
+        "darcy_factor": 0.017915092233889686,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-25",
+      "inputs": {
+        "flow_m3_s": 0.5756751425686069,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.482620405415304,
+        "equivalent_round_velocity_m_s": 5.850203127767479,
+        "reynolds": 137287.79883420633,
+        "friction_Pa_m": 1.0645767368644594,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018350257168632242,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-26",
+      "inputs": {
+        "flow_m3_s": 0.5844445324089027,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.566138403894311,
+        "equivalent_round_velocity_m_s": 5.939320597115562,
+        "reynolds": 139379.13497028034,
+        "friction_Pa_m": 1.0948671585217122,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018310279193768497,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-27",
+      "inputs": {
+        "flow_m3_s": 0.5857640575548339,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.578705310046037,
+        "equivalent_round_velocity_m_s": 5.952730052492514,
+        "reynolds": 139693.8171397813,
+        "friction_Pa_m": 1.0994599589340286,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018304341738821256,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-28",
+      "inputs": {
+        "flow_m3_s": 0.6167344607577532,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.873661531026221,
+        "equivalent_round_velocity_m_s": 6.2674616368328016,
+        "reynolds": 147079.68144124353,
+        "friction_Pa_m": 1.2098842102626597,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018170526650911106,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-29",
+      "inputs": {
+        "flow_m3_s": 0.5901648406958004,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.620617530436195,
+        "equivalent_round_velocity_m_s": 5.997452281041475,
+        "reynolds": 140743.32194882038,
+        "friction_Pa_m": 1.114843716907975,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018284684157728544,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-30",
+      "inputs": {
+        "flow_m3_s": 0.538984439400712,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.3898443940071195,
+        "equivalent_round_velocity_m_s": 5.821787101108245,
+        "reynolds": 132517.73486791665,
+        "friction_Pa_m": 1.0949479187784397,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018486069698668107,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-31",
+      "inputs": {
+        "flow_m3_s": 0.6184264111528702,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.88977534431305,
+        "equivalent_round_velocity_m_s": 6.284655802016617,
+        "reynolds": 147483.18009579,
+        "friction_Pa_m": 1.2160618594601151,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.01816350875955383,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-32",
+      "inputs": {
+        "flow_m3_s": 0.6184264111528702,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.88977534431305,
+        "equivalent_round_velocity_m_s": 6.284655802016617,
+        "reynolds": 147483.18009579,
+        "friction_Pa_m": 1.2160618594601151,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.01816350875955383,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-33",
+      "inputs": {
+        "flow_m3_s": 0.6184264111528714,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.889775344313062,
+        "equivalent_round_velocity_m_s": 6.28465580201663,
+        "reynolds": 147483.18009579033,
+        "friction_Pa_m": 1.21606185946012,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.01816350875955383,
+        "colebrook_residual": -8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-34",
+      "inputs": {
+        "flow_m3_s": 0.6520041910874131,
+        "width_m": 0.45,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.36277651865954397,
+        "actual_velocity_m_s": 5.795592809665894,
+        "equivalent_round_velocity_m_s": 6.307861780047248,
+        "reynolds": 151713.42343101447,
+        "friction_Pa_m": 1.1883096870845555,
+        "aspect_ratio": 1.8,
+        "darcy_factor": 0.018057316875026465,
+        "colebrook_residual": -1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-35",
+      "inputs": {
+        "flow_m3_s": 0.6232232368578052,
+        "width_m": 0.45,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.36277651865954397,
+        "actual_velocity_m_s": 5.539762105402713,
+        "equivalent_round_velocity_m_s": 6.029418353363978,
+        "reynolds": 145016.44639394546,
+        "friction_Pa_m": 1.0926828466351945,
+        "aspect_ratio": 1.8,
+        "darcy_factor": 0.018173191654204064,
+        "colebrook_residual": 1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-36",
+      "inputs": {
+        "flow_m3_s": 0.5800518055133923,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.524302909651356,
+        "equivalent_round_velocity_m_s": 5.894680238824461,
+        "reynolds": 138331.55142572496,
+        "friction_Pa_m": 1.0796436241273066,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018330191245454475,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-37",
+      "inputs": {
+        "flow_m3_s": 0.5517821710014711,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.517821710014711,
+        "equivalent_round_velocity_m_s": 5.9600205329297395,
+        "reynolds": 135664.25688080784,
+        "friction_Pa_m": 1.1436752966666923,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018423451328484653,
+        "colebrook_residual": -1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-38",
+      "inputs": {
+        "flow_m3_s": 0.5560038885923347,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.560038885923347,
+        "equivalent_round_velocity_m_s": 6.005620997838039,
+        "reynolds": 136702.23202720602,
+        "friction_Pa_m": 1.159970981480928,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018403271995795407,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-39",
+      "inputs": {
+        "flow_m3_s": 0.5575747590274335,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.575747590274334,
+        "equivalent_round_velocity_m_s": 6.022588599438446,
+        "reynolds": 137088.45503591053,
+        "friction_Pa_m": 1.1660625202688366,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018395822217576976,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-40",
+      "inputs": {
+        "flow_m3_s": 0.5868557568983575,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.589102446651023,
+        "equivalent_round_velocity_m_s": 5.963824265950414,
+        "reynolds": 139954.16709894815,
+        "friction_Pa_m": 1.1032667000359313,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.0182994446167113,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-41",
+      "inputs": {
+        "flow_m3_s": 0.5850748294418717,
+        "width_m": 0.35,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.35396337309849557,
+        "actual_velocity_m_s": 5.572141232779731,
+        "equivalent_round_velocity_m_s": 5.945725886142365,
+        "reynolds": 139529.44907257415,
+        "friction_Pa_m": 1.0970598572327448,
+        "aspect_ratio": 1.1666666666666667,
+        "darcy_factor": 0.018307440539576784,
+        "colebrook_residual": 1.7763568394002505e-15
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-42",
+      "inputs": {
+        "flow_m3_s": 0.5401204816346908,
+        "width_m": 0.4,
+        "height_m": 0.25
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3433325769007561,
+        "actual_velocity_m_s": 5.401204816346908,
+        "equivalent_round_velocity_m_s": 5.834057948911283,
+        "reynolds": 132797.04857821332,
+        "friction_Pa_m": 1.0992325402161236,
+        "aspect_ratio": 1.6,
+        "darcy_factor": 0.018480421048977694,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-43",
+      "inputs": {
+        "flow_m3_s": 0.7180147332359453,
+        "width_m": 0.4,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3777088154663358,
+        "actual_velocity_m_s": 5.983456110299545,
+        "equivalent_round_velocity_m_s": 6.408099289736545,
+        "reynolds": 160468.21605195964,
+        "friction_Pa_m": 1.1650777471138392,
+        "aspect_ratio": 1.3333333333333335,
+        "darcy_factor": 0.017860857828181004,
+        "colebrook_residual": 0.0
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    },
+    {
+      "id": "D-44",
+      "inputs": {
+        "flow_m3_s": 0.7026202032835482,
+        "width_m": 0.4,
+        "height_m": 0.3
+      },
+      "independent_quantities": {
+        "equivalent_diameter_m": 0.3777088154663358,
+        "actual_velocity_m_s": 5.8551683606962355,
+        "equivalent_round_velocity_m_s": 6.270707016448237,
+        "reynolds": 157027.71177806216,
+        "friction_Pa_m": 1.1190415122222648,
+        "aspect_ratio": 1.3333333333333335,
+        "darcy_factor": 0.017915092233889686,
+        "colebrook_residual": 8.881784197001252e-16
+      },
+      "source_criteria": {
+        "actual_velocity_m_s": 8,
+        "friction_Pa_m": 1.23,
+        "aspect_ratio": 4
+      },
+      "selected_source_criteria_pass": true
+    }
+  ],
+  "maximum_absolute_colebrook_residual": 3.375077994860476e-14,
+  "scanned_chart_readings_verified": false,
+  "physical_applicability_verified": false,
+  "design_accepted": false,
+  "scope": "Independent algebra,stored Colebrook residual and source candidate/limit correspondence only. Original source chart edition/reading,air-property and geometry applicability,manufacturability,acoustics,installation and complete engineering acceptance remain separate.",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-schedule-reviewed-plan.json": "fe251ca0cafef151920d8b902fb47bcd54bb32fedd11204774868ad9b0f87154",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\workflow.json": "bd4047e1f20f57265aacc8a9a52073efe147f548688db56f09732f94219166b8",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_schedule_check.py": "f61722bf17f90b6a5e5ee03b27e395648884e6c19f7d0bc8233957758fd73e36",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workspace.py": "217d3a491408715ebee7f4fbf7cee5b4a560eb7d62c1377ba47600d816220008",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-binding.json": "dfc0b9b52f7c2eb8f55ba46571c6ac39c66f788a004dc1c4bd3b243d859cf132",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\engine.py": "a06a8ce591b85dfd84c4cfc7834c92061a55fc9f5aea8bc0a44aed22a11af365",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-pack.json": "3213a62c41b4b3cd6c232096dd200fbb8dc9cfed67255dd7d634093dc95693b9",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-inputs\\ducts.json": "ff27a8fcd1e11376671baf80103a5a3339dddc5c686b74f4c1ada3b9abd4e229",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cad_intake.py": "ab8f7dd945134dc824de2a25cfb2d8423752c190baa150fedb81d87e93242bd0",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\__init__.py": "6e769179b2fe75fb1935651ca3ebeb62a19f393cf040c5f146e8db83f8cae3f2",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\requirements-inventory-v1.json": "32494e492e507fb49b9b65ccbbd776a2f029a099d8930fb0adcba39a6151d342",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\result-v1.json": "4d6c03471305bb1da1a54a37f1322ce5255db9e6d99fc5a83b09cd1fd21cf1e6",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\schedule-requirements-request.json": "a10d0f3cf2855f1049863aca550445a3a829d5eeaac0ce6c9a7fb2e982d97327",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-regulation-review\\FSD_Mechanical_Ventilating_Systems_2023.pdf": "950c83c826b18d2c1daf9e959698a82f1d20299ad6456f274c7e099d5d897635",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\allocation.json": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_load.py": "44c54e52b01bf0d2642a34d1c5d84fb9e34f8afd9343e4d3977c72679a95cd93",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\service_areas.py": "b73e1411cbfde53248447c8d64c36bd7189398d85a125e7c6ac59aae73a05b34",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D002\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\terminal_throw.py": "b91a1ff5194769d5035cb6c0e92c65e46249acdb6eacb5498955b68baccf42d5",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\terminals-source-bound.json": "14d04b2e6e6c5046f97b3d72b592e054cb5988aad8f484e163c09574f8c943cd",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_sheet_native.py": "298c4e209ea6b5e907443bae3ca959a677e04519a6530b953f51010a990a4308",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\native_cad.py": "d6a8b81b11bb2b422fdfbfa4ba3fc6b26557b5cfd0a8fc66a91c52cb74a180a0",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_tree_flow.py": "97936d60afcf6417021d1922f01fcd24a79ac7707cfee0d21452d6fa570ac72c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-role-review.json": "4fd292d56743c6cddf8a058c70db60123ca2a0505963359ef816f2735f9f708c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cli.py": "aef02c724c188ff726903bd1f7184135117879c55c51a2c3ad033dda087baa3c",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\sheet-binding.json": "1333708275c655c3537e0adfe4aa9649429b9f281309623ee5df9338249f8978",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\cad_sheet.py": "4b06815451c5034994c992359cbc1b72debbe793af2fdc3f8d63c3a96e4066fe",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\Krueger_1400_51400_Performance.pdf": "073c639219b28068a0c8190a926d493e42a12c0918db464ee8439c55a3994aef",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\contracts\\modules\\request-v1.json": "5f0248cbd616c4ad7775ec8977f88eaccba570a6215eec73480147a70edfab2b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_sheet.py": "5be0d9648b9aaf147d0160081199ba160ded4bfea2923d23159e876fafea651a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\hk-flex-project.json": "8620d58b6debb35d63a3dbacfdb6932085bc6109140191ffde52a0c161ed2b0d",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-sources\\Space air diffusion design and air duct sizing.pdf": "210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-layout-cad\\Supply Air Distribution.dxf": "c09a050380aa3d92fb65f4c3e6153869d39070d260a74eeff330baf8680cbd30",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\sources\\D001\\BSE3227 Mini design assignment.pdf": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-flow-direction-inputs\\native.json": "1319a0dd710e627e61ef1af47b33e870f01654c18e542e47b9d12886ff368b2e",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\requirements_binding.py": "f704cc658cdb64b9c6a72c244c021af3df80ad315ece946f2cc55ef3a526467b",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_allocation.py": "82bd364fc7b01f13f0bca580d3828eef84b9521b0c5259dce6674a6efd613916",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-inspection.json": "cd29169113f3f8e499f3ee91c0250fa59b6ba4836b52e606197db1022eeb7f27",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\schedule-correspondence-resolution.json": "f5103c6bef0473afe47d146fb6d3fd95f11e07b76ecdf0b966e80b3aaee77d14",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\interpreted-work-review.json": "6b8f143f3a8776505adc6192f0897b677107b6e559de32e0d4211f1daafead50",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\module_contract.py": "16a3c35e055e3538c1154055909d4122e55bb9640c9d73fda705bfa845e936bf",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\workflow.py": "ab5a04d5d0a9e5755ec7ac97cc7cd5afc782a4aaf2e19161dffced68d5e5e2c4",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-requirements\\result.json": "08378a76f18e786ce0b15a8b9d603c4042c998fc69b3e94da4ca60a4f9025503",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\providers\\requirements.py": "6fca4cbaf38ded33337789dfa2a65d1152ff7bf0b6d667a3dabaa0aa68949bd3",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\documents.py": "cc4aea7df0e655028a1f40fc79e57ff08d2567f870b1eb77116a78082d96aa36",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\terminal-source-resolution.json": "3039779d344a453460458da9a72a80862320187b99b4c2b4bd5734d4d7f32e3d",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\modules.py": "a7387adf83b1f86d8d49ef9e82c2dc5332d81393ef09a8cf2bc8a720110bba99",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\minimum-flow-resolution.json": "151040d6cf537d38b8b22f4b14f88fb2e7ab4837ed9acde8b24cd36f69181837",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_equivalent.py": "6c626b7090b16fc50e0ea921281a17028e5aebb48f16cc292cacca481257acd6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_schedule.py": "10feb65b698e9fa69145d0ebaf7b35637018b150e182139a930f4bc704cb6343",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\catalogue-source-bound.json": "064ed5e1db100107bdcddb559101eb6000ddbaec88c10ef255888b69b1497a8a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-column-row-candidate\\office-boundary.geojson": "c64f5b2df5be607b7aebc978a51d3a168b45ca9e057135f0df6540e651a4a617",
+    "C:\\Program Files\\Autodesk\\AutoCAD 2027\\accoreconsole.exe": "44d10af0c32fb54c52b3a34751a8e9b7c860448d02089a0f09af68649f72b3e2",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_junction_review.py": "26ccbc444f33467f3b47f0a17ed25b7cf6bbb5c69898e6eb4db3372dce72a443",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\reopened\\source-export.dxf": "c90c8c5d69d0228dd3f2d7f84897edbcf0b1cc6a02219465ae9b650372b65547",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\duct-schedule\\results.json": "f9631f4101525d1e22d8e98e0ebff8f04f12807e3f7c90208267c7d0ff5c0e00",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\duct-schedule\\schedule.csv": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\duct-sheet\\drawing-update.json": "b476291f8a3ffbd23c085f0732613c83a9aa5a71e41ec84a47f3498612fbdd09",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\duct-sheet\\Supply Air Distribution.dxf": "7919613b1f6fd71c458aaf857cada9d536ccb1136ca61b01783604c98987cac1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\hk-flex-length\\regulation-checks.json": "898d11e6ba0d3cfc571ca6358c05acc70c2c1b19db4e04e5544debd9382091b6",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\native-sheet.json": "e60dc8eefff63c830d67cacf244b0a3b0da1a8c6d31b30af57dfbdaa442b1c58",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\plot.log": "fef9ecefd0c168b7d9456b39bdf7c709a4f22fbdf623f54f3936c7ec3c9a295a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\save.log": "51d1e3cc641a39914ed4156f80215107e9b76cddad1f3b2c087c38343e5463b3",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\save.scr": "eae7f02d826e70752d2ff7c7a4163682fb763bed7e8d4f1e6b88832aadc36934",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.dwg": "6e5099154537dc11d139214cf2a51d524f0661303712045064783ad76a863e00",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.dxf": "7919613b1f6fd71c458aaf857cada9d536ccb1136ca61b01783604c98987cac1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.json": "f05cbb5f882a6c304aa95cedfa335aabd7b3d74defe9c5ac28ec494528dc41fb",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.log": "2b63a5be42e7cf80860f1fc7aa27f657a12010864a9b25b716fd641db8245a80",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.pdf": "4302ef6f994d69b5c792764939504504791eee2a4a98f6bae06912fae6c4cd23",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\Supply Air Distribution.scr": "0dc9bead0e67fdd7f341c2365c9f015bc1dba49449079c94e5fa6953017c25c1",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\terminal-lookup\\terminal-results.json": "593aa25e233b6db29d69a97dedfc3f384550ea88d3866e166508a3fcbbada435",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\reopened\\export.log": "942d45485f0f83e993d300e9e27267448c0aa355294045f53356f0457cc9d8ff",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\reopened\\export.scr": "80721db13977bb09726a8481cfec4e8e9d6010a3cf9dd85a6f8bec5758a68d30",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\reopened\\source-copy.dwg": "6e5099154537dc11d139214cf2a51d524f0661303712045064783ad76a863e00",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "e93a69c4dfb9fb7e63bffce7f45d66935b92d2effd02bdbb94f45bb6b1a6a8d6",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\native-sheet\\reopened\\ErrorReports\\9d6767a77b9d2cce90e03082e1302957689eeac5\\cer.log": "cb97efa1fa0afdbfa75fbd343820e79176de5356154e138f10155c093509c225",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\schedule-reviewed\\index.html": "9857b6cb8ad3e0098e00b0b0f37ac61a719c32e8a105a06b8b20c0b93c537efe"
+  },
+  "native_schedule_lineage": [
+    "native-sheet",
+    "duct-sheet",
+    "duct-schedule"
+  ],
+  "original_requirements": [
+    {
+      "id": "R001-identity",
+      "passage": "P001",
+      "quote": "The Hong Kong Polytechnic University \nDepartment of Building Environment and Energy Engineering ",
+      "task": "work-identity",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 1,
+        "end_line": 2,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R002-identity",
+      "passage": "P002",
+      "quote": "BSE3227 HVACR 1 2026/27 Semester 1 ",
+      "task": "work-identity",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 4,
+        "end_line": 4,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R003-identity",
+      "passage": "P003",
+      "quote": "Mini-design assignment ",
+      "task": "work-identity",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 7,
+        "end_line": 7,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-identity",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "work-identity",
+      "acceptance": "Correct project identity and group size;no internal iteration labels in final deliverables.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-identity (missing): Group member identities remain missing.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-layout",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "work-layout",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R004-routing",
+      "passage": "P004",
+      "quote": "Students should form groups of up to five members, with each group tasked with designing \nthe air conditioning layout for an open-plan office on a typical floor. The architectural layout \nplan for this floor is provided. It is assumed that a variable air volume (VAV) system will be \nutilized in the design. ",
+      "task": "work-routing",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 10,
+        "end_line": 13,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R005-delivery",
+      "passage": "P005",
+      "quote": "Each group is required to complete the following tasks. ",
+      "task": "work-delivery",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 15,
+        "end_line": 15,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-load",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "work-load",
+      "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Compute preliminary cooling and total supply flow with source-linked classifications.",
+      "evidence": []
+    },
+    {
+      "id": "R006-layout",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "work-layout",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R006-terminal",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "work-terminal",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+      "evidence": []
+    },
+    {
+      "id": "R006-adpi",
+      "passage": "P006",
+      "quote": "1. Space air diffusion design for maximum load condition ",
+      "task": "work-adpi",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 17,
+        "end_line": 17,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-load",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-load",
+      "acceptance": "Independent thermal/airflow arithmetic;given area versus interpreted geometry explicit;no actual room-load or electrical-power claim.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Compute preliminary cooling and total supply flow with source-linked classifications.",
+      "evidence": []
+    },
+    {
+      "id": "R007-layout",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-layout",
+      "acceptance": "Source-bound terminal positions,flow conservation,L definition and graphical correspondence;keep design choices distinct from measured facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-layout (missing): Independent drawing scale,wall/jet interpretation,ceiling and installation facts remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R007-terminal",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-terminal",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+      "evidence": []
+    },
+    {
+      "id": "R007-adpi",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-adpi",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R008-minimum",
+      "passage": "P008",
+      "quote": "2. Space air diffusion design for minimum load condition ",
+      "task": "work-minimum",
+      "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 30,
+        "end_line": 30,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Calculate minimum per-terminal flow at40percent turndown.",
+      "evidence": []
+    },
+    {
+      "id": "R009-minimum",
+      "passage": "P009",
+      "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-minimum",
+      "acceptance": "Every original terminal retains identity;minimum flow equals0.4maximum with explicit units.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Calculate minimum per-terminal flow at40percent turndown.",
+      "evidence": []
+    },
+    {
+      "id": "R009-terminal",
+      "passage": "P009",
+      "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-terminal",
+      "acceptance": "Source-reviewed neck/panel configuration,proper throw column and bounded interpolation for every case;out-of-catalogue remains explicit.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Select the prescribed diffuser family and evaluate source performance at both flow conditions.",
+      "evidence": []
+    },
+    {
+      "id": "R009-adpi",
+      "passage": "P009",
+      "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "task": "work-adpi",
+      "acceptance": "Retain selected edition/category and source domains;no ADPI pass from ratio alone,clamping or missing facts.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-adpi (missing): Actual room sensible load,criterion load-domain mismatch,L and installation applicability remain unresolved.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R010-routing",
+      "passage": "P010",
+      "quote": "3. Single-line diagram of AC layout plan ",
+      "task": "work-routing",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 38,
+        "end_line": 38,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R011-routing",
+      "passage": "P011",
+      "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "work-routing",
+      "acceptance": "All diffusers connected;4to5outlets per VAV;flex within5m;straight routes/minimal turns and distribution examined.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-routing (missing): Prove original geometry/scale,source connection/penetration assumptions and installed flex lengths;plan distances alone are insufficient.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R011-delivery",
+      "passage": "P011",
+      "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "work-delivery",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R012-sizing",
+      "passage": "P012",
+      "quote": "4. Sizing of supply air ducts ",
+      "task": "work-sizing",
+      "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 1,
+        "end_line": 1,
+        "page": 2,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R013-sizing",
+      "passage": "P013",
+      "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+      "task": "work-sizing",
+      "acceptance": "All sections retain IDs/flows;source method/criteria and aspect ratio preference are explicit;equation audit is separate from chart/method applicability.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 3,
+        "end_line": 9,
+        "page": 2,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-sizing (missing): Chart/Online Ductular method correspondence,fluid assumptions,source geometry and dimension-grid applicability need final review.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "R014-schedule",
+      "passage": "P014",
+      "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+      "task": "work-schedule",
+      "acceptance": "Every section appears withL/s,mm by mm,m/s andPa/m,consistent with editable drawing and calculations.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 11,
+        "end_line": 11,
+        "page": 2,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Provide the required section/flow/size/velocity/gradient schedule.",
+      "evidence": []
+    },
+    {
+      "id": "R014-delivery",
+      "passage": "P014",
+      "quote": "Section Volume flow rate (L/s) Rectangular duct size (mm\u00d7mm) Air velocity (m/s) Pressure drop (Pa/m) ",
+      "task": "work-delivery",
+      "acceptance": "Independent DWG reopen,actual plot review,complete original requirement coverage and explicit limitations;no portal submission.; full source quote remains authoritative, acceptance pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 11,
+        "end_line": 11,
+        "page": 2,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "unresolved design inputs: gap-delivery (missing): All primary obligations and actual native/visual/domain checks require separate evidence.; adapter not executed",
+      "evidence": []
+    },
+    {
+      "id": "producer-air-allocation-P007",
+      "task": "air-allocation",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute classified preliminary thermal/airflow balance and nearest-centre scenario allocation;actual room load and physical layout acceptance remain pending.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Uniform allowance allocated by nearest-centre area; not spatial load simulation, duct routing, air coverage or ADPI acceptance",
+      "evidence": [
+        "air-allocation/allocation.json"
+      ]
+    },
+    {
+      "id": "producer-terminal-lookup-P007",
+      "task": "terminal-lookup",
+      "passage": "P007",
+      "quote": "\u2022 Calculate the cooling load of the open plan office using rule of thumb. \n\u2022 Determine the total supply air flow rate of the office. \n\u2022 Distribute supply air diffusers on the layout plan. \n\u2022 Calculate the supply air flow rate of each diffuser. \n\u2022 Find out the characteristic room length, L. \n\u2022 Refer to the performance data of KRUEGER \u201cLouvered Face Diffusers 1400, 51400 \nSeries 4-cone\u201d, and select a suitable type of diffuser. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute source-pinned bounded maximum-flow throw lookup;product,L and ADPI acceptance remain pending.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 19,
+        "end_line": 28,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Bounded catalogue interpolation only; original source, characteristic lengths and ADPI acceptance require review",
+      "evidence": [
+        "terminal-lookup/terminal-results.json"
+      ]
+    },
+    {
+      "id": "producer-terminal-lookup-P009",
+      "task": "terminal-lookup",
+      "passage": "P009",
+      "quote": "\u2022 Calculate the supply air flow rate of each diffuser with a minimum turn down ratio of \n40%. \n\u2022 From the diffuser performance data, find the corresponding T0.25. \n\u2022 Calculate T0.25 / L. \n\u2022 Check if it meets the ASHRAE ADPI requirement. ",
+      "acceptance": "Execute the same original terminal inventory at40percent minimum flow without extrapolation;ADPI applicability remains pending.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 32,
+        "end_line": 36,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Bounded catalogue interpolation only; original source, characteristic lengths and ADPI acceptance require review",
+      "evidence": [
+        "terminal-lookup/terminal-results.json"
+      ]
+    },
+    {
+      "id": "producer-duct-schedule-P013",
+      "task": "duct-schedule",
+      "passage": "P013",
+      "quote": "\u2022 Determine the size of the main air ducts and each section of the branch air ducts.  \n\u2022 The air duct size should satisfy the requirements of maximum air velocity and \nlimiting air-pressure drops. \n\u2022 Use the Friction Chart in ASHRAE Fundamentals or Online Ductular.  \n\u2022 The maximum aspect ratio of rectangular air duct is preferred to be 4:1. \n\u2022 Label each section of the air duct and tabulate the air duct sizing calculation in a table. \n\u2022 The following table for air duct sizing is suggested for your use.  ",
+      "acceptance": "Execute conditional section numerical sizing under declared source criteria;chart-method,geometry and manufactured-size applicability remain pending.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 3,
+        "end_line": 9,
+        "page": 2,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Inherited prescribed terminal demands aggregated through declared tree; section checks only, physical connections, local losses, fan duty and geometry remain pending; candidate sizing ranks feasible sections by area/perimeter, not network pressure or spatial fit",
+      "evidence": [
+        "duct-schedule/results.json",
+        "duct-schedule/schedule.csv"
+      ]
+    },
+    {
+      "id": "producer-duct-sheet-P011",
+      "task": "duct-sheet",
+      "passage": "P011",
+      "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "acceptance": "Bind source section labels/schedule to the preserved single-line design scenario;physical routing/installed lengths remain pending.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Existing single-line centreline geometry retained; selected dimensions and flow/friction schedule updated. No physical-width or routing regeneration.; DXF preparation only, native reopening and actual plot review remain pending",
+      "evidence": [
+        "duct-sheet/drawing-update.json",
+        "duct-sheet/Supply Air Distribution.dxf"
+      ]
+    },
+    {
+      "id": "producer-native-sheet-P011",
+      "task": "native-sheet",
+      "passage": "P011",
+      "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "acceptance": "Save and independently reopen native DWG and plot at declared scale;actual visual and full engineering review remain separate.",
+      "execution_status": "pass",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Explicit generated-layer native correspondence and physical plot reference; base-building semantic fidelity, routing and engineering acceptance separate; actual plot visual and complete engineering acceptance remain pending",
+      "evidence": [
+        "native-sheet/native-sheet.json",
+        "native-sheet/plot.log",
+        "native-sheet/save.log",
+        "native-sheet/save.scr",
+        "native-sheet/Supply Air Distribution.dwg",
+        "native-sheet/Supply Air Distribution.dxf",
+        "native-sheet/Supply Air Distribution.json",
+        "native-sheet/Supply Air Distribution.log",
+        "native-sheet/Supply Air Distribution.pdf",
+        "native-sheet/Supply Air Distribution.scr",
+        "native-sheet/reopened/export.log",
+        "native-sheet/reopened/export.scr",
+        "native-sheet/reopened/source-copy.dwg",
+        "native-sheet/reopened/source-export.dxf",
+        "native-sheet/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log",
+        "native-sheet/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log"
+      ]
+    },
+    {
+      "id": "hk-flex-check",
+      "passage": "P011",
+      "quote": "\u2022 Use single lines to sketch the air duct layout for distribution of supply air to all supply \nair diffusers in the office. \n\u2022 Use VAV boxes with four to five outlets, but limit the flexible duct length (from the \nVAV box to the diffuser) to be within 5 m. \n\u2022 Use straight ductwork as far as possible. \n\u2022 Minimize bends and turns. \n\u2022 Plan branch ducts to extend from the main trunk to distribute air evenly throughout \nthe space. ",
+      "task": "hk-flex-length",
+      "acceptance": "Additional Hong Kong project check selected by user; keep assignment 5m criterion distinct from ordinary FSD 4m path; installed evidence and applicability pending",
+      "execution_status": "pending",
+      "acceptance_status": "pending review",
+      "source_locator": {
+        "start_line": 40,
+        "end_line": 47,
+        "page": 1,
+        "source_document": "sources/D001/BSE3227 Mini design assignment.pdf",
+        "source_sha256": "7d97a8883fb42a08ba85e5efa76f5609f75b0e6eab9871b1f2bb8d6cd197a680"
+      },
+      "execution_scope": "Selected jurisdiction checks only; whole-project regulatory compliance not established. HK.FSD.MV2023.7.2.flex_length: pending",
+      "evidence": [
+        "hk-flex-length/regulation-checks.json"
+      ]
+    }
+  ]
+}

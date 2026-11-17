@@ -1,0 +1,92 @@
+{
+  "integrity_pass": true,
+  "native_reopen_pass": true,
+  "editable_entities": {
+    "model_entities": 89,
+    "entity_types": {
+      "TEXT": 13,
+      "DIMENSION": 2,
+      "LINE": 73,
+      "LWPOLYLINE": 1
+    },
+    "editable_entity_correspondence": true,
+    "dimension_rendering_visual_review": "pending"
+  },
+  "artifacts": [
+    {
+      "path": "layout/drawing/Drawing.dxf",
+      "sha256": "f35cdd3bcfdab11f02b251a4790d47e34d5c43f39a943a46254c0c0b22c8af99",
+      "bytes": 95189
+    },
+    {
+      "path": "layout/drawing/Drawing.dwg",
+      "sha256": "48d8ae22a229c3134a1c1408fba2ee4c66ceb5b35840a4ac4284a04b412f255a",
+      "bytes": 27512
+    },
+    {
+      "path": "layout/drawing/Drawing.pdf",
+      "sha256": "84225ff6ff9f0fc8e66e4dc4f6d2f24ba4295133a288f42a38b624df2f640519",
+      "bytes": 14667
+    }
+  ],
+  "visual_review": "pending",
+  "design_accepted": false,
+  "layout": {
+    "placements": {
+      "compound-plan": {
+        "translation": [
+          1310.0,
+          1640.114401076716
+        ],
+        "source_bounds": [
+          -1160.0,
+          -1220.114401076716,
+          1360.0,
+          1039.5558546433379
+        ],
+        "placed_bounds": [
+          150.0,
+          420.0,
+          2670.0,
+          2679.670255720054
+        ],
+        "padded_region": [
+          120.0,
+          390.0,
+          2700.0,
+          2709.670256
+        ]
+      }
+    },
+    "rotation": false,
+    "scaling": false,
+    "gap_mm": 4,
+    "rectpack_version": "0.2.2",
+    "rectpack_commit": "123d57e0ef22adb5ae5f09b435c69f0589f521d1",
+    "scope": "Inter-view approximate font/geometry bounding boxes; intra-view labels and actual native plots require separate review"
+  },
+  "scope": "Packed declared views and native drawing correspondence; visual/engineering acceptance separate",
+  "ifc_sections": {
+    "ifc_sha256": "d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+    "coverage": {
+      "compound-plan": {
+        "3tK$ugPAvIAAusb9mKjQEp": 68
+      }
+    },
+    "view_kinds": {
+      "compound-plan": "section"
+    },
+    "runtimes": {
+      "ifcopenshell": "0.8.5",
+      "trimesh": "5.2.0",
+      "numpy": "2.5.4"
+    },
+    "methods": {
+      "drawing_ifc_sections.py": "ab2659500de95a0f8603a33143adf789db3ce9659b1705a779a277843293c1e2",
+      "circular_geometry.py": "b907345bd2904bf313b017cc1c7e1a07e403ff726bbb8a85e476ae538ea25cb9",
+      "drawing_layout.py": "58a33b3bf9c0e13c0303556c9c616070f9b28087309d3c57b3151b9040a36ad8",
+      "source_network_drawing.py": "f83ec18da30ed8c9abd67c0fb5c78d6b6065e10bd3538730547231eb710fae58"
+    },
+    "design_accepted": false
+  }
+}

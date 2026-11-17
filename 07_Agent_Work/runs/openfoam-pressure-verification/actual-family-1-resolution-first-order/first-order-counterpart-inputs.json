@@ -1,0 +1,24 @@
+{
+  "scope": "New-wall-grid first-order counterpart for bounded numerical wall-resolution comparison, not full grid independence",
+  "source_initial_case": "actual-family-1-resolution-mixed-order",
+  "initial_field_sha256": {
+    "U": "a5fbd951f92e5ccbf2a224736721982a22d0906ff23da7fc6ecfe6dd0d67c17d",
+    "p": "0be5229be33bcd51063eb363c2185fbba178ce3feec9f5867b5d5ee8b3496ea2",
+    "k": "39d77a91fb218819b92d396f50b6536a7fdbc7501461d663e51f60bb10ca4c09",
+    "omega": "2ed9d6ecf15f58075d47cc1bf99b5eac2517698bf6fe579bcbba9f32a8d80971",
+    "nut": "96ae63fd0183be23cc99bfb113a03ad36a37d47497f61e30ad24cb6866a1c028"
+  },
+  "only_active_discretization_difference_from_mixed_case": "Velocity convection boundedGaussupwind instead of linearUpwind grad(U); k/omega remain upwind",
+  "geometry_model_fluid_and_source_flows_unchanged": true,
+  "end_time": 420,
+  "source_native_index": 0,
+  "expected_fields": [
+    210,
+    420
+  ],
+  "required_window": [
+    221,
+    420
+  ],
+  "engineering_accepted": false
+}

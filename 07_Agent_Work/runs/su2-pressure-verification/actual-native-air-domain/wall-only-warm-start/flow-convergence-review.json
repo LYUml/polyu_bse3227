@@ -1,0 +1,68 @@
+{
+  "iteration": 470,
+  "basis_analysis_sha256": "8898e30933d4cfc8c26441b11e6d3940ad8363d301da670e518f23c856991c64",
+  "boundaries": [
+    {
+      "marker": "outlet_0",
+      "target_signed_mass_flow_kg_s": -1.7047619238233924,
+      "actual_signed_mass_flow_kg_s": -1.201331826,
+      "relative_target_error": 0.2953081546391612
+    },
+    {
+      "marker": "inlet",
+      "target_signed_mass_flow_kg_s": 14.400447316103381,
+      "actual_signed_mass_flow_kg_s": 14.35555417,
+      "relative_target_error": 0.003117482750218453
+    },
+    {
+      "marker": "outlet_2",
+      "target_signed_mass_flow_kg_s": -8.642791128364598,
+      "actual_signed_mass_flow_kg_s": -10.76075424,
+      "relative_target_error": 0.24505545490790623
+    },
+    {
+      "marker": "outlet_3",
+      "target_signed_mass_flow_kg_s": -1.9984329823454872,
+      "actual_signed_mass_flow_kg_s": -1.475050364,
+      "relative_target_error": 0.2618965073981177
+    },
+    {
+      "marker": "outlet_4",
+      "target_signed_mass_flow_kg_s": -2.0544612815699037,
+      "actual_signed_mass_flow_kg_s": -1.468833767,
+      "relative_target_error": 0.2850516190416595
+    }
+  ],
+  "relative_global_mass_imbalance": 0.03834167740805517,
+  "last_100_iteration_total_pressure_variation": {
+    "outlet_0": {
+      "last_Pa": -0.4011906329,
+      "window_range_Pa": 2.5042775220999998
+    },
+    "inlet": {
+      "last_Pa": 246.8502584,
+      "window_range_Pa": 9.47290079999999
+    },
+    "outlet_2": {
+      "last_Pa": 93.8962166,
+      "window_range_Pa": 3.5996298999999965
+    },
+    "outlet_3": {
+      "last_Pa": 61.1548821,
+      "window_range_Pa": 0.49424383999999577
+    },
+    "outlet_4": {
+      "last_Pa": 78.89000849,
+      "window_range_Pa": 0.11716061999999283
+    }
+  },
+  "numerical_target_assumptions": {
+    "relative_flow_error": 0.001,
+    "relative_mass_imbalance": 0.001,
+    "scope": "proposed numerical convergence targets, not statutory or manufacturer limits"
+  },
+  "flow_target_met": false,
+  "global_mass_target_met": false,
+  "pressure_accepted": false,
+  "engineering_accepted": false
+}

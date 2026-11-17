@@ -1,0 +1,59 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      thickness;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    air_inlet
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    air_outlet_0
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    air_outlet_1
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    air_outlet_2
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    air_outlet_3
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    air_wall
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

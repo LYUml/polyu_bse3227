@@ -1,0 +1,47 @@
+{
+  "source_ifc_sha256": "d11d94b6725b9284ce175e9abf75785d2b70e8beb0487d084a3a82dc8981c67b",
+  "ifc_sha256": "508b6fb480fa5153a265a091396610a0c60880a07b3ac89fa1f385fdb8f6d553",
+  "radius_before_m": 1.35,
+  "radius_after_m": 1.6875,
+  "classification": "design_target",
+  "basis": "Explicit finite radius choice within source table; no manufacturer/installation acceptance",
+  "changed_straights": [
+    {
+      "guid": "3Tf1SEAG9NLxz6miD8JeEM",
+      "old_length_m": 1.1499999999999986,
+      "new_length_m": 0.8125
+    },
+    {
+      "guid": "2ww9pYvAfSyx5JhKUO62Me",
+      "old_length_m": 0.6375000000000028,
+      "new_length_m": 0.29999999999999716
+    }
+  ],
+  "unchanged_product_shapes": 115,
+  "external_frames_unchanged": 21,
+  "native_bend_quantities": {
+    "quantities": {
+      "bend_radius_over_radial_width": 1.25,
+      "bend_height_over_radial_width": 0.6666666666666666,
+      "bend_angle_deg": 90.0,
+      "bend_centerline_radius_m": 1.6875,
+      "bend_centerline_arc_length_m": 2.650718801466386,
+      "bend_radial_internal_width_m": 1.35,
+      "bend_normal_internal_height_m": 0.9,
+      "bend_hydraulic_diameter_m": 1.08,
+      "bend_hydraulic_reynolds": 707204.2880836528
+    },
+    "inlet_section_m": [
+      1.35,
+      0.9
+    ],
+    "outlet_section_m": [
+      1.35,
+      0.9
+    ],
+    "construction": "Native smooth quarter-revolved hollow rectangular profile; no vanes represented",
+    "reynolds_basis": "Source design flow and air properties; actual clear area velocity and hydraulic diameter 4A/P. Source-correlation applicability remains review-required.",
+    "scope": "Native dimensions/Axis/port correspondence after full producer inspection; not a loss correlation, fabricated product or measured installation acceptance"
+  },
+  "design_accepted": false
+}

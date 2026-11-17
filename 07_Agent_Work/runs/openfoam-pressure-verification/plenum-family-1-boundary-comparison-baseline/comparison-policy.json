@@ -1,0 +1,43 @@
+{
+  "scope": "Paired outlet-domain sensitivity diagnostic; not validated fitting pressure",
+  "kind": "baseline",
+  "source_case": "plenum-family-1-initialized-residence",
+  "start_s": 0.25,
+  "end_s": 0.5,
+  "deltaT_s": 0.00025,
+  "comparison_window_s": [
+    0.45,
+    0.5
+  ],
+  "compare_original_stations": true,
+  "new_extension_initialization_transient_retained": false,
+  "time_mesh_physical_validation_accepted": false,
+  "runtime_cap_s": 2400,
+  "source_sha256": {
+    "constant\\momentumTransport": "a1a6403646fb6df9267799fdabdab26dbb834657a91d51babfa824b7dc15361c",
+    "constant\\physicalProperties": "f2c715ef8bf9b20ff74df088d904c2460b8beb1b97cd6e17636d66d4aa7cd642",
+    "constant\\polyMesh\\boundary": "7af6c3a72899f1eb4539512b8e1ef115d5eb94888d16887c8cc4524b8affed97",
+    "constant\\polyMesh\\cellLevel": "8ef20e238205a9c43d30a2488417a4443e39591b523d61c9df1577e201cc838a",
+    "constant\\polyMesh\\faces": "c1fd7d90121e53d1a26634737fc257e75a66d2a3028d5c277a3abcd82e169da4",
+    "constant\\polyMesh\\level0Edge": "baf02ca170597045942399cdae94803a83ea27287ce04614a347127293855f06",
+    "constant\\polyMesh\\neighbour": "bd6597db8bd35d0a6124dcf4fb32ac24de337049ca29ff24c6cdfe6083603671",
+    "constant\\polyMesh\\owner": "e2003d703e1d218ef450322b9f652bfcfd8a5b2f1a15a02ef9fd6f62ec4ad481",
+    "constant\\polyMesh\\pointLevel": "51a47f754174c764e2ab0ade95b7f668f2ec0772f3d6e1141acc95191aa658df",
+    "constant\\polyMesh\\points": "b4c6897a08fd091cfc1737e13854895acc8e80b387bdbb834a4d64ef2de25ef9",
+    "constant\\polyMesh\\surfaceIndex": "7c6bf592bac5581a417e226ed7dff6b634c7e4438fbb996045a5ddf23b784a13",
+    "system\\controlDict": "0f0b4ac50bcab1ec5a6157abbdb8fc3679d249956af2861ae85e5556c7ba4556",
+    "system\\functions": "235011df719da61e6f18a41fa3a0d45f93676e1c7fcefbea3f924d2a61538d4f",
+    "system\\fvSchemes": "4293e7973614f1031de14b7daffd1c0e8857c5a414828bd6f9241be37fc975bc",
+    "system\\fvSolution": "c7b22c897fb627a60ee3899f8fcaacc6028b68ee875163bd1f58c14a39bf49a5",
+    "0.25\\epsilon": "6353f4dc8565e9f921ebf832ced06bc0fd236f4860e7548996b8aac592cf6a88",
+    "0.25\\k": "b3636baf1abc132ea9a89d78a2b5000680a4cf5eb37a44e24c10da8e00f4e0c5",
+    "0.25\\nut": "c75bfc811061e59e8216b7fba5c6c42fde1bb102ae384ae055f529179878608d",
+    "0.25\\p": "0a23aef13881ad4dad32552fe989fef868b08b71599749cba3dffb8dc15d504f",
+    "0.25\\phi": "a0b7551b815c614571db25d6a94cf94172311a9233ac5b9c9580388e8f39583f",
+    "0.25\\Pt": "a3ffadbe5aa70b68d8dabd5fb7efc46eac499781e5d1afe3f37abb3e36e7f9e4",
+    "0.25\\U": "380e26d6a4f6b4ef22b9d54565a36be5378d2abc6287ba337fcf205918f10f35",
+    "0.25\\yPlus": "f261594db391070a72e2f9292bce59c531290e8449289514608bcdce382e26f8",
+    "0.25\\uniform\\time": "184eae4b1a507ac0857032660538a4b75c852de4a2cf77d789f3ff11d0ad56a0"
+  },
+  "pressure_adopted": false
+}

@@ -1,0 +1,38 @@
+{
+  "points_project": "friction-diameter-1000-points.json",
+  "points_result": "../../runs/friction-diameter-manual-points/points.json",
+  "points_result_sha256": "e5847feb2aa578b8ea59f710597c1aa2834f3b809210679bca5c1632f7cd56d5",
+  "air": {
+    "density_kg_m3": 1.2,
+    "viscosity_Pa_s": 1.81e-05,
+    "roughness_m": 9e-05
+  },
+  "air_basis": {
+    "density_kg_m3": {
+      "classification": "given",
+      "basis": "Classroom PDF p9 chart heading rho1.20kg/m3; original source and image are pinned by parent"
+    },
+    "roughness_m": {
+      "classification": "given",
+      "basis": "Classroom PDF p9 chart heading epsilon0.09mm; original source and image are pinned by parent"
+    },
+    "viscosity_Pa_s": {
+      "classification": "assumed",
+      "basis": "Declared1.81e-5Pa s for numerical comparison; chart viscosity/temperature not independently established"
+    }
+  },
+  "diameters": [
+    {
+      "point_id": "D1000-Q10000",
+      "diameter_m": 1,
+      "source_label": "1000 mm diameter rising curve; classroom chart p9",
+      "identity_observation": "Host AI visually traced the rising 1000-labelled curve above its label gap in original p9; point is an approximate manual curve reading, not automatic identification"
+    },
+    {
+      "point_id": "D1000-Q12000",
+      "diameter_m": 1,
+      "source_label": "1000 mm diameter rising curve; classroom chart p9",
+      "identity_observation": "Host AI visually followed the same rising1000mm curve toward the next upper-right crossing; manual approximate reading"
+    }
+  ]
+}

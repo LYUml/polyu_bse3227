@@ -1,0 +1,85 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  12
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+/*   Windows 32 and 64 bit porting by blueCAPE: http://www.bluecape.com.pt   *\
+|  Based on Windows porting (2.0.x v4) by Symscape: http://www.symscape.com   |
+\*---------------------------------------------------------------------------*/
+Build  : 12-8e8552546d20
+Exec   : C:/Users/lyuml-win/Desktop/building-services-agent/tools/bluecfd-runtime-files/app/OpenFOAM-12/platforms/mingw_w64Gcc122DPInt32Opt/bin/gmshToFoam.exe -case C:\Users\lyuml-win\Desktop\polyu_bse3227\07_Agent_Work\runs\openfoam-pressure-verification\main-native-import C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/su2-pressure-verification/actual-native-air-domain/main-exterior-gmsh22.msh
+Date   : Nov 16 2026
+Time   : 17:49:34
+Host   : "LYUML-WIN"
+PID    : 9804
+I/O    : uncollated
+Case   : C:/Users/lyuml-win/Desktop/polyu_bse3227/07_Agent_Work/runs/openfoam-pressure-verification/main-native-import
+nProcs : 1
+SigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:7
+    Surface 1	outlet_0
+    Surface 2	inlet
+    Surface 3	outlet_2
+    Surface 4	outlet_3
+    Surface 5	outlet_4
+    Surface 6	wall
+    Volume 7	fluid
+
+Starting to read points at line 15
+Vertices to be read:126183
+Vertices read:126183
+
+Starting to read cells at line 126201
+Cells to be read:278821
+
+Mapping region 1 to Foam patch 0
+Mapping region 2 to Foam patch 1
+Mapping region 3 to Foam patch 2
+Mapping region 4 to Foam patch 3
+Mapping region 5 to Foam patch 4
+Mapping region 6 to Foam patch 5
+Mapping region 7 to Foam cellZone 0
+Cells:
+    total:265741
+    hex  :0
+    prism:234212
+    pyr  :0
+    tet  :31529
+
+CellZones:
+Zone	Size
+    0	265741
+
+Skipping tag  at line 405025
+Patch 0 gets name outlet_0
+Patch 1 gets name inlet
+Patch 2 gets name outlet_2
+Patch 3 gets name outlet_3
+Patch 4 gets name outlet_4
+Patch 5 gets name wall
+
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+Finding faces of patch 5
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone fluid and cellSet
+End
+

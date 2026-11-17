@@ -1,0 +1,47 @@
+{
+  "window": [
+    1,
+    20
+  ],
+  "samples": 20,
+  "max_relative_flux_errors": {
+    "inlet": 3.0856931419243115e-15,
+    "outlet_0": 8.824860540927728e-15,
+    "outlet_1": 7.134993628835184e-15,
+    "outlet_2": 7.767735047287998e-15,
+    "outlet_3": 7.886045589765212e-15
+  },
+  "max_relative_global_imbalance": 6.316028149876325e-15,
+  "relative_tolerance": 1e-10,
+  "signed_flux_window_passed": true,
+  "pressure_accepted": false,
+  "engineering_accepted": false,
+  "scope": "Cold-start versus inherited-start diagnostic; not complete pressure acceptance",
+  "peak_velocity_samples": [
+    {
+      "step": 10,
+      "peak_cell": 135128,
+      "peak_U_m_s": [
+        184.3270579433968,
+        57.53875066047865,
+        69.69144141458025
+      ],
+      "peak_speed_m_s": 205.29020708275144
+    },
+    {
+      "step": 20,
+      "peak_cell": 135128,
+      "peak_U_m_s": [
+        37.348244634338386,
+        8.189597073512436,
+        -8.414930957046998
+      ],
+      "peak_speed_m_s": 39.1506314189789
+    }
+  ],
+  "negative_k_bounding_events": 0,
+  "terminal_step": 20,
+  "foamRun_returncode": 0,
+  "pressure_usable": false,
+  "mesh_quality_failed_categories": 3
+}

@@ -1,0 +1,342 @@
+{
+  "schema": "bsa.vav-recenter/1",
+  "plan": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json",
+  "workflow": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow",
+  "native_task": "native-sheet",
+  "policy": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\vav-recenter-policy.json",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\engineering-supporting-evidence-plan.json": "b6d48c1741b8fbbdff0ff78b311b8c46c4e6a6a1dc6023424515a5215aa33769",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\workflow.json": "a792feca5b751e9105a4ca1538c4a89fd4f661ae3d7013ea927405f812e68bec",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\vav-recenter-policy.json": "9e2c349f29c40350cb0461624ff2280822e95f1bf2e4ec934f63bef80fa145fa",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-layout-cad\\Supply Air Distribution.dxf": "c09a050380aa3d92fb65f4c3e6153869d39070d260a74eeff330baf8680cbd30",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\sheet-binding.json": "1333708275c655c3537e0adfe4aa9649429b9f281309623ee5df9338249f8978",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-canvas-inputs\\ducts.json": "ff27a8fcd1e11376671baf80103a5a3339dddc5c686b74f4c1ada3b9abd4e229",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-aligned-design-inputs\\allocation.json": "4bac77e923119e40e6634f8405db1cf7fb406f6c6d997f64b08a6c1e5f63c42a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-flow-direction-inputs\\native.json": "1319a0dd710e627e61ef1af47b33e870f01654c18e542e47b9d12886ff368b2e",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\air-allocation\\allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\duct-schedule\\results.json": "a6d328eb19cf52ef93b3b47628c4300cc75d6efce4be31e71d4344331cdfc5a9",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\vav_recenter.py": "91a289b48408fac4329481e2fe50b6a9c36b8130ced9da67ab0bb29280a34a5a",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\air_terminal_drawing.py": "f82284ee8764db02283e03ac37517fa98a0b7ff9a01e0c5443f13488bb5cd8df",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\duct_plan_clearance.py": "fa512a3d6efeac0234f24c31c3a579dfe40d12492db7a6502259063057723cbd"
+  },
+  "versions": {
+    "ezdxf": "1.4.5",
+    "shapely": "2.2.0"
+  },
+  "geometry": {
+    "changes": [
+      {
+        "id": "VAV-05",
+        "from_m": [
+          98.005932,
+          19.520584,
+          0
+        ],
+        "to_m": [
+          98.69843250000001,
+          19.520584,
+          0
+        ],
+        "tap": "TAP-VAV-05",
+        "baseline_max_plan_m": 2.9757240219002283,
+        "revised_max_plan_m": 2.441132312305222
+      },
+      {
+        "id": "VAV-06",
+        "from_m": [
+          105.445932,
+          19.520584,
+          0
+        ],
+        "to_m": [
+          105.67676549999999,
+          19.520584,
+          0
+        ],
+        "tap": "TAP-VAV-06",
+        "baseline_max_plan_m": 2.611097008190341,
+        "revised_max_plan_m": 2.441132312305212
+      },
+      {
+        "id": "VAV-11",
+        "from_m": [
+          98.005932,
+          26.350584,
+          0
+        ],
+        "to_m": [
+          98.69843250000001,
+          26.350584000000005,
+          0
+        ],
+        "tap": "TAP-VAV-11",
+        "baseline_max_plan_m": 2.975724021900226,
+        "revised_max_plan_m": 2.441132312305222
+      },
+      {
+        "id": "VAV-12",
+        "from_m": [
+          105.445932,
+          26.350584,
+          0
+        ],
+        "to_m": [
+          105.6767655,
+          26.350584,
+          0
+        ],
+        "tap": "TAP-VAV-12",
+        "baseline_max_plan_m": 2.6110970081903386,
+        "revised_max_plan_m": 2.4411323123051996
+      },
+      {
+        "id": "VAV-13",
+        "from_m": [
+          68.245932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          68.245932,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-13",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-14",
+        "from_m": [
+          75.685932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          75.685932,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-14",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-15",
+        "from_m": [
+          83.12593199999999,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          83.12593199999999,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-15",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471415
+      },
+      {
+        "id": "VAV-16",
+        "from_m": [
+          90.565932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          90.56593200000002,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-16",
+        "baseline_max_plan_m": 2.524907176511645,
+        "revised_max_plan_m": 2.3244253263471526
+      },
+      {
+        "id": "VAV-17",
+        "from_m": [
+          98.005932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          98.6984325,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-17",
+        "baseline_max_plan_m": 2.9757240219002283,
+        "revised_max_plan_m": 2.233142139216534
+      },
+      {
+        "id": "VAV-18",
+        "from_m": [
+          105.445932,
+          33.180584,
+          0
+        ],
+        "to_m": [
+          105.67676549999999,
+          33.49404200000001,
+          0
+        ],
+        "tap": "TAP-VAV-18",
+        "baseline_max_plan_m": 2.611097008190341,
+        "revised_max_plan_m": 2.233142139216534
+      }
+    ],
+    "changed_entity_handles": [
+      "8D97",
+      "8D98",
+      "8D99",
+      "8D9A",
+      "8DA5",
+      "8DA6",
+      "8DA7",
+      "8DA8",
+      "8DB3",
+      "8DB4",
+      "8DB5",
+      "8DB6",
+      "8DC5",
+      "8DC6",
+      "8DC7",
+      "8DC8",
+      "8DD1",
+      "8DD2",
+      "8DD3",
+      "8DD4",
+      "8DD5",
+      "8DD6",
+      "8DD7",
+      "8DD8",
+      "8DD9",
+      "8DDA",
+      "8DDB",
+      "8DDC",
+      "8DDD",
+      "8DDE",
+      "8DDF",
+      "8DE0",
+      "8E9D",
+      "8E9E",
+      "8E9F",
+      "8EA0",
+      "8EA1",
+      "8EA2",
+      "8EA3",
+      "8EA4",
+      "8EA5",
+      "8EA6",
+      "8EA7",
+      "8EA8",
+      "8EC1",
+      "8EC2",
+      "8EC3",
+      "8EC4",
+      "8EC5",
+      "8EC6",
+      "8EC7",
+      "8EC8",
+      "8EC9",
+      "8ECA",
+      "8ECB",
+      "8ECC",
+      "8ECD",
+      "8ECE",
+      "8ECF",
+      "8ED0",
+      "8ED1",
+      "8ED2",
+      "8ED3",
+      "8ED4",
+      "8ED5",
+      "8ED6",
+      "8ED7",
+      "8ED8",
+      "8ED9",
+      "8EDA",
+      "8EDB",
+      "8EDC",
+      "8EDD",
+      "8EDE",
+      "8EDF",
+      "8EE0",
+      "8EE1",
+      "8EE2",
+      "8EE3",
+      "8EE4",
+      "8EE5",
+      "8EE6",
+      "8EE7",
+      "8EE8",
+      "8EE9",
+      "8EEA",
+      "8EEB",
+      "8EEC",
+      "8EED",
+      "8EEE",
+      "8EEF",
+      "8EF0"
+    ],
+    "baseline_total_flex_plan_m": 198.84520332707805,
+    "revised_total_flex_plan_m": 197.89404192039655,
+    "baseline_max_flex_plan_m": 2.9757240219002283,
+    "revised_max_flex_plan_m": 2.8728691174817858,
+    "baseline_total_rigid_centreline_m": 202.71676550000007,
+    "revised_total_rigid_centreline_m": 201.52851800000008,
+    "rigid_obstacle_pairs": 376,
+    "flex_obstacle_pairs": 640,
+    "all_tested_projections_clear": true,
+    "terminal_count": 80,
+    "unchanged_terminals_flows_groups": true,
+    "added_bends": 0,
+    "scope": "Declared planar VAV/tap relocation with unchanged terminals, topology, flows and section sizes; not installed flex length, selected hardware, ADPI or full engineering acceptance",
+    "design_accepted": false
+  },
+  "coverage": {
+    "complete": false,
+    "unresolved": [
+      "Ninth interpreted column has an open source outline",
+      "Walls and other obstacles not inventoried",
+      "Wall/insulation/fitting outer envelopes and elevations unknown"
+    ]
+  },
+  "native_reopen_pass": true,
+  "plot_visual_review": "pending",
+  "design_accepted": false,
+  "artifacts": {
+    "reopened-connections.json": "f3b4fcbe1be322a946e582843320217b6038e0afbda7326975e494d740c3a698",
+    "delivery/schedule-drawing.json": "27bd67926a0693a5612eb91173c9459fda938d1fb4113de3f1bb3b08c1814299",
+    "delivery/Supply Air Distribution.dxf": "ccbdb865a76dc604cc3895cd13477d228e52b3efb473e53f5d95b0a2ed4c08fe",
+    "delivery/writer-request.json": "bd4429182185e901d9853d0a082f76b10a5c9c0fecea053e75f58bd029f0f990",
+    "delivery/writer.json": "d92f5dd8d5b2018f73d4f9889850cfc05df53560f001f0413224642f97a91252",
+    "delivery/writer.log": "5ea5ffc01190c6753fd25b4c7c9f7239595ecffca3798a791aed24557197d42f",
+    "inputs/binding.json": "348ed9f6c330c78ba8bec3fcbb28b20ae4ead8943ed89caeaf0fd7be1984d2ab",
+    "inputs/Supply Air Distribution.dxf": "fcd60751b23422bb13e884481adfd5c4b4128f08aefc79193226c65cc76db738",
+    "delivery/allocation/allocation.json": "4aaf873093425d7499d89eb474d9b243f024e6ece1f72f2d02729b4ac7744681",
+    "delivery/native/native-sheet.json": "1923f545ca3d1274da0a3e2306d7cbb80e0527259f9bff4c0d50153dc698af45",
+    "delivery/native/plot.log": "e1cc28aff505484b000a1c189133c8fb1ef5727a52464ac608da221d55b906bc",
+    "delivery/native/save.log": "7eed66121bef82958b907b7982e183aae58dd9b6fe0ea4f36e540bf626f30cb9",
+    "delivery/native/save.scr": "98480e60057025eca7fa1701f226acd39eb1fbbcbcea6dc5044151a596c3b9d2",
+    "delivery/native/Supply Air Distribution.dwg": "9af3c03b324fcc4ba943b357fc5438e5f26861a8773950f94bc4ab9f06946cd7",
+    "delivery/native/Supply Air Distribution.dxf": "ccbdb865a76dc604cc3895cd13477d228e52b3efb473e53f5d95b0a2ed4c08fe",
+    "delivery/native/Supply Air Distribution.json": "512b28e124f27f1243d6de8ea0fe52528361f4aa32d574202707e96945ca7661",
+    "delivery/native/Supply Air Distribution.log": "8b63e9ea022d7e5551ef8616e17d9e537154bc0bc23f4946e82f6f3777d2be0e",
+    "delivery/native/Supply Air Distribution.pdf": "4d919c552a9e4c2ae446cb5264f2eb091c094b9a1abfd66bb2419d57842b4a90",
+    "delivery/native/Supply Air Distribution.scr": "1470c77c24d51d897fcf332217923f1bbe12e409a82a04efed7a1aa82dc10b6d",
+    "delivery/reference/drawing-update.json": "87c2ac310675c2960ab9dafa3360f94729fb53ce5cf0fbcee45d9835f383f034",
+    "delivery/reference/Supply Air Distribution.dxf": "926932722bbe21f1873685283e6476ddbe373e0c5edbc9eb0c59cb15a105d0be",
+    "delivery/schedule/results.json": "2bdf0c9d02f06bd75b9a8394f0937eeb42f6dd70a94c8be05f7e96801b33c929",
+    "delivery/schedule/schedule.csv": "b8b0f18702a9383a5d77efcb1becaa4ec05780491856d1cbd9bfdaab96d6cf1e",
+    "delivery/native/reopened/export.log": "6451d05981fe49ab068e5ece7c13227cf299b3c7d88507d9c06d80391ef7225b",
+    "delivery/native/reopened/export.scr": "c256202b0034c8f5c15e091870107c5e6403ec1e04292d9e5bbfd8263cbea5f9",
+    "delivery/native/reopened/source-copy.dwg": "9af3c03b324fcc4ba943b357fc5438e5f26861a8773950f94bc4ab9f06946cd7",
+    "delivery/native/reopened/source-export.dxf": "69bce4c9e126652c0a1b703a6d63357ca9218f9e5800d1e4d348a28a5a4d2840",
+    "delivery/native/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log": "0261ad775770952eb802d1891f7cf84bc8e9dd5a04981ce7b0557dffd89bd459",
+    "delivery/native/reopened/ErrorReports/9d6767a77b9d2cce90e03082e1302957689eeac5/cer.log": "f0a12381e418639408c50f61a992e7ebe99b357b962e1cd7357c2337d04579a9",
+    "delivery/temp/gen_py/3.12/dicts.dat": "83cda9fecc9c008b22c0c8e58cbcbfa577a3ef8ee9b2f983ed4a8659596d5c11",
+    "delivery/temp/gen_py/3.12/__init__.py": "52c72cf96b12ae74d84f6c049775da045fae47c007dc834ca4dac607b6f518ea"
+  }
+}

@@ -1,0 +1,2007 @@
+{
+  "summary": {
+    "source_rows_reconciled": 9,
+    "native_held_out_points": 3,
+    "held_out_pressure_displays_match": true,
+    "operating_cases": 160,
+    "source_flow_bounds_CFM": [
+      70,
+      628
+    ],
+    "quadratic_coefficient_in_wc_per_CFM_squared": "0.000001168254008312836190828623684",
+    "coefficient_source_rounding_interval": [
+      "0.000001167643717797882267029088401",
+      "0.000001168864298827790114628158966"
+    ],
+    "maximum_linear_minus_diagnostic_Pa": 0.34842047917095,
+    "minimum_linear_minus_diagnostic_Pa": -0.05531472215021083,
+    "source_rounding_is_not_measurement_uncertainty": true,
+    "constant_quadratic_coefficient_is_explicit_diagnostic_assumption": true,
+    "source_definition_url": "https://www.krueger-hvac.com/file/9261/GRD_Engineering.pdf",
+    "production_pressure_method_replaced": false,
+    "native_software_rerun": false,
+    "pressure_budget_complete": false,
+    "ADPI_verified": false,
+    "design_accepted": false
+  },
+  "native_checks": [
+    {
+      "flow_CFM": 112.0,
+      "export_total_pressure_in_wc": 0.01,
+      "quadratic_diagnostic_pressure_in_wc": 0.014654578280276217,
+      "fits_assumed_nearest_0_01_display": true,
+      "independent_MCP_checks": {
+        "model": true,
+        "neck": true,
+        "module": true,
+        "border": true,
+        "airflow": true,
+        "terminal_velocity": true,
+        "throw_pattern": true
+      },
+      "pdf_sha256": "0dee7660b2aecd148e5e62dfdf39cb0e30ca9af595594e536db04bca8a1a3234"
+    },
+    {
+      "flow_CFM": 280.0,
+      "export_total_pressure_in_wc": 0.09,
+      "quadratic_diagnostic_pressure_in_wc": 0.09159111425172636,
+      "fits_assumed_nearest_0_01_display": true,
+      "independent_MCP_checks": {
+        "model": true,
+        "neck": true,
+        "module": true,
+        "border": true,
+        "airflow": true,
+        "terminal_velocity": true,
+        "throw_pattern": true
+      },
+      "pdf_sha256": "41d84536c92e397a80e0830148bbae5930e6a9e4b7f9e942183975d01ea2d22d"
+    },
+    {
+      "flow_CFM": 300.0,
+      "export_total_pressure_in_wc": 0.11,
+      "quadratic_diagnostic_pressure_in_wc": 0.10514286074815525,
+      "fits_assumed_nearest_0_01_display": true,
+      "independent_MCP_checks": {
+        "model": true,
+        "neck": true,
+        "module": true,
+        "border": true,
+        "airflow": true,
+        "terminal_velocity": true,
+        "throw_pattern": true
+      },
+      "pdf_sha256": "e1038b0fda46440e026be54009ccf6fcc9f73e1ee2f35226645af2b96b2b11cc"
+    }
+  ],
+  "operating_points": [
+    {
+      "terminal": "SD-01",
+      "condition": "maximum",
+      "flow_L_s": 132.2079462708783,
+      "source_calibrated_quadratic_diagnostic_Pa": 22.8359726696424,
+      "source_rounding_only_interval_Pa": [
+        22.82404326266338,
+        22.847902076621413
+      ],
+      "previous_catalogue_linear_Pa": 22.780657947492188,
+      "linear_minus_diagnostic_Pa": -0.05531472215021083
+    },
+    {
+      "terminal": "SD-01",
+      "condition": "minimum",
+      "flow_L_s": 52.88317850835132,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.6537556271427833,
+      "source_rounding_only_interval_Pa": [
+        3.651846922026141,
+        3.655664332259426
+      ],
+      "previous_catalogue_linear_Pa": 3.9908384116942637,
+      "linear_minus_diagnostic_Pa": 0.33708278455148033
+    },
+    {
+      "terminal": "SD-02",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-02",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-03",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-03",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-04",
+      "condition": "maximum",
+      "flow_L_s": 140.97733611117417,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.965877065543136,
+      "source_rounding_only_interval_Pa": [
+        25.952312610918714,
+        25.979441520167562
+      ],
+      "previous_catalogue_linear_Pa": 26.182118249182707,
+      "linear_minus_diagnostic_Pa": 0.21624118363957123
+    },
+    {
+      "terminal": "SD-04",
+      "condition": "minimum",
+      "flow_L_s": 56.39093444446967,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.154540330486903,
+      "source_rounding_only_interval_Pa": [
+        4.152370017746994,
+        4.15671064322681
+      ],
+      "previous_catalogue_linear_Pa": 4.447909639733927,
+      "linear_minus_diagnostic_Pa": 0.29336930924702465
+    },
+    {
+      "terminal": "SD-05",
+      "condition": "maximum",
+      "flow_L_s": 142.29686125710415,
+      "source_calibrated_quadratic_diagnostic_Pa": 26.454224696595144,
+      "source_rounding_only_interval_Pa": [
+        26.440405131416757,
+        26.46804426177353
+      ],
+      "previous_catalogue_linear_Pa": 26.69393406336161,
+      "linear_minus_diagnostic_Pa": 0.2397093667664656
+    },
+    {
+      "terminal": "SD-05",
+      "condition": "minimum",
+      "flow_L_s": 56.91874450284166,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.2326759514552235,
+      "source_rounding_only_interval_Pa": [
+        4.230464821026681,
+        4.234887081883765
+      ],
+      "previous_catalogue_linear_Pa": 4.516684889764218,
+      "linear_minus_diagnostic_Pa": 0.2840089383089941
+    },
+    {
+      "terminal": "SD-06",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590998,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731263108,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597758,
+        28.563518390928458
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655993,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-06",
+      "condition": "minimum",
+      "flow_L_s": 59.128959506364,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002099,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455643,
+        4.570162942548555
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344401,
+      "linear_minus_diagnostic_Pa": 0.23690584534230208
+    },
+    {
+      "terminal": "SD-07",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-07",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-08",
+      "condition": "maximum",
+      "flow_L_s": 157.2150781832292,
+      "source_calibrated_quadratic_diagnostic_Pa": 32.29183976170015,
+      "source_rounding_only_interval_Pa": [
+        32.27497065328987,
+        32.308708870110436
+      ],
+      "previous_catalogue_linear_Pa": 32.48039396197981,
+      "linear_minus_diagnostic_Pa": 0.18855420027965408
+    },
+    {
+      "terminal": "SD-08",
+      "condition": "minimum",
+      "flow_L_s": 62.88603127329168,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.1666943618720245,
+      "source_rounding_only_interval_Pa": [
+        5.163995304526379,
+        5.16939341921767
+      ],
+      "previous_catalogue_linear_Pa": 5.294240438641038,
+      "linear_minus_diagnostic_Pa": 0.12754607676901397
+    },
+    {
+      "terminal": "SD-09",
+      "condition": "maximum",
+      "flow_L_s": 153.5771528024121,
+      "source_calibrated_quadratic_diagnostic_Pa": 30.814677045215817,
+      "source_rounding_only_interval_Pa": [
+        30.79857959980733,
+        30.830774490624304
+      ],
+      "previous_catalogue_linear_Pa": 31.069319874874992,
+      "linear_minus_diagnostic_Pa": 0.2546428296591756
+    },
+    {
+      "terminal": "SD-09",
+      "condition": "minimum",
+      "flow_L_s": 61.430861120964835,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.93034832723453,
+      "source_rounding_only_interval_Pa": [
+        4.927772735969172,
+        4.932923918499888
+      ],
+      "previous_catalogue_linear_Pa": 5.1046273581863275,
+      "linear_minus_diagnostic_Pa": 0.17427903095179786
+    },
+    {
+      "terminal": "SD-10",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345542,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102487,
+      "source_rounding_only_interval_Pa": [
+        25.10241258239612,
+        25.12865305980885
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988574,
+      "linear_minus_diagnostic_Pa": 0.1637528587832513
+    },
+    {
+      "terminal": "SD-10",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738217,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376398,
+      "source_rounding_only_interval_Pa": [
+        4.0163860131833795,
+        4.0205844895694165
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234646,
+      "linear_minus_diagnostic_Pa": 0.3081062618582484
+    },
+    {
+      "terminal": "SD-11",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345486,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102285,
+      "source_rounding_only_interval_Pa": [
+        25.102412582395917,
+        25.12865305980865
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988552,
+      "linear_minus_diagnostic_Pa": 0.16375285878323353
+    },
+    {
+      "terminal": "SD-11",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738194,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376365,
+      "source_rounding_only_interval_Pa": [
+        4.016386013183347,
+        4.020584489569384
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234618,
+      "linear_minus_diagnostic_Pa": 0.30810626185825285
+    },
+    {
+      "terminal": "SD-12",
+      "condition": "maximum",
+      "flow_L_s": 123.03527672034707,
+      "source_calibrated_quadratic_diagnostic_Pa": 19.777149545226493,
+      "source_rounding_only_interval_Pa": [
+        19.76681805336394,
+        19.787481037089044
+      ],
+      "previous_catalogue_linear_Pa": 20.01058301610412,
+      "linear_minus_diagnostic_Pa": 0.23343347087762822
+    },
+    {
+      "terminal": "SD-12",
+      "condition": "minimum",
+      "flow_L_s": 49.21411068813883,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.164343927236239,
+      "source_rounding_only_interval_Pa": [
+        3.162690888538231,
+        3.1659969659342475
+      ],
+      "previous_catalogue_linear_Pa": 3.512747756333242,
+      "linear_minus_diagnostic_Pa": 0.34840382909700285
+    },
+    {
+      "terminal": "SD-13",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-13",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-14",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-14",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-15",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-15",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-16",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-16",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-17",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-17",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-18",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876591012,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731263165,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597815,
+        28.563518390928515
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854656046,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-18",
+      "condition": "minimum",
+      "flow_L_s": 59.128959506364055,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.5677767570021075,
+      "source_rounding_only_interval_Pa": [
+        4.5653905714556515,
+        4.5701629425485635
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344408,
+      "linear_minus_diagnostic_Pa": 0.2369058453423003
+    },
+    {
+      "terminal": "SD-19",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590955,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262945,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597595,
+        28.563518390928294
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655826,
+      "linear_minus_diagnostic_Pa": 0.2885681233928814
+    },
+    {
+      "terminal": "SD-19",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636383,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002073,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455617,
+        4.570162942548529
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443785,
+      "linear_minus_diagnostic_Pa": 0.23690584534230563
+    },
+    {
+      "terminal": "SD-20",
+      "condition": "maximum",
+      "flow_L_s": 163.87458504270492,
+      "source_calibrated_quadratic_diagnostic_Pa": 35.08549488838602,
+      "source_rounding_only_interval_Pa": [
+        35.06716638740038,
+        35.10382338937167
+      ],
+      "previous_catalogue_linear_Pa": 35.06347541050373,
+      "linear_minus_diagnostic_Pa": -0.022019477882295746
+    },
+    {
+      "terminal": "SD-20",
+      "condition": "minimum",
+      "flow_L_s": 65.54983401708198,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.613679182141766,
+      "source_rounding_only_interval_Pa": [
+        5.610746621984062,
+        5.616611742299469
+      ],
+      "previous_catalogue_linear_Pa": 5.64134200828644,
+      "linear_minus_diagnostic_Pa": 0.027662826144673858
+    },
+    {
+      "terminal": "SD-21",
+      "condition": "maximum",
+      "flow_L_s": 159.28824610647737,
+      "source_calibrated_quadratic_diagnostic_Pa": 33.149108828643975,
+      "source_rounding_only_interval_Pa": [
+        33.13179188682024,
+        33.166425770467704
+      ],
+      "previous_catalogue_linear_Pa": 33.2845318231185,
+      "linear_minus_diagnostic_Pa": 0.13542299447452422
+    },
+    {
+      "terminal": "SD-21",
+      "condition": "minimum",
+      "flow_L_s": 63.71529844259095,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.303857412583036,
+      "source_rounding_only_interval_Pa": [
+        5.301086701891238,
+        5.306628123274833
+      ],
+      "previous_catalogue_linear_Pa": 5.402296463731549,
+      "linear_minus_diagnostic_Pa": 0.09843905114851292
+    },
+    {
+      "terminal": "SD-22",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345557,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.11553282110254,
+      "source_rounding_only_interval_Pa": [
+        25.102412582396177,
+        25.128653059808908
+      ],
+      "previous_catalogue_linear_Pa": 25.279285679885795,
+      "linear_minus_diagnostic_Pa": 0.16375285878325485
+    },
+    {
+      "terminal": "SD-22",
+      "condition": "minimum",
+      "flow_L_s": 55.459888357382226,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376406,
+      "source_rounding_only_interval_Pa": [
+        4.0163860131833875,
+        4.0205844895694245
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234654,
+      "linear_minus_diagnostic_Pa": 0.3081062618582484
+    },
+    {
+      "terminal": "SD-23",
+      "condition": "maximum",
+      "flow_L_s": 138.649720893455,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102335,
+      "source_rounding_only_interval_Pa": [
+        25.102412582395967,
+        25.1286530598087
+      ],
+      "previous_catalogue_linear_Pa": 25.279285679885575,
+      "linear_minus_diagnostic_Pa": 0.16375285878324064
+    },
+    {
+      "terminal": "SD-23",
+      "condition": "minimum",
+      "flow_L_s": 55.459888357382,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376373,
+      "source_rounding_only_interval_Pa": [
+        4.016386013183355,
+        4.020584489569392
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234625,
+      "linear_minus_diagnostic_Pa": 0.30810626185825196
+    },
+    {
+      "terminal": "SD-24",
+      "condition": "maximum",
+      "flow_L_s": 138.649720893455,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102335,
+      "source_rounding_only_interval_Pa": [
+        25.102412582395967,
+        25.1286530598087
+      ],
+      "previous_catalogue_linear_Pa": 25.279285679885575,
+      "linear_minus_diagnostic_Pa": 0.16375285878324064
+    },
+    {
+      "terminal": "SD-24",
+      "condition": "minimum",
+      "flow_L_s": 55.459888357382,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376373,
+      "source_rounding_only_interval_Pa": [
+        4.016386013183355,
+        4.020584489569392
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234625,
+      "linear_minus_diagnostic_Pa": 0.30810626185825196
+    },
+    {
+      "terminal": "SD-25",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-25",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-26",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-26",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-27",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-27",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-28",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-28",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-29",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-29",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-30",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590998,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731263108,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597758,
+        28.563518390928458
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655993,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-30",
+      "condition": "minimum",
+      "flow_L_s": 59.128959506364,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002099,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455643,
+        4.570162942548555
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344401,
+      "linear_minus_diagnostic_Pa": 0.23690584534230208
+    },
+    {
+      "terminal": "SD-31",
+      "condition": "maximum",
+      "flow_L_s": 147.8223987659094,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731262884,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597534,
+        28.563518390928234
+      ],
+      "previous_catalogue_linear_Pa": 28.83717285465577,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-31",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636377,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002063,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455607,
+        4.570162942548519
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344371,
+      "linear_minus_diagnostic_Pa": 0.2369058453423083
+    },
+    {
+      "terminal": "SD-32",
+      "condition": "maximum",
+      "flow_L_s": 163.87458504270475,
+      "source_calibrated_quadratic_diagnostic_Pa": 35.08549488838595,
+      "source_rounding_only_interval_Pa": [
+        35.067166387400306,
+        35.1038233893716
+      ],
+      "previous_catalogue_linear_Pa": 35.063475410503656,
+      "linear_minus_diagnostic_Pa": -0.022019477882295746
+    },
+    {
+      "terminal": "SD-32",
+      "condition": "minimum",
+      "flow_L_s": 65.5498340170819,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.613679182141752,
+      "source_rounding_only_interval_Pa": [
+        5.610746621984049,
+        5.6166117422994555
+      ],
+      "previous_catalogue_linear_Pa": 5.641342008286431,
+      "linear_minus_diagnostic_Pa": 0.027662826144679187
+    },
+    {
+      "terminal": "SD-33",
+      "condition": "maximum",
+      "flow_L_s": 159.2882461064772,
+      "source_calibrated_quadratic_diagnostic_Pa": 33.149108828643904,
+      "source_rounding_only_interval_Pa": [
+        33.13179188682017,
+        33.16642577046763
+      ],
+      "previous_catalogue_linear_Pa": 33.28453182311843,
+      "linear_minus_diagnostic_Pa": 0.13542299447452422
+    },
+    {
+      "terminal": "SD-33",
+      "condition": "minimum",
+      "flow_L_s": 63.715298442590885,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.303857412583025,
+      "source_rounding_only_interval_Pa": [
+        5.3010867018912275,
+        5.306628123274822
+      ],
+      "previous_catalogue_linear_Pa": 5.40229646373154,
+      "linear_minus_diagnostic_Pa": 0.0984390511485147
+    },
+    {
+      "terminal": "SD-34",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345542,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102487,
+      "source_rounding_only_interval_Pa": [
+        25.10241258239612,
+        25.12865305980885
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988574,
+      "linear_minus_diagnostic_Pa": 0.1637528587832513
+    },
+    {
+      "terminal": "SD-34",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738217,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376398,
+      "source_rounding_only_interval_Pa": [
+        4.0163860131833795,
+        4.0205844895694165
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234646,
+      "linear_minus_diagnostic_Pa": 0.3081062618582484
+    },
+    {
+      "terminal": "SD-35",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345486,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102285,
+      "source_rounding_only_interval_Pa": [
+        25.102412582395917,
+        25.12865305980865
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988552,
+      "linear_minus_diagnostic_Pa": 0.16375285878323353
+    },
+    {
+      "terminal": "SD-35",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738194,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376365,
+      "source_rounding_only_interval_Pa": [
+        4.016386013183347,
+        4.020584489569384
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234618,
+      "linear_minus_diagnostic_Pa": 0.30810626185825285
+    },
+    {
+      "terminal": "SD-36",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345486,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102285,
+      "source_rounding_only_interval_Pa": [
+        25.102412582395917,
+        25.12865305980865
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988552,
+      "linear_minus_diagnostic_Pa": 0.16375285878323353
+    },
+    {
+      "terminal": "SD-36",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738194,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376365,
+      "source_rounding_only_interval_Pa": [
+        4.016386013183347,
+        4.020584489569384
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234618,
+      "linear_minus_diagnostic_Pa": 0.30810626185825285
+    },
+    {
+      "terminal": "SD-37",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-37",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-38",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-38",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-39",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-39",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-40",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-40",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-41",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-41",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-42",
+      "condition": "maximum",
+      "flow_L_s": 161.3908068105263,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.0300025862696,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960278,
+        34.047779702936424
+      ],
+      "previous_catalogue_linear_Pa": 34.100070520446565,
+      "linear_minus_diagnostic_Pa": 0.07006793417696144
+    },
+    {
+      "terminal": "SD-42",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421052,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138031365,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136446,
+        5.447644752469828
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476185008,
+      "linear_minus_diagnostic_Pa": 0.06708406238187159
+    },
+    {
+      "terminal": "SD-43",
+      "condition": "maximum",
+      "flow_L_s": 161.39080681052567,
+      "source_calibrated_quadratic_diagnostic_Pa": 34.03000258626934,
+      "source_rounding_only_interval_Pa": [
+        34.01222546960252,
+        34.04777970293616
+      ],
+      "previous_catalogue_linear_Pa": 34.10007052044632,
+      "linear_minus_diagnostic_Pa": 0.07006793417698276
+    },
+    {
+      "terminal": "SD-43",
+      "condition": "minimum",
+      "flow_L_s": 64.55632272421028,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.4448004138030965,
+      "source_rounding_only_interval_Pa": [
+        5.441956075136405,
+        5.447644752469787
+      ],
+      "previous_catalogue_linear_Pa": 5.511884476184976,
+      "linear_minus_diagnostic_Pa": 0.06708406238187958
+    },
+    {
+      "terminal": "SD-44",
+      "condition": "maximum",
+      "flow_L_s": 178.91640046827322,
+      "source_calibrated_quadratic_diagnostic_Pa": 41.821990707827396,
+      "source_rounding_only_interval_Pa": [
+        41.800143092442504,
+        41.84383832321229
+      ],
+      "previous_catalogue_linear_Pa": 42.07866203954734,
+      "linear_minus_diagnostic_Pa": 0.25667133171994294
+    },
+    {
+      "terminal": "SD-44",
+      "condition": "minimum",
+      "flow_L_s": 71.56656018730929,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.691518513252384,
+      "source_rounding_only_interval_Pa": [
+        6.688022894790801,
+        6.695014131713966
+      ],
+      "previous_catalogue_linear_Pa": 6.897653858481696,
+      "linear_minus_diagnostic_Pa": 0.20613534522931243
+    },
+    {
+      "terminal": "SD-45",
+      "condition": "maximum",
+      "flow_L_s": 173.9090879946307,
+      "source_calibrated_quadratic_diagnostic_Pa": 39.513814065174245,
+      "source_rounding_only_interval_Pa": [
+        39.49317223063994,
+        39.53445589970855
+      ],
+      "previous_catalogue_linear_Pa": 39.71156887018906,
+      "linear_minus_diagnostic_Pa": 0.19775480501481724
+    },
+    {
+      "terminal": "SD-45",
+      "condition": "minimum",
+      "flow_L_s": 69.56363519785229,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.322210250427881,
+      "source_rounding_only_interval_Pa": [
+        6.318907556902393,
+        6.3255129439533695
+      ],
+      "previous_catalogue_linear_Pa": 6.46672151226519,
+      "linear_minus_diagnostic_Pa": 0.14451126183730878
+    },
+    {
+      "terminal": "SD-46",
+      "condition": "maximum",
+      "flow_L_s": 151.37618186324192,
+      "source_calibrated_quadratic_diagnostic_Pa": 29.937772963093675,
+      "source_rounding_only_interval_Pa": [
+        29.922133608340157,
+        29.95341231784719
+      ],
+      "previous_catalogue_linear_Pa": 30.215609934833232,
+      "linear_minus_diagnostic_Pa": 0.277836971739557
+    },
+    {
+      "terminal": "SD-46",
+      "condition": "minimum",
+      "flow_L_s": 60.55047274529677,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.7900436740949885,
+      "source_rounding_only_interval_Pa": [
+        4.787541377334426,
+        4.79254597085555
+      ],
+      "previous_catalogue_linear_Pa": 4.989910084993216,
+      "linear_minus_diagnostic_Pa": 0.19986641089822754
+    },
+    {
+      "terminal": "SD-47",
+      "condition": "maximum",
+      "flow_L_s": 151.3761818632413,
+      "source_calibrated_quadratic_diagnostic_Pa": 29.93777296309343,
+      "source_rounding_only_interval_Pa": [
+        29.922133608339916,
+        29.953412317846944
+      ],
+      "previous_catalogue_linear_Pa": 30.21560993483299,
+      "linear_minus_diagnostic_Pa": 0.27783697173956057
+    },
+    {
+      "terminal": "SD-47",
+      "condition": "minimum",
+      "flow_L_s": 60.550472745296524,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.7900436740949495,
+      "source_rounding_only_interval_Pa": [
+        4.787541377334387,
+        4.792545970855511
+      ],
+      "previous_catalogue_linear_Pa": 4.989910084993184,
+      "linear_minus_diagnostic_Pa": 0.19986641089823465
+    },
+    {
+      "terminal": "SD-48",
+      "condition": "maximum",
+      "flow_L_s": 151.3761818632413,
+      "source_calibrated_quadratic_diagnostic_Pa": 29.93777296309343,
+      "source_rounding_only_interval_Pa": [
+        29.922133608339916,
+        29.953412317846944
+      ],
+      "previous_catalogue_linear_Pa": 30.21560993483299,
+      "linear_minus_diagnostic_Pa": 0.27783697173956057
+    },
+    {
+      "terminal": "SD-48",
+      "condition": "minimum",
+      "flow_L_s": 60.550472745296524,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.7900436740949495,
+      "source_rounding_only_interval_Pa": [
+        4.787541377334387,
+        4.792545970855511
+      ],
+      "previous_catalogue_linear_Pa": 4.989910084993184,
+      "linear_minus_diagnostic_Pa": 0.19986641089823465
+    },
+    {
+      "terminal": "SD-49",
+      "condition": "maximum",
+      "flow_L_s": 135.45179079297537,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.970323710742324,
+      "source_rounding_only_interval_Pa": [
+        23.95780172400233,
+        23.982845697482322
+      ],
+      "previous_catalogue_linear_Pa": 24.03887642879045,
+      "linear_minus_diagnostic_Pa": 0.06855271804812446
+    },
+    {
+      "terminal": "SD-49",
+      "condition": "minimum",
+      "flow_L_s": 54.180716317190154,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.835251793718773,
+      "source_rounding_only_interval_Pa": [
+        3.8332482758403734,
+        3.8372553115971724
+      ],
+      "previous_catalogue_linear_Pa": 4.159911520118717,
+      "linear_minus_diagnostic_Pa": 0.3246597263999442
+    },
+    {
+      "terminal": "SD-50",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590972,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.54860473126301,
+      "source_rounding_only_interval_Pa": [
+        28.53369107159766,
+        28.56351839092836
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655893,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-50",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636389,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002082,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455626,
+        4.570162942548538
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443865,
+      "linear_minus_diagnostic_Pa": 0.23690584534230474
+    },
+    {
+      "terminal": "SD-51",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590972,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.54860473126301,
+      "source_rounding_only_interval_Pa": [
+        28.53369107159766,
+        28.56351839092836
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655893,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-51",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636389,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002082,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455626,
+        4.570162942548538
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443865,
+      "linear_minus_diagnostic_Pa": 0.23690584534230474
+    },
+    {
+      "terminal": "SD-52",
+      "condition": "maximum",
+      "flow_L_s": 139.67350838383905,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.487807647756526,
+      "source_rounding_only_interval_Pa": [
+        25.47449293439478,
+        25.501122361118274
+      ],
+      "previous_catalogue_linear_Pa": 25.676391130701205,
+      "linear_minus_diagnostic_Pa": 0.1885834829446793
+    },
+    {
+      "terminal": "SD-52",
+      "condition": "minimum",
+      "flow_L_s": 55.869403353535624,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.078049223641044,
+      "source_rounding_only_interval_Pa": [
+        4.075918869503165,
+        4.0801795777789245
+      ],
+      "previous_catalogue_linear_Pa": 4.379952558187976,
+      "linear_minus_diagnostic_Pa": 0.30190333454693175
+    },
+    {
+      "terminal": "SD-53",
+      "condition": "maximum",
+      "flow_L_s": 141.24437881893672,
+      "source_calibrated_quadratic_diagnostic_Pa": 26.064340628362928,
+      "source_rounding_only_interval_Pa": [
+        26.05072473682664,
+        26.07795651989921
+      ],
+      "previous_catalogue_linear_Pa": 26.285698450981517,
+      "linear_minus_diagnostic_Pa": 0.2213578226185895
+    },
+    {
+      "terminal": "SD-53",
+      "condition": "minimum",
+      "flow_L_s": 56.49775152757469,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.170294500538069,
+      "source_rounding_only_interval_Pa": [
+        4.168115957892263,
+        4.172473043183874
+      ],
+      "previous_catalogue_linear_Pa": 4.461828229350642,
+      "linear_minus_diagnostic_Pa": 0.2915337288125732
+    },
+    {
+      "terminal": "SD-54",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876591026,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.548604731263218,
+      "source_rounding_only_interval_Pa": [
+        28.533691071597868,
+        28.563518390928568
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854656103,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-54",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636411,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.5677767570021155,
+      "source_rounding_only_interval_Pa": [
+        4.5653905714556595,
+        4.5701629425485715
+      ],
+      "previous_catalogue_linear_Pa": 4.804682602344416,
+      "linear_minus_diagnostic_Pa": 0.2369058453423003
+    },
+    {
+      "terminal": "SD-55",
+      "condition": "maximum",
+      "flow_L_s": 147.82239876590972,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.54860473126301,
+      "source_rounding_only_interval_Pa": [
+        28.53369107159766,
+        28.56351839092836
+      ],
+      "previous_catalogue_linear_Pa": 28.837172854655893,
+      "linear_minus_diagnostic_Pa": 0.28856812339288496
+    },
+    {
+      "terminal": "SD-55",
+      "condition": "minimum",
+      "flow_L_s": 59.12895950636389,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.567776757002082,
+      "source_rounding_only_interval_Pa": [
+        4.565390571455626,
+        4.570162942548538
+      ],
+      "previous_catalogue_linear_Pa": 4.8046826023443865,
+      "linear_minus_diagnostic_Pa": 0.23690584534230474
+    },
+    {
+      "terminal": "SD-56",
+      "condition": "maximum",
+      "flow_L_s": 155.94659779401857,
+      "source_calibrated_quadratic_diagnostic_Pa": 31.772852423096772,
+      "source_rounding_only_interval_Pa": [
+        31.756254431282603,
+        31.78945041491094
+      ],
+      "previous_catalogue_linear_Pa": 31.98837732616478,
+      "linear_minus_diagnostic_Pa": 0.2155249030680082
+    },
+    {
+      "terminal": "SD-56",
+      "condition": "minimum",
+      "flow_L_s": 62.378639117607435,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.083656387695485,
+      "source_rounding_only_interval_Pa": [
+        5.081000709005218,
+        5.086312066385752
+      ],
+      "previous_catalogue_linear_Pa": 5.2281257032033945,
+      "linear_minus_diagnostic_Pa": 0.14446931550790953
+    },
+    {
+      "terminal": "SD-57",
+      "condition": "maximum",
+      "flow_L_s": 152.48932302612008,
+      "source_calibrated_quadratic_diagnostic_Pa": 30.379685213450866,
+      "source_rounding_only_interval_Pa": [
+        30.36381500577246,
+        30.395555421129274
+      ],
+      "previous_catalogue_linear_Pa": 30.647373779828392,
+      "linear_minus_diagnostic_Pa": 0.2676885663775259
+    },
+    {
+      "terminal": "SD-57",
+      "condition": "minimum",
+      "flow_L_s": 60.99572921044803,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.860749634152138,
+      "source_rounding_only_interval_Pa": [
+        4.858210400923594,
+        4.8632888673806836
+      ],
+      "previous_catalogue_linear_Pa": 5.047928351664442,
+      "linear_minus_diagnostic_Pa": 0.18717871751230408
+    },
+    {
+      "terminal": "SD-58",
+      "condition": "maximum",
+      "flow_L_s": 138.6497208934557,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102587,
+      "source_rounding_only_interval_Pa": [
+        25.102412582396223,
+        25.128653059808954
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988585,
+      "linear_minus_diagnostic_Pa": 0.16375285878326196
+    },
+    {
+      "terminal": "SD-58",
+      "condition": "minimum",
+      "flow_L_s": 55.45988835738228,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376414,
+      "source_rounding_only_interval_Pa": [
+        4.0163860131833955,
+        4.0205844895694325
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234662,
+      "linear_minus_diagnostic_Pa": 0.3081062618582484
+    },
+    {
+      "terminal": "SD-59",
+      "condition": "maximum",
+      "flow_L_s": 138.64972089345514,
+      "source_calibrated_quadratic_diagnostic_Pa": 25.115532821102384,
+      "source_rounding_only_interval_Pa": [
+        25.10241258239602,
+        25.12865305980875
+      ],
+      "previous_catalogue_linear_Pa": 25.27928567988563,
+      "linear_minus_diagnostic_Pa": 0.1637528587832442
+    },
+    {
+      "terminal": "SD-59",
+      "condition": "minimum",
+      "flow_L_s": 55.459888357382056,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.018485251376382,
+      "source_rounding_only_interval_Pa": [
+        4.0163860131833635,
+        4.0205844895694005
+      ],
+      "previous_catalogue_linear_Pa": 4.326591513234632,
+      "linear_minus_diagnostic_Pa": 0.3081062618582502
+    },
+    {
+      "terminal": "SD-60",
+      "condition": "maximum",
+      "flow_L_s": 126.27911951359549,
+      "source_calibrated_quadratic_diagnostic_Pa": 20.833751846731612,
+      "source_rounding_only_interval_Pa": [
+        20.822868390691664,
+        20.844635302771557
+      ],
+      "previous_catalogue_linear_Pa": 20.983735854078645,
+      "linear_minus_diagnostic_Pa": 0.1499840073470331
+    },
+    {
+      "terminal": "SD-60",
+      "condition": "minimum",
+      "flow_L_s": 50.5116478054382,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.3334002954770585,
+      "source_rounding_only_interval_Pa": [
+        3.331658942510667,
+        3.3351416484434497
+      ],
+      "previous_catalogue_linear_Pa": 3.6818207746480085,
+      "linear_minus_diagnostic_Pa": 0.34842047917095
+    },
+    {
+      "terminal": "SD-61",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-61",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-62",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-62",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-63",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-63",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-64",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-64",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-65",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-65",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-66",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129352,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052621187,
+      "source_rounding_only_interval_Pa": [
+        23.53595755051528,
+        23.56056055472709
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865364,
+      "linear_minus_diagnostic_Pa": 0.02601613624417709
+    },
+    {
+      "terminal": "SD-66",
+      "condition": "minimum",
+      "flow_L_s": 53.70159628851741,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.76772144841939,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082445,
+        3.7696896887563347
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503784,
+      "linear_minus_diagnostic_Pa": 0.3297592800843945
+    },
+    {
+      "terminal": "SD-67",
+      "condition": "maximum",
+      "flow_L_s": 134.25399072129298,
+      "source_calibrated_quadratic_diagnostic_Pa": 23.548259052620995,
+      "source_rounding_only_interval_Pa": [
+        23.535957550515093,
+        23.5605605547269
+      ],
+      "previous_catalogue_linear_Pa": 23.574275188865155,
+      "linear_minus_diagnostic_Pa": 0.026016136244159327
+    },
+    {
+      "terminal": "SD-67",
+      "condition": "minimum",
+      "flow_L_s": 53.701596288517194,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.7677214484193597,
+      "source_rounding_only_interval_Pa": [
+        3.765753208082415,
+        3.7696896887563045
+      ],
+      "previous_catalogue_linear_Pa": 4.097480728503756,
+      "linear_minus_diagnostic_Pa": 0.32975928008439626
+    },
+    {
+      "terminal": "SD-68",
+      "condition": "maximum",
+      "flow_L_s": 148.83276961713614,
+      "source_calibrated_quadratic_diagnostic_Pa": 28.940199718985504,
+      "source_rounding_only_interval_Pa": [
+        28.925081491901587,
+        28.955317946069417
+      ],
+      "previous_catalogue_linear_Pa": 29.229074275737652,
+      "linear_minus_diagnostic_Pa": 0.28887455675214824
+    },
+    {
+      "terminal": "SD-68",
+      "condition": "minimum",
+      "flow_L_s": 59.533107846854456,
+      "source_calibrated_quadratic_diagnostic_Pa": 4.630431955037681,
+      "source_rounding_only_interval_Pa": [
+        4.628013038704253,
+        4.632850871371107
+      ],
+      "previous_catalogue_linear_Pa": 4.8573443558022475,
+      "linear_minus_diagnostic_Pa": 0.22691240076456687
+    },
+    {
+      "terminal": "SD-69",
+      "condition": "maximum",
+      "flow_L_s": 156.33996490847534,
+      "source_calibrated_quadratic_diagnostic_Pa": 31.93334529342629,
+      "source_rounding_only_interval_Pa": [
+        31.91666346087562,
+        31.950027125976963
+      ],
+      "previous_catalogue_linear_Pa": 32.14095608571164,
+      "linear_minus_diagnostic_Pa": 0.2076107922853545
+    },
+    {
+      "terminal": "SD-69",
+      "condition": "minimum",
+      "flow_L_s": 62.53598596339014,
+      "source_calibrated_quadratic_diagnostic_Pa": 5.109335246948207,
+      "source_rounding_only_interval_Pa": [
+        5.1066661537400995,
+        5.112004340156314
+      ],
+      "previous_catalogue_linear_Pa": 5.248628474017504,
+      "linear_minus_diagnostic_Pa": 0.13929322706929703
+    },
+    {
+      "terminal": "SD-70",
+      "condition": "maximum",
+      "flow_L_s": 137.59582061382065,
+      "source_calibrated_quadratic_diagnostic_Pa": 24.73516900678235,
+      "source_rounding_only_interval_Pa": [
+        24.722247468381276,
+        24.748090545183423
+      ],
+      "previous_catalogue_linear_Pa": 24.87050011687589,
+      "linear_minus_diagnostic_Pa": 0.1353311100935386
+    },
+    {
+      "terminal": "SD-70",
+      "condition": "minimum",
+      "flow_L_s": 55.03832824552826,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.957627041085176,
+      "source_rounding_only_interval_Pa": [
+        3.9555595949410045,
+        3.959694487229348
+      ],
+      "previous_catalogue_linear_Pa": 4.271660953205199,
+      "linear_minus_diagnostic_Pa": 0.31403391212002285
+    },
+    {
+      "terminal": "SD-71",
+      "condition": "maximum",
+      "flow_L_s": 137.5958206138201,
+      "source_calibrated_quadratic_diagnostic_Pa": 24.73516900678215,
+      "source_rounding_only_interval_Pa": [
+        24.72224746838108,
+        24.748090545183224
+      ],
+      "previous_catalogue_linear_Pa": 24.87050011687568,
+      "linear_minus_diagnostic_Pa": 0.13533111009352794
+    },
+    {
+      "terminal": "SD-71",
+      "condition": "minimum",
+      "flow_L_s": 55.03832824552805,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.957627041085146,
+      "source_rounding_only_interval_Pa": [
+        3.9555595949409743,
+        3.9596944872293176
+      ],
+      "previous_catalogue_linear_Pa": 4.271660953205171,
+      "linear_minus_diagnostic_Pa": 0.3140339121200246
+    },
+    {
+      "terminal": "SD-72",
+      "condition": "maximum",
+      "flow_L_s": 137.5958206138201,
+      "source_calibrated_quadratic_diagnostic_Pa": 24.73516900678215,
+      "source_rounding_only_interval_Pa": [
+        24.72224746838108,
+        24.748090545183224
+      ],
+      "previous_catalogue_linear_Pa": 24.87050011687568,
+      "linear_minus_diagnostic_Pa": 0.13533111009352794
+    },
+    {
+      "terminal": "SD-72",
+      "condition": "minimum",
+      "flow_L_s": 55.03832824552805,
+      "source_calibrated_quadratic_diagnostic_Pa": 3.957627041085146,
+      "source_rounding_only_interval_Pa": [
+        3.9555595949409743,
+        3.9596944872293176
+      ],
+      "previous_catalogue_linear_Pa": 4.271660953205171,
+      "linear_minus_diagnostic_Pa": 0.3140339121200246
+    },
+    {
+      "terminal": "SD-73",
+      "condition": "maximum",
+      "flow_L_s": 173.66740296391004,
+      "source_calibrated_quadratic_diagnostic_Pa": 39.40406406151382,
+      "source_rounding_only_interval_Pa": [
+        39.38347955987611,
+        39.424648563151536
+      ],
+      "previous_catalogue_linear_Pa": 39.59731776475747,
+      "linear_minus_diagnostic_Pa": 0.19325370324364854
+    },
+    {
+      "terminal": "SD-73",
+      "condition": "minimum",
+      "flow_L_s": 69.46696118556402,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.304650249842212,
+      "source_rounding_only_interval_Pa": [
+        6.301356729580179,
+        6.307943770104246
+      ],
+      "previous_catalogue_linear_Pa": 6.445921952045592,
+      "linear_minus_diagnostic_Pa": 0.1412717022033796
+    },
+    {
+      "terminal": "SD-74",
+      "condition": "maximum",
+      "flow_L_s": 173.66740296391075,
+      "source_calibrated_quadratic_diagnostic_Pa": 39.40406406151414,
+      "source_rounding_only_interval_Pa": [
+        39.383479559876434,
+        39.424648563151855
+      ],
+      "previous_catalogue_linear_Pa": 39.597317764757804,
+      "linear_minus_diagnostic_Pa": 0.19325370324366276
+    },
+    {
+      "terminal": "SD-74",
+      "condition": "minimum",
+      "flow_L_s": 69.4669611855643,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.304650249842263,
+      "source_rounding_only_interval_Pa": [
+        6.301356729580229,
+        6.307943770104297
+      ],
+      "previous_catalogue_linear_Pa": 6.445921952045653,
+      "linear_minus_diagnostic_Pa": 0.14127170220339025
+    },
+    {
+      "terminal": "SD-75",
+      "condition": "maximum",
+      "flow_L_s": 173.66740296391004,
+      "source_calibrated_quadratic_diagnostic_Pa": 39.40406406151382,
+      "source_rounding_only_interval_Pa": [
+        39.38347955987611,
+        39.424648563151536
+      ],
+      "previous_catalogue_linear_Pa": 39.59731776475747,
+      "linear_minus_diagnostic_Pa": 0.19325370324364854
+    },
+    {
+      "terminal": "SD-75",
+      "condition": "minimum",
+      "flow_L_s": 69.46696118556402,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.304650249842212,
+      "source_rounding_only_interval_Pa": [
+        6.301356729580179,
+        6.307943770104246
+      ],
+      "previous_catalogue_linear_Pa": 6.445921952045592,
+      "linear_minus_diagnostic_Pa": 0.1412717022033796
+    },
+    {
+      "terminal": "SD-76",
+      "condition": "maximum",
+      "flow_L_s": 173.66740296391004,
+      "source_calibrated_quadratic_diagnostic_Pa": 39.40406406151382,
+      "source_rounding_only_interval_Pa": [
+        39.38347955987611,
+        39.424648563151536
+      ],
+      "previous_catalogue_linear_Pa": 39.59731776475747,
+      "linear_minus_diagnostic_Pa": 0.19325370324364854
+    },
+    {
+      "terminal": "SD-76",
+      "condition": "minimum",
+      "flow_L_s": 69.46696118556402,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.304650249842212,
+      "source_rounding_only_interval_Pa": [
+        6.301356729580179,
+        6.307943770104246
+      ],
+      "previous_catalogue_linear_Pa": 6.445921952045592,
+      "linear_minus_diagnostic_Pa": 0.1412717022033796
+    },
+    {
+      "terminal": "SD-77",
+      "condition": "maximum",
+      "flow_L_s": 185.33996365406188,
+      "source_calibrated_quadratic_diagnostic_Pa": 44.87893514778141,
+      "source_rounding_only_interval_Pa": [
+        44.855490598696164,
+        44.90237969686665
+      ],
+      "previous_catalogue_linear_Pa": 45.11525554555652,
+      "linear_minus_diagnostic_Pa": 0.23632039777510983
+    },
+    {
+      "terminal": "SD-77",
+      "condition": "minimum",
+      "flow_L_s": 74.13598546162476,
+      "source_calibrated_quadratic_diagnostic_Pa": 7.180629623645027,
+      "source_rounding_only_interval_Pa": [
+        7.176878495791388,
+        7.184380751498666
+      ],
+      "previous_catalogue_linear_Pa": 7.450469599319266,
+      "linear_minus_diagnostic_Pa": 0.26983997567423934
+    },
+    {
+      "terminal": "SD-78",
+      "condition": "maximum",
+      "flow_L_s": 185.33996365406261,
+      "source_calibrated_quadratic_diagnostic_Pa": 44.87893514778176,
+      "source_rounding_only_interval_Pa": [
+        44.85549059869652,
+        44.90237969686701
+      ],
+      "previous_catalogue_linear_Pa": 45.11525554555688,
+      "linear_minus_diagnostic_Pa": 0.23632039777511693
+    },
+    {
+      "terminal": "SD-78",
+      "condition": "minimum",
+      "flow_L_s": 74.13598546162505,
+      "source_calibrated_quadratic_diagnostic_Pa": 7.180629623645083,
+      "source_rounding_only_interval_Pa": [
+        7.176878495791444,
+        7.184380751498722
+      ],
+      "previous_catalogue_linear_Pa": 7.45046959931933,
+      "linear_minus_diagnostic_Pa": 0.26983997567424733
+    },
+    {
+      "terminal": "SD-79",
+      "condition": "maximum",
+      "flow_L_s": 185.33996365406188,
+      "source_calibrated_quadratic_diagnostic_Pa": 44.87893514778141,
+      "source_rounding_only_interval_Pa": [
+        44.855490598696164,
+        44.90237969686665
+      ],
+      "previous_catalogue_linear_Pa": 45.11525554555652,
+      "linear_minus_diagnostic_Pa": 0.23632039777510983
+    },
+    {
+      "terminal": "SD-79",
+      "condition": "minimum",
+      "flow_L_s": 74.13598546162476,
+      "source_calibrated_quadratic_diagnostic_Pa": 7.180629623645027,
+      "source_rounding_only_interval_Pa": [
+        7.176878495791388,
+        7.184380751498666
+      ],
+      "previous_catalogue_linear_Pa": 7.450469599319266,
+      "linear_minus_diagnostic_Pa": 0.26983997567423934
+    },
+    {
+      "terminal": "SD-80",
+      "condition": "maximum",
+      "flow_L_s": 169.9454337016663,
+      "source_calibrated_quadratic_diagnostic_Pa": 37.73317906732752,
+      "source_rounding_only_interval_Pa": [
+        37.71346742831752,
+        37.75289070633752
+      ],
+      "previous_catalogue_linear_Pa": 37.83784138624225,
+      "linear_minus_diagnostic_Pa": 0.10466231891473399
+    },
+    {
+      "terminal": "SD-80",
+      "condition": "minimum",
+      "flow_L_s": 67.97817348066653,
+      "source_calibrated_quadratic_diagnostic_Pa": 6.037308650772405,
+      "source_rounding_only_interval_Pa": [
+        6.034154788530805,
+        6.040462513014005
+      ],
+      "previous_catalogue_linear_Pa": 6.12560702159795,
+      "linear_minus_diagnostic_Pa": 0.08829837082554448
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\bse3227-terminal-source\\Krueger_1400_51400_Performance.pdf": "073c639219b28068a0c8190a926d493e42a12c0918db464ee8439c55a3994aef",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\upstream-gap-survey\\pressure_envelope_study.py": "9401d907319b44bb8fe222a7e2c0bccb3d02e13d4a8791fc11b4f37f3f66580a",
+    "C:\\Users\\lyuml-win\\Desktop\\k-select-agent-toolkit\\local\\auto-112-v2\\performance.pdf": "0dee7660b2aecd148e5e62dfdf39cb0e30ca9af595594e536db04bca8a1a3234",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\05_Calculations\\k-select sd-01 maximum.pdf": "41d84536c92e397a80e0830148bbae5930e6a9e4b7f9e942183975d01ea2d22d",
+    "C:\\Users\\lyuml-win\\Desktop\\k-select-agent-toolkit\\local\\auto-300-v7\\performance.pdf": "e1038b0fda46440e026be54009ccf6fcc9f73e1ee2f35226645af2b96b2b11cc",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\current-agent-hvac-package\\workflow\\terminal-lookup\\terminal-results.json": "42626d4688bb917f03d24a6613a40cfbac67e72afeb5a63bf2461e79b0136b4a"
+  }
+}

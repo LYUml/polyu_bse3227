@@ -1,0 +1,98 @@
+{
+  "integrity_pass": true,
+  "native_reopen_pass": true,
+  "editable_entities": {
+    "model_entities": 236,
+    "entity_types": {
+      "TEXT": 7,
+      "LINE": 225,
+      "DIMENSION": 3,
+      "LWPOLYLINE": 1
+    },
+    "editable_entity_correspondence": true,
+    "dimension_rendering_visual_review": "pending"
+  },
+  "artifacts": [
+    {
+      "path": "layout/drawing/Drawing.dxf",
+      "sha256": "f1347ef0ef2e017793d41f206cea29e0c42c5ad04a578500d95f2811561ae8e0",
+      "bytes": 137204
+    },
+    {
+      "path": "layout/drawing/Drawing.dwg",
+      "sha256": "c42b1b3a09a915b06a91c370d15e928d368e4f11aee3672ec205ba3838ac9661",
+      "bytes": 30935
+    },
+    {
+      "path": "layout/drawing/Drawing.pdf",
+      "sha256": "e86271cf9d062723fab84805c3004371cf8ef17c7da21aeb41a690b380b346cd",
+      "bytes": 14258
+    }
+  ],
+  "visual_review": "pending",
+  "design_accepted": false,
+  "layout": {
+    "placements": {
+      "bullhead-plan": {
+        "translation": [
+          2400.7313995551385,
+          1943.4858681022881
+        ],
+        "source_bounds": [
+          -2200.7313995551385,
+          -1383.4858681022881,
+          2200.7313995551385,
+          939.4078061911171
+        ],
+        "placed_bounds": [
+          200.0,
+          560.0,
+          4601.462799110277,
+          2882.893674293405
+        ],
+        "padded_region": [
+          160.0,
+          520.0,
+          4641.4628,
+          2922.893675
+        ]
+      }
+    },
+    "rotation": false,
+    "scaling": false,
+    "gap_mm": 4,
+    "rectpack_version": "0.2.2",
+    "rectpack_commit": "123d57e0ef22adb5ae5f09b435c69f0589f521d1",
+    "scope": "Inter-view approximate font/geometry bounding boxes; intra-view labels and actual native plots require separate review"
+  },
+  "scope": "Packed declared views and native drawing correspondence; visual/engineering acceptance separate",
+  "ifc_sections": {
+    "ifc_sha256": "a607abab13e0e2f3e885ff7a2e750de88ca3e17bdf66689f1d5f0690707c68a6",
+    "coverage": {
+      "bullhead-plan": {
+        "2GbZoz5nfRsPMRMT$Zb04z": 32,
+        "3uzI7S5cvHNQB22z57Xy_y": 32,
+        "2v8d4ojL5QafzZ9D0Bm0K7": 32,
+        "2gx8F2$bXVygUIF5pMJ0LR": 32,
+        "0RLFLPx$LMfeWyG_rCXnXn": 32,
+        "1YJt4TrT9S8BByBTRqevjy": 32,
+        "1NNygbUo1H2gfBYTyXz_Mi": 32
+      }
+    },
+    "view_kinds": {
+      "bullhead-plan": "section"
+    },
+    "runtimes": {
+      "ifcopenshell": "0.8.5",
+      "trimesh": "5.2.0",
+      "numpy": "2.5.4"
+    },
+    "methods": {
+      "drawing_ifc_sections.py": "ab2659500de95a0f8603a33143adf789db3ce9659b1705a779a277843293c1e2",
+      "circular_geometry.py": "b907345bd2904bf313b017cc1c7e1a07e403ff726bbb8a85e476ae538ea25cb9",
+      "drawing_layout.py": "58a33b3bf9c0e13c0303556c9c616070f9b28087309d3c57b3151b9040a36ad8",
+      "source_network_drawing.py": "f83ec18da30ed8c9abd67c0fb5c78d6b6065e10bd3538730547231eb710fae58"
+    },
+    "design_accepted": false
+  }
+}

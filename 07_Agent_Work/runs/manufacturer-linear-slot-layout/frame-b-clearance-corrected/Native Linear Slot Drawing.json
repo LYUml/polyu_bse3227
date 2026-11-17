@@ -1,0 +1,4104 @@
+{
+  "schema": "bsa.drawing-document/1",
+  "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+  "units": "m",
+  "layers": {
+    "BOUNDARY": {
+      "color": 7,
+      "lineweight": 35
+    },
+    "SERVICE": {
+      "color": 8,
+      "lineweight": 9
+    },
+    "FRAME_B": {
+      "color": 3,
+      "lineweight": 18
+    },
+    "ACTIVE_SLOT": {
+      "color": 5,
+      "lineweight": 25
+    },
+    "LABEL": {
+      "color": 7,
+      "lineweight": 18
+    }
+  },
+  "blocks": {
+    "0P5inch_8slots": [
+      {
+        "id": "0P5inch_8slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.14604999999999999,
+            -0.6191249999999999
+          ],
+          [
+            0.14604999999999999,
+            -0.6191249999999999
+          ],
+          [
+            0.14604999999999999,
+            0.6191249999999999
+          ],
+          [
+            -0.14604999999999999,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "0P5inch_8slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ],
+    "1P0inch_2slots": [
+      {
+        "id": "1P0inch_2slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.0635,
+            -0.6191249999999999
+          ],
+          [
+            0.0635,
+            -0.6191249999999999
+          ],
+          [
+            0.0635,
+            0.6191249999999999
+          ],
+          [
+            -0.0635,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "1P0inch_2slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ],
+    "0P75inch_6slots": [
+      {
+        "id": "0P75inch_6slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.13335,
+            -0.6191249999999999
+          ],
+          [
+            0.13335,
+            -0.6191249999999999
+          ],
+          [
+            0.13335,
+            0.6191249999999999
+          ],
+          [
+            -0.13335,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "0P75inch_6slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ],
+    "0P75inch_4slots": [
+      {
+        "id": "0P75inch_4slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.09525,
+            -0.6191249999999999
+          ],
+          [
+            0.09525,
+            -0.6191249999999999
+          ],
+          [
+            0.09525,
+            0.6191249999999999
+          ],
+          [
+            -0.09525,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "0P75inch_4slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ],
+    "0P5inch_6slots": [
+      {
+        "id": "0P5inch_6slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.1143,
+            -0.6191249999999999
+          ],
+          [
+            0.1143,
+            -0.6191249999999999
+          ],
+          [
+            0.1143,
+            0.6191249999999999
+          ],
+          [
+            -0.1143,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "0P5inch_6slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ],
+    "1P5inch_2slots": [
+      {
+        "id": "1P5inch_2slots-frame",
+        "kind": "polyline",
+        "layer": "FRAME_B",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "secondary_transcription",
+        "points": [
+          [
+            -0.07619999999999999,
+            -0.6191249999999999
+          ],
+          [
+            0.07619999999999999,
+            -0.6191249999999999
+          ],
+          [
+            0.07619999999999999,
+            0.6191249999999999
+          ],
+          [
+            -0.07619999999999999,
+            0.6191249999999999
+          ]
+        ],
+        "closed": true
+      },
+      {
+        "id": "1P5inch_2slots-active",
+        "kind": "line",
+        "layer": "ACTIVE_SLOT",
+        "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+        "classification": "assumed",
+        "start": [
+          0,
+          -0.6096
+        ],
+        "end": [
+          0,
+          0.6096
+        ]
+      }
+    ]
+  },
+  "entities": [
+    {
+      "kind": "polyline",
+      "id": "boundary-0",
+      "layer": "BOUNDARY",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "secondary_transcription",
+      "points": [
+        [
+          65.47093225182505,
+          16.105584
+        ],
+        [
+          65.47093225182505,
+          17.52558365525892
+        ],
+        [
+          64.525932,
+          17.52558365525892
+        ],
+        [
+          64.525932,
+          30.363083655259448
+        ],
+        [
+          65.47093225182505,
+          30.363083655259448
+        ],
+        [
+          65.47093225182505,
+          31.488083655259448
+        ],
+        [
+          64.525932,
+          31.488083655259448
+        ],
+        [
+          64.525932,
+          36.595584
+        ],
+        [
+          95.209266,
+          36.595584
+        ],
+        [
+          95.209266,
+          45.725584
+        ],
+        [
+          108.22093225182499,
+          45.725584
+        ],
+        [
+          108.22093225182499,
+          44.32558365525997
+        ],
+        [
+          109.165932,
+          44.32558365525997
+        ],
+        [
+          109.165932,
+          31.488083655259448
+        ],
+        [
+          108.22093225182499,
+          31.488083655259448
+        ],
+        [
+          108.22093225182499,
+          30.363083655259448
+        ],
+        [
+          109.165932,
+          30.363083655259448
+        ],
+        [
+          109.165932,
+          17.52558365525892
+        ],
+        [
+          108.22093225182499,
+          17.52558365525892
+        ],
+        [
+          108.22093225182499,
+          16.105584
+        ],
+        [
+          95.20926558515832,
+          16.105584
+        ],
+        [
+          95.20926558515832,
+          17.05058365525944
+        ],
+        [
+          94.08426558515829,
+          17.05058365525944
+        ],
+        [
+          94.08426558515829,
+          16.105584
+        ],
+        [
+          79.90843225182503,
+          16.105584
+        ],
+        [
+          79.90843225182503,
+          17.05058365525944
+        ],
+        [
+          78.78343225182502,
+          17.05058365525944
+        ],
+        [
+          78.78343225182502,
+          16.105584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "boundary-1",
+      "layer": "BOUNDARY",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "secondary_transcription",
+      "points": [
+        [
+          95.20926558515832,
+          31.488083655259448
+        ],
+        [
+          94.08426558515829,
+          31.488083655259448
+        ],
+        [
+          94.08426558515829,
+          30.363083655259448
+        ],
+        [
+          95.20926558515832,
+          30.363083655259448
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "boundary-2",
+      "layer": "BOUNDARY",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "secondary_transcription",
+      "points": [
+        [
+          79.908432,
+          31.488084
+        ],
+        [
+          78.783432,
+          31.488084
+        ],
+        [
+          78.783432,
+          30.363084
+        ],
+        [
+          79.908432,
+          30.363084
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-0-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          20.068250666666664
+        ],
+        [
+          75.685932,
+          20.068250666666664
+        ],
+        [
+          75.685932,
+          18.4
+        ],
+        [
+          64.525932,
+          18.4
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-1-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          21.339584000000002
+        ],
+        [
+          75.685932,
+          21.339584000000002
+        ],
+        [
+          75.685932,
+          20.068250666666664
+        ],
+        [
+          64.525932,
+          20.068250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-2-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          22.610917333333333
+        ],
+        [
+          75.685932,
+          22.610917333333333
+        ],
+        [
+          75.685932,
+          21.339584000000002
+        ],
+        [
+          64.525932,
+          21.339584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-3-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          23.882250666666664
+        ],
+        [
+          75.685932,
+          23.882250666666664
+        ],
+        [
+          75.685932,
+          22.610917333333333
+        ],
+        [
+          64.525932,
+          22.610917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-4-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          25.153584000000002
+        ],
+        [
+          75.685932,
+          25.153584000000002
+        ],
+        [
+          75.685932,
+          23.882250666666664
+        ],
+        [
+          64.525932,
+          23.882250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-5-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          26.424917333333333
+        ],
+        [
+          75.685932,
+          26.424917333333333
+        ],
+        [
+          75.685932,
+          25.153584000000002
+        ],
+        [
+          64.525932,
+          25.153584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-6-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          27.696250666666664
+        ],
+        [
+          75.685932,
+          27.696250666666664
+        ],
+        [
+          75.685932,
+          26.424917333333333
+        ],
+        [
+          64.525932,
+          26.424917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-7-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          28.967584000000002
+        ],
+        [
+          75.685932,
+          28.967584000000002
+        ],
+        [
+          75.685932,
+          27.696250666666664
+        ],
+        [
+          64.525932,
+          27.696250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-8-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          30.238917333333333
+        ],
+        [
+          75.685932,
+          30.238917333333333
+        ],
+        [
+          75.685932,
+          28.967584000000002
+        ],
+        [
+          64.525932,
+          28.967584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-9-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          32.781584
+        ],
+        [
+          75.685932,
+          32.781584
+        ],
+        [
+          75.685932,
+          31.510250666666668
+        ],
+        [
+          64.525932,
+          31.510250666666668
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-10-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          34.05291733333334
+        ],
+        [
+          75.685932,
+          34.05291733333334
+        ],
+        [
+          75.685932,
+          32.781584
+        ],
+        [
+          64.525932,
+          32.781584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-11-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          35.32425066666667
+        ],
+        [
+          75.685932,
+          35.32425066666667
+        ],
+        [
+          75.685932,
+          34.05291733333334
+        ],
+        [
+          64.525932,
+          34.05291733333334
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-12-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          18.4
+        ],
+        [
+          75.685932,
+          20.068250666666664
+        ],
+        [
+          86.84593199999999,
+          20.068250666666664
+        ],
+        [
+          86.84593199999999,
+          18.4
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-13-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          20.068250666666664
+        ],
+        [
+          75.685932,
+          21.339584000000002
+        ],
+        [
+          86.84593199999999,
+          21.339584000000002
+        ],
+        [
+          86.84593199999999,
+          20.068250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-14-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          21.339584000000002
+        ],
+        [
+          75.685932,
+          22.610917333333333
+        ],
+        [
+          86.84593199999999,
+          22.610917333333333
+        ],
+        [
+          86.84593199999999,
+          21.339584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-15-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          22.610917333333333
+        ],
+        [
+          75.685932,
+          23.882250666666664
+        ],
+        [
+          86.84593199999999,
+          23.882250666666664
+        ],
+        [
+          86.84593199999999,
+          22.610917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-16-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          23.882250666666664
+        ],
+        [
+          75.685932,
+          25.153584000000002
+        ],
+        [
+          86.84593199999999,
+          25.153584000000002
+        ],
+        [
+          86.84593199999999,
+          23.882250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-17-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          25.153584000000002
+        ],
+        [
+          75.685932,
+          26.424917333333333
+        ],
+        [
+          86.84593199999999,
+          26.424917333333333
+        ],
+        [
+          86.84593199999999,
+          25.153584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-18-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          26.424917333333333
+        ],
+        [
+          75.685932,
+          27.696250666666664
+        ],
+        [
+          86.84593199999999,
+          27.696250666666664
+        ],
+        [
+          86.84593199999999,
+          26.424917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-19-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          27.696250666666664
+        ],
+        [
+          75.685932,
+          28.967584000000002
+        ],
+        [
+          86.84593199999999,
+          28.967584000000002
+        ],
+        [
+          86.84593199999999,
+          27.696250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-20-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          28.967584000000002
+        ],
+        [
+          75.685932,
+          30.238917333333333
+        ],
+        [
+          86.84593199999999,
+          30.238917333333333
+        ],
+        [
+          86.84593199999999,
+          28.967584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-21-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          31.510250666666668
+        ],
+        [
+          75.685932,
+          32.781584
+        ],
+        [
+          86.84593199999999,
+          32.781584
+        ],
+        [
+          86.84593199999999,
+          31.510250666666668
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-22-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          32.781584
+        ],
+        [
+          75.685932,
+          34.05291733333334
+        ],
+        [
+          86.84593199999999,
+          34.05291733333334
+        ],
+        [
+          86.84593199999999,
+          32.781584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-23-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          75.685932,
+          34.05291733333334
+        ],
+        [
+          75.685932,
+          35.32425066666667
+        ],
+        [
+          86.84593199999999,
+          35.32425066666667
+        ],
+        [
+          86.84593199999999,
+          34.05291733333334
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-24-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          18.4
+        ],
+        [
+          86.84593199999999,
+          20.068250666666664
+        ],
+        [
+          98.005932,
+          20.068250666666664
+        ],
+        [
+          98.005932,
+          18.4
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-25-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          20.068250666666664
+        ],
+        [
+          86.84593199999999,
+          21.339584000000002
+        ],
+        [
+          98.005932,
+          21.339584000000002
+        ],
+        [
+          98.005932,
+          20.068250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-26-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          21.339584000000002
+        ],
+        [
+          86.84593199999999,
+          22.610917333333333
+        ],
+        [
+          98.005932,
+          22.610917333333333
+        ],
+        [
+          98.005932,
+          21.339584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-27-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          22.610917333333333
+        ],
+        [
+          86.84593199999999,
+          23.882250666666664
+        ],
+        [
+          98.005932,
+          23.882250666666664
+        ],
+        [
+          98.005932,
+          22.610917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-28-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          23.882250666666664
+        ],
+        [
+          86.84593199999999,
+          25.153584000000002
+        ],
+        [
+          98.005932,
+          25.153584000000002
+        ],
+        [
+          98.005932,
+          23.882250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-29-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          25.153584000000002
+        ],
+        [
+          86.84593199999999,
+          26.424917333333333
+        ],
+        [
+          98.005932,
+          26.424917333333333
+        ],
+        [
+          98.005932,
+          25.153584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-30-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          26.424917333333333
+        ],
+        [
+          86.84593199999999,
+          27.696250666666664
+        ],
+        [
+          98.005932,
+          27.696250666666664
+        ],
+        [
+          98.005932,
+          26.424917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-31-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          27.696250666666664
+        ],
+        [
+          86.84593199999999,
+          28.967584000000002
+        ],
+        [
+          98.005932,
+          28.967584000000002
+        ],
+        [
+          98.005932,
+          27.696250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-32-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          28.967584000000002
+        ],
+        [
+          86.84593199999999,
+          30.238917333333333
+        ],
+        [
+          98.005932,
+          30.238917333333333
+        ],
+        [
+          98.005932,
+          28.967584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-33-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          31.510250666666668
+        ],
+        [
+          86.84593199999999,
+          32.781584
+        ],
+        [
+          98.005932,
+          32.781584
+        ],
+        [
+          98.005932,
+          31.510250666666668
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-34-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          32.781584
+        ],
+        [
+          86.84593199999999,
+          34.05291733333334
+        ],
+        [
+          98.005932,
+          34.05291733333334
+        ],
+        [
+          98.005932,
+          32.781584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-35-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          86.84593199999999,
+          34.05291733333334
+        ],
+        [
+          86.84593199999999,
+          35.32425066666667
+        ],
+        [
+          98.005932,
+          35.32425066666667
+        ],
+        [
+          98.005932,
+          34.05291733333334
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-36-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          18.4
+        ],
+        [
+          98.005932,
+          18.4
+        ],
+        [
+          98.005932,
+          20.068250666666664
+        ],
+        [
+          109.165932,
+          20.068250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-37-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          20.068250666666664
+        ],
+        [
+          98.005932,
+          20.068250666666664
+        ],
+        [
+          98.005932,
+          21.339584000000002
+        ],
+        [
+          109.165932,
+          21.339584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-38-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          21.339584000000002
+        ],
+        [
+          98.005932,
+          21.339584000000002
+        ],
+        [
+          98.005932,
+          22.610917333333333
+        ],
+        [
+          109.165932,
+          22.610917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-39-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          22.610917333333333
+        ],
+        [
+          98.005932,
+          22.610917333333333
+        ],
+        [
+          98.005932,
+          23.882250666666664
+        ],
+        [
+          109.165932,
+          23.882250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-40-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          23.882250666666664
+        ],
+        [
+          98.005932,
+          23.882250666666664
+        ],
+        [
+          98.005932,
+          25.153584000000002
+        ],
+        [
+          109.165932,
+          25.153584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-41-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          25.153584000000002
+        ],
+        [
+          98.005932,
+          25.153584000000002
+        ],
+        [
+          98.005932,
+          26.424917333333333
+        ],
+        [
+          109.165932,
+          26.424917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-42-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          26.424917333333333
+        ],
+        [
+          98.005932,
+          26.424917333333333
+        ],
+        [
+          98.005932,
+          27.696250666666664
+        ],
+        [
+          109.165932,
+          27.696250666666664
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-43-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          27.696250666666664
+        ],
+        [
+          98.005932,
+          27.696250666666664
+        ],
+        [
+          98.005932,
+          28.967584000000002
+        ],
+        [
+          109.165932,
+          28.967584000000002
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-44-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          28.967584000000002
+        ],
+        [
+          98.005932,
+          28.967584000000002
+        ],
+        [
+          98.005932,
+          30.238917333333333
+        ],
+        [
+          109.165932,
+          30.238917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-45-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          31.510250666666668
+        ],
+        [
+          98.005932,
+          31.510250666666668
+        ],
+        [
+          98.005932,
+          32.781584
+        ],
+        [
+          109.165932,
+          32.781584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-46-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          32.781584
+        ],
+        [
+          98.005932,
+          32.781584
+        ],
+        [
+          98.005932,
+          34.05291733333334
+        ],
+        [
+          109.165932,
+          34.05291733333334
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-47-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          34.05291733333334
+        ],
+        [
+          98.005932,
+          34.05291733333334
+        ],
+        [
+          98.005932,
+          35.32425066666667
+        ],
+        [
+          109.165932,
+          35.32425066666667
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-48-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          38.2854715
+        ],
+        [
+          109.165932,
+          38.2854715
+        ],
+        [
+          109.165932,
+          36.595584
+        ],
+        [
+          95.209266,
+          36.595584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-49-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          39.82912566666666
+        ],
+        [
+          109.165932,
+          39.82912566666666
+        ],
+        [
+          109.165932,
+          38.2854715
+        ],
+        [
+          95.209266,
+          38.2854715
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-50-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          41.1825715
+        ],
+        [
+          109.165932,
+          41.1825715
+        ],
+        [
+          109.165932,
+          39.82912566666666
+        ],
+        [
+          95.209266,
+          39.82912566666666
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-51-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          42.82331267673555
+        ],
+        [
+          109.165932,
+          42.82331267673555
+        ],
+        [
+          109.165932,
+          41.1825715
+        ],
+        [
+          95.209266,
+          41.1825715
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-52-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          44.37539592388387
+        ],
+        [
+          108.22093225182499,
+          44.37539592388387
+        ],
+        [
+          108.22093225182499,
+          44.32558365525997
+        ],
+        [
+          109.165932,
+          44.32558365525997
+        ],
+        [
+          109.165932,
+          42.82331267673555
+        ],
+        [
+          95.209266,
+          42.82331267673555
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-53-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          45.725584
+        ],
+        [
+          108.22093225182499,
+          45.725584
+        ],
+        [
+          108.22093225182499,
+          44.37539592388387
+        ],
+        [
+          95.209266,
+          44.37539592388387
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-54-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          65.47093225182505,
+          17.52558365525892
+        ],
+        [
+          64.525932,
+          17.52558365525892
+        ],
+        [
+          64.525932,
+          18.4
+        ],
+        [
+          79.405932,
+          18.4
+        ],
+        [
+          79.405932,
+          17.05058365525944
+        ],
+        [
+          78.78343225182502,
+          17.05058365525944
+        ],
+        [
+          78.78343225182502,
+          16.105584
+        ],
+        [
+          65.47093225182505,
+          16.105584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-55-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          94.08426558515829,
+          17.05058365525944
+        ],
+        [
+          94.08426558515829,
+          16.105584
+        ],
+        [
+          79.90843225182503,
+          16.105584
+        ],
+        [
+          79.90843225182503,
+          17.05058365525944
+        ],
+        [
+          79.405932,
+          17.05058365525944
+        ],
+        [
+          79.405932,
+          18.4
+        ],
+        [
+          94.285932,
+          18.4
+        ],
+        [
+          94.285932,
+          17.05058365525944
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-56-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          17.52558365525892
+        ],
+        [
+          108.22093225182499,
+          17.52558365525892
+        ],
+        [
+          108.22093225182499,
+          16.105584
+        ],
+        [
+          95.20926558515832,
+          16.105584
+        ],
+        [
+          95.20926558515832,
+          17.05058365525944
+        ],
+        [
+          94.285932,
+          17.05058365525944
+        ],
+        [
+          94.285932,
+          18.4
+        ],
+        [
+          109.165932,
+          18.4
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-57-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          36.595584
+        ],
+        [
+          79.405932,
+          36.595584
+        ],
+        [
+          79.405932,
+          35.32425066666667
+        ],
+        [
+          64.525932,
+          35.32425066666667
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-58-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          94.285932,
+          36.595584
+        ],
+        [
+          94.285932,
+          35.32425066666667
+        ],
+        [
+          79.405932,
+          35.32425066666667
+        ],
+        [
+          79.405932,
+          36.595584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-59-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          95.209266,
+          36.595584
+        ],
+        [
+          109.165932,
+          36.595584
+        ],
+        [
+          109.165932,
+          35.32425066666667
+        ],
+        [
+          94.285932,
+          35.32425066666667
+        ],
+        [
+          94.285932,
+          36.595584
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-60-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          64.525932,
+          30.363083655259448
+        ],
+        [
+          65.47093225182505,
+          30.363083655259448
+        ],
+        [
+          65.47093225182505,
+          31.488083655259448
+        ],
+        [
+          64.525932,
+          31.488083655259448
+        ],
+        [
+          64.525932,
+          31.510250666666668
+        ],
+        [
+          79.56176545924583,
+          31.510250666666668
+        ],
+        [
+          79.56176545924583,
+          31.488084
+        ],
+        [
+          78.783432,
+          31.488084
+        ],
+        [
+          78.783432,
+          30.363084
+        ],
+        [
+          79.56176545924583,
+          30.363084
+        ],
+        [
+          79.56176545924583,
+          30.238917333333333
+        ],
+        [
+          64.525932,
+          30.238917333333333
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-61-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          94.08426558515829,
+          31.488083655259448
+        ],
+        [
+          94.08426558515829,
+          30.363083655259448
+        ],
+        [
+          94.3557238555354,
+          30.363083655259448
+        ],
+        [
+          94.3557238555354,
+          30.238917333333333
+        ],
+        [
+          79.56176545924583,
+          30.238917333333333
+        ],
+        [
+          79.56176545924583,
+          30.363084
+        ],
+        [
+          79.908432,
+          30.363084
+        ],
+        [
+          79.908432,
+          31.488084
+        ],
+        [
+          79.56176545924583,
+          31.488084
+        ],
+        [
+          79.56176545924583,
+          31.510250666666668
+        ],
+        [
+          94.3557238555354,
+          31.510250666666668
+        ],
+        [
+          94.3557238555354,
+          31.488083655259448
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "polyline",
+      "id": "service-62-0",
+      "layer": "SERVICE",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "points": [
+        [
+          109.165932,
+          31.488083655259448
+        ],
+        [
+          108.22093225182499,
+          31.488083655259448
+        ],
+        [
+          108.22093225182499,
+          30.363083655259448
+        ],
+        [
+          109.165932,
+          30.363083655259448
+        ],
+        [
+          109.165932,
+          30.238917333333333
+        ],
+        [
+          94.3557238555354,
+          30.238917333333333
+        ],
+        [
+          94.3557238555354,
+          30.363083655259448
+        ],
+        [
+          95.20926558515832,
+          30.363083655259448
+        ],
+        [
+          95.20926558515832,
+          31.488083655259448
+        ],
+        [
+          94.3557238555354,
+          31.488083655259448
+        ],
+        [
+          94.3557238555354,
+          31.510250666666668
+        ],
+        [
+          109.165932,
+          31.510250666666668
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        70.105932,
+        19.432584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        19.372584
+      ],
+      "text": "01",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        20.703917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        20.643917333333334
+      ],
+      "text": "02",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-4",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        21.975250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        21.91525066666667
+      ],
+      "text": "03",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-5",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        23.246584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-5",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        23.186584
+      ],
+      "text": "04",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-6",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        24.517917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-6",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        24.457917333333334
+      ],
+      "text": "05",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-7",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        25.789250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-7",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        25.72925066666667
+      ],
+      "text": "06",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-8",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        27.060584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-8",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        27.000584
+      ],
+      "text": "07",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-9",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        28.331917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-9",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        28.271917333333334
+      ],
+      "text": "08",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-10",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        29.603250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-10",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        29.54325066666667
+      ],
+      "text": "09",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-12",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        32.14591733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-12",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        32.085917333333335
+      ],
+      "text": "10",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-13",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        33.41725066666667
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-13",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        33.357250666666665
+      ],
+      "text": "11",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-1-14",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        70.105932,
+        34.688584000000006
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-1-14",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        70.355932,
+        34.628584000000004
+      ],
+      "text": "12",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        81.26593199999999,
+        19.432584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        19.372584
+      ],
+      "text": "13",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        20.703917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        20.643917333333334
+      ],
+      "text": "14",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-4",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        21.975250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        21.91525066666667
+      ],
+      "text": "15",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-5",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        23.246584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-5",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        23.186584
+      ],
+      "text": "16",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-6",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        24.517917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-6",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        24.457917333333334
+      ],
+      "text": "17",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-7",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        25.789250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-7",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        25.72925066666667
+      ],
+      "text": "18",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-8",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        27.060584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-8",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        27.000584
+      ],
+      "text": "19",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-9",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        28.331917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-9",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        28.271917333333334
+      ],
+      "text": "20",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-10",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        29.603250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-10",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        29.54325066666667
+      ],
+      "text": "21",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-12",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        32.14591733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-12",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        32.085917333333335
+      ],
+      "text": "22",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-13",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        33.41725066666667
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-13",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        33.357250666666665
+      ],
+      "text": "23",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-2-14",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        81.26593199999999,
+        34.688584000000006
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-2-14",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        81.51593199999999,
+        34.628584000000004
+      ],
+      "text": "24",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        92.42593199999999,
+        19.432584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        19.372584
+      ],
+      "text": "25",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        20.703917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        20.643917333333334
+      ],
+      "text": "26",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-4",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        21.975250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        21.91525066666667
+      ],
+      "text": "27",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-5",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        23.246584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-5",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        23.186584
+      ],
+      "text": "28",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-6",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        24.517917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-6",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        24.457917333333334
+      ],
+      "text": "29",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-7",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        25.789250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-7",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        25.72925066666667
+      ],
+      "text": "30",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-8",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        27.060584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-8",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        27.000584
+      ],
+      "text": "31",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-9",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        28.331917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-9",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        28.271917333333334
+      ],
+      "text": "32",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-10",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        29.603250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-10",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        29.54325066666667
+      ],
+      "text": "33",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-12",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        32.14591733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-12",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        32.085917333333335
+      ],
+      "text": "34",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-13",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        33.41725066666667
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-13",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        33.357250666666665
+      ],
+      "text": "35",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-3-14",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        92.42593199999999,
+        34.688584000000006
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-3-14",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        92.67593199999999,
+        34.628584000000004
+      ],
+      "text": "36",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        103.585932,
+        19.432584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        19.372584
+      ],
+      "text": "37",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        20.703917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        20.643917333333334
+      ],
+      "text": "38",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-4",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        21.975250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        21.91525066666667
+      ],
+      "text": "39",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-5",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        23.246584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-5",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        23.186584
+      ],
+      "text": "40",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-6",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        24.517917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-6",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        24.457917333333334
+      ],
+      "text": "41",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-7",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        25.789250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-7",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        25.72925066666667
+      ],
+      "text": "42",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-8",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        27.060584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-8",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        27.000584
+      ],
+      "text": "43",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-9",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        28.331917333333333
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-9",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        28.271917333333334
+      ],
+      "text": "44",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-10",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        29.603250666666668
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-10",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        29.54325066666667
+      ],
+      "text": "45",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-12",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        32.14591733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-12",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        32.085917333333335
+      ],
+      "text": "46",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-13",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        33.41725066666667
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-13",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        33.357250666666665
+      ],
+      "text": "47",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-main-4-14",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        103.585932,
+        34.688584000000006
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-main-4-14",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        103.835932,
+        34.628584000000004
+      ],
+      "text": "48",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-1",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P75inch_6slots",
+      "insert": [
+        102.187599,
+        37.35641733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-1",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        102.437599,
+        37.29641733333334
+      ],
+      "text": "49",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        102.187599,
+        39.20500066666666
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        102.437599,
+        39.14500066666666
+      ],
+      "text": "50",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P75inch_4slots",
+      "insert": [
+        102.187599,
+        40.45325066666666
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        102.437599,
+        40.39325066666666
+      ],
+      "text": "51",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-4",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        102.187599,
+        41.92141733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        102.437599,
+        41.861417333333335
+      ],
+      "text": "52",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-5",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_8slots",
+      "insert": [
+        102.187599,
+        43.72520802013776
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-5",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        102.437599,
+        43.665208020137754
+      ],
+      "text": "53",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-bay-1-6",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P5inch_6slots",
+      "insert": [
+        101.7150991259125,
+        45.02558382762999
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-bay-1-6",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        101.9650991259125,
+        44.965583827629985
+      ],
+      "text": "54",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-1-1",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P75inch_6slots",
+      "insert": [
+        71.965932,
+        18.161250666666664
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-1-1",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        72.215932,
+        18.101250666666665
+      ],
+      "text": "55",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-1-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P75inch_6slots",
+      "insert": [
+        86.845932,
+        18.161250666666664
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-1-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        87.095932,
+        18.101250666666665
+      ],
+      "text": "56",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-1-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "0P75inch_6slots",
+      "insert": [
+        101.725932,
+        18.161250666666664
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-1-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        101.975932,
+        18.101250666666665
+      ],
+      "text": "57",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-15-1",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P5inch_2slots",
+      "insert": [
+        71.965932,
+        35.95991733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-15-1",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        72.215932,
+        35.899917333333335
+      ],
+      "text": "58",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-15-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P5inch_2slots",
+      "insert": [
+        86.845932,
+        35.95991733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-15-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        87.095932,
+        35.899917333333335
+      ],
+      "text": "59",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-edge-15-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P5inch_2slots",
+      "insert": [
+        101.725932,
+        35.95991733333334
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-edge-15-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        101.975932,
+        35.899917333333335
+      ],
+      "text": "60",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-column-band-1",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        72.12718212591253,
+        30.874584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-column-band-1",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        72.37718212591253,
+        30.814584
+      ],
+      "text": "61",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-column-band-2",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        86.99634879257914,
+        30.874584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-column-band-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        87.24634879257914,
+        30.814584
+      ],
+      "text": "62",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "insert",
+      "id": "outlet-column-band-3",
+      "layer": "FRAME_B",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "block": "1P0inch_2slots",
+      "insert": [
+        101.71509891849166,
+        30.874584
+      ],
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "label-column-band-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        101.96509891849166,
+        30.814584
+      ],
+      "text": "63",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "note-0",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        64,
+        14.6
+      ],
+      "text": "MANUFACTURER COMPARISON CANDIDATE - NOT COURSE SUBMISSION OR CONSTRUCTION",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "note-1",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        64,
+        14.08
+      ],
+      "text": "63 selected units pass paired published-load diagnostics; physical ADPI acceptance remains pending.",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "note-2",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        64,
+        13.559999999999999
+      ],
+      "text": "Frame B and both end caps assumed. Ordered 48 in vs tested active length correspondence remains unconfirmed.",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "note-3",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        64,
+        13.04
+      ],
+      "text": "Blue: active slot; frame: conditional overall footprint; service cells: design assumption, not proven coverage.",
+      "height": 0.19,
+      "rotation": 0
+    },
+    {
+      "kind": "text",
+      "id": "note-4",
+      "layer": "LABEL",
+      "source": "Source boundary SHA c64f5b2d; explicit service-cell candidate; manufacturer1900 direct4ft tables and conditional Frame B dimensions",
+      "classification": "assumed",
+      "insert": [
+        64,
+        12.52
+      ],
+      "text": "Ceiling height, mixed-jet downward length, plenum, inlet distribution and installation remain unverified.",
+      "height": 0.19,
+      "rotation": 0
+    }
+  ],
+  "sheet": {
+    "paper": "A1",
+    "window": [
+      60,
+      6,
+      123.075,
+      50.55
+    ],
+    "scale": 75,
+    "title": "BSE3227 - MANUFACTURER LINEAR SLOT COMPARISON",
+    "number": "MEP-ADPI-COMP",
+    "reference_length": 3.75
+  }
+}

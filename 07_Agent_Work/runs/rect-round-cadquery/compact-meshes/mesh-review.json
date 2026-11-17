@@ -1,0 +1,283 @@
+{
+  "profiles": [
+    {
+      "profile": "PROFILE-1",
+      "source_case": "VAV-01",
+      "brep_sha256": "d235d05f3e92259168942462553ab7ec3aabeebe9052b108405c975417e0ff57",
+      "mesh_sha256": "e78451ee426fa57b9a62a8bad0e0799767c3ee3f2b70f6f305afb4fb7068b638",
+      "vertices": 137982,
+      "faces": 270812,
+      "absolute_deflection_m": 1e-05,
+      "angular_deflection": 0.02,
+      "coordinates_unit": "m"
+    },
+    {
+      "profile": "PROFILE-2",
+      "source_case": "VAV-02",
+      "brep_sha256": "6469dbb230133d2be7c2eb01909641b7533201f8db574d7aee25beb3bd8756df",
+      "mesh_sha256": "cbc92185ac1d3a7c4af732e97548f62a93c17582267afc1b96256497d0cf9349",
+      "vertices": 139567,
+      "faces": 273982,
+      "absolute_deflection_m": 1e-05,
+      "angular_deflection": 0.02,
+      "coordinates_unit": "m"
+    },
+    {
+      "profile": "PROFILE-3",
+      "source_case": "VAV-06",
+      "brep_sha256": "97a5a1fb47e41b6c99310346f9ac75f36d33a2b24ce9343340fe6933fb4210c3",
+      "mesh_sha256": "e6bffe027509eec8e625539703599661aafbac6cb428a9ac19f577d6844d1c38",
+      "vertices": 143267,
+      "faces": 281382,
+      "absolute_deflection_m": 1e-05,
+      "angular_deflection": 0.02,
+      "coordinates_unit": "m"
+    },
+    {
+      "profile": "PROFILE-4",
+      "source_case": "VAV-10",
+      "brep_sha256": "f3470a3a7fc9474e7edc91a70641a3adf21521d572766cc07bf882d797e35fe7",
+      "mesh_sha256": "07e40f640d0869091459365a1208a87c5fe0e7a102605d3abb26747b6ea9d898",
+      "vertices": 145385,
+      "faces": 285618,
+      "absolute_deflection_m": 1e-05,
+      "angular_deflection": 0.02,
+      "coordinates_unit": "m"
+    },
+    {
+      "profile": "PROFILE-5",
+      "source_case": "VAV-19",
+      "brep_sha256": "be79de34114a8fd89d4e87f0059c5d84daed8ae6b37d1a6ed179bd8027a6c946",
+      "mesh_sha256": "504ec11281fa9c932dd12c2879668dd49f8d3e226c61fdb87e4c131039547c8a",
+      "vertices": 139824,
+      "faces": 274492,
+      "absolute_deflection_m": 1e-05,
+      "angular_deflection": 0.02,
+      "coordinates_unit": "m"
+    }
+  ],
+  "cases": [
+    {
+      "id": "VAV-01",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-1"
+    },
+    {
+      "id": "VAV-02",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-03",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-04",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-05",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-06",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-3"
+    },
+    {
+      "id": "VAV-07",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-08",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-09",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-10",
+      "width_m": 0.45,
+      "height_m": 0.25,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-4"
+    },
+    {
+      "id": "VAV-11",
+      "width_m": 0.45,
+      "height_m": 0.25,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-4"
+    },
+    {
+      "id": "VAV-12",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-1"
+    },
+    {
+      "id": "VAV-13",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-3"
+    },
+    {
+      "id": "VAV-14",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-3"
+    },
+    {
+      "id": "VAV-15",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-3"
+    },
+    {
+      "id": "VAV-16",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-17",
+      "width_m": 0.35,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-2"
+    },
+    {
+      "id": "VAV-18",
+      "width_m": 0.4,
+      "height_m": 0.25,
+      "diameter_m": 0.30479999999999996,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-3"
+    },
+    {
+      "id": "VAV-19",
+      "width_m": 0.4,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-5"
+    },
+    {
+      "id": "VAV-20",
+      "width_m": 0.4,
+      "height_m": 0.3,
+      "diameter_m": 0.35559999999999997,
+      "section_offset_m": 0.0008,
+      "taper_length_m": 0.3,
+      "start_length_m": 0.05,
+      "end_length_m": 0.05,
+      "profile": "PROFILE-5"
+    }
+  ],
+  "geometry_source": "Exact CadQuery2.6.1/OCP7.8.1.1.post1 BRep; OCCT absolute meshing in mm with unchanged10micrometre/.02rad targets",
+  "worker_sha256": "ae396d22622c7a369ef2ed6a9546de87c92e40ca55f9637937d6b28db4ea4a31"
+}

@@ -1,0 +1,692 @@
+{
+  "source": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-network-native",
+  "policy": "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-cross-study\\policy.json",
+  "inputs": {
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\runs\\source-tee-network-native\\network.json": "902b7ef63290195534864f24fc84a83b1aefecbfceb67f5cdceee0a7797ac95a",
+    "C:\\Users\\lyuml-win\\Desktop\\polyu_bse3227\\07_Agent_Work\\project\\source-cross-study\\policy.json": "ef540b978bd9a181842c09a35612265874a345fe56b45b8be48623c49b1af2e8",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_cross.py": "8368d327b2efa5156bc80954a6c60dc219a7d40f2522a2c35326b221d92d12bc",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_cross_transitions.py": "4cd66b618e39bfd4fb7c0204cb460161eed65019595977e489e1514e1f219376",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\rectangular_transition.py": "257b7d5e1a018edb178e32599c48b065cdc0f32219e5f187d23e559d153e7ed6",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_tee_candidates.py": "369eaedfe215c5c2ae02cc576fa743bcf2d078fa755d477257aa458346e29a0c",
+    "C:\\Users\\lyuml-win\\Desktop\\building-services-agent\\src\\bsa\\source_cross_candidates.py": "cfdb8a69166980df93509477422f915586cf13470fa354d1cda9f2cf41a9ae6e"
+  },
+  "nodes": {
+    "J1": {
+      "directory": "node-001",
+      "binding": {
+        "main-a": "D-08",
+        "main-b": "D-15",
+        "branch-a": "D-09",
+        "branch-b": "D-12"
+      },
+      "fit": [
+        {
+          "arm": "main-a",
+          "section": "D-08",
+          "outward_reach_m": 0.5249999999999986,
+          "width_m": 0.85,
+          "height_m": 0.85
+        },
+        {
+          "arm": "main-b",
+          "section": "D-15",
+          "outward_reach_m": 1.0915063509461085,
+          "width_m": 0.65,
+          "height_m": 0.6
+        },
+        {
+          "arm": "branch-a",
+          "section": "D-09",
+          "outward_reach_m": 1.3714101615137793,
+          "width_m": 0.55,
+          "height_m": 0.45
+        },
+        {
+          "arm": "branch-b",
+          "section": "D-12",
+          "outward_reach_m": 1.3714101615137793,
+          "width_m": 0.55,
+          "height_m": 0.45
+        }
+      ],
+      "screening": {
+        "main-b": {
+          "declared_taper_m": 0.4665063509461097,
+          "upstream_inner_outer_tapers_m": [
+            0.46650635094610965,
+            0.46650635094610965
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch-a": {
+          "declared_taper_m": 0.7464101615137754,
+          "upstream_inner_outer_tapers_m": [
+            0.7464101615137755,
+            0.7464101615137756
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch-b": {
+          "declared_taper_m": 0.7464101615137754,
+          "upstream_inner_outer_tapers_m": [
+            0.7464101615137755,
+            0.7464101615137756
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "authored_candidate",
+      "blocking_reasons": [],
+      "native_checks": {
+        "components": 4,
+        "ports": 10,
+        "actual_links": 3,
+        "four_boundary_arms": true,
+        "one_connected_material": true,
+        "euler_characteristic": -4,
+        "material_volume_m3": 0.007242074666254322,
+        "independent_material_volume_m3": 0.007242074666257925,
+        "external_end_frames": {
+          "main-a": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              86.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              29.27558400000001
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "main-b": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              86.5
+            ],
+            [
+              0.0,
+              0.0,
+              -1.0,
+              27.659077649053902
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch-a": [
+            [
+              0.0,
+              0.0,
+              -1.0,
+              85.12858983848622
+            ],
+            [
+              -1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "branch-b": [
+            [
+              0.0,
+              0.0,
+              1.0,
+              87.87141016151378
+            ],
+            [
+              1.0,
+              0.0,
+              0.0,
+              28.75058400000001
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "design_accepted": false
+      }
+    },
+    "J2": {
+      "directory": "node-002",
+      "binding": {
+        "main-a": "D-01",
+        "main-b": "D-08",
+        "branch-a": "D-02",
+        "branch-b": "D-05"
+      },
+      "fit": [
+        {
+          "arm": "main-a",
+          "section": "D-01",
+          "outward_reach_m": 0.7250000000000014,
+          "width_m": 1.25,
+          "height_m": 0.85
+        },
+        {
+          "arm": "main-b",
+          "section": "D-08",
+          "outward_reach_m": 1.571410161513775,
+          "width_m": 0.85,
+          "height_m": 0.85
+        },
+        {
+          "arm": "branch-a",
+          "section": "D-02",
+          "outward_reach_m": 2.2245190528383176,
+          "width_m": 0.5,
+          "height_m": 0.45
+        },
+        {
+          "arm": "branch-b",
+          "section": "D-05",
+          "outward_reach_m": 2.037916512459873,
+          "width_m": 0.6,
+          "height_m": 0.4
+        }
+      ],
+      "screening": {
+        "main-b": {
+          "declared_taper_m": 0.7464101615137755,
+          "upstream_inner_outer_tapers_m": [
+            0.7464101615137756,
+            0.7464101615137756
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch-a": {
+          "declared_taper_m": 1.399519052838329,
+          "upstream_inner_outer_tapers_m": [
+            1.399519052838329,
+            1.399519052838329
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        },
+        "branch-b": {
+          "declared_taper_m": 1.2129165124598853,
+          "upstream_inner_outer_tapers_m": [
+            1.2129165124598853,
+            1.2129165124598853
+          ],
+          "geometry_method": "explicit_station_brep",
+          "upstream_station_match": true,
+          "supported": true
+        }
+      },
+      "status": "blocked",
+      "blocking_reasons": [
+        "Combined source cross reach exceeds inherited budget on D-01"
+      ]
+    }
+  },
+  "budgets": [
+    {
+      "section": "A-01",
+      "before_cross_length_m": 1.1499999999999986,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.1499999999999986,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "A-02",
+      "before_cross_length_m": 0.6375000000000028,
+      "declared_cross_trims_m": {},
+      "remaining_m": 0.6375000000000028,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "A-03",
+      "before_cross_length_m": 0.2874999999999943,
+      "declared_cross_trims_m": {},
+      "remaining_m": 0.2874999999999943,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-01",
+      "before_cross_length_m": 0.619415999999994,
+      "declared_cross_trims_m": {
+        "J2": 0.7250000000000014
+      },
+      "remaining_m": -0.10558400000000745,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-02",
+      "before_cross_length_m": 3.024068000000014,
+      "declared_cross_trims_m": {
+        "J2": 2.2245190528383176
+      },
+      "remaining_m": 0.7995489471616963,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-03",
+      "before_cross_length_m": 6.453397459621556,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.453397459621556,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-04",
+      "before_cross_length_m": 6.203397459621584,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-05",
+      "before_cross_length_m": 3.6659319999999838,
+      "declared_cross_trims_m": {
+        "J2": 2.037916512459873
+      },
+      "remaining_m": 1.628015487540111,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-06",
+      "before_cross_length_m": 6.403397459621559,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.403397459621559,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-07",
+      "before_cross_length_m": 6.203397459621584,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-08",
+      "before_cross_length_m": 6.829999999999998,
+      "declared_cross_trims_m": {
+        "J1": 0.5249999999999986,
+        "J2": 1.571410161513775
+      },
+      "remaining_m": 4.733589838486225,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-09",
+      "before_cross_length_m": 2.9990680000000083,
+      "declared_cross_trims_m": {
+        "J1": 1.3714101615137793
+      },
+      "remaining_m": 1.627657838486229,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-10",
+      "before_cross_length_m": 6.4533974596215415,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.4533974596215415,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-11",
+      "before_cross_length_m": 6.303397459621564,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.303397459621564,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-12",
+      "before_cross_length_m": 3.6909319999999894,
+      "declared_cross_trims_m": {
+        "J1": 1.3714101615137793
+      },
+      "remaining_m": 2.31952183848621,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-13",
+      "before_cross_length_m": 6.428397459621564,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.428397459621564,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-14",
+      "before_cross_length_m": 6.185096189432343,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.185096189432343,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-15",
+      "before_cross_length_m": 6.405000000000012,
+      "declared_cross_trims_m": {
+        "J1": 1.0915063509461085
+      },
+      "remaining_m": 5.313493649053903,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-16",
+      "before_cross_length_m": 2.0758629192431215,
+      "declared_cross_trims_m": {},
+      "remaining_m": 2.0758629192431215,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-17",
+      "before_cross_length_m": 6.403397459621544,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.403397459621544,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-18",
+      "before_cross_length_m": 6.185096189432343,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.185096189432343,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-19",
+      "before_cross_length_m": 2.7677269192431027,
+      "declared_cross_trims_m": {},
+      "remaining_m": 2.7677269192431027,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-20",
+      "before_cross_length_m": 6.403397459621559,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.403397459621559,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-21",
+      "before_cross_length_m": 6.203397459621584,
+      "declared_cross_trims_m": {},
+      "remaining_m": 6.203397459621584,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-22",
+      "before_cross_length_m": 11.448432499999996,
+      "declared_cross_trims_m": {},
+      "remaining_m": 11.448432499999996,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-23",
+      "before_cross_length_m": 1.160584,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.160584,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-24",
+      "before_cross_length_m": 5.741730459621579,
+      "declared_cross_trims_m": {},
+      "remaining_m": 5.741730459621579,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-25",
+      "before_cross_length_m": 1.875,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-26",
+      "before_cross_length_m": 1.670096189432332,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.670096189432332,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-27",
+      "before_cross_length_m": 1.43349364905389,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.43349364905389,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-28",
+      "before_cross_length_m": 1.43349364905389,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.43349364905389,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-29",
+      "before_cross_length_m": 1.670096189432332,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.670096189432332,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-30",
+      "before_cross_length_m": 1.7999999999999972,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.7999999999999972,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-31",
+      "before_cross_length_m": 1.875,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-32",
+      "before_cross_length_m": 1.7883974596215566,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.7883974596215566,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-33",
+      "before_cross_length_m": 1.551794919243111,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.551794919243111,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-34",
+      "before_cross_length_m": 1.551794919243111,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.551794919243111,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-35",
+      "before_cross_length_m": 1.7633974596215545,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.7633974596215545,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-36",
+      "before_cross_length_m": 1.875,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.875,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-37",
+      "before_cross_length_m": 1.8000000000000043,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.8000000000000043,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-38",
+      "before_cross_length_m": 1.763397459621558,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.763397459621558,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-39",
+      "before_cross_length_m": 1.5767949192431132,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.5767949192431132,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-40",
+      "before_cross_length_m": 1.4334936490539008,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.4334936490539008,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-41",
+      "before_cross_length_m": 1.6700961894323356,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.6700961894323356,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-42",
+      "before_cross_length_m": 1.8000000000000043,
+      "declared_cross_trims_m": {},
+      "remaining_m": 1.8000000000000043,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-43",
+      "before_cross_length_m": 2.063397459621548,
+      "declared_cross_trims_m": {},
+      "remaining_m": 2.063397459621548,
+      "minimum_remainder_m": 0.05
+    },
+    {
+      "section": "D-44",
+      "before_cross_length_m": 2.0999999999999943,
+      "declared_cross_trims_m": {},
+      "remaining_m": 2.0999999999999943,
+      "minimum_remainder_m": 0.05
+    }
+  ],
+  "inherited_blocked_nodes": {
+    "ROOT": [
+      "Known both-end fitting reach exceeds source budget on A-03",
+      "Known both-end fitting reach exceeds source budget on D-01"
+    ]
+  },
+  "original_requirement_ids": [
+    "R001-identity",
+    "R002-identity",
+    "R003-identity",
+    "R004-identity",
+    "R004-layout",
+    "R004-routing",
+    "R005-delivery",
+    "R006-load",
+    "R006-layout",
+    "R006-terminal",
+    "R006-adpi",
+    "R007-load",
+    "R007-layout",
+    "R007-terminal",
+    "R007-adpi",
+    "R008-minimum",
+    "R009-minimum",
+    "R009-terminal",
+    "R009-adpi",
+    "R010-routing",
+    "R011-routing",
+    "R011-delivery",
+    "R012-sizing",
+    "R013-sizing",
+    "R014-schedule",
+    "R014-delivery",
+    "producer-air-allocation-P007",
+    "producer-terminal-lookup-P007",
+    "producer-terminal-lookup-P009",
+    "producer-duct-schedule-P013",
+    "producer-duct-sheet-P011",
+    "producer-native-sheet-P011",
+    "hk-flex-check"
+  ],
+  "complete_network": false,
+  "design_accepted": false,
+  "original_network_modified": false,
+  "scope": "Isolated source cross candidates only; no merge, full coordination, pressure, product or installation acceptance",
+  "artifacts": {
+    "inputs/node-001/project.json": "1d87ac867a9de6094f591cccd97dc677cbadef792e9e42f8dcb25223eda1263f",
+    "inputs/node-002/project.json": "3baa59cece0af2a35ddb86cf11410f1ef7338c3ae3a157c07bbd402125e2df04",
+    "models/node-001/assembly.ifc": "ebae0ccc734c03230d80b6f81c520e9e53f3b097d816b0d2a24330f8fb69173b",
+    "models/node-001/assembly.json": "c4d2b1ec4ae56ef17f4a125bc5dd1182f724b0e23c3d3d8d4ad588fe5424745a",
+    "models/node-001/branch-a.json": "822266525a78f07ac3d8da5572f3d8621f825a3d0e4a812256bdfdbbcf119477",
+    "models/node-001/branch-b.json": "8fa749530e391e1d9f64574a13ffad566c1ce017af553a687f57004e40c38387",
+    "models/node-001/cross-spec.json": "88bfc7e7d670beb265161255e874f6123b457c79c6a142ea81017e7e5c5ada0b",
+    "models/node-001/main-b.json": "bc723a6a36ee59b018176f220fb0b77244816665ccddcd131edc90f6340d6a4c",
+    "models/node-001/branch-a/transition.ifc": "05c0e29ae144000cce84e4a2cd18c34d8cc9178ed0c5438a0784c41bf4232625",
+    "models/node-001/branch-a/transition.json": "bc25bef6eab9855923a4f31d2696a7e623d7dc02423bebfa7e4cc70175aa1b71",
+    "models/node-001/branch-a/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-001/branch-b/transition.ifc": "286ccc940616a9f32d1a5f6d8fa6ebe0db632f320294d2dd21976938488aaec6",
+    "models/node-001/branch-b/transition.json": "1bf5a7bb7612f7b755ff585b0ac2a9baa8d48d47c0a8aceed7e123d6e3522cae",
+    "models/node-001/branch-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083",
+    "models/node-001/core/cross.ifc": "a2da1914d2c33e9b0a9cdadea7144406997e482560273520dbf14a009675fc24",
+    "models/node-001/core/cross.json": "fb2e4d71d41a13e7d67ba1f3f6a52c56173b21d2604bcff6875d7191b402668c",
+    "models/node-001/main-b/transition.ifc": "6ce6b93a7e990a7d1c7fab59bbe111f9b2094c1e76f212b52fc4c0830ff2b8e5",
+    "models/node-001/main-b/transition.json": "4cf727efe194b83c23ef6c81a768991440927b3140d87e039762c15c757674ad",
+    "models/node-001/main-b/upstream.log": "e0f77b8f7ba7aff9fcc57850706c4c25ed245700f0dce005aee7361006c5c083"
+  }
+}

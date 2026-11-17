@@ -1,0 +1,1751 @@
+{
+  "source_sha256": "fcd60751b23422bb13e884481adfd5c4b4128f08aefc79193226c65cc76db738",
+  "basis": "Single-line layout; endpoints matched to proposed tree; actual dimensions displayed in schedule only. Plan routes and full engineering acceptance remain pending.;Same rigid geometry and source cells;explicit24-terminal candidate revision separately recorded.; declared VAV/tap recenter revision; original allocation and topology unchanged; installed geometry remains unverified",
+  "sections": {
+    "A-01": {
+      "line_handle": "903B",
+      "from_m": [
+        83.5,
+        40.0,
+        0
+      ],
+      "to_m": [
+        83.5,
+        37.5,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9047",
+          "expected_text": "A-01"
+        },
+        {
+          "handle": "9048",
+          "expected_text": "12000.4"
+        },
+        {
+          "handle": "9049",
+          "expected_text": "1350 x 900"
+        },
+        {
+          "handle": "904A",
+          "expected_text": "9.88"
+        },
+        {
+          "handle": "904B",
+          "expected_text": "0.752"
+        }
+      ],
+      "from_node": "AHU-CONNECTION",
+      "to_node": "CORRIDOR-A"
+    },
+    "A-02": {
+      "line_handle": "903D",
+      "from_m": [
+        83.5,
+        37.5,
+        0
+      ],
+      "to_m": [
+        86.5,
+        37.5,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "904C",
+          "expected_text": "A-02"
+        },
+        {
+          "handle": "904D",
+          "expected_text": "12000.4"
+        },
+        {
+          "handle": "904E",
+          "expected_text": "1350 x 900"
+        },
+        {
+          "handle": "904F",
+          "expected_text": "9.88"
+        },
+        {
+          "handle": "9050",
+          "expected_text": "0.752"
+        }
+      ],
+      "from_node": "CORRIDOR-A",
+      "to_node": "CORRIDOR-B"
+    },
+    "A-03": {
+      "line_handle": "903F",
+      "from_m": [
+        86.5,
+        37.5,
+        0
+      ],
+      "to_m": [
+        86.5,
+        36.2,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9051",
+          "expected_text": "A-03"
+        },
+        {
+          "handle": "9052",
+          "expected_text": "12000.4"
+        },
+        {
+          "handle": "9053",
+          "expected_text": "1350 x 900"
+        },
+        {
+          "handle": "9054",
+          "expected_text": "9.88"
+        },
+        {
+          "handle": "9055",
+          "expected_text": "0.752"
+        }
+      ],
+      "from_node": "CORRIDOR-B",
+      "to_node": "ROOT"
+    },
+    "D-01": {
+      "line_handle": "8D8D",
+      "from_m": [
+        86.5,
+        36.2,
+        0
+      ],
+      "to_m": [
+        86.5,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9056",
+          "expected_text": "D-01"
+        },
+        {
+          "handle": "9057",
+          "expected_text": "10578.1"
+        },
+        {
+          "handle": "9058",
+          "expected_text": "1250 x 850"
+        },
+        {
+          "handle": "9059",
+          "expected_text": "9.96"
+        },
+        {
+          "handle": "905A",
+          "expected_text": "0.825"
+        }
+      ],
+      "from_node": "ROOT",
+      "to_node": "J2"
+    },
+    "D-02": {
+      "line_handle": "8D8F",
+      "from_m": [
+        86.5,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "905B",
+          "expected_text": "D-02"
+        },
+        {
+          "handle": "905C",
+          "expected_text": "1665.4"
+        },
+        {
+          "handle": "905D",
+          "expected_text": "500 x 450"
+        },
+        {
+          "handle": "905E",
+          "expected_text": "7.40"
+        },
+        {
+          "handle": "905F",
+          "expected_text": "1.171"
+        }
+      ],
+      "from_node": "J2",
+      "to_node": "TAP-VAV-15"
+    },
+    "D-03": {
+      "line_handle": "8D91",
+      "from_m": [
+        83.12593199999999,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9060",
+          "expected_text": "D-03"
+        },
+        {
+          "handle": "9061",
+          "expected_text": "1107.8"
+        },
+        {
+          "handle": "9062",
+          "expected_text": "500 x 350"
+        },
+        {
+          "handle": "9063",
+          "expected_text": "6.33"
+        },
+        {
+          "handle": "9064",
+          "expected_text": "1.036"
+        }
+      ],
+      "from_node": "TAP-VAV-15",
+      "to_node": "TAP-VAV-14"
+    },
+    "D-04": {
+      "line_handle": "8D93",
+      "from_m": [
+        75.685932,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9065",
+          "expected_text": "D-04"
+        },
+        {
+          "handle": "9066",
+          "expected_text": "551.8"
+        },
+        {
+          "handle": "9067",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "9068",
+          "expected_text": "5.52"
+        },
+        {
+          "handle": "9069",
+          "expected_text": "1.144"
+        }
+      ],
+      "from_node": "TAP-VAV-14",
+      "to_node": "TAP-VAV-13"
+    },
+    "D-05": {
+      "line_handle": "8D95",
+      "from_m": [
+        86.5,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        90.565932,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "906A",
+          "expected_text": "D-05"
+        },
+        {
+          "handle": "906B",
+          "expected_text": "1710.4"
+        },
+        {
+          "handle": "906C",
+          "expected_text": "600 x 400"
+        },
+        {
+          "handle": "906D",
+          "expected_text": "7.13"
+        },
+        {
+          "handle": "906E",
+          "expected_text": "1.074"
+        }
+      ],
+      "from_node": "J2",
+      "to_node": "TAP-VAV-16"
+    },
+    "D-06": {
+      "line_handle": "8D97",
+      "from_m": [
+        90.56593200000002,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        98.6984325,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "906F",
+          "expected_text": "D-06"
+        },
+        {
+          "handle": "9070",
+          "expected_text": "1148.9"
+        },
+        {
+          "handle": "9071",
+          "expected_text": "500 x 350"
+        },
+        {
+          "handle": "9072",
+          "expected_text": "6.57"
+        },
+        {
+          "handle": "9073",
+          "expected_text": "1.109"
+        }
+      ],
+      "from_node": "TAP-VAV-16",
+      "to_node": "TAP-VAV-17"
+    },
+    "D-07": {
+      "line_handle": "8D99",
+      "from_m": [
+        98.6984325,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        105.67676549999999,
+        35.580584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9074",
+          "expected_text": "D-07"
+        },
+        {
+          "handle": "9075",
+          "expected_text": "576.0"
+        },
+        {
+          "handle": "9076",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "9077",
+          "expected_text": "5.49"
+        },
+        {
+          "handle": "9078",
+          "expected_text": "1.066"
+        }
+      ],
+      "from_node": "TAP-VAV-17",
+      "to_node": "TAP-VAV-18"
+    },
+    "D-08": {
+      "line_handle": "8D9B",
+      "from_m": [
+        86.5,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        86.5,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9079",
+          "expected_text": "D-08"
+        },
+        {
+          "handle": "907A",
+          "expected_text": "7202.3"
+        },
+        {
+          "handle": "907B",
+          "expected_text": "850 x 850"
+        },
+        {
+          "handle": "907C",
+          "expected_text": "9.97"
+        },
+        {
+          "handle": "907D",
+          "expected_text": "1.017"
+        }
+      ],
+      "from_node": "J2",
+      "to_node": "J1"
+    },
+    "D-09": {
+      "line_handle": "8D9D",
+      "from_m": [
+        86.5,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "907E",
+          "expected_text": "D-09"
+        },
+        {
+          "handle": "907F",
+          "expected_text": "1855.3"
+        },
+        {
+          "handle": "9080",
+          "expected_text": "550 x 450"
+        },
+        {
+          "handle": "9081",
+          "expected_text": "7.50"
+        },
+        {
+          "handle": "9082",
+          "expected_text": "1.138"
+        }
+      ],
+      "from_node": "J1",
+      "to_node": "TAP-VAV-09"
+    },
+    "D-10": {
+      "line_handle": "8D9F",
+      "from_m": [
+        83.12593199999999,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9083",
+          "expected_text": "D-10"
+        },
+        {
+          "handle": "9084",
+          "expected_text": "1236.9"
+        },
+        {
+          "handle": "9085",
+          "expected_text": "450 x 400"
+        },
+        {
+          "handle": "9086",
+          "expected_text": "6.87"
+        },
+        {
+          "handle": "9087",
+          "expected_text": "1.167"
+        }
+      ],
+      "from_node": "TAP-VAV-09",
+      "to_node": "TAP-VAV-08"
+    },
+    "D-11": {
+      "line_handle": "8DA1",
+      "from_m": [
+        75.685932,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9088",
+          "expected_text": "D-11"
+        },
+        {
+          "handle": "9089",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "908A",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "908B",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "908C",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-08",
+      "to_node": "TAP-VAV-07"
+    },
+    "D-12": {
+      "line_handle": "8DA3",
+      "from_m": [
+        86.5,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        90.565932,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "908D",
+          "expected_text": "D-12"
+        },
+        {
+          "handle": "908E",
+          "expected_text": "1855.3"
+        },
+        {
+          "handle": "908F",
+          "expected_text": "550 x 450"
+        },
+        {
+          "handle": "9090",
+          "expected_text": "7.50"
+        },
+        {
+          "handle": "9091",
+          "expected_text": "1.138"
+        }
+      ],
+      "from_node": "J1",
+      "to_node": "TAP-VAV-10"
+    },
+    "D-13": {
+      "line_handle": "8DA5",
+      "from_m": [
+        90.565932,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        98.69843250000001,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9092",
+          "expected_text": "D-13"
+        },
+        {
+          "handle": "9093",
+          "expected_text": "1236.9"
+        },
+        {
+          "handle": "9094",
+          "expected_text": "450 x 400"
+        },
+        {
+          "handle": "9095",
+          "expected_text": "6.87"
+        },
+        {
+          "handle": "9096",
+          "expected_text": "1.167"
+        }
+      ],
+      "from_node": "TAP-VAV-10",
+      "to_node": "TAP-VAV-11"
+    },
+    "D-14": {
+      "line_handle": "8DA7",
+      "from_m": [
+        98.69843250000001,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        105.6767655,
+        28.750584000000003,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9097",
+          "expected_text": "D-14"
+        },
+        {
+          "handle": "9098",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "9099",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "909A",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "909B",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-11",
+      "to_node": "TAP-VAV-12"
+    },
+    "D-15": {
+      "line_handle": "8DA9",
+      "from_m": [
+        86.5,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        86.5,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "909C",
+          "expected_text": "D-15"
+        },
+        {
+          "handle": "909D",
+          "expected_text": "3491.8"
+        },
+        {
+          "handle": "909E",
+          "expected_text": "650 x 600"
+        },
+        {
+          "handle": "909F",
+          "expected_text": "8.95"
+        },
+        {
+          "handle": "90A0",
+          "expected_text": "1.202"
+        }
+      ],
+      "from_node": "J1",
+      "to_node": "J0"
+    },
+    "D-16": {
+      "line_handle": "8DAB",
+      "from_m": [
+        86.5,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90A1",
+          "expected_text": "D-16"
+        },
+        {
+          "handle": "90A2",
+          "expected_text": "1745.9"
+        },
+        {
+          "handle": "90A3",
+          "expected_text": "600 x 400"
+        },
+        {
+          "handle": "90A4",
+          "expected_text": "7.27"
+        },
+        {
+          "handle": "90A5",
+          "expected_text": "1.117"
+        }
+      ],
+      "from_node": "J0",
+      "to_node": "TAP-VAV-03"
+    },
+    "D-17": {
+      "line_handle": "8DAD",
+      "from_m": [
+        83.12593199999999,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90A6",
+          "expected_text": "D-17"
+        },
+        {
+          "handle": "90A7",
+          "expected_text": "1160.1"
+        },
+        {
+          "handle": "90A8",
+          "expected_text": "500 x 350"
+        },
+        {
+          "handle": "90A9",
+          "expected_text": "6.63"
+        },
+        {
+          "handle": "90AA",
+          "expected_text": "1.129"
+        }
+      ],
+      "from_node": "TAP-VAV-03",
+      "to_node": "TAP-VAV-02"
+    },
+    "D-18": {
+      "line_handle": "8DAF",
+      "from_m": [
+        75.685932,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90AB",
+          "expected_text": "D-18"
+        },
+        {
+          "handle": "90AC",
+          "expected_text": "575.7"
+        },
+        {
+          "handle": "90AD",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90AE",
+          "expected_text": "5.48"
+        },
+        {
+          "handle": "90AF",
+          "expected_text": "1.065"
+        }
+      ],
+      "from_node": "TAP-VAV-02",
+      "to_node": "TAP-VAV-01"
+    },
+    "D-19": {
+      "line_handle": "8DB1",
+      "from_m": [
+        86.5,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        90.565932,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90B0",
+          "expected_text": "D-19"
+        },
+        {
+          "handle": "90B1",
+          "expected_text": "1745.9"
+        },
+        {
+          "handle": "90B2",
+          "expected_text": "600 x 400"
+        },
+        {
+          "handle": "90B3",
+          "expected_text": "7.27"
+        },
+        {
+          "handle": "90B4",
+          "expected_text": "1.117"
+        }
+      ],
+      "from_node": "J0",
+      "to_node": "TAP-VAV-04"
+    },
+    "D-20": {
+      "line_handle": "8DB3",
+      "from_m": [
+        90.565932,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        98.69843250000001,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90B5",
+          "expected_text": "D-20"
+        },
+        {
+          "handle": "90B6",
+          "expected_text": "1156.8"
+        },
+        {
+          "handle": "90B7",
+          "expected_text": "500 x 350"
+        },
+        {
+          "handle": "90B8",
+          "expected_text": "6.61"
+        },
+        {
+          "handle": "90B9",
+          "expected_text": "1.123"
+        }
+      ],
+      "from_node": "TAP-VAV-04",
+      "to_node": "TAP-VAV-05"
+    },
+    "D-21": {
+      "line_handle": "8DB5",
+      "from_m": [
+        98.69843250000001,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        105.67676549999999,
+        21.920583999999998,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90BA",
+          "expected_text": "D-21"
+        },
+        {
+          "handle": "90BB",
+          "expected_text": "575.7"
+        },
+        {
+          "handle": "90BC",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90BD",
+          "expected_text": "5.48"
+        },
+        {
+          "handle": "90BE",
+          "expected_text": "1.065"
+        }
+      ],
+      "from_node": "TAP-VAV-05",
+      "to_node": "TAP-VAV-06"
+    },
+    "D-22": {
+      "line_handle": "8DB7",
+      "from_m": [
+        86.5,
+        36.2,
+        0
+      ],
+      "to_m": [
+        98.6984325,
+        36.2,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90BF",
+          "expected_text": "D-22"
+        },
+        {
+          "handle": "90C0",
+          "expected_text": "1422.3"
+        },
+        {
+          "handle": "90C1",
+          "expected_text": "500 x 400"
+        },
+        {
+          "handle": "90C2",
+          "expected_text": "7.11"
+        },
+        {
+          "handle": "90C3",
+          "expected_text": "1.174"
+        }
+      ],
+      "from_node": "ROOT",
+      "to_node": "UP-TURN"
+    },
+    "D-23": {
+      "line_handle": "8DB9",
+      "from_m": [
+        98.6984325,
+        36.2,
+        0
+      ],
+      "to_m": [
+        98.6984325,
+        38.460584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90C4",
+          "expected_text": "D-23"
+        },
+        {
+          "handle": "90C5",
+          "expected_text": "1422.3"
+        },
+        {
+          "handle": "90C6",
+          "expected_text": "500 x 400"
+        },
+        {
+          "handle": "90C7",
+          "expected_text": "7.11"
+        },
+        {
+          "handle": "90C8",
+          "expected_text": "1.174"
+        }
+      ],
+      "from_node": "UP-TURN",
+      "to_node": "TAP-VAV-19"
+    },
+    "D-24": {
+      "line_handle": "8DBB",
+      "from_m": [
+        98.6984325,
+        38.460584,
+        0
+      ],
+      "to_m": [
+        105.6767655,
+        38.460584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90C9",
+          "expected_text": "D-24"
+        },
+        {
+          "handle": "90CA",
+          "expected_text": "703.0"
+        },
+        {
+          "handle": "90CB",
+          "expected_text": "400 x 300"
+        },
+        {
+          "handle": "90CC",
+          "expected_text": "5.86"
+        },
+        {
+          "handle": "90CD",
+          "expected_text": "1.120"
+        }
+      ],
+      "from_node": "TAP-VAV-19",
+      "to_node": "TAP-VAV-20"
+    },
+    "D-25": {
+      "line_handle": "8DBD",
+      "from_m": [
+        68.245932,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90CE",
+          "expected_text": "D-25"
+        },
+        {
+          "handle": "90CF",
+          "expected_text": "575.7"
+        },
+        {
+          "handle": "90D0",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90D1",
+          "expected_text": "5.48"
+        },
+        {
+          "handle": "90D2",
+          "expected_text": "1.065"
+        }
+      ],
+      "from_node": "TAP-VAV-01",
+      "to_node": "VAV-01"
+    },
+    "D-26": {
+      "line_handle": "8DBF",
+      "from_m": [
+        75.685932,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90D3",
+          "expected_text": "D-26"
+        },
+        {
+          "handle": "90D4",
+          "expected_text": "584.4"
+        },
+        {
+          "handle": "90D5",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90D6",
+          "expected_text": "5.57"
+        },
+        {
+          "handle": "90D7",
+          "expected_text": "1.095"
+        }
+      ],
+      "from_node": "TAP-VAV-02",
+      "to_node": "VAV-02"
+    },
+    "D-27": {
+      "line_handle": "8DC1",
+      "from_m": [
+        83.12593199999999,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90D8",
+          "expected_text": "D-27"
+        },
+        {
+          "handle": "90D9",
+          "expected_text": "585.8"
+        },
+        {
+          "handle": "90DA",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90DB",
+          "expected_text": "5.58"
+        },
+        {
+          "handle": "90DC",
+          "expected_text": "1.099"
+        }
+      ],
+      "from_node": "TAP-VAV-03",
+      "to_node": "VAV-03"
+    },
+    "D-28": {
+      "line_handle": "8DC3",
+      "from_m": [
+        90.565932,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        90.565932,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90DD",
+          "expected_text": "D-28"
+        },
+        {
+          "handle": "90DE",
+          "expected_text": "589.1"
+        },
+        {
+          "handle": "90DF",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90E0",
+          "expected_text": "5.61"
+        },
+        {
+          "handle": "90E1",
+          "expected_text": "1.111"
+        }
+      ],
+      "from_node": "TAP-VAV-04",
+      "to_node": "VAV-04"
+    },
+    "D-29": {
+      "line_handle": "8DC5",
+      "from_m": [
+        98.69843250000001,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        98.69843250000001,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90E2",
+          "expected_text": "D-29"
+        },
+        {
+          "handle": "90E3",
+          "expected_text": "581.1"
+        },
+        {
+          "handle": "90E4",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90E5",
+          "expected_text": "5.53"
+        },
+        {
+          "handle": "90E6",
+          "expected_text": "1.083"
+        }
+      ],
+      "from_node": "TAP-VAV-05",
+      "to_node": "VAV-05"
+    },
+    "D-30": {
+      "line_handle": "8DC7",
+      "from_m": [
+        105.67676549999999,
+        21.920583999999998,
+        0
+      ],
+      "to_m": [
+        105.67676549999999,
+        19.520584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90E7",
+          "expected_text": "D-30"
+        },
+        {
+          "handle": "90E8",
+          "expected_text": "575.7"
+        },
+        {
+          "handle": "90E9",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90EA",
+          "expected_text": "5.48"
+        },
+        {
+          "handle": "90EB",
+          "expected_text": "1.065"
+        }
+      ],
+      "from_node": "TAP-VAV-06",
+      "to_node": "VAV-06"
+    },
+    "D-31": {
+      "line_handle": "8DC9",
+      "from_m": [
+        68.245932,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        26.350584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90EC",
+          "expected_text": "D-31"
+        },
+        {
+          "handle": "90ED",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "90EE",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90EF",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "90F0",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-07",
+      "to_node": "VAV-07"
+    },
+    "D-32": {
+      "line_handle": "8DCB",
+      "from_m": [
+        75.685932,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        26.350584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90F1",
+          "expected_text": "D-32"
+        },
+        {
+          "handle": "90F2",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "90F3",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90F4",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "90F5",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-08",
+      "to_node": "VAV-08"
+    },
+    "D-33": {
+      "line_handle": "8DCD",
+      "from_m": [
+        83.12593199999999,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        26.350584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90F6",
+          "expected_text": "D-33"
+        },
+        {
+          "handle": "90F7",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "90F8",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90F9",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "90FA",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-09",
+      "to_node": "VAV-09"
+    },
+    "D-34": {
+      "line_handle": "8DCF",
+      "from_m": [
+        90.565932,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        90.565932,
+        26.350584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "90FB",
+          "expected_text": "D-34"
+        },
+        {
+          "handle": "90FC",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "90FD",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "90FE",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "90FF",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-10",
+      "to_node": "VAV-10"
+    },
+    "D-35": {
+      "line_handle": "8DD1",
+      "from_m": [
+        98.69843250000001,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        98.69843250000001,
+        26.350584000000005,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9100",
+          "expected_text": "D-35"
+        },
+        {
+          "handle": "9101",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "9102",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "9103",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "9104",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-11",
+      "to_node": "VAV-11"
+    },
+    "D-36": {
+      "line_handle": "8DD3",
+      "from_m": [
+        105.6767655,
+        28.750584000000003,
+        0
+      ],
+      "to_m": [
+        105.6767655,
+        26.350584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9105",
+          "expected_text": "D-36"
+        },
+        {
+          "handle": "9106",
+          "expected_text": "618.4"
+        },
+        {
+          "handle": "9107",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "9108",
+          "expected_text": "5.89"
+        },
+        {
+          "handle": "9109",
+          "expected_text": "1.216"
+        }
+      ],
+      "from_node": "TAP-VAV-12",
+      "to_node": "VAV-12"
+    },
+    "D-37": {
+      "line_handle": "8DD5",
+      "from_m": [
+        68.245932,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        68.245932,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "910A",
+          "expected_text": "D-37"
+        },
+        {
+          "handle": "910B",
+          "expected_text": "551.8"
+        },
+        {
+          "handle": "910C",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "910D",
+          "expected_text": "5.52"
+        },
+        {
+          "handle": "910E",
+          "expected_text": "1.144"
+        }
+      ],
+      "from_node": "TAP-VAV-13",
+      "to_node": "VAV-13"
+    },
+    "D-38": {
+      "line_handle": "8DD7",
+      "from_m": [
+        75.685932,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        75.685932,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "910F",
+          "expected_text": "D-38"
+        },
+        {
+          "handle": "9110",
+          "expected_text": "556.0"
+        },
+        {
+          "handle": "9111",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "9112",
+          "expected_text": "5.56"
+        },
+        {
+          "handle": "9113",
+          "expected_text": "1.160"
+        }
+      ],
+      "from_node": "TAP-VAV-14",
+      "to_node": "VAV-14"
+    },
+    "D-39": {
+      "line_handle": "8DD9",
+      "from_m": [
+        83.12593199999999,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        83.12593199999999,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9114",
+          "expected_text": "D-39"
+        },
+        {
+          "handle": "9115",
+          "expected_text": "557.6"
+        },
+        {
+          "handle": "9116",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "9117",
+          "expected_text": "5.58"
+        },
+        {
+          "handle": "9118",
+          "expected_text": "1.166"
+        }
+      ],
+      "from_node": "TAP-VAV-15",
+      "to_node": "VAV-15"
+    },
+    "D-40": {
+      "line_handle": "8DDB",
+      "from_m": [
+        90.56593200000002,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        90.56593200000002,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9119",
+          "expected_text": "D-40"
+        },
+        {
+          "handle": "911A",
+          "expected_text": "561.5"
+        },
+        {
+          "handle": "911B",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "911C",
+          "expected_text": "5.62"
+        },
+        {
+          "handle": "911D",
+          "expected_text": "1.181"
+        }
+      ],
+      "from_node": "TAP-VAV-16",
+      "to_node": "VAV-16"
+    },
+    "D-41": {
+      "line_handle": "8DDD",
+      "from_m": [
+        98.6984325,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        98.6984325,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "911E",
+          "expected_text": "D-41"
+        },
+        {
+          "handle": "911F",
+          "expected_text": "572.9"
+        },
+        {
+          "handle": "9120",
+          "expected_text": "400 x 250"
+        },
+        {
+          "handle": "9121",
+          "expected_text": "5.73"
+        },
+        {
+          "handle": "9122",
+          "expected_text": "1.226"
+        }
+      ],
+      "from_node": "TAP-VAV-17",
+      "to_node": "VAV-17"
+    },
+    "D-42": {
+      "line_handle": "8DDF",
+      "from_m": [
+        105.67676549999999,
+        35.580584,
+        0
+      ],
+      "to_m": [
+        105.67676549999999,
+        33.49404200000001,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9123",
+          "expected_text": "D-42"
+        },
+        {
+          "handle": "9124",
+          "expected_text": "576.0"
+        },
+        {
+          "handle": "9125",
+          "expected_text": "350 x 300"
+        },
+        {
+          "handle": "9126",
+          "expected_text": "5.49"
+        },
+        {
+          "handle": "9127",
+          "expected_text": "1.066"
+        }
+      ],
+      "from_node": "TAP-VAV-18",
+      "to_node": "VAV-18"
+    },
+    "D-43": {
+      "line_handle": "8DE1",
+      "from_m": [
+        98.6984325,
+        38.460584,
+        0
+      ],
+      "to_m": [
+        98.6984325,
+        41.160584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "9128",
+          "expected_text": "D-43"
+        },
+        {
+          "handle": "9129",
+          "expected_text": "719.3"
+        },
+        {
+          "handle": "912A",
+          "expected_text": "400 x 300"
+        },
+        {
+          "handle": "912B",
+          "expected_text": "5.99"
+        },
+        {
+          "handle": "912C",
+          "expected_text": "1.169"
+        }
+      ],
+      "from_node": "TAP-VAV-19",
+      "to_node": "VAV-19"
+    },
+    "D-44": {
+      "line_handle": "8DE3",
+      "from_m": [
+        105.6767655,
+        38.460584,
+        0
+      ],
+      "to_m": [
+        105.6767655,
+        41.160584,
+        0
+      ],
+      "cells": [
+        {
+          "handle": "912D",
+          "expected_text": "D-44"
+        },
+        {
+          "handle": "912E",
+          "expected_text": "703.0"
+        },
+        {
+          "handle": "912F",
+          "expected_text": "400 x 300"
+        },
+        {
+          "handle": "9130",
+          "expected_text": "5.86"
+        },
+        {
+          "handle": "9131",
+          "expected_text": "1.120"
+        }
+      ],
+      "from_node": "TAP-VAV-20",
+      "to_node": "VAV-20"
+    }
+  },
+  "flow_arrows": {
+    "layer": "BSA_FLOW_DIRECTION",
+    "length_m": 0.18,
+    "width_m": 0.08,
+    "fraction": 0.55
+  }
+}
