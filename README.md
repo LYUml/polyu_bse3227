@@ -9,8 +9,9 @@ The formal report, actual reopened drawings and updated connection schedules
 have been reconciled. User acceptance is pending.
 
 [Phone-viewable anonymous PDF](04_Final_Report/Public_Snapshot/BSE3227%20HVAC%20Mini-Design.pdf)
-has identical engineering content to the private local report; the latter also
-contains the authorized group members. See
+has identical engineering content to the
+[formal report with group members](04_Final_Report/Connection_Layout/BSE3227%20HVAC%20Mini-Design.pdf).
+Both reports are now tracked with explicit user authorization. See
 [final delivery check](05_Calculations/Connection_Layout/Refined%20Coursework%20Delivery%20Check.json).
 The170.1versus160W/m2 applicability assumption, installed lengths and complete
 statutory conformity remain explicit limitations. No CFD/full-pressure research
