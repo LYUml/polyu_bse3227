@@ -1,5 +1,11 @@
 # BSE3227 HVAC mini-design
 
+## Start here / 从这里查看
+
+[**Current handover / 当前成果：00_Submit**](00_Submit/README.md) · [**18-page PDF report / 完整报告**](00_Submit/BSE3227_HVAC_Design_Report.pdf)
+
+The complete report, editable main drawings and matching calculations are collected in `00_Submit`, following the BSE3125 handover structure. The numbered directories retain the full tracked project history and sources. The design is unchanged and awaits user review.
+
 Current review package: **18-page report**, retaining the coursework main design
 (189 W/m2 total, sensible factor0.90,80diffusers,20VAV groups,47rigid sections,
 600mm/8inch1400/51400). The native DWG, plot and main engineering schedules are
