@@ -1,5 +1,22 @@
 # BSE3227 HVAC mini-design
 
+Current coursework handover: the illustrated report has16pages, with the same
+80diffusers/20VAV groups/47rigid sections. Twelve diffusers move150mm south
+within their existing service areas; prescribed flows and rigid sizes remain
+unchanged. Native-throw ratios improve from1.2066–3.2797 to1.2117–3.1122.
+This is conditional classroom selection margin, not a measured ADPI improvement.
+The formal report, actual reopened drawings and updated connection schedules
+have been reconciled. User acceptance is pending.
+
+[Phone-viewable anonymous PDF](04_Final_Report/Public_Snapshot/BSE3227%20HVAC%20Mini-Design.pdf)
+has identical engineering content to the private local report; the latter also
+contains the authorized group members. See
+[final delivery check](05_Calculations/Connection_Layout/Refined%20Coursework%20Delivery%20Check.json).
+The170.1versus160W/m2 applicability assumption, installed lengths and complete
+statutory conformity remain explicit limitations. No CFD/full-pressure research
+is required for this finite coursework review. Earlier entries below are
+historical studies, not competing current submission baselines.
+
 Axial bend refinement now has executed numerical-window and native-probe checks; pressure changes about0.061%, while the conditional velocity discrepancy persists. See 05_Calculations/Bend Axial Grid Check.json and Bend Axial Grid Comparison.png. This is not full grid independence or project pressure acceptance.
 
 Developed-inlet bend execution now passes terminal residual and full numerical-window checks. The conditional experimental velocity discrepancy remains; this is not project pressure acceptance. See 05_Calculations/Developed Bend Check.json and Developed Bend Comparison.png. Earlier milestones below remain historical.

@@ -1,5 +1,23 @@
 # Supply air connection layout study
 
+Current coursework submission uses Supply Air Distribution.dwg/PDF and the
+matching VAV Connection Schedule.dwg/PDF, with a sixteen-page report. Twelve
+diffusers are moved150mm south within unchanged explicit service cells; all
+flows, twenty VAV memberships and forty-seven rigid sizes are preserved.
+Both native drawings are saved/reopened and their actual plots inspected.
+The updated ratio/connection schedules correspond to these positions.
+The report contains before/after margins and the0.57% total-plan-flex tradeoff.
+Full pressure, actual installation, physical ADPI and complete statutory
+acceptance remain open. User coursework acceptance is pending.
+
+The Supply Network Coordination IFC/DWG/PDF and subfolder studies describe
+supplementary rigid networks or earlier geometries. They are not installation
+drawings or replacements for the coursework single-line submission. Rigid
+topology/sizes remain unchanged by the local diffuser refinement; physical
+terminal/connection acceptance must not be inferred from these other models.
+
+## Preserved earlier study history
+
 This drawing moves ten VAV symbols and associated taps to the centres of their
 unchanged four-diffuser groups. Three existing candidate duct sections are
 increased from 500 x 350 to 550 x 350 mm to compensate longer trunk segments.
