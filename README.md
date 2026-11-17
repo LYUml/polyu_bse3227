@@ -1,5 +1,14 @@
 # BSE3227 HVAC mini-design
 
+[ADPI design assessment](05_Calculations/ADPI%20Design%20Assessment.pdf) now
+documents a fresh manufacturer-basis check of the unchanged coursework geometry.
+All eight original1400panel/neck options were checked; no current-layout option
+clears the paired source-curve diagnostic. A separate existing63-outlet1900
+comparison passes its paired source checks, but is a different product from the
+brief. Source graph readings are not measured or exact actual-load ADPI. The
+formal sixteen-page report remains preserved pending the product/basis decision.
+See [executed basis review](05_Calculations/Connection_Layout/Manufacturer%20Basis%20Review.json).
+
 Current coursework handover: the illustrated report has16pages, with the same
 80diffusers/20VAV groups/47rigid sections. Twelve diffusers move150mm south
 within their existing service areas; prescribed flows and rigid sizes remain
