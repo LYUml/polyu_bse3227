@@ -1,0 +1,1891 @@
+
+--- PAGE 1 ---
+1
+ Open-plan Office Air-conditioning Design
+ BSE3227: HVACR 1
+ HUANG Celine 24034414D       LUO Qianyu 24114977D       LYU Mingliang 24099296D
+ RIOBA Ann Muniko 24114901D       XIE Jingxuan 24110957D
+1. Introduction and design basis
+1.1 Design objective
+The design provides a variable air volume supply-air layout for the given open-plan office.
+It covers the preliminary cooling load, maximum and minimum diffuser flows, classroom
+air-diffusion checks, VAV connections and rectangular duct sizing required by the
+assignment.
+1.2 Adopted office and system assumptions
+The supplied plan annotation of 1022 m2 is used for the rule-of-thumb load calculation.
+The interpreted CAD boundary is used for diffuser locations and directional lengths. These
+are different quantities: the annotated area is not presented as a surveyed net area. The
+adopted layout has 80 diffusers, twenty VAV groups and 47 rigid supply sections.
+Table 1. Principal design inputs.
+ Parameter
+Adopted value
+Office load area
+1022 m2, supplied plan
+Cooling allowance / sensible factor
+189 W/m2 / 0.90, classroom guide
+Room / supply temperature
+24 / 12 deg C, design assumption
+Density / specific heat
+1.20 kg/m3 / 1006 J/(kg K)
+Minimum airflow
+40% of maximum
+Diffuser family / neck
+1400/51400 four-cone, 600 x 600 mm / 8 inch
+Ordinary flexible-connection design cap
+4.00 m; additional routing allowance 0.50 m
+1.3 Calculation scope
+The empirical allowance and routing allowance are preliminary design assumptions. This
+report distinguishes the classroom ratio check from a measured ADPI percentage. Full fan
+selection and detailed system pressure are supplementary engineering studies, not part of
+the assignment duct-sizing calculation.
+
+
+--- PAGE 2 ---
+2
+2. Cooling load, airflow and VAV layout
+2.1 Preliminary thermal balance
+The adopted preliminary design uses an office cooling allowance of 189 W/m2 and an
+approximate sensible heat factor of 0.90. The same basis is used throughout:
+Table 2. Thermal balance and supply airflow.
+ Calculation
+Result
+Total cooling = 1022 x 189
+193.158 kW thermal
+Sensible cooling = 193.158 x 0.90
+173.8422 kW thermal
+Q = sensible W / [density x cp x (24 - 12)]
+12000.373 L/s
+Minimum supply = 0.40 x maximum
+4800.149 L/s
+These thermal powers are not electrical input ratings. The temperature difference and air
+properties in Table 1 are adopted for this preliminary air balance. Unrounded flows are
+used for calculations; displayed schedule values are rounded.
+2.2 Diffuser distribution and VAV grouping
+Each diffuser receives its assigned share of the total airflow. The 80 maximum flows sum
+to 12000.373 L/s, and every minimum flow is exactly 40% of its maximum. Each of the
+twenty VAV groups serves four diffusers, satisfying the assignment requirement for four to
+five outlets per box. Group flows equal the sum of their diffuser flows; the complete
+grouping is given in Appendix C.
+Twelve diffusers are displaced 150 mm south within their original explicit service areas.
+Service-area loads, all terminal flows, VAV membership and rigid section sizes remain
+unchanged; Figure 2 identifies the adjusted row.
+2.3 Flexible connection design
+The longest straight XY connection reconstructed from the saved/reopened drawing is
+2.873 m. Adding the stated 0.50 m routing allowance gives 3.373 m. This leaves a
+minimum conditional margin of 0.627 m to the adopted 4 m design cap, which is stricter
+than the assignment limit of 5 m. The allowance is not a measured vertical offset or
+installed slack.
+Flexible ducts are specified as final connections, not main distribution. Final routing must
+remain within the ordinary limit and must not pass through fire-resisting barriers or attach
+directly to fire/fire-smoke dampers [1]. The actual installed lengths and fire-boundary
+classification would be confirmed before installation.
+
+
+--- PAGE 3 ---
+3
+3. Diffuser selection and air-diffusion checks
+3.1 Selected diffuser and characteristic length
+The selected Krueger 1400/51400 has a 600 x 600 mm panel, 8-inch neck and no damper
+[2]. Both operating flows of all 80 diffusers lie within its published table. T0.25 is taken
+from the third horizontal isothermal throw value; intermediate flows use linear
+interpolation between adjacent published rows.
+Characteristic length L is taken in each principal plan direction to a boundary or the
+midplane between opposing outlets, as an explicit assumption of the planar design. The 320
+directional lengths comprise 40 boundary-limited and 280 opposing-outlet cases. Appendix
+B records all four lengths for every diffuser.
+3.2 Maximum and minimum operating cases
+All 640 directional operating cases lie within the adopted classroom interval T0.25/L =
+1.0-3.4. Original catalogue interpolation gives 1.1526-3.0598; the independent native
+K-Select check gives 1.2117-3.1122 [3]. Figure 1 shows the directional extremes for each
+diffuser using the original table.
+1
+20
+40
+60
+80
+1
+2
+3
+3.4
+Diffuser number; solid = maximum-case upper extreme, dashed = minimum-case lower extreme
+ Figure 1. Original-table directional ratio extremes and adopted classroom bounds.
+3.3 Interpretation and design approximation
+The preliminary sensible allowance is 170.1 W/m2, 6.3% above the printed classroom table
+limit of 160 W/m2. Using the classroom interval at this allowance is an explicit coursework
+design approximation. It is not a teacher-issued exemption, a prediction of ADPI >=80%,
+or a transfer of the manufacturer Type 3 curve [4]. No measured ADPI percentage is
+claimed.
+
+
+--- PAGE 4 ---
+4
+3.4 Air distribution layout and local refinement
+V01
+V02
+V03
+V04
+V05
+V06
+V07
+V08
+V09
+V10
+V11
+V12
+V13
+V14
+V15
+V16
+V17
+V18
+V19
+V20
+SD-56
+SD-08
+Square: diffuser   Blue dot: schematic VAV   Orange: 150 mm southward adjustment
+Source plan coordinates; existing service areas, flows and group membership retained.
+ Figure 2. Source-coordinate diffuser arrangement, schematic VAV grouping and adjusted row.
+A finite comparison considered 50, 100 and 150 mm shifts of the controlling source row or
+column. The selected 150 mm southward row adjustment preserves all assigned
+service-area loads and moves no diffuser outside its original service cell. No new rigid
+bend, VAV group or diffuser type is introduced.
+Table 4. Native-throw geometric check before and after the selected adjustment.
+ Quantity
+Before
+Adopted
+Minimum directional ratio
+1.2066
+1.2117
+Maximum directional ratio
+3.2797
+3.1122
+Margin below upper ratio limit
+3.54%
+8.46%
+Cases within adopted interval
+640/640
+640/640
+Total planar flexible length
+197.894 m
+199.024 m
+Maximum conditional flexible length
+3.373 m
+3.373 m
+The upper-bound margin increases by 4.92 percentage points. The tradeoff is 1.130 m more total planar flexible
+connection (0.57%); the maximum connection budget remains unchanged. These are geometric selection margins,
+not an increase in ADPI percentage or a complete pressure comparison.
+
+
+--- PAGE 5 ---
+5
+3.5 Critical diffuser and worked calculation
+SD-56
+SD-68
+Opposing-outlet midplane
+L = 1.4690 m
+Native isothermal throw = 4.572 m
+Plan schematic from actual coordinates. Dashed arrow denotes tabulated isothermal throw,
+not a simulated jet path or measured occupied-zone velocity. North is upwards.
+ Figure 3. SD-56 northward characteristic length and tabulated isothermal throw.
+SD-56 receives 155.9466 L/s at maximum flow and 62.3786 L/s at minimum flow. Its
+northward L increases from 1.3940 to 1.4690 m. At the unchanged native input of 330
+CFM (155.7427 L/s), the reported 15.0 ft throw gives T0.25 = 15.0 x 0.3048 = 4.5720 m.
+Hence T0.25/L = 4.5720/1.469042 = 3.1122, compared with 3.2797 before the adjustment
+[3].
+The original metric-table interpolation is retained separately: T0.25 = 4.4903 m at the
+prescribed maximum flow, giving 4.4903/1.469042 = 3.0566 [2]. The native and catalogue
+values use different flow rounding and reported performance; they are not presented as
+identical.
+The minimum-flow limiting point after adjustment is SD-08 eastward: native T0.25 =
+2.7432 m and L = 2.263959 m give a ratio of 1.2117. All other directions and both
+operating flows are checked in the schedules; improving SD-56 alone would not establish a
+whole-layout pass.
+Worked duct-sizing check
+D-11 carries 618.426 L/s through 350 x 300 mm. Area = 0.350 x 0.300 = 0.1050 m2;
+velocity = 0.618426/0.1050 = 5.890 m/s, below its adopted 8 m/s branch limit. The aspect
+ratio is 1.17; calculated friction is 1.2161 Pa/m, below 1.23 Pa/m. These checks do not
+include fitting or equipment losses.
+
+
+--- PAGE 6 ---
+6
+4. Duct sizing and Hong Kong design provisions
+4.1 Rigid duct arrangement and sizing
+The single-line plan connects the VAV groups to a branched supply trunk using straight
+sections where practical. Each of the 47 sections is identified on the drawing and in
+Appendix D. Rectangular area determines actual air velocity; the adopted main/branch
+speed limits are 10/8 m/s. The upper friction criterion is 1.23 Pa/m and the preferred
+aspect-ratio limit is 4:1.
+All 47 adopted sections were checked in the assignment-linked Online Ductulator using 36
+unique input combinations [5]. D06, D13 and D20 use 550 x 350 mm. The schedule retains
+both the online friction value and an independent equivalent-round calculation; the two are
+not assumed numerically identical. Section friction is a pressure gradient, not total fitting,
+terminal or fan pressure.
+4.2 Applicable provisions and design checks
+Table 3. Course criteria and scoped Hong Kong design checks.
+ Item / basis
+Adopted design response
+Scope
+Course: VAV outlets
+Twenty groups, four outlets each
+Numerically checked
+Course: minimum flow
+40% for all 80 diffusers
+Numerically checked
+Course: section sizing [5]
+47 sections within adopted
+speed/friction/aspect limits
+Section sizing only
+FSD 7.2: ordinary flexible length
+[1]
+4 m design cap; maximum conditional budget
+3.373 m
+Routing allowance
+assumed
+FSD 7.3-7.4: flexible routing [1]
+Final connections only; no fire-barrier crossing
+or direct fire-damper attachment specified
+Installation must confirm
+EMSD BEC 2024 [6]
+Energy provisions apply where within
+statutory scope
+Full-system energy
+compliance not
+established
+The FSD provisions are incorporated as design constraints. The BEC governs wider
+air-conditioning energy matters; this floor distribution exercise does not establish
+whole-system fan power, plant efficiency or complete statutory compliance. Applicable
+installation, insulation, controls and fire-stopping details require confirmation in a real
+project.
+
+
+--- PAGE 7 ---
+7
+5. Design assessment and conclusion
+5.1 Consistency of the adopted design
+The report, diffuser schedule, VAV grouping and duct schedule refer to one 80-diffuser
+design. The CAD was saved and reopened in AutoCAD; generated geometry and all 80
+straight connection lengths were checked against the calculation sources. The reviewed A1
+plot uses a 1:100 scale, with a 100 mm reference measured at 99.991 mm. The formal
+drawing is included after the appendices.
+5.2 Independent calculation checks
+Native K-Select GRD reports cover all 160 terminal operating flows through 49 distinct
+whole-CFM inputs. Inputs differ from the prescribed flow by no more than 0.2331 L/s.
+Independent PDF-coordinate checks reconcile the reported conditions and results. The
+source imperial throw units are converted to metres; a low-flow NC dash remains qualified
+unknown. These checks support numerical consistency, not installed performance
+certification.
+5.3 Conclusion and limitations
+The adopted design provides 12000.373 L/s maximum and 4800.149 L/s minimum supply
+air through twenty four-outlet VAV groups. All classroom directional ratio checks meet the
+selected interval under the stated load-range approximation. The 47 rigid duct sections
+meet the adopted sizing criteria, and the conditional flexible-connection budget is below
+the stricter 4 m design cap.
+The result is a preliminary coursework design. Its principal limitations are the empirical
+cooling allowance, table-range approximation, interpreted plan boundaries and routing
+allowance. Actual ceiling conditions, final installed lengths and product installation would
+require confirmation before construction. Full-system pressure and fan selection remain
+separate engineering work; supplementary linear-slot and CFD studies do not replace the
+specified 1400/51400 coursework design.
+
+
+--- PAGE 8 ---
+8
+References
+[1] Fire Services Department, Fire Safety Requirements for Mechanical Ventilating Systems, FSD
+ Circular Letter no. 2/2023. Hong Kong: Government of the Hong Kong Special
+Administrative Region, Jun. 7, 2023, paras. 7.2-7.4. Accessed: Nov. 17, 2026. [Online].
+Available:
+https://www.hkfsd.gov.hk/eng/source/licensing/MECHANICAL_VS_EN_2_2023.pdf.
+[2] Krueger, "1400, 51400, M1400, M51400 published performance data," 2012, p. B1-12.
+ Accessed: Nov. 17, 2026. [Online]. Available: https://www.krueger-hvac.com/file/3118/1400
+_51400_M1400_M51400_PublishedPerformanceData.pdf.
+[3] Krueger, "K-Select selection software." Accessed: Nov. 17, 2026. [Online]. Available:
+ https://www.krueger-hvac.com/public/software/k-select.
+[4] Krueger, "Air distribution engineering," 2012, pp. a1-9-a1-11. Accessed: Nov. 17, 2026.
+ [Online]. Available: https://www.krueger-hvac.com/file/9261/GRD_Engineering.pdf.
+[5] Ductulator.com, "Ductulator (Metric)." Accessed: Nov. 17, 2026. [Online]. Available:
+ https://ductulator.com/metric/.
+[6] Electrical and Mechanical Services Department, Code of Practice for Energy Efficiency of
+ Building Services Installation, 2024 ed. Hong Kong: Government of the Hong Kong Special
+Administrative Region, 2024, sec. 6. Accessed: Nov. 17, 2026. [Online]. Available:
+https://www.emsd.gov.hk/beeo/en/pee/BEC_2024_ENG.pdf.
+
+
+--- PAGE 9 ---
+9
+Appendix A. Diffuser operating schedule
+Table A1. Original-catalogue flows, throws and directional ratio extremes.
+ Outlet
+Qmax
+L/s
+Qmin
+L/s
+Tmax
+m
+Tmin
+m
+Upper
+T/L
+Lower
+T/L
+SD-01
+132.21
+52.88
+4.203
+2.344
+2.4612
+1.2600
+SD-02
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-03
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-04
+140.98
+56.39
+4.309
+2.492
+2.5235
+1.3400
+SD-05
+142.30
+56.92
+4.325
+2.515
+2.5328
+1.3520
+SD-06
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-07
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-08
+157.22
+62.89
+4.506
+2.768
+2.6387
+1.2226
+SD-09
+153.58
+61.43
+4.462
+2.706
+2.6129
+1.1953
+SD-10
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-11
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-12
+123.04
+49.21
+4.037
+2.188
+2.3643
+1.2541
+SD-13
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-14
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-15
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-16
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-17
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-18
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-19
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-20
+163.87
+65.55
+4.586
+2.881
+2.6860
+1.2725
+SD-21
+159.29
+63.72
+4.531
+2.803
+2.6535
+1.2381
+SD-22
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-23
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-24
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-25
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-26
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-27
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-28
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-29
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-30
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-31
+147.82
+59.13
+4.392
+2.609
+2.5721
+1.4024
+SD-32
+163.87
+65.55
+4.586
+2.881
+2.6860
+1.2725
+SD-33
+159.29
+63.72
+4.531
+2.803
+2.6535
+1.2381
+SD-34
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-35
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-36
+138.65
+55.46
+4.281
+2.453
+2.5069
+1.4060
+SD-37
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-38
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-39
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-40
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+
+
+--- PAGE 10 ---
+10
+Appendix A. Diffuser operating schedule (continued)
+Table A1. Original-catalogue flows, throws and directional ratio extremes.
+ Outlet
+Qmax
+L/s
+Qmin
+L/s
+Tmax
+m
+Tmin
+m
+Upper
+T/L
+Lower
+T/L
+SD-41
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-42
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-43
+161.39
+64.56
+4.556
+2.839
+2.6684
+1.4588
+SD-44
+178.92
+71.57
+4.811
+3.018
+2.8175
+1.3331
+SD-45
+173.91
+69.56
+4.735
+2.976
+2.7731
+1.3143
+SD-46
+151.38
+60.55
+4.435
+2.669
+2.5973
+1.3715
+SD-47
+151.38
+60.55
+4.435
+2.669
+2.5973
+1.3715
+SD-48
+151.38
+60.55
+4.435
+2.669
+2.5973
+1.3715
+SD-49
+135.45
+54.18
+4.242
+2.399
+2.8875
+1.2326
+SD-50
+147.82
+59.13
+4.392
+2.609
+2.9896
+1.3405
+SD-51
+147.82
+59.13
+4.392
+2.609
+2.9896
+1.3405
+SD-52
+139.67
+55.87
+4.293
+2.470
+2.9223
+1.2694
+SD-53
+141.24
+56.50
+4.312
+2.497
+2.9353
+1.2831
+SD-54
+147.82
+59.13
+4.392
+2.609
+2.9896
+1.3405
+SD-55
+147.82
+59.13
+4.392
+2.609
+2.9896
+1.3405
+SD-56
+155.95
+62.38
+4.490
+2.746
+3.0566
+1.2131
+SD-57
+152.49
+61.00
+4.448
+2.688
+3.0281
+1.1872
+SD-58
+138.65
+55.46
+4.281
+2.453
+2.9139
+1.2605
+SD-59
+138.65
+55.46
+4.281
+2.453
+2.9139
+1.2605
+SD-60
+126.28
+50.51
+4.096
+2.243
+2.7882
+1.1526
+SD-61
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-62
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-63
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-64
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-65
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-66
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-67
+134.25
+53.70
+4.227
+2.378
+2.8776
+1.2786
+SD-68
+148.83
+59.53
+4.404
+2.626
+2.9979
+1.1598
+SD-69
+156.34
+62.54
+4.495
+2.753
+3.0598
+1.2160
+SD-70
+137.60
+55.04
+4.268
+2.435
+2.9052
+1.2205
+SD-71
+137.60
+55.04
+4.268
+2.435
+2.9052
+1.2205
+SD-72
+137.60
+55.04
+4.268
+2.435
+2.9052
+1.2205
+SD-73
+173.67
+69.47
+4.731
+2.974
+2.7120
+1.3028
+SD-74
+173.67
+69.47
+4.731
+2.974
+2.7120
+1.3028
+SD-75
+173.67
+69.47
+4.731
+2.974
+2.7120
+1.3028
+SD-76
+173.67
+69.47
+4.731
+2.974
+2.7120
+1.3028
+SD-77
+185.34
+74.14
+4.908
+3.073
+2.8134
+1.3461
+SD-78
+185.34
+74.14
+4.908
+3.073
+2.8134
+1.3461
+SD-79
+185.34
+74.14
+4.908
+3.073
+2.8134
+1.3461
+SD-80
+169.95
+67.98
+4.675
+2.942
+2.6797
+1.2889
+
+
+--- PAGE 11 ---
+11
+Appendix B. Characteristic lengths
+Table B1. Plan-direction lengths in metres.
+ Outlet
+West
+East
+South
+North
+SD-01
+1.8600
+1.8600
+1.7075
+1.7075
+SD-02
+1.8600
+1.8600
+1.7075
+1.7075
+SD-03
+1.8600
+1.8600
+1.7075
+1.7075
+SD-04
+1.8600
+1.8600
+1.7075
+1.7075
+SD-05
+1.8600
+1.8600
+1.7075
+1.7075
+SD-06
+1.8600
+1.8600
+1.7075
+1.7075
+SD-07
+1.8600
+1.8600
+1.7075
+1.7075
+SD-08
+1.8600
+2.2640
+1.7075
+1.7075
+SD-09
+2.2640
+1.7446
+1.7075
+1.7075
+SD-10
+1.7446
+1.7446
+1.7075
+1.7075
+SD-11
+1.7446
+1.7446
+1.7075
+1.7075
+SD-12
+1.7446
+1.7446
+1.7075
+1.7075
+SD-13
+1.8600
+1.8600
+1.7075
+1.7075
+SD-14
+1.8600
+1.8600
+1.7075
+1.7075
+SD-15
+1.8600
+1.8600
+1.7075
+1.7075
+SD-16
+1.8600
+1.8600
+1.7075
+1.7075
+SD-17
+1.8600
+1.8600
+1.7075
+1.7075
+SD-18
+1.8600
+1.8600
+1.7075
+1.7075
+SD-19
+1.8600
+1.8600
+1.7075
+1.7075
+SD-20
+1.8600
+2.2640
+1.7075
+1.7075
+SD-21
+2.2640
+1.7446
+1.7075
+1.7075
+SD-22
+1.7446
+1.7446
+1.7075
+1.7075
+SD-23
+1.7446
+1.7446
+1.7075
+1.7075
+SD-24
+1.7446
+1.7446
+1.7075
+1.7075
+SD-25
+1.8600
+1.8600
+1.7075
+1.7075
+SD-26
+1.8600
+1.8600
+1.7075
+1.7075
+SD-27
+1.8600
+1.8600
+1.7075
+1.7075
+SD-28
+1.8600
+1.8600
+1.7075
+1.7075
+SD-29
+1.8600
+1.8600
+1.7075
+1.7075
+SD-30
+1.8600
+1.8600
+1.7075
+1.7075
+SD-31
+1.8600
+1.8600
+1.7075
+1.7075
+SD-32
+1.8600
+2.2640
+1.7075
+1.7075
+SD-33
+2.2640
+1.7446
+1.7075
+1.7075
+SD-34
+1.7446
+1.7446
+1.7075
+1.7075
+SD-35
+1.7446
+1.7446
+1.7075
+1.7075
+SD-36
+1.7446
+1.7446
+1.7075
+1.7075
+SD-37
+1.8600
+1.8600
+1.7075
+1.9460
+SD-38
+1.8600
+1.8600
+1.7075
+1.9460
+SD-39
+1.8600
+1.8600
+1.7075
+1.9460
+SD-40
+1.8600
+1.8600
+1.7075
+1.9460
+
+
+--- PAGE 12 ---
+12
+Appendix B. Characteristic lengths (continued)
+Table B1. Plan-direction lengths in metres.
+ Outlet
+West
+East
+South
+North
+SD-41
+1.8600
+1.8600
+1.7075
+1.9460
+SD-42
+1.8600
+1.8600
+1.7075
+1.9460
+SD-43
+1.8600
+1.8600
+1.7075
+1.9460
+SD-44
+1.8600
+2.2640
+1.7075
+1.9460
+SD-45
+2.2640
+1.7446
+1.7075
+1.9460
+SD-46
+1.7446
+1.7446
+1.7075
+1.9460
+SD-47
+1.7446
+1.7446
+1.7075
+1.9460
+SD-48
+1.7446
+1.7446
+1.7075
+1.9460
+SD-49
+1.8600
+1.8600
+1.9460
+1.4690
+SD-50
+1.8600
+1.8600
+1.9460
+1.4690
+SD-51
+1.8600
+1.8600
+1.9460
+1.4690
+SD-52
+1.8600
+1.8600
+1.9460
+1.4690
+SD-53
+1.8600
+1.8600
+1.9460
+1.4690
+SD-54
+1.8600
+1.8600
+1.9460
+1.4690
+SD-55
+1.8600
+1.8600
+1.9460
+1.4690
+SD-56
+1.8600
+2.2640
+1.9460
+1.4690
+SD-57
+2.2640
+1.7446
+1.9460
+1.4690
+SD-58
+1.7446
+1.7446
+1.9460
+1.4690
+SD-59
+1.7446
+1.7446
+1.9460
+1.4690
+SD-60
+1.7446
+1.7446
+1.9460
+1.4690
+SD-61
+1.8600
+1.8600
+1.4690
+1.7075
+SD-62
+1.8600
+1.8600
+1.4690
+1.7075
+SD-63
+1.8600
+1.8600
+1.4690
+1.7075
+SD-64
+1.8600
+1.8600
+1.4690
+1.7075
+SD-65
+1.8600
+1.8600
+1.4690
+1.7075
+SD-66
+1.8600
+1.8600
+1.4690
+1.7075
+SD-67
+1.8600
+1.8600
+1.4690
+1.7075
+SD-68
+1.8600
+2.2640
+1.4690
+1.7075
+SD-69
+2.2640
+1.7446
+1.4690
+1.9950
+SD-70
+1.7446
+1.7446
+1.4690
+1.9950
+SD-71
+1.7446
+1.7446
+1.4690
+1.9950
+SD-72
+1.7446
+1.7446
+1.4690
+1.9950
+SD-73
+1.7446
+1.7446
+1.9950
+2.2825
+SD-74
+1.7446
+1.7446
+1.9950
+2.2825
+SD-75
+1.7446
+1.7446
+1.9950
+2.2825
+SD-76
+1.7446
+1.7446
+1.9950
+2.2825
+SD-77
+1.7446
+1.7446
+2.2825
+2.2825
+SD-78
+1.7446
+1.7446
+2.2825
+2.2825
+SD-79
+1.7446
+1.7446
+2.2825
+2.2825
+SD-80
+1.7446
+1.7446
+2.2825
+2.2825
+
+
+--- PAGE 13 ---
+13
+Appendix C. VAV grouping and connections
+Group flows are rounded display values. Connection lengths are straight XY geometry, not installed flexible
+lengths.
+Table C1. Four-outlet VAV groups.
+ VAV
+Diffuser outlets
+Qmax
+L/s
+Qmin
+L/s
+XY range
+m
+VAV-01
+SD-01, SD-02, SD-13, SD-14
+575.7
+230.3
+2.525-2.525
+VAV-02
+SD-03, SD-04, SD-15, SD-16
+584.4
+233.8
+2.525-2.525
+VAV-03
+SD-05, SD-06, SD-17, SD-18
+585.8
+234.3
+2.525-2.525
+VAV-04
+SD-07, SD-08, SD-19, SD-20
+616.7
+246.7
+2.525-2.525
+VAV-05
+SD-09, SD-10, SD-21, SD-22
+590.2
+236.1
+2.441-2.441
+VAV-06
+SD-11, SD-12, SD-23, SD-24
+539.0
+215.6
+2.441-2.441
+VAV-07
+SD-25, SD-26, SD-37, SD-38
+618.4
+247.4
+2.525-2.525
+VAV-08
+SD-27, SD-28, SD-39, SD-40
+618.4
+247.4
+2.525-2.525
+VAV-09
+SD-29, SD-30, SD-41, SD-42
+618.4
+247.4
+2.525-2.525
+VAV-10
+SD-31, SD-32, SD-43, SD-44
+652.0
+260.8
+2.525-2.525
+VAV-11
+SD-33, SD-34, SD-45, SD-46
+623.2
+249.3
+2.441-2.441
+VAV-12
+SD-35, SD-36, SD-47, SD-48
+580.1
+232.0
+2.441-2.441
+VAV-13
+SD-49, SD-50, SD-61, SD-62
+551.8
+220.7
+2.324-2.417
+VAV-14
+SD-51, SD-52, SD-63, SD-64
+556.0
+222.4
+2.324-2.417
+VAV-15
+SD-53, SD-54, SD-65, SD-66
+557.6
+223.0
+2.324-2.417
+VAV-16
+SD-55, SD-56, SD-67, SD-68
+586.9
+234.7
+2.324-2.417
+VAV-17
+SD-57, SD-58, SD-69, SD-70
+585.1
+234.0
+2.233-2.330
+VAV-18
+SD-59, SD-60, SD-71, SD-72
+540.1
+216.0
+2.233-2.330
+VAV-19
+SD-73, SD-74, SD-77, SD-78
+718.0
+287.2
+2.873-2.873
+VAV-20
+SD-75, SD-76, SD-79, SD-80
+702.6
+281.0
+2.873-2.873
+
+
+--- PAGE 14 ---
+14
+Appendix D. Supply duct sizing
+Table D1. Adopted rectangular sections and independent friction checks.
+ Section
+Flow
+L/s
+Size
+mm x mm
+Speed
+m/s
+Online
+Pa/m
+Calc
+Pa/m
+Aspect
+A-01
+12000.37
+1350 x 900
+9.877
+.739
+0.7519
+1.50
+A-02
+12000.37
+1350 x 900
+9.877
+.739
+0.7519
+1.50
+A-03
+12000.37
+1350 x 900
+9.877
+.739
+0.7519
+1.50
+D-01
+10579.74
+1250 x 850
+9.957
+.812
+0.8251
+1.47
+D-02
+1665.36
+500 x 450
+7.402
+1.158
+1.1713
+1.11
+D-03
+1107.79
+500 x 350
+6.330
+1.024
+1.0362
+1.43
+D-04
+551.78
+400 x 250
+5.518
+1.132
+1.1437
+1.60
+D-05
+1712.05
+600 x 400
+7.134
+1.063
+1.0764
+1.50
+D-06
+1125.20
+550 x 350
+5.845
+.843
+0.8530
+1.57
+D-07
+540.12
+400 x 250
+5.401
+1.088
+1.0992
+1.60
+D-08
+7202.33
+850 x 850
+9.969
+1.003
+1.0169
+1.00
+D-09
+1855.28
+550 x 450
+7.496
+1.124
+1.1375
+1.22
+D-10
+1236.85
+450 x 400
+6.871
+1.153
+1.1668
+1.12
+D-11
+618.43
+350 x 300
+5.890
+1.200
+1.2161
+1.17
+D-12
+1855.28
+550 x 450
+7.496
+1.124
+1.1375
+1.22
+D-13
+1203.28
+550 x 350
+6.251
+.955
+0.9666
+1.57
+D-14
+580.05
+350 x 300
+5.524
+1.067
+1.0796
+1.17
+D-15
+3491.77
+650 x 600
+8.953
+1.187
+1.2020
+1.08
+D-16
+1745.88
+600 x 400
+7.275
+1.103
+1.1166
+1.50
+D-17
+1160.12
+500 x 350
+6.629
+1.116
+1.1295
+1.43
+D-18
+575.68
+350 x 300
+5.483
+1.052
+1.0646
+1.17
+D-19
+1745.88
+600 x 400
+7.275
+1.103
+1.1166
+1.50
+D-20
+1129.15
+550 x 350
+5.866
+.848
+0.8586
+1.57
+D-21
+538.98
+400 x 250
+5.390
+1.084
+1.0949
+1.60
+
+
+--- PAGE 15 ---
+15
+Appendix D. Supply duct sizing (continued)
+Table D1. Adopted rectangular sections and independent friction checks.
+ Section
+Flow
+L/s
+Size
+mm x mm
+Speed
+m/s
+Online
+Pa/m
+Calc
+Pa/m
+Aspect
+D-22
+1420.63
+500 x 400
+7.103
+1.158
+1.1714
+1.25
+D-23
+1420.63
+500 x 400
+7.103
+1.158
+1.1714
+1.25
+D-24
+702.62
+400 x 300
+5.855
+1.102
+1.1190
+1.33
+D-25
+575.68
+350 x 300
+5.483
+1.052
+1.0646
+1.17
+D-26
+584.44
+350 x 300
+5.566
+1.082
+1.0949
+1.17
+D-27
+585.76
+350 x 300
+5.579
+1.086
+1.0995
+1.17
+D-28
+616.73
+350 x 300
+5.874
+1.194
+1.2099
+1.17
+D-29
+590.16
+350 x 300
+5.621
+1.101
+1.1148
+1.17
+D-30
+538.98
+400 x 250
+5.390
+1.084
+1.0949
+1.60
+D-31
+618.43
+350 x 300
+5.890
+1.200
+1.2161
+1.17
+D-32
+618.43
+350 x 300
+5.890
+1.200
+1.2161
+1.17
+D-33
+618.43
+350 x 300
+5.890
+1.200
+1.2161
+1.17
+D-34
+652.00
+450 x 250
+5.796
+1.172
+1.1883
+1.80
+D-35
+623.22
+450 x 250
+5.540
+1.079
+1.0927
+1.80
+D-36
+580.05
+350 x 300
+5.524
+1.067
+1.0796
+1.17
+D-37
+551.78
+400 x 250
+5.518
+1.132
+1.1437
+1.60
+D-38
+556.00
+400 x 250
+5.560
+1.147
+1.1600
+1.60
+D-39
+557.57
+400 x 250
+5.576
+1.153
+1.1661
+1.60
+D-40
+586.86
+350 x 300
+5.589
+1.090
+1.1033
+1.17
+D-41
+585.07
+350 x 300
+5.572
+1.084
+1.0971
+1.17
+D-42
+540.12
+400 x 250
+5.401
+1.088
+1.0992
+1.60
+D-43
+718.01
+400 x 300
+5.983
+1.147
+1.1651
+1.33
+D-44
+702.62
+400 x 300
+5.855
+1.102
+1.1190
+1.33
+
+
+--- PAGE 16 ---
+
+
+--- PAGE 17 ---
+17
+Appendix E. Supplementary load-basis comparison
+E.1 Purpose and status
+The main coursework design, drawings and schedules retain the 189 W/m2 classroom
+allowance, 0.90 sensible factor and specified 1400/51400 family. The assignment requests
+a rule-of-thumb load; the classroom guide offers 189 W/m2 as a preliminary reference. This
+appendix examines another explicit assumption. It does not replace the main design or
+remove its ADPI applicability limitation.
+A Hong Kong office study reports a whole-floor cooling load of 129 W/m2, excluding
+safety/standby allowance [7]. Applying a declared 15% design margin gives 148.35 W/m2,
+rounded upward to 150 W/m2. This is a coursework scenario, not a measured load for this
+building. The study concerns one office floor with 1999 measurements; its 2001
+publication does not establish a universal or current design allowance.
+Table E1. Consistent main and supplementary assumptions.
+Quantity
+Main coursework
+Supplement only
+Total / sensible allowance, W/m2
+189 / 170.1
+150 / 135
+Total / sensible cooling, kW thermal
+193.158 / 173.842
+153.300 / 137.970
+Maximum / minimum airflow, L/s
+12000.373 / 4800.149
+9524.105 / 3809.642
+600 x 600 mm panel neck
+8 inch
+6 inch
+Outlets / VAV groups / rigid sections
+80 / 20 / 47
+80 / 20 / 47
+Native 640-case T0.25/L range
+1.2117-3.1122
+1.0771-2.6973
+Sensible table range, 35-160 W/m2
+Maximum outside
+135 max / 54 min inside
+The supplementary scenario retains every diffuser position, service cell, VAV membership and rigid route.
+All 47 rectangular sizes are recalculated within the original per-section velocity, friction and aspect limits,
+with neither width nor height increased. Actual Online Ductulator checks cover all 47 sections through 36
+unique inputs; the largest displayed friction is 1.200 Pa/m. These are section-sizing results, not a complete
+system pressure or fan selection.
+
+
+--- PAGE 18 ---
+18
+E.2 Air-diffusion checks and interpretation
+The classroom louvered-ceiling method uses T0.25/L = 1.0-3.4 over 35-160 W/m2 [8]. With
+the supplementary assumptions, all 640 original-catalogue checks pass (1.0909-2.7273).
+All 640 native K-Select checks also pass (1.0771-2.6973): 48 distinct whole-CFM reports
+were reconciled through 2,352 independent scalar checks. Maximum input rounding is
+0.2248 L/s. Neither result is a measured ADPI percentage.
+SD-50
+SD-62
+Opposing-outlet midplane
+L = 1.4690 m
+Native isothermal throw = 3.962 m
+Plan schematic from actual coordinates. Dashed arrow denotes tabulated isothermal throw,
+not a simulated jet path or measured occupied-zone velocity. North is upwards.
+ Figure E1. Supplementary SD-50 northward geometry and native tabulated throw. The dashed arrow
+ represents isothermal catalogue throw, not a simulated jet.
+At SD-50 maximum flow, 117.319 L/s rounds to 249 CFM. Native throw is 13 ft = 3.9624 m; L = 1.469042
+m, giving 2.6973. The lower native extreme is SD-08 eastward at minimum flow: 8 ft / 2.263959 m = 1.0771.
+The manufacturer Type 3 circular-pattern ADPI curves remain a different method and are not declared
+satisfied. A 40% flow case assumes proportional sensible duty; it is a preliminary operating scenario, not a
+room-control simulation.
+Additional references
+ [7] S. T. H. Lao and S. Deng, "An evaluation of the rules of thumb for estimating cooling load for office
+ buildings," HKIE Transactions, vol. 8, no. 3, pp. 58-59, 2001, doi: 10.1080/1023697X.2001.10667859.
+[8] ASHRAE, "Room air distribution," ASHRAE Handbook Online, Table 3. Accessed: Nov. 17, 2026.
+ [Online]. Available: https://handbook.ashrae.org/Handbooks/A15/SI/a15_ch57/a15_ch57_si.aspx.

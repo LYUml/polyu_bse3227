@@ -1,0 +1,28 @@
+5
+3.5 Critical diffuser and worked calculation
+SD-56
+SD-68
+Opposing-outlet midplane
+L = 1.4690 m
+Native isothermal throw = 4.572 m
+Plan schematic from actual coordinates. Dashed arrow denotes tabulated isothermal throw,
+not a simulated jet path or measured occupied-zone velocity. North is upwards.
+ Figure 3. SD-56 northward characteristic length and tabulated isothermal throw.
+SD-56 receives 155.9466 L/s at maximum flow and 62.3786 L/s at minimum flow. Its
+northward L increases from 1.3940 to 1.4690 m. At the unchanged native input of 330
+CFM (155.7427 L/s), the reported 15.0 ft throw gives T0.25 = 15.0 x 0.3048 = 4.5720 m.
+Hence T0.25/L = 4.5720/1.469042 = 3.1122, compared with 3.2797 before the adjustment
+[3].
+The original metric-table interpolation is retained separately: T0.25 = 4.4903 m at the
+prescribed maximum flow, giving 4.4903/1.469042 = 3.0566 [2]. The native and catalogue
+values use different flow rounding and reported performance; they are not presented as
+identical.
+The minimum-flow limiting point after adjustment is SD-08 eastward: native T0.25 =
+2.7432 m and L = 2.263959 m give a ratio of 1.2117. All other directions and both
+operating flows are checked in the schedules; improving SD-56 alone would not establish a
+whole-layout pass.
+Worked duct-sizing check
+D-11 carries 618.426 L/s through 350 x 300 mm. Area = 0.350 x 0.300 = 0.1050 m2;
+velocity = 0.618426/0.1050 = 5.890 m/s, below its adopted 8 m/s branch limit. The aspect
+ratio is 1.17; calculated friction is 1.2161 Pa/m, below 1.23 Pa/m. These checks do not
+include fitting or equipment losses.

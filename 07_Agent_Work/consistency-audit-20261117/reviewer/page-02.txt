@@ -1,0 +1,38 @@
+2
+2. Cooling load, airflow and VAV layout
+2.1 Preliminary thermal balance
+The adopted preliminary design uses an office cooling allowance of 189 W/m2 and an
+approximate sensible heat factor of 0.90. The same basis is used throughout:
+Table 2. Thermal balance and supply airflow.
+ Calculation
+Result
+Total cooling = 1022 x 189
+193.158 kW thermal
+Sensible cooling = 193.158 x 0.90
+173.8422 kW thermal
+Q = sensible W / [density x cp x (24 - 12)]
+12000.373 L/s
+Minimum supply = 0.40 x maximum
+4800.149 L/s
+These thermal powers are not electrical input ratings. The temperature difference and air
+properties in Table 1 are adopted for this preliminary air balance. Unrounded flows are
+used for calculations; displayed schedule values are rounded.
+2.2 Diffuser distribution and VAV grouping
+Each diffuser receives its assigned share of the total airflow. The 80 maximum flows sum
+to 12000.373 L/s, and every minimum flow is exactly 40% of its maximum. Each of the
+twenty VAV groups serves four diffusers, satisfying the assignment requirement for four to
+five outlets per box. Group flows equal the sum of their diffuser flows; the complete
+grouping is given in Appendix C.
+Twelve diffusers are displaced 150 mm south within their original explicit service areas.
+Service-area loads, all terminal flows, VAV membership and rigid section sizes remain
+unchanged; Figure 2 identifies the adjusted row.
+2.3 Flexible connection design
+The longest straight XY connection reconstructed from the saved/reopened drawing is
+2.873 m. Adding the stated 0.50 m routing allowance gives 3.373 m. This leaves a
+minimum conditional margin of 0.627 m to the adopted 4 m design cap, which is stricter
+than the assignment limit of 5 m. The allowance is not a measured vertical offset or
+installed slack.
+Flexible ducts are specified as final connections, not main distribution. Final routing must
+remain within the ordinary limit and must not pass through fire-resisting barriers or attach
+directly to fire/fire-smoke dampers [1]. The actual installed lengths and fire-boundary
+classification would be confirmed before installation.

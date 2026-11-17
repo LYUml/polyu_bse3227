@@ -1,0 +1,3877 @@
+
+--- PAGE 1 ---
+HVAC System Design | Design study - acceptance pending
+1
+HVAC System Design
+Design study. Numerical execution is not full engineering or regulatory acceptance. All requirement states below are retained from the verified workflow.
+Source-classified load basis
+Input
+Value
+Classification
+Source
+area
+1022 m2
+given
+Original layout drawing area label; interpreted net geometry differs
+cooling_allowance
+189 W/m2
+given
+Canvas BSE3227 Space air diffusion design and air duct sizing.pdf p1; SHA256
+210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0; preliminary office allowance /
+approximate SHF, not detailed room load
+sensible_fraction
+0.9 1
+given
+Canvas BSE3227 Space air diffusion design and air duct sizing.pdf p1; SHA256
+210d482549a3fbab5b4aef0db7c159cec9d36eae336a1e4ca64f3b30f3a9acf0; preliminary office allowance /
+approximate SHF, not detailed room load
+density
+1.2 kg/m3
+given
+Canvas lecture Space air diffusion design and air duct sizing.pdf p9 friction-chart condition: rho=1.20 kg/m3; adopted
+constant-property trial air density
+specific_heat
+1006 J/(kg K)
+assumed
+Explicit trial air-property/temperature assumption
+temperature_difference
+12 K
+assumed
+Explicit trial air-property/temperature assumption
+Planar metres; interpreted net office excluding source columns; semantic door closures and original scale remain under review. Source office-obstacles SHA256
+879687f901ee7095ce9939354201cf3219ccb989dd1b7e95e0ab99b53dda48e1;Declared common-right-column alternative,24 chosen position changes;not measured source locations. Original CAD remains
+preserved.
+
+
+--- PAGE 2 ---
+HVAC System Design | Design study - acceptance pending
+2
+Cooling and supply airflow
+Total thermal cooling kW
+Trial sensible thermal kW
+Trial supply L/s
+193.158
+173.842
+12000.4
+Displayed thermal loads use three decimal places in kW and airflow uses one decimal place in L/s. Calculations retain their original precision in the source artifacts.
+A uniform allowance and sensible fraction do not establish the actual room sensible load for ADPI.
+ADPI applicability and evidence
+Applicability: pending. 640 maximum/minimum directional cases. This is source-scoped ratio screening;no measured or predicted ADPI is claimed.
+Selected criterion: Canvas BSE3227 original lecture p5; ASHRAE Fundamentals2005 table reproduced in class. Room sensible-load range: 35 to 160 W/m2. T0.25/L range: 1 to 3.4.
+Supplied room-load value: 170.1 W/m2. Within source range: False. An unverified preliminary value does not establish the actual room load or an ADPI failure.
+Missing applicability facts: Room sensible load, Characteristic lengths, Installation conditions. Rejected facts: None declared.
+Screened outcomes: not_evaluated=640, within_sourced_ratio_range=0, fail=0. All ratios within the selected applicable scope: False. Pending applicability is not a comfort pass or a measured failure.
+Room sensible load: Unverified.
+Product category within selected criterion: Declared supported.
+Characteristic lengths: Unverified.
+Installation conditions: Unverified.
+Criterion edition selection: Declared supported.
+Evidence for Product category within selected criterion 1: Space air diffusion design and air duct sizing.pdf; p5 classroom example and2005 selection table. Explicit course-specific1400-family
+mapping;retains classroom edition and stated bounds
+Evidence for Product category within selected criterion 2: krueger-introduction.pdf; B1-4 introduction and family heading. Square-face,four-cone,round-neck louvered family;not a measured ADPI or later
+handbook category mapping
+Evidence for Product category within selected criterion 3: category-review.json; findings and retained_unknowns. Recorded interpretation and retained limits;reviewer assertion,not independent
+authentication
+
+
+--- PAGE 3 ---
+HVAC System Design | Design study - acceptance pending
+3
+Source hashes and exact evidence notes are retained in the report manifest. Declarations and source-byte identity do not authenticate physical conditions or establish comfort/engineering acceptance.
+Maximum and minimum terminal lookup
+Declared common-right-column layout alternative;flows inherit fresh source-classified allocation. Cardinal polygon/aligned-midpoint ray lengths are geometric diagnostics,not authenticated ASHRAE
+characteristic lengths. Room load,wall/column/jet interpretation and installation applicability remain pending.
+Listed L values remain input assumptions pending characteristic-length applicability review. No ADPI pass is inferred.
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-01
+east
+132.2
+52.9
+1.860
+4.203
+2.344
+2.259
+1.260
+SD-01
+west
+132.2
+52.9
+1.860
+4.203
+2.344
+2.259
+1.260
+SD-01
+north
+132.2
+52.9
+1.708
+4.203
+2.344
+2.461
+1.372
+SD-01
+south
+132.2
+52.9
+1.707
+4.203
+2.344
+2.461
+1.372
+SD-02
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-02
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-02
+north
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-02
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-03
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-03
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-03
+north
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-03
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-04
+east
+141.0
+56.4
+1.860
+4.309
+2.492
+2.317
+1.340
+SD-04
+west
+141.0
+56.4
+1.860
+4.309
+2.492
+2.317
+1.340
+SD-04
+north
+141.0
+56.4
+1.708
+4.309
+2.492
+2.523
+1.460
+SD-04
+south
+141.0
+56.4
+1.707
+4.309
+2.492
+2.523
+1.460
+SD-05
+east
+142.3
+56.9
+1.860
+4.325
+2.515
+2.325
+1.352
+SD-05
+west
+142.3
+56.9
+1.860
+4.325
+2.515
+2.325
+1.352
+SD-05
+north
+142.3
+56.9
+1.708
+4.325
+2.515
+2.533
+1.473
+SD-05
+south
+142.3
+56.9
+1.707
+4.325
+2.515
+2.533
+1.473
+
+
+--- PAGE 4 ---
+HVAC System Design | Design study - acceptance pending
+4
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-06
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-06
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-06
+north
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-06
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-07
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-07
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-07
+north
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-07
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-08
+east
+157.2
+62.9
+2.264
+4.506
+2.768
+1.990
+1.223
+SD-08
+west
+157.2
+62.9
+1.860
+4.506
+2.768
+2.422
+1.488
+SD-08
+north
+157.2
+62.9
+1.708
+4.506
+2.768
+2.639
+1.621
+SD-08
+south
+157.2
+62.9
+1.707
+4.506
+2.768
+2.639
+1.621
+SD-09
+east
+153.6
+61.4
+1.745
+4.462
+2.706
+2.557
+1.551
+SD-09
+west
+153.6
+61.4
+2.264
+4.462
+2.706
+1.971
+1.195
+SD-09
+north
+153.6
+61.4
+1.708
+4.462
+2.706
+2.613
+1.585
+SD-09
+south
+153.6
+61.4
+1.707
+4.462
+2.706
+2.613
+1.585
+SD-10
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-10
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-10
+north
+138.6
+55.5
+1.708
+4.281
+2.453
+2.507
+1.437
+SD-10
+south
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-11
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-11
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-11
+north
+138.6
+55.5
+1.708
+4.281
+2.453
+2.507
+1.437
+SD-11
+south
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-12
+east
+123.0
+49.2
+1.745
+4.037
+2.188
+2.314
+1.254
+SD-12
+west
+123.0
+49.2
+1.745
+4.037
+2.188
+2.314
+1.254
+
+
+--- PAGE 5 ---
+HVAC System Design | Design study - acceptance pending
+5
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-12
+north
+123.0
+49.2
+1.708
+4.037
+2.188
+2.364
+1.281
+SD-12
+south
+123.0
+49.2
+1.707
+4.037
+2.188
+2.364
+1.281
+SD-13
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-13
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-13
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-13
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-14
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-14
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-14
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-14
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-15
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-15
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-15
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-15
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-16
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-16
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-16
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-16
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-17
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-17
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-17
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-17
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-18
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-18
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-18
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-18
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+
+
+--- PAGE 6 ---
+HVAC System Design | Design study - acceptance pending
+6
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-19
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-19
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-19
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-19
+south
+147.8
+59.1
+1.708
+4.392
+2.609
+2.572
+1.528
+SD-20
+east
+163.9
+65.5
+2.264
+4.586
+2.881
+2.026
+1.273
+SD-20
+west
+163.9
+65.5
+1.860
+4.586
+2.881
+2.466
+1.549
+SD-20
+north
+163.9
+65.5
+1.707
+4.586
+2.881
+2.686
+1.687
+SD-20
+south
+163.9
+65.5
+1.708
+4.586
+2.881
+2.686
+1.687
+SD-21
+east
+159.3
+63.7
+1.745
+4.531
+2.803
+2.597
+1.607
+SD-21
+west
+159.3
+63.7
+2.264
+4.531
+2.803
+2.001
+1.238
+SD-21
+north
+159.3
+63.7
+1.707
+4.531
+2.803
+2.653
+1.642
+SD-21
+south
+159.3
+63.7
+1.708
+4.531
+2.803
+2.653
+1.642
+SD-22
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-22
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-22
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-22
+south
+138.6
+55.5
+1.708
+4.281
+2.453
+2.507
+1.437
+SD-23
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-23
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-23
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-23
+south
+138.6
+55.5
+1.708
+4.281
+2.453
+2.507
+1.437
+SD-24
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-24
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-24
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-24
+south
+138.6
+55.5
+1.708
+4.281
+2.453
+2.507
+1.437
+SD-25
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-25
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+
+
+--- PAGE 7 ---
+HVAC System Design | Design study - acceptance pending
+7
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-25
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-25
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-26
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-26
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-26
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-26
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-27
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-27
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-27
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-27
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-28
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-28
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-28
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-28
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-29
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-29
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-29
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-29
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-30
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-30
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-30
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-30
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-31
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-31
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-31
+north
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+SD-31
+south
+147.8
+59.1
+1.707
+4.392
+2.609
+2.572
+1.528
+
+
+--- PAGE 8 ---
+HVAC System Design | Design study - acceptance pending
+8
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-32
+east
+163.9
+65.5
+2.264
+4.586
+2.881
+2.026
+1.273
+SD-32
+west
+163.9
+65.5
+1.860
+4.586
+2.881
+2.466
+1.549
+SD-32
+north
+163.9
+65.5
+1.707
+4.586
+2.881
+2.686
+1.687
+SD-32
+south
+163.9
+65.5
+1.707
+4.586
+2.881
+2.686
+1.687
+SD-33
+east
+159.3
+63.7
+1.745
+4.531
+2.803
+2.597
+1.607
+SD-33
+west
+159.3
+63.7
+2.264
+4.531
+2.803
+2.001
+1.238
+SD-33
+north
+159.3
+63.7
+1.707
+4.531
+2.803
+2.653
+1.642
+SD-33
+south
+159.3
+63.7
+1.707
+4.531
+2.803
+2.653
+1.642
+SD-34
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-34
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-34
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-34
+south
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-35
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-35
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-35
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-35
+south
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-36
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-36
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-36
+north
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-36
+south
+138.6
+55.5
+1.707
+4.281
+2.453
+2.507
+1.437
+SD-37
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-37
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-37
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-37
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-38
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-38
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+
+
+--- PAGE 9 ---
+HVAC System Design | Design study - acceptance pending
+9
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-38
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-38
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-39
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-39
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-39
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-39
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-40
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-40
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-40
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-40
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-41
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-41
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-41
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-41
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-42
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-42
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-42
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-42
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-43
+east
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-43
+west
+161.4
+64.6
+1.860
+4.556
+2.839
+2.450
+1.526
+SD-43
+north
+161.4
+64.6
+2.021
+4.556
+2.839
+2.255
+1.405
+SD-43
+south
+161.4
+64.6
+1.707
+4.556
+2.839
+2.668
+1.663
+SD-44
+east
+178.9
+71.6
+2.264
+4.811
+3.018
+2.125
+1.333
+SD-44
+west
+178.9
+71.6
+1.860
+4.811
+3.018
+2.586
+1.623
+SD-44
+north
+178.9
+71.6
+2.021
+4.811
+3.018
+2.380
+1.493
+SD-44
+south
+178.9
+71.6
+1.707
+4.811
+3.018
+2.817
+1.768
+
+
+--- PAGE 10 ---
+HVAC System Design | Design study - acceptance pending
+10
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-45
+east
+173.9
+69.6
+1.745
+4.735
+2.976
+2.714
+1.706
+SD-45
+west
+173.9
+69.6
+2.264
+4.735
+2.976
+2.091
+1.314
+SD-45
+north
+173.9
+69.6
+2.021
+4.735
+2.976
+2.343
+1.472
+SD-45
+south
+173.9
+69.6
+1.707
+4.735
+2.976
+2.773
+1.743
+SD-46
+east
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-46
+west
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-46
+north
+151.4
+60.6
+2.021
+4.435
+2.669
+2.194
+1.321
+SD-46
+south
+151.4
+60.6
+1.707
+4.435
+2.669
+2.597
+1.563
+SD-47
+east
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-47
+west
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-47
+north
+151.4
+60.6
+2.021
+4.435
+2.669
+2.194
+1.321
+SD-47
+south
+151.4
+60.6
+1.707
+4.435
+2.669
+2.597
+1.563
+SD-48
+east
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-48
+west
+151.4
+60.6
+1.745
+4.435
+2.669
+2.542
+1.530
+SD-48
+north
+151.4
+60.6
+2.021
+4.435
+2.669
+2.194
+1.321
+SD-48
+south
+151.4
+60.6
+1.707
+4.435
+2.669
+2.597
+1.563
+SD-49
+east
+135.5
+54.2
+1.860
+4.242
+2.399
+2.281
+1.290
+SD-49
+west
+135.5
+54.2
+1.860
+4.242
+2.399
+2.281
+1.290
+SD-49
+north
+135.5
+54.2
+1.394
+4.242
+2.399
+3.043
+1.721
+SD-49
+south
+135.5
+54.2
+2.021
+4.242
+2.399
+2.099
+1.187
+SD-50
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-50
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-50
+north
+147.8
+59.1
+1.394
+4.392
+2.609
+3.150
+1.871
+SD-50
+south
+147.8
+59.1
+2.021
+4.392
+2.609
+2.173
+1.291
+SD-51
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-51
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+
+
+--- PAGE 11 ---
+HVAC System Design | Design study - acceptance pending
+11
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-51
+north
+147.8
+59.1
+1.394
+4.392
+2.609
+3.150
+1.871
+SD-51
+south
+147.8
+59.1
+2.021
+4.392
+2.609
+2.173
+1.291
+SD-52
+east
+139.7
+55.9
+1.860
+4.293
+2.470
+2.308
+1.328
+SD-52
+west
+139.7
+55.9
+1.860
+4.293
+2.470
+2.308
+1.328
+SD-52
+north
+139.7
+55.9
+1.394
+4.293
+2.470
+3.080
+1.772
+SD-52
+south
+139.7
+55.9
+2.021
+4.293
+2.470
+2.124
+1.222
+SD-53
+east
+141.2
+56.5
+1.860
+4.312
+2.497
+2.318
+1.342
+SD-53
+west
+141.2
+56.5
+1.860
+4.312
+2.497
+2.318
+1.342
+SD-53
+north
+141.2
+56.5
+1.394
+4.312
+2.497
+3.093
+1.791
+SD-53
+south
+141.2
+56.5
+2.021
+4.312
+2.497
+2.134
+1.235
+SD-54
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-54
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-54
+north
+147.8
+59.1
+1.394
+4.392
+2.609
+3.150
+1.871
+SD-54
+south
+147.8
+59.1
+2.021
+4.392
+2.609
+2.173
+1.291
+SD-55
+east
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-55
+west
+147.8
+59.1
+1.860
+4.392
+2.609
+2.361
+1.402
+SD-55
+north
+147.8
+59.1
+1.394
+4.392
+2.609
+3.150
+1.871
+SD-55
+south
+147.8
+59.1
+2.021
+4.392
+2.609
+2.173
+1.291
+SD-56
+east
+155.9
+62.4
+2.264
+4.490
+2.746
+1.983
+1.213
+SD-56
+west
+155.9
+62.4
+1.860
+4.490
+2.746
+2.414
+1.477
+SD-56
+north
+155.9
+62.4
+1.394
+4.490
+2.746
+3.221
+1.970
+SD-56
+south
+155.9
+62.4
+2.021
+4.490
+2.746
+2.222
+1.359
+SD-57
+east
+152.5
+61.0
+1.745
+4.448
+2.688
+2.550
+1.541
+SD-57
+west
+152.5
+61.0
+2.264
+4.448
+2.688
+1.965
+1.187
+SD-57
+north
+152.5
+61.0
+1.394
+4.448
+2.688
+3.191
+1.928
+SD-57
+south
+152.5
+61.0
+2.021
+4.448
+2.688
+2.201
+1.330
+
+
+--- PAGE 12 ---
+HVAC System Design | Design study - acceptance pending
+12
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-58
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-58
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-58
+north
+138.6
+55.5
+1.394
+4.281
+2.453
+3.071
+1.760
+SD-58
+south
+138.6
+55.5
+2.021
+4.281
+2.453
+2.118
+1.214
+SD-59
+east
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-59
+west
+138.6
+55.5
+1.745
+4.281
+2.453
+2.454
+1.406
+SD-59
+north
+138.6
+55.5
+1.394
+4.281
+2.453
+3.071
+1.760
+SD-59
+south
+138.6
+55.5
+2.021
+4.281
+2.453
+2.118
+1.214
+SD-60
+east
+126.3
+50.5
+1.745
+4.096
+2.243
+2.348
+1.286
+SD-60
+west
+126.3
+50.5
+1.745
+4.096
+2.243
+2.348
+1.286
+SD-60
+north
+126.3
+50.5
+1.394
+4.096
+2.243
+2.938
+1.609
+SD-60
+south
+126.3
+50.5
+2.021
+4.096
+2.243
+2.027
+1.110
+SD-61
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-61
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-61
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-61
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-62
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-62
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-62
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-62
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-63
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-63
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-63
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-63
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-64
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-64
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+
+
+--- PAGE 13 ---
+HVAC System Design | Design study - acceptance pending
+13
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-64
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-64
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-65
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-65
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-65
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-65
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-66
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-66
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-66
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-66
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-67
+east
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-67
+west
+134.3
+53.7
+1.860
+4.227
+2.378
+2.273
+1.279
+SD-67
+north
+134.3
+53.7
+1.707
+4.227
+2.378
+2.476
+1.393
+SD-67
+south
+134.3
+53.7
+1.394
+4.227
+2.378
+3.032
+1.706
+SD-68
+east
+148.8
+59.5
+2.264
+4.404
+2.626
+1.945
+1.160
+SD-68
+west
+148.8
+59.5
+1.860
+4.404
+2.626
+2.368
+1.412
+SD-68
+north
+148.8
+59.5
+1.707
+4.404
+2.626
+2.579
+1.538
+SD-68
+south
+148.8
+59.5
+1.394
+4.404
+2.626
+3.159
+1.883
+SD-69
+east
+156.3
+62.5
+1.745
+4.495
+2.753
+2.577
+1.578
+SD-69
+west
+156.3
+62.5
+2.264
+4.495
+2.753
+1.985
+1.216
+SD-69
+north
+156.3
+62.5
+1.995
+4.495
+2.753
+2.253
+1.380
+SD-69
+south
+156.3
+62.5
+1.394
+4.495
+2.753
+3.224
+1.975
+SD-70
+east
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-70
+west
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-70
+north
+137.6
+55.0
+1.995
+4.268
+2.435
+2.139
+1.221
+SD-70
+south
+137.6
+55.0
+1.394
+4.268
+2.435
+3.061
+1.747
+
+
+--- PAGE 14 ---
+HVAC System Design | Design study - acceptance pending
+14
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-71
+east
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-71
+west
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-71
+north
+137.6
+55.0
+1.995
+4.268
+2.435
+2.139
+1.221
+SD-71
+south
+137.6
+55.0
+1.394
+4.268
+2.435
+3.061
+1.747
+SD-72
+east
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-72
+west
+137.6
+55.0
+1.745
+4.268
+2.435
+2.446
+1.396
+SD-72
+north
+137.6
+55.0
+1.995
+4.268
+2.435
+2.139
+1.221
+SD-72
+south
+137.6
+55.0
+1.394
+4.268
+2.435
+3.061
+1.747
+SD-73
+east
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-73
+west
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-73
+north
+173.7
+69.5
+2.282
+4.731
+2.974
+2.073
+1.303
+SD-73
+south
+173.7
+69.5
+1.995
+4.731
+2.974
+2.372
+1.490
+SD-74
+east
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-74
+west
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-74
+north
+173.7
+69.5
+2.282
+4.731
+2.974
+2.073
+1.303
+SD-74
+south
+173.7
+69.5
+1.995
+4.731
+2.974
+2.372
+1.490
+SD-75
+east
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-75
+west
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-75
+north
+173.7
+69.5
+2.282
+4.731
+2.974
+2.073
+1.303
+SD-75
+south
+173.7
+69.5
+1.995
+4.731
+2.974
+2.372
+1.490
+SD-76
+east
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-76
+west
+173.7
+69.5
+1.745
+4.731
+2.974
+2.712
+1.704
+SD-76
+north
+173.7
+69.5
+2.282
+4.731
+2.974
+2.073
+1.303
+SD-76
+south
+173.7
+69.5
+1.995
+4.731
+2.974
+2.372
+1.490
+SD-77
+east
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+SD-77
+west
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+
+
+--- PAGE 15 ---
+HVAC System Design | Design study - acceptance pending
+15
+ID
+Direction
+Max L/s
+Min L/s
+Input L m
+Max throw m
+Min throw m
+Max T/L
+Min T/L
+SD-77
+north
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-77
+south
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-78
+east
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+SD-78
+west
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+SD-78
+north
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-78
+south
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-79
+east
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+SD-79
+west
+185.3
+74.1
+1.745
+4.908
+3.073
+2.813
+1.761
+SD-79
+north
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-79
+south
+185.3
+74.1
+2.282
+4.908
+3.073
+2.150
+1.346
+SD-80
+east
+169.9
+68.0
+1.745
+4.675
+2.942
+2.680
+1.686
+SD-80
+west
+169.9
+68.0
+1.745
+4.675
+2.942
+2.680
+1.686
+SD-80
+north
+169.9
+68.0
+2.282
+4.675
+2.942
+2.048
+1.289
+SD-80
+south
+169.9
+68.0
+2.282
+4.675
+2.942
+2.048
+1.289
+
+
+--- PAGE 16 ---
+HVAC System Design | Design study - acceptance pending
+16
+Leaf group flows
+Group
+Max L/s
+Min L/s
+VAV-01
+575.7
+230.3
+VAV-02
+584.4
+233.8
+VAV-03
+585.8
+234.3
+VAV-04
+616.7
+246.7
+VAV-05
+590.2
+236.1
+VAV-06
+539.0
+215.6
+VAV-07
+618.4
+247.4
+VAV-08
+618.4
+247.4
+VAV-09
+618.4
+247.4
+VAV-10
+652.0
+260.8
+VAV-11
+623.2
+249.3
+VAV-12
+580.1
+232.0
+VAV-13
+551.8
+220.7
+VAV-14
+556.0
+222.4
+VAV-15
+557.6
+223.0
+VAV-16
+586.9
+234.7
+VAV-17
+585.1
+234.0
+VAV-18
+540.1
+216.0
+VAV-19
+718.0
+287.2
+VAV-20
+702.6
+281.0
+
+
+--- PAGE 17 ---
+HVAC System Design | Design study - acceptance pending
+17
+Selected duct sections
+Original Canvas lecture p7: office supply main/branch maxima 10/8 m/s; recommended low-velocity gradient 0.65–1.23 Pa/m, using 1.23 as selection cap. p8 preferred aspect 4:1. p9 chart conditions
+density1.20 kg/m3 and roughness0.09 mm. Finite dimension grid and viscosity1.81e-5 Pa s remain design assumptions. No lower pressure-gradient rejection is imposed because the recommended band is
+not a required minimum.
+Section
+L/s
+Size mm
+m/s
+Pa/m
+A-01
+12000.4
+1350 x 900
+9.88
+0.752
+A-02
+12000.4
+1350 x 900
+9.88
+0.752
+A-03
+12000.4
+1350 x 900
+9.88
+0.752
+D-01
+10579.7
+1250 x 850
+9.96
+0.825
+D-02
+1665.4
+500 x 450
+7.40
+1.171
+D-03
+1107.8
+500 x 350
+6.33
+1.036
+D-04
+551.8
+400 x 250
+5.52
+1.144
+D-05
+1712.1
+600 x 400
+7.13
+1.076
+D-06
+1125.2
+500 x 350
+6.43
+1.067
+D-07
+540.1
+400 x 250
+5.40
+1.099
+D-08
+7202.3
+850 x 850
+9.97
+1.017
+D-09
+1855.3
+550 x 450
+7.50
+1.138
+D-10
+1236.9
+450 x 400
+6.87
+1.167
+D-11
+618.4
+350 x 300
+5.89
+1.216
+D-12
+1855.3
+550 x 450
+7.50
+1.138
+D-13
+1203.3
+500 x 350
+6.88
+1.209
+D-14
+580.1
+350 x 300
+5.52
+1.080
+D-15
+3491.8
+650 x 600
+8.95
+1.202
+D-16
+1745.9
+600 x 400
+7.27
+1.117
+D-17
+1160.1
+500 x 350
+6.63
+1.129
+D-18
+575.7
+350 x 300
+5.48
+1.065
+D-19
+1745.9
+600 x 400
+7.27
+1.117
+
+
+--- PAGE 18 ---
+HVAC System Design | Design study - acceptance pending
+18
+Section
+L/s
+Size mm
+m/s
+Pa/m
+D-20
+1129.1
+500 x 350
+6.45
+1.074
+D-21
+539.0
+400 x 250
+5.39
+1.095
+D-22
+1420.6
+500 x 400
+7.10
+1.171
+D-23
+1420.6
+500 x 400
+7.10
+1.171
+D-24
+702.6
+400 x 300
+5.86
+1.119
+D-25
+575.7
+350 x 300
+5.48
+1.065
+D-26
+584.4
+350 x 300
+5.57
+1.095
+D-27
+585.8
+350 x 300
+5.58
+1.099
+D-28
+616.7
+350 x 300
+5.87
+1.210
+D-29
+590.2
+350 x 300
+5.62
+1.115
+D-30
+539.0
+400 x 250
+5.39
+1.095
+D-31
+618.4
+350 x 300
+5.89
+1.216
+D-32
+618.4
+350 x 300
+5.89
+1.216
+D-33
+618.4
+350 x 300
+5.89
+1.216
+D-34
+652.0
+450 x 250
+5.80
+1.188
+D-35
+623.2
+450 x 250
+5.54
+1.093
+D-36
+580.1
+350 x 300
+5.52
+1.080
+D-37
+551.8
+400 x 250
+5.52
+1.144
+D-38
+556.0
+400 x 250
+5.56
+1.160
+D-39
+557.6
+400 x 250
+5.58
+1.166
+D-40
+586.9
+350 x 300
+5.59
+1.103
+D-41
+585.1
+350 x 300
+5.57
+1.097
+D-42
+540.1
+400 x 250
+5.40
+1.099
+D-43
+718.0
+400 x 300
+5.98
+1.165
+D-44
+702.6
+400 x 300
+5.86
+1.119
+
+
+--- PAGE 19 ---
+HVAC System Design | Design study - acceptance pending
+19
+Saved terminal connections
+Saved native drawing correspondence covers 80 terminals, 20 groups and 47 rigid sections. The longest straight centre-to-centre planar flexible connection is 2.976 m. This does not verify physical ports,
+installed flexible lengths, labels, three-dimensional coordination or regulatory compliance.
+Complete source requirement matrix
+ID
+Source requirement
+Execution
+Acceptance state
+Acceptance criterion
+terminal-lookup-evi
+dence
+• Calculate the cooling load of the open plan office using rule of
+thumb. • Determine the total supply air flow rate of the office. •
+Distribute supply air diffusers on the layout plan. • Calculate the
+supply air flow rate of each diffuser. • Find out the
+characteristic room length, L. • Refer to the performance data
+of KRUEGER “Louvered Face Diffusers 1400, 51400 Series
+4-cone”, and select a suitable type of diffuser. • From the
+diffuser performance data, find the corresponding T0.25. •
+Calculate T0.25 / L. • Check if it meets the ASHRAE ADPI
+requirement.
+pass
+pending review
+Compute bounded catalogue T0.25/L at maximum and minimum trial flows;
+remaining load, L, selection and ADPI requirements stay pending in original
+task
+R001-submission
+The Hong Kong Polytechnic University Department of Building
+Environment and Energy Engineering
+pending
+pending review
+Correct course/project identity and group size; no internal version labels in
+submitted artifacts; full source quote remains authoritative, acceptance
+pending
+R002-submission
+BSE3227 HVACR 1 2026/27 Semester 1
+pending
+pending review
+Correct course/project identity and group size; no internal version labels in
+submitted artifacts; full source quote remains authoritative, acceptance
+pending
+R003-submission
+Mini-design assignment
+pending
+pending review
+Correct course/project identity and group size; no internal version labels in
+submitted artifacts; full source quote remains authoritative, acceptance
+pending
+R004-submission
+Students should form groups of up to five members, with each
+group tasked with designing the air conditioning layout for an
+open-plan office on a typical floor. The architectural layout plan
+for this floor is provided. It is assumed that a variable air
+volume (VAV) system will be utilized in the design.
+pending
+pending review
+Correct course/project identity and group size; no internal version labels in
+submitted artifacts; full source quote remains authoritative, acceptance
+pending
+R004-diffuser-layou
+t
+Students should form groups of up to five members, with each
+group tasked with designing the air conditioning layout for an
+open-plan office on a typical floor. The architectural layout plan
+for this floor is provided. It is assumed that a variable air
+volume (VAV) system will be utilized in the design.
+pending
+pending review
+80 current trial diffuser locations and flow sum reconciled; every
+characteristic length uses applicable wall/opposing-jet definition; full source
+quote remains authoritative, acceptance pending
+
+
+--- PAGE 20 ---
+HVAC System Design | Design study - acceptance pending
+20
+ID
+Source requirement
+Execution
+Acceptance state
+Acceptance criterion
+R004-routing
+Students should form groups of up to five members, with each
+group tasked with designing the air conditioning layout for an
+open-plan office on a typical floor. The architectural layout plan
+for this floor is provided. It is assumed that a variable air
+volume (VAV) system will be utilized in the design.
+pending
+pending review
+All diffusers connected, branch distribution and bend choices justified; brief 5
+m and separately applicable HK flex constraints distinguished; full source
+quote remains authoritative, acceptance pending
+R005-delivery
+Each group is required to complete the following tasks.
+pending
+pending review
+Editable DWG independently reopened; actual plot and report visually
+inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no
+internal version labels; full source quote remains authoritative, acceptance
+pending
+R006-load-airflow
+1. Space air diffusion design for maximum load condition
+pending
+pending review
+Source-linked area/load/SHF and temperatures, dimensional checks and
+thermal load distinguished from electrical power; full source quote remains
+authoritative, acceptance pending
+R006-diffuser-layou
+t
+1. Space air diffusion design for maximum load condition
+pending
+pending review
+80 current trial diffuser locations and flow sum reconciled; every
+characteristic length uses applicable wall/opposing-jet definition; full source
+quote remains authoritative, acceptance pending
+R006-terminal-sele
+ction
+1. Space air diffusion design for maximum load condition
+pending
+pending review
+Source-reviewed type/size and catalogue conditions; every max/min T0.25
+and ratio traceable without extrapolation; full source quote remains
+authoritative, acceptance pending
+R006-adpi
+1. Space air diffusion design for maximum load condition
+pending
+pending review
+Cited applicable diffuser category, thermal-load range, characteristic length
+and criterion; retain failures rather than infer ADPI from interpolation; full
+source quote remains authoritative, acceptance pending
+R007-load-airflow
+• Calculate the cooling load of the open plan office using rule of
+thumb. • Determine the total supply air flow rate of the office. •
+Distribute supply air diffusers on the layout plan. • Calculate the
+supply air flow rate of each diffuser. • Find out the
+characteristic room length, L. • Refer to the performance data
+of KRUEGER “Louvered Face Diffusers 1400, 51400 Series
+4-cone”, and select a suitable type of diffuser. • From the
+diffuser performance data, find the corresponding T0.25. •
+Calculate T0.25 / L. • Check if it meets the ASHRAE ADPI
+requirement.
+pending
+pending review
+Source-linked area/load/SHF and temperatures, dimensional checks and
+thermal load distinguished from electrical power; full source quote remains
+authoritative, acceptance pending
+
+
+--- PAGE 21 ---
+HVAC System Design | Design study - acceptance pending
+21
+ID
+Source requirement
+Execution
+Acceptance state
+Acceptance criterion
+R007-diffuser-layou
+t
+• Calculate the cooling load of the open plan office using rule of
+thumb. • Determine the total supply air flow rate of the office. •
+Distribute supply air diffusers on the layout plan. • Calculate the
+supply air flow rate of each diffuser. • Find out the
+characteristic room length, L. • Refer to the performance data
+of KRUEGER “Louvered Face Diffusers 1400, 51400 Series
+4-cone”, and select a suitable type of diffuser. • From the
+diffuser performance data, find the corresponding T0.25. •
+Calculate T0.25 / L. • Check if it meets the ASHRAE ADPI
+requirement.
+pending
+pending review
+80 current trial diffuser locations and flow sum reconciled; every
+characteristic length uses applicable wall/opposing-jet definition; full source
+quote remains authoritative, acceptance pending
+R007-terminal-sele
+ction
+• Calculate the cooling load of the open plan office using rule of
+thumb. • Determine the total supply air flow rate of the office. •
+Distribute supply air diffusers on the layout plan. • Calculate the
+supply air flow rate of each diffuser. • Find out the
+characteristic room length, L. • Refer to the performance data
+of KRUEGER “Louvered Face Diffusers 1400, 51400 Series
+4-cone”, and select a suitable type of diffuser. • From the
+diffuser performance data, find the corresponding T0.25. •
+Calculate T0.25 / L. • Check if it meets the ASHRAE ADPI
+requirement.
+pending
+pending review
+Source-reviewed type/size and catalogue conditions; every max/min T0.25
+and ratio traceable without extrapolation; full source quote remains
+authoritative, acceptance pending
+R007-adpi
+• Calculate the cooling load of the open plan office using rule of
+thumb. • Determine the total supply air flow rate of the office. •
+Distribute supply air diffusers on the layout plan. • Calculate the
+supply air flow rate of each diffuser. • Find out the
+characteristic room length, L. • Refer to the performance data
+of KRUEGER “Louvered Face Diffusers 1400, 51400 Series
+4-cone”, and select a suitable type of diffuser. • From the
+diffuser performance data, find the corresponding T0.25. •
+Calculate T0.25 / L. • Check if it meets the ASHRAE ADPI
+requirement.
+pending
+pending review
+Cited applicable diffuser category, thermal-load range, characteristic length
+and criterion; retain failures rather than infer ADPI from interpolation; full
+source quote remains authoritative, acceptance pending
+R008-terminal-sele
+ction
+2. Space air diffusion design for minimum load condition
+pending
+pending review
+Source-reviewed type/size and catalogue conditions; every max/min T0.25
+and ratio traceable without extrapolation; full source quote remains
+authoritative, acceptance pending
+R008-adpi
+2. Space air diffusion design for minimum load condition
+pending
+pending review
+Cited applicable diffuser category, thermal-load range, characteristic length
+and criterion; retain failures rather than infer ADPI from interpolation; full
+source quote remains authoritative, acceptance pending
+R009-terminal-sele
+ction
+• Calculate the supply air flow rate of each diffuser with a
+minimum turn down ratio of 40%. • From the diffuser
+performance data, find the corresponding T0.25. • Calculate
+T0.25 / L. • Check if it meets the ASHRAE ADPI requirement.
+pending
+pending review
+Source-reviewed type/size and catalogue conditions; every max/min T0.25
+and ratio traceable without extrapolation; full source quote remains
+authoritative, acceptance pending
+
+
+--- PAGE 22 ---
+HVAC System Design | Design study - acceptance pending
+22
+ID
+Source requirement
+Execution
+Acceptance state
+Acceptance criterion
+R009-adpi
+• Calculate the supply air flow rate of each diffuser with a
+minimum turn down ratio of 40%. • From the diffuser
+performance data, find the corresponding T0.25. • Calculate
+T0.25 / L. • Check if it meets the ASHRAE ADPI requirement.
+pending
+pending review
+Cited applicable diffuser category, thermal-load range, characteristic length
+and criterion; retain failures rather than infer ADPI from interpolation; full
+source quote remains authoritative, acceptance pending
+R010-routing
+3. Single-line diagram of AC layout plan
+pending
+pending review
+All diffusers connected, branch distribution and bend choices justified; brief 5
+m and separately applicable HK flex constraints distinguished; full source
+quote remains authoritative, acceptance pending
+R010-delivery
+3. Single-line diagram of AC layout plan
+pending
+pending review
+Editable DWG independently reopened; actual plot and report visually
+inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no
+internal version labels; full source quote remains authoritative, acceptance
+pending
+R011-routing
+• Use single lines to sketch the air duct layout for distribution of
+supply air to all supply air diffusers in the office. • Use VAV
+boxes with four to five outlets, but limit the flexible duct length
+(from the VAV box to the diffuser) to be within 5 m. • Use
+straight ductwork as far as possible. • Minimize bends and
+turns. • Plan branch ducts to extend from the main trunk to
+distribute air evenly throughout the space.
+pending
+pending review
+All diffusers connected, branch distribution and bend choices justified; brief 5
+m and separately applicable HK flex constraints distinguished; full source
+quote remains authoritative, acceptance pending
+R011-delivery
+• Use single lines to sketch the air duct layout for distribution of
+supply air to all supply air diffusers in the office. • Use VAV
+boxes with four to five outlets, but limit the flexible duct length
+(from the VAV box to the diffuser) to be within 5 m. • Use
+straight ductwork as far as possible. • Minimize bends and
+turns. • Plan branch ducts to extend from the main trunk to
+distribute air evenly throughout the space.
+pending
+pending review
+Editable DWG independently reopened; actual plot and report visually
+inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no
+internal version labels; full source quote remains authoritative, acceptance
+pending
+R012-duct-sizing
+4. Sizing of supply air ducts
+pending
+pending review
+Every section reconciles flow, dimensions, velocity, pressure gradient and
+aspect ratio using sourced method and explicit criteria; full source quote
+remains authoritative, acceptance pending
+R013-duct-sizing
+• Determine the size of the main air ducts and each section of
+the branch air ducts. • The air duct size should satisfy the
+requirements of maximum air velocity and limiting air-pressure
+drops. • Use the Friction Chart in ASHRAE Fundamentals or
+Online Ductular. • The maximum aspect ratio of rectangular air
+duct is preferred to be 4:1. • Label each section of the air duct
+and tabulate the air duct sizing calculation in a table. • The
+following table for air duct sizing is suggested for your use.
+pending
+pending review
+Every section reconciles flow, dimensions, velocity, pressure gradient and
+aspect ratio using sourced method and explicit criteria; full source quote
+remains authoritative, acceptance pending
+
+
+--- PAGE 23 ---
+HVAC System Design | Design study - acceptance pending
+23
+ID
+Source requirement
+Execution
+Acceptance state
+Acceptance criterion
+R013-delivery
+• Determine the size of the main air ducts and each section of
+the branch air ducts. • The air duct size should satisfy the
+requirements of maximum air velocity and limiting air-pressure
+drops. • Use the Friction Chart in ASHRAE Fundamentals or
+Online Ductular. • The maximum aspect ratio of rectangular air
+duct is preferred to be 4:1. • Label each section of the air duct
+and tabulate the air duct sizing calculation in a table. • The
+following table for air duct sizing is suggested for your use.
+pending
+pending review
+Editable DWG independently reopened; actual plot and report visually
+inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no
+internal version labels; full source quote remains authoritative, acceptance
+pending
+R014-duct-sizing
+Section Volume flow rate (L/s) Rectangular duct size
+(mm×mm) Air velocity (m/s) Pressure drop (Pa/m)
+pending
+pending review
+Every section reconciles flow, dimensions, velocity, pressure gradient and
+aspect ratio using sourced method and explicit criteria; full source quote
+remains authoritative, acceptance pending
+R014-delivery
+Section Volume flow rate (L/s) Rectangular duct size
+(mm×mm) Air velocity (m/s) Pressure drop (Pa/m)
+pending
+pending review
+Editable DWG independently reopened; actual plot and report visually
+inspected; schedule includes section, L/s, mm x mm, m/s and Pa/m; no
+internal version labels; full source quote remains authoritative, acceptance
+pending
+duct-schedule-evid
+ence
+• Determine the size of the main air ducts and each section of
+the branch air ducts. • The air duct size should satisfy the
+requirements of maximum air velocity and limiting air-pressure
+drops. • Use the Friction Chart in ASHRAE Fundamentals or
+Online Ductular. • The maximum aspect ratio of rectangular air
+duct is preferred to be 4:1. • Label each section of the air duct
+and tabulate the air duct sizing calculation in a table. • The
+following table for air duct sizing is suggested for your use.
+pass
+pending review
+Recalculate all supplied sections and declared trial limits; original
+sizing/source/drawing acceptance stays in work-duct-sizing
+hk-flex-check
+• Use single lines to sketch the air duct layout for distribution of
+supply air to all supply air diffusers in the office. • Use VAV
+boxes with four to five outlets, but limit the flexible duct length
+(from the VAV box to the diffuser) to be within 5 m. • Use
+straight ductwork as far as possible. • Minimize bends and
+turns. • Plan branch ducts to extend from the main trunk to
+distribute air evenly throughout the space.
+pending
+pending review
+Additional Hong Kong project check selected by user; keep assignment 5m
+criterion distinct from ordinary FSD 4m path; installed evidence and
+applicability pending
+R-air-allocation
+1. Space air diffusion design for maximum load condition
+pass
+pending review
+Source-classified heat balance and conserved nearest-centre trial allocation;
+full load and design acceptance pending
+R-duct-sheet
+Each group is required to complete the following tasks.
+pass
+pending review
+Exact calculated schedule in saved single-line DXF; native reopening/plot
+and full engineering review separate
+R-native-sheet
+Each group is required to complete the following tasks.
+pass
+pending review
+Fresh AutoCAD reopen and physical PDF reference; actual visual and full
+engineering acceptance separate
+Native files and plots are separate workflow artifacts. Their visual review, physical connections, source applicability and final delivery requirements remain distinct.
