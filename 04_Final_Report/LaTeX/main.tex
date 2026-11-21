@@ -1,0 +1,58 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[left=78bp,right=78bp,top=68bp,bottom=62bp,footskip=28bp]{geometry}
+\usepackage{fontspec,graphicx,array,colortbl,xurl}
+\usepackage[hidelinks]{hyperref}
+\setmainfont{Times New Roman}
+\urlstyle{same}
+\definecolor{tablegrey}{gray}{0.945}
+\setlength\parindent{0pt}
+\setlength\parskip{6bp}
+\newcommand{\reportheading}[1]{{\fontsize{15bp}{19bp}\selectfont\bfseries #1\par}\vspace{4bp}}
+\newcommand{\subhead}[1]{\par\addvspace{6bp}{\bfseries #1\par}\nobreak}
+\newcommand{\reportfigure}[2]{\par\begingroup\centering #1\par{\fontsize{10bp}{12bp}\selectfont\itshape #2\par}\endgroup}
+\newcommand{\tabletitle}[1]{\par{\fontsize{10bp}{12bp}\selectfont\bfseries #1\par}\nobreak}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{\dimexpr#1\linewidth-2\tabcolsep\relax}}
+\newenvironment{reporttable}[1]{\par\begingroup\fontsize{10bp}{12bp}\selectfont\renewcommand{\arraystretch}{1.78}\begin{tabular}{#1}\hline}{\hline\end{tabular}\par\endgroup}
+\newcommand{\tablenote}[1]{{\fontsize{10bp}{12bp}\selectfont #1\par}}
+\newcommand{\referenceentry}[3]{\par\begingroup\raggedright\fontsize{11bp}{14bp}\selectfont\noindent\makebox[25bp][l]{[#1]}\begin{minipage}[t]{\dimexpr\linewidth-25bp\relax}\raggedright #2\par\noindent\url{#3}\end{minipage}\par\endgroup}
+\makeatletter
+\def\@oddfoot{\hfil{\fontsize{9bp}{10bp}\selectfont\thepage}\hfil}
+\makeatother
+\usepackage{pdfpages}
+\newenvironment{schedule}[1]{\par\begingroup\fontsize{10bp}{12bp}\selectfont\renewcommand{\arraystretch}{1.18}\begin{tabular}{#1}\hline}{\hline\end{tabular}\par\endgroup}
+\begin{document}
+\fontsize{12bp}{15bp}\selectfont
+\input{sections/01-introduction}
+\clearpage
+\input{sections/02-airflow}
+\clearpage
+\input{sections/03-diffuser-selection}
+\clearpage
+\input{sections/04-layout}
+\clearpage
+\input{sections/05-critical-case}
+\clearpage
+\input{sections/06-duct-sizing}
+\clearpage
+\input{sections/07-conclusions}
+\clearpage
+\input{sections/08-references}
+\clearpage
+\input{sections/09-appendix-a}
+\clearpage
+\input{sections/10-appendix-a-continued}
+\clearpage
+\input{sections/11-appendix-b}
+\clearpage
+\input{sections/12-appendix-b-continued}
+\clearpage
+\input{sections/13-appendix-c}
+\clearpage
+\input{sections/14-appendix-d}
+\clearpage
+\input{sections/15-appendix-d-continued}
+\clearpage
+\input{sections/16-supply-plan}
+\clearpage
+\input{sections/17-appendix-e}
+\end{document}
