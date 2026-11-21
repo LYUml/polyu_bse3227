@@ -1,11 +1,11 @@
-\reportheading{Task 4. Main and branch duct sizing}
-\subhead{4.1 Select a rectangular section}
-Sum downstream peak flows, choose a rectangular size and check $v=Q/(WH)$ with dimensions in metres. The design limits are 10 m/s for mains and 8 m/s for branches, with a preferred aspect ratio at most 4:1. A 600 mm depth cap and a 1.0 Pa/m friction target guide selection; the upper friction limit is 1.23 Pa/m.
+\reportheading{6. Main and branch duct sizing (Task 4)}
+\subhead{6.1 Airflow and available cross-section}
+Each section carries the sum of its downstream peak flows. Its width and depth determine the air velocity through $v=Q/(WH)$ with dimensions in metres. The design limits are 10 m/s for mains and 8 m/s for branches, with a preferred aspect ratio at most 4:1. A 600 mm depth cap and a 1.0 Pa/m friction target guide selection; the upper friction limit is 1.23 Pa/m.
 
 A-01 carries the entire 13.0913 m\textsuperscript{3}/s. At 10 m/s the minimum area is 1.3091 m\textsuperscript{2}. With a 600 mm depth this requires at least 2.182 m of width. Selecting 2200 × 600 mm gives 9.918 m/s and a 3.67:1 aspect ratio. At VAV-20, D-44 carries 0.7665 m\textsuperscript{3}/s through 450 × 300 mm, giving 5.678 m/s against its 8 m/s limit.
 
-\subhead{4.2 Online Ductulator check}
-For every labelled section, enter its peak airflow in L/s and its adopted rectangular width and depth in mm in the metric Online Ductulator [5]. Read the velocity and static friction gradient from the rectangular output. Compare with the equivalent-round Darcy calculation at 0.09 mm roughness used on the drawing. Appendix D lists both friction results for each section.
+\subhead{6.2 Straight-duct friction}
+The drawing gives the equivalent-round Darcy friction gradient at a roughness of 0.09 mm. We checked each section independently in the metric Online Ductulator [5] using the same peak flow and rectangular dimensions. Appendix D lists both friction results for each section.
 
 \tabletitle{Table 4. Fixed-section check against Online Ductulator [5].}
 \begin{reporttable}{L{.16}L{.25}L{.20}L{.19}L{.20}}
@@ -14,4 +14,8 @@ A-01 & 2200 × 600 & 9.9 & 0.877 & 0.9023 \\
 D-08 & 1350 × 600 & 9.7 & 0.979 & 0.9995 \\
 D-44 & 450 × 300 & 5.7 & 0.980 & 0.9990 \\
 \end{reporttable}
-The largest displayed online gradient is 0.980 Pa/m at D-24 and D-44. D-08 governs the Darcy check at 0.9995 Pa/m. Both maxima are below 1.23 Pa/m. These are straight-section pressure gradients; the depth and width still require coordination with beams, insulation and crossing services.
+The largest displayed online gradient is 0.980 Pa/m at D-24 and D-44. D-08 governs the Darcy check at 0.9995 Pa/m. Both maxima are below 1.23 Pa/m. D-44 illustrates why the branch schedule matters: it carries only 0.7665 m³/s, yet its smaller cross-section gives a higher online friction gradient than the full-flow trunk A-01. These are straight-section pressure gradients; the depth and width still require coordination with beams, insulation and crossing services.
+
+{\centering\includegraphics[width=\linewidth]{figures/duct-sections.pdf}\par}
+\reportfigure{}{Figure 5. Bare duct cross-sections drawn to a common scale.}
+A-01 and D-08 both reach the 600 mm depth cap. Their different widths accommodate the drop in airflow downstream. D-44 carries much less air and can use a shallower section. On the common trunk, any loss of usable width at a beam or service crossing would reduce the area available at the adopted depth. The 2200 mm width therefore matters when coordinating the ceiling as well as when calculating velocity.

@@ -1,5 +1,5 @@
-\reportheading{Task 1. Maximum-load air distribution}
-\subhead{1.1 Preliminary thermal balance}
+\reportheading{2. Cooling load and airflow distribution (Task 1)}
+\subhead{2.1 Preliminary thermal balance}
 The adopted preliminary design uses an office cooling allowance of 189 W/m\textsuperscript{2} and an approximate sensible heat factor of 0.90. BEC 2024 [6, p. 85] specifies an 11 K room-to-supply temperature difference for calculating the design supply airflow of the reference building. We adopt this difference for the office and select a design supply air temperature of $24-11=13$ °C. Table 2 uses this selected value in the sensible heat balance.
 
 \tabletitle{Table 2. Thermal balance and supply airflow.}
@@ -11,15 +11,17 @@ Sensible cooling = 193.158 x 0.90 & 173.8422 kW thermal \\
 Q = sensible W / [density x cp x (24 - 13)] & 13091.316 L/s \\
 Minimum supply = 0.40 x maximum & 5236.526 L/s \\
 \end{reporttable}\endgroup
-These thermal powers are not electrical input ratings. The temperature difference and air properties in Table 1 are adopted for this preliminary air balance. Unrounded flows are used for calculations; displayed schedule values are rounded.
+At the selected 11 K temperature difference, each cubic metre per second of supply air removes about 13.28 kW of sensible heat. The office therefore needs 13.09 m³/s to carry its 173.84 kW sensible load. The remaining cooling duty is latent and does not enter this airflow calculation.
 
-\subhead{1.2 Diffuser distribution and VAV grouping}
-Each diffuser receives its assigned share of the total airflow. The 80 maximum flows sum to 13091.316 L/s, and every minimum flow is exactly 40\% of its maximum. Each of the twenty VAV groups serves four diffusers, satisfying the assignment requirement for four to five outlets per box. Group flows equal the sum of their diffuser flows; the complete grouping is given in Appendix C.
+\subhead{2.2 Diffuser distribution and VAV grouping}
+Larger service areas receive a larger share of the floor airflow. The four outlet flows on each box sum to its design duty (Appendix C).
 
 All 80 diffusers occupy distinct full ceiling tiles within their assigned service areas. Figure 3 shows the adopted arrangement.
 
 
 The service-cell areas are scaled to the annotated floor area before allocating sensible duty. For SD-77 the allocated area is 15.7843 m\textsuperscript{2}; its peak flow is $13091.316\times15.7843/1022=202.19$ L/s. Appendix A lists the resulting unequal outlet flows.
 
-\subhead{1.3 Characteristic length}
-For each outlet, trace each of its four discharge directions to the office boundary or to the midplane of an aligned opposing outlet, whichever is reached first. Appendix B gives these four lengths. For the facing pair SD-77 and SD-78, the 3.000 m centre spacing gives $L=1.500$ m in the opposing directions.
+Dividing the floor total equally would give 163.64 L/s per outlet. That average is useful for an initial count, but it would undersupply a large service cell such as SD-77 under the uniform load allowance. Allocating by area gives SD-77 about 38.55 L/s more than the average, while retaining the same floor total. This difference carries through to both the terminal-box duty and the peak throw at this particular outlet.
+
+\subhead{2.3 Characteristic length}
+In each of the four discharge directions, the characteristic length extends to the nearer of the office boundary and the midplane between opposing outlets. Appendix B gives these four lengths. For the facing pair SD-77 and SD-78, the 3.000 m centre spacing gives $L=1.500$ m in the opposing directions. The same outlet has a separate length north, south and west. A change in service area would alter its airflow and throw; a change in tile position would alter these lengths even at the same flow. Appendix A and Appendix B record the two inputs separately.

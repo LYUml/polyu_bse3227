@@ -4,23 +4,26 @@ BSE3227: HVACR 1\par
 {\fontsize{10bp}{12bp}\selectfont RIOBA Ann Muniko 24114901D\quad XIE Jingxuan 24110957D\par}}
 \reportheading{1. Introduction and design basis}
 \subhead{1.1 Design objective}
-The design provides a variable air volume supply-air layout for the given open-plan office. It covers the preliminary cooling load, maximum and minimum diffuser flows, classroom air-diffusion checks, VAV connections and rectangular duct sizing required by the assignment.
+The L-shaped office wraps around the service core. A variable air volume (VAV) system supplies the open floor and its wing through four-way ceiling diffusers. Each VAV box serves four outlets. As the cooling load falls, the box reduces airflow, so diffuser selection depends on how far the air travels at both peak and minimum flow.
 
-\subhead{1.2 Adopted office and system assumptions}
-The supplied plan annotation of 1022 m\textsuperscript{2} is used for the rule-of-thumb load calculation. The interpreted CAD boundary is used for diffuser locations and directional lengths. These are different quantities: the annotated area is not presented as a surveyed net area. The adopted layout has 80 diffusers, twenty VAV groups and 47 rigid supply sections.
+\subhead{1.2 Office layout and design conditions}
+The supplied plan annotation of 1022 m\textsuperscript{2} is used for the rule-of-thumb load calculation. The interpreted CAD boundary is used for diffuser locations and directional lengths. The adopted layout has 80 diffusers, twenty VAV groups and 47 rigid supply sections.
 
 \tabletitle{Table 1. Principal design inputs.}
 \begingroup\setlength{\tabcolsep}{3bp}
 \begin{reporttable}{L{0.434783}L{0.565217}}
 \rowcolor{tablegrey} \textbf{Parameter} & \textbf{Adopted value} \\\hline
 Office load area & 1022 m2, supplied plan \\
-Cooling allowance / sensible factor & 189 W/m2 / 0.90, classroom guide \\
+Cooling allowance / sensible factor & 189 W/m2 / 0.90, preliminary office allowance \\
 Room / supply temperature & 24 °C room; 13 °C supply selected for this design \\
 Density / specific heat & 1.20 kg/m3 / 1006 J/(kg K) \\
 Minimum airflow & 40\% of maximum \\
 Diffuser family / neck & 1400/51400 four-cone, 600 x 600 mm / 8 inch \\
 Ordinary flexible-connection design cap & 4.00 m; additional routing allowance 0.50 m \\
 \end{reporttable}\endgroup
-\subhead{1.3 Calculation scope}
-The empirical allowance and routing allowance are preliminary design assumptions. This report distinguishes the classroom ratio check from a measured ADPI percentage. Full fan selection and detailed system pressure are supplementary engineering studies, not part of the assignment duct-sizing calculation.
+\subhead{1.3 Design operating range}
+At peak load the office requires 13.09 m³/s of supply air. At minimum flow the same outlets distribute 5.24 m³/s. The facing outlets in the wing govern the peak throw check, while the southward throw at SD-60 governs at minimum flow. These locations are examined in Sections 3 and 4.
 
+The same ceiling layout must serve two different conditions. At full load, the wing outlets receive some of the largest airflows on the floor, so their jets can reach the midplane between neighbouring panels. At low load, the room geometry stays fixed while the throw shortens. The nearest opposing outlet and the distance to a wall therefore matter as much as the floor-wide average flow.
+
+The distribution drawing on page 16 shows how the rigid trunk follows the floor plan before branching to the terminal boxes. The outlet and duct labels on that drawing also identify the corresponding entries in the schedules, so a single air path can be followed from the AHU to its four ceiling panels.

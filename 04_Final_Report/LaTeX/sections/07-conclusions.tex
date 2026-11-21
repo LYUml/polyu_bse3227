@@ -1,16 +1,12 @@
-\reportheading{5. Design assessment and conclusion}
-\subhead{5.1 Consistency of the adopted design}
-The grid location schedule, drawing and appendices identify the same 80 outlets and 20 groups. The appended single-line drawing includes the revised 47-section sizing schedule.
+\reportheading{7. Design assessment}
+\subhead{7.1 Air distribution}
+The 8-inch neck fits the 600 mm ceiling module and maintains throw at the 40\% VAV setting. At peak flow the facing jets from SD-77 and SD-78 have the smallest margin: their catalogue throw of 5.151 m gives a ratio just above 3.4 at the 1.500 m midplane. At minimum flow the limiting outlet shifts to SD-60, where the southward ratio remains above 1.0. These conclusions use catalogue isothermal throw and the load range discussed in Section 4.
 
-\subhead{5.2 Independent calculation checks}
-For the adopted design, the 160 operating flows are interpolated within the published 33–297 L/s metric table. The manufacturer lists isothermal throw and sound under catalogue conditions. Installed noise, VAV controllability and total system pressure require separate checks.
+\subhead{7.2 Ductwork and ceiling coordination}
+The common trunk carries 13.09 m³/s through a 2200 × 600 mm section. The resulting 9.918 m/s leaves little margin below the 10 m/s main-duct limit. The branch with the largest Darcy friction gradient is D-08; Table 5 identifies it separately from the trunk that governs velocity.
 
-\subhead{5.3 Conclusion and limitations}
-The adopted design provides 13091.316 L/s maximum and 5236.526 L/s minimum supply air through twenty four-outlet VAV groups. Minimum-flow ratios meet the classroom criterion. At peak flow, SD-77 eastward and SD-78 westward slightly exceed its upper bound. The 47 rigid duct sections meet the adopted sizing criteria, and the conditional flexible-connection budget is below the stricter 4 m design cap.
+The 600 mm nominal duct depth sets the space required by the bare duct. Installation also requires clearance for insulation, flanges and supports where the trunk passes beams or other services. The longest flexible connection allows 0.50 m beyond its plan length for routing. A coordinated ceiling section would establish the available clearance and installed drop.
 
-The result is a preliminary coursework design. Its principal limitations are the empirical cooling allowance, table-range approximation, interpreted plan boundaries and routing allowance. Actual ceiling conditions, final installed lengths and product installation would require confirmation before construction. Full-system pressure and fan selection remain separate engineering work; supplementary linear-slot and CFD studies do not replace the specified 1400/51400 coursework design.
-
-\subhead{5.4 Governing design conditions}
 \tabletitle{Table 5. Worst operating cases.}
 \begingroup\setlength{\tabcolsep}{3bp}
 \begin{reporttable}{L{0.304348}L{0.260870}L{0.217391}L{0.217391}}
@@ -20,5 +16,12 @@ Highest Darcy friction & D-08 & 0.9995 Pa/m & 1.23 Pa/m \\
 Peak outlet flow & SD-77/78 & 202.19 L/s & Table to 297 \\
 Lowest ratio & SD-60 south & 1.1608 & 1.0 min \\
 Highest ratio & SD-77/78 pair & 3.4 (rounded) & 3.4 max \\
-Longest conditional flex & VAV-19 & 3.583 m & 4.00 m \\
+Longest conditional flex & VAV-20 & 3.583 m & 4.00 m \\
 \end{reporttable}\endgroup
+
+\subhead{7.3 Implications for detailed design}
+The most sensitive ceiling locations are the common trunk and the wing outlets, for different reasons. At A-01 the calculated speed is already close to the 10 m/s limit. A local reduction in section to clear another service would change both velocity and friction; the coordinated detail should preserve the required area or be checked at the full 13.09 m³/s.
+
+At SD-77 and SD-78, the critical dimension is the spacing between centres. A change to either tile affects the facing throw ratio and the distances in the other discharge directions. The 8-inch selection also depends on the minimum settings at the boxes. For this reason the individual outlet flows in Appendix A, together with the group totals in Appendix C, are the appropriate reference values for balancing.
+
+The straight-duct gradients in Table 5 identify where friction per metre is greatest. Selecting the fan would additionally require the lengths and fitting losses along each complete path, together with the pressure drops through the AHU and terminal equipment. The section with the highest gradient alone does not identify that path.
