@@ -2,7 +2,7 @@ import tempfile,subprocess,shutil,csv,json,re,hashlib
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageChops
 import ezdxf
-B=Path.cwd();S=B/'00_Submit';o=Path(tempfile.mkdtemp());old=B/'04_Final_Report/Connection_Layout/BSE3227 HVAC Mini-Design.pdf';new=S/'BSE3227_HVAC_Design_Report.pdf'
+B=Path.cwd();S=B/'00_Submit';o=Path(tempfile.mkdtemp());old=B/'04_Final_Report/Connection_Layout/BSE3227 HVAC Mini-Design.pdf';new=S/'BSE3227_Group7_report.pdf'
 def pdf(p):return subprocess.check_output(['pdftotext','-layout','-enc','UTF-8',str(p),'-']).decode().split('\f')[:-1]
 a,b=pdf(old),pdf(new);assert len(a)==18 and len(b)==17
 def rr(n):return list(csv.DictReader((S/'Calculations'/n).open()))

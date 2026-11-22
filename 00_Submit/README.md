@@ -1,6 +1,6 @@
 # BSE3227 · HVAC handover
 
-[Design report (PDF, 17 pages)](BSE3227_HVAC_Design_Report.pdf) · [Editable LaTeX package](BSE3227_LaTeX.zip) · [Project index](../README.md)
+[Design report (PDF, 17 pages)](BSE3227_Group7_report.pdf) · [Editable LaTeX package](BSE3227_LaTeX.zip) · [Project index](../README.md)
 
 The submitted design uses a 24 °C room temperature and 13 °C supply air, with 80 diffusers, 20 VAV groups and 47 rigid duct sections. Appendix E describes the manufacturer assessment.
 

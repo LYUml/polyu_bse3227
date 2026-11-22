@@ -1,6 +1,6 @@
 # BSE3227 · HVAC mini-design
 
-[Submission folder](00_Submit/) · [Design report (PDF)](00_Submit/BSE3227_HVAC_Design_Report.pdf) · [Team handover](00_Submit/README.md)
+[Submission folder](00_Submit/) · [Design report (PDF)](00_Submit/BSE3227_Group7_report.pdf) · [Team handover](00_Submit/README.md)
 
 ## Drawings and calculations
 

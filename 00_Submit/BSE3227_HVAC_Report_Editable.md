@@ -2,6 +2,8 @@
 
 BSE3227: HVACR 1
 
+**Group 7**
+
 HUANG Celine 24034414D  ·   LUO Qianyu 24114977D  ·   LYU Mingliang 24099296D
 
 RIOBA Ann Muniko 24114901D  ·   XIE Jingxuan 24110957D
