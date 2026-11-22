@@ -12,7 +12,8 @@
 \newcommand{\reportfigure}[2]{\par\begingroup\centering #1\par{\fontsize{10bp}{12bp}\selectfont\itshape #2\par}\endgroup}
 \newcommand{\tabletitle}[1]{\par{\fontsize{10bp}{12bp}\selectfont\bfseries #1\par}\nobreak}
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{\dimexpr#1\linewidth-2\tabcolsep\relax}}
-\newenvironment{reporttable}[1]{\par\begingroup\fontsize{10bp}{12bp}\selectfont\renewcommand{\arraystretch}{1.78}\begin{tabular}{#1}\hline}{\hline\end{tabular}\par\endgroup}
+\newcommand{\reportrowstretch}{1.78}
+\newenvironment{reporttable}[1]{\par\begingroup\fontsize{10bp}{12bp}\selectfont\renewcommand{\arraystretch}{\reportrowstretch}\begin{tabular}{#1}\hline}{\hline\end{tabular}\par\endgroup}
 \newcommand{\tablenote}[1]{{\fontsize{10bp}{12bp}\selectfont #1\par}}
 \newcommand{\referenceentry}[3]{\par\begingroup\raggedright\fontsize{11bp}{14bp}\selectfont\noindent\makebox[25bp][l]{[#1]}\begin{minipage}[t]{\dimexpr\linewidth-25bp\relax}\raggedright #2\par\noindent\url{#3}\end{minipage}\par\endgroup}
 \makeatletter
@@ -22,6 +23,9 @@
 \newenvironment{schedule}[1]{\par\begingroup\fontsize{10bp}{12bp}\selectfont\renewcommand{\arraystretch}{1.18}\begin{tabular}{#1}\hline}{\hline\end{tabular}\par\endgroup}
 \begin{document}
 \fontsize{12bp}{15bp}\selectfont
+\begingroup
+\setlength\parskip{3bp}
+\renewcommand{\reportrowstretch}{1.45}
 \input{sections/01-introduction}
 \clearpage
 \input{sections/02-airflow}
@@ -36,6 +40,7 @@
 \clearpage
 \input{sections/07-conclusions}
 \clearpage
+\endgroup
 \input{sections/08-references}
 \clearpage
 \input{sections/09-appendix-a}
